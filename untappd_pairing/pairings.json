@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-16T20:00:28Z",
+  "generated_at": "2026-05-17T20:02:50Z",
   "pairings": {
     "ambasada::Beskdydský pivovárek, Ostravice::White Magic": {
       "untappd_url": "https://untappd.com/b/beskydsky-pivovarek-white-magic/6678189",
@@ -64,6 +64,15 @@
       "match_score": 1.0,
       "matched_at": "2026-04-19T19:39:29Z",
       "query_used": "Gold Digger Fracek"
+    },
+    "ambasada::Haksna, Ostrava, Stout s laktozou::Batalion": {
+      "untappd_url": "https://untappd.com/b/haksna-brewery-batalion-24-narozeniny/6248172",
+      "untappd_name": "Batalion 24. Narozeniny",
+      "untappd_brewery": "Haksna Brewery",
+      "rating": 4.075,
+      "match_score": 1.0,
+      "matched_at": "2026-05-17T20:02:50Z",
+      "query_used": "Batalion Haksna"
     },
     "ambasada::Haksna, Ostrava::Forest IPA": {
       "untappd_url": "https://untappd.com/b/haksna-brewery-forest-ipa/6607940",
@@ -271,6 +280,15 @@
       "match_score": 1.0,
       "matched_at": "2026-04-28T20:13:55Z",
       "query_used": "1212 Sibeeria"
+    },
+    "ambasada::Sibeeria, Praha::Blackcurrant Sorbet": {
+      "untappd_url": "https://untappd.com/b/sibeeria-brewery-blackcurrant-sorbet/3759941",
+      "untappd_name": "Blackcurrant Sorbet",
+      "untappd_brewery": "Sibeeria Brewery",
+      "rating": 3.762,
+      "match_score": 1.0,
+      "matched_at": "2026-05-17T20:02:50Z",
+      "query_used": "Blackcurrant Sorbet Sibeeria"
     },
     "ambasada::Sibeeria, Praha::Grapefruit Lollihop": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-grapefruit-lollihop/2620360",
