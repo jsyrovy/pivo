@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-18T20:22:29Z",
+  "generated_at": "2026-05-19T20:28:43Z",
   "pairings": {
     "ambasada::Beskdydský pivovárek, Ostravice::White Magic": {
       "untappd_url": "https://untappd.com/b/beskydsky-pivovarek-white-magic/6678189",
@@ -407,6 +407,15 @@
       "matched_at": "2026-05-10T19:57:34Z",
       "query_used": "<override>"
     },
+    "ambasada::Čestmír, Brandýs nad Labem::Frida Revolution": {
+      "untappd_url": "https://untappd.com/b/pivovar-cestmir-frida-revolucion/4413649",
+      "untappd_name": "Frida Revolucion",
+      "untappd_brewery": "Pivovar Čestmír",
+      "rating": 3.729,
+      "match_score": 0.8571,
+      "matched_at": "2026-05-19T20:28:43Z",
+      "query_used": "Frida Revolution Čestmír"
+    },
     "ambasada::Čestmír, Brandýs nad Labem::Riwaka": {
       "untappd_url": "https://untappd.com/b/pivovar-cestmir-single-hop-neipa-riwaka-14deg/5714600",
       "untappd_name": "Single Hop NEIPA - Riwaka 14°",
@@ -613,6 +622,15 @@
       "match_score": 1.0,
       "matched_at": "2026-05-04T20:13:17Z",
       "query_used": "Czech Pale Ale Mazák"
+    },
+    "beerstreet::Mazák::Tropical Wave": {
+      "untappd_url": "https://untappd.com/b/pivovar-mazak-tropical-wave-11/6652946",
+      "untappd_name": "Tropical Wave 11",
+      "untappd_brewery": "Pivovar Mazák",
+      "rating": 3.6,
+      "match_score": 1.0,
+      "matched_at": "2026-05-19T20:28:39Z",
+      "query_used": "Tropical Wave Mazák"
     },
     "beerstreet::Mordýř::Nectaron": {
       "untappd_url": "https://untappd.com/b/pivovar-mordyr-nectaron-smash-ale/6361344",
@@ -827,6 +845,11 @@
     "beerstreet::Hřebec::Hřebec": {
       "attempts": 1,
       "last_tried_at": "2026-04-23T20:04:40Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "beerstreet::Loutkář::Loutkář": {
+      "attempts": 1,
+      "last_tried_at": "2026-05-19T20:28:35Z",
       "reason": "no_candidates_above_threshold"
     }
   }
