@@ -36,17 +36,25 @@ def normalize_for_compare(text: str) -> str:
     return _WHITESPACE_RE.sub(" ", stripped).strip()
 
 
-def build_search_queries(name: str, brewery: str) -> list[str]:
+def build_search_queries(name: str, brewery: str, degree_plato: float | None = None) -> list[str]:
     raw_name = name.strip()
     raw_brewery = brewery.strip()
     cleaned_name = clean_beer_name(raw_name)
     cleaned_brewery = clean_brewery_name(raw_brewery)
 
-    candidates = [
-        f"{cleaned_name} {cleaned_brewery}".strip() if cleaned_brewery else cleaned_name,
-        f"{raw_name} {cleaned_brewery}".strip() if cleaned_brewery else raw_name,
-        cleaned_name,
-    ]
+    candidates: list[str] = []
+    if degree_plato is not None:
+        degree = f"{int(degree_plato)}°"
+        if cleaned_brewery:
+            candidates.append(f"{cleaned_name} {degree} {cleaned_brewery}".strip())
+        candidates.append(f"{cleaned_name} {degree}".strip())
+    candidates.extend(
+        [
+            f"{cleaned_name} {cleaned_brewery}".strip() if cleaned_brewery else cleaned_name,
+            f"{raw_name} {cleaned_brewery}".strip() if cleaned_brewery else raw_name,
+            cleaned_name,
+        ],
+    )
 
     queries: list[str] = []
     for candidate in candidates:

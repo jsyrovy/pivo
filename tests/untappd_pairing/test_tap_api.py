@@ -47,9 +47,25 @@ def test_fetch_endpoint_sets_origin_header_and_returns_typed_beers():
         brewery="Loutkář",
         style="Ležák světlý",
         abv=5.3,
+        degree_plato=12.5,
         source="beerstreet",
     )
     assert beers[1].abv is None
+    assert beers[1].degree_plato == 11
+
+
+def test_fetch_endpoint_parses_missing_degree_plato_as_none():
+    payload = json.dumps(
+        {
+            "source": "beerstreet",
+            "fetchedAt": "2026-04-17T10:31:13.809Z",
+            "beers": [{"name": "Foo", "brewery": "Bar", "style": "IPA", "abv": 5.0, "source": "beerstreet"}],
+        },
+    )
+    with mock.patch.object(tap_api.common, "download_page", return_value=payload):
+        beers = tap_api.fetch_endpoint("/beerstreet")
+
+    assert beers[0].degree_plato is None
 
 
 def test_fetch_all_beers_combines_endpoints():

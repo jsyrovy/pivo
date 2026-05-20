@@ -98,7 +98,7 @@ class UntappdPairing(BaseRobot):
 
     @staticmethod
     def _pair_via_search(beer: tap_api.TapBeer, store: PairingsStore) -> str | None:
-        queries = normalize.build_search_queries(beer.name, beer.brewery)
+        queries = normalize.build_search_queries(beer.name, beer.brewery, beer.degree_plato)
 
         for query in queries:
             try:
@@ -108,7 +108,7 @@ class UntappdPairing(BaseRobot):
                 store.record_unmatched(beer, UNMATCHED_UPSTREAM_ERROR)
                 return UNMATCHED_UPSTREAM_ERROR
 
-            result = matcher.best_match(beer.name, beer.brewery, candidates)
+            result = matcher.best_match(beer.name, beer.brewery, candidates, beer.degree_plato, beer.style)
             if result is not None:
                 logger.info(
                     "Matched %s::%s -> %s (score=%.2f)",

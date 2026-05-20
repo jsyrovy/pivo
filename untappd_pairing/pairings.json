@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-19T20:28:43Z",
+  "generated_at": "2026-05-20T09:45:34Z",
   "pairings": {
     "ambasada::Beskdydský pivovárek, Ostravice::White Magic": {
       "untappd_url": "https://untappd.com/b/beskydsky-pivovarek-white-magic/6678189",
@@ -596,6 +596,15 @@
       "matched_at": "2026-04-28T20:13:38Z",
       "query_used": "Kašpárek Loutkář"
     },
+    "beerstreet::Loutkář::Loutkář": {
+      "untappd_url": "https://untappd.com/b/pivovar-loutkar-svetly-lezak-12/3940219",
+      "untappd_name": "Světlý ležák 12",
+      "untappd_brewery": "Pivovar Loutkář",
+      "rating": 3.328,
+      "match_score": 0.0,
+      "matched_at": "2026-05-20T09:45:22Z",
+      "query_used": "Loutkář 12° Loutkář"
+    },
     "beerstreet::Loutkář::Mozaika": {
       "untappd_url": "https://untappd.com/b/pivovar-loutkar-mozaika-13-single-hop/4242113",
       "untappd_name": "Mozaika 13 Single Hop",
@@ -740,6 +749,24 @@
       "matched_at": "2026-05-04T20:13:11Z",
       "query_used": "Artur U Vojtěchů"
     },
+    "beerstreet::U Vojtěchů::Blériot": {
+      "untappd_url": "https://untappd.com/b/brasserie-du-boulonnais-bleriot-beach-la-blonde-des-baraques-6-2/5365086",
+      "untappd_name": "Bleriot Beach La Blonde Des Baraques 6.2%",
+      "untappd_brewery": "Brasserie du Boulonnais",
+      "rating": 2.95,
+      "match_score": 1.0,
+      "matched_at": "2026-05-20T09:45:34Z",
+      "query_used": "Blériot"
+    },
+    "beerstreet::U Vojtěchů::Jan Kašpar": {
+      "untappd_url": "https://untappd.com/b/emil-kasper-ja/2038939",
+      "untappd_name": "Ja",
+      "untappd_brewery": "Emil & Kasper",
+      "rating": null,
+      "match_score": 1.0,
+      "matched_at": "2026-05-20T09:45:20Z",
+      "query_used": "Jan Kašpar"
+    },
     "beerstreet::Záhora::NewZealand Lager": {
       "untappd_url": "https://untappd.com/b/pivovar-zahora-new-zealand-pale-lager/6340595",
       "untappd_name": "New Zealand Pale Lager",
@@ -841,16 +868,6 @@
       "attempts": 1,
       "last_tried_at": "2026-05-08T20:05:21Z",
       "reason": "upstream_error"
-    },
-    "beerstreet::Hřebec::Hřebec": {
-      "attempts": 1,
-      "last_tried_at": "2026-04-23T20:04:40Z",
-      "reason": "no_candidates_above_threshold"
-    },
-    "beerstreet::Loutkář::Loutkář": {
-      "attempts": 1,
-      "last_tried_at": "2026-05-19T20:28:35Z",
-      "reason": "no_candidates_above_threshold"
     }
   }
 }

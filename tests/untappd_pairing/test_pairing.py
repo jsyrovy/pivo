@@ -18,8 +18,15 @@ def mock_pushover():
         yield m
 
 
-def _beer(name, brewery="Falkon"):
-    return TapBeer(name=name, brewery=brewery, style="IPA", abv=5.0, source="beerstreet")
+def _beer(name, brewery="Falkon", degree_plato=None):
+    return TapBeer(
+        name=name,
+        brewery=brewery,
+        style="IPA",
+        abv=5.0,
+        degree_plato=degree_plato,
+        source="beerstreet",
+    )
 
 
 def _candidate(name, brewery="Falkon", url="https://untappd.com/b/x/1", rating=4.1):
@@ -218,6 +225,34 @@ def test_pairing_notificationless_logs_instead_of_pushing(tmp_path, monkeypatch,
 
     mock_pushover.assert_not_called()
     assert any("Mystery Brew" in record.message and "Unknown" in record.message for record in caplog.records)
+
+
+def test_pairing_uses_degree_plato_to_match_house_lager(tmp_path, monkeypatch, mock_pushover):
+    # Reproduces beerstreet::Loutkář::Loutkář case: name == brewery, candidate
+    # name does not contain "Loutkář" but contains the degree from API.
+    pairings_path = tmp_path / "pairings.json"
+    monkeypatch.setattr(pairing, "PAIRINGS_PATH", pairings_path)
+
+    beer = _beer("Loutkář", brewery="Loutkář", degree_plato=12)
+
+    def fake_search(_query):
+        # Untappd returns five candidates for the brewery; only one has 12°
+        return [
+            _candidate("Saturn 12 IPL", brewery="Pivovar Loutkář", url="https://untappd.com/b/x/saturn"),
+            _candidate("Světlý ležák 12", brewery="Pivovar Loutkář", url="https://untappd.com/b/x/12"),
+            _candidate("Marioneta 10", brewery="Pivovar Loutkář", url="https://untappd.com/b/x/10"),
+        ]
+
+    with (
+        mock.patch.object(pairing.tap_api, "fetch_all_beers", return_value=[beer]),
+        mock.patch.object(pairing.untappd_search, "search_beer", side_effect=fake_search),
+    ):
+        UntappdPairing(args=Args()).run()
+
+    saved = json.loads(pairings_path.read_text())
+    assert "beerstreet::Loutkář::Loutkář" in saved["pairings"]
+    assert "beerstreet::Loutkář::Loutkář" not in saved["unmatched"]
+    mock_pushover.assert_not_called()
 
 
 def test_pairing_pushover_failure_does_not_crash_run(tmp_path, monkeypatch, mock_pushover, caplog):

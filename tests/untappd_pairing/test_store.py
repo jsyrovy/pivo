@@ -10,7 +10,7 @@ from untappd_pairing.untappd_search import UntappdCandidate
 
 
 def _beer(name="IPA", brewery="Falkon", source="beerstreet"):
-    return TapBeer(name=name, brewery=brewery, style="", abv=None, source=source)
+    return TapBeer(name=name, brewery=brewery, style="", abv=None, degree_plato=None, source=source)
 
 
 def _candidate():

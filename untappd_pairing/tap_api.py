@@ -18,6 +18,7 @@ class TapBeer:
     brewery: str
     style: str
     abv: float | None
+    degree_plato: float | None
     source: str
 
 
@@ -27,6 +28,7 @@ def _parse_beer(raw: dict[str, Any]) -> TapBeer:
         brewery=str(raw.get("brewery") or "").strip(),
         style=str(raw.get("style") or "").strip(),
         abv=float(raw["abv"]) if raw.get("abv") is not None else None,
+        degree_plato=float(raw["degreePlato"]) if raw.get("degreePlato") is not None else None,
         source=str(raw["source"]),
     )
 

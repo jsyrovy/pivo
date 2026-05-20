@@ -76,3 +76,26 @@ def test_build_search_queries_dedupes():
 def test_build_search_queries_drops_empty():
     queries = build_search_queries("12°", "")
     assert queries == ["12°"]
+
+
+def test_build_search_queries_prefers_degree_variant_first_when_provided():
+    queries = build_search_queries("Loutkář", "Loutkář", degree_plato=12)
+    assert queries[0] == "Loutkář 12° Loutkář"
+    assert "Loutkář 12°" in queries
+    assert "Loutkář Loutkář" in queries
+    assert "Loutkář" in queries
+
+
+def test_build_search_queries_without_degree_unchanged():
+    queries = build_search_queries("Loutkář", "Loutkář")
+    assert queries == ["Loutkář Loutkář", "Loutkář"]
+
+
+def test_build_search_queries_truncates_fractional_degree_to_int():
+    queries = build_search_queries("Velikonoční", "Loutkář", degree_plato=12.5)
+    assert queries[0] == "Velikonoční 12° Loutkář"
+
+
+def test_build_search_queries_handles_degree_without_brewery():
+    queries = build_search_queries("Loutkář", "", degree_plato=11)
+    assert queries[0] == "Loutkář 11°"
