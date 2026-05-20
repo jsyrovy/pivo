@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-20T16:15:28Z",
+  "generated_at": "2026-05-20T20:58:21Z",
   "pairings": {
     "ambasada::Beskdydský pivovárek, Ostravice::White Magic": {
       "untappd_url": "https://untappd.com/b/beskydsky-pivovarek-white-magic/6678189",
@@ -118,6 +118,15 @@
       "match_score": 1.0,
       "matched_at": "2026-04-17T11:21:02Z",
       "query_used": "PP JungBerg"
+    },
+    "ambasada::Kynšperský Zajíc, Kynšperk::Summer Ale": {
+      "untappd_url": "https://untappd.com/b/pivovar-ogar-summer-ale-11/2729676",
+      "untappd_name": "Summer Ale 11°",
+      "untappd_brewery": "Pivovar Ogar",
+      "rating": 3.512,
+      "match_score": 1.0,
+      "matched_at": "2026-05-20T20:58:21Z",
+      "query_used": "Summer Ale 11°"
     },
     "ambasada::Louka::Fresh Breakfast": {
       "untappd_url": "https://untappd.com/b/pivovar-louka-fresh-breakfast-002/5404372",
@@ -569,6 +578,15 @@
       "matched_at": "2026-05-10T19:57:30Z",
       "query_used": "Most Louka"
     },
+    "beerstreet::Louka::Summer Day": {
+      "untappd_url": "https://untappd.com/b/pivovar-louka-summer-day-10/3948423",
+      "untappd_name": "Summer Day 10",
+      "untappd_brewery": "Pivovar Louka",
+      "rating": 3.484,
+      "match_score": 1.0,
+      "matched_at": "2026-05-20T20:58:10Z",
+      "query_used": "Summer Day 10° Louka"
+    },
     "beerstreet::Louka::Sv. Hubert": {
       "untappd_url": "https://untappd.com/b/pivovar-louka-sv-hubert-12/4592832",
       "untappd_name": "Sv. Hubert 12",
@@ -640,6 +658,15 @@
       "match_score": 1.0,
       "matched_at": "2026-05-04T20:13:17Z",
       "query_used": "Czech Pale Ale Mazák"
+    },
+    "beerstreet::Mazák::Extra hořká": {
+      "untappd_url": "https://untappd.com/b/pivovar-mazak-extra-horka-11-za-studena-chmelena/6616906",
+      "untappd_name": "Extra hořká 11 za studena chmelená",
+      "untappd_brewery": "Pivovar Mazák",
+      "rating": 3.71,
+      "match_score": 1.0,
+      "matched_at": "2026-05-20T20:58:08Z",
+      "query_used": "Extra hořká 11° Mazák"
     },
     "beerstreet::Mazák::Tropical Wave": {
       "untappd_url": "https://untappd.com/b/pivovar-mazak-tropical-wave-11/6652946",
@@ -793,6 +820,15 @@
       "match_score": 1.0,
       "matched_at": "2026-04-30T20:07:45Z",
       "query_used": "SAAZ Záhora"
+    },
+    "beerstreet::Záhora::Sunrice IPA": {
+      "untappd_url": "https://untappd.com/b/pivovar-zahora-sunrice-ipa/6564358",
+      "untappd_name": "Sunrice IPA",
+      "untappd_brewery": "Pivovar Záhora",
+      "rating": 3.593,
+      "match_score": 1.0,
+      "matched_at": "2026-05-20T20:58:16Z",
+      "query_used": "Sunrice IPA Záhora"
     },
     "beerstreet::Záhora::Česká jedenáctka": {
       "untappd_url": "https://untappd.com/b/pivovar-zahora-ceska-jedenactka/5494242",
