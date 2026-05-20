@@ -1,28 +1,28 @@
 {
   "beers": [
     {
-      "name": "10° Summer Ale",
-      "description": "4.1% alc., Hřebec, Ale"
+      "name": "10° Summer Day",
+      "description": "3.9% alc., Louka, Pale Ale"
     },
     {
-      "name": "11° Mosaic",
-      "description": "4.4% alc., Duck&Dog, Smash Ale"
+      "name": "11° Jan Kašpar",
+      "description": "4.8% alc., U Vojtěchů, Ležák světlý"
+    },
+    {
+      "name": "11° Sky Serpent",
+      "description": "4.4% alc., Haksna/Podřevnický, Session NEIPA"
     },
     {
       "name": "11° Tropical Wave",
       "description": "4.8% alc., Mazák, Sour"
     },
     {
-      "name": "11° Čest",
-      "description": "4.5% alc., Čestmír, Ležák světlý"
-    },
-    {
-      "name": "12° Centaurus",
-      "description": "5.1% alc., Černý potoka, West Coast - Pale Ale"
-    },
-    {
       "name": "12° Loutkář",
       "description": "4.8% alc., Loutkář, Ležák světlý"
+    },
+    {
+      "name": "13° Blériot",
+      "description": "5.5% alc., U Vojtěchů, IPA"
     }
   ]
 }
