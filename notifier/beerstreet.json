@@ -1,20 +1,20 @@
 {
   "beers": [
     {
-      "name": "10° Summer Day",
-      "description": "3.9% alc., Louka, Pale Ale"
-    },
-    {
       "name": "11° Extra hořká",
       "description": "4.4% alc., Mazák, Bohemian Pilsner"
     },
     {
-      "name": "11° Tropical Wave",
-      "description": "4.8% alc., Mazák, Sour"
+      "name": "11° Švihák",
+      "description": "4.9% alc., Loutkář, Summer Ale"
+    },
+    {
+      "name": "12° Guava and rosemary",
+      "description": "4.1% alc., Klenot, Sour"
     },
     {
       "name": "12° Haka",
-      "description": "5.2% alc., Louka, Session NEIPA"
+      "description": "5.2% alc., Louka, Session IPA"
     },
     {
       "name": "12° Loutkář",
