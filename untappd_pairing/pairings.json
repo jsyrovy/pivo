@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-20T20:58:21Z",
+  "generated_at": "2026-05-21T20:49:54Z",
   "pairings": {
     "ambasada::Beskdydský pivovárek, Ostravice::White Magic": {
       "untappd_url": "https://untappd.com/b/beskydsky-pivovarek-white-magic/6678189",
@@ -163,6 +163,15 @@
       "match_score": 1.0,
       "matched_at": "2026-05-10T08:54:54Z",
       "query_used": "<override>"
+    },
+    "ambasada::MadCat, Kamenice::Mango Pina Coco Sourus": {
+      "untappd_url": "https://untappd.com/b/madcat-mango-pina-coco/2990679",
+      "untappd_name": "Mango-Piña-Coco",
+      "untappd_brewery": "MadCat",
+      "rating": 3.8,
+      "match_score": 1.0,
+      "matched_at": "2026-05-21T20:49:48Z",
+      "query_used": "Mango Pina Coco Sourus 10° MadCat"
     },
     "ambasada::Maisel & Friends, Bayreuth::Fusion IPA": {
       "untappd_url": "https://untappd.com/b/brauerei-gebr-maisel-maisel-friends-fusion-ipa-lervig/6590478",
@@ -569,6 +578,15 @@
       "matched_at": "2026-04-25T19:41:46Z",
       "query_used": "Apač Louka"
     },
+    "beerstreet::Louka::Haka": {
+      "untappd_url": "https://untappd.com/b/pivovar-louka-haka-12deg/4422305",
+      "untappd_name": "Haka 12°",
+      "untappd_brewery": "Pivovar Louka",
+      "rating": 3.613,
+      "match_score": 1.0,
+      "matched_at": "2026-05-21T20:49:38Z",
+      "query_used": "Haka 12° Louka"
+    },
     "beerstreet::Louka::Most": {
       "untappd_url": "https://untappd.com/b/pivovar-louka-most-11/4559041",
       "untappd_name": "Most 11",
@@ -649,6 +667,15 @@
       "match_score": 1.0,
       "matched_at": "2026-04-17T11:20:46Z",
       "query_used": "Velikonoční Loutkář"
+    },
+    "beerstreet::Loutkář::Švihák": {
+      "untappd_url": "https://untappd.com/b/pivovar-loutkar-svihak/4911049",
+      "untappd_name": "Švihák",
+      "untappd_brewery": "Pivovar Loutkář",
+      "rating": 3.62,
+      "match_score": 1.0,
+      "matched_at": "2026-05-21T20:49:35Z",
+      "query_used": "Švihák 11° Loutkář"
     },
     "beerstreet::Mazák::Czech Pale Ale": {
       "untappd_url": "https://untappd.com/b/pivovar-mazak-czech-pale-ale/5102010",
@@ -904,6 +931,11 @@
     }
   },
   "unmatched": {
+    "ambasada::Maisel & Friends, Bayreuth, Bavorsko::12,5° Urban IPA": {
+      "attempts": 1,
+      "last_tried_at": "2026-05-21T20:49:54Z",
+      "reason": "no_candidates_above_threshold"
+    },
     "beerstreet::-::-": {
       "attempts": 1,
       "last_tried_at": "2026-04-18T19:39:13Z",
@@ -913,6 +945,11 @@
       "attempts": 1,
       "last_tried_at": "2026-05-08T20:05:21Z",
       "reason": "upstream_error"
+    },
+    "beerstreet::Klenot::Guava and rosemary": {
+      "attempts": 1,
+      "last_tried_at": "2026-05-21T20:49:48Z",
+      "reason": "no_candidates_above_threshold"
     }
   }
 }
