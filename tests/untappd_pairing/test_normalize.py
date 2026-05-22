@@ -12,6 +12,11 @@ def test_clean_beer_name_strips_degree():
     assert clean_beer_name("Sumeček 11° IPA") == "Sumeček IPA"
 
 
+def test_clean_beer_name_strips_decimal_degree():
+    assert clean_beer_name("12,5° Urban IPA") == "Urban IPA"
+    assert clean_beer_name("Hazy 12.5° IPA") == "Hazy IPA"
+
+
 def test_clean_beer_name_strips_parentheses():
     assert clean_beer_name("Tears of St Laurent (2020)") == "Tears of St Laurent"
     assert clean_beer_name("BA Stout (Bourbon Cask)") == "BA Stout"

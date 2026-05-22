@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-22T09:41:39Z",
+  "generated_at": "2026-05-22T09:50:25Z",
   "pairings": {
     "ambasada::Beskdydský pivovárek, Ostravice::White Magic": {
       "untappd_url": "https://untappd.com/b/beskydsky-pivovarek-white-magic/6678189",
@@ -172,6 +172,15 @@
       "match_score": 1.0,
       "matched_at": "2026-05-22T09:09:37Z",
       "query_used": "Mango Pina Coco Sourus 10° MadCat"
+    },
+    "ambasada::Maisel & Friends, Bayreuth, Bavorsko::12,5° Urban IPA": {
+      "untappd_url": "https://untappd.com/b/brauerei-gebr-maisel-maisel-friends-urban-ipa/5801699",
+      "untappd_name": "Maisel & Friends URBAN IPA",
+      "untappd_brewery": "Brauerei Gebr. Maisel",
+      "rating": 3.458,
+      "match_score": 1.0,
+      "matched_at": "2026-05-22T09:50:25Z",
+      "query_used": "Urban IPA Maisel & Friends"
     },
     "ambasada::Maisel & Friends, Bayreuth::Fusion IPA": {
       "untappd_url": "https://untappd.com/b/brauerei-gebr-maisel-maisel-friends-fusion-ipa-lervig/6590478",
@@ -931,11 +940,6 @@
     }
   },
   "unmatched": {
-    "ambasada::Maisel & Friends, Bayreuth, Bavorsko::12,5° Urban IPA": {
-      "attempts": 1,
-      "last_tried_at": "2026-05-22T09:09:44Z",
-      "reason": "no_candidates_above_threshold"
-    },
     "beerstreet::-::-": {
       "attempts": 1,
       "last_tried_at": "2026-04-18T19:39:13Z",

@@ -1,7 +1,7 @@
 import re
 import unicodedata
 
-_DEGREE_RE = re.compile(r"\d+\s*°")
+_DEGREE_RE = re.compile(r"\d+(?:[.,]\d+)?\s*°")
 _PARENS_RE = re.compile(r"\([^)]*\)")
 _BATCH_RE = re.compile(r"\b(?:batch|vol\.?|série|serie)\s*#?\s*\d+", re.IGNORECASE)
 _WHITESPACE_RE = re.compile(r"\s+")

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-22T09:41:39Z",
+  "generated_at": "2026-05-22T09:50:25Z",
   "fixtures": {
     "ambasada::Haksna, Ostrava, Stout s laktozou::Batalion": {
       "beer": {
@@ -167,39 +167,33 @@
         "style": "American IPA",
         "degree_plato": null
       },
-      "captured_at": "2026-05-22T09:09:44Z",
+      "captured_at": "2026-05-22T09:50:25Z",
       "candidates": [
         {
-          "name": "Finito 12 Anos Belgian IPA",
-          "brewery": "Cervejaria Invicta",
-          "url": "/b/cervejaria-invicta-finito-12-anos-belgian-ipa/5457601",
-          "rating": 3.779
+          "name": "Maisel & Friends URBAN IPA Alkoholfrei",
+          "brewery": "Brauerei Gebr. Maisel",
+          "url": "/b/brauerei-gebr-maisel-maisel-friends-urban-ipa-alkoholfrei/2820232",
+          "rating": 3.45
+        },
+        {
+          "name": "Maisel & Friends URBAN IPA",
+          "brewery": "Brauerei Gebr. Maisel",
+          "url": "/b/brauerei-gebr-maisel-maisel-friends-urban-ipa/5801699",
+          "rating": 3.458
         }
       ],
       "attempts": [
         {
-          "query": "12, Urban IPA Maisel & Friends",
-          "hits": []
-        },
-        {
-          "query": "12,5° Urban IPA Maisel & Friends",
-          "hits": []
-        },
-        {
-          "query": "12, Urban IPA",
+          "query": "Urban IPA Maisel & Friends",
           "hits": [
-            0
+            0,
+            1
           ]
         }
       ],
       "outcome": {
-        "matched": null,
-        "reason": "no_candidates_above_threshold"
-      },
-      "annotation": {
-        "verdict": "expected_missing",
-        "expected": "/b/brauerei-gebr-maisel-maisel-and-friends-urban-ipa/5801699",
-        "note": "Spravne pivo zadna query nevratila"
+        "matched": "/b/brauerei-gebr-maisel-maisel-friends-urban-ipa/5801699",
+        "score": 1.0
       }
     },
     "ambasada::Mordýř, Dolní Ředice::Mordýř": {
