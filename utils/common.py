@@ -1,9 +1,20 @@
+from __future__ import annotations
+
+import json
+import logging
 import random
 import sys
 import time
+from datetime import UTC, datetime
+from typing import TYPE_CHECKING, Any
 
 import httpx
 import jinja2
+
+if TYPE_CHECKING:
+    from pathlib import Path
+
+logger = logging.getLogger(__name__)
 
 ENCODING = "utf-8"
 USER_AGENTS = (
@@ -51,3 +62,32 @@ def get_profile_url(user_name: str) -> str:
 
 def is_test() -> bool:
     return "pytest" in sys.modules
+
+
+def now_utc() -> datetime:
+    return datetime.now(UTC)
+
+
+def iso_utc(value: datetime) -> str:
+    return value.isoformat(timespec="seconds").replace("+00:00", "Z")
+
+
+def load_json_dict(path: Path) -> dict[str, Any]:
+    if not path.exists():
+        return {}
+    try:
+        data = json.loads(path.read_text(ENCODING))
+    except json.JSONDecodeError:
+        logger.exception("Failed to parse %s", path)
+        return {}
+    if not isinstance(data, dict):
+        logger.error("%s must contain a JSON object; got %s", path, type(data).__name__)
+        return {}
+    return data
+
+
+def atomic_write_json(path: Path, payload: object) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    tmp_path = path.with_suffix(path.suffix + ".tmp")
+    tmp_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding=ENCODING)
+    tmp_path.replace(path)

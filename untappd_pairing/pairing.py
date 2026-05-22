@@ -1,13 +1,20 @@
+from __future__ import annotations
+
 import logging
+from typing import TYPE_CHECKING
 
 import httpx
 
 from robot.base import BaseRobot
 from untappd_pairing import matcher, normalize, tap_api, untappd_search
 from untappd_pairing import overrides as overrides_module
+from untappd_pairing.fixtures import FIXTURES_PATH, FixtureOutcome, FixturesStore, compress_url
 from untappd_pairing.matcher import MatchResult
 from untappd_pairing.store import PAIRINGS_PATH, PairingsStore, beer_key
 from utils import pushover
+
+if TYPE_CHECKING:
+    from untappd_pairing.untappd_search import UntappdCandidate
 
 logger = logging.getLogger(__name__)
 
@@ -28,11 +35,13 @@ def _pluralize_pivo(count: int) -> str:
 class UntappdPairing(BaseRobot):
     def _main(self) -> None:
         store = PairingsStore.load(PAIRINGS_PATH)
+        fixtures_store = FixturesStore.load(FIXTURES_PATH)
         overrides = overrides_module.load(overrides_module.OVERRIDES_PATH)
 
         if self._args.local:
             logger.info("Local mode: skipping tap-api fetch and Untappd scraping")
             store.save(PAIRINGS_PATH)
+            fixtures_store.save(FIXTURES_PATH)
             return
 
         beers = tap_api.fetch_all_beers()
@@ -43,12 +52,19 @@ class UntappdPairing(BaseRobot):
 
         failures: list[tuple[tap_api.TapBeer, str]] = []
         for beer in pending:
-            reason = self._pair_one(beer, store, overrides)
+            reason = self._pair_one(beer, store, fixtures_store, overrides)
             if reason is not None:
                 failures.append((beer, reason))
 
         store.save(PAIRINGS_PATH)
-        logger.info("Saved %s (pairings=%d, unmatched=%d)", PAIRINGS_PATH, len(store.pairings), len(store.unmatched))
+        fixtures_store.save(FIXTURES_PATH)
+        logger.info(
+            "Saved %s (pairings=%d, unmatched=%d, fixtures=%d)",
+            PAIRINGS_PATH,
+            len(store.pairings),
+            len(store.unmatched),
+            len(fixtures_store.records),
+        )
 
         if failures:
             self._notify_failures(failures)
@@ -70,12 +86,17 @@ class UntappdPairing(BaseRobot):
             logger.exception("Failed to send Pushover notification about unmatched beers")
 
     @staticmethod
-    def _pair_one(beer: tap_api.TapBeer, store: PairingsStore, overrides: dict[str, str]) -> str | None:
+    def _pair_one(
+        beer: tap_api.TapBeer,
+        store: PairingsStore,
+        fixtures_store: FixturesStore,
+        overrides: dict[str, str],
+    ) -> str | None:
         key = beer_key(beer.source, beer.brewery, beer.name)
         if key in overrides:
             return UntappdPairing._pair_via_override(beer, store, overrides[key])
 
-        return UntappdPairing._pair_via_search(beer, store)
+        return UntappdPairing._pair_via_search(beer, store, fixtures_store)
 
     @staticmethod
     def _pair_via_override(beer: tap_api.TapBeer, store: PairingsStore, url: str) -> str | None:
@@ -97,8 +118,9 @@ class UntappdPairing(BaseRobot):
         return None
 
     @staticmethod
-    def _pair_via_search(beer: tap_api.TapBeer, store: PairingsStore) -> str | None:
+    def _pair_via_search(beer: tap_api.TapBeer, store: PairingsStore, fixtures_store: FixturesStore) -> str | None:
         queries = normalize.build_search_queries(beer.name, beer.brewery, beer.degree_plato)
+        trace: list[tuple[str, list[UntappdCandidate]]] = []
 
         for query in queries:
             try:
@@ -107,6 +129,8 @@ class UntappdPairing(BaseRobot):
                 logger.exception("Untappd search failed for '%s'", query)
                 store.record_unmatched(beer, UNMATCHED_UPSTREAM_ERROR)
                 return UNMATCHED_UPSTREAM_ERROR
+
+            trace.append((query, candidates))
 
             result = matcher.best_match(beer.name, beer.brewery, candidates, beer.degree_plato, beer.style)
             if result is not None:
@@ -118,8 +142,18 @@ class UntappdPairing(BaseRobot):
                     result.score,
                 )
                 store.record_match(beer, result, query)
+                fixtures_store.upsert(
+                    beer,
+                    trace,
+                    FixtureOutcome(matched_url=compress_url(result.candidate.url), score=result.score),
+                )
                 return None
 
         logger.info("No match for %s::%s after %d queries", beer.brewery, beer.name, len(queries))
         store.record_unmatched(beer, UNMATCHED_NO_CANDIDATES)
+        fixtures_store.upsert(
+            beer,
+            trace,
+            FixtureOutcome(matched_url=None, reason=UNMATCHED_NO_CANDIDATES),
+        )
         return UNMATCHED_NO_CANDIDATES

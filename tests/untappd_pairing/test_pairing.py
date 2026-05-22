@@ -18,6 +18,11 @@ def mock_pushover():
         yield m
 
 
+@pytest.fixture(autouse=True)
+def isolate_fixtures_path(tmp_path, monkeypatch):
+    monkeypatch.setattr(pairing, "FIXTURES_PATH", tmp_path / "fixtures.json")
+
+
 def _beer(name, brewery="Falkon", degree_plato=None):
     return TapBeer(
         name=name,
@@ -253,6 +258,156 @@ def test_pairing_uses_degree_plato_to_match_house_lager(tmp_path, monkeypatch, m
     assert "beerstreet::Loutkář::Loutkář" in saved["pairings"]
     assert "beerstreet::Loutkář::Loutkář" not in saved["unmatched"]
     mock_pushover.assert_not_called()
+
+
+@pytest.mark.parametrize(
+    ("count", "word"),
+    [(1, "1 pivo"), (3, "3 piva"), (5, "5 piv")],
+)
+def test_pairing_pluralizes_failure_count_correctly(tmp_path, monkeypatch, mock_pushover, count, word):
+    pairings_path = tmp_path / "pairings.json"
+    monkeypatch.setattr(pairing, "PAIRINGS_PATH", pairings_path)
+
+    beers = [_beer(f"Mystery {i}", f"Brewery {i}") for i in range(count)]
+
+    with (
+        mock.patch.object(pairing.tap_api, "fetch_all_beers", return_value=beers),
+        mock.patch.object(pairing.untappd_search, "search_beer", return_value=[]),
+    ):
+        UntappdPairing(args=Args()).run()
+
+    assert word in mock_pushover.call_args.args[0]
+
+
+def test_pairing_captures_fixture_for_matched_beer(tmp_path, monkeypatch):
+    pairings_path = tmp_path / "pairings.json"
+    fixtures_path = tmp_path / "fixtures.json"
+    monkeypatch.setattr(pairing, "PAIRINGS_PATH", pairings_path)
+    monkeypatch.setattr(pairing, "FIXTURES_PATH", fixtures_path)
+
+    beer = _beer("Tears of St Laurent (2020)", "Wild Creatures")
+    candidate = _candidate(
+        "Tears of St Laurent (2020)",
+        brewery="Wild Creatures",
+        url="https://untappd.com/b/wild-tears/1",
+    )
+
+    with (
+        mock.patch.object(pairing.tap_api, "fetch_all_beers", return_value=[beer]),
+        mock.patch.object(pairing.untappd_search, "search_beer", return_value=[candidate]),
+    ):
+        UntappdPairing(args=Args()).run()
+
+    saved = json.loads(fixtures_path.read_text())
+    key = "beerstreet::Wild Creatures::Tears of St Laurent (2020)"
+    entry = saved["fixtures"][key]
+    assert entry["outcome"]["matched"] == "/b/wild-tears/1"
+    assert entry["candidates"][0]["url"] == "/b/wild-tears/1"
+    assert entry["attempts"][0]["hits"] == [0]
+
+
+def test_pairing_captures_fixture_for_unmatched_beer(tmp_path, monkeypatch):
+    pairings_path = tmp_path / "pairings.json"
+    fixtures_path = tmp_path / "fixtures.json"
+    monkeypatch.setattr(pairing, "PAIRINGS_PATH", pairings_path)
+    monkeypatch.setattr(pairing, "FIXTURES_PATH", fixtures_path)
+
+    beer = _beer("Mystery Brew", "Unknown")
+
+    with (
+        mock.patch.object(pairing.tap_api, "fetch_all_beers", return_value=[beer]),
+        mock.patch.object(pairing.untappd_search, "search_beer", return_value=[]),
+    ):
+        UntappdPairing(args=Args()).run()
+
+    saved = json.loads(fixtures_path.read_text())
+    entry = saved["fixtures"]["beerstreet::Unknown::Mystery Brew"]
+    assert entry["outcome"] == {"matched": None, "reason": "no_candidates_above_threshold"}
+    assert all(attempt["hits"] == [] for attempt in entry["attempts"])
+
+
+def test_pairing_does_not_capture_fixture_for_upstream_error(tmp_path, monkeypatch):
+    pairings_path = tmp_path / "pairings.json"
+    fixtures_path = tmp_path / "fixtures.json"
+    monkeypatch.setattr(pairing, "PAIRINGS_PATH", pairings_path)
+    monkeypatch.setattr(pairing, "FIXTURES_PATH", fixtures_path)
+
+    beer = _beer("IPA", "Brewery")
+
+    with (
+        mock.patch.object(pairing.tap_api, "fetch_all_beers", return_value=[beer]),
+        mock.patch.object(pairing.untappd_search, "search_beer", side_effect=httpx.ConnectError("boom")),
+    ):
+        UntappdPairing(args=Args()).run()
+
+    saved = json.loads(fixtures_path.read_text())
+    assert saved["fixtures"] == {}
+
+
+def test_pairing_does_not_capture_fixture_for_overrides(tmp_path, monkeypatch):
+    pairings_path = tmp_path / "pairings.json"
+    fixtures_path = tmp_path / "fixtures.json"
+    overrides_path = tmp_path / "overrides.json"
+    monkeypatch.setattr(pairing, "PAIRINGS_PATH", pairings_path)
+    monkeypatch.setattr(pairing, "FIXTURES_PATH", fixtures_path)
+    monkeypatch.setattr(pairing.overrides_module, "OVERRIDES_PATH", overrides_path)
+
+    beer = _beer("Maisels Weisse", "Maisel")
+    overrides_path.write_text(json.dumps({"beerstreet::Maisel::Maisels Weisse": "https://untappd.com/b/x/35642"}))
+
+    fetched = UntappdCandidate(
+        name="Maisel's Weisse Original",
+        brewery="Brauerei Gebr. Maisel",
+        url="https://untappd.com/b/x/35642",
+        rating=3.59,
+    )
+
+    with (
+        mock.patch.object(pairing.tap_api, "fetch_all_beers", return_value=[beer]),
+        mock.patch.object(pairing.untappd_search, "fetch_beer_page", return_value=fetched),
+    ):
+        UntappdPairing(args=Args()).run()
+
+    saved = json.loads(fixtures_path.read_text())
+    assert saved["fixtures"] == {}
+
+
+def test_pairing_preserves_fixture_annotation_across_runs(tmp_path, monkeypatch):
+    pairings_path = tmp_path / "pairings.json"
+    fixtures_path = tmp_path / "fixtures.json"
+    monkeypatch.setattr(pairing, "PAIRINGS_PATH", pairings_path)
+    monkeypatch.setattr(pairing, "FIXTURES_PATH", fixtures_path)
+
+    beer = _beer("Mystery Brew", "Unknown")
+
+    with (
+        mock.patch.object(pairing.tap_api, "fetch_all_beers", return_value=[beer]),
+        mock.patch.object(pairing.untappd_search, "search_beer", return_value=[]),
+    ):
+        UntappdPairing(args=Args()).run()
+
+    raw = json.loads(fixtures_path.read_text())
+    key = "beerstreet::Unknown::Mystery Brew"
+    raw["fixtures"][key]["annotation"] = {
+        "verdict": "expected_missing",
+        "expected": "/b/the-right-one/42",
+        "note": "Not returned by any query",
+    }
+    fixtures_path.write_text(json.dumps(raw))
+
+    # Force a second run by clearing pairings/unmatched cooldown.
+    pairings_path.unlink()
+
+    with (
+        mock.patch.object(pairing.tap_api, "fetch_all_beers", return_value=[beer]),
+        mock.patch.object(pairing.untappd_search, "search_beer", return_value=[]),
+    ):
+        UntappdPairing(args=Args()).run()
+
+    saved = json.loads(fixtures_path.read_text())
+    annotation = saved["fixtures"][key]["annotation"]
+    assert annotation["verdict"] == "expected_missing"
+    assert annotation["expected"] == "/b/the-right-one/42"
 
 
 def test_pairing_pushover_failure_does_not_crash_run(tmp_path, monkeypatch, mock_pushover, caplog):

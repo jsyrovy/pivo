@@ -25,4 +25,4 @@ jobs:
           commit_user_email: 41898282+github-actions[bot]@users.noreply.github.com
           commit_author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
           commit_message: Update untappd pairings
-          file_pattern: untappd_pairing/pairings.json
+          file_pattern: untappd_pairing/pairings.json untappd_pairing/fixtures.json
