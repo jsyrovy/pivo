@@ -74,9 +74,23 @@ def test_offer_send_notification_pushover():
         offer.send_notification(notificationless=False)
 
     mock_send.assert_called_once()
-    message = mock_send.call_args[0][0]
-    assert "Nově na čepu" in message
-    assert "New IPA" in message
+    message = mock_send.call_args.args[0]
+    assert mock_send.call_args.kwargs.get("html") is True
+    assert "<b>Nově na čepu" in message
+    assert "<b>New IPA</b>" in message
+    assert "🆕" in message
+
+
+def test_offer_send_notification_escapes_html_special_chars():
+    offer = Offer()
+    offer.new_beers = [Beer("Maisel & Friends Urban IPA", "Brauerei Gebr. Maisel")]
+
+    with mock.patch("notifier.base.pushover.send_notification") as mock_send:
+        offer.send_notification(notificationless=False)
+
+    message = mock_send.call_args.args[0]
+    assert "Maisel &amp; Friends" in message
+    assert "Maisel & Friends" not in message
 
 
 def test_offer_set_tasted():

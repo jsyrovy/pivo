@@ -127,9 +127,11 @@ def test_get_yesterday_status_empty():
 
 def test_get_yesterday_status():
     result = PivniValka.get_yesterday_status(["sejrik"])
-    assert "Jirka" in result
+    assert "<b>Jirka</b>" in result
     assert "vypil" in result
-    assert "celkem" in result
+    assert "<b>Včera:</b>" in result
+    assert "<b>Celkem:</b>" in result
+    assert 'href="https://pivo.jsyrovy.cz/pivni-valka"' in result
 
 
 def test_get_grid_template_areas():
@@ -198,4 +200,4 @@ def test_main_with_notification(tmp_path):
         mock_path.side_effect = lambda p: {"dist/pivni-valka/index.html": index_html}[p]
         pv._main()
 
-    mock_pushover.send_notification.assert_called_once_with("Status message")
+    mock_pushover.send_notification.assert_called_once_with("Status message", html=True)

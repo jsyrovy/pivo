@@ -27,7 +27,7 @@ def _chunk_message(text: str, max_len: int = MAX_MESSAGE_LENGTH) -> list[str]:
     return chunks
 
 
-def send_notification(text: str) -> None:
+def send_notification(text: str, html: bool = False) -> None:
     token = os.environ.get("PUSHOVER_TOKEN")
     user_key = os.environ.get("PUSHOVER_USER_KEY")
 
@@ -35,13 +35,16 @@ def send_notification(text: str) -> None:
         raise OSError("PUSHOVER_TOKEN or PUSHOVER_USER_KEY is not set in environment variables.")
 
     for chunk in _chunk_message(text):
+        payload: dict[str, str | int] = {
+            "token": token,
+            "user": user_key,
+            "message": chunk,
+        }
+        if html:
+            payload["html"] = 1
         r = httpx.post(
             "https://api.pushover.net:443/1/messages.json",
-            json={
-                "token": token,
-                "user": user_key,
-                "message": chunk,
-            },
+            json=payload,
             timeout=TIMEOUT,
         )
         r.raise_for_status()

@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import datetime
 import random
+from html import escape as html_escape
 from pathlib import Path
 from typing import TYPE_CHECKING
 
@@ -14,12 +15,14 @@ from pivni_valka.stats.tiles import TileData
 from pivni_valka.stats.total_chart import get_all_chart_data, slice_chart_data
 from robot.orm import OrmRobot
 from utils import pushover
-from utils.common import download_page, get_profile_url, get_template, random_sleep
+from utils.common import DASHBOARD_BASE_URL, download_page, get_profile_url, get_template, random_sleep
 
 if TYPE_CHECKING:
     import jinja2
 
 GetPageKwArgs = list[TileData] | ChartData | str
+
+DASHBOARD_URL = f"{DASHBOARD_BASE_URL}/pivni-valka"
 
 
 class PivniValka(OrmRobot):
@@ -47,7 +50,7 @@ class PivniValka(OrmRobot):
 
         if not self._args.local and not self._args.notificationless and users_with_new_beers:
             status = self.get_yesterday_status(users_with_new_beers)
-            pushover.send_notification(status)
+            pushover.send_notification(status, html=True)
 
     def get_unique_beers_count(self) -> dict[str, int]:
         data: dict[str, int] = {}
@@ -108,19 +111,24 @@ class PivniValka(OrmRobot):
 
         total_unique_beers = common.get_total_unique_beers()
 
-        values = [
-            (
-                f"{user.name} včera vypil{'a' if user.sex == 'female' else ''} "
-                f"{common.get_unique_beers(user.user_name, days=1)} 🍺."
-            )
+        yesterday_lines = [
+            f"<b>{html_escape(user.name)}</b> "
+            f"vypil{'a' if user.sex == 'female' else ''} "
+            f"<b>{common.get_unique_beers(user.user_name, days=1)}</b> 🍺"
             for user in utils.user.VISIBLE_USERS
             if user.user_name in users_with_new_beers
         ]
-        values.extend(
-            f"{user.name} má celkem {total_unique_beers[user.user_name]} 🍺." for user in utils.user.VISIBLE_USERS
-        )
+        total_lines = [
+            f"<b>{html_escape(user.name)}</b>: <b>{total_unique_beers[user.user_name]}</b> 🍺"
+            for user in utils.user.VISIBLE_USERS
+        ]
 
-        return " ".join(values)
+        sections = [
+            "<b>Včera:</b>\n" + "\n".join(yesterday_lines),
+            "<b>Celkem:</b>\n" + "\n".join(total_lines),
+            f'<a href="{DASHBOARD_URL}">Přehled</a>',
+        ]
+        return "\n\n".join(sections)
 
     @staticmethod
     def get_grid_template_areas() -> tuple[str, ...]:

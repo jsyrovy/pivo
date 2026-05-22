@@ -16,6 +16,14 @@ def test_send_notification(os_environ):
         send_notification("test")
 
     post_mock.assert_called_once()
+    assert "html" not in post_mock.call_args.kwargs["json"]
+
+
+def test_send_notification_enables_html_when_requested(os_environ):
+    with os_environ, mock.patch("httpx.post") as post_mock:
+        send_notification("<b>bold</b>", html=True)
+
+    assert post_mock.call_args.kwargs["json"]["html"] == 1
 
 
 def test_send_notification_without_evn_variables():

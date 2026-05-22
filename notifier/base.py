@@ -1,6 +1,7 @@
 import logging
 import re
 from dataclasses import dataclass
+from html import escape as html_escape
 
 from sqlalchemy import text
 
@@ -45,14 +46,18 @@ class Offer:
         raise NotImplementedError
 
     def send_notification(self, notificationless: bool) -> None:
-        message = f"Nově na čepu {self.PUB_IN_NOTIFICATION}:\n\n"
-        message += "\n\n".join(str(beer) for beer in self.new_beers)
+        header = f"<b>Nově na čepu {html_escape(self.PUB_IN_NOTIFICATION)}:</b>"
+        blocks = [
+            f"<b>{html_escape(beer.name)}</b>{'' if beer.tasted else ' 🆕'}\n{html_escape(beer.description)}"
+            for beer in self.new_beers
+        ]
+        message = header + "\n\n" + "\n\n".join(blocks)
 
         if notificationless:
             logger.info(message)
             return
 
-        pushover.send_notification(message)
+        pushover.send_notification(message, html=True)
 
     def set_tasted(self) -> None:
         for beer in self.new_beers:

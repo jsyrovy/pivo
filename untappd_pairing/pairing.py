@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import logging
+from html import escape as html_escape
 from typing import TYPE_CHECKING
 
 import httpx
@@ -80,12 +81,19 @@ class UntappdPairing(BaseRobot):
     ) -> None:
         sections: list[str] = []
         if matched:
-            header = f"Naparováno {len(matched)} {_pluralize_pivo(len(matched))}:"
-            lines = [f"- {beer.brewery} :: {beer.name} -> {url}" for beer, url in matched]
+            header = f"<b>Naparováno {len(matched)} {_pluralize_pivo(len(matched))}:</b>"
+            lines = [
+                f'• <a href="{html_escape(url, quote=True)}">'
+                f"{html_escape(beer.brewery)} :: {html_escape(beer.name)}</a>"
+                for beer, url in matched
+            ]
             sections.append(header + "\n" + "\n".join(lines))
         if unmatched:
-            header = f"Nepodařilo se naparovat {len(unmatched)} {_pluralize_pivo(len(unmatched))}:"
-            lines = [f"- {beer.brewery} :: {beer.name} ({reason})" for beer, reason in unmatched]
+            header = f"<b>Nepodařilo se naparovat {len(unmatched)} {_pluralize_pivo(len(unmatched))}:</b>"
+            lines = [
+                f"• {html_escape(beer.brewery)} :: {html_escape(beer.name)} <i>({html_escape(reason)})</i>"
+                for beer, reason in unmatched
+            ]
             sections.append(header + "\n" + "\n".join(lines))
         message = "\n\n".join(sections)
 
@@ -94,7 +102,7 @@ class UntappdPairing(BaseRobot):
             return
 
         try:
-            pushover.send_notification(message)
+            pushover.send_notification(message, html=True)
         except httpx.HTTPError:
             logger.exception("Failed to send Pushover notification about pairing run")
 
