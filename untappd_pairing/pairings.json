@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-22T09:50:25Z",
+  "generated_at": "2026-05-22T20:41:31Z",
   "pairings": {
     "ambasada::Beskdydský pivovárek, Ostravice::White Magic": {
       "untappd_url": "https://untappd.com/b/beskydsky-pivovarek-white-magic/6678189",
@@ -461,6 +461,15 @@
       "matched_at": "2026-05-13T20:29:26Z",
       "query_used": "Puk Malina/Granátové Jablko Švabín"
     },
+    "beerstreet::Brewnicorn::Pivorožec": {
+      "untappd_url": "https://untappd.com/b/brewnicorn-pivorozec/6706555",
+      "untappd_name": "Pivorožec",
+      "untappd_brewery": "Brewnicorn",
+      "rating": 3.655,
+      "match_score": 1.0,
+      "matched_at": "2026-05-22T20:41:04Z",
+      "query_used": "Pivorožec Brewnicorn"
+    },
     "beerstreet::Chroust::Pineapple": {
       "untappd_url": "https://untappd.com/b/chroust-pineapple-milkshake-ipa/6675190",
       "untappd_name": "Pineapple Milkshake IPA",
@@ -533,6 +542,15 @@
       "matched_at": "2026-04-18T19:39:16Z",
       "query_used": "Alora Klenot"
     },
+    "beerstreet::Klenot::Cranberry+plum+ginger": {
+      "untappd_url": "https://untappd.com/b/hradecky-klenot-sour-ale-plum-cranberry-ginger/5859332",
+      "untappd_name": "Sour ALE -  Plum & cranberry & ginger",
+      "untappd_brewery": "Hradecký Klenot",
+      "rating": 3.885,
+      "match_score": 0.8824,
+      "matched_at": "2026-05-22T20:41:31Z",
+      "query_used": "Cranberry+plum+ginger Klenot"
+    },
     "beerstreet::Klenot::Kazbek": {
       "untappd_url": "https://untappd.com/b/hradecky-klenot-kazbek-11/2344577",
       "untappd_name": "Kazbek 11",
@@ -595,6 +613,15 @@
       "match_score": 1.0,
       "matched_at": "2026-05-22T09:09:08Z",
       "query_used": "Haka 12° Louka"
+    },
+    "beerstreet::Louka::Kuželka": {
+      "untappd_url": "https://untappd.com/b/pivovar-louka-kuzelka/4615473",
+      "untappd_name": "Kuželka",
+      "untappd_brewery": "Pivovar Louka",
+      "rating": 3.314,
+      "match_score": 1.0,
+      "matched_at": "2026-05-22T20:41:09Z",
+      "query_used": "Kuželka Louka"
     },
     "beerstreet::Louka::Most": {
       "untappd_url": "https://untappd.com/b/pivovar-louka-most-11/4559041",
@@ -748,6 +775,15 @@
       "match_score": 1.0,
       "matched_at": "2026-04-17T19:07:45Z",
       "query_used": "Premiér Ovipistán"
+    },
+    "beerstreet::Pioneer::Cruel River": {
+      "untappd_url": "https://untappd.com/b/pioneer-beer-cruel-river/6629762",
+      "untappd_name": "Cruel River",
+      "untappd_brewery": "Pioneer Beer",
+      "rating": 3.837,
+      "match_score": 1.0,
+      "matched_at": "2026-05-22T20:41:22Z",
+      "query_used": "Cruel River Pioneer"
     },
     "beerstreet::Sqbru::Sůl12 - Chilliout": {
       "untappd_url": "https://untappd.com/b/sqbru-skju-bru-sul12-chilliout/6607628",

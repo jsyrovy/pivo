@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-22T09:50:25Z",
+  "generated_at": "2026-05-22T20:41:31Z",
   "fixtures": {
     "ambasada::Haksna, Ostrava, Stout s laktozou::Batalion": {
       "beer": {
@@ -292,6 +292,82 @@
         "score": 1.0
       }
     },
+    "beerstreet::Brewnicorn::Pivorožec": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Brewnicorn",
+        "name": "Pivorožec",
+        "style": "Ležák světlý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-05-22T20:41:04Z",
+      "candidates": [
+        {
+          "name": "Pivorožec",
+          "brewery": "Brewnicorn",
+          "url": "/b/brewnicorn-pivorozec/6706555",
+          "rating": 3.655
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Pivorožec 11° Brewnicorn",
+          "hits": []
+        },
+        {
+          "query": "Pivorožec 11°",
+          "hits": []
+        },
+        {
+          "query": "Pivorožec Brewnicorn",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/brewnicorn-pivorozec/6706555",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Klenot::Cranberry+plum+ginger": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Klenot",
+        "name": "Cranberry+plum+ginger",
+        "style": "Sour",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-05-22T20:41:31Z",
+      "candidates": [
+        {
+          "name": "Sour ALE -  Plum & cranberry & ginger",
+          "brewery": "Hradecký Klenot",
+          "url": "/b/hradecky-klenot-sour-ale-plum-cranberry-ginger/5859332",
+          "rating": 3.885
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Cranberry+plum+ginger 12° Klenot",
+          "hits": []
+        },
+        {
+          "query": "Cranberry+plum+ginger 12°",
+          "hits": []
+        },
+        {
+          "query": "Cranberry+plum+ginger Klenot",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/hradecky-klenot-sour-ale-plum-cranberry-ginger/5859332",
+        "score": 0.8824
+      }
+    },
     "beerstreet::Klenot::Guava and rosemary": {
       "beer": {
         "source": "beerstreet",
@@ -357,6 +433,66 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-louka-haka-12deg/4422305",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Louka::Kuželka": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Louka",
+        "name": "Kuželka",
+        "style": "SMASH ležák sv.",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-05-22T20:41:09Z",
+      "candidates": [
+        {
+          "name": "Kulka",
+          "brewery": "Old Cock Beer",
+          "url": "/b/old-cock-beer-kulka/5461321",
+          "rating": 3.57
+        },
+        {
+          "name": "Růženka 11°",
+          "brewery": "Velké Březno",
+          "url": "/b/velke-brezno-ruzenka-11deg/6387112",
+          "rating": null
+        },
+        {
+          "name": "Kuželka",
+          "brewery": "Pivovar Louka",
+          "url": "/b/pivovar-louka-kuzelka/4615473",
+          "rating": 3.314
+        },
+        {
+          "name": "Kuželka (2023)",
+          "brewery": "Pivovar Louka",
+          "url": "/b/pivovar-louka-kuzelka-2023/5307728",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Kuželka 12° Louka",
+          "hits": []
+        },
+        {
+          "query": "Kuželka 12°",
+          "hits": [
+            0,
+            1
+          ]
+        },
+        {
+          "query": "Kuželka Louka",
+          "hits": [
+            2,
+            3
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-louka-kuzelka/4615473",
         "score": 1.0
       }
     },
@@ -482,6 +618,44 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-mazak-extra-horka-11-za-studena-chmelena/6616906",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Pioneer::Cruel River": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Pioneer",
+        "name": "Cruel River",
+        "style": "Modern Pale Ale",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-05-22T20:41:22Z",
+      "candidates": [
+        {
+          "name": "Cruel River",
+          "brewery": "Pioneer Beer",
+          "url": "/b/pioneer-beer-cruel-river/6629762",
+          "rating": 3.837
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Cruel River 12° Pioneer",
+          "hits": []
+        },
+        {
+          "query": "Cruel River 12°",
+          "hits": []
+        },
+        {
+          "query": "Cruel River Pioneer",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pioneer-beer-cruel-river/6629762",
         "score": 1.0
       }
     },
