@@ -118,6 +118,14 @@ def test_select_pending_retries_unmatched_after_cooldown():
     assert [b.name for b in pending] == ["Hard to find"]
 
 
+def test_get_url_returns_matched_untappd_url():
+    store = PairingsStore()
+    beer = _beer()
+    store.record_match(beer, MatchResult(candidate=_candidate(), score=0.95), "q")
+
+    assert store.get_url(beer_key(beer.source, beer.brewery, beer.name)) == "https://untappd.com/b/falkon-ipa/1"
+
+
 def test_record_match_clears_previous_unmatched_entry():
     store = PairingsStore()
     beer = _beer()

@@ -40,6 +40,9 @@ class PairingsStore:
     def is_paired(self, key: str) -> bool:
         return key in self.pairings
 
+    def get_url(self, key: str) -> str:
+        return str(self.pairings[key]["untappd_url"])
+
     def should_retry(self, key: str, now: datetime | None = None) -> bool:
         entry = self.unmatched.get(key)
         if entry is None:

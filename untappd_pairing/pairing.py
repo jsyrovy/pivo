@@ -50,11 +50,15 @@ class UntappdPairing(BaseRobot):
         pending = store.select_pending(beers, overrides=overrides)
         logger.info("Pairing %d pending beers (rest already paired or in cooldown)", len(pending))
 
-        failures: list[tuple[tap_api.TapBeer, str]] = []
+        matched: list[tuple[tap_api.TapBeer, str]] = []
+        unmatched: list[tuple[tap_api.TapBeer, str]] = []
         for beer in pending:
             reason = self._pair_one(beer, store, fixtures_store, overrides)
-            if reason is not None:
-                failures.append((beer, reason))
+            key = beer_key(beer.source, beer.brewery, beer.name)
+            if reason is None:
+                matched.append((beer, store.get_url(key)))
+            else:
+                unmatched.append((beer, reason))
 
         store.save(PAIRINGS_PATH)
         fixtures_store.save(FIXTURES_PATH)
@@ -66,15 +70,24 @@ class UntappdPairing(BaseRobot):
             len(fixtures_store.records),
         )
 
-        if failures:
-            self._notify_failures(failures)
+        if matched or unmatched:
+            self._notify_run(matched, unmatched)
 
-    def _notify_failures(self, failures: list[tuple[tap_api.TapBeer, str]]) -> None:
-        count = len(failures)
-        word = _pluralize_pivo(count)
-        header = f"Nepodařilo se naparovat {count} {word}:"
-        lines = [f"- {beer.brewery} :: {beer.name} ({reason})" for beer, reason in failures]
-        message = header + "\n\n" + "\n".join(lines)
+    def _notify_run(
+        self,
+        matched: list[tuple[tap_api.TapBeer, str]],
+        unmatched: list[tuple[tap_api.TapBeer, str]],
+    ) -> None:
+        sections: list[str] = []
+        if matched:
+            header = f"Naparováno {len(matched)} {_pluralize_pivo(len(matched))}:"
+            lines = [f"- {beer.brewery} :: {beer.name} -> {url}" for beer, url in matched]
+            sections.append(header + "\n" + "\n".join(lines))
+        if unmatched:
+            header = f"Nepodařilo se naparovat {len(unmatched)} {_pluralize_pivo(len(unmatched))}:"
+            lines = [f"- {beer.brewery} :: {beer.name} ({reason})" for beer, reason in unmatched]
+            sections.append(header + "\n" + "\n".join(lines))
+        message = "\n\n".join(sections)
 
         if self._args.notificationless:
             logger.info(message)
@@ -83,7 +96,7 @@ class UntappdPairing(BaseRobot):
         try:
             pushover.send_notification(message)
         except httpx.HTTPError:
-            logger.exception("Failed to send Pushover notification about unmatched beers")
+            logger.exception("Failed to send Pushover notification about pairing run")
 
     @staticmethod
     def _pair_one(
