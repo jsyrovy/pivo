@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-21T20:49:54Z",
+  "generated_at": "2026-05-22T09:09:52Z",
   "pairings": {
     "ambasada::Beskdydský pivovárek, Ostravice::White Magic": {
       "untappd_url": "https://untappd.com/b/beskydsky-pivovarek-white-magic/6678189",
@@ -66,13 +66,13 @@
       "query_used": "Gold Digger Fracek"
     },
     "ambasada::Haksna, Ostrava, Stout s laktozou::Batalion": {
-      "untappd_url": "https://untappd.com/b/haksna-brewery-batalion-24-narozeniny/6248172",
-      "untappd_name": "Batalion 24. Narozeniny",
+      "untappd_url": "https://untappd.com/b/haksna-brewery-batalion-25-narozeniny/6693539",
+      "untappd_name": "Batalion 25. Narozeniny",
       "untappd_brewery": "Haksna Brewery",
-      "rating": 4.075,
+      "rating": null,
       "match_score": 1.0,
-      "matched_at": "2026-05-17T20:02:50Z",
-      "query_used": "Batalion Haksna"
+      "matched_at": "2026-05-22T09:09:52Z",
+      "query_used": "Batalion 25° Haksna"
     },
     "ambasada::Haksna, Ostrava::Forest IPA": {
       "untappd_url": "https://untappd.com/b/haksna-brewery-forest-ipa/6607940",
@@ -114,10 +114,10 @@
       "untappd_url": "https://untappd.com/b/pivovar-jungberg-pp-12/1774180",
       "untappd_name": "PP 12%",
       "untappd_brewery": "Pivovar JungBerg",
-      "rating": 3.436,
+      "rating": 3.44,
       "match_score": 1.0,
-      "matched_at": "2026-04-17T11:21:02Z",
-      "query_used": "PP JungBerg"
+      "matched_at": "2026-05-22T09:09:20Z",
+      "query_used": "PP 12° JungBerg"
     },
     "ambasada::Kynšperský Zajíc, Kynšperk::Summer Ale": {
       "untappd_url": "https://untappd.com/b/pivovar-ogar-summer-ale-11/2729676",
@@ -125,7 +125,7 @@
       "untappd_brewery": "Pivovar Ogar",
       "rating": 3.512,
       "match_score": 1.0,
-      "matched_at": "2026-05-20T20:58:21Z",
+      "matched_at": "2026-05-22T09:09:50Z",
       "query_used": "Summer Ale 11°"
     },
     "ambasada::Louka::Fresh Breakfast": {
@@ -170,7 +170,7 @@
       "untappd_brewery": "MadCat",
       "rating": 3.8,
       "match_score": 1.0,
-      "matched_at": "2026-05-21T20:49:48Z",
+      "matched_at": "2026-05-22T09:09:37Z",
       "query_used": "Mango Pina Coco Sourus 10° MadCat"
     },
     "ambasada::Maisel & Friends, Bayreuth::Fusion IPA": {
@@ -186,9 +186,9 @@
       "untappd_url": "https://untappd.com/b/brauerei-gebr-maisel-maisel-s-weisse-original/35642",
       "untappd_name": "Maisel's Weisse Original",
       "untappd_brewery": "Brauerei Gebr. Maisel",
-      "rating": 3.59774,
+      "rating": 3.59793,
       "match_score": 1.0,
-      "matched_at": "2026-04-17T11:32:20Z",
+      "matched_at": "2026-05-22T09:09:34Z",
       "query_used": "<override>"
     },
     "ambasada::Matuška, Broumy::California": {
@@ -224,8 +224,8 @@
       "untappd_brewery": "Pivovar Mordýř",
       "rating": 3.365,
       "match_score": 1.0,
-      "matched_at": "2026-04-17T11:21:07Z",
-      "query_used": "Mordýř Mordýř"
+      "matched_at": "2026-05-22T09:09:23Z",
+      "query_used": "Mordýř 11° Mordýř"
     },
     "ambasada::Mordýř, Dolní Ředice::Msopustní": {
       "untappd_url": "https://untappd.com/b/uneticky-pivovar-uneticky-special-16deg-masopustni-bock/977876",
@@ -305,7 +305,7 @@
       "untappd_brewery": "Sibeeria Brewery",
       "rating": 3.762,
       "match_score": 1.0,
-      "matched_at": "2026-05-17T20:02:50Z",
+      "matched_at": "2026-05-22T09:09:29Z",
       "query_used": "Blackcurrant Sorbet Sibeeria"
     },
     "ambasada::Sibeeria, Praha::Grapefruit Lollihop": {
@@ -584,7 +584,7 @@
       "untappd_brewery": "Pivovar Louka",
       "rating": 3.613,
       "match_score": 1.0,
-      "matched_at": "2026-05-21T20:49:38Z",
+      "matched_at": "2026-05-22T09:09:08Z",
       "query_used": "Haka 12° Louka"
     },
     "beerstreet::Louka::Most": {
@@ -647,7 +647,7 @@
       "untappd_brewery": "Pivovar Loutkář",
       "rating": 3.328,
       "match_score": 0.0,
-      "matched_at": "2026-05-20T09:45:22Z",
+      "matched_at": "2026-05-22T09:08:56Z",
       "query_used": "Loutkář 12° Loutkář"
     },
     "beerstreet::Loutkář::Mozaika": {
@@ -674,7 +674,7 @@
       "untappd_brewery": "Pivovar Loutkář",
       "rating": 3.62,
       "match_score": 1.0,
-      "matched_at": "2026-05-21T20:49:35Z",
+      "matched_at": "2026-05-22T09:08:58Z",
       "query_used": "Švihák 11° Loutkář"
     },
     "beerstreet::Mazák::Czech Pale Ale": {
@@ -692,7 +692,7 @@
       "untappd_brewery": "Pivovar Mazák",
       "rating": 3.71,
       "match_score": 1.0,
-      "matched_at": "2026-05-20T20:58:08Z",
+      "matched_at": "2026-05-22T09:08:55Z",
       "query_used": "Extra hořká 11° Mazák"
     },
     "beerstreet::Mazák::Tropical Wave": {
@@ -854,7 +854,7 @@
       "untappd_brewery": "Pivovar Záhora",
       "rating": 3.593,
       "match_score": 1.0,
-      "matched_at": "2026-05-20T20:58:16Z",
+      "matched_at": "2026-05-22T09:09:03Z",
       "query_used": "Sunrice IPA Záhora"
     },
     "beerstreet::Záhora::Česká jedenáctka": {
@@ -933,7 +933,7 @@
   "unmatched": {
     "ambasada::Maisel & Friends, Bayreuth, Bavorsko::12,5° Urban IPA": {
       "attempts": 1,
-      "last_tried_at": "2026-05-21T20:49:54Z",
+      "last_tried_at": "2026-05-22T09:09:44Z",
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::-::-": {
@@ -948,7 +948,7 @@
     },
     "beerstreet::Klenot::Guava and rosemary": {
       "attempts": 1,
-      "last_tried_at": "2026-05-21T20:49:48Z",
+      "last_tried_at": "2026-05-22T09:09:16Z",
       "reason": "no_candidates_above_threshold"
     }
   }
