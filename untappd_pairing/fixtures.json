@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-22T09:09:52Z",
+  "generated_at": "2026-05-22T09:41:39Z",
   "fixtures": {
     "ambasada::Haksna, Ostrava, Stout s laktozou::Batalion": {
       "beer": {
@@ -126,7 +126,7 @@
       "annotation": {
         "verdict": "expected_missing",
         "expected": "/b/kynspersky-pivovar-summer-ale/4267619",
-        "note": "Naparovano na Ogar Summer Ale; spravne pivo (Kynspersky pivovar) zadna query nevratila"
+        "note": "Naparovano na Ogar Summer Ale; spravne pivo (Kynspersky pivovar) zadna query nevratila. Vyreseno overridem v overrides.json."
       }
     },
     "ambasada::MadCat, Kamenice::Mango Pina Coco Sourus": {
