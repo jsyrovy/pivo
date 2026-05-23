@@ -1,7 +1,53 @@
 {
   "version": 1,
-  "generated_at": "2026-05-22T20:41:31Z",
+  "generated_at": "2026-05-23T20:04:26Z",
   "fixtures": {
+    "ambasada::Fracek, Praha::Big Sure!": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Fracek, Praha",
+        "name": "Big Sure!",
+        "style": "West Coast IPA",
+        "degree_plato": 14.0
+      },
+      "captured_at": "2026-05-23T20:04:26Z",
+      "candidates": [
+        {
+          "name": "16°P Pure Fresh Beer (16度原浆鲜啤)",
+          "brewery": "Bilu Craft Beer (碧鹿精酿)",
+          "url": "/b/bilu-craft-beer-bi-lu-jing-niang-16degp-pure-fresh-beer-16du-yuan-jiang-xian-pi/5009248",
+          "rating": null
+        },
+        {
+          "name": "BIG SURE! West Coast IPA",
+          "brewery": "FRACEK",
+          "url": "/b/fracek-big-sure-west-coast-ipa/5826591",
+          "rating": 3.784
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Big Sure! 14° Fracek",
+          "hits": []
+        },
+        {
+          "query": "Big Sure! 14°",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Big Sure! Fracek",
+          "hits": [
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/fracek-big-sure-west-coast-ipa/5826591",
+        "score": 1.0
+      }
+    },
     "ambasada::Haksna, Ostrava, Stout s laktozou::Batalion": {
       "beer": {
         "source": "ambasada",
@@ -656,6 +702,36 @@
       ],
       "outcome": {
         "matched": "/b/pioneer-beer-cruel-river/6629762",
+        "score": 1.0
+      }
+    },
+    "beerstreet::U Vojtěchů::Šlehač": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "U Vojtěchů",
+        "name": "Šlehač",
+        "style": "IPL",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-05-23T20:04:19Z",
+      "candidates": [
+        {
+          "name": "Šlehač",
+          "brewery": "Pivovar U Vojtěchů",
+          "url": "/b/pivovar-u-vojtechu-slehac/4240811",
+          "rating": 3.712
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Šlehač 12° U Vojtěchů",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-u-vojtechu-slehac/4240811",
         "score": 1.0
       }
     },
