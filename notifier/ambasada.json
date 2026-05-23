@@ -13,10 +13,6 @@
       "description": "4,6% alc. piv. Mordýř, Dolní Ředice, světlý ležák"
     },
     {
-      "name": "11° Summer Ale",
-      "description": "4,5% alc. piv. Kynšperský Zajíc, Kynšperk, Pale Ale"
-    },
-    {
       "name": "12,5° Urban IPA",
       "description": "5,6% alc. piv. Maisel & Friends, Bayreuth, Bavorsko, American IPA"
     },
@@ -27,6 +23,10 @@
     {
       "name": "12° PP (Pořádné Pivo)",
       "description": "4,9% alc. piv. JungBerg, Hořice, světlý ležák"
+    },
+    {
+      "name": "14° Big Sure!",
+      "description": "6,5% alc. piv. Fracek, Praha, West Coast IPA"
     },
     {
       "name": "25° Batalion",
