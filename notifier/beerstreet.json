@@ -5,10 +5,6 @@
       "description": "4.6% alc., Brewnicorn, Ležák světlý"
     },
     {
-      "name": "11° Švihák",
-      "description": "4.9% alc., Loutkář, Summer Ale"
-    },
-    {
       "name": "12° Cranberry+plum+ginger",
       "description": "4.1% alc., Klenot, Sour"
     },
@@ -23,6 +19,10 @@
     {
       "name": "12° Sunrice IPA",
       "description": "5.1% alc., Záhora, IPA"
+    },
+    {
+      "name": "12° Šlehač",
+      "description": "4.9% alc., U Vojtěchů, IPL"
     }
   ]
 }
