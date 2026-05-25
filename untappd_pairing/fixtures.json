@@ -1,7 +1,44 @@
 {
   "version": 1,
-  "generated_at": "2026-05-24T20:02:18Z",
+  "generated_at": "2026-05-25T18:56:51Z",
   "fixtures": {
+    "ambasada::Agent, Olešnice::Stylish Girl": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Agent, Olešnice",
+        "name": "Stylish Girl",
+        "style": "Milkshake NEIPA - raspberry",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-05-25T18:56:47Z",
+      "candidates": [
+        {
+          "name": "Stylish Girl - Milkshake NEIPA 13° - Blackberry",
+          "brewery": "Pivovar Agent",
+          "url": "/b/pivovar-agent-stylish-girl-milkshake-neipa-13deg-blackberry/5988268",
+          "rating": 3.754
+        },
+        {
+          "name": "I Am Stylish Girl Milkshake New England IPA 13°",
+          "brewery": "Pivovar Agent",
+          "url": "/b/pivovar-agent-i-am-stylish-girl-milkshake-new-england-ipa-13deg/5521251",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Stylish Girl 13° Agent",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-agent-stylish-girl-milkshake-neipa-13deg-blackberry/5988268",
+        "score": 1.0
+      }
+    },
     "ambasada::Fracek, Praha::Big Sure!": {
       "beer": {
         "source": "ambasada",
@@ -57,6 +94,36 @@
         "degree_plato": 25.0
       },
       "captured_at": "2026-05-22T09:09:52Z",
+      "candidates": [
+        {
+          "name": "Batalion 25. Narozeniny",
+          "brewery": "Haksna Brewery",
+          "url": "/b/haksna-brewery-batalion-25-narozeniny/6693539",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Batalion 25° Haksna",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/haksna-brewery-batalion-25-narozeniny/6693539",
+        "score": 1.0
+      }
+    },
+    "ambasada::Haksna, Ostrava::Batalion": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Haksna, Ostrava",
+        "name": "Batalion",
+        "style": "Stout s laktozou, malinami a vanilkou",
+        "degree_plato": 25.0
+      },
+      "captured_at": "2026-05-25T18:56:51Z",
       "candidates": [
         {
           "name": "Batalion 25. Narozeniny",
