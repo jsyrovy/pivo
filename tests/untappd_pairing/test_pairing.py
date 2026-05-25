@@ -224,6 +224,8 @@ def test_pairing_sends_pushover_notification_when_beer_matched(tmp_path, monkeyp
     assert mock_pushover.call_args.kwargs.get("html") is True
     assert "<b>Naparováno 1 pivo:</b>" in message
     assert 'href="https://untappd.com/b/wild-creatures-tears/1"' in message
+    assert ">https://untappd.com/b/wild-creatures-tears/1</a>" in message
+    assert "Wild Creatures :: Tears of St Laurent (2020)\n" in message
     assert "Tears of St Laurent" in message
 
 
