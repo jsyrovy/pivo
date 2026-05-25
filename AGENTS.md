@@ -37,7 +37,7 @@ uv run --dev -m pytest tests/pivni_valka/test_pivni_valka.py
 uv run --dev -m pytest tests/pivni_valka/test_pivni_valka.py::test_parse_unique_beers_count
 
 # Single test directory / module
-uv run --dev -m pytest tests/notifier/
+uv run --dev -m pytest tests/untappd_pairing/
 
 # With verbose output
 uv run --dev -m pytest -v tests/pivni_valka/test_pivni_valka.py::test_parse_unique_beers_count
@@ -49,7 +49,7 @@ uv run --dev -m pytest -v tests/pivni_valka/test_pivni_valka.py::test_parse_uniq
 make run-pivni-valka                 # Full run (scrapes + notifies)
 make run-pivni-valka-notificationless # No push notifications
 make run-pivni-valka-local           # Skip downloading, use cached data
-make run-notifier                    # Run pub tap notifier
+make run-untappd-pairing             # Pair tap beers with Untappd entries
 make run-archivist                   # Run RSS archiver
 ```
 
@@ -59,7 +59,7 @@ On every push (`.github/workflows/tests.yml`), CI runs in parallel:
 - `make test` (pytest)
 - `make mypy` (type checking)
 - `make lint` (ruff)
-- Smoke tests for pivni-valka and notifier pipelines
+- Smoke test for the pivni-valka pipeline
 
 All checks must pass before merging.
 
@@ -179,7 +179,6 @@ untappd/
   data/              # SQLite dumps (data_dump.sql, test_dump.sql)
   database/          # SQLAlchemy ORM models and DB utilities
   maintenance/       # One-off maintenance scripts
-  notifier/          # Pub tap monitoring & push notifications
   pivni_valka/       # Main stats tracking module
     stats/           # Chart data and tile computations
   robot/             # Base runner abstractions (BaseRobot, OrmRobot)

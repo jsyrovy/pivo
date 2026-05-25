@@ -32,15 +32,6 @@ clean-dist:
 test-pivni-valka:
 	uv run --dev pytest tests/pivni_valka
 
-run-notifier:
-	uv run --no-dev run_notifier.py
-
-run-notifier-notificationless:
-	uv run --no-dev run_notifier.py --notificationless
-
-run-notifier-ambasada:
-	uv run --no-dev run_notifier.py --ambasada
-
 run-archivist:
 	uv run --no-dev run_archivist.py
 
