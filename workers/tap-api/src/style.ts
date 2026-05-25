@@ -14,6 +14,9 @@ const ACRONYMS = new Set([
   "IBU",
 ]);
 
+const NON_ALPHANUMERIC = /[^\p{L}\p{N}]+/gu;
+const WHITESPACE_SPLIT = /(\s+)/;
+
 export function formatStyle(raw: string): string {
   const trimmed = raw.trim();
   if (!trimmed) return "";
@@ -23,10 +26,10 @@ export function formatStyle(raw: string): string {
     lower.charAt(0).toLocaleUpperCase("cs-CZ") + lower.slice(1);
 
   return sentenceCased
-    .split(/(\s+)/)
+    .split(WHITESPACE_SPLIT)
     .map((token) => {
       if (!token.trim()) return token;
-      const core = token.replace(/[^\p{L}\p{N}]+/gu, "").toUpperCase();
+      const core = token.replace(NON_ALPHANUMERIC, "").toUpperCase();
       return ACRONYMS.has(core) ? token.toUpperCase() : token;
     })
     .join("");
