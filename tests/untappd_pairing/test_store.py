@@ -158,6 +158,16 @@ def test_save_sorts_keys_for_stable_diffs(tmp_path):
     assert keys == sorted(keys)
 
 
+@pytest.mark.parametrize("last_tried_at", [12345, "not-a-date"])
+def test_should_retry_returns_true_when_last_tried_at_is_unparseable(last_tried_at):
+    store = PairingsStore()
+    beer = _beer()
+    key = beer_key(beer.source, beer.brewery, beer.name)
+    store.unmatched[key] = {"reason": "no_candidates_above_threshold", "last_tried_at": last_tried_at}
+
+    assert store.should_retry(key) is True
+
+
 def test_load_recovers_from_corrupt_file(tmp_path, caplog):
     path = tmp_path / "pairings.json"
     path.write_text("not json at all")

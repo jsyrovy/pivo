@@ -22,3 +22,11 @@ def test_replay_matches_expected_outcome(key, record):
     assert actual == expected.matched_url, (
         f"{key}: replay produced {actual!r}, expected {expected.matched_url!r} ({expected.reason})"
     )
+
+
+def test_load_records_returns_empty_when_fixtures_file_missing(monkeypatch, tmp_path):
+    monkeypatch.setattr(
+        "tests.untappd_pairing.test_fixtures_replay.FIXTURES_PATH",
+        tmp_path / "does-not-exist.json",
+    )
+    assert _load_records() == []

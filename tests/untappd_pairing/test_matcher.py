@@ -28,6 +28,16 @@ def test_name_overlap_low_for_different_beers():
     assert matcher.name_overlap("Pilsner", "Stout") < 0.3
 
 
+def test_name_overlap_zero_when_either_side_normalizes_to_empty():
+    assert matcher.name_overlap("", "Pilsner") == 0.0
+    assert matcher.name_overlap("Pilsner", "") == 0.0
+
+
+def test_name_overlap_handles_single_character_name():
+    assert matcher.name_overlap("X", "X") == 1.0
+    assert matcher.name_overlap("X", "Pilsner") == 0.0
+
+
 def test_brewery_matches_subset_with_pivovar_prefix():
     assert matcher.brewery_matches("Loutkář", "Pivovar Loutkař") is True
 

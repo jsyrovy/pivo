@@ -21,6 +21,17 @@ def test_download_page():
         assert download_page("") == "hi"
 
 
+def test_download_page_merges_extra_headers():
+    with mock.patch("utils.common.httpx.Client") as client_cls:
+        client_instance = client_cls.return_value.__enter__.return_value
+        client_instance.get.return_value.text = "hi"
+        download_page("", extra_headers={"X-Custom": "yes"})
+
+    headers = client_cls.call_args.kwargs["headers"]
+    assert headers["X-Custom"] == "yes"
+    assert "User-Agent" in headers
+
+
 def test_get_template():
     name = "pivni-valka.html"
     assert get_template(name).name == name
