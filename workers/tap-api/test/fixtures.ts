@@ -85,7 +85,7 @@ export const AMBASADA_LONG_DESC_FIXTURE = `<!doctype html>
     <td class="listek_tab_cena">80</td>
   </tr>
   <tr>
-    <td class="listek_tab_popis">4,0% alc. piv. Pivovar s Velmi Dlouhym Nazvem a Popisem, Okres Hodne Velmi Daleko od Centra, Nadmorska Vyska 800 m, Pale Ale with adjuncts 0,5 l</td>
+    <td class="listek_tab_popis">4,0% alc. piv. Pivovar s Velmi Dlouhym Nazvem a Popisem, Okres Hodne Velmi Daleko od Centra, Nadmorska Vyska 800 m, Pale Ale with various adjuncts</td>
   </tr>
 </table>
 </body></html>`;

@@ -63,13 +63,13 @@ describe("parseAmbasadaHtml", () => {
     expect(beers).toEqual([]);
   });
 
-  it("collapses long descriptions to first two parts as brewery", async () => {
+  it("uses style keyword to split brewery and style in long descriptions", async () => {
     const beers = await parseAmbasadaHtml(htmlResponse(AMBASADA_LONG_DESC_FIXTURE));
     expect(beers).toHaveLength(1);
     expect(beers[0].brewery).toBe(
-      "Pivovar s Velmi Dlouhym Nazvem a Popisem, Okres Hodne Velmi Daleko od Centra",
+      "Pivovar s Velmi Dlouhym Nazvem a Popisem, Okres Hodne Velmi Daleko od Centra, Nadmorska Vyska 800 m",
     );
-    expect(beers[0].style).toBe("");
+    expect(beers[0].style).toBe("Pale ale with various adjuncts");
   });
 
   it("tags source as ambasada", async () => {
@@ -107,6 +107,32 @@ describe("parseDescription", () => {
     expect(parseDescription(desc)).toMatchObject({
       brewery: desc,
       style: "",
+    });
+  });
+
+  it("detects style keyword in a middle part (Batalion case)", () => {
+    expect(
+      parseDescription(
+        "9,3% alc. piv. Haksna, Ostrava, Stout s laktozou, malinami a vanilkou",
+      ),
+    ).toEqual({
+      abv: 9.3,
+      brewery: "Haksna, Ostrava",
+      style: "Stout s laktozou, malinami a vanilkou",
+    });
+  });
+
+  it("detects style keyword as second word (Dry Stout)", () => {
+    expect(parseDescription("Pivovar ABC, Dry Stout")).toMatchObject({
+      brewery: "Pivovar ABC",
+      style: "Dry Stout",
+    });
+  });
+
+  it("detects Czech style keyword (světlý ležák)", () => {
+    expect(parseDescription("Pivovar XYZ, světlý ležák")).toMatchObject({
+      brewery: "Pivovar XYZ",
+      style: "světlý ležák",
     });
   });
 });

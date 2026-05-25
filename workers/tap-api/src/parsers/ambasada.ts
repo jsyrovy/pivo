@@ -118,6 +118,16 @@ export function parseDescription(raw: string): {
   const parts = desc.split(",").map((p) => p.trim()).filter((p) => p.length > 0);
   if (parts.length === 0) return { abv, brewery: "", style: "" };
 
+  for (let i = 1; i < parts.length; i++) {
+    if (startsWithStyleKeyword(parts[i])) {
+      return {
+        abv,
+        brewery: parts.slice(0, i).join(", "),
+        style: parts.slice(i).join(", "),
+      };
+    }
+  }
+
   const totalLen = desc.length;
   const last = parts[parts.length - 1];
 
@@ -136,4 +146,20 @@ export function parseDescription(raw: string): {
     };
   }
   return { abv, brewery: desc, style: "" };
+}
+
+const STYLE_KEYWORDS = new Set([
+  "stout", "lager", "pilsner", "ipa", "neipa", "dipa", "iipa", "tipa",
+  "apa", "nepa", "ale", "porter", "weizen", "wheat", "hefeweizen",
+  "saison", "tripel", "dubbel", "quadrupel", "gose", "sour",
+  "pale", "india", "imperial", "barleywine",
+  "kölsch", "altbier", "helles", "dunkel", "bock", "märzen",
+  "rauchbier", "berliner", "lambic", "gueuze",
+  "ležák", "světlý", "světlé", "polotmavý", "polotmavé",
+  "tmavý", "tmavé", "pšeničné", "pšenice", "výčepní", "kvasnicové",
+]);
+
+function startsWithStyleKeyword(part: string): boolean {
+  const words = part.toLocaleLowerCase("cs-CZ").split(/\s+/).slice(0, 2);
+  return words.some((w) => STYLE_KEYWORDS.has(w));
 }
