@@ -83,15 +83,6 @@
       "matched_at": "2026-04-19T19:39:29Z",
       "query_used": "Gold Digger Fracek"
     },
-    "ambasada::Haksna, Ostrava, Stout s laktozou::Batalion": {
-      "untappd_url": "https://untappd.com/b/haksna-brewery-batalion-25-narozeniny/6693539",
-      "untappd_name": "Batalion 25. Narozeniny",
-      "untappd_brewery": "Haksna Brewery",
-      "rating": null,
-      "match_score": 1.0,
-      "matched_at": "2026-05-22T09:09:52Z",
-      "query_used": "Batalion 25° Haksna"
-    },
     "ambasada::Haksna, Ostrava::Batalion": {
       "untappd_url": "https://untappd.com/b/haksna-brewery-batalion-25-narozeniny/6693539",
       "untappd_name": "Batalion 25. Narozeniny",
