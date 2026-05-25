@@ -83,8 +83,8 @@ class UntappdPairing(BaseRobot):
         if matched:
             header = f"<b>Naparováno {len(matched)} {_pluralize_pivo(len(matched))}:</b>"
             lines = [
-                f'• <a href="{html_escape(url, quote=True)}">'
-                f"{html_escape(beer.brewery)} :: {html_escape(beer.name)}</a>"
+                f"• {html_escape(beer.brewery)} :: {html_escape(beer.name)}\n"
+                f'  <a href="{html_escape(url, quote=True)}">{html_escape(url)}</a>'
                 for beer, url in matched
             ]
             sections.append(header + "\n" + "\n".join(lines))
