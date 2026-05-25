@@ -1,5 +1,6 @@
 import type { Beer } from "../schema";
 import { beerStreetPricing } from "../pricing";
+import { formatStyle } from "../style";
 
 interface RawBeer {
   nazev?: unknown;
@@ -37,7 +38,7 @@ export function parseBeerStreetJson(raw: unknown): Beer[] {
   return items.map((item): Beer => ({
     name: trimString(item.nazev),
     brewery: trimString(item.nazev_pivovaru),
-    style: trimString(item.styl),
+    style: formatStyle(trimString(item.styl)),
     abv: parseNumber(item.avb),
     degreePlato: parseNumber(item.epm),
     source: "beerstreet",

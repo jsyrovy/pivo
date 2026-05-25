@@ -1,5 +1,6 @@
 import type { Beer } from "../schema";
 import { ambasadaPricing } from "../pricing";
+import { formatStyle } from "../style";
 
 interface PendingRow {
   name?: string;
@@ -87,7 +88,7 @@ function buildBeer(row: PendingRow, order: number): Beer | null {
   return {
     name,
     brewery,
-    style,
+    style: formatStyle(style),
     abv,
     degreePlato,
     source: "ambasada",
