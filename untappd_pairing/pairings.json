@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-25T22:12:26Z",
+  "generated_at": "2026-05-26T16:18:32Z",
   "pairings": {
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-stylish-girl-milkshake-neipa-13deg-blackberry/5988268",
@@ -587,6 +587,15 @@
       "matched_at": "2026-05-01T20:02:10Z",
       "query_used": "Orange & cinnamon Klenot"
     },
+    "beerstreet::Klenot::Pomeranč + skořice": {
+      "untappd_url": "https://untappd.com/b/pivovar-cestmir-vanocni-sour-pomeranc-skorice/6498376",
+      "untappd_name": "Vánoční Sour Pomeranč Skořice",
+      "untappd_brewery": "Pivovar Čestmír",
+      "rating": 3.714,
+      "match_score": 1.0,
+      "matched_at": "2026-05-26T16:18:32Z",
+      "query_used": "Pomeranč + skořice"
+    },
     "beerstreet::Klenot::orange & cinnamon": {
       "untappd_url": "https://untappd.com/b/hradecky-klenot-sour-ale-orange-cinnamon/5361488",
       "untappd_name": "Sour ALE– Orange & Cinnamon",
@@ -676,6 +685,15 @@
       "match_score": 1.0,
       "matched_at": "2026-04-24T19:50:40Z",
       "query_used": "Verbuňk Louka"
+    },
+    "beerstreet::Loutkář::Eldorado": {
+      "untappd_url": "https://untappd.com/b/pivovar-loutkar-eldorado-12-single-hop/5230836",
+      "untappd_name": "Eldorádo 12 Single Hop",
+      "untappd_brewery": "Pivovar Loutkář",
+      "rating": 3.782,
+      "match_score": 1.0,
+      "matched_at": "2026-05-26T16:18:20Z",
+      "query_used": "Eldorado 12° Loutkář"
     },
     "beerstreet::Loutkář::JUNO": {
       "untappd_url": "https://untappd.com/b/pivovar-loutkar-juno-11-czech-ale/6671370",
@@ -820,6 +838,15 @@
       "match_score": 1.0,
       "matched_at": "2026-04-17T19:07:47Z",
       "query_used": "Vidle Sqbru"
+    },
+    "beerstreet::TAMTAM::Raise your horns": {
+      "untappd_url": "https://untappd.com/b/tamtam-brewing-co-raise-your-horns/6694650",
+      "untappd_name": "Raise Your Horns",
+      "untappd_brewery": "TamTam Brewing Co.",
+      "rating": 3.897,
+      "match_score": 1.0,
+      "matched_at": "2026-05-26T16:18:26Z",
+      "query_used": "Raise your horns TAMTAM"
     },
     "beerstreet::Thrills  Brewing::Věžák": {
       "untappd_url": "https://untappd.com/b/pivovar-thrills-brewing-vezak-velkopavlovicky/4818255",

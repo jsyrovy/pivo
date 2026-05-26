@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-25T22:12:26Z",
+  "generated_at": "2026-05-26T16:18:32Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "beer": {
@@ -519,6 +519,71 @@
         "note": "Pivo na Untappd zatim neexistuje"
       }
     },
+    "beerstreet::Klenot::Pomeranč + skořice": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Klenot",
+        "name": "Pomeranč + skořice",
+        "style": "Sour",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-05-26T16:18:32Z",
+      "candidates": [
+        {
+          "name": "Sour ALE– Orange & Cinnamon",
+          "brewery": "Hradecký Klenot",
+          "url": "/b/hradecky-klenot-sour-ale-orange-cinnamon/5361488",
+          "rating": 3.874
+        },
+        {
+          "name": "Vánoční Sour Pomeranč Skořice",
+          "brewery": "Pivovar Čestmír",
+          "url": "/b/pivovar-cestmir-vanocni-sour-pomeranc-skorice/6498376",
+          "rating": 3.714
+        },
+        {
+          "name": "Pomeranč & Skořice 12",
+          "brewery": "Břevnovský klášterní pivovar sv. Vojtěcha",
+          "url": "/b/brevnovsky-klasterni-pivovar-sv-vojtecha-pomeranc-and-skorice-12/6100074",
+          "rating": 3.573
+        },
+        {
+          "name": "Vánoční Ležák Skořice Pomeranče",
+          "brewery": "Pivovar Broumov",
+          "url": "/b/pivovar-broumov-vanocni-lezak-skorice-pomerance/4129302",
+          "rating": 2.712
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Pomeranč + skořice 10° Klenot",
+          "hits": []
+        },
+        {
+          "query": "Pomeranč + skořice 10°",
+          "hits": []
+        },
+        {
+          "query": "Pomeranč + skořice Klenot",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Pomeranč + skořice",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-cestmir-vanocni-sour-pomeranc-skorice/6498376",
+        "score": 1.0
+      }
+    },
     "beerstreet::Louka::Haka": {
       "beer": {
         "source": "beerstreet",
@@ -606,6 +671,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-louka-kuzelka/4615473",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Loutkář::Eldorado": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Loutkář",
+        "name": "Eldorado",
+        "style": "Singl hop ale",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-05-26T16:18:20Z",
+      "candidates": [
+        {
+          "name": "Eldorádo 12 Single Hop",
+          "brewery": "Pivovar Loutkář",
+          "url": "/b/pivovar-loutkar-eldorado-12-single-hop/5230836",
+          "rating": 3.782
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Eldorado 12° Loutkář",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-loutkar-eldorado-12-single-hop/5230836",
         "score": 1.0
       }
     },
@@ -769,6 +864,44 @@
       ],
       "outcome": {
         "matched": "/b/pioneer-beer-cruel-river/6629762",
+        "score": 1.0
+      }
+    },
+    "beerstreet::TAMTAM::Raise your horns": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "TAMTAM",
+        "name": "Raise your horns",
+        "style": "NEIPA",
+        "degree_plato": 15.0
+      },
+      "captured_at": "2026-05-26T16:18:26Z",
+      "candidates": [
+        {
+          "name": "Raise Your Horns",
+          "brewery": "TamTam Brewing Co.",
+          "url": "/b/tamtam-brewing-co-raise-your-horns/6694650",
+          "rating": 3.897
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Raise your horns 15° TAMTAM",
+          "hits": []
+        },
+        {
+          "query": "Raise your horns 15°",
+          "hits": []
+        },
+        {
+          "query": "Raise your horns TAMTAM",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/tamtam-brewing-co-raise-your-horns/6694650",
         "score": 1.0
       }
     },
