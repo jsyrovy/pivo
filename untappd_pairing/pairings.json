@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-26T17:25:33Z",
+  "generated_at": "2026-05-26T17:29:12Z",
   "pairings": {
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-stylish-girl-milkshake-neipa-13deg-blackberry/5988268",
@@ -704,6 +704,15 @@
       "matched_at": "2026-05-26T16:18:20Z",
       "query_used": "Eldorado 12° Loutkář"
     },
+    "beerstreet::Loutkář::Eldorádo": {
+      "untappd_url": "https://untappd.com/b/pivovar-loutkar-eldorado-12-single-hop/5230836",
+      "untappd_name": "Eldorádo 12 Single Hop",
+      "untappd_brewery": "Pivovar Loutkář",
+      "rating": 3.782,
+      "match_score": 1.0,
+      "matched_at": "2026-05-26T17:29:12Z",
+      "query_used": "Eldorádo 12° Loutkář"
+    },
     "beerstreet::Loutkář::JUNO": {
       "untappd_url": "https://untappd.com/b/pivovar-loutkar-juno-11-czech-ale/6671370",
       "untappd_name": "Juno 11 Czech Ale",
@@ -856,6 +865,15 @@
       "match_score": 1.0,
       "matched_at": "2026-05-26T16:18:26Z",
       "query_used": "Raise your horns TAMTAM"
+    },
+    "beerstreet::TAMTAM::Rise your horns": {
+      "untappd_url": "https://untappd.com/b/tamtam-brewing-co-raise-your-horns/6694650",
+      "untappd_name": "Raise Your Horns",
+      "untappd_brewery": "TamTam Brewing Co.",
+      "rating": 3.897,
+      "match_score": 0.9167,
+      "matched_at": "2026-05-26T17:29:09Z",
+      "query_used": "Rise your horns TAMTAM"
     },
     "beerstreet::Thrills  Brewing::Věžák": {
       "untappd_url": "https://untappd.com/b/pivovar-thrills-brewing-vezak-velkopavlovicky/4818255",

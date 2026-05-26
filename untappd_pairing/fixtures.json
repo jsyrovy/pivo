@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-26T17:25:33Z",
+  "generated_at": "2026-05-26T17:29:12Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "beer": {
@@ -766,6 +766,36 @@
         "score": 1.0
       }
     },
+    "beerstreet::Loutkář::Eldorádo": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Loutkář",
+        "name": "Eldorádo",
+        "style": "Singl hop ale",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-05-26T17:29:12Z",
+      "candidates": [
+        {
+          "name": "Eldorádo 12 Single Hop",
+          "brewery": "Pivovar Loutkář",
+          "url": "/b/pivovar-loutkar-eldorado-12-single-hop/5230836",
+          "rating": 3.782
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Eldorádo 12° Loutkář",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-loutkar-eldorado-12-single-hop/5230836",
+        "score": 1.0
+      }
+    },
     "beerstreet::Loutkář::Loutkář": {
       "beer": {
         "source": "beerstreet",
@@ -965,6 +995,44 @@
       "outcome": {
         "matched": "/b/tamtam-brewing-co-raise-your-horns/6694650",
         "score": 1.0
+      }
+    },
+    "beerstreet::TAMTAM::Rise your horns": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "TAMTAM",
+        "name": "Rise your horns",
+        "style": "NEIPA",
+        "degree_plato": 15.0
+      },
+      "captured_at": "2026-05-26T17:29:09Z",
+      "candidates": [
+        {
+          "name": "Raise Your Horns",
+          "brewery": "TamTam Brewing Co.",
+          "url": "/b/tamtam-brewing-co-raise-your-horns/6694650",
+          "rating": 3.897
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Rise your horns 15° TAMTAM",
+          "hits": []
+        },
+        {
+          "query": "Rise your horns 15°",
+          "hits": []
+        },
+        {
+          "query": "Rise your horns TAMTAM",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/tamtam-brewing-co-raise-your-horns/6694650",
+        "score": 0.9167
       }
     },
     "beerstreet::U Vojtěchů::Šlehač": {
