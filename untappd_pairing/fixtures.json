@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-26T16:18:32Z",
+  "generated_at": "2026-05-26T17:25:33Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "beer": {
@@ -611,6 +611,68 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-louka-haka-12deg/4422305",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Louka::Helles": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Louka",
+        "name": "Helles",
+        "style": "Ležák světlý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-05-26T17:25:33Z",
+      "candidates": [
+        {
+          "name": "Místní Helles 11°",
+          "brewery": "Dva kohouti",
+          "url": "/b/dva-kohouti-mistni-helles-11deg/5510570",
+          "rating": 3.608
+        },
+        {
+          "name": "11° Helles",
+          "brewery": "Holíčsky pivovar Wywar",
+          "url": "/b/holicsky-pivovar-wywar-11deg-helles/6213459",
+          "rating": 3.493
+        },
+        {
+          "name": "Kveik Helles 11°",
+          "brewery": "Bierwerkstatt NordSud",
+          "url": "/b/bierwerkstatt-nordsud-kveik-helles-11deg/4813354",
+          "rating": 3.529
+        },
+        {
+          "name": "Helles Lager",
+          "brewery": "Öufi Brauerei",
+          "url": "/b/oufi-brauerei-helles-lager/239386",
+          "rating": 3.294
+        },
+        {
+          "name": "1162 Rauchfestbier",
+          "brewery": "Brauerei Hummel",
+          "url": "/b/brauerei-hummel-1162-rauchfestbier/205476",
+          "rating": 3.478
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Helles 11° Louka",
+          "hits": []
+        },
+        {
+          "query": "Helles 11°",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/dva-kohouti-mistni-helles-11deg/5510570",
         "score": 1.0
       }
     },
