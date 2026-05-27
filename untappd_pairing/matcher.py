@@ -28,12 +28,15 @@ def _bigrams(text: str) -> set[str]:
     return {normalized[i : i + 2] for i in range(len(normalized) - 1)}
 
 
-def name_overlap(beer_name: str, candidate_name: str) -> float:
-    bigrams_a = _bigrams(clean_beer_name(beer_name))
-    bigrams_b = _bigrams(candidate_name)
-    if not bigrams_a or not bigrams_b:
+def _overlap_from_bigrams(source_bigrams: set[str], candidate_name: str) -> float:
+    candidate_bigrams = _bigrams(candidate_name)
+    if not source_bigrams or not candidate_bigrams:
         return 0.0
-    return len(bigrams_a & bigrams_b) / min(len(bigrams_a), len(bigrams_b))
+    return len(source_bigrams & candidate_bigrams) / min(len(source_bigrams), len(candidate_bigrams))
+
+
+def name_overlap(beer_name: str, candidate_name: str) -> float:
+    return _overlap_from_bigrams(_bigrams(clean_beer_name(beer_name)), candidate_name)
 
 
 def brewery_matches(beer_brewery: str, candidate_brewery: str) -> bool:
@@ -91,7 +94,7 @@ def best_match(
     source_bigrams = _bigrams(clean_beer_name(beer_name))
     scored = [
         (
-            name_overlap(beer_name, c.name),
+            _overlap_from_bigrams(source_bigrams, c.name),
             _exact_normalized(beer_name, c.name),
             brewery_matches(beer_brewery, c.brewery),
             degree_re is not None and degree_re.search(c.name) is not None,
