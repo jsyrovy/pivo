@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-27T07:22:53Z",
+  "generated_at": "2026-05-27T08:34:14Z",
   "pairings": {
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-stylish-girl-milkshake-neipa-13deg-blackberry/5988268",
@@ -642,13 +642,13 @@
       "query_used": "Haka 12° Louka"
     },
     "beerstreet::Louka::Helles": {
-      "untappd_url": "https://untappd.com/b/dva-kohouti-mistni-helles-11deg/5510570",
-      "untappd_name": "Místní Helles 11°",
-      "untappd_brewery": "Dva kohouti",
-      "rating": 3.608,
+      "untappd_url": "https://untappd.com/b/pivovar-louka-helles/5966761",
+      "untappd_name": "Helles",
+      "untappd_brewery": "Pivovar Louka",
+      "rating": 3.461,
       "match_score": 1.0,
-      "matched_at": "2026-05-26T17:25:33Z",
-      "query_used": "Helles 11°"
+      "matched_at": "2026-05-27T08:34:14Z",
+      "query_used": "Helles Louka"
     },
     "beerstreet::Louka::Kuželka": {
       "untappd_url": "https://untappd.com/b/pivovar-louka-kuzelka/4615473",

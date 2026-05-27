@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-27T07:22:53Z",
+  "generated_at": "2026-05-27T08:34:14Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "beer": {
@@ -595,7 +595,7 @@
         "style": "Ležák světlý",
         "degree_plato": 11.0
       },
-      "captured_at": "2026-05-26T17:25:33Z",
+      "captured_at": "2026-05-27T08:34:14Z",
       "candidates": [
         {
           "name": "Místní Helles 11°",
@@ -626,6 +626,36 @@
           "brewery": "Brauerei Hummel",
           "url": "/b/brauerei-hummel-1162-rauchfestbier/205476",
           "rating": 3.478
+        },
+        {
+          "name": "Helles",
+          "brewery": "Pivovar Louka",
+          "url": "/b/pivovar-louka-helles/5966761",
+          "rating": 3.461
+        },
+        {
+          "name": "Lukas",
+          "brewery": "Thornbridge Brewery",
+          "url": "/b/thornbridge-brewery-lukas/1439741",
+          "rating": 3.342
+        },
+        {
+          "name": "Helles",
+          "brewery": "Lokalbryggeriet",
+          "url": "/b/lokalbryggeriet-helles/4561250",
+          "rating": null
+        },
+        {
+          "name": "Walberberger Helles nach Kölscher Art",
+          "brewery": "Lukas Zimmermann",
+          "url": "/b/lukas-zimmermann-walberberger-helles-nach-kolscher-art/2827763",
+          "rating": 3.567
+        },
+        {
+          "name": "Helles Värre",
+          "brewery": "Märsta Lokalbryggeri",
+          "url": "/b/marsta-lokalbryggeri-helles-varre/4331440",
+          "rating": null
         }
       ],
       "attempts": [
@@ -642,10 +672,20 @@
             3,
             4
           ]
+        },
+        {
+          "query": "Helles Louka",
+          "hits": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
         }
       ],
       "outcome": {
-        "matched": "/b/dva-kohouti-mistni-helles-11deg/5510570",
+        "matched": "/b/pivovar-louka-helles/5966761",
         "score": 1.0
       }
     },

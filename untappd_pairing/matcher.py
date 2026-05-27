@@ -9,6 +9,7 @@ if TYPE_CHECKING:
 
 NAME_OVERLAP_WITH_BREWERY = 0.50
 NAME_OVERLAP_WITHOUT_BREWERY = 0.85
+STRICT_MIN_SOURCE_BIGRAMS = 6
 BIGRAM_MIN_LEN = 2
 STYLE_KEYWORD_MIN_LEN = 3
 
@@ -87,6 +88,7 @@ def best_match(
     style_kws = _style_keywords(beer_style)
     degree_re = _degree_pattern(degree_plato)
     name_distinct = _name_distinct_from_brewery(beer_name, beer_brewery)
+    source_bigrams = _bigrams(clean_beer_name(beer_name))
     scored = [
         (
             name_overlap(beer_name, c.name),
@@ -111,7 +113,11 @@ def best_match(
         overlap, _exact, _matched, _degree_match, _style_match, candidate = brewery_hits[0]
         return MatchResult(candidate=candidate, score=round(overlap, 4), brewery_matched=True)
 
-    strict_hits = [t for t in scored if not t[2] and t[0] >= NAME_OVERLAP_WITHOUT_BREWERY]
+    strict_hits = (
+        [t for t in scored if not t[2] and t[0] >= NAME_OVERLAP_WITHOUT_BREWERY]
+        if len(source_bigrams) >= STRICT_MIN_SOURCE_BIGRAMS
+        else []
+    )
     if strict_hits:
         strict_hits.sort(key=_sort_key, reverse=True)
         overlap, _exact, _matched, _degree_match, _style_match, candidate = strict_hits[0]

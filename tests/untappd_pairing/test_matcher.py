@@ -239,6 +239,25 @@ def test_best_match_style_rescues_brewery_match_when_name_translated_to_english(
     assert result.brewery_matched is True
 
 
+def test_best_match_strict_path_rejects_short_generic_source_name():
+    # "Helles" has 5 bigrams; bigram overlap=1.0 against any longer candidate name containing
+    # "helles" is misleading. Without a brewery match, the matcher must not accept it -- otherwise
+    # generic style-like names match wrong-brewery beers and short-circuit later queries.
+    dva_kohouti = _candidate("Místní Helles 11°", brewery="Dva kohouti", url="https://untappd.com/b/dk/1")
+    wywar = _candidate("11° Helles", brewery="Holíčsky pivovar Wywar", url="https://untappd.com/b/w/2")
+    result = matcher.best_match("Helles", "Louka", [dva_kohouti, wywar], degree_plato=11)
+    assert result is None
+
+
+def test_best_match_brewery_path_still_works_for_short_source_name():
+    # Same short name "Helles", but candidate brewery matches -- must still pair.
+    louka = _candidate("Helles", brewery="Pivovar Louka", url="https://untappd.com/b/louka/h", rating=3.5)
+    result = matcher.best_match("Helles", "Louka", [louka], degree_plato=11)
+    assert result is not None
+    assert result.candidate.url == "https://untappd.com/b/louka/h"
+    assert result.brewery_matched is True
+
+
 def test_best_match_style_does_not_rescue_when_name_is_just_brewery():
     # Source name equals brewery -- name carries no info beyond the brewery, so style-only
     # rescue must not fire (preserves the Falkon::Falkon "no real beer name" semantics).
