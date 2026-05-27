@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-27T08:34:14Z",
+  "generated_at": "2026-05-27T17:24:06Z",
   "pairings": {
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-stylish-girl-milkshake-neipa-13deg-blackberry/5988268",
@@ -28,6 +28,15 @@
       "match_score": 1.0,
       "matched_at": "2026-04-17T11:21:20Z",
       "query_used": "Denali Beskydský Pivovárek"
+    },
+    "ambasada::Bevog, Bad Radkersburg, Rakousko::Buzz": {
+      "untappd_url": "https://untappd.com/b/bevog-brewery-buzz/4510503",
+      "untappd_name": "Buzz",
+      "untappd_brewery": "Bevog Brewery",
+      "rating": 3.628,
+      "match_score": 1.0,
+      "matched_at": "2026-05-27T17:24:06Z",
+      "query_used": "Buzz Bevog"
     },
     "ambasada::Chroust, Potštejn::Hoptopia": {
       "untappd_url": "https://untappd.com/b/chroust-hoptopia/2290462",
@@ -343,6 +352,15 @@
       "match_score": 1.0,
       "matched_at": "2026-04-17T11:21:12Z",
       "query_used": "Grapefruit Lollihop Sibeeria"
+    },
+    "ambasada::Sibeeria, Praha::Italian Pilsner": {
+      "untappd_url": "https://untappd.com/b/rodinny-pivovar-zichovec-kartel-italian-pilsner-12-rijen-2023/5540394",
+      "untappd_name": "Kartel Italian Pilsner 12 (Říjen 2023)",
+      "untappd_brewery": "Rodinný pivovar Zichovec",
+      "rating": 3.723,
+      "match_score": 1.0,
+      "matched_at": "2026-05-27T17:23:54Z",
+      "query_used": "Italian Pilsner 12°"
     },
     "ambasada::Sibeeria, Praha::Liquid Luck": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-liquid-luck/5141491",
@@ -1057,6 +1075,11 @@
     }
   },
   "unmatched": {
+    "ambasada::Obora, Malšice::Philadelphia Č. Rybíz & Malina": {
+      "attempts": 1,
+      "last_tried_at": "2026-05-27T17:24:02Z",
+      "reason": "no_candidates_above_threshold"
+    },
     "beerstreet::-::-": {
       "attempts": 1,
       "last_tried_at": "2026-04-18T19:39:13Z",

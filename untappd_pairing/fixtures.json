@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-27T08:34:14Z",
+  "generated_at": "2026-05-27T17:24:06Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "beer": {
@@ -36,6 +36,73 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-agent-stylish-girl-milkshake-neipa-13deg-blackberry/5988268",
+        "score": 1.0
+      }
+    },
+    "ambasada::Bevog, Bad Radkersburg, Rakousko::Buzz": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Bevog, Bad Radkersburg, Rakousko",
+        "name": "Buzz",
+        "style": "Ddh hazy IPA",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-05-27T17:24:06Z",
+      "candidates": [
+        {
+          "name": "Buzz Bomb",
+          "brewery": "Original 13 Ciderworks",
+          "url": "/b/original-13-ciderworks-buzz-bomb/3442782",
+          "rating": 3.844
+        },
+        {
+          "name": "#139 Bad Hop (Buzz Higher)",
+          "brewery": "TKBrewing",
+          "url": "/b/tkbrewing-139-bad-hop-buzz-higher/3968549",
+          "rating": 3.791
+        },
+        {
+          "name": "Buzz Cut Lager 11°",
+          "brewery": "Pivovar General",
+          "url": "/b/pivovar-general-buzz-cut-lager-11deg/4324950",
+          "rating": null
+        },
+        {
+          "name": "#13 Buzzy Session IPA",
+          "brewery": "The Kells Beer Company",
+          "url": "/b/the-kells-beer-company-13-buzzy-session-ipa/3994014",
+          "rating": 3.608
+        },
+        {
+          "name": "Buzz",
+          "brewery": "Bevog Brewery",
+          "url": "/b/bevog-brewery-buzz/4510503",
+          "rating": 3.628
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Buzz 13° Bevog",
+          "hits": []
+        },
+        {
+          "query": "Buzz 13°",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "query": "Buzz Bevog",
+          "hits": [
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/bevog-brewery-buzz/4510503",
         "score": 1.0
       }
     },
@@ -367,6 +434,39 @@
         "score": 1.0
       }
     },
+    "ambasada::Obora, Malšice::Philadelphia Č. Rybíz & Malina": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Obora, Malšice",
+        "name": "Philadelphia Č. Rybíz & Malina",
+        "style": "Fruit sour ale",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-05-27T17:24:02Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Philadelphia Č. Rybíz & Malina 12° Obora",
+          "hits": []
+        },
+        {
+          "query": "Philadelphia Č. Rybíz & Malina 12°",
+          "hits": []
+        },
+        {
+          "query": "Philadelphia Č. Rybíz & Malina Obora",
+          "hits": []
+        },
+        {
+          "query": "Philadelphia Č. Rybíz & Malina",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
     "ambasada::Sibeeria, Praha::Blackcurrant Sorbet": {
       "beer": {
         "source": "ambasada",
@@ -402,6 +502,47 @@
       ],
       "outcome": {
         "matched": "/b/sibeeria-brewery-blackcurrant-sorbet/3759941",
+        "score": 1.0
+      }
+    },
+    "ambasada::Sibeeria, Praha::Italian Pilsner": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Sibeeria, Praha",
+        "name": "Italian Pilsner",
+        "style": "Italian pilsner",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-05-27T17:23:54Z",
+      "candidates": [
+        {
+          "name": "Kartel Italian Pilsner 12 (Říjen 2023)",
+          "brewery": "Rodinný pivovar Zichovec",
+          "url": "/b/rodinny-pivovar-zichovec-kartel-italian-pilsner-12-rijen-2023/5540394",
+          "rating": 3.723
+        },
+        {
+          "name": "174 Taproom Series 124: Dry Hopped Italian Pilsner",
+          "brewery": "Broadhead Brewery",
+          "url": "/b/broadhead-brewery-174-taproom-series-124-dry-hopped-italian-pilsner/6386834",
+          "rating": 3.553
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Italian Pilsner 12° Sibeeria",
+          "hits": []
+        },
+        {
+          "query": "Italian Pilsner 12°",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/rodinny-pivovar-zichovec-kartel-italian-pilsner-12-rijen-2023/5540394",
         "score": 1.0
       }
     },
