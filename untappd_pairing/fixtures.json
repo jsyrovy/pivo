@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-26T22:23:43Z",
+  "generated_at": "2026-05-27T07:22:53Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "beer": {
@@ -527,31 +527,13 @@
         "style": "Sour",
         "degree_plato": 10.0
       },
-      "captured_at": "2026-05-26T16:18:32Z",
+      "captured_at": "2026-05-27T07:22:53Z",
       "candidates": [
         {
           "name": "Sour ALE– Orange & Cinnamon",
           "brewery": "Hradecký Klenot",
           "url": "/b/hradecky-klenot-sour-ale-orange-cinnamon/5361488",
           "rating": 3.874
-        },
-        {
-          "name": "Vánoční Sour Pomeranč Skořice",
-          "brewery": "Pivovar Čestmír",
-          "url": "/b/pivovar-cestmir-vanocni-sour-pomeranc-skorice/6498376",
-          "rating": 3.714
-        },
-        {
-          "name": "Pomeranč & Skořice 12",
-          "brewery": "Břevnovský klášterní pivovar sv. Vojtěcha",
-          "url": "/b/brevnovsky-klasterni-pivovar-sv-vojtecha-pomeranc-and-skorice-12/6100074",
-          "rating": 3.573
-        },
-        {
-          "name": "Vánoční Ležák Skořice Pomeranče",
-          "brewery": "Pivovar Broumov",
-          "url": "/b/pivovar-broumov-vanocni-lezak-skorice-pomerance/4129302",
-          "rating": 2.712
         }
       ],
       "attempts": [
@@ -568,20 +550,11 @@
           "hits": [
             0
           ]
-        },
-        {
-          "query": "Pomeranč + skořice",
-          "hits": [
-            0,
-            1,
-            2,
-            3
-          ]
         }
       ],
       "outcome": {
-        "matched": "/b/pivovar-cestmir-vanocni-sour-pomeranc-skorice/6498376",
-        "score": 1.0
+        "matched": "/b/hradecky-klenot-sour-ale-orange-cinnamon/5361488",
+        "score": 0.2143
       }
     },
     "beerstreet::Louka::Haka": {

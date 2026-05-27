@@ -211,3 +211,37 @@ def test_best_match_style_alone_cannot_rescue_without_degree_or_overlap():
     stout = _candidate("Imperial Stout", brewery="Pivovar Falkon", url="https://untappd.com/b/x/stout")
     result = matcher.best_match("Falkon", "Falkon", [pale, stout], degree_plato=15, beer_style="Imperial Stout")
     assert result is None
+
+
+def test_best_match_style_rescues_brewery_match_when_name_translated_to_english():
+    # Klenot::Pomeranč + skořice (Sour, 10°) -- Untappd has the English-translated name
+    # "Sour ALE Orange Cinnamon" under "Hradecký Klenot". Brewery is a subset match, style
+    # "Sour" appears in the candidate name, and source name is informative beyond the brewery.
+    klenot = _candidate(
+        "Sour ALE- Orange & Cinnamon",
+        brewery="Hradecký Klenot",
+        url="https://untappd.com/b/klenot/sour",
+    )
+    cestmir = _candidate(
+        "Vánoční Sour Pomeranč Skořice",
+        brewery="Pivovar Čestmír",
+        url="https://untappd.com/b/cestmir/sour",
+    )
+    result = matcher.best_match(
+        "Pomeranč + skořice",
+        "Klenot",
+        [klenot, cestmir],
+        degree_plato=10,
+        beer_style="Sour",
+    )
+    assert result is not None
+    assert result.candidate.url == "https://untappd.com/b/klenot/sour"
+    assert result.brewery_matched is True
+
+
+def test_best_match_style_does_not_rescue_when_name_is_just_brewery():
+    # Source name equals brewery -- name carries no info beyond the brewery, so style-only
+    # rescue must not fire (preserves the Falkon::Falkon "no real beer name" semantics).
+    stout = _candidate("Imperial Stout", brewery="Pivovar Falkon", url="https://untappd.com/b/x/stout")
+    result = matcher.best_match("Falkon", "Falkon", [stout], beer_style="Imperial Stout")
+    assert result is None

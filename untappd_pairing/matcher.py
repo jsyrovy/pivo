@@ -66,6 +66,14 @@ def _style_in_name(style_keywords: set[str], candidate_name: str) -> bool:
     return bool(style_keywords & name_words)
 
 
+def _name_distinct_from_brewery(beer_name: str, beer_brewery: str) -> bool:
+    name_tokens = set(normalize_for_compare(clean_beer_name(beer_name)).split())
+    brewery_tokens = set(normalize_for_compare(clean_brewery_name(beer_brewery)).split())
+    if not name_tokens:
+        return False
+    return not name_tokens.issubset(brewery_tokens)
+
+
 def best_match(
     beer_name: str,
     beer_brewery: str,
@@ -78,6 +86,7 @@ def best_match(
 
     style_kws = _style_keywords(beer_style)
     degree_re = _degree_pattern(degree_plato)
+    name_distinct = _name_distinct_from_brewery(beer_name, beer_brewery)
     scored = [
         (
             name_overlap(beer_name, c.name),
@@ -94,7 +103,9 @@ def best_match(
         overlap, exact, _brewery_matched, degree_match, style_match, candidate = entry
         return (int(degree_match), int(style_match), overlap, exact, candidate.rating or 0.0)
 
-    brewery_hits = [t for t in scored if t[2] and (t[0] >= NAME_OVERLAP_WITH_BREWERY or t[3])]
+    brewery_hits = [
+        t for t in scored if t[2] and (t[0] >= NAME_OVERLAP_WITH_BREWERY or t[3] or (t[4] and name_distinct))
+    ]
     if brewery_hits:
         brewery_hits.sort(key=_sort_key, reverse=True)
         overlap, _exact, _matched, _degree_match, _style_match, candidate = brewery_hits[0]

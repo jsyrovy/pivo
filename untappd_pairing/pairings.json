@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-26T22:23:43Z",
+  "generated_at": "2026-05-27T07:22:53Z",
   "pairings": {
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-stylish-girl-milkshake-neipa-13deg-blackberry/5988268",
@@ -588,13 +588,13 @@
       "query_used": "Orange & cinnamon Klenot"
     },
     "beerstreet::Klenot::Pomeranč + skořice": {
-      "untappd_url": "https://untappd.com/b/pivovar-cestmir-vanocni-sour-pomeranc-skorice/6498376",
-      "untappd_name": "Vánoční Sour Pomeranč Skořice",
-      "untappd_brewery": "Pivovar Čestmír",
-      "rating": 3.714,
-      "match_score": 1.0,
-      "matched_at": "2026-05-26T16:18:32Z",
-      "query_used": "Pomeranč + skořice"
+      "untappd_url": "https://untappd.com/b/hradecky-klenot-sour-ale-orange-cinnamon/5361488",
+      "untappd_name": "Sour ALE– Orange & Cinnamon",
+      "untappd_brewery": "Hradecký Klenot",
+      "rating": 3.874,
+      "match_score": 0.2143,
+      "matched_at": "2026-05-27T07:22:53Z",
+      "query_used": "Pomeranč + skořice Klenot"
     },
     "beerstreet::Klenot::orange & cinnamon": {
       "untappd_url": "https://untappd.com/b/hradecky-klenot-sour-ale-orange-cinnamon/5361488",
