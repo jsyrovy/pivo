@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-27T22:44:32Z",
+  "generated_at": "2026-05-28T17:36:28Z",
   "pairings": {
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-stylish-girl-milkshake-neipa-13deg-blackberry/5988268",
@@ -937,6 +937,15 @@
       "match_score": 1.0,
       "matched_at": "2026-05-09T19:56:18Z",
       "query_used": "Stammtisch Hugo Thrills"
+    },
+    "beerstreet::Tvarg::Ležák": {
+      "untappd_url": "https://untappd.com/b/tvarg-lezak-11/4088691",
+      "untappd_name": "Ležák 11",
+      "untappd_brewery": "Tvarg",
+      "rating": 3.256,
+      "match_score": 1.0,
+      "matched_at": "2026-05-28T17:36:28Z",
+      "query_used": "Ležák 11° Tvarg"
     },
     "beerstreet::U Vojtěchů::Artur": {
       "untappd_url": "https://untappd.com/b/pivovar-u-vojtechu-artur/6303126",

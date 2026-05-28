@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-27T22:44:32Z",
+  "generated_at": "2026-05-28T17:36:28Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "beer": {
@@ -1187,6 +1187,36 @@
       "outcome": {
         "matched": "/b/tamtam-brewing-co-raise-your-horns/6694650",
         "score": 0.9167
+      }
+    },
+    "beerstreet::Tvarg::Ležák": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Tvarg",
+        "name": "Ležák",
+        "style": "Ležák světlý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-05-28T17:36:28Z",
+      "candidates": [
+        {
+          "name": "Ležák 11",
+          "brewery": "Tvarg",
+          "url": "/b/tvarg-lezak-11/4088691",
+          "rating": 3.256
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Ležák 11° Tvarg",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/tvarg-lezak-11/4088691",
+        "score": 1.0
       }
     },
     "beerstreet::U Vojtěchů::Šlehač": {
