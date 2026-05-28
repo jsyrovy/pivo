@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-28T17:36:28Z",
+  "generated_at": "2026-05-28T20:30:45Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "beer": {
@@ -890,6 +890,36 @@
         "score": 1.0
       }
     },
+    "beerstreet::Louka::New Zealand": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Louka",
+        "name": "New Zealand",
+        "style": "IPA",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-05-28T20:30:35Z",
+      "candidates": [
+        {
+          "name": "NZL IPA 13",
+          "brewery": "Pivovar Louka",
+          "url": "/b/pivovar-louka-nzl-ipa-13/5573458",
+          "rating": 3.607
+        }
+      ],
+      "attempts": [
+        {
+          "query": "New Zealand 13° Louka",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-louka-nzl-ipa-13/5573458",
+        "score": 0.0
+      }
+    },
     "beerstreet::Loutkář::Eldorado": {
       "beer": {
         "source": "beerstreet",
@@ -1073,6 +1103,39 @@
       "outcome": {
         "matched": "/b/pivovar-mazak-extra-horka-11-za-studena-chmelena/6616906",
         "score": 1.0
+      }
+    },
+    "beerstreet::Nozib::Goseteria #8 broskev+limeta+rosmaryn": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Nozib",
+        "name": "Goseteria #8 broskev+limeta+rosmaryn",
+        "style": "Gose sour",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-05-28T20:30:45Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Goseteria #8 broskev+limeta+rosmaryn 12° Nozib",
+          "hits": []
+        },
+        {
+          "query": "Goseteria #8 broskev+limeta+rosmaryn 12°",
+          "hits": []
+        },
+        {
+          "query": "Goseteria #8 broskev+limeta+rosmaryn Nozib",
+          "hits": []
+        },
+        {
+          "query": "Goseteria #8 broskev+limeta+rosmaryn",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "beerstreet::Pioneer::Cruel River": {
