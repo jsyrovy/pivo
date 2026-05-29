@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-29T17:36:51Z",
+  "generated_at": "2026-05-29T20:32:56Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "beer": {
@@ -450,6 +450,36 @@
         "score": 1.0
       }
     },
+    "ambasada::Maisel & Friends, Bayreuth, Bavorsko::13,7° Artbeer #8": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Maisel & Friends, Bayreuth, Bavorsko",
+        "name": "13,7° Artbeer #8",
+        "style": "Hazy IPA",
+        "degree_plato": null
+      },
+      "captured_at": "2026-05-29T20:32:56Z",
+      "candidates": [
+        {
+          "name": "Maisel & Friends - Hazy IPA - Artbeer #8 Lobster Robin",
+          "brewery": "Brauerei Gebr. Maisel",
+          "url": "/b/brauerei-gebr-maisel-maisel-friends-hazy-ipa-artbeer-8-lobster-robin/6590479",
+          "rating": 3.797
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Artbeer #8 Maisel & Friends",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/brauerei-gebr-maisel-maisel-friends-hazy-ipa-artbeer-8-lobster-robin/6590479",
+        "score": 1.0
+      }
+    },
     "ambasada::Mordýř, Dolní Ředice::Mordýř": {
       "beer": {
         "source": "ambasada",
@@ -655,6 +685,80 @@
       ],
       "outcome": {
         "matched": "/b/brewnicorn-pivorozec/6706555",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Chroust::Extra Extra": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Chroust",
+        "name": "Extra Extra",
+        "style": "Pale ale",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-05-29T20:32:53Z",
+      "candidates": [
+        {
+          "name": "Extra hořká 11°",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-extra-horka-11deg/792388",
+          "rating": 3.52
+        },
+        {
+          "name": "Zahořklý 11",
+          "brewery": "Brněnský minipivovar Richard",
+          "url": "/b/brnensky-minipivovar-richard-zahorkly-11/1877370",
+          "rating": 3.44
+        },
+        {
+          "name": "Qásek Extra Hořký 11°",
+          "brewery": "Pivovarský dům Ostrava",
+          "url": "/b/pivovarsky-dum-ostrava-qasek-extra-horky-11deg/758230",
+          "rating": 3.417
+        },
+        {
+          "name": "Extra Hořký Janek 11°",
+          "brewery": "Malý Janek",
+          "url": "/b/maly-janek-extra-horky-janek-11deg/5323189",
+          "rating": 3.334
+        },
+        {
+          "name": "11° Extra chmelená",
+          "brewery": "Pivovar Na Vyhlídce",
+          "url": "/b/pivovar-na-vyhlidce-11-extra-chmelena/1800438",
+          "rating": 3.114
+        },
+        {
+          "name": "Extra Extra",
+          "brewery": "Chroust",
+          "url": "/b/chroust-extra-extra/6656532",
+          "rating": 3.694
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Extra Extra 11° Chroust",
+          "hits": []
+        },
+        {
+          "query": "Extra Extra 11°",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "query": "Extra Extra Chroust",
+          "hits": [
+            5
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/chroust-extra-extra/6656532",
         "score": 1.0
       }
     },

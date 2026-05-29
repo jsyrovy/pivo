@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-29T17:36:51Z",
+  "generated_at": "2026-05-29T20:32:56Z",
   "pairings": {
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-stylish-girl-milkshake-neipa-13deg-blackberry/5988268",
@@ -217,6 +217,15 @@
       "match_score": 1.0,
       "matched_at": "2026-05-22T09:50:25Z",
       "query_used": "Urban IPA Maisel & Friends"
+    },
+    "ambasada::Maisel & Friends, Bayreuth, Bavorsko::13,7° Artbeer #8": {
+      "untappd_url": "https://untappd.com/b/brauerei-gebr-maisel-maisel-friends-hazy-ipa-artbeer-8-lobster-robin/6590479",
+      "untappd_name": "Maisel & Friends - Hazy IPA - Artbeer #8 Lobster Robin",
+      "untappd_brewery": "Brauerei Gebr. Maisel",
+      "rating": 3.797,
+      "match_score": 1.0,
+      "matched_at": "2026-05-29T20:32:56Z",
+      "query_used": "Artbeer #8 Maisel & Friends"
     },
     "ambasada::Maisel & Friends, Bayreuth::Fusion IPA": {
       "untappd_url": "https://untappd.com/b/brauerei-gebr-maisel-maisel-friends-fusion-ipa-lervig/6590478",
@@ -514,6 +523,15 @@
       "match_score": 1.0,
       "matched_at": "2026-05-22T20:41:04Z",
       "query_used": "Pivorožec Brewnicorn"
+    },
+    "beerstreet::Chroust::Extra Extra": {
+      "untappd_url": "https://untappd.com/b/chroust-extra-extra/6656532",
+      "untappd_name": "Extra Extra",
+      "untappd_brewery": "Chroust",
+      "rating": 3.694,
+      "match_score": 1.0,
+      "matched_at": "2026-05-29T20:32:53Z",
+      "query_used": "Extra Extra Chroust"
     },
     "beerstreet::Chroust::Pineapple": {
       "untappd_url": "https://untappd.com/b/chroust-pineapple-milkshake-ipa/6675190",
