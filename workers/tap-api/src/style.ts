@@ -12,6 +12,8 @@ const ACRONYMS = new Set([
   "NEPA",
   "ABV",
   "IBU",
+  "DDH",
+  "TDH",
 ]);
 
 const NON_ALPHANUMERIC = /[^\p{L}\p{N}]+/gu;
