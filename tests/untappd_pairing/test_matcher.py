@@ -69,11 +69,12 @@ def test_best_match_prefers_brewery_match_over_higher_name_score():
     assert result.brewery_matched is True
 
 
-def test_best_match_falls_back_to_strict_when_no_brewery_match():
+def test_best_match_rejects_name_match_when_brewery_does_not_match():
+    # Even a near-exact, distinctive name from a foreign brewery is rejected: brewery-less
+    # acceptance produced more wrong pairings than right ones (handled by overrides instead).
     candidate = _candidate("Tears of St Laurent (2020)", brewery="Wild Creatures Brewery")
     result = matcher.best_match("Tears of St Laurent (2020)", "Unknown Brewery Name", [candidate])
-    assert result is not None
-    assert result.brewery_matched is False
+    assert result is None
 
 
 def test_best_match_returns_none_when_no_brewery_and_loose_name():
@@ -116,9 +117,23 @@ def test_best_match_brewery_path_loose_threshold_accepts_partial_name_overlap():
     assert result.brewery_matched is True
 
 
-def test_best_match_strict_path_rejects_same_partial_overlap_without_brewery():
+def test_best_match_rejects_same_partial_overlap_without_brewery():
     candidate = _candidate("Hazy Pale Ale", brewery="Other Brewery")
     result = matcher.best_match("Hazy IPA", "Falkon", [candidate])
+    assert result is None
+
+
+def test_best_match_rejects_generic_style_name_from_foreign_brewery():
+    # "Italian Pilsner" from Sibeeria must not match Zichovec's same-named beer just because
+    # the names overlap -- the brewery does not match, so there is no pairing.
+    candidate = _candidate("Kartel Italian Pilsner 12 (Říjen 2023)", brewery="Rodinný pivovar Zichovec")
+    result = matcher.best_match(
+        "Italian Pilsner",
+        "Sibeeria",
+        [candidate],
+        degree_plato=12,
+        beer_style="Italian pilsner",
+    )
     assert result is None
 
 
@@ -239,7 +254,7 @@ def test_best_match_style_rescues_brewery_match_when_name_translated_to_english(
     assert result.brewery_matched is True
 
 
-def test_best_match_strict_path_rejects_short_generic_source_name():
+def test_best_match_rejects_short_generic_source_name_without_brewery():
     # "Helles" has 5 bigrams; bigram overlap=1.0 against any longer candidate name containing
     # "helles" is misleading. Without a brewery match, the matcher must not accept it -- otherwise
     # generic style-like names match wrong-brewery beers and short-circuit later queries.

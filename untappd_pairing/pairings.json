@@ -372,13 +372,13 @@
       "query_used": "Grapefruit Lollihop Sibeeria"
     },
     "ambasada::Sibeeria, Praha::Italian Pilsner": {
-      "untappd_url": "https://untappd.com/b/rodinny-pivovar-zichovec-kartel-italian-pilsner-12-rijen-2023/5540394",
-      "untappd_name": "Kartel Italian Pilsner 12 (Říjen 2023)",
-      "untappd_brewery": "Rodinný pivovar Zichovec",
-      "rating": 3.723,
+      "untappd_url": "https://untappd.com/b/sibeeria-brewery-italian-pilsner/5748767",
+      "untappd_name": "Italian Pilsner",
+      "untappd_brewery": "Sibeeria Brewery",
+      "rating": 3.617,
       "match_score": 1.0,
-      "matched_at": "2026-05-27T17:23:54Z",
-      "query_used": "Italian Pilsner 12°"
+      "matched_at": "2026-05-29T20:25:57Z",
+      "query_used": "Italian Pilsner Sibeeria"
     },
     "ambasada::Sibeeria, Praha::Liquid Luck": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-liquid-luck/5141491",
@@ -1055,15 +1055,6 @@
       "matched_at": "2026-04-30T20:07:45Z",
       "query_used": "SAAZ Záhora"
     },
-    "beerstreet::Záhora::Silk Road": {
-      "untappd_url": "https://untappd.com/b/brewdog-silk-road/4265853",
-      "untappd_name": "Silk Road",
-      "untappd_brewery": "BrewDog",
-      "rating": 3.684,
-      "match_score": 1.0,
-      "matched_at": "2026-05-29T17:34:47Z",
-      "query_used": "Silk Road"
-    },
     "beerstreet::Záhora::Sunrice IPA": {
       "untappd_url": "https://untappd.com/b/pivovar-zahora-sunrice-ipa/6564358",
       "untappd_name": "Sunrice IPA",
@@ -1156,6 +1147,11 @@
     }
   },
   "unmatched": {
+    "ambasada::Maisel & Friends, Bayreuth, Bavorsko::13,7° Artbeer #8": {
+      "attempts": 1,
+      "last_tried_at": "2026-05-29T20:26:06Z",
+      "reason": "no_candidates_above_threshold"
+    },
     "ambasada::Obora, Malšice::Philadelphia Č. Rybíz & Malina": {
       "attempts": 1,
       "last_tried_at": "2026-05-27T17:24:02Z",
@@ -1174,6 +1170,11 @@
     "beerstreet::Klenot::Guava and rosemary": {
       "attempts": 1,
       "last_tried_at": "2026-05-22T09:09:16Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "beerstreet::Záhora::Silk Road": {
+      "attempts": 1,
+      "last_tried_at": "2026-05-29T20:25:52Z",
       "reason": "no_candidates_above_threshold"
     }
   }

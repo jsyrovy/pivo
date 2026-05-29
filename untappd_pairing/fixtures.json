@@ -448,6 +448,11 @@
       "outcome": {
         "matched": "/b/brauerei-gebr-maisel-maisel-friends-urban-ipa/5801699",
         "score": 1.0
+      },
+      "annotation": {
+        "verdict": "expected_missing",
+        "expected": "/b/brauerei-gebr-maisel-maisel-friends-urban-ipa/5801699",
+        "note": "Correct candidate is present, but Untappd lists the brewery as 'Brauerei Gebr. Maisel' while the source brand is 'Maisel & Friends', so brewery_matches fails. The matcher no longer accepts a brewery-less name match, so this is resolved via overrides.json."
       }
     },
     "ambasada::Maisel & Friends, Bayreuth, Bavorsko::13,7° Artbeer #8": {
@@ -458,13 +463,19 @@
         "style": "Hazy IPA",
         "degree_plato": null
       },
-      "captured_at": "2026-05-29T20:32:56Z",
+      "captured_at": "2026-05-29T20:26:06Z",
       "candidates": [
         {
           "name": "Maisel & Friends - Hazy IPA - Artbeer #8 Lobster Robin",
           "brewery": "Brauerei Gebr. Maisel",
           "url": "/b/brauerei-gebr-maisel-maisel-friends-hazy-ipa-artbeer-8-lobster-robin/6590479",
           "rating": 3.797
+        },
+        {
+          "name": "Zico 87",
+          "brewery": "Zico Art Beer",
+          "url": "/b/zico-art-beer-zico-87/2996203",
+          "rating": null
         }
       ],
       "attempts": [
@@ -473,11 +484,27 @@
           "hits": [
             0
           ]
+        },
+        {
+          "query": "13,7° Artbeer #8 Maisel & Friends",
+          "hits": []
+        },
+        {
+          "query": "Artbeer #8",
+          "hits": [
+            0,
+            1
+          ]
         }
       ],
       "outcome": {
-        "matched": "/b/brauerei-gebr-maisel-maisel-friends-hazy-ipa-artbeer-8-lobster-robin/6590479",
-        "score": 1.0
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      },
+      "annotation": {
+        "verdict": "expected_missing",
+        "expected": "/b/brauerei-gebr-maisel-maisel-friends-hazy-ipa-artbeer-8-lobster-robin/6590479",
+        "note": "Same as the Urban IPA case: the correct candidate is present but Untappd lists the brewery as 'Brauerei Gebr. Maisel' while the source brand is 'Maisel & Friends', so brewery_matches fails and the matcher returns no match. Resolved via overrides.json."
       }
     },
     "ambasada::Mordýř, Dolní Ředice::Mordýř": {
@@ -617,19 +644,19 @@
         "style": "Italian pilsner",
         "degree_plato": 12.0
       },
-      "captured_at": "2026-05-27T17:23:54Z",
+      "captured_at": "2026-05-29T20:25:57Z",
       "candidates": [
         {
-          "name": "Kartel Italian Pilsner 12 (Říjen 2023)",
-          "brewery": "Rodinný pivovar Zichovec",
-          "url": "/b/rodinny-pivovar-zichovec-kartel-italian-pilsner-12-rijen-2023/5540394",
-          "rating": 3.723
+          "name": "Italian Pilsner",
+          "brewery": "Sibeeria Brewery",
+          "url": "/b/sibeeria-brewery-italian-pilsner/5748767",
+          "rating": 3.617
         },
         {
-          "name": "174 Taproom Series 124: Dry Hopped Italian Pilsner",
-          "brewery": "Broadhead Brewery",
-          "url": "/b/broadhead-brewery-174-taproom-series-124-dry-hopped-italian-pilsner/6386834",
-          "rating": 3.553
+          "name": "Disko Birra Italian Pilsner",
+          "brewery": "Sibeeria Brewery",
+          "url": "/b/sibeeria-brewery-disko-birra-italian-pilsner/6362540",
+          "rating": 3.623
         }
       ],
       "attempts": [
@@ -638,7 +665,7 @@
           "hits": []
         },
         {
-          "query": "Italian Pilsner 12°",
+          "query": "Italian Pilsner Sibeeria",
           "hits": [
             0,
             1
@@ -646,7 +673,7 @@
         }
       ],
       "outcome": {
-        "matched": "/b/rodinny-pivovar-zichovec-kartel-italian-pilsner-12-rijen-2023/5540394",
+        "matched": "/b/sibeeria-brewery-italian-pilsner/5748767",
         "score": 1.0
       }
     },
@@ -696,38 +723,8 @@
         "style": "Pale ale",
         "degree_plato": 11.0
       },
-      "captured_at": "2026-05-29T20:32:53Z",
+      "captured_at": "2026-05-29T20:25:42Z",
       "candidates": [
-        {
-          "name": "Extra hořká 11°",
-          "brewery": "Pivovar Mazák",
-          "url": "/b/pivovar-mazak-extra-horka-11deg/792388",
-          "rating": 3.52
-        },
-        {
-          "name": "Zahořklý 11",
-          "brewery": "Brněnský minipivovar Richard",
-          "url": "/b/brnensky-minipivovar-richard-zahorkly-11/1877370",
-          "rating": 3.44
-        },
-        {
-          "name": "Qásek Extra Hořký 11°",
-          "brewery": "Pivovarský dům Ostrava",
-          "url": "/b/pivovarsky-dum-ostrava-qasek-extra-horky-11deg/758230",
-          "rating": 3.417
-        },
-        {
-          "name": "Extra Hořký Janek 11°",
-          "brewery": "Malý Janek",
-          "url": "/b/maly-janek-extra-horky-janek-11deg/5323189",
-          "rating": 3.334
-        },
-        {
-          "name": "11° Extra chmelená",
-          "brewery": "Pivovar Na Vyhlídce",
-          "url": "/b/pivovar-na-vyhlidce-11-extra-chmelena/1800438",
-          "rating": 3.114
-        },
         {
           "name": "Extra Extra",
           "brewery": "Chroust",
@@ -741,19 +738,9 @@
           "hits": []
         },
         {
-          "query": "Extra Extra 11°",
-          "hits": [
-            0,
-            1,
-            2,
-            3,
-            4
-          ]
-        },
-        {
           "query": "Extra Extra Chroust",
           "hits": [
-            5
+            0
           ]
         }
       ],
@@ -1528,7 +1515,7 @@
         "style": "Gose sour - ibišek+koriandr+limeta+yuzu",
         "degree_plato": 11.0
       },
-      "captured_at": "2026-05-29T17:34:47Z",
+      "captured_at": "2026-05-29T20:25:52Z",
       "candidates": [
         {
           "name": "Silk Road",
@@ -1567,11 +1554,11 @@
           "hits": []
         },
         {
-          "query": "Silk Road 11°",
+          "query": "Silk Road Záhora",
           "hits": []
         },
         {
-          "query": "Silk Road Záhora",
+          "query": "Silk Road 11°",
           "hits": []
         },
         {
@@ -1586,8 +1573,13 @@
         }
       ],
       "outcome": {
-        "matched": "/b/brewdog-silk-road/4265853",
-        "score": 1.0
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      },
+      "annotation": {
+        "verdict": "not_on_untappd",
+        "expected": null,
+        "note": "Záhora's Silk Road is not on Untappd. Every brewery-qualified query returned nothing; only the bare 'Silk Road' query returned foreign-brewery beers (BrewDog, Around the Bend), which the old brewery-less branch wrongly accepted. With that branch removed the beer correctly stays unmatched."
       }
     },
     "beerstreet::Záhora::Sunrice IPA": {

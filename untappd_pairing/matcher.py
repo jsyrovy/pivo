@@ -8,8 +8,6 @@ if TYPE_CHECKING:
     from untappd_pairing.untappd_search import UntappdCandidate
 
 NAME_OVERLAP_WITH_BREWERY = 0.50
-NAME_OVERLAP_WITHOUT_BREWERY = 0.85
-STRICT_MIN_SOURCE_BIGRAMS = 6
 BIGRAM_MIN_LEN = 2
 STYLE_KEYWORD_MIN_LEN = 3
 
@@ -108,22 +106,16 @@ def best_match(
         overlap, exact, _brewery_matched, degree_match, style_match, candidate = entry
         return (int(degree_match), int(style_match), overlap, exact, candidate.rating or 0.0)
 
+    # Only candidates whose brewery matches the source are accepted. A brewery-less name
+    # match accepts any same-named beer from a foreign brewery (e.g. "Italian Pilsner" or
+    # "Silk Road" from an unrelated brewery), which produced more wrong pairings than right
+    # ones; irreconcilable brewery-name divergence is handled by overrides.json instead.
     brewery_hits = [
         t for t in scored if t[2] and (t[0] >= NAME_OVERLAP_WITH_BREWERY or t[3] or (t[4] and name_distinct))
     ]
-    if brewery_hits:
-        brewery_hits.sort(key=_sort_key, reverse=True)
-        overlap, _exact, _matched, _degree_match, _style_match, candidate = brewery_hits[0]
-        return MatchResult(candidate=candidate, score=round(overlap, 4), brewery_matched=True)
+    if not brewery_hits:
+        return None
 
-    strict_hits = (
-        [t for t in scored if not t[2] and t[0] >= NAME_OVERLAP_WITHOUT_BREWERY]
-        if len(source_bigrams) >= STRICT_MIN_SOURCE_BIGRAMS
-        else []
-    )
-    if strict_hits:
-        strict_hits.sort(key=_sort_key, reverse=True)
-        overlap, _exact, _matched, _degree_match, _style_match, candidate = strict_hits[0]
-        return MatchResult(candidate=candidate, score=round(overlap, 4), brewery_matched=False)
-
-    return None
+    brewery_hits.sort(key=_sort_key, reverse=True)
+    overlap, _exact, _matched, _degree_match, _style_match, candidate = brewery_hits[0]
+    return MatchResult(candidate=candidate, score=round(overlap, 4), brewery_matched=True)

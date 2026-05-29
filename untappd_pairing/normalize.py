@@ -42,19 +42,21 @@ def build_search_queries(name: str, brewery: str, degree_plato: float | None = N
     cleaned_name = clean_beer_name(raw_name)
     cleaned_brewery = clean_brewery_name(raw_brewery)
 
+    degree = f"{int(degree_plato)}°" if degree_plato is not None else None
+
+    # Every brewery-qualified variant is tried before any brewery-less one: the brewery
+    # is the strongest disambiguator, so a brewery-less query must never win first.
     candidates: list[str] = []
-    if degree_plato is not None:
-        degree = f"{int(degree_plato)}°"
-        if cleaned_brewery:
-            candidates.append(f"{cleaned_name} {degree} {cleaned_brewery}".strip())
-        candidates.append(f"{cleaned_name} {degree}".strip())
-    candidates.extend(
-        [
-            f"{cleaned_name} {cleaned_brewery}".strip() if cleaned_brewery else cleaned_name,
-            f"{raw_name} {cleaned_brewery}".strip() if cleaned_brewery else raw_name,
-            cleaned_name,
-        ],
-    )
+    if cleaned_brewery:
+        if degree is not None:
+            candidates.append(f"{cleaned_name} {degree} {cleaned_brewery}")
+        candidates.append(f"{cleaned_name} {cleaned_brewery}")
+        candidates.append(f"{raw_name} {cleaned_brewery}")
+    if degree is not None:
+        candidates.append(f"{cleaned_name} {degree}")
+    candidates.append(cleaned_name)
+    if not cleaned_brewery:
+        candidates.append(raw_name)
 
     queries: list[str] = []
     for candidate in candidates:

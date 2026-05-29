@@ -91,6 +91,18 @@ def test_build_search_queries_prefers_degree_variant_first_when_provided():
     assert "Loutkář" in queries
 
 
+def test_build_search_queries_tries_all_brewery_variants_before_brewery_less():
+    queries = build_search_queries("Italian Pilsner", "Sibeeria, Praha", degree_plato=12)
+    assert queries == [
+        "Italian Pilsner 12° Sibeeria",
+        "Italian Pilsner Sibeeria",
+        "Italian Pilsner 12°",
+        "Italian Pilsner",
+    ]
+    # The brewery-qualified no-degree variant must precede the brewery-less degree variant.
+    assert queries.index("Italian Pilsner Sibeeria") < queries.index("Italian Pilsner 12°")
+
+
 def test_build_search_queries_without_degree_unchanged():
     queries = build_search_queries("Loutkář", "Loutkář")
     assert queries == ["Loutkář Loutkář", "Loutkář"]
