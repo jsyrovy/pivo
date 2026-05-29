@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-28T22:42:42Z",
+  "generated_at": "2026-05-29T06:55:08Z",
   "pairings": {
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-stylish-girl-milkshake-neipa-13deg-blackberry/5988268",
@@ -839,6 +839,15 @@
       "matched_at": "2026-04-28T20:13:44Z",
       "query_used": "Summer Ale Mordýř"
     },
+    "beerstreet::Nozib::Goseteria #8 broskev+limeta+rosmaryn": {
+      "untappd_url": "https://untappd.com/b/nozib-special-brews-goseteria-8-peach-lime-rosemary-salt/6682972",
+      "untappd_name": "GOSETERIA #8 Peach + Lime + Rosemary + Salt",
+      "untappd_brewery": "NOZIB Special Brews",
+      "rating": 3.88889,
+      "match_score": 1.0,
+      "matched_at": "2026-05-29T06:55:08Z",
+      "query_used": "<override>"
+    },
     "beerstreet::Ovipistán::Kandidát": {
       "untappd_url": "https://untappd.com/b/pivovar-ovipistan-kandidat-sladek-zpc/4879374",
       "untappd_name": "Kandidát (Sládek, ŽPČ)",
@@ -1111,11 +1120,6 @@
     "beerstreet::Klenot::Guava and rosemary": {
       "attempts": 1,
       "last_tried_at": "2026-05-22T09:09:16Z",
-      "reason": "no_candidates_above_threshold"
-    },
-    "beerstreet::Nozib::Goseteria #8 broskev+limeta+rosmaryn": {
-      "attempts": 1,
-      "last_tried_at": "2026-05-28T20:30:45Z",
       "reason": "no_candidates_above_threshold"
     }
   }
