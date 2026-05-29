@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-29T06:55:08Z",
+  "generated_at": "2026-05-29T17:34:57Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "beer": {
@@ -239,6 +239,80 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-jungberg-pp-12/1774180",
+        "score": 1.0
+      }
+    },
+    "ambasada::JungBerg, Hořice::Vista": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "JungBerg, Hořice",
+        "name": "Vista",
+        "style": "Single hop ale",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-05-29T17:34:57Z",
+      "candidates": [
+        {
+          "name": "Session NEIPA 12° (Vista - Strata - Mosaic)",
+          "brewery": "Pivovar Čestmír",
+          "url": "/b/pivovar-cestmir-session-neipa-12-vista-strata-mosaic/4900231",
+          "rating": 3.86
+        },
+        {
+          "name": "Hasta La Vista Summer NEIPA 12%",
+          "brewery": "Nachmelená Opice",
+          "url": "/b/nachmelena-opice-hasta-la-vista-summer-neipa-12/4998877",
+          "rating": 3.769
+        },
+        {
+          "name": "13° Vista",
+          "brewery": "Holíčsky pivovar Wywar",
+          "url": "/b/holicsky-pivovar-wywar-13deg-vista/5526725",
+          "rating": 3.629
+        },
+        {
+          "name": "Višňa 12°",
+          "brewery": "Pivovar U medveďa",
+          "url": "/b/pivovar-u-medveda-visna-12deg/2939166",
+          "rating": null
+        },
+        {
+          "name": "Sour Ale 12° Višna",
+          "brewery": "Pivovar Corvus",
+          "url": "/b/pivovar-corvus-sour-ale-12deg-visna/2739817",
+          "rating": null
+        },
+        {
+          "name": "Vista Single Hop Ale",
+          "brewery": "Pivovar JungBerg",
+          "url": "/b/pivovar-jungberg-vista-single-hop-ale/6704526",
+          "rating": 3.664
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Vista 12° JungBerg",
+          "hits": []
+        },
+        {
+          "query": "Vista 12°",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "query": "Vista JungBerg",
+          "hits": [
+            5
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-jungberg-vista-single-hop-ale/6704526",
         "score": 1.0
       }
     },
@@ -1312,6 +1386,106 @@
         "score": 1.0
       }
     },
+    "beerstreet::Záhora::American Pale Lager": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Záhora",
+        "name": "American Pale Lager",
+        "style": "Ležák světlý",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-05-29T17:34:32Z",
+      "candidates": [
+        {
+          "name": "American Pale Lager /// 10.APL.R1",
+          "brewery": "Pivovar Záhora",
+          "url": "/b/pivovar-zahora-american-pale-lager-10-apl-r1/3060264",
+          "rating": 3.478
+        }
+      ],
+      "attempts": [
+        {
+          "query": "American Pale Lager 10° Záhora",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-zahora-american-pale-lager-10-apl-r1/3060264",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Záhora::Silk Road": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Záhora",
+        "name": "Silk Road",
+        "style": "Gose sour - ibišek+koriandr+limeta+yuzu",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-05-29T17:34:47Z",
+      "candidates": [
+        {
+          "name": "Silk Road",
+          "brewery": "BrewDog",
+          "url": "/b/brewdog-silk-road/4265853",
+          "rating": 3.684
+        },
+        {
+          "name": "Kawaba Sunrise Ale",
+          "brewery": "Denen Plaza Kawaba",
+          "url": "/b/denen-plaza-kawaba-kawaba-sunrise-ale/136451",
+          "rating": 3.502
+        },
+        {
+          "name": "Kawaba Snow Weizen",
+          "brewery": "Denen Plaza Kawaba",
+          "url": "/b/denen-plaza-kawaba-kawaba-snow-weizen/93221",
+          "rating": 3.55
+        },
+        {
+          "name": "Silk Road",
+          "brewery": "Around the Bend Beer Co.",
+          "url": "/b/around-the-bend-beer-co-silk-road/1049759",
+          "rating": 3.33
+        },
+        {
+          "name": "Kawaba Pearl Pilsner",
+          "brewery": "Denen Plaza Kawaba",
+          "url": "/b/denen-plaza-kawaba-kawaba-pearl-pilsner/3515154",
+          "rating": 3.679
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Silk Road 11° Záhora",
+          "hits": []
+        },
+        {
+          "query": "Silk Road 11°",
+          "hits": []
+        },
+        {
+          "query": "Silk Road Záhora",
+          "hits": []
+        },
+        {
+          "query": "Silk Road",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/brewdog-silk-road/4265853",
+        "score": 1.0
+      }
+    },
     "beerstreet::Záhora::Sunrice IPA": {
       "beer": {
         "source": "beerstreet",
@@ -1362,6 +1536,65 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-zahora-sunrice-ipa/6564358",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Černý potoka::Cold Fish": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Černý potoka",
+        "name": "Cold Fish",
+        "style": "Session IPA mosaic",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-05-29T17:34:40Z",
+      "candidates": [
+        {
+          "name": "Cold Fish",
+          "brewery": "černý potoka",
+          "url": "/b/cerny-potoka-cold-fish/3441075",
+          "rating": 3.759
+        },
+        {
+          "name": "Cold Fish Nelson Sauvin",
+          "brewery": "černý potoka",
+          "url": "/b/cerny-potoka-cold-fish-nelson-sauvin/5857692",
+          "rating": 3.835
+        },
+        {
+          "name": "Cold Fish - Mosaic Dry Hop",
+          "brewery": "černý potoka",
+          "url": "/b/cerny-potoka-cold-fish-mosaic-dry-hop/6699043",
+          "rating": 3.949
+        },
+        {
+          "name": "Coffee Cold Fish",
+          "brewery": "černý potoka",
+          "url": "/b/cerny-potoka-coffee-cold-fish/5624422",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Cold Fish 11° Černý potoka",
+          "hits": []
+        },
+        {
+          "query": "Cold Fish 11°",
+          "hits": []
+        },
+        {
+          "query": "Cold Fish Černý potoka",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/cerny-potoka-cold-fish-mosaic-dry-hop/6699043",
         "score": 1.0
       }
     }

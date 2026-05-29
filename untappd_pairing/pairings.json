@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-29T06:55:08Z",
+  "generated_at": "2026-05-29T17:34:57Z",
   "pairings": {
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-stylish-girl-milkshake-neipa-13deg-blackberry/5988268",
@@ -145,6 +145,15 @@
       "match_score": 1.0,
       "matched_at": "2026-05-22T09:09:20Z",
       "query_used": "PP 12° JungBerg"
+    },
+    "ambasada::JungBerg, Hořice::Vista": {
+      "untappd_url": "https://untappd.com/b/pivovar-jungberg-vista-single-hop-ale/6704526",
+      "untappd_name": "Vista Single Hop Ale",
+      "untappd_brewery": "Pivovar JungBerg",
+      "rating": 3.664,
+      "match_score": 1.0,
+      "matched_at": "2026-05-29T17:34:57Z",
+      "query_used": "Vista JungBerg"
     },
     "ambasada::Kynšperský Zajíc, Kynšperk::Summer Ale": {
       "untappd_url": "https://untappd.com/b/kynspersky-pivovar-summer-ale/4267619",
@@ -1001,6 +1010,15 @@
       "matched_at": "2026-05-23T20:04:19Z",
       "query_used": "Šlehač 12° U Vojtěchů"
     },
+    "beerstreet::Záhora::American Pale Lager": {
+      "untappd_url": "https://untappd.com/b/pivovar-zahora-american-pale-lager-10-apl-r1/3060264",
+      "untappd_name": "American Pale Lager /// 10.APL.R1",
+      "untappd_brewery": "Pivovar Záhora",
+      "rating": 3.478,
+      "match_score": 1.0,
+      "matched_at": "2026-05-29T17:34:32Z",
+      "query_used": "American Pale Lager 10° Záhora"
+    },
     "beerstreet::Záhora::NewZealand Lager": {
       "untappd_url": "https://untappd.com/b/pivovar-zahora-new-zealand-pale-lager/6340595",
       "untappd_name": "New Zealand Pale Lager",
@@ -1018,6 +1036,15 @@
       "match_score": 1.0,
       "matched_at": "2026-04-30T20:07:45Z",
       "query_used": "SAAZ Záhora"
+    },
+    "beerstreet::Záhora::Silk Road": {
+      "untappd_url": "https://untappd.com/b/brewdog-silk-road/4265853",
+      "untappd_name": "Silk Road",
+      "untappd_brewery": "BrewDog",
+      "rating": 3.684,
+      "match_score": 1.0,
+      "matched_at": "2026-05-29T17:34:47Z",
+      "query_used": "Silk Road"
     },
     "beerstreet::Záhora::Sunrice IPA": {
       "untappd_url": "https://untappd.com/b/pivovar-zahora-sunrice-ipa/6564358",
@@ -1045,6 +1072,15 @@
       "match_score": 1.0,
       "matched_at": "2026-05-14T20:26:30Z",
       "query_used": "Centaurus Černý potoka"
+    },
+    "beerstreet::Černý potoka::Cold Fish": {
+      "untappd_url": "https://untappd.com/b/cerny-potoka-cold-fish-mosaic-dry-hop/6699043",
+      "untappd_name": "Cold Fish - Mosaic Dry Hop",
+      "untappd_brewery": "černý potoka",
+      "rating": 3.949,
+      "match_score": 1.0,
+      "matched_at": "2026-05-29T17:34:40Z",
+      "query_used": "Cold Fish Černý potoka"
     },
     "beerstreet::Černý potoka::Elektronik 743": {
       "untappd_url": "https://untappd.com/b/cerny-potoka-elektronik-743/6666618",
