@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-29T22:39:23Z",
+  "generated_at": "2026-05-30T15:13:46Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "beer": {
@@ -749,6 +749,39 @@
         "score": 1.0
       }
     },
+    "beerstreet::Hoppy Dog::Mahlerova Osma": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Hoppy Dog",
+        "name": "Mahlerova Osma",
+        "style": "Ležák světlý",
+        "degree_plato": 11.8
+      },
+      "captured_at": "2026-05-30T15:13:41Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Mahlerova Osma 11° Hoppy Dog",
+          "hits": []
+        },
+        {
+          "query": "Mahlerova Osma Hoppy Dog",
+          "hits": []
+        },
+        {
+          "query": "Mahlerova Osma 11°",
+          "hits": []
+        },
+        {
+          "query": "Mahlerova Osma",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
     "beerstreet::Klenot::Cranberry+plum+ginger": {
       "beer": {
         "source": "beerstreet",
@@ -1083,6 +1116,40 @@
       "outcome": {
         "matched": "/b/pivovar-louka-nzl-ipa-13/5573458",
         "score": 0.0
+      }
+    },
+    "beerstreet::Louka::OSMICA": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Louka",
+        "name": "OSMICA",
+        "style": "Ležák světlý",
+        "degree_plato": 8.0
+      },
+      "captured_at": "2026-05-30T15:13:46Z",
+      "candidates": [
+        {
+          "name": "Osmica 8",
+          "brewery": "Pivovar Louka",
+          "url": "/b/pivovar-louka-osmica-8/4366792",
+          "rating": 3.342
+        }
+      ],
+      "attempts": [
+        {
+          "query": "OSMICA 8° Louka",
+          "hits": []
+        },
+        {
+          "query": "OSMICA Louka",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-louka-osmica-8/4366792",
+        "score": 1.0
       }
     },
     "beerstreet::Loutkář::Eldorado": {

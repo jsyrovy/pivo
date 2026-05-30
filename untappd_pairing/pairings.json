@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-29T22:39:23Z",
+  "generated_at": "2026-05-30T15:13:46Z",
   "pairings": {
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-stylish-girl-milkshake-neipa-13deg-blackberry/5988268",
@@ -731,6 +731,15 @@
       "matched_at": "2026-05-28T20:30:35Z",
       "query_used": "New Zealand 13° Louka"
     },
+    "beerstreet::Louka::OSMICA": {
+      "untappd_url": "https://untappd.com/b/pivovar-louka-osmica-8/4366792",
+      "untappd_name": "Osmica 8",
+      "untappd_brewery": "Pivovar Louka",
+      "rating": 3.342,
+      "match_score": 1.0,
+      "matched_at": "2026-05-30T15:13:46Z",
+      "query_used": "OSMICA Louka"
+    },
     "beerstreet::Louka::Summer Day": {
       "untappd_url": "https://untappd.com/b/pivovar-louka-summer-day-10/3948423",
       "untappd_name": "Summer Day 10",
@@ -1170,6 +1179,11 @@
       "attempts": 1,
       "last_tried_at": "2026-05-08T20:05:21Z",
       "reason": "upstream_error"
+    },
+    "beerstreet::Hoppy Dog::Mahlerova Osma": {
+      "attempts": 1,
+      "last_tried_at": "2026-05-30T15:13:41Z",
+      "reason": "no_candidates_above_threshold"
     },
     "beerstreet::Klenot::Guava and rosemary": {
       "attempts": 1,
