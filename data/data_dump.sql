@@ -1980,6 +1980,8 @@ INSERT INTO "archive" VALUES(1573297939,'2026-05-26 18:27:28.000000','sejrik','1
 INSERT INTO "archive" VALUES(1573309475,'2026-05-26 19:19:36.000000','sejrik','Raise Your Horns','TamTam Brewing Co.','Beer Street');
 INSERT INTO "archive" VALUES(1573375918,'2026-05-27 07:16:21.000000','sejrik','Helles','Pivovar Louka','Beer Street');
 INSERT INTO "archive" VALUES(1573550495,'2026-05-28 12:48:06.000000','sejrik','Kamenická 12','Pivovar Kamenice nad Lipou','Bike Resort Peklák');
+INSERT INTO "archive" VALUES(1573866808,'2026-05-29 17:40:39.000000','sejrik','American Pale Lager /// 10.APL.R1','Pivovar Záhora','Beer Street');
+INSERT INTO "archive" VALUES(1573878492,'2026-05-29 18:01:54.000000','sejrik','NZL IPA 13','Pivovar Louka','Beer Street');
 CREATE TABLE [pivni_valka] (
 	[id] integer PRIMARY KEY,
 	[date] text,
