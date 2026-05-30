@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-30T19:24:54Z",
+  "generated_at": "2026-05-30T21:05:17Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "beer": {
@@ -562,6 +562,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-mordyr-mordyr-11/609306",
+        "score": 1.0
+      }
+    },
+    "ambasada::Nachmelená Opice, Krnov::Sun APA": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Nachmelená Opice, Krnov",
+        "name": "Sun APA",
+        "style": "APA",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-05-30T21:05:17Z",
+      "candidates": [
+        {
+          "name": "Sun APA 12%",
+          "brewery": "Nachmelená Opice",
+          "url": "/b/nachmelena-opice-sun-apa-12/1558059",
+          "rating": 3.621
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Sun APA 12° Nachmelená Opice",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/nachmelena-opice-sun-apa-12/1558059",
         "score": 1.0
       }
     },

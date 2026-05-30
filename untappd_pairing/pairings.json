@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-30T19:24:54Z",
+  "generated_at": "2026-05-30T21:05:17Z",
   "pairings": {
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-stylish-girl-milkshake-neipa-13deg-blackberry/5988268",
@@ -298,6 +298,15 @@
       "match_score": 1.0,
       "matched_at": "2026-04-18T19:39:21Z",
       "query_used": "Sametová Mordýř"
+    },
+    "ambasada::Nachmelená Opice, Krnov::Sun APA": {
+      "untappd_url": "https://untappd.com/b/nachmelena-opice-sun-apa-12/1558059",
+      "untappd_name": "Sun APA 12%",
+      "untappd_brewery": "Nachmelená Opice",
+      "rating": 3.621,
+      "match_score": 1.0,
+      "matched_at": "2026-05-30T21:05:17Z",
+      "query_used": "Sun APA 12° Nachmelená Opice"
     },
     "ambasada::Obora, Malšice::Philadelphia Jahoda": {
       "untappd_url": "https://untappd.com/b/pivovar-obora-philadelphia-sour-strawberry/4161242",
