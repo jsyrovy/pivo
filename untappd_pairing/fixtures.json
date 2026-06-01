@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-31T23:05:13Z",
+  "generated_at": "2026-06-01T19:22:48Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "beer": {
@@ -704,6 +704,40 @@
       ],
       "outcome": {
         "matched": "/b/sibeeria-brewery-italian-pilsner/5748767",
+        "score": 1.0
+      }
+    },
+    "ambasada::Sibeeria, Praha::Zesty Zebra": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Sibeeria, Praha",
+        "name": "Zesty Zebra",
+        "style": "New england IPA",
+        "degree_plato": 17.0
+      },
+      "captured_at": "2026-06-01T19:22:48Z",
+      "candidates": [
+        {
+          "name": "Zesty Zebra",
+          "brewery": "Sibeeria Brewery",
+          "url": "/b/sibeeria-brewery-zesty-zebra/6698766",
+          "rating": 3.951
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Zesty Zebra 17° Sibeeria",
+          "hits": []
+        },
+        {
+          "query": "Zesty Zebra Sibeeria",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/sibeeria-brewery-zesty-zebra/6698766",
         "score": 1.0
       }
     },
@@ -1827,6 +1861,39 @@
         "note": "Záhora's Silk Road is not on Untappd. Every brewery-qualified query returned nothing; only the bare 'Silk Road' query returned foreign-brewery beers (BrewDog, Around the Bend), which the old brewery-less branch wrongly accepted. With that branch removed the beer correctly stays unmatched."
       }
     },
+    "beerstreet::Záhora::Silk Road - ibišek+koriandr+limeta+yuzu": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Záhora",
+        "name": "Silk Road - ibišek+koriandr+limeta+yuzu",
+        "style": "Gose sour",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-06-01T19:22:43Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Silk Road - ibišek+koriandr+limeta+yuzu 11° Záhora",
+          "hits": []
+        },
+        {
+          "query": "Silk Road - ibišek+koriandr+limeta+yuzu Záhora",
+          "hits": []
+        },
+        {
+          "query": "Silk Road - ibišek+koriandr+limeta+yuzu 11°",
+          "hits": []
+        },
+        {
+          "query": "Silk Road - ibišek+koriandr+limeta+yuzu",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
     "beerstreet::Záhora::Sunrice IPA": {
       "beer": {
         "source": "beerstreet",
@@ -1931,6 +1998,40 @@
             1,
             2,
             3
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/cerny-potoka-cold-fish-mosaic-dry-hop/6699043",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Černý potoka::Cold Fish Mosaic": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Černý potoka",
+        "name": "Cold Fish Mosaic",
+        "style": "Session IPA",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-06-01T19:22:34Z",
+      "candidates": [
+        {
+          "name": "Cold Fish - Mosaic Dry Hop",
+          "brewery": "černý potoka",
+          "url": "/b/cerny-potoka-cold-fish-mosaic-dry-hop/6699043",
+          "rating": 3.949
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Cold Fish Mosaic 11° Černý potoka",
+          "hits": []
+        },
+        {
+          "query": "Cold Fish Mosaic Černý potoka",
+          "hits": [
+            0
           ]
         }
       ],

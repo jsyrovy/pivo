@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-31T23:05:13Z",
+  "generated_at": "2026-06-01T19:22:48Z",
   "pairings": {
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-stylish-girl-milkshake-neipa-13deg-blackberry/5988268",
@@ -433,6 +433,15 @@
       "match_score": 1.0,
       "matched_at": "2026-05-10T08:50:47Z",
       "query_used": "Tongariro Sibeeria"
+    },
+    "ambasada::Sibeeria, Praha::Zesty Zebra": {
+      "untappd_url": "https://untappd.com/b/sibeeria-brewery-zesty-zebra/6698766",
+      "untappd_name": "Zesty Zebra",
+      "untappd_brewery": "Sibeeria Brewery",
+      "rating": 3.951,
+      "match_score": 1.0,
+      "matched_at": "2026-06-01T19:22:48Z",
+      "query_used": "Zesty Zebra Sibeeria"
     },
     "ambasada::Sibeeria/Herrenwald, Sour Ale w/ Raspberry::Forest Spirit": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-forest-spirit/5913749",
@@ -1127,6 +1136,15 @@
       "matched_at": "2026-05-29T17:34:40Z",
       "query_used": "Cold Fish Černý potoka"
     },
+    "beerstreet::Černý potoka::Cold Fish Mosaic": {
+      "untappd_url": "https://untappd.com/b/cerny-potoka-cold-fish-mosaic-dry-hop/6699043",
+      "untappd_name": "Cold Fish - Mosaic Dry Hop",
+      "untappd_brewery": "černý potoka",
+      "rating": 3.949,
+      "match_score": 1.0,
+      "matched_at": "2026-06-01T19:22:34Z",
+      "query_used": "Cold Fish Mosaic Černý potoka"
+    },
     "beerstreet::Černý potoka::Elektronik 743": {
       "untappd_url": "https://untappd.com/b/cerny-potoka-elektronik-743/6666618",
       "untappd_name": "Elektronik 743",
@@ -1216,6 +1234,11 @@
     "beerstreet::Záhora::Silk Road": {
       "attempts": 1,
       "last_tried_at": "2026-05-29T20:25:52Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "beerstreet::Záhora::Silk Road - ibišek+koriandr+limeta+yuzu": {
+      "attempts": 1,
+      "last_tried_at": "2026-06-01T19:22:43Z",
       "reason": "no_candidates_above_threshold"
     }
   }
