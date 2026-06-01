@@ -1,3 +1,7 @@
+# Load secrets from `.env` for local runs when the file exists.
+# In CI `.env` is absent, so this is empty and values come from the environment.
+ENV_FILE := $(if $(wildcard .env),--env-file .env,)
+
 .DEFAULT:
 	help
 
@@ -5,13 +9,13 @@ help:
 	@echo "I don't know what you want me to do."
 
 run-pivni-valka:
-	uv run --no-dev run_pivni_valka.py
+	uv run --no-dev $(ENV_FILE) run_pivni_valka.py
 
 run-pivni-valka-notificationless:
-	uv run --no-dev run_pivni_valka.py --notificationless
+	uv run --no-dev $(ENV_FILE) run_pivni_valka.py --notificationless
 
 run-pivni-valka-local:
-	uv run --no-dev run_pivni_valka.py --local
+	uv run --no-dev $(ENV_FILE) run_pivni_valka.py --local
 
 publish-pivni-valka:
 	uv run --no-dev run_pivni_valka.py --publish
@@ -33,13 +37,13 @@ test-pivni-valka:
 	uv run --dev pytest tests/pivni_valka
 
 run-archivist:
-	uv run --no-dev run_archivist.py
+	uv run --no-dev $(ENV_FILE) run_archivist.py
 
 run-untappd-pairing:
-	uv run --no-dev run_untappd_pairing.py
+	uv run --no-dev $(ENV_FILE) run_untappd_pairing.py
 
 run-untappd-pairing-local:
-	uv run --no-dev run_untappd_pairing.py --local
+	uv run --no-dev $(ENV_FILE) run_untappd_pairing.py --local
 
 mypy:
 	uv run --dev -m mypy --ignore-missing-imports --strict  --exclude tests .
