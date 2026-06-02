@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-02T18:07:50Z",
+  "generated_at": "2026-06-02T21:52:38Z",
   "pairings": {
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-stylish-girl-milkshake-neipa-13deg-blackberry/5988268",
@@ -37,6 +37,15 @@
       "match_score": 1.0,
       "matched_at": "2026-05-27T17:24:06Z",
       "query_used": "Buzz Bevog"
+    },
+    "ambasada::Brewnicorn, Kročehlavy::Sunny Day": {
+      "untappd_url": "https://untappd.com/b/brewnicorn-sunny-day/6689258",
+      "untappd_name": "Sunny Day",
+      "untappd_brewery": "Brewnicorn",
+      "rating": 3.751,
+      "match_score": 1.0,
+      "matched_at": "2026-06-02T21:52:38Z",
+      "query_used": "Sunny Day Brewnicorn"
     },
     "ambasada::Chroust, Potštejn::Hoptopia": {
       "untappd_url": "https://untappd.com/b/chroust-hoptopia/2290462",
@@ -659,6 +668,15 @@
       "matched_at": "2026-04-17T11:20:46Z",
       "query_used": "Kazbek Klenot"
     },
+    "beerstreet::Klenot::Mango + broskev": {
+      "untappd_url": "https://untappd.com/b/hradecky-klenot-sour-mango-peach/4292985",
+      "untappd_name": "Sour – Mango & Peach",
+      "untappd_brewery": "Hradecký Klenot",
+      "rating": 3.63,
+      "match_score": 0.3636,
+      "matched_at": "2026-06-02T21:52:33Z",
+      "query_used": "Mango + broskev Klenot"
+    },
     "beerstreet::Klenot::Orange & cinnamon": {
       "untappd_url": "https://untappd.com/b/hradecky-klenot-sour-ale-orange-cinnamon/5361488",
       "untappd_name": "Sour ALE– Orange & Cinnamon",
@@ -766,6 +784,15 @@
       "match_score": 1.0,
       "matched_at": "2026-05-30T15:13:46Z",
       "query_used": "OSMICA Louka"
+    },
+    "beerstreet::Louka::Session Cryo": {
+      "untappd_url": "https://untappd.com/b/pivovar-louka-session-cryo-11/5478053",
+      "untappd_name": "Session Cryo 11",
+      "untappd_brewery": "Pivovar Louka",
+      "rating": 3.554,
+      "match_score": 1.0,
+      "matched_at": "2026-06-02T21:52:28Z",
+      "query_used": "Session Cryo 11° Louka"
     },
     "beerstreet::Louka::Summer Day": {
       "untappd_url": "https://untappd.com/b/pivovar-louka-summer-day-10/3948423",

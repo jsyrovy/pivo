@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-02T18:07:50Z",
+  "generated_at": "2026-06-02T21:52:38Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "beer": {
@@ -103,6 +103,40 @@
       ],
       "outcome": {
         "matched": "/b/bevog-brewery-buzz/4510503",
+        "score": 1.0
+      }
+    },
+    "ambasada::Brewnicorn, Kročehlavy::Sunny Day": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Brewnicorn, Kročehlavy",
+        "name": "Sunny Day",
+        "style": "APA",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-06-02T21:52:38Z",
+      "candidates": [
+        {
+          "name": "Sunny Day",
+          "brewery": "Brewnicorn",
+          "url": "/b/brewnicorn-sunny-day/6689258",
+          "rating": 3.751
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Sunny Day 11° Brewnicorn",
+          "hits": []
+        },
+        {
+          "query": "Sunny Day Brewnicorn",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/brewnicorn-sunny-day/6689258",
         "score": 1.0
       }
     },
@@ -956,6 +990,40 @@
         "note": "Pivo na Untappd zatim neexistuje"
       }
     },
+    "beerstreet::Klenot::Mango + broskev": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Klenot",
+        "name": "Mango + broskev",
+        "style": "Sour",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-06-02T21:52:33Z",
+      "candidates": [
+        {
+          "name": "Sour – Mango & Peach",
+          "brewery": "Hradecký Klenot",
+          "url": "/b/hradecky-klenot-sour-mango-peach/4292985",
+          "rating": 3.63
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Mango + broskev 10° Klenot",
+          "hits": []
+        },
+        {
+          "query": "Mango + broskev Klenot",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/hradecky-klenot-sour-mango-peach/4292985",
+        "score": 0.3636
+      }
+    },
     "beerstreet::Klenot::Pomeranč + skořice": {
       "beer": {
         "source": "beerstreet",
@@ -1361,6 +1429,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-louka-osmica-8/4366792",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Louka::Session Cryo": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Louka",
+        "name": "Session Cryo",
+        "style": "Session hazy",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-06-02T21:52:28Z",
+      "candidates": [
+        {
+          "name": "Session Cryo 11",
+          "brewery": "Pivovar Louka",
+          "url": "/b/pivovar-louka-session-cryo-11/5478053",
+          "rating": 3.554
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Session Cryo 11° Louka",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-louka-session-cryo-11/5478053",
         "score": 1.0
       }
     },
