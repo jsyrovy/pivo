@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-01T22:34:27Z",
+  "generated_at": "2026-06-02T18:07:50Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "beer": {
@@ -813,6 +813,40 @@
         "score": 1.0
       }
     },
+    "beerstreet::Fracek::Hopcharget Summer": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Fracek",
+        "name": "Hopcharget Summer",
+        "style": "Session IPA",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-06-02T18:07:50Z",
+      "candidates": [
+        {
+          "name": "HOPCHARGED Summer",
+          "brewery": "FRACEK",
+          "url": "/b/fracek-hopcharged-summer/6310554",
+          "rating": 3.885
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Hopcharget Summer 11° Fracek",
+          "hits": []
+        },
+        {
+          "query": "Hopcharget Summer Fracek",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/fracek-hopcharged-summer/6310554",
+        "score": 0.8667
+      }
+    },
     "beerstreet::Hoppy Dog::Mahlerova Osma": {
       "beer": {
         "source": "beerstreet",
@@ -1478,6 +1512,43 @@
         "score": 1.0
       }
     },
+    "beerstreet::Mazák::Bojanowitz": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Mazák",
+        "name": "Bojanowitz",
+        "style": "Ležák světlý",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-06-02T18:07:46Z",
+      "candidates": [
+        {
+          "name": "Bojanowitz",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-bojanowitz/2028526",
+          "rating": 3.552
+        },
+        {
+          "name": "Bojanowitz Rauchbier",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-bojanowitz-rauchbier/2419178",
+          "rating": 3.406
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Bojanowitz 12° Mazák",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mazak-bojanowitz/2028526",
+        "score": 1.0
+      }
+    },
     "beerstreet::Mazák::Extra hořká": {
       "beer": {
         "source": "beerstreet",
@@ -1753,6 +1824,64 @@
       ],
       "outcome": {
         "matched": "/b/varga-brothers-brewing-company-my-fair-lezak/5613947",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Vinohradský pivovar::Vinohradská": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Vinohradský pivovar",
+        "name": "Vinohradská",
+        "style": "Ležák světlý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-06-02T18:07:43Z",
+      "candidates": [
+        {
+          "name": "Vinohradská 11",
+          "brewery": "Vinohradský pivovar",
+          "url": "/b/vinohradsky-pivovar-vinohradska-11/916918",
+          "rating": 3.541
+        },
+        {
+          "name": "Weiss 11",
+          "brewery": "Vinohradský pivovar",
+          "url": "/b/vinohradsky-pivovar-weiss-11/4420983",
+          "rating": 3.612
+        },
+        {
+          "name": "Micro Lager 11",
+          "brewery": "Vinohradský pivovar",
+          "url": "/b/vinohradsky-pivovar-micro-lager-11/6211486",
+          "rating": 3.731
+        },
+        {
+          "name": "Galaktická 11",
+          "brewery": "Vinohradský pivovar",
+          "url": "/b/vinohradsky-pivovar-galakticka-11/6421550",
+          "rating": 3.648
+        },
+        {
+          "name": "DDH Wai-iti SMaSH 16°",
+          "brewery": "Vinohradský Démon",
+          "url": "/b/vinohradsky-demon-ddh-wai-iti-smash-16deg/4549448",
+          "rating": 3.814
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Vinohradská 11° Vinohradský",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/vinohradsky-pivovar-vinohradska-11/916918",
         "score": 1.0
       }
     },
