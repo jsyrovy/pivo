@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-02T23:50:53Z",
+  "generated_at": "2026-06-03T18:24:58Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "beer": {
@@ -775,6 +775,40 @@
         "score": 1.0
       }
     },
+    "ambasada::Čestmír, Brandýs nad Labem::Pink Guava Maracuja": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Čestmír, Brandýs nad Labem",
+        "name": "Pink Guava Maracuja",
+        "style": "Fruit sour ale",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-06-03T18:24:58Z",
+      "candidates": [
+        {
+          "name": "Sour Pink Guava Maracuja",
+          "brewery": "Pivovar Čestmír",
+          "url": "/b/pivovar-cestmir-sour-pink-guava-maracuja/6534373",
+          "rating": 3.919
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Pink Guava Maracuja 12° Čestmír",
+          "hits": []
+        },
+        {
+          "query": "Pink Guava Maracuja Čestmír",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-cestmir-sour-pink-guava-maracuja/6534373",
+        "score": 1.0
+      }
+    },
     "beerstreet::Brewnicorn::Pivorožec": {
       "beer": {
         "source": "beerstreet",
@@ -810,6 +844,40 @@
       ],
       "outcome": {
         "matched": "/b/brewnicorn-pivorozec/6706555",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Chroust::EXTRA EXTRA": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Chroust",
+        "name": "EXTRA EXTRA",
+        "style": "Pale ale",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-06-03T18:24:51Z",
+      "candidates": [
+        {
+          "name": "Extra Extra",
+          "brewery": "Chroust",
+          "url": "/b/chroust-extra-extra/6656532",
+          "rating": 3.682
+        }
+      ],
+      "attempts": [
+        {
+          "query": "EXTRA EXTRA 11° Chroust",
+          "hits": []
+        },
+        {
+          "query": "EXTRA EXTRA Chroust",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/chroust-extra-extra/6656532",
         "score": 1.0
       }
     },
@@ -2172,6 +2240,39 @@
       "outcome": {
         "matched": "/b/pivovar-zahora-sunrice-ipa/6564358",
         "score": 1.0
+      }
+    },
+    "beerstreet::Černý Potoka::Cold Fish Mosaic dry hopped": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Černý Potoka",
+        "name": "Cold Fish Mosaic dry hopped",
+        "style": "Session IPA",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-06-03T18:24:49Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Cold Fish Mosaic dry hopped 11° Černý Potoka",
+          "hits": []
+        },
+        {
+          "query": "Cold Fish Mosaic dry hopped Černý Potoka",
+          "hits": []
+        },
+        {
+          "query": "Cold Fish Mosaic dry hopped 11°",
+          "hits": []
+        },
+        {
+          "query": "Cold Fish Mosaic dry hopped",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "beerstreet::Černý potoka::Cold Fish": {

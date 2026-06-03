@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-02T23:50:53Z",
+  "generated_at": "2026-06-03T18:24:58Z",
   "pairings": {
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-stylish-girl-milkshake-neipa-13deg-blackberry/5988268",
@@ -533,6 +533,15 @@
       "matched_at": "2026-05-19T20:28:43Z",
       "query_used": "Frida Revolution Čestmír"
     },
+    "ambasada::Čestmír, Brandýs nad Labem::Pink Guava Maracuja": {
+      "untappd_url": "https://untappd.com/b/pivovar-cestmir-sour-pink-guava-maracuja/6534373",
+      "untappd_name": "Sour Pink Guava Maracuja",
+      "untappd_brewery": "Pivovar Čestmír",
+      "rating": 3.919,
+      "match_score": 1.0,
+      "matched_at": "2026-06-03T18:24:58Z",
+      "query_used": "Pink Guava Maracuja Čestmír"
+    },
     "ambasada::Čestmír, Brandýs nad Labem::Riwaka": {
       "untappd_url": "https://untappd.com/b/pivovar-cestmir-single-hop-neipa-riwaka-14deg/5714600",
       "untappd_name": "Single Hop NEIPA - Riwaka 14°",
@@ -559,6 +568,15 @@
       "match_score": 1.0,
       "matched_at": "2026-05-22T20:41:04Z",
       "query_used": "Pivorožec Brewnicorn"
+    },
+    "beerstreet::Chroust::EXTRA EXTRA": {
+      "untappd_url": "https://untappd.com/b/chroust-extra-extra/6656532",
+      "untappd_name": "Extra Extra",
+      "untappd_brewery": "Chroust",
+      "rating": 3.682,
+      "match_score": 1.0,
+      "matched_at": "2026-06-03T18:24:51Z",
+      "query_used": "EXTRA EXTRA Chroust"
     },
     "beerstreet::Chroust::Extra Extra": {
       "untappd_url": "https://untappd.com/b/chroust-extra-extra/6656532",
@@ -1293,6 +1311,11 @@
     "beerstreet::Záhora::Silk Road - ibišek+koriandr+limeta+yuzu": {
       "attempts": 1,
       "last_tried_at": "2026-06-01T19:22:43Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "beerstreet::Černý Potoka::Cold Fish Mosaic dry hopped": {
+      "attempts": 1,
+      "last_tried_at": "2026-06-03T18:24:49Z",
       "reason": "no_candidates_above_threshold"
     }
   }
