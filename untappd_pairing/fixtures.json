@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-03T18:24:58Z",
+  "generated_at": "2026-06-03T21:54:09Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "beer": {
@@ -741,6 +741,40 @@
         "score": 1.0
       }
     },
+    "ambasada::Sibeeria, Praha::Tláloc - God of Rain": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Sibeeria, Praha",
+        "name": "Tláloc - God of Rain",
+        "style": "Mexican session cold IPA",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-06-03T21:54:04Z",
+      "candidates": [
+        {
+          "name": "Tláloc - God of Rain",
+          "brewery": "Sibeeria Brewery",
+          "url": "/b/sibeeria-brewery-tlaloc-god-of-rain/5939851",
+          "rating": 3.634
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Tláloc - God of Rain 12° Sibeeria",
+          "hits": []
+        },
+        {
+          "query": "Tláloc - God of Rain Sibeeria",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/sibeeria-brewery-tlaloc-god-of-rain/5939851",
+        "score": 1.0
+      }
+    },
     "ambasada::Sibeeria, Praha::Zesty Zebra": {
       "beer": {
         "source": "ambasada",
@@ -772,6 +806,68 @@
       ],
       "outcome": {
         "matched": "/b/sibeeria-brewery-zesty-zebra/6698766",
+        "score": 1.0
+      }
+    },
+    "ambasada::Černý Potoka, Potštejn::Hellion": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Černý Potoka, Potštejn",
+        "name": "Hellion",
+        "style": "West coast IPA",
+        "degree_plato": 14.0
+      },
+      "captured_at": "2026-06-03T21:54:09Z",
+      "candidates": [
+        {
+          "name": "Hellion",
+          "brewery": "černý potoka",
+          "url": "/b/cerny-potoka-hellion/3092309",
+          "rating": 3.812
+        },
+        {
+          "name": "Session Hellion",
+          "brewery": "černý potoka",
+          "url": "/b/cerny-potoka-session-hellion/5412736",
+          "rating": 3.736
+        },
+        {
+          "name": "Citrus Hellion",
+          "brewery": "černý potoka",
+          "url": "/b/cerny-potoka-citrus-hellion/5342324",
+          "rating": 3.993
+        },
+        {
+          "name": "Hellion Mango/Maracuja",
+          "brewery": "černý potoka",
+          "url": "/b/cerny-potoka-hellion-mango-maracuja/5110287",
+          "rating": 3.723
+        },
+        {
+          "name": "Pink Grapefruit Hellion",
+          "brewery": "černý potoka",
+          "url": "/b/cerny-potoka-pink-grapefruit-hellion/4814227",
+          "rating": 4.053
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Hellion 14° Černý Potoka",
+          "hits": []
+        },
+        {
+          "query": "Hellion Černý Potoka",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/cerny-potoka-hellion/3092309",
         "score": 1.0
       }
     },
