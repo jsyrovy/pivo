@@ -7,7 +7,7 @@ from typing import TYPE_CHECKING
 import httpx
 
 from robot.base import BaseRobot
-from untappd_pairing import matcher, normalize, tap_api, untappd_search
+from untappd_pairing import llm_matcher, matcher, normalize, tap_api, untappd_search
 from untappd_pairing import overrides as overrides_module
 from untappd_pairing.fixtures import FIXTURES_PATH, FixtureOutcome, FixturesStore, compress_url
 from untappd_pairing.matcher import MatchResult
@@ -23,6 +23,18 @@ UNMATCHED_NO_CANDIDATES = "no_candidates_above_threshold"
 UNMATCHED_UPSTREAM_ERROR = "upstream_error"
 UNMATCHED_OVERRIDE_PARSE_FAILED = "override_page_parse_failed"
 OVERRIDE_QUERY_MARKER = "<override>"
+LLM_QUERY_MARKER = "<llm>"
+
+
+def _unique_candidates(trace: list[tuple[str, list[UntappdCandidate]]]) -> list[UntappdCandidate]:
+    pool: list[UntappdCandidate] = []
+    seen: dict[str, int] = {}
+    for _query, candidates in trace:
+        for candidate in candidates:
+            if candidate.url not in seen:
+                seen[candidate.url] = len(pool)
+                pool.append(candidate)
+    return pool
 
 
 def _pluralize_pivo(count: int) -> str:
@@ -167,6 +179,24 @@ class UntappdPairing(BaseRobot):
                     beer,
                     trace,
                     FixtureOutcome(matched_url=compress_url(result.candidate.url), score=result.score),
+                )
+                return None
+
+        pool = _unique_candidates(trace)
+        if pool:
+            chosen = llm_matcher.adjudicate(beer, pool)
+            if chosen is not None:
+                result = MatchResult(
+                    candidate=chosen,
+                    score=matcher.name_overlap(beer.name, chosen.name),
+                    brewery_matched=matcher.brewery_matches(beer.brewery, chosen.brewery),
+                )
+                logger.info("LLM matched %s::%s -> %s", beer.brewery, beer.name, chosen.url)
+                store.record_match(beer, result, LLM_QUERY_MARKER)
+                fixtures_store.upsert(
+                    beer,
+                    trace,
+                    FixtureOutcome(matched_url=compress_url(chosen.url), source="llm"),
                 )
                 return None
 

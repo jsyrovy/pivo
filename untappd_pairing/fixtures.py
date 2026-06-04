@@ -64,6 +64,7 @@ class FixtureOutcome:
     matched_url: str | None
     score: float | None = None
     reason: str | None = None
+    source: Literal["matcher", "llm"] = "matcher"
 
     def __post_init__(self) -> None:
         if (self.matched_url is None) == (self.reason is None):
@@ -147,10 +148,12 @@ def _parse_outcome(raw: dict[str, Any]) -> FixtureOutcome:
     score_raw = raw.get("score")
     score = float(score_raw) if score_raw is not None else None
     reason = raw.get("reason")
+    source = raw.get("source")
     return FixtureOutcome(
         matched_url=str(matched) if matched is not None else None,
         score=score,
         reason=str(reason) if reason is not None else None,
+        source="llm" if source == "llm" else "matcher",
     )
 
 
@@ -217,6 +220,8 @@ def _serialize_outcome(outcome: FixtureOutcome) -> dict[str, Any]:
         payload["score"] = outcome.score
     if outcome.reason is not None:
         payload["reason"] = outcome.reason
+    if outcome.source != "matcher":
+        payload["source"] = outcome.source
     return payload
 
 
@@ -329,6 +334,10 @@ class ExpectedOutcome:
 def expected_outcome(record: FixtureRecord) -> ExpectedOutcome | None:
     annotation = record.annotation
     if annotation is None:
+        if record.outcome.source == "llm":
+            # The deterministic matcher legitimately can't reproduce an LLM-sourced match;
+            # replay skips it (same as 'expected_missing') until it's promoted to an override.
+            return None
         return ExpectedOutcome(matched_url=record.outcome.matched_url, reason="recorded outcome")
     if annotation.verdict in {"wrong_match", "should_match"}:
         return ExpectedOutcome(

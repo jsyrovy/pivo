@@ -19,6 +19,12 @@ def mock_pushover():
 
 
 @pytest.fixture(autouse=True)
+def mock_llm():
+    with mock.patch.object(pairing.llm_matcher, "adjudicate", return_value=None) as m:
+        yield m
+
+
+@pytest.fixture(autouse=True)
 def isolate_fixtures_path(tmp_path, monkeypatch):
     monkeypatch.setattr(pairing, "FIXTURES_PATH", tmp_path / "fixtures.json")
 
@@ -505,6 +511,58 @@ def test_pairing_preserves_fixture_annotation_across_runs(tmp_path, monkeypatch)
     annotation = saved["fixtures"][key]["annotation"]
     assert annotation["verdict"] == "expected_missing"
     assert annotation["expected"] == "/b/the-right-one/42"
+
+
+def test_pairing_llm_fallback_matches_and_records_source(tmp_path, monkeypatch, mock_llm):
+    pairings_path = tmp_path / "pairings.json"
+    fixtures_path = tmp_path / "fixtures.json"
+    monkeypatch.setattr(pairing, "PAIRINGS_PATH", pairings_path)
+    monkeypatch.setattr(pairing, "FIXTURES_PATH", fixtures_path)
+
+    # Brewery name diverges, so the deterministic matcher rejects, but Untappd returns a candidate.
+    beer = _beer("Summer Ale", brewery="Kynšperský zajíc")
+    candidate = _candidate("Summer Ale", brewery="Kynšperský pivovar", url="https://untappd.com/b/kynspersky-summer/1")
+    mock_llm.return_value = candidate
+
+    with (
+        mock.patch.object(pairing.tap_api, "fetch_all_beers", return_value=[beer]),
+        mock.patch.object(pairing.untappd_search, "search_beer", return_value=[candidate]),
+    ):
+        UntappdPairing(args=Args()).run()
+
+    mock_llm.assert_called_once()
+    key = "beerstreet::Kynšperský zajíc::Summer Ale"
+
+    pairings = json.loads(pairings_path.read_text())
+    assert pairings["pairings"][key]["untappd_url"] == "https://untappd.com/b/kynspersky-summer/1"
+    assert pairings["pairings"][key]["query_used"] == pairing.LLM_QUERY_MARKER
+    assert key not in pairings["unmatched"]
+
+    fixtures = json.loads(fixtures_path.read_text())
+    outcome = fixtures["fixtures"][key]["outcome"]
+    assert outcome["source"] == "llm"
+    assert outcome["matched"] == "/b/kynspersky-summer/1"
+
+
+def test_pairing_llm_fallback_declines_keeps_unmatched(tmp_path, monkeypatch, mock_llm):
+    pairings_path = tmp_path / "pairings.json"
+    monkeypatch.setattr(pairing, "PAIRINGS_PATH", pairings_path)
+
+    # Same-named beer from a foreign brewery: matcher rejects, LLM also declines (returns None).
+    beer = _beer("Silk Road", brewery="Záhora")
+    candidate = _candidate("Silk Road", brewery="BrewDog", url="https://untappd.com/b/brewdog/1")
+
+    with (
+        mock.patch.object(pairing.tap_api, "fetch_all_beers", return_value=[beer]),
+        mock.patch.object(pairing.untappd_search, "search_beer", return_value=[candidate]),
+    ):
+        UntappdPairing(args=Args()).run()
+
+    mock_llm.assert_called_once()
+    saved = json.loads(pairings_path.read_text())
+    key = "beerstreet::Záhora::Silk Road"
+    assert saved["unmatched"][key]["reason"] == pairing.UNMATCHED_NO_CANDIDATES
+    assert key not in saved["pairings"]
 
 
 def test_pairing_pushover_failure_does_not_crash_run(tmp_path, monkeypatch, mock_pushover, caplog):

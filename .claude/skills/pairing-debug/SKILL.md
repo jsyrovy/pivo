@@ -147,6 +147,19 @@ Nothing to do beyond the annotation itself. The fixture serves as a documented "
 9. **Verify `make before-commit` is green**, then commit. Conventional commit messages in this repo are terse
    imperative ("Override X", "Match decimal-degree beer names like ...").
 
+## LLM-sourced fixtures (`source: "llm"`)
+
+When the deterministic matcher rejects every candidate but Untappd did return some, an optional LLM fallback
+(`untappd_pairing/llm_matcher.py`, OpenRouter free models, only active when `OPENROUTER_API_KEY` is set) adjudicates
+the captured candidate pool. An LLM match is recorded in `pairings.json` with `query_used == "<llm>"` and the fixture's
+`outcome.source` is set to `"llm"`.
+
+- **Replay skips LLM-sourced fixtures** (`expected_outcome` returns `None` when `source == "llm"` and there's no
+  annotation) — the deterministic matcher legitimately can't reproduce them, same as `expected_missing`.
+- Treat `source: "llm"` fixtures as a **discoverable list of matcher gaps**: each is a candidate to promote to an
+  `overrides.json` entry, or to fix in `matcher.py`/`normalize.py`. Once the matcher catches it deterministically, the
+  next run rewrites the fixture with `source` back to `"matcher"`.
+
 ## Pitfalls
 
 - **Untappd URL slug aliases**: the same beer ID can appear at two different slugs (e.g. `/b/...maisel-and-friends...`
