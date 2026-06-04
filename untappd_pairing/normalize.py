@@ -4,6 +4,11 @@ import unicodedata
 _DEGREE_RE = re.compile(r"\d+(?:[.,]\d+)?\s*°")
 _PARENS_RE = re.compile(r"\([^)]*\)")
 _BATCH_RE = re.compile(r"\b(?:batch|vol\.?|série|serie)\s*#?\s*\d+", re.IGNORECASE)
+# "Dry hop(ped)" is often a brewing-process descriptor a tap list appends ("Cold Fish Mosaic dry
+# hopped") that Untappd keeps terse ("Cold Fish - Mosaic Dry Hop"), blocking the search. But it can
+# also be a legitimate part of the name, so build_search_queries only tries the stripped form as a
+# fallback after the full name (and its other variants) found nothing.
+_DRYHOP_RE = re.compile(r"\b(?:(?:double|triple) )?dry[ -]?hop(?:ped|s)?\b", re.IGNORECASE)
 _WHITESPACE_RE = re.compile(r"\s+")
 _APOSTROPHE_RE = re.compile(r"[\u2019']")
 _NON_ALNUM_RE = re.compile(r"[^a-z0-9 ]")
@@ -57,6 +62,14 @@ def build_search_queries(name: str, brewery: str, degree_plato: float | None = N
     candidates.append(cleaned_name)
     if not cleaned_brewery:
         candidates.append(raw_name)
+
+    # Last-resort fallback: drop a trailing "dry hop(ped)" process descriptor. Appended after every
+    # full-name variant so a beer that legitimately carries "Dry Hop" in its name still wins earlier.
+    dryhop_free = _WHITESPACE_RE.sub(" ", _DRYHOP_RE.sub(" ", cleaned_name)).strip()
+    if dryhop_free and dryhop_free != cleaned_name:
+        if cleaned_brewery:
+            candidates.append(f"{dryhop_free} {cleaned_brewery}")
+        candidates.append(dryhop_free)
 
     queries: list[str] = []
     for candidate in candidates:

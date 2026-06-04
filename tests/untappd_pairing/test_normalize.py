@@ -28,6 +28,12 @@ def test_clean_beer_name_strips_batch_suffix():
     assert clean_beer_name("Hazy IPA série 12") == "Hazy IPA"
 
 
+def test_clean_beer_name_keeps_dry_hop_descriptor():
+    # clean_beer_name must NOT strip "dry hop" -- it can be a legitimate part of the name. Dropping it
+    # is a search fallback handled by build_search_queries, not a blanket cleanup.
+    assert clean_beer_name("Cold Fish Mosaic dry hopped") == "Cold Fish Mosaic dry hopped"
+
+
 def test_clean_beer_name_collapses_whitespace():
     assert clean_beer_name("  Foo   Bar  ") == "Foo Bar"
 
@@ -65,6 +71,18 @@ def test_build_search_queries_prefers_cleaned_form_first():
     assert queries[0] == "Tears of St Laurent Wild Creatures"
     assert "Tears of St Laurent (2020) Wild Creatures" in queries
     assert queries[-1] == "Tears of St Laurent"
+
+
+def test_build_search_queries_adds_dry_hop_stripped_fallback_last():
+    queries = build_search_queries("Cold Fish Mosaic dry hopped", "Černý Potoka")
+    # The full name (with the process descriptor) is tried first; the stripped form is a fallback.
+    assert "Cold Fish Mosaic dry hopped Černý Potoka" in queries
+    assert "Cold Fish Mosaic Černý Potoka" in queries
+    assert queries.index("Cold Fish Mosaic dry hopped Černý Potoka") < queries.index(
+        "Cold Fish Mosaic Černý Potoka",
+    )
+    # The brewery-less stripped form lands at the very end.
+    assert queries[-1] == "Cold Fish Mosaic"
 
 
 def test_build_search_queries_drops_city_suffix_from_brewery():
