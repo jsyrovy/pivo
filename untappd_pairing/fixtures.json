@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-04T19:27:57Z",
+  "generated_at": "2026-06-04T21:45:33Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "beer": {
@@ -36,6 +36,40 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-agent-stylish-girl-milkshake-neipa-13deg-blackberry/5988268",
+        "score": 1.0
+      }
+    },
+    "ambasada::Beskydský, Ostravice::Ginger & Lime": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Beskydský, Ostravice",
+        "name": "Ginger & Lime",
+        "style": "Ochucený ale",
+        "degree_plato": 8.0
+      },
+      "captured_at": "2026-06-04T21:45:33Z",
+      "candidates": [
+        {
+          "name": "Ginger & Lime Ale",
+          "brewery": "Beskydský pivovárek",
+          "url": "/b/beskydsky-pivovarek-ginger-lime-ale/6345697",
+          "rating": 3.576
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Ginger & Lime 8° Beskydský",
+          "hits": []
+        },
+        {
+          "query": "Ginger & Lime Beskydský",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/beskydsky-pivovarek-ginger-lime-ale/6345697",
         "score": 1.0
       }
     },

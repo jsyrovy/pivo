@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-04T19:27:57Z",
+  "generated_at": "2026-06-04T21:45:33Z",
   "pairings": {
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-stylish-girl-milkshake-neipa-13deg-blackberry/5988268",
@@ -28,6 +28,15 @@
       "match_score": 1.0,
       "matched_at": "2026-04-17T11:21:20Z",
       "query_used": "Denali Beskydský Pivovárek"
+    },
+    "ambasada::Beskydský, Ostravice::Ginger & Lime": {
+      "untappd_url": "https://untappd.com/b/beskydsky-pivovarek-ginger-lime-ale/6345697",
+      "untappd_name": "Ginger & Lime Ale",
+      "untappd_brewery": "Beskydský pivovárek",
+      "rating": 3.576,
+      "match_score": 1.0,
+      "matched_at": "2026-06-04T21:45:33Z",
+      "query_used": "Ginger & Lime Beskydský"
     },
     "ambasada::Bevog, Bad Radkersburg, Rakousko::Buzz": {
       "untappd_url": "https://untappd.com/b/bevog-brewery-buzz/4510503",
