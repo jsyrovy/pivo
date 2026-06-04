@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-04T16:56:24Z",
+  "generated_at": "2026-06-04T19:27:57Z",
   "pairings": {
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-stylish-girl-milkshake-neipa-13deg-blackberry/5988268",
@@ -1297,8 +1297,8 @@
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::-::-": {
-      "attempts": 1,
-      "last_tried_at": "2026-04-18T19:39:13Z",
+      "attempts": 2,
+      "last_tried_at": "2026-06-04T19:27:57Z",
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::Haksna::Our Lager": {
