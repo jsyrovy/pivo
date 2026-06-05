@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-05T16:31:53Z",
+  "generated_at": "2026-06-05T17:57:15Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "beer": {
@@ -171,6 +171,40 @@
       ],
       "outcome": {
         "matched": "/b/brewnicorn-sunny-day/6689258",
+        "score": 1.0
+      }
+    },
+    "ambasada::Clock, Potštejn::Maracuja & Elderflower": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Clock, Potštejn",
+        "name": "Maracuja & Elderflower",
+        "style": "Lehký sour ale s bezovým květem a maracujou",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-06-05T17:57:15Z",
+      "candidates": [
+        {
+          "name": "Maracuja & Elderflower",
+          "brewery": "Pivovar Clock",
+          "url": "/b/pivovar-clock-maracuja-elderflower/6270248",
+          "rating": 3.614
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Maracuja & Elderflower 10° Clock",
+          "hits": []
+        },
+        {
+          "query": "Maracuja & Elderflower Clock",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-clock-maracuja-elderflower/6270248",
         "score": 1.0
       }
     },
@@ -1920,6 +1954,40 @@
       "outcome": {
         "matched": "/b/pivovar-loutkar-svetly-lezak-12/3940219",
         "score": 0.0
+      }
+    },
+    "beerstreet::Loutkář::Sabro": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Loutkář",
+        "name": "Sabro",
+        "style": "Single hop ale",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-06-05T17:57:10Z",
+      "candidates": [
+        {
+          "name": "Sabro 12 Single Hop",
+          "brewery": "Pivovar Loutkář",
+          "url": "/b/pivovar-loutkar-sabro-12-single-hop/4798619",
+          "rating": 3.631
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Sabro 11° Loutkář",
+          "hits": []
+        },
+        {
+          "query": "Sabro Loutkář",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-loutkar-sabro-12-single-hop/4798619",
+        "score": 1.0
       }
     },
     "beerstreet::Loutkář::Švihák": {

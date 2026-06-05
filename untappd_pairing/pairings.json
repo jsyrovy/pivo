@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-05T16:31:53Z",
+  "generated_at": "2026-06-05T17:57:15Z",
   "pairings": {
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-stylish-girl-milkshake-neipa-13deg-blackberry/5988268",
@@ -82,6 +82,15 @@
       "match_score": 1.0,
       "matched_at": "2026-05-06T20:19:51Z",
       "query_used": "Glee Clock"
+    },
+    "ambasada::Clock, Potštejn::Maracuja & Elderflower": {
+      "untappd_url": "https://untappd.com/b/pivovar-clock-maracuja-elderflower/6270248",
+      "untappd_name": "Maracuja & Elderflower",
+      "untappd_brewery": "Pivovar Clock",
+      "rating": 3.614,
+      "match_score": 1.0,
+      "matched_at": "2026-06-05T17:57:15Z",
+      "query_used": "Maracuja & Elderflower Clock"
     },
     "ambasada::Clock, Potštejn::No Idols! American IPA": {
       "untappd_url": "https://untappd.com/b/pivovar-clock-no-idols-15deg-american-ipa/873053",
@@ -919,6 +928,15 @@
       "match_score": 1.0,
       "matched_at": "2026-04-17T11:20:50Z",
       "query_used": "Mozaika Loutkář"
+    },
+    "beerstreet::Loutkář::Sabro": {
+      "untappd_url": "https://untappd.com/b/pivovar-loutkar-sabro-12-single-hop/4798619",
+      "untappd_name": "Sabro 12 Single Hop",
+      "untappd_brewery": "Pivovar Loutkář",
+      "rating": 3.631,
+      "match_score": 1.0,
+      "matched_at": "2026-06-05T17:57:10Z",
+      "query_used": "Sabro Loutkář"
     },
     "beerstreet::Loutkář::Velikonoční": {
       "untappd_url": "https://untappd.com/b/pivovar-loutkar-velikonocni-lezak-12-a-pul/5766556",
