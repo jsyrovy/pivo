@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-05T14:33:53Z",
+  "generated_at": "2026-06-05T16:31:53Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "beer": {
@@ -1173,6 +1173,82 @@
         {
           "query": "Mahlerova Osma",
           "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
+    "beerstreet::Hoppy Dog::Vojta": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Hoppy Dog",
+        "name": "Vojta",
+        "style": "Pilsner czech",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-06-05T16:31:53Z",
+      "candidates": [
+        {
+          "name": "Vojta 11",
+          "brewery": "Pivovar HoppyDog",
+          "url": "/b/pivovar-hoppydog-vojta-11/4841834",
+          "rating": 3.424
+        },
+        {
+          "name": "Low Voltage",
+          "brewery": "Brixton Brewery",
+          "url": "/b/brixton-brewery-low-voltage/1480512",
+          "rating": 3.462
+        },
+        {
+          "name": "Volta",
+          "brewery": "North",
+          "url": "/b/north-volta/2008471",
+          "rating": 3.677
+        },
+        {
+          "name": "Benedict Světlý ležák 12%",
+          "brewery": "Břevnovský klášterní pivovar sv. Vojtěcha",
+          "url": "/b/brevnovsky-klasterni-pivovar-sv-vojtecha-benedict-svetly-lezak-12/350062",
+          "rating": 3.485
+        },
+        {
+          "name": "Benedict Klášterní IPA",
+          "brewery": "Břevnovský klášterní pivovar sv. Vojtěcha",
+          "url": "/b/brevnovsky-klasterni-pivovar-sv-vojtecha-benedict-klasterni-ipa/240287",
+          "rating": 3.491
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Vojta 11° Hoppy Dog",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Vojta Hoppy Dog",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Vojta 11°",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Vojta",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
         }
       ],
       "outcome": {

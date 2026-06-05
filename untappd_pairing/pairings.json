@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-05T14:33:53Z",
+  "generated_at": "2026-06-05T16:31:53Z",
   "pairings": {
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-stylish-girl-milkshake-neipa-13deg-blackberry/5988268",
@@ -1327,6 +1327,11 @@
     "beerstreet::Hoppy Dog::Mahlerova Osma": {
       "attempts": 1,
       "last_tried_at": "2026-05-30T15:13:41Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "beerstreet::Hoppy Dog::Vojta": {
+      "attempts": 1,
+      "last_tried_at": "2026-06-05T16:31:53Z",
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::Klenot::Guava and rosemary": {
