@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-05T17:57:15Z",
+  "generated_at": "2026-06-05T17:58:48Z",
   "pairings": {
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-stylish-girl-milkshake-neipa-13deg-blackberry/5988268",
@@ -667,6 +667,15 @@
       "match_score": 1.0,
       "matched_at": "2026-04-28T20:13:51Z",
       "query_used": "Citra Session Haksna"
+    },
+    "beerstreet::Hoppy Dog::Vojta": {
+      "untappd_url": "https://untappd.com/b/pivovar-hoppydog-vojta-11/4841834",
+      "untappd_name": "Vojta 11",
+      "untappd_brewery": "Pivovar HoppyDog",
+      "rating": 3.424,
+      "match_score": 1.0,
+      "matched_at": "2026-06-05T17:58:48Z",
+      "query_used": "<llm>"
     },
     "beerstreet::Hřebec::American Pale Ale": {
       "untappd_url": "https://untappd.com/b/pivovar-hrebec-11deg-american-pale-ale/6340678",

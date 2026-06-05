@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-05T17:57:15Z",
+  "generated_at": "2026-06-05T17:58:48Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "beer": {
@@ -1222,7 +1222,7 @@
         "style": "Pilsner czech",
         "degree_plato": 11.0
       },
-      "captured_at": "2026-06-05T16:31:53Z",
+      "captured_at": "2026-06-05T17:58:48Z",
       "candidates": [
         {
           "name": "Vojta 11",
@@ -1286,8 +1286,8 @@
         }
       ],
       "outcome": {
-        "matched": null,
-        "reason": "no_candidates_above_threshold"
+        "matched": "/b/pivovar-hoppydog-vojta-11/4841834",
+        "source": "llm"
       }
     },
     "beerstreet::Klenot::Cranberry+plum+ginger": {
