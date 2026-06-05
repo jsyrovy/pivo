@@ -1347,11 +1347,6 @@
       "last_tried_at": "2026-05-30T15:13:41Z",
       "reason": "no_candidates_above_threshold"
     },
-    "beerstreet::Hoppy Dog::Vojta": {
-      "attempts": 1,
-      "last_tried_at": "2026-06-05T16:31:53Z",
-      "reason": "no_candidates_above_threshold"
-    },
     "beerstreet::Klenot::Guava and rosemary": {
       "attempts": 1,
       "last_tried_at": "2026-05-22T09:09:16Z",
