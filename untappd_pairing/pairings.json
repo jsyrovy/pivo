@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-04T23:12:53Z",
+  "generated_at": "2026-06-05T14:33:53Z",
   "pairings": {
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-stylish-girl-milkshake-neipa-13deg-blackberry/5988268",
@@ -1171,6 +1171,15 @@
       "match_score": 1.0,
       "matched_at": "2026-06-02T18:07:43Z",
       "query_used": "Vinohradská 11° Vinohradský"
+    },
+    "beerstreet::Zichovec::Shift the Pils": {
+      "untappd_url": "https://untappd.com/b/rodinny-pivovar-zichovec-shift-the-pils-12/6516901",
+      "untappd_name": "Shift the Pils 12",
+      "untappd_brewery": "Rodinný pivovar Zichovec",
+      "rating": 3.789,
+      "match_score": 1.0,
+      "matched_at": "2026-06-05T14:33:53Z",
+      "query_used": "Shift the Pils 12° Zichovec"
     },
     "beerstreet::Záhora::American Pale Lager": {
       "untappd_url": "https://untappd.com/b/pivovar-zahora-american-pale-lager-10-apl-r1/3060264",

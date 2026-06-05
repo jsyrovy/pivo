@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-04T23:12:53Z",
+  "generated_at": "2026-06-05T14:33:53Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "beer": {
@@ -2246,6 +2246,36 @@
       ],
       "outcome": {
         "matched": "/b/vinohradsky-pivovar-vinohradska-11/916918",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Zichovec::Shift the Pils": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Zichovec",
+        "name": "Shift the Pils",
+        "style": "Pilsner - new zealand",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-06-05T14:33:53Z",
+      "candidates": [
+        {
+          "name": "Shift the Pils 12",
+          "brewery": "Rodinný pivovar Zichovec",
+          "url": "/b/rodinny-pivovar-zichovec-shift-the-pils-12/6516901",
+          "rating": 3.789
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Shift the Pils 12° Zichovec",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/rodinny-pivovar-zichovec-shift-the-pils-12/6516901",
         "score": 1.0
       }
     },
