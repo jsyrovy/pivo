@@ -8,7 +8,6 @@ interface RawBeer {
   styl?: unknown;
   avb?: unknown;
   epm?: unknown;
-  poradi?: unknown;
   cena04?: unknown;
   cena03?: unknown;
 }
@@ -26,23 +25,16 @@ export function parseBeerStreetJson(raw: unknown): Beer[] {
     throw new TypeError("Beer Street payload missing `beers` array");
   }
 
-  const items = (payload.beers.filter(isObject) as RawBeer[]).sort((a, b) => {
-    const oa = toOrder(a.poradi);
-    const ob = toOrder(b.poradi);
-    if (oa === null && ob === null) return 0;
-    if (oa === null) return 1;
-    if (ob === null) return -1;
-    return oa - ob;
-  });
+  const items = payload.beers.filter(isObject) as RawBeer[];
 
-  return items.map((item): Beer => ({
+  return items.map((item, index): Beer => ({
     name: trimString(item.nazev),
     brewery: trimString(item.nazev_pivovaru),
     style: formatStyle(trimString(item.styl)),
     abv: parseNumber(item.avb),
     degreePlato: parseNumber(item.epm),
     source: "beerstreet",
-    order: toOrder(item.poradi),
+    order: index + 1,
     pricing: beerStreetPricing(item.cena04, item.cena03),
   }));
 }
@@ -64,14 +56,5 @@ function parseNumber(value: unknown): number | null {
   const normalized = value.trim().replace(",", ".");
   if (!normalized) return null;
   const n = Number.parseFloat(normalized);
-  return Number.isFinite(n) ? n : null;
-}
-
-function toOrder(value: unknown): number | null {
-  if (typeof value === "number") {
-    return Number.isFinite(value) ? value : null;
-  }
-  if (typeof value !== "string") return null;
-  const n = Number.parseInt(value, 10);
   return Number.isFinite(n) ? n : null;
 }
