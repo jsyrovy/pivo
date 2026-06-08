@@ -1,7 +1,56 @@
 {
   "version": 1,
-  "generated_at": "2026-06-07T23:11:11Z",
+  "generated_at": "2026-06-08T17:25:46Z",
   "fixtures": {
+    "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "6, 2% Sibeeria/Čierny Kameň",
+        "name": "Juniper Dryad",
+        "style": "West coast IPA w/ juniper",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-06-08T17:25:46Z",
+      "candidates": [
+        {
+          "name": "Juniper Dryad",
+          "brewery": "Sibeeria Brewery",
+          "url": "/b/sibeeria-brewery-juniper-dryad/6208875",
+          "rating": 3.834
+        },
+        {
+          "name": "Juniper Berry Sour Apricot",
+          "brewery": "Dry Dock Brewing Company",
+          "url": "/b/dry-dock-brewing-company-juniper-berry-sour-apricot/2173191",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Juniper Dryad 13° 6",
+          "hits": []
+        },
+        {
+          "query": "Juniper Dryad 6",
+          "hits": []
+        },
+        {
+          "query": "Juniper Dryad 13°",
+          "hits": []
+        },
+        {
+          "query": "Juniper Dryad",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/sibeeria-brewery-juniper-dryad/6208875",
+        "source": "llm"
+      }
+    },
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "beer": {
         "source": "ambasada",
@@ -1805,6 +1854,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-louka-osmica-8/4366792",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Louka::Primáš": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Louka",
+        "name": "Primáš",
+        "style": "Ležák světlý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-06-08T17:25:41Z",
+      "candidates": [
+        {
+          "name": "Primáš 11",
+          "brewery": "Pivovar Louka",
+          "url": "/b/pivovar-louka-primas-11/3921016",
+          "rating": 3.247
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Primáš 11° Louka",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-louka-primas-11/3921016",
         "score": 1.0
       }
     },

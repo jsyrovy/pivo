@@ -1,7 +1,16 @@
 {
   "version": 1,
-  "generated_at": "2026-06-07T23:11:11Z",
+  "generated_at": "2026-06-08T17:25:46Z",
   "pairings": {
+    "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
+      "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
+      "untappd_name": "Juniper Dryad",
+      "untappd_brewery": "Sibeeria Brewery",
+      "rating": 3.834,
+      "match_score": 1.0,
+      "matched_at": "2026-06-08T17:25:46Z",
+      "query_used": "<llm>"
+    },
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-stylish-girl-milkshake-neipa-13deg-blackberry/5988268",
       "untappd_name": "Stylish Girl - Milkshake NEIPA 13° - Blackberry",
@@ -847,6 +856,15 @@
       "match_score": 1.0,
       "matched_at": "2026-05-30T15:13:46Z",
       "query_used": "OSMICA Louka"
+    },
+    "beerstreet::Louka::Primáš": {
+      "untappd_url": "https://untappd.com/b/pivovar-louka-primas-11/3921016",
+      "untappd_name": "Primáš 11",
+      "untappd_brewery": "Pivovar Louka",
+      "rating": 3.247,
+      "match_score": 1.0,
+      "matched_at": "2026-06-08T17:25:41Z",
+      "query_used": "Primáš 11° Louka"
     },
     "beerstreet::Louka::Session Cryo": {
       "untappd_url": "https://untappd.com/b/pivovar-louka-session-cryo-11/5478053",
