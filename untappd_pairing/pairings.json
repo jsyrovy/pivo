@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-08T22:42:09Z",
+  "generated_at": "2026-06-09T18:13:07Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -1208,6 +1208,15 @@
       "matched_at": "2026-05-30T17:14:39Z",
       "query_used": "My Fair ležák Varga Brothers"
     },
+    "beerstreet::Vinohradský pivovar::Hazy Galaxy": {
+      "untappd_url": "https://untappd.com/b/vinohradsky-pivovar-hazy-galaxy/4737918",
+      "untappd_name": "Hazy Galaxy",
+      "untappd_brewery": "Vinohradský pivovar",
+      "rating": 3.638,
+      "match_score": 1.0,
+      "matched_at": "2026-06-09T18:13:07Z",
+      "query_used": "Hazy Galaxy Vinohradský"
+    },
     "beerstreet::Vinohradský pivovar::Vinohradská": {
       "untappd_url": "https://untappd.com/b/vinohradsky-pivovar-vinohradska-11/916918",
       "untappd_name": "Vinohradská 11",
@@ -1372,6 +1381,11 @@
     "beerstreet::Hoppy Dog::Mahlerova Osma": {
       "attempts": 1,
       "last_tried_at": "2026-05-30T15:13:41Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "beerstreet::Hřebec::Ležák světlý": {
+      "attempts": 1,
+      "last_tried_at": "2026-06-09T18:13:04Z",
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::Klenot::Guava and rosemary": {

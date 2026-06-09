@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-08T22:42:09Z",
+  "generated_at": "2026-06-09T18:13:07Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -1339,6 +1339,141 @@
         "source": "llm"
       }
     },
+    "beerstreet::Hřebec::Ležák světlý": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Hřebec",
+        "name": "Ležák světlý",
+        "style": "Ležák světlý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-06-09T18:13:04Z",
+      "candidates": [
+        {
+          "name": "Klenot 12 nefiltrovaný",
+          "brewery": "Hradecký Klenot",
+          "url": "/b/hradecky-klenot-klenot-12-nefiltrovany/2344572",
+          "rating": 3.309
+        },
+        {
+          "name": "Urban 11° Světlý ležák",
+          "brewery": "Podklášterní pivovar Třebíč",
+          "url": "/b/podklasterni-pivovar-trebic-urban-11-svetly-lezak/458813",
+          "rating": 3.165
+        },
+        {
+          "name": "Urban 12° Světlý ležák",
+          "brewery": "Podklášterní pivovar Třebíč",
+          "url": "/b/podklasterni-pivovar-trebic-urban-12deg-svetly-lezak/706392",
+          "rating": 3.191
+        },
+        {
+          "name": "Světlý ležák 11°",
+          "brewery": "Horác",
+          "url": "/b/horac-svetly-lezak-11deg/3769867",
+          "rating": 2.985
+        },
+        {
+          "name": "Konrad 11° / Vratislavický ležák",
+          "brewery": "Pivovar Liberec Vratislavice",
+          "url": "/b/pivovar-liberec-vratislavice-konrad-11deg-vratislavicky-lezak/76672",
+          "rating": 3.112
+        },
+        {
+          "name": "Světlý ležák 11°",
+          "brewery": "Krakonoš",
+          "url": "/b/krakonos-svetly-lezak-11deg/331211",
+          "rating": 3.134
+        },
+        {
+          "name": "Světlý ležák Medium 11°",
+          "brewery": "Hubertus",
+          "url": "/b/hubertus-svetly-lezak-medium-11deg/538519",
+          "rating": 3.16
+        },
+        {
+          "name": "Světák",
+          "brewery": "Pivovar Falkenštejn / Brauhaus Falkenstein",
+          "url": "/b/pivovar-falkenstejn-brauhaus-falkenstein-svetak/1057236",
+          "rating": 3.457
+        },
+        {
+          "name": "Anežka",
+          "brewery": "Pivovar Clock",
+          "url": "/b/pivovar-clock-anezka/2888047",
+          "rating": 3.51
+        },
+        {
+          "name": "Pilsner Urquell",
+          "brewery": "Plzeňský Prazdroj",
+          "url": "/b/plzensky-prazdroj-pilsner-urquell/37936",
+          "rating": 3.378
+        },
+        {
+          "name": "Kozel Premium Lager / Kozel 11",
+          "brewery": "Pivovar Velké Popovice",
+          "url": "/b/pivovar-velke-popovice-kozel-premium-lager-kozel-11/30101",
+          "rating": 3.184
+        },
+        {
+          "name": "Březňák Světlý ležák / Original Böhmisch Pils",
+          "brewery": "Velké Březno",
+          "url": "/b/velke-brezno-breznak-svetly-lezak-original-bohmisch-pils/56797",
+          "rating": 3.034
+        },
+        {
+          "name": "Bohemian Lager (Světlý ležák 12)",
+          "brewery": "Bernard Family Brewery",
+          "url": "/b/bernard-family-brewery-bohemian-lager-svetly-lezak-12/64209",
+          "rating": 3.268
+        },
+        {
+          "name": "Zlatý Bažant 12",
+          "brewery": "Heineken Slovensko",
+          "url": "/b/heineken-slovensko-zlaty-bazant-12/69010",
+          "rating": 3.061
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Ležák světlý 11° Hřebec",
+          "hits": []
+        },
+        {
+          "query": "Ležák světlý Hřebec",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "query": "Ležák světlý 11°",
+          "hits": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "query": "Ležák světlý",
+          "hits": [
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
     "beerstreet::Klenot::Cranberry+plum+ginger": {
       "beer": {
         "source": "beerstreet",
@@ -2411,6 +2546,47 @@
       ],
       "outcome": {
         "matched": "/b/varga-brothers-brewing-company-my-fair-lezak/5613947",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Vinohradský pivovar::Hazy Galaxy": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Vinohradský pivovar",
+        "name": "Hazy Galaxy",
+        "style": "Session hazy",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-06-09T18:13:07Z",
+      "candidates": [
+        {
+          "name": "Hazy Galaxy",
+          "brewery": "Vinohradský pivovar",
+          "url": "/b/vinohradsky-pivovar-hazy-galaxy/4737918",
+          "rating": 3.638
+        },
+        {
+          "name": "Hazy Galaxy Non-Alcoholic",
+          "brewery": "Vinohradský pivovar",
+          "url": "/b/vinohradsky-pivovar-hazy-galaxy-non-alcoholic/6580135",
+          "rating": 3.649
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Hazy Galaxy 11° Vinohradský",
+          "hits": []
+        },
+        {
+          "query": "Hazy Galaxy Vinohradský",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/vinohradsky-pivovar-hazy-galaxy/4737918",
         "score": 1.0
       }
     },
