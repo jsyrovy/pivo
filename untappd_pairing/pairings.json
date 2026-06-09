@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-09T18:13:07Z",
+  "generated_at": "2026-06-09T21:03:35Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -1396,6 +1396,11 @@
     "beerstreet::Kynšperský zajíc::Summer Ale": {
       "attempts": 1,
       "last_tried_at": "2026-05-30T17:14:51Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "beerstreet::Louka::Fresh Breakfast 001 - meruňka+maracuja+mango": {
+      "attempts": 1,
+      "last_tried_at": "2026-06-09T21:03:35Z",
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::Záhora::Silk Road": {

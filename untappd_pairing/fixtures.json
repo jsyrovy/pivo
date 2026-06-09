@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-09T18:13:07Z",
+  "generated_at": "2026-06-09T21:03:35Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -1729,6 +1729,39 @@
             9,
             10
           ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
+    "beerstreet::Louka::Fresh Breakfast 001 - meruňka+maracuja+mango": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Louka",
+        "name": "Fresh Breakfast 001 - meruňka+maracuja+mango",
+        "style": "Pastry sour",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-06-09T21:03:35Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Fresh Breakfast 001 - meruňka+maracuja+mango 11° Louka",
+          "hits": []
+        },
+        {
+          "query": "Fresh Breakfast 001 - meruňka+maracuja+mango Louka",
+          "hits": []
+        },
+        {
+          "query": "Fresh Breakfast 001 - meruňka+maracuja+mango 11°",
+          "hits": []
+        },
+        {
+          "query": "Fresh Breakfast 001 - meruňka+maracuja+mango",
+          "hits": []
         }
       ],
       "outcome": {
