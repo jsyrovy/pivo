@@ -11,6 +11,11 @@ TAP_API_BASE_URL = "https://tap-api.jiri-syrovy.workers.dev"
 ALLOWED_ORIGIN = common.DASHBOARD_BASE_URL
 ENDPOINTS: tuple[str, ...] = ("/beerstreet", "/ambasada")
 
+VENUE_SHORT: dict[str, str] = {
+    "beerstreet": "BS",
+    "ambasada": "PA",
+}
+
 
 @dataclass(frozen=True, kw_only=True)
 class TapBeer:
@@ -20,6 +25,10 @@ class TapBeer:
     abv: float | None
     degree_plato: float | None
     source: str
+
+    @property
+    def venue_short(self) -> str:
+        return VENUE_SHORT.get(self.source, self.source)
 
 
 def _parse_beer(raw: dict[str, Any]) -> TapBeer:

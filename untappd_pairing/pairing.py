@@ -95,7 +95,7 @@ class UntappdPairing(BaseRobot):
         if matched:
             header = f"<b>Naparováno {len(matched)} {_pluralize_pivo(len(matched))}:</b>"
             lines = [
-                f"• {html_escape(beer.brewery)} :: {html_escape(beer.name)}\n"
+                f"• {html_escape(beer.venue_short)} :: {html_escape(beer.brewery)} :: {html_escape(beer.name)}\n"
                 f'  <a href="{html_escape(url, quote=True)}">{html_escape(url)}</a>'
                 for beer, url in matched
             ]
@@ -103,7 +103,8 @@ class UntappdPairing(BaseRobot):
         if unmatched:
             header = f"<b>Nepodařilo se naparovat {len(unmatched)} {_pluralize_pivo(len(unmatched))}:</b>"
             lines = [
-                f"• {html_escape(beer.brewery)} :: {html_escape(beer.name)} <i>({html_escape(reason)})</i>"
+                f"• {html_escape(beer.venue_short)} :: {html_escape(beer.brewery)}"
+                f" :: {html_escape(beer.name)} <i>({html_escape(reason)})</i>"
                 for beer, reason in unmatched
             ]
             sections.append(header + "\n" + "\n".join(lines))
