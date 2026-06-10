@@ -65,6 +65,13 @@ All checks must pass before merging.
 
 ## Code Style
 
+### Commit Messages
+
+- **Terse imperative subject line** — one line, no bullet points
+- Examples: `Override Kynšperský zajíc brewery name`, `Match decimal-degree beer names`, `Add venue short prefix to pairing notifications`
+- The *what* is already in the diff, so don't restate it. Add a short body **only**
+  to explain *why* when the motivation isn't obvious; skip it otherwise
+
 ### Formatting & Linting
 
 - **Ruff** with `lint.select = ["ALL"]` -- nearly every rule is enabled
