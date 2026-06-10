@@ -34,6 +34,16 @@ def test_clean_beer_name_keeps_dry_hop_descriptor():
     assert clean_beer_name("Cold Fish Mosaic dry hopped") == "Cold Fish Mosaic dry hopped"
 
 
+def test_clean_beer_name_keeps_style_adjective_and_ingredient_note():
+    # Like "dry hop", a generic style adjective and a "+"-joined flavor note can be a legitimate part
+    # of the name. Dropping them is a search fallback in build_search_queries, not a blanket cleanup.
+    assert clean_beer_name("Ležák světlý") == "Ležák světlý"
+    assert (
+        clean_beer_name("Fresh Breakfast 001 - meruňka+maracuja+mango")
+        == "Fresh Breakfast 001 - meruňka+maracuja+mango"
+    )
+
+
 def test_clean_beer_name_collapses_whitespace():
     assert clean_beer_name("  Foo   Bar  ") == "Foo Bar"
 
@@ -83,6 +93,35 @@ def test_build_search_queries_adds_dry_hop_stripped_fallback_last():
     )
     # The brewery-less stripped form lands at the very end.
     assert queries[-1] == "Cold Fish Mosaic"
+
+
+def test_build_search_queries_drops_style_adjective_fallback_last():
+    # "Ležák světlý" (Pivovar Hřebec) is "11° Ležák" on Untappd; the generic "světlý" only surfaces
+    # unrelated pale lagers, so the style-stripped form is tried as a fallback after the full name.
+    queries = build_search_queries("Ležák světlý", "Hřebec", degree_plato=11)
+    assert "Ležák světlý 11° Hřebec" in queries
+    assert "Ležák 11° Hřebec" in queries
+    assert queries.index("Ležák světlý 11° Hřebec") < queries.index("Ležák 11° Hřebec")
+    assert queries[-1] == "Ležák"
+
+
+def test_build_search_queries_drops_ingredient_note_fallback():
+    # "Fresh Breakfast 001 - meruňka+maracuja+mango" (Louka) is "Fresh Breakfast 001" on Untappd; the
+    # full name returns nothing, so the note-stripped form is tried as a fallback.
+    queries = build_search_queries("Fresh Breakfast 001 - meruňka+maracuja+mango", "Louka", degree_plato=11)
+    assert "Fresh Breakfast 001 - meruňka+maracuja+mango Louka" in queries
+    assert "Fresh Breakfast 001 Louka" in queries
+    assert queries.index("Fresh Breakfast 001 - meruňka+maracuja+mango Louka") < queries.index(
+        "Fresh Breakfast 001 Louka",
+    )
+    assert queries[-1] == "Fresh Breakfast 001"
+
+
+def test_build_search_queries_keeps_hyphen_without_plus():
+    # A spaced hyphen without a "+"-joined list is not a flavor note -- leave the name intact.
+    queries = build_search_queries("Cold Fish - Mosaic", "Falkon")
+    assert "Cold Fish - Mosaic Falkon" in queries
+    assert all(q != "Cold Fish" for q in queries)
 
 
 def test_build_search_queries_drops_city_suffix_from_brewery():
