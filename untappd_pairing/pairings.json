@@ -1383,11 +1383,6 @@
       "last_tried_at": "2026-05-30T15:13:41Z",
       "reason": "no_candidates_above_threshold"
     },
-    "beerstreet::Hřebec::Ležák světlý": {
-      "attempts": 1,
-      "last_tried_at": "2026-06-09T18:13:04Z",
-      "reason": "no_candidates_above_threshold"
-    },
     "beerstreet::Klenot::Guava and rosemary": {
       "attempts": 1,
       "last_tried_at": "2026-05-22T09:09:16Z",
@@ -1396,11 +1391,6 @@
     "beerstreet::Kynšperský zajíc::Summer Ale": {
       "attempts": 1,
       "last_tried_at": "2026-05-30T17:14:51Z",
-      "reason": "no_candidates_above_threshold"
-    },
-    "beerstreet::Louka::Fresh Breakfast 001 - meruňka+maracuja+mango": {
-      "attempts": 1,
-      "last_tried_at": "2026-06-09T21:03:35Z",
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::Záhora::Silk Road": {
