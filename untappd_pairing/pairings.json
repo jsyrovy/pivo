@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-10T11:52:10Z",
+  "generated_at": "2026-06-10T12:02:24Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -695,6 +695,15 @@
       "matched_at": "2026-04-30T20:07:48Z",
       "query_used": "American Pale Ale Hřebec"
     },
+    "beerstreet::Hřebec::Ležák světlý": {
+      "untappd_url": "https://untappd.com/b/pivovar-hrebec-11deg-lezak/6340661",
+      "untappd_name": "11° Ležák",
+      "untappd_brewery": "Pivovar Hřebec",
+      "rating": 3.577,
+      "match_score": 0.6667,
+      "matched_at": "2026-06-10T12:02:13Z",
+      "query_used": "Ležák 11° Hřebec"
+    },
     "beerstreet::Hřebec::Summer Ale": {
       "untappd_url": "https://untappd.com/b/pivovar-hrebec-10deg-summer-ale/6376217",
       "untappd_name": "10° Summer Ale",
@@ -802,6 +811,15 @@
       "match_score": 1.0,
       "matched_at": "2026-04-25T19:41:46Z",
       "query_used": "Apač Louka"
+    },
+    "beerstreet::Louka::Fresh Breakfast 001 - meruňka+maracuja+mango": {
+      "untappd_url": "https://untappd.com/b/pivovar-louka-fresh-breakfast-001/5368521",
+      "untappd_name": "Fresh Breakfast #001",
+      "untappd_brewery": "Pivovar Louka",
+      "rating": 3.714,
+      "match_score": 1.0,
+      "matched_at": "2026-06-10T12:02:24Z",
+      "query_used": "Fresh Breakfast 001 Louka"
     },
     "beerstreet::Louka::Haka": {
       "untappd_url": "https://untappd.com/b/pivovar-louka-haka-12deg/4422305",

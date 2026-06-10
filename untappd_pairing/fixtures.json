@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-10T11:52:10Z",
+  "generated_at": "2026-06-10T12:02:24Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -1347,19 +1347,19 @@
         "style": "Ležák světlý",
         "degree_plato": 11.0
       },
-      "captured_at": "2026-06-09T18:13:04Z",
+      "captured_at": "2026-06-10T12:02:13Z",
       "candidates": [
-        {
-          "name": "Klenot 12 nefiltrovaný",
-          "brewery": "Hradecký Klenot",
-          "url": "/b/hradecky-klenot-klenot-12-nefiltrovany/2344572",
-          "rating": 3.309
-        },
         {
           "name": "Urban 11° Světlý ležák",
           "brewery": "Podklášterní pivovar Třebíč",
           "url": "/b/podklasterni-pivovar-trebic-urban-11-svetly-lezak/458813",
           "rating": 3.165
+        },
+        {
+          "name": "Světlý ležák 11°",
+          "brewery": "Horác",
+          "url": "/b/horac-svetly-lezak-11deg/3769867",
+          "rating": 2.985
         },
         {
           "name": "Urban 12° Světlý ležák",
@@ -1368,10 +1368,10 @@
           "rating": 3.191
         },
         {
-          "name": "Světlý ležák 11°",
-          "brewery": "Horác",
-          "url": "/b/horac-svetly-lezak-11deg/3769867",
-          "rating": 2.985
+          "name": "Klenot 12 nefiltrovaný",
+          "brewery": "Hradecký Klenot",
+          "url": "/b/hradecky-klenot-klenot-12-nefiltrovany/2344572",
+          "rating": 3.309
         },
         {
           "name": "Konrad 11° / Vratislavický ležák",
@@ -1432,20 +1432,42 @@
           "brewery": "Heineken Slovensko",
           "url": "/b/heineken-slovensko-zlaty-bazant-12/69010",
           "rating": 3.061
+        },
+        {
+          "name": "11° Ležák",
+          "brewery": "Pivovar Hřebec",
+          "url": "/b/pivovar-hrebec-11deg-lezak/6340661",
+          "rating": 3.577
+        },
+        {
+          "name": "11° Ležák Polotmavý",
+          "brewery": "Pivovar Hřebec",
+          "url": "/b/pivovar-hrebec-11deg-lezak-polotmavy/6340675",
+          "rating": 3.338
+        },
+        {
+          "name": "12° Ležák",
+          "brewery": "Pivovar Hřebec",
+          "url": "/b/pivovar-hrebec-12deg-lezak/6516216",
+          "rating": 3.531
         }
       ],
       "attempts": [
         {
           "query": "Ležák světlý 11° Hřebec",
-          "hits": []
+          "hits": [
+            0,
+            1,
+            2
+          ]
         },
         {
           "query": "Ležák světlý Hřebec",
           "hits": [
+            3,
             0,
-            1,
             2,
-            3
+            1
           ]
         },
         {
@@ -1467,11 +1489,19 @@
             12,
             13
           ]
+        },
+        {
+          "query": "Ležák 11° Hřebec",
+          "hits": [
+            14,
+            15,
+            16
+          ]
         }
       ],
       "outcome": {
-        "matched": null,
-        "reason": "no_candidates_above_threshold"
+        "matched": "/b/pivovar-hrebec-11deg-lezak/6340661",
+        "score": 0.6667
       }
     },
     "beerstreet::Klenot::Cranberry+plum+ginger": {
@@ -1744,8 +1774,15 @@
         "style": "Pastry sour",
         "degree_plato": 11.0
       },
-      "captured_at": "2026-06-09T21:03:35Z",
-      "candidates": [],
+      "captured_at": "2026-06-10T12:02:24Z",
+      "candidates": [
+        {
+          "name": "Fresh Breakfast #001",
+          "brewery": "Pivovar Louka",
+          "url": "/b/pivovar-louka-fresh-breakfast-001/5368521",
+          "rating": 3.714
+        }
+      ],
       "attempts": [
         {
           "query": "Fresh Breakfast 001 - meruňka+maracuja+mango 11° Louka",
@@ -1762,11 +1799,21 @@
         {
           "query": "Fresh Breakfast 001 - meruňka+maracuja+mango",
           "hits": []
+        },
+        {
+          "query": "Fresh Breakfast 001 11° Louka",
+          "hits": []
+        },
+        {
+          "query": "Fresh Breakfast 001 Louka",
+          "hits": [
+            0
+          ]
         }
       ],
       "outcome": {
-        "matched": null,
-        "reason": "no_candidates_above_threshold"
+        "matched": "/b/pivovar-louka-fresh-breakfast-001/5368521",
+        "score": 1.0
       }
     },
     "beerstreet::Louka::Haka": {
