@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-11T19:40:19Z",
+  "generated_at": "2026-06-11T22:06:13Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -154,6 +154,15 @@
       "match_score": 1.0,
       "matched_at": "2026-05-16T20:00:28Z",
       "query_used": "Oops, wrong hole! Haksna"
+    },
+    "ambasada::Hoppy Dog, Ostrava::Rafan": {
+      "untappd_url": "https://untappd.com/b/pivovar-hoppydog-rafan/2658169",
+      "untappd_name": "Rafan",
+      "untappd_brewery": "Pivovar HoppyDog",
+      "rating": 3.657,
+      "match_score": 1.0,
+      "matched_at": "2026-06-11T22:06:13Z",
+      "query_used": "<llm>"
     },
     "ambasada::Hoppydog, Ostrava::Ginger Paw": {
       "untappd_url": "https://untappd.com/b/pivovar-hoppydog-ginger-paw/6645070",
@@ -424,6 +433,15 @@
       "match_score": 1.0,
       "matched_at": "2026-05-22T09:09:29Z",
       "query_used": "Blackcurrant Sorbet Sibeeria"
+    },
+    "ambasada::Sibeeria, Praha::Frozen Cryo Lollihop": {
+      "untappd_url": "https://untappd.com/b/sibeeria-brewery-fresh-frozen-cryo-lollihop/6740338",
+      "untappd_name": "Fresh Frozen Cryo Lollihop",
+      "untappd_brewery": "Sibeeria Brewery",
+      "rating": 3.938,
+      "match_score": 1.0,
+      "matched_at": "2026-06-11T22:06:06Z",
+      "query_used": "Frozen Cryo Lollihop Sibeeria"
     },
     "ambasada::Sibeeria, Praha::Grapefruit Lollihop": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-grapefruit-lollihop/2620360",

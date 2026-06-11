@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-11T19:40:19Z",
+  "generated_at": "2026-06-11T22:06:13Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -361,6 +361,82 @@
       "outcome": {
         "matched": "/b/haksna-brewery-batalion-25-narozeniny/6693539",
         "score": 1.0
+      }
+    },
+    "ambasada::Hoppy Dog, Ostrava::Rafan": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Hoppy Dog, Ostrava",
+        "name": "Rafan",
+        "style": "APA",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-06-11T22:06:13Z",
+      "candidates": [
+        {
+          "name": "Rafan",
+          "brewery": "Pivovar HoppyDog",
+          "url": "/b/pivovar-hoppydog-rafan/2658169",
+          "rating": 3.657
+        },
+        {
+          "name": "Zinfandel 2022",
+          "brewery": "A. Rafanelli",
+          "url": "/b/a-rafanelli-zinfandel-2022/6546647",
+          "rating": null
+        },
+        {
+          "name": "Terrace Select 2009",
+          "brewery": "A. Rafanelli",
+          "url": "/b/a-rafanelli-terrace-select-2009/6637332",
+          "rating": null
+        },
+        {
+          "name": "American India Pale Ale",
+          "brewery": "RAFANDU CERVEJAS ARTESANAIS",
+          "url": "/b/rafandu-cervejas-artesanais-american-india-pale-ale/3238312",
+          "rating": null
+        },
+        {
+          "name": "Mestre Barba Ruiva",
+          "brewery": "RAFANDU CERVEJAS ARTESANAIS",
+          "url": "/b/rafandu-cervejas-artesanais-mestre-barba-ruiva/3059569",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Rafan 12° Hoppy Dog",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Rafan Hoppy Dog",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Rafan 12°",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Rafan",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-hoppydog-rafan/2658169",
+        "source": "llm"
       }
     },
     "ambasada::JungBerg, Hořice::PP (Pořádné Pivo)": {
@@ -844,6 +920,40 @@
       ],
       "outcome": {
         "matched": "/b/sibeeria-brewery-blackcurrant-sorbet/3759941",
+        "score": 1.0
+      }
+    },
+    "ambasada::Sibeeria, Praha::Frozen Cryo Lollihop": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Sibeeria, Praha",
+        "name": "Frozen Cryo Lollihop",
+        "style": "West coast IPA",
+        "degree_plato": 15.0
+      },
+      "captured_at": "2026-06-11T22:06:06Z",
+      "candidates": [
+        {
+          "name": "Fresh Frozen Cryo Lollihop",
+          "brewery": "Sibeeria Brewery",
+          "url": "/b/sibeeria-brewery-fresh-frozen-cryo-lollihop/6740338",
+          "rating": 3.938
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Frozen Cryo Lollihop 15° Sibeeria",
+          "hits": []
+        },
+        {
+          "query": "Frozen Cryo Lollihop Sibeeria",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/sibeeria-brewery-fresh-frozen-cryo-lollihop/6740338",
         "score": 1.0
       }
     },
