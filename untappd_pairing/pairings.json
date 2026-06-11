@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-10T22:09:02Z",
+  "generated_at": "2026-06-11T16:58:26Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -199,6 +199,15 @@
       "match_score": 1.0,
       "matched_at": "2026-05-22T09:41:39Z",
       "query_used": "<override>"
+    },
+    "ambasada::Louka::American IPA": {
+      "untappd_url": "https://untappd.com/b/pivovar-louka-american-ipa-14/4237836",
+      "untappd_name": "American IPA 14",
+      "untappd_brewery": "Pivovar Louka",
+      "rating": 3.697,
+      "match_score": 1.0,
+      "matched_at": "2026-06-11T16:58:26Z",
+      "query_used": "American IPA 14° Louka"
     },
     "ambasada::Louka::Fresh Breakfast": {
       "untappd_url": "https://untappd.com/b/pivovar-louka-fresh-breakfast-002/5404372",
@@ -1063,6 +1072,15 @@
       "match_score": 1.0,
       "matched_at": "2026-05-29T06:55:08Z",
       "query_used": "<override>"
+    },
+    "beerstreet::Obora::Sunny APA": {
+      "untappd_url": "https://untappd.com/b/pivovar-obora-sunny-apa/5829209",
+      "untappd_name": "SUNNY APA",
+      "untappd_brewery": "Pivovar Obora",
+      "rating": 3.667,
+      "match_score": 1.0,
+      "matched_at": "2026-06-11T16:58:24Z",
+      "query_used": "Sunny APA Obora"
     },
     "beerstreet::Ovipistán::Kandidát": {
       "untappd_url": "https://untappd.com/b/pivovar-ovipistan-kandidat-sladek-zpc/4879374",

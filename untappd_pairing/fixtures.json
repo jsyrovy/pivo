@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-10T22:09:02Z",
+  "generated_at": "2026-06-11T16:58:26Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -532,6 +532,36 @@
         "verdict": "expected_missing",
         "expected": "/b/kynspersky-pivovar-summer-ale/4267619",
         "note": "Naparovano na Ogar Summer Ale; spravne pivo (Kynspersky pivovar) zadna query nevratila. Vyreseno overridem v overrides.json."
+      }
+    },
+    "ambasada::Louka::American IPA": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Louka",
+        "name": "American IPA",
+        "style": "IPA",
+        "degree_plato": 14.0
+      },
+      "captured_at": "2026-06-11T16:58:26Z",
+      "candidates": [
+        {
+          "name": "American IPA 14",
+          "brewery": "Pivovar Louka",
+          "url": "/b/pivovar-louka-american-ipa-14/4237836",
+          "rating": 3.697
+        }
+      ],
+      "attempts": [
+        {
+          "query": "American IPA 14° Louka",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-louka-american-ipa-14/4237836",
+        "score": 1.0
       }
     },
     "ambasada::MadCat, Kamenice::Mango Pina Coco Sourus": {
@@ -2419,6 +2449,40 @@
       "outcome": {
         "matched": null,
         "reason": "no_candidates_above_threshold"
+      }
+    },
+    "beerstreet::Obora::Sunny APA": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Obora",
+        "name": "Sunny APA",
+        "style": "American pale ale",
+        "degree_plato": 11.4
+      },
+      "captured_at": "2026-06-11T16:58:24Z",
+      "candidates": [
+        {
+          "name": "SUNNY APA",
+          "brewery": "Pivovar Obora",
+          "url": "/b/pivovar-obora-sunny-apa/5829209",
+          "rating": 3.667
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Sunny APA 11° Obora",
+          "hits": []
+        },
+        {
+          "query": "Sunny APA Obora",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-obora-sunny-apa/5829209",
+        "score": 1.0
       }
     },
     "beerstreet::Pioneer::Cruel River": {
