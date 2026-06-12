@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-12T16:23:36Z",
+  "generated_at": "2026-06-12T19:11:01Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -49,6 +49,36 @@
       "outcome": {
         "matched": "/b/sibeeria-brewery-juniper-dryad/6208875",
         "source": "llm"
+      }
+    },
+    "ambasada::Agent, Olešnice::Moves": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Agent, Olešnice",
+        "name": "Moves",
+        "style": "Fruity berliner weisse",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-06-12T19:11:01Z",
+      "candidates": [
+        {
+          "name": "Moves – White Grapes and Strawberries",
+          "brewery": "Pivovar Agent",
+          "url": "/b/pivovar-agent-moves-white-grapes-and-strawberries/4836340",
+          "rating": 3.738
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Moves 11° Agent",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-agent-moves-white-grapes-and-strawberries/4836340",
+        "score": 1.0
       }
     },
     "ambasada::Agent, Olešnice::Stylish Girl": {
@@ -1333,6 +1363,68 @@
       ],
       "outcome": {
         "matched": "/b/chroust-extra-extra/6656532",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Duck & Dog::Mosaic": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Duck & Dog",
+        "name": "Mosaic",
+        "style": "Smash ale",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-06-12T19:11:01Z",
+      "candidates": [
+        {
+          "name": "Duck & Dog SMASH Mosaic",
+          "brewery": "Pivovar Duck&Dog",
+          "url": "/b/pivovar-duck-dog-duck-dog-smash-mosaic/1925044",
+          "rating": 3.636
+        },
+        {
+          "name": "Duck & Dog Blowhop Mosaic",
+          "brewery": "Pivovar Duck&Dog",
+          "url": "/b/pivovar-duck-dog-duck-dog-blowhop-mosaic/4851372",
+          "rating": 3.344
+        },
+        {
+          "name": "Duck Boy W/ Mosaic",
+          "brewery": "Little Dog Brewing Co.",
+          "url": "/b/little-dog-brewing-co-duck-boy-w-mosaic/5693958",
+          "rating": null
+        },
+        {
+          "name": "Mosaic Mallard IPA",
+          "brewery": "Dodging Duck Brewhaus",
+          "url": "/b/dodging-duck-brewhaus-mosaic-mallard-ipa/1299006",
+          "rating": 3.665
+        },
+        {
+          "name": "Fruited Dream Haze (Mosaic & Blueberry)",
+          "brewery": "Dog & Duck Brewing",
+          "url": "/b/dog-duck-brewing-fruited-dream-haze-mosaic-blueberry/3181045",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Mosaic 11° Duck & Dog",
+          "hits": []
+        },
+        {
+          "query": "Mosaic Duck & Dog",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-duck-dog-duck-dog-smash-mosaic/1925044",
         "score": 1.0
       }
     },

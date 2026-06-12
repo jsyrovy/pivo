@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-12T16:23:36Z",
+  "generated_at": "2026-06-12T19:11:01Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -10,6 +10,15 @@
       "match_score": 1.0,
       "matched_at": "2026-06-08T17:25:46Z",
       "query_used": "<llm>"
+    },
+    "ambasada::Agent, Olešnice::Moves": {
+      "untappd_url": "https://untappd.com/b/pivovar-agent-moves-white-grapes-and-strawberries/4836340",
+      "untappd_name": "Moves – White Grapes and Strawberries",
+      "untappd_brewery": "Pivovar Agent",
+      "rating": 3.738,
+      "match_score": 1.0,
+      "matched_at": "2026-06-12T19:11:01Z",
+      "query_used": "Moves 11° Agent"
     },
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-stylish-girl-milkshake-neipa-13deg-blackberry/5988268",
@@ -667,6 +676,15 @@
       "match_score": 1.0,
       "matched_at": "2026-05-06T20:19:40Z",
       "query_used": "Pineapple Chroust"
+    },
+    "beerstreet::Duck & Dog::Mosaic": {
+      "untappd_url": "https://untappd.com/b/pivovar-duck-dog-duck-dog-smash-mosaic/1925044",
+      "untappd_name": "Duck & Dog SMASH Mosaic",
+      "untappd_brewery": "Pivovar Duck&Dog",
+      "rating": 3.636,
+      "match_score": 1.0,
+      "matched_at": "2026-06-12T19:11:01Z",
+      "query_used": "Mosaic Duck & Dog"
     },
     "beerstreet::Duck&Dog::Mosaic": {
       "untappd_url": "https://untappd.com/b/pivovar-duck-dog-duck-dog-smash-mosaic/1925044",
