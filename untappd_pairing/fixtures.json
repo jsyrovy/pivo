@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-13T15:03:48Z",
+  "generated_at": "2026-06-13T17:27:51Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -1258,6 +1258,43 @@
       "outcome": {
         "matched": null,
         "reason": "no_candidates_above_threshold"
+      }
+    },
+    "beerstreet::Agent::Pale Lager": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Agent",
+        "name": "Pale Lager",
+        "style": "Ležák světlý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-06-13T17:27:49Z",
+      "candidates": [
+        {
+          "name": "Pale Lager 11",
+          "brewery": "Pivovar Agent",
+          "url": "/b/pivovar-agent-pale-lager-11/3543130",
+          "rating": 3.455
+        },
+        {
+          "name": "Bruxx: Premium Pale Lager 12°",
+          "brewery": "Pivovar Agent",
+          "url": "/b/pivovar-agent-bruxx-premium-pale-lager-12deg/4890963",
+          "rating": 3.41
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Pale Lager 11° Agent",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-agent-pale-lager-11/3543130",
+        "score": 1.0
       }
     },
     "beerstreet::Brewnicorn::Pivorožec": {
@@ -3025,6 +3062,36 @@
       ],
       "outcome": {
         "matched": "/b/vinohradsky-pivovar-vinohradska-11/916918",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Zichovec::Everyday Juice": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Zichovec",
+        "name": "Everyday Juice",
+        "style": "Session hazy",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-06-13T17:27:51Z",
+      "candidates": [
+        {
+          "name": "Everyday Juice 12",
+          "brewery": "Pivovar ZICHOVEC",
+          "url": "/b/pivovar-zichovec-everyday-juice-12/6619650",
+          "rating": 3.766
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Everyday Juice 12° Zichovec",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-zichovec-everyday-juice-12/6619650",
         "score": 1.0
       }
     },
