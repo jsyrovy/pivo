@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-12T23:23:13Z",
+  "generated_at": "2026-06-13T15:03:48Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -1425,6 +1425,40 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-duck-dog-duck-dog-smash-mosaic/1925044",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Fracek::Guamansi": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Fracek",
+        "name": "Guamansi",
+        "style": "Fruited pale ale",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-06-13T15:03:48Z",
+      "candidates": [
+        {
+          "name": "GUAMANSI",
+          "brewery": "FRACEK",
+          "url": "/b/fracek-guamansi/6729422",
+          "rating": 3.893
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Guamansi 10° Fracek",
+          "hits": []
+        },
+        {
+          "query": "Guamansi Fracek",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/fracek-guamansi/6729422",
         "score": 1.0
       }
     },
