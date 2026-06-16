@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-15T23:50:22Z",
+  "generated_at": "2026-06-16T16:37:52Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -251,6 +251,64 @@
       "outcome": {
         "matched": "/b/brewnicorn-sunny-day/6689258",
         "score": 1.0
+      }
+    },
+    "ambasada::Clock, Potštejn::Clock": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Clock, Potštejn",
+        "name": "Clock",
+        "style": "APA",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-06-16T16:37:52Z",
+      "candidates": [
+        {
+          "name": "Jistota Ale 12°",
+          "brewery": "Pivovar Clock",
+          "url": "/b/pivovar-clock-jistota-ale-12deg/2938974",
+          "rating": 3.653
+        },
+        {
+          "name": "Con Lai 12°",
+          "brewery": "Pivovar Clock",
+          "url": "/b/pivovar-clock-con-lai-12deg/5516376",
+          "rating": 3.625
+        },
+        {
+          "name": "No Idols! 12° Belgian Pale Ale",
+          "brewery": "Pivovar Clock",
+          "url": "/b/pivovar-clock-no-idols-12-belgian-pale-ale/1582481",
+          "rating": 3.463
+        },
+        {
+          "name": "Šťastnější 12°",
+          "brewery": "Pivovar Clock",
+          "url": "/b/pivovar-clock-stastnejsi-12deg/5624411",
+          "rating": 3.538
+        },
+        {
+          "name": "Pivo Dvou přátel Školník 12°",
+          "brewery": "Pivovar Clock",
+          "url": "/b/pivovar-clock-pivo-dvou-pratel-skolnik-12deg/1093840",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Clock 12° Clock",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-clock-jistota-ale-12deg/2938974",
+        "score": 0.0
       }
     },
     "ambasada::Clock, Potštejn::Maracuja & Elderflower": {
@@ -792,6 +850,57 @@
         "verdict": "expected_missing",
         "expected": "/b/brauerei-gebr-maisel-maisel-friends-hazy-ipa-artbeer-8-lobster-robin/6590479",
         "note": "Same as the Urban IPA case: the correct candidate is present but Untappd lists the brewery as 'Brauerei Gebr. Maisel' while the source brand is 'Maisel & Friends', so brewery_matches fails and the matcher returns no match. Resolved via overrides.json."
+      }
+    },
+    "ambasada::Mordýř, Dolní Ředice::Kurtizána": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Mordýř, Dolní Ředice",
+        "name": "Kurtizána",
+        "style": "Pale ale",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-06-16T16:37:48Z",
+      "candidates": [
+        {
+          "name": "Kurtizána Borůvka",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-kurtizana-boruvka/5014849",
+          "rating": null
+        },
+        {
+          "name": "Kurtizána",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-kurtizana/704889",
+          "rating": 3.58
+        },
+        {
+          "name": "Mango Ale",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-mango-ale/4500799",
+          "rating": 3.504
+        },
+        {
+          "name": "Kurtizána Višeň (Tajemství)",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-kurtizana-visen-tajemstvi/3090796",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Kurtizána 13° Mordýř",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mordyr-mango-ale/4500799",
+        "score": 0.1429
       }
     },
     "ambasada::Mordýř, Dolní Ředice::Mordýř": {
@@ -2585,6 +2694,122 @@
       "outcome": {
         "matched": "/b/pivovar-loutkar-sabro-12-single-hop/4798619",
         "score": 1.0
+      }
+    },
+    "beerstreet::Loutkář::Summer Ale": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Loutkář",
+        "name": "Summer Ale",
+        "style": "Pale ale",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-06-16T16:37:46Z",
+      "candidates": [
+        {
+          "name": "Švihák",
+          "brewery": "Pivovar Loutkář",
+          "url": "/b/pivovar-loutkar-svihak/4911049",
+          "rating": 3.62
+        },
+        {
+          "name": "SeaBeer",
+          "brewery": "Liptovar",
+          "url": "/b/liptovar-seabeer/1672320",
+          "rating": 3.241
+        },
+        {
+          "name": "Summer Ale 11°",
+          "brewery": "Pivovar Ogar",
+          "url": "/b/pivovar-ogar-summer-ale-11deg/2729676",
+          "rating": 3.516
+        },
+        {
+          "name": "Moa 11°",
+          "brewery": "Řemeslný pivovar Rojc",
+          "url": "/b/remeslny-pivovar-rojc-moa-11deg/3242139",
+          "rating": 3.549
+        },
+        {
+          "name": "Summer Ale 11°",
+          "brewery": "Ružinovský pivovar Komín & Mestský pivovar Alžbetka",
+          "url": "/b/ruzinovsky-pivovar-komin-mestsky-pivovar-alzbetka-summer-ale-11deg/3902634",
+          "rating": 3.51
+        },
+        {
+          "name": "Summer Ale 11° (Letňák)",
+          "brewery": "Sousedský pivovar Holá řiť",
+          "url": "/b/sousedsky-pivovar-hola-rit-summer-ale-11deg-letnak/2724097",
+          "rating": 3.377
+        },
+        {
+          "name": "Summer Ale",
+          "brewery": "Samuel Adams",
+          "url": "/b/samuel-adams-summer-ale/3916",
+          "rating": 3.423
+        },
+        {
+          "name": "Oberon Ale",
+          "brewery": "Bell’s Brewery",
+          "url": "/b/bell-s-brewery-oberon-ale/16581",
+          "rating": 3.751
+        },
+        {
+          "name": "Summer Shandy",
+          "brewery": "Jacob Leinenkugel Brewing Company",
+          "url": "/b/jacob-leinenkugel-brewing-company-summer-shandy/8949",
+          "rating": 3.532
+        },
+        {
+          "name": "Summer Ale",
+          "brewery": "Brooklyn Brewery",
+          "url": "/b/brooklyn-brewery-summer-ale/5571",
+          "rating": 3.45
+        },
+        {
+          "name": "Summer Love",
+          "brewery": "Victory Brewing Company",
+          "url": "/b/victory-brewing-company-summer-love/18545",
+          "rating": 3.458
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Summer Ale 11° Loutkář",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Summer Ale Loutkář",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Summer Ale 11°",
+          "hits": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "query": "Summer Ale",
+          "hits": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "beerstreet::Loutkář::Švihák": {
