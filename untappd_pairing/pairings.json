@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-16T16:37:52Z",
+  "generated_at": "2026-06-16T16:49:17Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -1064,6 +1064,15 @@
       "matched_at": "2026-06-05T17:57:10Z",
       "query_used": "Sabro Loutkář"
     },
+    "beerstreet::Loutkář::Summer Ale": {
+      "untappd_url": "https://untappd.com/b/pivovar-loutkar-svihak/4911049",
+      "untappd_name": "Švihák",
+      "untappd_brewery": "Pivovar Loutkář",
+      "rating": 3.62049,
+      "match_score": 1.0,
+      "matched_at": "2026-06-16T16:49:17Z",
+      "query_used": "<override>"
+    },
     "beerstreet::Loutkář::Velikonoční": {
       "untappd_url": "https://untappd.com/b/pivovar-loutkar-velikonocni-lezak-12-a-pul/5766556",
       "untappd_name": "Velikonoční Ležák 12 A Půl",
@@ -1508,11 +1517,6 @@
     "beerstreet::Kynšperský zajíc::Summer Ale": {
       "attempts": 1,
       "last_tried_at": "2026-05-30T17:14:51Z",
-      "reason": "no_candidates_above_threshold"
-    },
-    "beerstreet::Loutkář::Summer Ale": {
-      "attempts": 1,
-      "last_tried_at": "2026-06-16T16:37:46Z",
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::Záhora::Silk Road": {
