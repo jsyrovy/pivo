@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-17T19:27:27Z",
+  "generated_at": "2026-06-17T22:06:03Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -1486,6 +1486,15 @@
       "match_score": 1.0,
       "matched_at": "2026-05-15T20:14:33Z",
       "query_used": "Čest Čestmír"
+    },
+    "beerstreet::Švabín::Bard": {
+      "untappd_url": "https://untappd.com/b/svabin-brewery-bard/5953825",
+      "untappd_name": "Bard",
+      "untappd_brewery": "Švabín Brewery",
+      "rating": 3.524,
+      "match_score": 1.0,
+      "matched_at": "2026-06-17T22:06:03Z",
+      "query_used": "Bard Švabín"
     }
   },
   "unmatched": {

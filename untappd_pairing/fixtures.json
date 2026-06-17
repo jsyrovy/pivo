@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-17T19:27:27Z",
+  "generated_at": "2026-06-17T22:06:03Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -3664,6 +3664,40 @@
       ],
       "outcome": {
         "matched": "/b/cerny-potoka-cold-fish-mosaic-dry-hop/6699043",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Švabín::Bard": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Švabín",
+        "name": "Bard",
+        "style": "Ležák světlý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-06-17T22:06:03Z",
+      "candidates": [
+        {
+          "name": "Bard",
+          "brewery": "Švabín Brewery",
+          "url": "/b/svabin-brewery-bard/5953825",
+          "rating": 3.524
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Bard 11° Švabín",
+          "hits": []
+        },
+        {
+          "query": "Bard Švabín",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/svabin-brewery-bard/5953825",
         "score": 1.0
       }
     }
