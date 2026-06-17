@@ -1991,6 +1991,12 @@ INSERT INTO "archive" VALUES(1576085930,'2026-06-06 20:08:40.000000','sejrik','B
 INSERT INTO "archive" VALUES(1576556921,'2026-06-08 19:58:53.000000','sejrik','Guilty Pleasure','Pivovar Clock','Untappd at Home');
 INSERT INTO "archive" VALUES(1577125234,'2026-06-12 09:43:26.000000','sejrik','Světlý ležák 11°','Pivovar Rožmberk','První Štace');
 INSERT INTO "archive" VALUES(1577223368,'2026-06-12 17:26:32.000000','sejrik','Světlý ležák 12','Samson (Budějovický měšťanský pivovar)','Občerstvení U Mouchy');
+INSERT INTO "archive" VALUES(1578351146,'2026-06-16 16:31:19.000000','sejrik','Premiér','Pivovar Ovipistán','Beer Street');
+INSERT INTO "archive" VALUES(1578356064,'2026-06-16 16:54:53.000000','sejrik','Pale Lager 11','Pivovar Agent','Beer Street');
+INSERT INTO "archive" VALUES(1578362774,'2026-06-16 17:24:35.000000','sejrik','Duck & Dog SMASH Mosaic','Pivovar Duck&Dog','Beer Street');
+INSERT INTO "archive" VALUES(1578371658,'2026-06-16 18:02:09.000000','sejrik','Everyday Juice 12','Pivovar ZICHOVEC','Beer Street');
+INSERT INTO "archive" VALUES(1578383447,'2026-06-16 18:50:30.000000','sejrik','GUAMANSI','FRACEK',NULL);
+INSERT INTO "archive" VALUES(1578400760,'2026-06-16 19:57:32.000000','sejrik','Fresh Frozen Cryo Lollihop','Sibeeria Brewery','Pivní ambasáda');
 CREATE TABLE [pivni_valka] (
 	[id] integer PRIMARY KEY,
 	[date] text,
