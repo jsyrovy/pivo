@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-18T16:38:06Z",
+  "generated_at": "2026-06-18T17:18:13Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -1093,6 +1093,40 @@
       ],
       "outcome": {
         "matched": "/b/sibeeria-brewery-fresh-frozen-cryo-lollihop/6740338",
+        "score": 1.0
+      }
+    },
+    "ambasada::Sibeeria, Praha::Glynnis": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Sibeeria, Praha",
+        "name": "Glynnis",
+        "style": "Gluten-free session IPA",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-06-18T17:18:13Z",
+      "candidates": [
+        {
+          "name": "Glynnis",
+          "brewery": "Sibeeria Brewery",
+          "url": "/b/sibeeria-brewery-glynnis/6726384",
+          "rating": 3.868
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Glynnis 11° Sibeeria",
+          "hits": []
+        },
+        {
+          "query": "Glynnis Sibeeria",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/sibeeria-brewery-glynnis/6726384",
         "score": 1.0
       }
     },
@@ -3202,6 +3236,36 @@
       ],
       "outcome": {
         "matched": "/b/tvarg-lezak-11/4088691",
+        "score": 1.0
+      }
+    },
+    "beerstreet::U Vojtěchů::Slunečník": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "U Vojtěchů",
+        "name": "Slunečník",
+        "style": "Summer ale",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-06-18T17:18:06Z",
+      "candidates": [
+        {
+          "name": "Slunečník",
+          "brewery": "Pivovar U Vojtěchů",
+          "url": "/b/pivovar-u-vojtechu-slunecnik/4406290",
+          "rating": 3.472
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Slunečník 10° U Vojtěchů",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-u-vojtechu-slunecnik/4406290",
         "score": 1.0
       }
     },

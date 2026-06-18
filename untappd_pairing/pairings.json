@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-18T16:38:06Z",
+  "generated_at": "2026-06-18T17:18:13Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -469,6 +469,15 @@
       "match_score": 1.0,
       "matched_at": "2026-06-11T22:06:06Z",
       "query_used": "Frozen Cryo Lollihop Sibeeria"
+    },
+    "ambasada::Sibeeria, Praha::Glynnis": {
+      "untappd_url": "https://untappd.com/b/sibeeria-brewery-glynnis/6726384",
+      "untappd_name": "Glynnis",
+      "untappd_brewery": "Sibeeria Brewery",
+      "rating": 3.868,
+      "match_score": 1.0,
+      "matched_at": "2026-06-18T17:18:13Z",
+      "query_used": "Glynnis Sibeeria"
     },
     "ambasada::Sibeeria, Praha::Grapefruit Lollihop": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-grapefruit-lollihop/2620360",
@@ -1190,6 +1199,15 @@
       "matched_at": "2026-05-22T20:41:22Z",
       "query_used": "Cruel River Pioneer"
     },
+    "beerstreet::Pioneer::Modern Pale Ale": {
+      "untappd_url": "https://untappd.com/b/pioneer-beer-citralizer-modern-12-deg/6661626",
+      "untappd_name": "Citralizer Modern 12°",
+      "untappd_brewery": "Pioneer Beer",
+      "rating": null,
+      "match_score": 1.0,
+      "matched_at": "2026-06-18T17:18:09Z",
+      "query_used": "<override>"
+    },
     "beerstreet::Sqbru::Sůl12 - Chilliout": {
       "untappd_url": "https://untappd.com/b/sqbru-skju-bru-sul12-chilliout/6607628",
       "untappd_name": "Sůl12: Chilliout",
@@ -1306,6 +1324,15 @@
       "match_score": 1.0,
       "matched_at": "2026-05-20T09:45:20Z",
       "query_used": "Jan Kašpar"
+    },
+    "beerstreet::U Vojtěchů::Slunečník": {
+      "untappd_url": "https://untappd.com/b/pivovar-u-vojtechu-slunecnik/4406290",
+      "untappd_name": "Slunečník",
+      "untappd_brewery": "Pivovar U Vojtěchů",
+      "rating": 3.472,
+      "match_score": 1.0,
+      "matched_at": "2026-06-18T17:18:06Z",
+      "query_used": "Slunečník 10° U Vojtěchů"
     },
     "beerstreet::U Vojtěchů::Šlehač": {
       "untappd_url": "https://untappd.com/b/pivovar-u-vojtechu-slehac/4240811",
@@ -1535,11 +1562,6 @@
     "beerstreet::Kynšperský zajíc::Summer Ale": {
       "attempts": 1,
       "last_tried_at": "2026-05-30T17:14:51Z",
-      "reason": "no_candidates_above_threshold"
-    },
-    "beerstreet::Pioneer::Modern Pale Ale": {
-      "attempts": 1,
-      "last_tried_at": "2026-06-18T16:38:06Z",
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::Záhora::Silk Road": {
