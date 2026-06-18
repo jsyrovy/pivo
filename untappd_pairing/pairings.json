@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-17T22:06:03Z",
+  "generated_at": "2026-06-18T16:38:06Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -1352,6 +1352,15 @@
       "matched_at": "2026-06-13T17:27:51Z",
       "query_used": "Everyday Juice 12° Zichovec"
     },
+    "beerstreet::Zichovec::Modern Hoplager": {
+      "untappd_url": "https://untappd.com/b/rodinny-pivovar-zichovec-kartel-modern-hop-lager-12-leden-2026/6560775",
+      "untappd_name": "Kartel Modern Hop Lager 12 (leden 2026)",
+      "untappd_brewery": "Pivovar ZICHOVEC",
+      "rating": 3.722,
+      "match_score": 1.0,
+      "matched_at": "2026-06-18T16:37:58Z",
+      "query_used": "Modern Hoplager 12° Zichovec"
+    },
     "beerstreet::Zichovec::Shift the Pils": {
       "untappd_url": "https://untappd.com/b/rodinny-pivovar-zichovec-shift-the-pils-12/6516901",
       "untappd_name": "Shift the Pils 12",
@@ -1526,6 +1535,11 @@
     "beerstreet::Kynšperský zajíc::Summer Ale": {
       "attempts": 1,
       "last_tried_at": "2026-05-30T17:14:51Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "beerstreet::Pioneer::Modern Pale Ale": {
+      "attempts": 1,
+      "last_tried_at": "2026-06-18T16:38:06Z",
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::Záhora::Silk Road": {

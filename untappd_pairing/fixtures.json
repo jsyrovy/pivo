@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-17T22:06:03Z",
+  "generated_at": "2026-06-18T16:38:06Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -3021,6 +3021,84 @@
         "score": 1.0
       }
     },
+    "beerstreet::Pioneer::Modern Pale Ale": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Pioneer",
+        "name": "Modern Pale Ale",
+        "style": "Pale ale",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-06-18T16:38:06Z",
+      "candidates": [
+        {
+          "name": "Modern South Hrabůvka Pale Ale 13°",
+          "brewery": "Létající bezdomovec",
+          "url": "/b/letajici-bezdomovec-modern-south-hrabuvka-pale-ale-13deg/5008600",
+          "rating": 3.75
+        },
+        {
+          "name": "FAITH™ // HAZY PALE ALE",
+          "brewery": "Northern Monk",
+          "url": "/b/northern-monk-faith-tm-hazy-pale-ale/970642",
+          "rating": 3.724
+        },
+        {
+          "name": "Oneida",
+          "brewery": "Modern Times Beer",
+          "url": "/b/modern-times-beer-oneida/392679",
+          "rating": 3.754
+        },
+        {
+          "name": "PMA",
+          "brewery": "Moor Beer Company",
+          "url": "/b/moor-beer-company-pma/1573413",
+          "rating": 3.575
+        },
+        {
+          "name": "Trueland",
+          "brewery": "Modern Times Beer",
+          "url": "/b/modern-times-beer-trueland/1030772",
+          "rating": 3.783
+        },
+        {
+          "name": "Lush",
+          "brewery": "Galway Bay Brewery",
+          "url": "/b/galway-bay-brewery-lush/5715863",
+          "rating": 3.568
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Modern Pale Ale 12° Pioneer",
+          "hits": []
+        },
+        {
+          "query": "Modern Pale Ale Pioneer",
+          "hits": []
+        },
+        {
+          "query": "Modern Pale Ale 12°",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Modern Pale Ale",
+          "hits": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
     "beerstreet::TAMTAM::Raise your horns": {
       "beer": {
         "source": "beerstreet",
@@ -3317,6 +3395,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-zichovec-everyday-juice-12/6619650",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Zichovec::Modern Hoplager": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Zichovec",
+        "name": "Modern Hoplager",
+        "style": "Ležák světlý",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-06-18T16:37:58Z",
+      "candidates": [
+        {
+          "name": "Kartel Modern Hop Lager 12 (leden 2026)",
+          "brewery": "Pivovar ZICHOVEC",
+          "url": "/b/rodinny-pivovar-zichovec-kartel-modern-hop-lager-12-leden-2026/6560775",
+          "rating": 3.722
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Modern Hoplager 12° Zichovec",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/rodinny-pivovar-zichovec-kartel-modern-hop-lager-12-leden-2026/6560775",
         "score": 1.0
       }
     },
