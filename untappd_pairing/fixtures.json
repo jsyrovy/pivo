@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-18T22:19:34Z",
+  "generated_at": "2026-06-19T16:10:35Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -1055,6 +1055,40 @@
       "outcome": {
         "matched": null,
         "reason": "no_candidates_above_threshold"
+      }
+    },
+    "ambasada::Rampušák, Dobruška::Strawberry Rhubarb Pie": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Rampušák, Dobruška",
+        "name": "Strawberry Rhubarb Pie",
+        "style": "Pastry sour ale",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-06-19T16:10:35Z",
+      "candidates": [
+        {
+          "name": "Strawberry Rhubarb Pie",
+          "brewery": "Rodinný pivovar Rampušák",
+          "url": "/b/rodinny-pivovar-rampusak-strawberry-rhubarb-pie/6721094",
+          "rating": 3.751
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Strawberry Rhubarb Pie 13° Rampušák",
+          "hits": []
+        },
+        {
+          "query": "Strawberry Rhubarb Pie Rampušák",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/rodinny-pivovar-rampusak-strawberry-rhubarb-pie/6721094",
+        "score": 1.0
       }
     },
     "ambasada::Sibeeria, Praha::Blackcurrant Sorbet": {
