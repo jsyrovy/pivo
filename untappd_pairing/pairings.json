@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-19T16:10:35Z",
+  "generated_at": "2026-06-19T19:00:51Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -1496,6 +1496,15 @@
       "matched_at": "2026-04-22T17:58:12Z",
       "query_used": "Orion μ Černý potoka"
     },
+    "beerstreet::Čestmír::Pink Guava Maracuja": {
+      "untappd_url": "https://untappd.com/b/pivovar-cestmir-sour-pink-guava-maracuja/6534373",
+      "untappd_name": "Sour Pink Guava Maracuja",
+      "untappd_brewery": "Pivovar Čestmír",
+      "rating": 3.917,
+      "match_score": 1.0,
+      "matched_at": "2026-06-19T19:00:51Z",
+      "query_used": "Pink Guava Maracuja Čestmír"
+    },
     "beerstreet::Čestmír::Roots": {
       "untappd_url": "https://untappd.com/b/pivovar-cestmir-hazy-ipa-13deg-roots/5326015",
       "untappd_name": "Hazy IPA 13° - Roots",
@@ -1556,6 +1565,11 @@
     "beerstreet::-::-": {
       "attempts": 2,
       "last_tried_at": "2026-06-04T19:27:57Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "beerstreet::Avar::Kazbek": {
+      "attempts": 1,
+      "last_tried_at": "2026-06-19T19:00:45Z",
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::Haksna::Our Lager": {

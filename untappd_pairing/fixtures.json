@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-19T16:10:35Z",
+  "generated_at": "2026-06-19T19:00:51Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -1505,6 +1505,120 @@
       "outcome": {
         "matched": "/b/pivovar-agent-pale-lager-11/3543130",
         "score": 1.0
+      }
+    },
+    "beerstreet::Avar::Kazbek": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Avar",
+        "name": "Kazbek",
+        "style": "Ležák světlý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-06-19T19:00:45Z",
+      "candidates": [
+        {
+          "name": "Misfit (Amarillo & Kazbek)",
+          "brewery": "Brass Castle Brewery",
+          "url": "/b/brass-castle-brewery-misfit-amarillo-kazbek/2618977",
+          "rating": 3.52
+        },
+        {
+          "name": "Kazbek Ale 11°",
+          "brewery": "Holanďan",
+          "url": "/b/holandan-kazbek-ale-11/5095281",
+          "rating": 3.146
+        },
+        {
+          "name": "Fresh Hop Lager Kazbek",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-fresh-hop-lager-kazbek/4027092",
+          "rating": 3.551
+        },
+        {
+          "name": "Kazbek IPL 11°",
+          "brewery": "Restaurace a pivovar Kohutka",
+          "url": "/b/restaurace-a-pivovar-kohutka-kazbek-ipl-11deg/4855965",
+          "rating": 3.137
+        },
+        {
+          "name": "Kazbek 11°",
+          "brewery": "Natchez Brewing Company",
+          "url": "/b/natchez-brewing-company-kazbek-11deg/4524805",
+          "rating": 3.885
+        },
+        {
+          "name": "Ležák Kazbek 11°",
+          "brewery": "Černý Orel",
+          "url": "/b/cerny-orel-lezak-kazbek-11deg/1702153",
+          "rating": 3.216
+        },
+        {
+          "name": "ყაზბეგი | Kazbegi Original",
+          "brewery": "Kazbegi (ყაზბეგი)",
+          "url": "/b/kazbegi-qazbegi-qazbegi-kazbegi-original/160538",
+          "rating": 3.139
+        },
+        {
+          "name": "Kazbek",
+          "brewery": "Redemption Brewing Co. & Taproom",
+          "url": "/b/redemption-brewing-co-taproom-kazbek/321767",
+          "rating": 3.416
+        },
+        {
+          "name": "Kazbek Kodiak",
+          "brewery": "The Wild Beer Co",
+          "url": "/b/the-wild-beer-co-kazbek-kodiak/4528398",
+          "rating": 3.288
+        },
+        {
+          "name": "Kazbek",
+          "brewery": "Lehe Pruulikoda",
+          "url": "/b/lehe-pruulikoda-kazbek/1624054",
+          "rating": 3.295
+        },
+        {
+          "name": "Keller Kazbek",
+          "brewery": "Fair State Brewing",
+          "url": "/b/fair-state-brewing-keller-kazbek/1284173",
+          "rating": 3.673
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Kazbek 11° Avar",
+          "hits": []
+        },
+        {
+          "query": "Kazbek Avar",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Kazbek 11°",
+          "hits": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "query": "Kazbek",
+          "hits": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "beerstreet::Brewnicorn::Pivorožec": {
@@ -3903,6 +4017,40 @@
       ],
       "outcome": {
         "matched": "/b/cerny-potoka-cold-fish-mosaic-dry-hop/6699043",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Čestmír::Pink Guava Maracuja": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Čestmír",
+        "name": "Pink Guava Maracuja",
+        "style": "Sour",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-06-19T19:00:51Z",
+      "candidates": [
+        {
+          "name": "Sour Pink Guava Maracuja",
+          "brewery": "Pivovar Čestmír",
+          "url": "/b/pivovar-cestmir-sour-pink-guava-maracuja/6534373",
+          "rating": 3.917
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Pink Guava Maracuja 12° Čestmír",
+          "hits": []
+        },
+        {
+          "query": "Pink Guava Maracuja Čestmír",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-cestmir-sour-pink-guava-maracuja/6534373",
         "score": 1.0
       }
     },
