@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-20T17:40:17Z",
+  "generated_at": "2026-06-20T19:46:06Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -3333,6 +3333,40 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-obora-sunny-apa/5829209",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Ovipistán::Diplomat": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Ovipistán",
+        "name": "Diplomat",
+        "style": "Summer ale",
+        "degree_plato": 9.0
+      },
+      "captured_at": "2026-06-20T19:46:06Z",
+      "candidates": [
+        {
+          "name": "Diplomat",
+          "brewery": "Pivovar Ovipistán",
+          "url": "/b/pivovar-ovipistan-diplomat/4422840",
+          "rating": 3.49
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Diplomat 9° Ovipistán",
+          "hits": []
+        },
+        {
+          "query": "Diplomat Ovipistán",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-ovipistan-diplomat/4422840",
         "score": 1.0
       }
     },
