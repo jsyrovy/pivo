@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-19T23:03:46Z",
+  "generated_at": "2026-06-20T15:06:35Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -668,6 +668,15 @@
       "matched_at": "2026-04-23T20:04:50Z",
       "query_used": "Riwaka Čestmír"
     },
+    "ambasada::Čestmír, Brandýs nad Labem::Tanec Slunce": {
+      "untappd_url": "https://untappd.com/b/pivovar-cestmir-summer-ale-10-tanec-slunce/3337676",
+      "untappd_name": "Summer Ale 10 – Tanec Slunce",
+      "untappd_brewery": "Pivovar Čestmír",
+      "rating": 3.616,
+      "match_score": 1.0,
+      "matched_at": "2026-06-20T15:06:35Z",
+      "query_used": "Tanec Slunce 10° Čestmír"
+    },
     "ambasada::Švabín::Puk Malina/Granátové Jablko": {
       "untappd_url": "https://untappd.com/b/svabin-brewery-puk-malina-granatove-jablko/6703830",
       "untappd_name": "PUK Malina, Granátové Jablko",
@@ -775,6 +784,15 @@
       "match_score": 1.0,
       "matched_at": "2026-04-28T20:13:51Z",
       "query_used": "Citra Session Haksna"
+    },
+    "beerstreet::Hoppy Dog::Lassie": {
+      "untappd_url": "https://untappd.com/b/pivovar-hoppydog-lassie/3829752",
+      "untappd_name": "Lassie",
+      "untappd_brewery": "Pivovar HoppyDog",
+      "rating": 3.602,
+      "match_score": 1.0,
+      "matched_at": "2026-06-20T15:06:30Z",
+      "query_used": "<llm>"
     },
     "beerstreet::Hoppy Dog::Vojta": {
       "untappd_url": "https://untappd.com/b/pivovar-hoppydog-vojta-11/4841834",
