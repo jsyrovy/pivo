@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-23T15:55:00Z",
+  "generated_at": "2026-06-23T18:04:18Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -1636,6 +1636,11 @@
     "beerstreet::Záhora::Silk Road - ibišek+koriandr+limeta+yuzu": {
       "attempts": 1,
       "last_tried_at": "2026-06-01T19:22:43Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "beerstreet::Záhora::Village Hell": {
+      "attempts": 1,
+      "last_tried_at": "2026-06-23T18:04:18Z",
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::Černý Potoka::Cold Fish Mosaic dry hopped": {
