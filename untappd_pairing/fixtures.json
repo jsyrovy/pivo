@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-22T22:50:37Z",
+  "generated_at": "2026-06-23T15:55:00Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -1303,6 +1303,43 @@
       ],
       "outcome": {
         "matched": "/b/sibeeria-brewery-zesty-zebra/6698766",
+        "score": 1.0
+      }
+    },
+    "ambasada::Zichovec::Session Juicy Lucy": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Zichovec",
+        "name": "Session Juicy Lucy",
+        "style": "Session NEIPA",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-06-23T15:55:00Z",
+      "candidates": [
+        {
+          "name": "Session Juicy Lucy 13",
+          "brewery": "Pivovar ZICHOVEC",
+          "url": "/b/pivovar-zichovec-session-juicy-lucy-13/3660932",
+          "rating": 3.827
+        },
+        {
+          "name": "Apricot Session Juicy Lucy 13",
+          "brewery": "Pivovar ZICHOVEC",
+          "url": "/b/rodinny-pivovar-zichovec-apricot-session-juicy-lucy-13/4498047",
+          "rating": 4.043
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Session Juicy Lucy 13° Zichovec",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/rodinny-pivovar-zichovec-apricot-session-juicy-lucy-13/4498047",
         "score": 1.0
       }
     },
