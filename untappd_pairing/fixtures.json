@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-23T18:04:18Z",
+  "generated_at": "2026-06-23T21:02:56Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -1853,6 +1853,50 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-duck-dog-duck-dog-smash-mosaic/1925044",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Duck &.Dog::Fiškus": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Duck &.Dog",
+        "name": "Fiškus",
+        "style": "Ležák světlý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-06-23T21:02:56Z",
+      "candidates": [
+        {
+          "name": "Duck & Dog Fiškus – světlý ležák 11°",
+          "brewery": "Pivovar Duck&Dog",
+          "url": "/b/pivovar-duck-dog-duck-dog-fiskus-svetly-lezak-11deg/4367516",
+          "rating": 3.398
+        },
+        {
+          "name": "Duck & Dog Fiškus – světlý ležák 12°",
+          "brewery": "Pivovar Duck&Dog",
+          "url": "/b/pivovar-duck-dog-duck-dog-fiskus-svetly-lezak-12deg/5216903",
+          "rating": 3.547
+        },
+        {
+          "name": "Duck & Dog Fiškus – světlé výčepní 10°",
+          "brewery": "Pivovar Duck&Dog",
+          "url": "/b/pivovar-duck-dog-duck-dog-fiskus-svetle-vycepni-10deg/5216902",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Fiškus 11° Duck &.Dog",
+          "hits": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-duck-dog-duck-dog-fiskus-svetly-lezak-11deg/4367516",
         "score": 1.0
       }
     },

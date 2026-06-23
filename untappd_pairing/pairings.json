@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-23T18:04:18Z",
+  "generated_at": "2026-06-23T21:02:56Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -748,6 +748,15 @@
       "match_score": 1.0,
       "matched_at": "2026-06-12T19:11:01Z",
       "query_used": "Mosaic Duck & Dog"
+    },
+    "beerstreet::Duck &.Dog::Fiškus": {
+      "untappd_url": "https://untappd.com/b/pivovar-duck-dog-duck-dog-fiskus-svetly-lezak-11deg/4367516",
+      "untappd_name": "Duck & Dog Fiškus – světlý ležák 11°",
+      "untappd_brewery": "Pivovar Duck&Dog",
+      "rating": 3.398,
+      "match_score": 1.0,
+      "matched_at": "2026-06-23T21:02:56Z",
+      "query_used": "Fiškus 11° Duck &.Dog"
     },
     "beerstreet::Duck&Dog::Mosaic": {
       "untappd_url": "https://untappd.com/b/pivovar-duck-dog-duck-dog-smash-mosaic/1925044",
