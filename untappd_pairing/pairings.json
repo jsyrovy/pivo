@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-23T23:12:16Z",
+  "generated_at": "2026-06-24T15:36:28Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -227,6 +227,15 @@
       "matched_at": "2026-05-22T09:41:39Z",
       "query_used": "<override>"
     },
+    "ambasada::Lancut, Polsko::Anglosas": {
+      "untappd_url": "https://untappd.com/b/browar-lancut-anglosas/2402361",
+      "untappd_name": "Anglosas",
+      "untappd_brewery": "Browar Łańcut",
+      "rating": 3.75,
+      "match_score": 1.0,
+      "matched_at": "2026-06-24T15:36:15Z",
+      "query_used": "<llm>"
+    },
     "ambasada::Louka::American IPA": {
       "untappd_url": "https://untappd.com/b/pivovar-louka-american-ipa-14/4237836",
       "untappd_name": "American IPA 14",
@@ -407,6 +416,15 @@
       "matched_at": "2026-05-29T20:51:37Z",
       "query_used": "<override>"
     },
+    "ambasada::Obora, Malšice::Sunny APA": {
+      "untappd_url": "https://untappd.com/b/pivovar-obora-sunny-apa/5829209",
+      "untappd_name": "SUNNY APA",
+      "untappd_brewery": "Pivovar Obora",
+      "rating": 3.661,
+      "match_score": 1.0,
+      "matched_at": "2026-06-24T15:36:21Z",
+      "query_used": "Sunny APA Obora"
+    },
     "ambasada::Ovipistán, Ledce::CHARGÉ D AFFAIRES": {
       "untappd_url": "https://untappd.com/b/pivovar-ovipistan-charge-d-affaires/5275494",
       "untappd_name": "Chargé D'affaires",
@@ -451,6 +469,15 @@
       "match_score": 1.0,
       "matched_at": "2026-04-27T20:06:47Z",
       "query_used": "Ename Rouge Roman"
+    },
+    "ambasada::Salama Brewing co., Finsko::Lizard King": {
+      "untappd_url": "https://untappd.com/b/salama-brewing-company-the-lizard-king/6720462",
+      "untappd_name": "The Lizard King",
+      "untappd_brewery": "Salama Brewing Company",
+      "rating": 3.71,
+      "match_score": 1.0,
+      "matched_at": "2026-06-24T15:36:28Z",
+      "query_used": "<llm>"
     },
     "ambasada::Sibeeria, Praha::1212": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-1212/6665405",
@@ -695,6 +722,15 @@
       "matched_at": "2026-05-13T20:29:26Z",
       "query_used": "Puk Malina/Granátové Jablko Švabín"
     },
+    "beerstreet::Agent::Moves - jahody+hroz. víno": {
+      "untappd_url": "https://untappd.com/b/pivovar-agent-moves-white-grapes-and-strawberries/4836340",
+      "untappd_name": "Moves – White Grapes and Strawberries",
+      "untappd_brewery": "Pivovar Agent",
+      "rating": 3.741,
+      "match_score": 0.2222222222222222,
+      "matched_at": "2026-06-24T15:36:08Z",
+      "query_used": "<llm>"
+    },
     "beerstreet::Agent::Pale Lager": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-pale-lager-11/3543130",
       "untappd_name": "Pale Lager 11",
@@ -784,6 +820,15 @@
       "match_score": 0.8667,
       "matched_at": "2026-06-02T18:07:50Z",
       "query_used": "Hopcharget Summer Fracek"
+    },
+    "beerstreet::Fracek::Lazy Charboney": {
+      "untappd_url": "https://untappd.com/b/fracek-lazy-charbonnay/6648307",
+      "untappd_name": "Lazy Charbonnay",
+      "untappd_brewery": "FRACEK",
+      "rating": 3.695,
+      "match_score": 0.8333,
+      "matched_at": "2026-06-24T15:35:43Z",
+      "query_used": "Lazy Charboney Fracek"
     },
     "beerstreet::Haksna/Podřevnický::Sky Serpent": {
       "untappd_url": "https://untappd.com/b/haksna-brewery-sky-serpent/6682921",

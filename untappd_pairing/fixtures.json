@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-23T23:12:16Z",
+  "generated_at": "2026-06-24T15:36:28Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -698,6 +698,57 @@
         "note": "Naparovano na Ogar Summer Ale; spravne pivo (Kynspersky pivovar) zadna query nevratila. Vyreseno overridem v overrides.json."
       }
     },
+    "ambasada::Lancut, Polsko::Anglosas": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Lancut, Polsko",
+        "name": "Anglosas",
+        "style": "New england IPA",
+        "degree_plato": 14.0
+      },
+      "captured_at": "2026-06-24T15:36:15Z",
+      "candidates": [
+        {
+          "name": "Anglosas",
+          "brewery": "Browar Łańcut",
+          "url": "/b/browar-lancut-anglosas/2402361",
+          "rating": 3.75
+        },
+        {
+          "name": "Anglosaxen",
+          "brewery": "Ardea Brygghus",
+          "url": "/b/ardea-brygghus-anglosaxen/4597821",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Anglosas 14° Lancut",
+          "hits": []
+        },
+        {
+          "query": "Anglosas Lancut",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Anglosas 14°",
+          "hits": []
+        },
+        {
+          "query": "Anglosas",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/browar-lancut-anglosas/2402361",
+        "source": "llm"
+      }
+    },
     "ambasada::Louka::American IPA": {
       "beer": {
         "source": "ambasada",
@@ -1057,6 +1108,40 @@
         "reason": "no_candidates_above_threshold"
       }
     },
+    "ambasada::Obora, Malšice::Sunny APA": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Obora, Malšice",
+        "name": "Sunny APA",
+        "style": "APA",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-06-24T15:36:21Z",
+      "candidates": [
+        {
+          "name": "SUNNY APA",
+          "brewery": "Pivovar Obora",
+          "url": "/b/pivovar-obora-sunny-apa/5829209",
+          "rating": 3.661
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Sunny APA 11° Obora",
+          "hits": []
+        },
+        {
+          "query": "Sunny APA Obora",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-obora-sunny-apa/5829209",
+        "score": 1.0
+      }
+    },
     "ambasada::Rampušák, Dobruška::Strawberry Rhubarb Pie": {
       "beer": {
         "source": "ambasada",
@@ -1089,6 +1174,76 @@
       "outcome": {
         "matched": "/b/rodinny-pivovar-rampusak-strawberry-rhubarb-pie/6721094",
         "score": 1.0
+      }
+    },
+    "ambasada::Salama Brewing co., Finsko::Lizard King": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Salama Brewing co., Finsko",
+        "name": "Lizard King",
+        "style": "NEIPA",
+        "degree_plato": null
+      },
+      "captured_at": "2026-06-24T15:36:28Z",
+      "candidates": [
+        {
+          "name": "The Lizard King",
+          "brewery": "Salama Brewing Company",
+          "url": "/b/salama-brewing-company-the-lizard-king/6720462",
+          "rating": 3.71
+        },
+        {
+          "name": "Lizard King",
+          "brewery": "Pipeworks Brewing Company",
+          "url": "/b/pipeworks-brewing-company-lizard-king/961062",
+          "rating": 3.96
+        },
+        {
+          "name": "Lizard King versus The Cryo",
+          "brewery": "Pipeworks Brewing Company",
+          "url": "/b/pipeworks-brewing-company-lizard-king-versus-the-cryo/4027486",
+          "rating": 3.92
+        },
+        {
+          "name": "Taste of Kingston Wall: Waste of Time",
+          "brewery": "Fat Lizard Brewing Co.",
+          "url": "/b/fat-lizard-brewing-co-taste-of-kingston-wall-waste-of-time/6042379",
+          "rating": 3.258
+        },
+        {
+          "name": "I’m the !@$#ing Lizard King",
+          "brewery": "Magic City Brewing Company",
+          "url": "/b/magic-city-brewing-company-i-m-the-at-ing-lizard-king/3427294",
+          "rating": 4.132
+        },
+        {
+          "name": "Lizard Wizardz",
+          "brewery": "KCBC - Kings County Brewers Collective",
+          "url": "/b/kcbc-kings-county-brewers-collective-lizard-wizardz/3717105",
+          "rating": 3.922
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Lizard King Salama Brewing co.",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Lizard King",
+          "hits": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/salama-brewing-company-the-lizard-king/6720462",
+        "source": "llm"
       }
     },
     "ambasada::Sibeeria, Praha::Blackcurrant Sorbet": {
@@ -1537,6 +1692,153 @@
         "reason": "no_candidates_above_threshold"
       }
     },
+    "beerstreet::Agent::Moves - jahody+hroz. víno": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Agent",
+        "name": "Moves - jahody+hroz. víno",
+        "style": "Sour berlin weisse",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-06-24T15:36:08Z",
+      "candidates": [
+        {
+          "name": "Moves – White Grapes and Strawberries",
+          "brewery": "Pivovar Agent",
+          "url": "/b/pivovar-agent-moves-white-grapes-and-strawberries/4836340",
+          "rating": 3.741
+        },
+        {
+          "name": "Moves – Cherry & Banana",
+          "brewery": "Pivovar Agent",
+          "url": "/b/pivovar-agent-moves-cherry-banana/4917970",
+          "rating": 3.816
+        },
+        {
+          "name": "Moves – Exotic",
+          "brewery": "Pivovar Agent",
+          "url": "/b/pivovar-agent-moves-exotic/4961829",
+          "rating": 3.766
+        },
+        {
+          "name": "Moves Peach And Lychee",
+          "brewery": "Pivovar Agent",
+          "url": "/b/pivovar-agent-moves-peach-and-lychee/6352309",
+          "rating": 3.871
+        },
+        {
+          "name": "Nocturnal Rainbow: S'mores",
+          "brewery": "Eleventh Hour Brewing",
+          "url": "/b/eleventh-hour-brewing-nocturnal-rainbow-s-mores/4612289",
+          "rating": 3.904
+        },
+        {
+          "name": "One Off Wednesday 11/12- S'mores Dead Branch",
+          "brewery": "Skyline Beer Company",
+          "url": "/b/skyline-beer-company-one-off-wednesday-1112-smores-dead-branch/6488770",
+          "rating": null
+        },
+        {
+          "name": "Oso Bueno S'mores",
+          "brewery": "11 Below Brewing Company",
+          "url": "/b/11-below-brewing-company-oso-bueno-s-mores/6444901",
+          "rating": null
+        },
+        {
+          "name": "Negative Space S'mores",
+          "brewery": "11 Below Brewing Company",
+          "url": "/b/11-below-brewing-company-negative-space-s-mores/2383322",
+          "rating": 4.155
+        },
+        {
+          "name": "Power Moves",
+          "brewery": "Aslin Beer Company",
+          "url": "/b/aslin-beer-company-power-moves/2586857",
+          "rating": 3.855
+        },
+        {
+          "name": "Money Moves",
+          "brewery": "Southern Grist Brewing Company",
+          "url": "/b/southern-grist-brewing-company-money-moves/2482191",
+          "rating": 4.105
+        },
+        {
+          "name": "Wrestling Moves",
+          "brewery": "Ludlam Island Brewery",
+          "url": "/b/ludlam-island-brewery-wrestling-moves/2483084",
+          "rating": 3.963
+        },
+        {
+          "name": "Dad Moves",
+          "brewery": "FUERST WIACEK Berlin",
+          "url": "/b/fuerst-wiacek-berlin-dad-moves/4433400",
+          "rating": 4.042
+        },
+        {
+          "name": "Dance Battle",
+          "brewery": "Commonwealth Brewing Company",
+          "url": "/b/commonwealth-brewing-company-dance-battle/3692103",
+          "rating": 4.086
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Moves - jahody+hroz. víno 11° Agent",
+          "hits": []
+        },
+        {
+          "query": "Moves - jahody+hroz. víno Agent",
+          "hits": []
+        },
+        {
+          "query": "Moves - jahody+hroz. víno 11°",
+          "hits": []
+        },
+        {
+          "query": "Moves - jahody+hroz. víno",
+          "hits": []
+        },
+        {
+          "query": "Moves 11° Agent",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Moves Agent",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "query": "Moves 11°",
+          "hits": [
+            0,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "query": "Moves",
+          "hits": [
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-agent-moves-white-grapes-and-strawberries/4836340",
+        "source": "llm"
+      }
+    },
     "beerstreet::Agent::Pale Lager": {
       "beer": {
         "source": "beerstreet",
@@ -1966,6 +2268,40 @@
       "outcome": {
         "matched": "/b/fracek-hopcharged-summer/6310554",
         "score": 0.8667
+      }
+    },
+    "beerstreet::Fracek::Lazy Charboney": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Fracek",
+        "name": "Lazy Charboney",
+        "style": "Farmhouse ale",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-06-24T15:35:43Z",
+      "candidates": [
+        {
+          "name": "Lazy Charbonnay",
+          "brewery": "FRACEK",
+          "url": "/b/fracek-lazy-charbonnay/6648307",
+          "rating": 3.695
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Lazy Charboney 10° Fracek",
+          "hits": []
+        },
+        {
+          "query": "Lazy Charboney Fracek",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/fracek-lazy-charbonnay/6648307",
+        "score": 0.8333
       }
     },
     "beerstreet::Hoppy Dog::Lassie": {
