@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-25T18:17:51Z",
+  "generated_at": "2026-06-25T21:00:47Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -4067,6 +4067,39 @@
       "outcome": {
         "matched": "/b/pivovar-u-vojtechu-slehac/4240811",
         "score": 1.0
+      }
+    },
+    "beerstreet::Varga Brothers::My Fair": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Varga Brothers",
+        "name": "My Fair",
+        "style": "Ležák světlý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-06-25T21:00:47Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "My Fair 11° Varga Brothers",
+          "hits": []
+        },
+        {
+          "query": "My Fair Varga Brothers",
+          "hits": []
+        },
+        {
+          "query": "My Fair 11°",
+          "hits": []
+        },
+        {
+          "query": "My Fair",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "beerstreet::Varga Brothers::My Fair ležák": {
