@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-26T17:55:27Z",
+  "generated_at": "2026-06-26T19:59:32Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -2292,6 +2292,39 @@
       "outcome": {
         "matched": "/b/fracek-lazy-charbonnay/6648307",
         "score": 0.8333
+      }
+    },
+    "beerstreet::Haksna::BRU-Ing. Galaxy": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Haksna",
+        "name": "BRU-Ing. Galaxy",
+        "style": "Session NEIPA",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-06-26T19:59:32Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "BRU-Ing. Galaxy 12° Haksna",
+          "hits": []
+        },
+        {
+          "query": "BRU-Ing. Galaxy Haksna",
+          "hits": []
+        },
+        {
+          "query": "BRU-Ing. Galaxy 12°",
+          "hits": []
+        },
+        {
+          "query": "BRU-Ing. Galaxy",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "beerstreet::Hoppy Dog::Lassie": {

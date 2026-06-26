@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-26T17:55:27Z",
+  "generated_at": "2026-06-26T19:59:32Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -1683,6 +1683,11 @@
     "beerstreet::Avar::The First": {
       "attempts": 1,
       "last_tried_at": "2026-06-26T17:44:41Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "beerstreet::Haksna::BRU-Ing. Galaxy": {
+      "attempts": 1,
+      "last_tried_at": "2026-06-26T19:59:32Z",
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::Haksna::Our Lager": {
