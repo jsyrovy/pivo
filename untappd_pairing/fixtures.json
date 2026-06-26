@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-26T16:03:56Z",
+  "generated_at": "2026-06-26T17:44:50Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -1632,59 +1632,16 @@
         "style": "-",
         "degree_plato": null
       },
-      "captured_at": "2026-06-04T19:27:57Z",
-      "candidates": [
-        {
-          "name": "Guinness Draught",
-          "brewery": "Guinness",
-          "url": "/b/guinness-guinness-draught/4473",
-          "rating": 3.768
-        },
-        {
-          "name": "Miller Lite",
-          "brewery": "Miller Brewing Company",
-          "url": "/b/miller-brewing-company-miller-lite/3811",
-          "rating": 2.572
-        },
-        {
-          "name": "Heineken",
-          "brewery": "Heineken",
-          "url": "/b/heineken-heineken/5860",
-          "rating": 2.96
-        },
-        {
-          "name": "Bud Light",
-          "brewery": "Anheuser-Busch",
-          "url": "/b/anheuser-busch-bud-light/3784",
-          "rating": 2.348
-        },
-        {
-          "name": "Traditional Lager",
-          "brewery": "Yuengling Brewery",
-          "url": "/b/yuengling-brewery-traditional-lager/16649",
-          "rating": 3.501
-        }
-      ],
+      "captured_at": "2026-06-26T17:44:50Z",
+      "candidates": [],
       "attempts": [
         {
           "query": "- -",
-          "hits": [
-            0,
-            1,
-            2,
-            3,
-            4
-          ]
+          "hits": []
         },
         {
           "query": "-",
-          "hits": [
-            0,
-            1,
-            2,
-            3,
-            4
-          ]
+          "hits": []
         }
       ],
       "outcome": {
@@ -1983,6 +1940,39 @@
             9,
             10
           ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
+    "beerstreet::Avar::The First": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Avar",
+        "name": "The First",
+        "style": "Session pale ale",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-06-26T17:44:41Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "The First 11° Avar",
+          "hits": []
+        },
+        {
+          "query": "The First Avar",
+          "hits": []
+        },
+        {
+          "query": "The First 11°",
+          "hits": []
+        },
+        {
+          "query": "The First",
+          "hits": []
         }
       ],
       "outcome": {
@@ -2865,6 +2855,39 @@
       "outcome": {
         "matched": "/b/hradecky-klenot-sour-ale-orange-cinnamon/5361488",
         "score": 0.2143
+      }
+    },
+    "beerstreet::Klenot::Vera & Mosaic": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Klenot",
+        "name": "Vera & Mosaic",
+        "style": "Hazy ale",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-06-26T17:44:45Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Vera & Mosaic 12° Klenot",
+          "hits": []
+        },
+        {
+          "query": "Vera & Mosaic Klenot",
+          "hits": []
+        },
+        {
+          "query": "Vera & Mosaic 12°",
+          "hits": []
+        },
+        {
+          "query": "Vera & Mosaic",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "beerstreet::Kynšperský zajíc::Summer Ale": {

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-26T16:03:56Z",
+  "generated_at": "2026-06-26T17:44:50Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -1671,13 +1671,18 @@
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::-::-": {
-      "attempts": 2,
-      "last_tried_at": "2026-06-04T19:27:57Z",
+      "attempts": 3,
+      "last_tried_at": "2026-06-26T17:44:50Z",
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::Avar::Kazbek": {
       "attempts": 1,
       "last_tried_at": "2026-06-19T19:00:45Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "beerstreet::Avar::The First": {
+      "attempts": 1,
+      "last_tried_at": "2026-06-26T17:44:41Z",
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::Haksna::Our Lager": {
@@ -1698,6 +1703,11 @@
     "beerstreet::Klenot::Guava and rosemary": {
       "attempts": 1,
       "last_tried_at": "2026-05-22T09:09:16Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "beerstreet::Klenot::Vera & Mosaic": {
+      "attempts": 1,
+      "last_tried_at": "2026-06-26T17:44:45Z",
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::Kynšperský zajíc::Summer Ale": {
