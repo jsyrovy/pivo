@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-25T23:23:10Z",
+  "generated_at": "2026-06-26T13:40:25Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -1442,6 +1442,15 @@
       "matched_at": "2026-05-23T20:04:19Z",
       "query_used": "Šlehač 12° U Vojtěchů"
     },
+    "beerstreet::Varga Brothers::My Fair": {
+      "untappd_url": "https://untappd.com/b/varga-brothers-brewing-company-my-fair-lezak/5613947",
+      "untappd_name": "My Fair Ležák",
+      "untappd_brewery": "Varga Brothers Brewing Company",
+      "rating": 3.54215,
+      "match_score": 1.0,
+      "matched_at": "2026-06-26T13:40:22Z",
+      "query_used": "<override>"
+    },
     "beerstreet::Varga Brothers::My Fair ležák": {
       "untappd_url": "https://untappd.com/b/varga-brothers-brewing-company-my-fair-lezak/5613947",
       "untappd_name": "My Fair Ležák",
@@ -1531,6 +1540,15 @@
       "match_score": 1.0,
       "matched_at": "2026-05-22T09:09:03Z",
       "query_used": "Sunrice IPA Záhora"
+    },
+    "beerstreet::Záhora::Village Hell": {
+      "untappd_url": "https://untappd.com/b/pivovar-zahora-village-hell/6764384",
+      "untappd_name": "Village Hell",
+      "untappd_brewery": "Pivovar Záhora",
+      "rating": null,
+      "match_score": 1.0,
+      "matched_at": "2026-06-26T13:40:25Z",
+      "query_used": "<override>"
     },
     "beerstreet::Záhora::Česká jedenáctka": {
       "untappd_url": "https://untappd.com/b/pivovar-zahora-ceska-jedenactka/5494242",
@@ -1682,11 +1700,6 @@
       "last_tried_at": "2026-05-30T17:14:51Z",
       "reason": "no_candidates_above_threshold"
     },
-    "beerstreet::Varga Brothers::My Fair": {
-      "attempts": 1,
-      "last_tried_at": "2026-06-25T21:00:47Z",
-      "reason": "no_candidates_above_threshold"
-    },
     "beerstreet::Záhora::Silk Road": {
       "attempts": 1,
       "last_tried_at": "2026-05-29T20:25:52Z",
@@ -1695,11 +1708,6 @@
     "beerstreet::Záhora::Silk Road - ibišek+koriandr+limeta+yuzu": {
       "attempts": 1,
       "last_tried_at": "2026-06-01T19:22:43Z",
-      "reason": "no_candidates_above_threshold"
-    },
-    "beerstreet::Záhora::Village Hell": {
-      "attempts": 1,
-      "last_tried_at": "2026-06-23T18:04:18Z",
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::Černý Potoka::Cold Fish Mosaic dry hopped": {
