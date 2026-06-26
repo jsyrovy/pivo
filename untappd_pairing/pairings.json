@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-26T15:26:37Z",
+  "generated_at": "2026-06-26T16:03:56Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -1688,6 +1688,11 @@
     "beerstreet::Hoppy Dog::Mahlerova Osma": {
       "attempts": 1,
       "last_tried_at": "2026-05-30T15:13:41Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "beerstreet::Klenot & Zmajska::Dragon Gem": {
+      "attempts": 1,
+      "last_tried_at": "2026-06-26T16:03:56Z",
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::Klenot::Guava and rosemary": {

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-26T15:26:37Z",
+  "generated_at": "2026-06-26T16:03:56Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -2684,6 +2684,39 @@
       "outcome": {
         "matched": "/b/pivovar-hrebec-11deg-lezak/6340661",
         "score": 0.6667
+      }
+    },
+    "beerstreet::Klenot & Zmajska::Dragon Gem": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Klenot & Zmajska",
+        "name": "Dragon Gem",
+        "style": "Ležák světlý",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-06-26T16:03:56Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Dragon Gem 12° Klenot & Zmajska",
+          "hits": []
+        },
+        {
+          "query": "Dragon Gem Klenot & Zmajska",
+          "hits": []
+        },
+        {
+          "query": "Dragon Gem 12°",
+          "hits": []
+        },
+        {
+          "query": "Dragon Gem",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "beerstreet::Klenot::Cranberry+plum+ginger": {
