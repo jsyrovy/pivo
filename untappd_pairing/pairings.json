@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-27T16:10:04Z",
+  "generated_at": "2026-06-27T18:09:17Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -1666,8 +1666,8 @@
       "reason": "no_candidates_above_threshold"
     },
     "ambasada::Mordýř, Dolní Ředice::Kyseláč - Rybíz, Višeň, Maracuja": {
-      "attempts": 1,
-      "last_tried_at": "2026-06-18T19:33:32Z",
+      "attempts": 2,
+      "last_tried_at": "2026-06-27T18:09:17Z",
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::-::-": {

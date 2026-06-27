@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-27T16:10:04Z",
+  "generated_at": "2026-06-27T18:09:17Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -962,7 +962,7 @@
         "style": "Fruited berliner weisse",
         "degree_plato": 10.0
       },
-      "captured_at": "2026-06-18T19:33:32Z",
+      "captured_at": "2026-06-27T18:09:17Z",
       "candidates": [],
       "attempts": [
         {
