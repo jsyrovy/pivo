@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-27T18:09:17Z",
+  "generated_at": "2026-06-27T20:12:27Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -952,6 +952,39 @@
       "outcome": {
         "matched": "/b/pivovar-mordyr-mango-ale/4500799",
         "score": 0.1429
+      }
+    },
+    "ambasada::Mordýř, Dolní Ředice::Kyseláč - Rybíz": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Mordýř, Dolní Ředice",
+        "name": "Kyseláč - Rybíz",
+        "style": "Fruited berliner weisse",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-06-27T20:12:27Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Kyseláč - Rybíz 10° Mordýř",
+          "hits": []
+        },
+        {
+          "query": "Kyseláč - Rybíz Mordýř",
+          "hits": []
+        },
+        {
+          "query": "Kyseláč - Rybíz 10°",
+          "hits": []
+        },
+        {
+          "query": "Kyseláč - Rybíz",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "ambasada::Mordýř, Dolní Ředice::Kyseláč - Rybíz, Višeň, Maracuja": {
