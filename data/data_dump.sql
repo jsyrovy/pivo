@@ -2005,6 +2005,11 @@ INSERT INTO "archive" VALUES(1580421822,'2026-06-24 18:22:46.000000','sejrik','R
 INSERT INTO "archive" VALUES(1580430540,'2026-06-24 18:52:30.000000','sejrik','Uroboros 8','Pivovar Mazák','U Toulavé pípy');
 INSERT INTO "archive" VALUES(1580445097,'2026-06-24 19:39:07.000000','sejrik','Session Juicy Lucy 13','Pivovar ZICHOVEC','Pivní ambasáda');
 INSERT INTO "archive" VALUES(1580453500,'2026-06-24 20:06:49.000000','sejrik','The Lizard King','Salama Brewing Company','Pivní ambasáda');
+INSERT INTO "archive" VALUES(1580837255,'2026-06-26 15:50:40.000000','sejrik','My Fair Ležák','Varga Brothers Brewing Company','Beer Street');
+INSERT INTO "archive" VALUES(1580853968,'2026-06-26 16:32:35.000000','sejrik','Dragon Gem','Hradecký Klenot','Beer Street');
+INSERT INTO "archive" VALUES(1580864224,'2026-06-26 16:55:03.000000','sejrik','Lazy Charbonnay','FRACEK','Beer Street');
+INSERT INTO "archive" VALUES(1580883190,'2026-06-26 17:33:46.000000','sejrik','Vera & Mosaic Hazy Ale 12','Hradecký Klenot','Beer Street');
+INSERT INTO "archive" VALUES(1580896066,'2026-06-26 17:58:50.000000','sejrik','ThE FiRsT 11°','AVAR Brewing Co.','Beer Street');
 CREATE TABLE [pivni_valka] (
 	[id] integer PRIMARY KEY,
 	[date] text,
