@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-28T16:16:46Z",
+  "generated_at": "2026-06-28T18:09:02Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -1660,6 +1660,11 @@
     }
   },
   "unmatched": {
+    "ambasada::Clock, Potštejn::Trudi": {
+      "attempts": 1,
+      "last_tried_at": "2026-06-28T18:09:02Z",
+      "reason": "no_candidates_above_threshold"
+    },
     "ambasada::Maisel & Friends, Bayreuth, Bavorsko::13,7° Artbeer #8": {
       "attempts": 1,
       "last_tried_at": "2026-05-29T20:26:06Z",

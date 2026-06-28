@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-28T16:16:46Z",
+  "generated_at": "2026-06-28T18:09:02Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -343,6 +343,39 @@
       "outcome": {
         "matched": "/b/pivovar-clock-maracuja-elderflower/6270248",
         "score": 1.0
+      }
+    },
+    "ambasada::Clock, Potštejn::Trudi": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Clock, Potštejn",
+        "name": "Trudi",
+        "style": "Session NEIPA",
+        "degree_plato": 9.0
+      },
+      "captured_at": "2026-06-28T18:09:02Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Trudi 9° Clock",
+          "hits": []
+        },
+        {
+          "query": "Trudi Clock",
+          "hits": []
+        },
+        {
+          "query": "Trudi 9°",
+          "hits": []
+        },
+        {
+          "query": "Trudi",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "ambasada::Fracek, Praha::Big Sure!": {
