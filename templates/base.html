@@ -46,6 +46,12 @@
                 background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
             }
         </style>
+        <style>
+            .debug-icon-off { display: block; }
+            .debug-icon-on { display: none; }
+            html.debug-mode .debug-icon-off { display: none; }
+            html.debug-mode .debug-icon-on { display: block; }
+        </style>
         {% block head %}
         {% endblock head %}
     </head>
@@ -64,26 +70,48 @@
                             Pivní válka
                         </a>
                     </div>
-                    <button id="theme-toggle"
-                            class="p-2 rounded-lg bg-zinc-100 dark:bg-slate-light hover:bg-zinc-200 dark:hover:bg-slate-mid transition-colors"
-                            title="Přepnout motiv">
-                        <svg id="icon-sun"
-                             class="w-4 h-4 hidden dark:block text-amber-light"
-                             fill="none"
-                             viewBox="0 0 24 24"
-                             stroke-width="1.5"
-                             stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
-                        </svg>
-                        <svg id="icon-moon"
-                             class="w-4 h-4 block dark:hidden text-zinc-500"
-                             fill="none"
-                             viewBox="0 0 24 24"
-                             stroke-width="1.5"
-                             stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
-                        </svg>
-                    </button>
+                    <div class="flex items-center gap-1">
+                        <button id="debug-toggle"
+                                class="p-2 rounded-lg bg-zinc-100 dark:bg-slate-light hover:bg-zinc-200 dark:hover:bg-slate-mid transition-colors"
+                                title="Debug režim">
+                            <svg class="debug-icon-off w-4 h-4 text-zinc-500 dark:text-chalk/60"
+                                 fill="none"
+                                 viewBox="0 0 24 24"
+                                 stroke-width="1.5"
+                                 stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M10 4.5v1.5M14 4.5v1.5M7.5 9h9M9 9v6a3 3 0 0 0 6 0V9M9 15l-3 3m12-3-3 3M12 3c-1.5 0-3 .8-3 2v1.5h6V5c0-1.2-1.5-2-3-2Z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 12H5m14 0h-2.5" />
+                            </svg>
+                            <svg class="debug-icon-on w-4 h-4 text-amber"
+                                 fill="currentColor"
+                                 viewBox="0 0 24 24"
+                                 stroke-width="1.5"
+                                 stroke="currentColor">
+                                <path d="M10 4.5v1.5M14 4.5v1.5M7.5 9h9M9 9v6a3 3 0 0 0 6 0V9M9 15l-3 3m12-3-3 3M12 3c-1.5 0-3 .8-3 2v1.5h6V5c0-1.2-1.5-2-3-2Z" />
+                                <path d="M7.5 12H5m14 0h-2.5" />
+                            </svg>
+                        </button>
+                        <button id="theme-toggle"
+                                class="p-2 rounded-lg bg-zinc-100 dark:bg-slate-light hover:bg-zinc-200 dark:hover:bg-slate-mid transition-colors"
+                                title="Přepnout motiv">
+                            <svg id="icon-sun"
+                                 class="w-4 h-4 hidden dark:block text-amber-light"
+                                 fill="none"
+                                 viewBox="0 0 24 24"
+                                 stroke-width="1.5"
+                                 stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+                            </svg>
+                            <svg id="icon-moon"
+                                 class="w-4 h-4 block dark:hidden text-zinc-500"
+                                 fill="none"
+                                 viewBox="0 0 24 24"
+                                 stroke-width="1.5"
+                                 stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+                            </svg>
+                        </button>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -102,6 +130,21 @@
             localStorage.setItem('theme', isDark ? 'dark' : 'light');
             if (typeof window.onThemeChange === 'function') {
                 window.onThemeChange(isDark);
+            }
+        });
+    })();
+        </script>
+        <script>
+    (function() {
+        if (localStorage.getItem('debugMode') === 'true') {
+            document.documentElement.classList.add('debug-mode');
+        }
+        document.getElementById('debug-toggle').addEventListener('click', function() {
+            const html = document.documentElement;
+            html.classList.toggle('debug-mode');
+            localStorage.setItem('debugMode', html.classList.contains('debug-mode') ? 'true' : 'false');
+            if (typeof window.onDebugChange === 'function') {
+                window.onDebugChange(html.classList.contains('debug-mode'));
             }
         });
     })();

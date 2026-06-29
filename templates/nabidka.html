@@ -67,6 +67,59 @@
     @keyframes refresh-spin {
         to { transform: rotate(360deg); }
     }
+    .debug-panel {
+        display: none;
+        margin-top: 8px;
+        padding: 8px;
+        background: rgba(0, 0, 0, 0.05);
+        border-radius: 6px;
+        font-family: 'Courier New', monospace;
+        font-size: 10px;
+        line-height: 1.5;
+        word-break: break-all;
+        white-space: pre-wrap;
+        border: 1px solid rgba(212, 168, 84, 0.15);
+    }
+    html:not(.dark) .debug-panel {
+        background: rgba(0, 0, 0, 0.03);
+    }
+    html.debug-mode .debug-panel {
+        display: block;
+    }
+    .debug-panel-key {
+        font-size: 9px;
+        color: #a1a1aa;
+        margin-bottom: 4px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .debug-panel-section {
+        margin-bottom: 4px;
+        padding: 3px 0;
+        border-top: 1px solid rgba(212, 168, 84, 0.08);
+    }
+    .debug-panel-section:first-of-type {
+        border-top: none;
+    }
+    .debug-panel-section-header {
+        font-weight: 600;
+        color: #d4a854;
+        font-size: 9px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        margin-bottom: 2px;
+    }
+    .debug-panel-section-value {
+        color: #a1a1aa;
+        font-size: 9px;
+    }
+    .debug-panel .mismatch {
+        color: #f59e0b;
+    }
+    .debug-panel .missing {
+        color: #ef4444;
+    }
     </style>
 {% endblock head %}
 {% block content %}
@@ -234,6 +287,64 @@
                 </a>`;
     }
 
+    function buildDebugHtml(beer, pairing) {
+        const key = pairingKey(beer);
+        const beerJson = JSON.stringify(beer, null, 2);
+        let html = '';
+
+        // Key + order header
+        html += `<div class="debug-panel-key"><span>${esc(key)}</span>`;
+        if (beer.order != null) {
+            html += `<span>#${beer.order}</span>`;
+        }
+        html += '</div>';
+
+        // Raw API dump
+        html += '<div class="debug-panel-section">';
+        html += '<div class="debug-panel-section-header">📦 RAW API</div>';
+        html += `<div class="debug-panel-section-value">${esc(beerJson)}</div>`;
+        html += '</div>';
+
+        // Pricing breakdown
+        if (beer.pricing) {
+            html += '<div class="debug-panel-section">';
+            html += '<div class="debug-panel-section-header">💰 CENÍK</div>';
+            html += `<div class="debug-panel-section-value">halfLiter: ${beer.pricing.halfLiterCzk} Kč`;
+            if (beer.pricing.reference) {
+                html += ` | ref: ${beer.pricing.reference.volumeLiters}l / ${beer.pricing.reference.priceCzk} Kč`;
+            }
+            if (beer.pricing.secondary) {
+                html += ` | sec: ${beer.pricing.secondary.volumeLiters}l / ${beer.pricing.secondary.priceCzk} Kč`;
+            }
+            html += '</div></div>';
+        }
+
+        // Pairing status
+        if (pairing && pairing.untappd_url) {
+            const nameOk = pairing.untappd_name === beer.name;
+            const breweryOk = pairing.untappd_brewery === beer.brewery;
+            html += '<div class="debug-panel-section">';
+            html += '<div class="debug-panel-section-header">🔗 PÁROVÁNÍ</div>';
+            html += '<div class="debug-panel-section-value">';
+            html += `name: ${esc(pairing.untappd_name)}`;
+            if (!nameOk) html += ' <span class="mismatch">✗</span>';
+            html += `\nbrewery: ${esc(pairing.untappd_brewery)}`;
+            if (!breweryOk) html += ' <span class="mismatch">✗</span>';
+            html += `\nrating: ${pairing.rating ?? '–'}`;
+            if (pairing.match_score != null) html += `\nscore: ${pairing.match_score}`;
+            if (pairing.query_used) html += `\nquery: ${esc(pairing.query_used)}`;
+            if (pairing.matched_at) html += `\nmatched: ${esc(pairing.matched_at)}`;
+            html += '</div></div>';
+        } else {
+            html += '<div class="debug-panel-section">';
+            html += '<div class="debug-panel-section-header">⛔ PÁROVÁNÍ</div>';
+            html += '<div class="debug-panel-section-value missing">Nespárováno (není v pairings.json)</div>';
+            html += '</div>';
+        }
+
+        return html;
+    }
+
     function renderBeers(beers, pairings) {
         $container.innerHTML = '';
         const fragment = document.createDocumentFragment();
@@ -269,6 +380,7 @@
                     ${abvText ? `<span class="text-[10px] bg-zinc-100 dark:bg-chalk/5 text-zinc-500 dark:text-chalk/60 border border-zinc-200 dark:border-slate-mid rounded-full px-2 py-px">${abvText}%</span>` : ''}
                 </div>
                 ${pricingHtml ? `<div class="mt-auto pt-2 border-t border-zinc-200 dark:border-slate-mid/50">${pricingHtml}</div>` : ''}
+                <div class="debug-panel">${buildDebugHtml(beer, pairings[pairingKey(beer)])}</div>
             `;
 
             fragment.appendChild(card);
