@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-01T15:47:22Z",
+  "generated_at": "2026-07-01T18:03:13Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -873,6 +873,31 @@
       "outcome": {
         "matched": "/b/madcat-mango-pina-coco/2990679",
         "score": 1.0
+      }
+    },
+    "ambasada::Magic Road, Polsko::Beauty Extreme - Carrot, Pineapple, Calamansi & Ginger": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Magic Road, Polsko",
+        "name": "Beauty Extreme - Carrot, Pineapple, Calamansi & Ginger",
+        "style": "Pastry sour ale",
+        "degree_plato": null
+      },
+      "captured_at": "2026-07-01T18:03:13Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Beauty Extreme - Carrot, Pineapple, Calamansi & Ginger Magic Road",
+          "hits": []
+        },
+        {
+          "query": "Beauty Extreme - Carrot, Pineapple, Calamansi & Ginger",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "ambasada::Maisel & Friends, Bayreuth, Bavorsko::12,5° Urban IPA": {
