@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-30T22:21:56Z",
+  "generated_at": "2026-07-01T15:47:22Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -812,6 +812,39 @@
         "score": 1.0
       }
     },
+    "ambasada::Louka::Apač": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Louka",
+        "name": "Apač",
+        "style": "American pale ale",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-07-01T15:47:22Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Apač 12° Louka",
+          "hits": []
+        },
+        {
+          "query": "Apač Louka",
+          "hits": []
+        },
+        {
+          "query": "Apač 12°",
+          "hits": []
+        },
+        {
+          "query": "Apač",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
     "ambasada::MadCat, Kamenice::Mango Pina Coco Sourus": {
       "beer": {
         "source": "ambasada",
@@ -1206,6 +1239,39 @@
       "outcome": {
         "matched": "/b/pivovar-obora-sunny-apa/5829209",
         "score": 1.0
+      }
+    },
+    "ambasada::Ovipistán, Ledce::Konspirátor": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Ovipistán, Ledce",
+        "name": "Konspirátor",
+        "style": "West coast IPA",
+        "degree_plato": 14.0
+      },
+      "captured_at": "2026-07-01T15:47:14Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Konspirátor 14° Ovipistán",
+          "hits": []
+        },
+        {
+          "query": "Konspirátor Ovipistán",
+          "hits": []
+        },
+        {
+          "query": "Konspirátor 14°",
+          "hits": []
+        },
+        {
+          "query": "Konspirátor",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "ambasada::Rampušák, Dobruška::Strawberry Rhubarb Pie": {
