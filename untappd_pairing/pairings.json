@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-01T18:03:13Z",
+  "generated_at": "2026-07-01T20:49:56Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -1663,6 +1663,11 @@
     "ambasada::Clock, Potštejn::Trudi": {
       "attempts": 1,
       "last_tried_at": "2026-06-28T18:09:02Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "ambasada::JungBerg, Hořice::300 Kurven": {
+      "attempts": 1,
+      "last_tried_at": "2026-07-01T20:49:56Z",
       "reason": "no_candidates_above_threshold"
     },
     "ambasada::Louka::Apač": {

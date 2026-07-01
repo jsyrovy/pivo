@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-01T18:03:13Z",
+  "generated_at": "2026-07-01T20:49:56Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -558,6 +558,39 @@
       "outcome": {
         "matched": "/b/pivovar-hoppydog-rafan/2658169",
         "source": "llm"
+      }
+    },
+    "ambasada::JungBerg, Hořice::300 Kurven": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "JungBerg, Hořice",
+        "name": "300 Kurven",
+        "style": "Světlý ležák",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-07-01T20:49:56Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "300 Kurven 10° JungBerg",
+          "hits": []
+        },
+        {
+          "query": "300 Kurven JungBerg",
+          "hits": []
+        },
+        {
+          "query": "300 Kurven 10°",
+          "hits": []
+        },
+        {
+          "query": "300 Kurven",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "ambasada::JungBerg, Hořice::PP (Pořádné Pivo)": {
