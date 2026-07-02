@@ -85,6 +85,23 @@ def test_fetch_all_beers_combines_endpoints():
     assert [b.source for b in beers] == ["beerstreet", "beerstreet"]
 
 
+def test_fetch_endpoint_skips_empty_tap_slots():
+    payload = json.dumps(
+        {
+            "source": "beerstreet",
+            "fetchedAt": "2026-04-17T10:31:13.809Z",
+            "beers": [
+                {"name": "-", "brewery": "-", "style": "-", "abv": None, "source": "beerstreet"},
+                {"name": "Kazbek", "brewery": "Klenot", "style": "Ležák světlý", "abv": None, "source": "beerstreet"},
+            ],
+        },
+    )
+    with mock.patch.object(tap_api.common, "download_page", return_value=payload):
+        beers = tap_api.fetch_endpoint("/beerstreet")
+
+    assert [b.name for b in beers] == ["Kazbek"]
+
+
 def test_fetch_all_beers_swallows_endpoint_errors(caplog):
     def fake_download(url, extra_headers=None, timeout=None):  # noqa: ARG001
         if "ambasada" in url:

@@ -1701,11 +1701,6 @@
       "last_tried_at": "2026-05-29T20:26:06Z",
       "reason": "no_candidates_above_threshold"
     },
-    "beerstreet::-::-": {
-      "attempts": 6,
-      "last_tried_at": "2026-07-02T08:53:50Z",
-      "reason": "no_candidates_above_threshold"
-    },
     "beerstreet::Avar::Kazbek": {
       "attempts": 1,
       "last_tried_at": "2026-06-19T19:00:45Z",

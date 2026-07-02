@@ -15,6 +15,7 @@ VENUE_SHORT: dict[str, str] = {
     "beerstreet": "BS",
     "ambasada": "PA",
 }
+EMPTY_TAP_PLACEHOLDER = "-"
 
 
 @dataclass(frozen=True, kw_only=True)
@@ -42,11 +43,16 @@ def _parse_beer(raw: dict[str, Any]) -> TapBeer:
     )
 
 
+def _is_empty_tap(beer: TapBeer) -> bool:
+    return beer.name == EMPTY_TAP_PLACEHOLDER and beer.brewery == EMPTY_TAP_PLACEHOLDER
+
+
 def fetch_endpoint(endpoint: str) -> list[TapBeer]:
     url = f"{TAP_API_BASE_URL}{endpoint}"
     body = common.download_page(url, extra_headers={"Origin": ALLOWED_ORIGIN})
     payload = json.loads(body)
-    return [_parse_beer(beer) for beer in payload.get("beers", [])]
+    beers = [_parse_beer(beer) for beer in payload.get("beers", [])]
+    return [beer for beer in beers if not _is_empty_tap(beer)]
 
 
 def fetch_all_beers() -> list[TapBeer]:
