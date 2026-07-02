@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-01T22:22:04Z",
+  "generated_at": "2026-07-02T08:54:06Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -568,29 +568,26 @@
         "style": "Světlý ležák",
         "degree_plato": 10.0
       },
-      "captured_at": "2026-07-01T20:49:56Z",
-      "candidates": [],
+      "captured_at": "2026-07-02T08:53:53Z",
+      "candidates": [
+        {
+          "name": "300 Kurven 10%",
+          "brewery": "Pivovar JungBerg",
+          "url": "/b/pivovar-jungberg-300-kurven-10/3144726",
+          "rating": 3.46
+        }
+      ],
       "attempts": [
         {
           "query": "300 Kurven 10° JungBerg",
-          "hits": []
-        },
-        {
-          "query": "300 Kurven JungBerg",
-          "hits": []
-        },
-        {
-          "query": "300 Kurven 10°",
-          "hits": []
-        },
-        {
-          "query": "300 Kurven",
-          "hits": []
+          "hits": [
+            0
+          ]
         }
       ],
       "outcome": {
-        "matched": null,
-        "reason": "no_candidates_above_threshold"
+        "matched": "/b/pivovar-jungberg-300-kurven-10/3144726",
+        "score": 1.0
       }
     },
     "ambasada::JungBerg, Hořice::PP (Pořádné Pivo)": {
@@ -853,29 +850,38 @@
         "style": "American pale ale",
         "degree_plato": 12.0
       },
-      "captured_at": "2026-07-01T15:47:22Z",
-      "candidates": [],
+      "captured_at": "2026-07-02T08:54:06Z",
+      "candidates": [
+        {
+          "name": "Lokale APA 12",
+          "brewery": "Padre Craft Brews",
+          "url": "/b/padre-craft-brews-lokale-apa-12/6007793",
+          "rating": null
+        },
+        {
+          "name": "Apač",
+          "brewery": "Pivovar Louka",
+          "url": "/b/pivovar-louka-apac/3902175",
+          "rating": 3.42
+        }
+      ],
       "attempts": [
         {
           "query": "Apač 12° Louka",
-          "hits": []
+          "hits": [
+            0
+          ]
         },
         {
           "query": "Apač Louka",
-          "hits": []
-        },
-        {
-          "query": "Apač 12°",
-          "hits": []
-        },
-        {
-          "query": "Apač",
-          "hits": []
+          "hits": [
+            1
+          ]
         }
       ],
       "outcome": {
-        "matched": null,
-        "reason": "no_candidates_above_threshold"
+        "matched": "/b/pivovar-louka-apac/3902175",
+        "score": 1.0
       }
     },
     "ambasada::MadCat, Kamenice::Mango Pina Coco Sourus": {
@@ -916,21 +922,26 @@
         "style": "Pastry sour ale",
         "degree_plato": null
       },
-      "captured_at": "2026-07-01T18:03:13Z",
-      "candidates": [],
+      "captured_at": "2026-07-02T08:53:57Z",
+      "candidates": [
+        {
+          "name": "Beauty Extreme - Carrot, Pineapple, Calamansi & Ginger",
+          "brewery": "Magic Road",
+          "url": "/b/magic-road-beauty-extreme-carrot-pineapple-calamansi-and-ginger/6645524",
+          "rating": 3.68
+        }
+      ],
       "attempts": [
         {
           "query": "Beauty Extreme - Carrot, Pineapple, Calamansi & Ginger Magic Road",
-          "hits": []
-        },
-        {
-          "query": "Beauty Extreme - Carrot, Pineapple, Calamansi & Ginger",
-          "hits": []
+          "hits": [
+            0
+          ]
         }
       ],
       "outcome": {
-        "matched": null,
-        "reason": "no_candidates_above_threshold"
+        "matched": "/b/magic-road-beauty-extreme-carrot-pineapple-calamansi-and-ginger/6645524",
+        "score": 1.0
       }
     },
     "ambasada::Maisel & Friends, Bayreuth, Bavorsko::12,5° Urban IPA": {
@@ -1307,8 +1318,33 @@
         "style": "West coast IPA",
         "degree_plato": 14.0
       },
-      "captured_at": "2026-07-01T15:47:14Z",
-      "candidates": [],
+      "captured_at": "2026-07-02T08:54:01Z",
+      "candidates": [
+        {
+          "name": "Konspirátor 4",
+          "brewery": "Pivovar Ovipistán",
+          "url": "/b/pivovar-ovipistan-konspirator-4/6712887",
+          "rating": 3.22
+        },
+        {
+          "name": "Konspirátor",
+          "brewery": "Pivovar Ovipistán",
+          "url": "/b/pivovar-ovipistan-konspirator/5369782",
+          "rating": 3.39
+        },
+        {
+          "name": "Konspirátor 2",
+          "brewery": "Pivovar Ovipistán",
+          "url": "/b/pivovar-ovipistan-konspirator-2/5741219",
+          "rating": 3.72
+        },
+        {
+          "name": "Konspirátor 3 - krALEvic",
+          "brewery": "Pivovar Ovipistán",
+          "url": "/b/pivovar-ovipistan-konspirator-3/6206698",
+          "rating": 3.3
+        }
+      ],
       "attempts": [
         {
           "query": "Konspirátor 14° Ovipistán",
@@ -1316,20 +1352,17 @@
         },
         {
           "query": "Konspirátor Ovipistán",
-          "hits": []
-        },
-        {
-          "query": "Konspirátor 14°",
-          "hits": []
-        },
-        {
-          "query": "Konspirátor",
-          "hits": []
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
         }
       ],
       "outcome": {
-        "matched": null,
-        "reason": "no_candidates_above_threshold"
+        "matched": "/b/pivovar-ovipistan-konspirator/5369782",
+        "score": 1.0
       }
     },
     "ambasada::Rampušák, Dobruška::Strawberry Rhubarb Pie": {
@@ -1822,16 +1855,59 @@
         "style": "-",
         "degree_plato": null
       },
-      "captured_at": "2026-06-26T17:44:50Z",
-      "candidates": [],
+      "captured_at": "2026-07-02T08:53:50Z",
+      "candidates": [
+        {
+          "name": "Guinness Draught",
+          "brewery": "Guinness",
+          "url": "/b/guinness-guinness-draught/4473",
+          "rating": 3.77
+        },
+        {
+          "name": "Miller Lite",
+          "brewery": "Miller Brewing Company",
+          "url": "/b/miller-brewing-company-miller-lite/3811",
+          "rating": 2.57
+        },
+        {
+          "name": "Heineken",
+          "brewery": "Heineken",
+          "url": "/b/heineken-heineken/5860",
+          "rating": 2.96
+        },
+        {
+          "name": "Bud Light",
+          "brewery": "Anheuser-Busch",
+          "url": "/b/anheuser-busch-bud-light/3784",
+          "rating": 2.35
+        },
+        {
+          "name": "Traditional Lager",
+          "brewery": "Yuengling Brewery",
+          "url": "/b/yuengling-brewery-traditional-lager/16649",
+          "rating": 3.5
+        }
+      ],
       "attempts": [
         {
           "query": "- -",
-          "hits": []
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
         },
         {
           "query": "-",
-          "hits": []
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
         }
       ],
       "outcome": {
