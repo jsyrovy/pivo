@@ -6,7 +6,7 @@ import random
 import sys
 import time
 from datetime import UTC, datetime
-from typing import TYPE_CHECKING, Any
+from typing import TYPE_CHECKING, Any, cast
 
 import httpx
 import jinja2
@@ -43,6 +43,23 @@ def download_page(url: str, extra_headers: dict[str, str] | None = None, timeout
 
     r.raise_for_status()
     return r.text
+
+
+def post_json(
+    url: str,
+    payload: dict[str, Any],
+    extra_headers: dict[str, str] | None = None,
+    timeout: float = TIMEOUT,
+) -> dict[str, Any]:
+    headers = {"User-Agent": get_random_user_agent()}
+    if extra_headers:
+        headers.update(extra_headers)
+
+    with httpx.Client(http2=True, headers=headers, timeout=timeout) as client:
+        r = client.post(url, json=payload)
+
+    r.raise_for_status()
+    return cast("dict[str, Any]", r.json())
 
 
 def get_template(file: str, templates_paths: tuple[str, ...] = ("templates",)) -> jinja2.Template:

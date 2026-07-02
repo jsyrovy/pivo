@@ -7,6 +7,7 @@ from utils.common import (
     get_random_user_agent,
     get_template,
     is_test,
+    post_json,
     random_sleep,
 )
 
@@ -26,6 +27,24 @@ def test_download_page_merges_extra_headers():
         client_instance = client_cls.return_value.__enter__.return_value
         client_instance.get.return_value.text = "hi"
         download_page("", extra_headers={"X-Custom": "yes"})
+
+    headers = client_cls.call_args.kwargs["headers"]
+    assert headers["X-Custom"] == "yes"
+    assert "User-Agent" in headers
+
+
+def test_post_json():
+    with mock.patch("httpx.Client.post") as post_mock:
+        type(post_mock.return_value).json = mock.Mock(return_value={"hits": []})
+        assert post_json("", {"params": "query=x"}) == {"hits": []}
+        assert post_mock.call_args.kwargs["json"] == {"params": "query=x"}
+
+
+def test_post_json_merges_extra_headers():
+    with mock.patch("utils.common.httpx.Client") as client_cls:
+        client_instance = client_cls.return_value.__enter__.return_value
+        client_instance.post.return_value.json.return_value = {}
+        post_json("", {}, extra_headers={"X-Custom": "yes"})
 
     headers = client_cls.call_args.kwargs["headers"]
     assert headers["X-Custom"] == "yes"
