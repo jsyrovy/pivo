@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-03T19:37:56Z",
+  "generated_at": "2026-07-03T21:13:43Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -82,6 +82,15 @@
       "match_score": 1.0,
       "matched_at": "2026-05-02T19:53:20Z",
       "query_used": "Hoptopia Chroust"
+    },
+    "ambasada::Chroust, Potštejn::Mango Mojito": {
+      "untappd_url": "https://untappd.com/b/chroust-mango-mojito/6762622",
+      "untappd_name": "Mango Mojito",
+      "untappd_brewery": "Chroust",
+      "rating": 3.76,
+      "match_score": 1.0,
+      "matched_at": "2026-07-03T21:13:43Z",
+      "query_used": "Mango Mojito Chroust"
     },
     "ambasada::Chroust, Potštejn::Třešňový Kompot": {
       "untappd_url": "https://untappd.com/b/chroust-tresnovy-kompot/6646338",

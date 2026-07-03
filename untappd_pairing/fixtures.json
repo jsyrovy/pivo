@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-03T19:37:56Z",
+  "generated_at": "2026-07-03T21:13:43Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -250,6 +250,40 @@
       ],
       "outcome": {
         "matched": "/b/brewnicorn-sunny-day/6689258",
+        "score": 1.0
+      }
+    },
+    "ambasada::Chroust, Potštejn::Mango Mojito": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Chroust, Potštejn",
+        "name": "Mango Mojito",
+        "style": "Fruit sour ale",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-07-03T21:13:43Z",
+      "candidates": [
+        {
+          "name": "Mango Mojito",
+          "brewery": "Chroust",
+          "url": "/b/chroust-mango-mojito/6762622",
+          "rating": 3.76
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Mango Mojito 12° Chroust",
+          "hits": []
+        },
+        {
+          "query": "Mango Mojito Chroust",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/chroust-mango-mojito/6762622",
         "score": 1.0
       }
     },
