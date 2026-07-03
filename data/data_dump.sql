@@ -2011,6 +2011,10 @@ INSERT INTO "archive" VALUES(1580864224,'2026-06-26 16:55:03.000000','sejrik','L
 INSERT INTO "archive" VALUES(1580883190,'2026-06-26 17:33:46.000000','sejrik','Vera & Mosaic Hazy Ale 12','Hradecký Klenot','Beer Street');
 INSERT INTO "archive" VALUES(1580896066,'2026-06-26 17:58:50.000000','sejrik','ThE FiRsT 11°','AVAR Brewing Co.','Beer Street');
 INSERT INTO "archive" VALUES(1581704690,'2026-06-28 18:32:11.000000','sejrik','Třešňový Kompot','Chroust','Untappd at Home');
+INSERT INTO "archive" VALUES(1582357650,'2026-07-02 12:46:12.000000','sejrik','Twogether Forever','Mikkeller','Untappd at Home');
+INSERT INTO "archive" VALUES(1582397007,'2026-07-02 17:02:54.000000','sejrik','Svatojánský Modern Pale Ale 13','Pivovar Mazák','U Toulavé pípy');
+INSERT INTO "archive" VALUES(1582397205,'2026-07-02 17:03:35.000000','sejrik','Anežka','Pivovar Clock','U Toulavé pípy');
+INSERT INTO "archive" VALUES(1582435245,'2026-07-02 19:01:43.000000','sejrik','Letní den 10','Pivovar Mazák','U Toulavé pípy');
 CREATE TABLE [pivni_valka] (
 	[id] integer PRIMARY KEY,
 	[date] text,
