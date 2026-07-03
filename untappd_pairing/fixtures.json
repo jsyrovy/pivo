@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-03T15:14:36Z",
+  "generated_at": "2026-07-03T17:38:56Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -1613,6 +1613,40 @@
       ],
       "outcome": {
         "matched": "/b/sibeeria-brewery-italian-pilsner/5748767",
+        "score": 1.0
+      }
+    },
+    "ambasada::Sibeeria, Praha::Léto 2026": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Sibeeria, Praha",
+        "name": "Léto 2026",
+        "style": "Session IPA",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-07-03T17:38:56Z",
+      "candidates": [
+        {
+          "name": "Léto 2026",
+          "brewery": "Sibeeria Brewery",
+          "url": "/b/sibeeria-brewery-leto-2026/6757175",
+          "rating": 3.84
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Léto 2026 10° Sibeeria",
+          "hits": []
+        },
+        {
+          "query": "Léto 2026 Sibeeria",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/sibeeria-brewery-leto-2026/6757175",
         "score": 1.0
       }
     },

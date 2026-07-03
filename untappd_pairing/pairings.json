@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-03T15:14:36Z",
+  "generated_at": "2026-07-03T17:38:56Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -577,6 +577,15 @@
       "match_score": 1.0,
       "matched_at": "2026-05-12T20:28:23Z",
       "query_used": "Liquid Luck Sibeeria"
+    },
+    "ambasada::Sibeeria, Praha::Léto 2026": {
+      "untappd_url": "https://untappd.com/b/sibeeria-brewery-leto-2026/6757175",
+      "untappd_name": "Léto 2026",
+      "untappd_brewery": "Sibeeria Brewery",
+      "rating": 3.84,
+      "match_score": 1.0,
+      "matched_at": "2026-07-03T17:38:56Z",
+      "query_used": "Léto 2026 Sibeeria"
     },
     "ambasada::Sibeeria, Praha::One Bloom": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-one-bloom/6690912",
