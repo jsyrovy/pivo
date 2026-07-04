@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-04T16:08:01Z",
+  "generated_at": "2026-07-04T18:05:57Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -226,6 +226,15 @@
       "match_score": 1.0,
       "matched_at": "2026-05-22T09:09:20Z",
       "query_used": "PP 12° JungBerg"
+    },
+    "ambasada::JungBerg, Hořice::Petr ALE": {
+      "untappd_url": "https://untappd.com/b/pivovar-jungberg-petrale/2199006",
+      "untappd_name": "Petrale",
+      "untappd_brewery": "Pivovar JungBerg",
+      "rating": 3.48,
+      "match_score": 1.0,
+      "matched_at": "2026-07-04T18:05:57Z",
+      "query_used": "Petr ALE 10° JungBerg"
     },
     "ambasada::JungBerg, Hořice::Vista": {
       "untappd_url": "https://untappd.com/b/pivovar-jungberg-vista-single-hop-ale/6704526",

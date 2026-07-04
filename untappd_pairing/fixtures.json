@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-04T16:08:01Z",
+  "generated_at": "2026-07-04T18:05:57Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -651,6 +651,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-jungberg-pp-12/1774180",
+        "score": 1.0
+      }
+    },
+    "ambasada::JungBerg, Hořice::Petr ALE": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "JungBerg, Hořice",
+        "name": "Petr ALE",
+        "style": "Ale",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-07-04T18:05:57Z",
+      "candidates": [
+        {
+          "name": "Petrale",
+          "brewery": "Pivovar JungBerg",
+          "url": "/b/pivovar-jungberg-petrale/2199006",
+          "rating": 3.48
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Petr ALE 10° JungBerg",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-jungberg-petrale/2199006",
         "score": 1.0
       }
     },
