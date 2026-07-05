@@ -40,4 +40,16 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
+        continue-on-error: true
+      - if: steps.deployment.outcome == 'failure'
+        run: echo "Deploy attempt 1 failed, retrying..." && sleep 10
+      - if: steps.deployment.outcome == 'failure'
+        uses: actions/deploy-pages@v5
+        id: deploy-retry-1
+        continue-on-error: true
+      - if: steps.deployment.outcome == 'failure' && steps.deploy-retry-1.outcome == 'failure'
+        run: echo "Deploy attempt 2 failed, retrying..." && sleep 30
+      - if: steps.deployment.outcome == 'failure' && steps.deploy-retry-1.outcome == 'failure'
+        uses: actions/deploy-pages@v5
+        id: deploy-retry-2
