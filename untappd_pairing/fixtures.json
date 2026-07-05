@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-04T22:02:48Z",
+  "generated_at": "2026-07-05T14:48:13Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -681,6 +681,40 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-jungberg-petrale/2199006",
+        "score": 1.0
+      }
+    },
+    "ambasada::JungBerg, Hořice::PetrIPA": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "JungBerg, Hořice",
+        "name": "PetrIPA",
+        "style": "West coast IPA",
+        "degree_plato": 14.0
+      },
+      "captured_at": "2026-07-05T14:48:13Z",
+      "candidates": [
+        {
+          "name": "PetrIPA",
+          "brewery": "Pivovar JungBerg",
+          "url": "/b/pivovar-jungberg-petripa/6763574",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "PetrIPA 14° JungBerg",
+          "hits": []
+        },
+        {
+          "query": "PetrIPA JungBerg",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-jungberg-petripa/6763574",
         "score": 1.0
       }
     },
