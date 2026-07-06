@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-06T16:24:48Z",
+  "generated_at": "2026-07-06T18:59:38Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -739,6 +739,15 @@
       "match_score": 1.0,
       "matched_at": "2026-05-10T19:57:34Z",
       "query_used": "<override>"
+    },
+    "ambasada::piv. Van Honsebrouck, Ingelmunster, Západní Flandry, Tropical Fruit Ale, 0::Kasteel Tropical": {
+      "untappd_url": "https://untappd.com/b/kasteel-brouwerij-vanhonsebrouck-kasteel-tropical/6215549",
+      "untappd_name": "Kasteel Tropical",
+      "untappd_brewery": "Kasteel Brouwerij Vanhonsebrouck",
+      "rating": 3.52,
+      "match_score": 1.0,
+      "matched_at": "2026-07-06T18:59:38Z",
+      "query_used": "<llm>"
     },
     "ambasada::Černý Potoka, Potštejn::Hellion": {
       "untappd_url": "https://untappd.com/b/cerny-potoka-hellion/3092309",

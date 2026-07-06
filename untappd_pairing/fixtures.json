@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-06T16:24:48Z",
+  "generated_at": "2026-07-06T18:59:38Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -1851,6 +1851,62 @@
       "outcome": {
         "matched": "/b/rodinny-pivovar-zichovec-apricot-session-juicy-lucy-13/4498047",
         "score": 1.0
+      }
+    },
+    "ambasada::piv. Van Honsebrouck, Ingelmunster, Západní Flandry, Tropical Fruit Ale, 0::Kasteel Tropical": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "piv. Van Honsebrouck, Ingelmunster, Západní Flandry, Tropical Fruit Ale, 0",
+        "name": "Kasteel Tropical",
+        "style": "25l",
+        "degree_plato": 14.0
+      },
+      "captured_at": "2026-07-06T18:59:38Z",
+      "candidates": [
+        {
+          "name": "Kasteel Tropical",
+          "brewery": "Kasteel Brouwerij Vanhonsebrouck",
+          "url": "/b/kasteel-brouwerij-vanhonsebrouck-kasteel-tropical/6215549",
+          "rating": 3.52
+        },
+        {
+          "name": "Kasteel Tropical 0.0",
+          "brewery": "Kasteel Brouwerij Vanhonsebrouck",
+          "url": "/b/kasteel-brouwerij-vanhonsebrouck-kasteel-tropical-0-0/6249320",
+          "rating": 3.33
+        },
+        {
+          "name": "Kasteel Tropical Twist",
+          "brewery": "Kasteel Brouwerij Vanhonsebrouck",
+          "url": "/b/kasteel-brouwerij-vanhonsebrouck-kasteel-tropical-twist/6733348",
+          "rating": 3.58
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Kasteel Tropical 14° piv. Van Honsebrouck",
+          "hits": []
+        },
+        {
+          "query": "Kasteel Tropical piv. Van Honsebrouck",
+          "hits": []
+        },
+        {
+          "query": "Kasteel Tropical 14°",
+          "hits": []
+        },
+        {
+          "query": "Kasteel Tropical",
+          "hits": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/kasteel-brouwerij-vanhonsebrouck-kasteel-tropical/6215549",
+        "source": "llm"
       }
     },
     "ambasada::Černý Potoka, Potštejn::Hellion": {
