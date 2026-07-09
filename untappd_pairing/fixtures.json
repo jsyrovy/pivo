@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-09T16:04:30Z",
+  "generated_at": "2026-07-09T18:52:31Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -1460,6 +1460,40 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-ovipistan-konspirator/5369782",
+        "score": 1.0
+      }
+    },
+    "ambasada::Pivečka, Rousínov::Cherry & Hibiscus": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Pivečka, Rousínov",
+        "name": "Cherry & Hibiscus",
+        "style": "Fruit sour ale",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-07-09T18:52:31Z",
+      "candidates": [
+        {
+          "name": "Sour Cherry & Hibiscus",
+          "brewery": "Pivovar Pivečka",
+          "url": "/b/pivovar-pivecka-sour-cherry-and-hibiscus/4987929",
+          "rating": 3.5
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Cherry & Hibiscus 11° Pivečka",
+          "hits": []
+        },
+        {
+          "query": "Cherry & Hibiscus Pivečka",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-pivecka-sour-cherry-and-hibiscus/4987929",
         "score": 1.0
       }
     },

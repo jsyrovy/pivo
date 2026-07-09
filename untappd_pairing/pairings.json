@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-09T16:04:30Z",
+  "generated_at": "2026-07-09T18:52:31Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -496,6 +496,15 @@
       "match_score": 1.0,
       "matched_at": "2026-07-02T08:54:01Z",
       "query_used": "Konspirátor Ovipistán"
+    },
+    "ambasada::Pivečka, Rousínov::Cherry & Hibiscus": {
+      "untappd_url": "https://untappd.com/b/pivovar-pivecka-sour-cherry-and-hibiscus/4987929",
+      "untappd_name": "Sour Cherry & Hibiscus",
+      "untappd_brewery": "Pivovar Pivečka",
+      "rating": 3.5,
+      "match_score": 1.0,
+      "matched_at": "2026-07-09T18:52:31Z",
+      "query_used": "Cherry & Hibiscus Pivečka"
     },
     "ambasada::Pivečka, Rousínov::Lime & Mint": {
       "untappd_url": "https://untappd.com/b/pivovar-pivecka-lime-mint-sour-ale/6384306",
