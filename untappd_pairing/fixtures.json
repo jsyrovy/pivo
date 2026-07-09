@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-08T23:13:47Z",
+  "generated_at": "2026-07-09T16:04:30Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -1813,6 +1813,36 @@
       ],
       "outcome": {
         "matched": "/b/sibeeria-brewery-zesty-zebra/6698766",
+        "score": 1.0
+      }
+    },
+    "ambasada::Volt, Jablonec nad Nisou::Flash Ale": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Volt, Jablonec nad Nisou",
+        "name": "Flash Ale",
+        "style": "English IPA",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-07-09T16:04:30Z",
+      "candidates": [
+        {
+          "name": "Flash",
+          "brewery": "Pivovar Volt",
+          "url": "/b/pivovar-volt-flash/2515817",
+          "rating": 3.44
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Flash Ale 13° Volt",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-volt-flash/2515817",
         "score": 1.0
       }
     },
