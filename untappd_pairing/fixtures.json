@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-10T17:50:56Z",
+  "generated_at": "2026-07-10T19:40:44Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -1848,6 +1848,54 @@
       "outcome": {
         "matched": "/b/sibeeria-brewery-zesty-zebra/6698766",
         "score": 1.0
+      }
+    },
+    "ambasada::Sibeeria/Alefarm::Stellar Observations": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Sibeeria/Alefarm",
+        "name": "Stellar Observations",
+        "style": "Cold IPA",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-07-10T19:40:44Z",
+      "candidates": [
+        {
+          "name": "Stellar Observations",
+          "brewery": "Sibeeria Brewery",
+          "url": "/b/sibeeria-brewery-stellar-observations/6742657",
+          "rating": 3.85
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Stellar Observations 12° Sibeeria/Alefarm",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Stellar Observations Sibeeria/Alefarm",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Stellar Observations 12°",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Stellar Observations",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "ambasada::Volt, Jablonec nad Nisou::Flash Ale": {
