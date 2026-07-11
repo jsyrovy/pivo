@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-10T23:02:36Z",
+  "generated_at": "2026-07-11T06:36:28Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -667,6 +667,15 @@
       "match_score": 1.0,
       "matched_at": "2026-06-01T19:22:48Z",
       "query_used": "Zesty Zebra Sibeeria"
+    },
+    "ambasada::Sibeeria/Alefarm::Stellar Observations": {
+      "untappd_url": "https://untappd.com/b/sibeeria-brewery-stellar-observations/6742657",
+      "untappd_name": "Stellar Observations",
+      "untappd_brewery": "Sibeeria Brewery",
+      "rating": 3.85294,
+      "match_score": 1.0,
+      "matched_at": "2026-07-11T06:36:28Z",
+      "query_used": "<override>"
     },
     "ambasada::Sibeeria/Herrenwald, Sour Ale w/ Raspberry::Forest Spirit": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-forest-spirit/5913749",
@@ -1762,11 +1771,6 @@
     "ambasada::Maisel & Friends, Bayreuth, Bavorsko::13,7° Artbeer #8": {
       "attempts": 1,
       "last_tried_at": "2026-05-29T20:26:06Z",
-      "reason": "no_candidates_above_threshold"
-    },
-    "ambasada::Sibeeria/Alefarm::Stellar Observations": {
-      "attempts": 1,
-      "last_tried_at": "2026-07-10T19:40:44Z",
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::Avar::Kazbek": {
