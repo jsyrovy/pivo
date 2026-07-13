@@ -2023,6 +2023,7 @@ INSERT INTO "archive" VALUES(1583577071,'2026-07-05 22:13:58.000000','sejrik','S
 INSERT INTO "archive" VALUES(1583637049,'2026-07-06 12:04:02.000000','sejrik','Radegast Rázná 10','Radegast','Na Staré Rybárně');
 INSERT INTO "archive" VALUES(1583688295,'2026-07-06 18:29:22.000000','sejrik','Skalka','Pivovar Cvikov','Untappd at Home');
 INSERT INTO "archive" VALUES(1584157197,'2026-07-09 13:40:28.000000','sejrik','Bakalář Nealko Za studena chmelený | Non-Alcoholic Dry Hopped Lager','Tradiční pivovar v Rakovníku','Untappd at Home');
+INSERT INTO "archive" VALUES(1585314968,'2026-07-12 19:35:09.000000','sejrik','Masopust 14','Pivovar ZICHOVEC','Untappd at Home');
 CREATE TABLE [pivni_valka] (
 	[id] integer PRIMARY KEY,
 	[date] text,
