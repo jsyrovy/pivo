@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-13T15:44:50Z",
+  "generated_at": "2026-07-13T17:59:32Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -515,6 +515,47 @@
       ],
       "outcome": {
         "matched": "/b/haksna-brewery-batalion-25-narozeniny/6693539",
+        "score": 1.0
+      }
+    },
+    "ambasada::Harpagan, Polsko::Mizianie Mamuta": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Harpagan, Polsko",
+        "name": "Mizianie Mamuta",
+        "style": "American IPA",
+        "degree_plato": 15.0
+      },
+      "captured_at": "2026-07-13T17:59:32Z",
+      "candidates": [
+        {
+          "name": "Mizianie Mamuta new",
+          "brewery": "Harpagan Craft Beer",
+          "url": "/b/harpagan-craft-beer-mizianie-mamuta-new/6381024",
+          "rating": 3.81
+        },
+        {
+          "name": "Mizianie Mamuta",
+          "brewery": "Harpagan Contracts",
+          "url": "/b/browar-harpagan-mizianie-mamuta/2555252",
+          "rating": 3.66
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Mizianie Mamuta 15° Harpagan",
+          "hits": []
+        },
+        {
+          "query": "Mizianie Mamuta Harpagan",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/browar-harpagan-mizianie-mamuta/2555252",
         "score": 1.0
       }
     },

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-13T15:44:50Z",
+  "generated_at": "2026-07-13T17:59:32Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -181,6 +181,15 @@
       "match_score": 1.0,
       "matched_at": "2026-05-16T20:00:28Z",
       "query_used": "Oops, wrong hole! Haksna"
+    },
+    "ambasada::Harpagan, Polsko::Mizianie Mamuta": {
+      "untappd_url": "https://untappd.com/b/browar-harpagan-mizianie-mamuta/2555252",
+      "untappd_name": "Mizianie Mamuta",
+      "untappd_brewery": "Harpagan Contracts",
+      "rating": 3.66,
+      "match_score": 1.0,
+      "matched_at": "2026-07-13T17:59:32Z",
+      "query_used": "Mizianie Mamuta Harpagan"
     },
     "ambasada::Hoppy Dog, Ostrava::Rafan": {
       "untappd_url": "https://untappd.com/b/pivovar-hoppydog-rafan/2658169",
