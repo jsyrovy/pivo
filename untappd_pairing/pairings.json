@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-12T22:58:28Z",
+  "generated_at": "2026-07-13T15:44:50Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -254,6 +254,15 @@
       "matched_at": "2026-05-29T17:34:57Z",
       "query_used": "Vista JungBerg"
     },
+    "ambasada::Klenot, Hradec Králové::Fleur de Lorien": {
+      "untappd_url": "https://untappd.com/b/hradecky-klenot-fleur-de-lorien/6623866",
+      "untappd_name": "Fleur De Lorien",
+      "untappd_brewery": "Hradecký Klenot",
+      "rating": 3.66,
+      "match_score": 1.0,
+      "matched_at": "2026-07-13T15:44:49Z",
+      "query_used": "Fleur de Lorien Klenot"
+    },
     "ambasada::Kynšperský Zajíc, Kynšperk::Summer Ale": {
       "untappd_url": "https://untappd.com/b/kynspersky-pivovar-summer-ale/4267619",
       "untappd_name": "Summer Ale",
@@ -379,6 +388,15 @@
       "match_score": 1.0,
       "matched_at": "2026-05-22T09:09:34Z",
       "query_used": "<override>"
+    },
+    "ambasada::Malešov::American Pale Ale": {
+      "untappd_url": "https://untappd.com/b/pratelsky-pivovar-malesov-american-pale-ale-11/3551415",
+      "untappd_name": "American Pale Ale 11",
+      "untappd_brewery": "Přátelský pivovar Malešov",
+      "rating": 3.4,
+      "match_score": 1.0,
+      "matched_at": "2026-07-13T15:44:50Z",
+      "query_used": "American Pale Ale 11° Malešov"
     },
     "ambasada::Matuška, Broumy::California": {
       "untappd_url": "https://untappd.com/b/pivovar-matuska-barrel-aged-cherry-california/4101111",
@@ -703,6 +721,15 @@
       "match_score": 1.0,
       "matched_at": "2026-05-06T20:19:48Z",
       "query_used": "Confluence Vik/Fauve"
+    },
+    "ambasada::Volt, Jablonec nad Nisou::Ampér": {
+      "untappd_url": "https://untappd.com/b/pivovar-volt-amper-agnus/5209185",
+      "untappd_name": "Ampér 11°",
+      "untappd_brewery": "Pivovar Volt",
+      "rating": 3.53,
+      "match_score": 1.0,
+      "matched_at": "2026-07-13T15:44:46Z",
+      "query_used": "Ampér 11° Volt"
     },
     "ambasada::Volt, Jablonec nad Nisou::Flash Ale": {
       "untappd_url": "https://untappd.com/b/pivovar-volt-flash/2515817",

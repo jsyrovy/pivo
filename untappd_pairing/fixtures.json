@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-12T22:58:28Z",
+  "generated_at": "2026-07-13T15:44:50Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -792,6 +792,40 @@
         "score": 1.0
       }
     },
+    "ambasada::Klenot, Hradec Králové::Fleur de Lorien": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Klenot, Hradec Králové",
+        "name": "Fleur de Lorien",
+        "style": "Hoppy saison ale",
+        "degree_plato": 14.0
+      },
+      "captured_at": "2026-07-13T15:44:49Z",
+      "candidates": [
+        {
+          "name": "Fleur De Lorien",
+          "brewery": "Hradecký Klenot",
+          "url": "/b/hradecky-klenot-fleur-de-lorien/6623866",
+          "rating": 3.66
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Fleur de Lorien 14° Klenot",
+          "hits": []
+        },
+        {
+          "query": "Fleur de Lorien Klenot",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/hradecky-klenot-fleur-de-lorien/6623866",
+        "score": 1.0
+      }
+    },
     "ambasada::Kynšperský Zajíc, Kynšperk::Summer Ale": {
       "beer": {
         "source": "ambasada",
@@ -1134,6 +1168,43 @@
         "verdict": "expected_missing",
         "expected": "/b/brauerei-gebr-maisel-maisel-friends-hazy-ipa-artbeer-8-lobster-robin/6590479",
         "note": "Same as the Urban IPA case: the correct candidate is present but Untappd lists the brewery as 'Brauerei Gebr. Maisel' while the source brand is 'Maisel & Friends', so brewery_matches fails and the matcher returns no match. Resolved via overrides.json."
+      }
+    },
+    "ambasada::Malešov::American Pale Ale": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Malešov",
+        "name": "American Pale Ale",
+        "style": "APA",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-07-13T15:44:50Z",
+      "candidates": [
+        {
+          "name": "American Pale Ale 11",
+          "brewery": "Přátelský pivovar Malešov",
+          "url": "/b/pratelsky-pivovar-malesov-american-pale-ale-11/3551415",
+          "rating": 3.4
+        },
+        {
+          "name": "111",
+          "brewery": "Pivovar Malenovice",
+          "url": "/b/pivovar-malenovice-111/3487282",
+          "rating": 3.48
+        }
+      ],
+      "attempts": [
+        {
+          "query": "American Pale Ale 11° Malešov",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pratelsky-pivovar-malesov-american-pale-ale-11/3551415",
+        "score": 1.0
       }
     },
     "ambasada::Mordýř, Dolní Ředice::Kurtizána": {
@@ -1896,6 +1967,36 @@
       "outcome": {
         "matched": null,
         "reason": "no_candidates_above_threshold"
+      }
+    },
+    "ambasada::Volt, Jablonec nad Nisou::Ampér": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Volt, Jablonec nad Nisou",
+        "name": "Ampér",
+        "style": "Světlý ležák",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-07-13T15:44:46Z",
+      "candidates": [
+        {
+          "name": "Ampér 11°",
+          "brewery": "Pivovar Volt",
+          "url": "/b/pivovar-volt-amper-agnus/5209185",
+          "rating": 3.53
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Ampér 11° Volt",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-volt-amper-agnus/5209185",
+        "score": 1.0
       }
     },
     "ambasada::Volt, Jablonec nad Nisou::Flash Ale": {
