@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-13T22:59:44Z",
+  "generated_at": "2026-07-14T14:57:39Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -1451,6 +1451,40 @@
       "outcome": {
         "matched": "/b/nachmelena-opice-sun-apa-12/1558059",
         "score": 1.0
+      }
+    },
+    "ambasada::Obora, Malšice::Philadelphia Marakuja & Mango": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Obora, Malšice",
+        "name": "Philadelphia Marakuja & Mango",
+        "style": "Fruit sour ale",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-07-14T14:57:39Z",
+      "candidates": [
+        {
+          "name": "Philadelphia Sour – Mango & Passion Fruit",
+          "brewery": "Pivovar Obora",
+          "url": "/b/pivovar-obora-philadelphia-sour-mango-and-passion-fruit/4939956",
+          "rating": 3.81
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Philadelphia Marakuja & Mango 12° Obora",
+          "hits": []
+        },
+        {
+          "query": "Philadelphia Marakuja & Mango Obora",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-obora-philadelphia-sour-mango-and-passion-fruit/4939956",
+        "score": 0.65
       }
     },
     "ambasada::Obora, Malšice::Philadelphia Č. Rybíz & Malina": {

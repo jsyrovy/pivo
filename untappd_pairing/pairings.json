@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-13T22:59:44Z",
+  "generated_at": "2026-07-14T14:57:39Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -487,6 +487,15 @@
       "match_score": 1.0,
       "matched_at": "2026-04-27T11:52:17Z",
       "query_used": "<override>"
+    },
+    "ambasada::Obora, Malšice::Philadelphia Marakuja & Mango": {
+      "untappd_url": "https://untappd.com/b/pivovar-obora-philadelphia-sour-mango-and-passion-fruit/4939956",
+      "untappd_name": "Philadelphia Sour – Mango & Passion Fruit",
+      "untappd_brewery": "Pivovar Obora",
+      "rating": 3.81,
+      "match_score": 0.65,
+      "matched_at": "2026-07-14T14:57:39Z",
+      "query_used": "Philadelphia Marakuja & Mango Obora"
     },
     "ambasada::Obora, Malšice::Philadelphia Č. Rybíz & Malina": {
       "untappd_url": "https://untappd.com/b/pivovar-obora-philadelphia-sour-black-currant-and-raspberry/4726835",
