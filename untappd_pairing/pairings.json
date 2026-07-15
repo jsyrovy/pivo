@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-14T22:02:58Z",
+  "generated_at": "2026-07-15T14:57:27Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -875,6 +875,15 @@
       "matched_at": "2026-05-13T20:29:26Z",
       "query_used": "Puk Malina/Granátové Jablko Švabín"
     },
+    "beerstreet::Agent::Essence of Summer": {
+      "untappd_url": "https://untappd.com/b/pivovar-agent-essence-of-summer/5435243",
+      "untappd_name": "Essence of Summer",
+      "untappd_brewery": "Pivovar Agent",
+      "rating": 3.51,
+      "match_score": 1.0,
+      "matched_at": "2026-07-15T14:57:10Z",
+      "query_used": "Essence of Summer 11° Agent"
+    },
     "beerstreet::Agent::Moves - jahody+hroz. víno": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-moves-white-grapes-and-strawberries/4836340",
       "untappd_name": "Moves – White Grapes and Strawberries",
@@ -892,6 +901,15 @@
       "match_score": 1.0,
       "matched_at": "2026-06-13T17:27:49Z",
       "query_used": "Pale Lager 11° Agent"
+    },
+    "beerstreet::Avar::The FiRsT": {
+      "untappd_url": "https://untappd.com/b/avar-brewing-co-the-first-11-deg/5218056",
+      "untappd_name": "ThE FiRsT 11°",
+      "untappd_brewery": "AVAR Brewing Co.",
+      "rating": 3.52,
+      "match_score": 1.0,
+      "matched_at": "2026-07-15T14:57:14Z",
+      "query_used": "The FiRsT 11° Avar"
     },
     "beerstreet::Brewnicorn::Pivorožec": {
       "untappd_url": "https://untappd.com/b/brewnicorn-pivorozec/6706555",
@@ -1082,6 +1100,15 @@
       "matched_at": "2026-04-17T11:20:46Z",
       "query_used": "Kazbek Klenot"
     },
+    "beerstreet::Klenot::Mango & broskev": {
+      "untappd_url": "https://untappd.com/b/hradecky-klenot-sour-mango-and-peach/4292985",
+      "untappd_name": "Sour – Mango & Peach",
+      "untappd_brewery": "Hradecký Klenot",
+      "rating": 3.63,
+      "match_score": 0.3636,
+      "matched_at": "2026-07-15T14:57:27Z",
+      "query_used": "Mango & broskev Klenot"
+    },
     "beerstreet::Klenot::Mango + broskev": {
       "untappd_url": "https://untappd.com/b/hradecky-klenot-sour-mango-peach/4292985",
       "untappd_name": "Sour – Mango & Peach",
@@ -1144,6 +1171,15 @@
       "match_score": 1.0,
       "matched_at": "2026-04-25T19:41:46Z",
       "query_used": "Apač Louka"
+    },
+    "beerstreet::Louka::Festivalové": {
+      "untappd_url": "https://untappd.com/b/pivovar-louka-festivalove-pivo-straznice/6319061",
+      "untappd_name": "Festivalové Pivo - Strážnice",
+      "untappd_brewery": "Pivovar Louka",
+      "rating": 3.45,
+      "match_score": 1.0,
+      "matched_at": "2026-07-15T14:57:09Z",
+      "query_used": "Festivalové Louka"
     },
     "beerstreet::Louka::Fresh Breakfast 001 - meruňka+maracuja+mango": {
       "untappd_url": "https://untappd.com/b/pivovar-louka-fresh-breakfast-001/5368521",
@@ -1823,6 +1859,11 @@
       "last_tried_at": "2026-06-19T19:00:45Z",
       "reason": "no_candidates_above_threshold"
     },
+    "beerstreet::Haksna::BRU - 1ng Galaxy": {
+      "attempts": 1,
+      "last_tried_at": "2026-07-15T14:57:25Z",
+      "reason": "no_candidates_above_threshold"
+    },
     "beerstreet::Haksna::Our Lager": {
       "attempts": 1,
       "last_tried_at": "2026-05-08T20:05:21Z",
@@ -1831,6 +1872,11 @@
     "beerstreet::Hoppy Dog::Mahlerova Osma": {
       "attempts": 1,
       "last_tried_at": "2026-05-30T15:13:41Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "beerstreet::Klenot & Zmajska::Dragon Gem": {
+      "attempts": 1,
+      "last_tried_at": "2026-07-15T14:57:05Z",
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::Klenot::Guava and rosemary": {

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-14T22:02:58Z",
+  "generated_at": "2026-07-15T14:57:27Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -2323,6 +2323,36 @@
         "score": 1.0
       }
     },
+    "beerstreet::Agent::Essence of Summer": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Agent",
+        "name": "Essence of Summer",
+        "style": "APA",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-07-15T14:57:10Z",
+      "candidates": [
+        {
+          "name": "Essence of Summer",
+          "brewery": "Pivovar Agent",
+          "url": "/b/pivovar-agent-essence-of-summer/5435243",
+          "rating": 3.51
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Essence of Summer 11° Agent",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-agent-essence-of-summer/5435243",
+        "score": 1.0
+      }
+    },
     "beerstreet::Agent::Moves - jahody+hroz. víno": {
       "beer": {
         "source": "beerstreet",
@@ -2619,6 +2649,36 @@
       "outcome": {
         "matched": null,
         "reason": "no_candidates_above_threshold"
+      }
+    },
+    "beerstreet::Avar::The FiRsT": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Avar",
+        "name": "The FiRsT",
+        "style": "Pale ale",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-07-15T14:57:14Z",
+      "candidates": [
+        {
+          "name": "ThE FiRsT 11°",
+          "brewery": "AVAR Brewing Co.",
+          "url": "/b/avar-brewing-co-the-first-11-deg/5218056",
+          "rating": 3.52
+        }
+      ],
+      "attempts": [
+        {
+          "query": "The FiRsT 11° Avar",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/avar-brewing-co-the-first-11-deg/5218056",
+        "score": 1.0
       }
     },
     "beerstreet::Avar::The First": {
@@ -2966,6 +3026,39 @@
       "outcome": {
         "matched": "/b/fracek-lazy-charbonnay/6648307",
         "score": 0.8333
+      }
+    },
+    "beerstreet::Haksna::BRU - 1ng Galaxy": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Haksna",
+        "name": "BRU - 1ng Galaxy",
+        "style": "Session NEIPA",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-07-15T14:57:25Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "BRU - 1ng Galaxy 12° Haksna",
+          "hits": []
+        },
+        {
+          "query": "BRU - 1ng Galaxy Haksna",
+          "hits": []
+        },
+        {
+          "query": "BRU - 1ng Galaxy 12°",
+          "hits": []
+        },
+        {
+          "query": "BRU - 1ng Galaxy",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "beerstreet::Haksna::BRU-Ing. Galaxy": {
@@ -3391,8 +3484,39 @@
         "style": "Ležák světlý",
         "degree_plato": 12.0
       },
-      "captured_at": "2026-06-26T16:03:56Z",
-      "candidates": [],
+      "captured_at": "2026-07-15T14:57:05Z",
+      "candidates": [
+        {
+          "name": "Dragon Gem",
+          "brewery": "Hradecký Klenot",
+          "url": "/b/hradecky-klenot-dragon-gem/6752717",
+          "rating": 3.64
+        },
+        {
+          "name": "Idaho Gem Dragon",
+          "brewery": "Alley Kat Brewing Company",
+          "url": "/b/alley-kat-brewing-company-idaho-gem-dragon/4654707",
+          "rating": 3.65
+        },
+        {
+          "name": "Gemini Dragon",
+          "brewery": "Alley Kat Brewing Company",
+          "url": "/b/alley-kat-brewing-company-gemini-dragon/5811514",
+          "rating": 3.59
+        },
+        {
+          "name": "Gemini | Mango + Dragon Fruit Refresha",
+          "brewery": "Mortalis Brewing Company",
+          "url": "/b/mortalis-brewing-company-gemini-mango-dragon-fruit-refresha/4310322",
+          "rating": 4.38
+        },
+        {
+          "name": "Genetically Engineered Mutant (G.E.M.)",
+          "brewery": "Loaded Dragon Brewing Company",
+          "url": "/b/loaded-dragon-brewing-company-genetically-engineered-mutant-g-e-m/4482455",
+          "rating": null
+        }
+      ],
       "attempts": [
         {
           "query": "Dragon Gem 12° Klenot & Zmajska",
@@ -3400,7 +3524,9 @@
         },
         {
           "query": "Dragon Gem Klenot & Zmajska",
-          "hits": []
+          "hits": [
+            0
+          ]
         },
         {
           "query": "Dragon Gem 12°",
@@ -3408,7 +3534,13 @@
         },
         {
           "query": "Dragon Gem",
-          "hits": []
+          "hits": [
+            1,
+            0,
+            2,
+            3,
+            4
+          ]
         }
       ],
       "outcome": {
@@ -3490,6 +3622,40 @@
         "verdict": "not_on_untappd",
         "expected": null,
         "note": "Pivo na Untappd zatim neexistuje"
+      }
+    },
+    "beerstreet::Klenot::Mango & broskev": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Klenot",
+        "name": "Mango & broskev",
+        "style": "Sour",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-07-15T14:57:27Z",
+      "candidates": [
+        {
+          "name": "Sour – Mango & Peach",
+          "brewery": "Hradecký Klenot",
+          "url": "/b/hradecky-klenot-sour-mango-and-peach/4292985",
+          "rating": 3.63
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Mango & broskev 10° Klenot",
+          "hits": []
+        },
+        {
+          "query": "Mango & broskev Klenot",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/hradecky-klenot-sour-mango-and-peach/4292985",
+        "score": 0.3636
       }
     },
     "beerstreet::Klenot::Mango + broskev": {
@@ -3709,6 +3875,40 @@
       "outcome": {
         "matched": null,
         "reason": "no_candidates_above_threshold"
+      }
+    },
+    "beerstreet::Louka::Festivalové": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Louka",
+        "name": "Festivalové",
+        "style": "Ležák světlý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-07-15T14:57:09Z",
+      "candidates": [
+        {
+          "name": "Festivalové Pivo - Strážnice",
+          "brewery": "Pivovar Louka",
+          "url": "/b/pivovar-louka-festivalove-pivo-straznice/6319061",
+          "rating": 3.45
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Festivalové 11° Louka",
+          "hits": []
+        },
+        {
+          "query": "Festivalové Louka",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-louka-festivalove-pivo-straznice/6319061",
+        "score": 1.0
       }
     },
     "beerstreet::Louka::Fresh Breakfast 001 - meruňka+maracuja+mango": {
