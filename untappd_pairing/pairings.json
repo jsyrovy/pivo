@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-15T14:57:27Z",
+  "generated_at": "2026-07-15T15:22:54Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -1010,6 +1010,15 @@
       "matched_at": "2026-05-20T16:15:28Z",
       "query_used": "Sky Serpent Haksna/Podřevnický"
     },
+    "beerstreet::Haksna::BRU - 1ng Galaxy": {
+      "untappd_url": "https://untappd.com/b/haksna-brewery-bru1ng-galaxy/6723861",
+      "untappd_name": "Bru1ng Galaxy",
+      "untappd_brewery": "Haksna Brewery",
+      "rating": 3.8289,
+      "match_score": 1.0,
+      "matched_at": "2026-07-15T15:22:54Z",
+      "query_used": "<override>"
+    },
     "beerstreet::Haksna::Citra Session": {
       "untappd_url": "https://untappd.com/b/haksna-brewery-citra-session/6613337",
       "untappd_name": "Citra Session",
@@ -1063,6 +1072,15 @@
       "match_score": 1.0,
       "matched_at": "2026-04-24T19:50:41Z",
       "query_used": "Summer Ale Hřebec"
+    },
+    "beerstreet::Klenot & Zmajska::Dragon Gem": {
+      "untappd_url": "https://untappd.com/b/hradecky-klenot-dragon-gem/6752717",
+      "untappd_name": "Dragon Gem",
+      "untappd_brewery": "Hradecký Klenot",
+      "rating": 3.63913,
+      "match_score": 1.0,
+      "matched_at": "2026-07-15T15:22:52Z",
+      "query_used": "<override>"
     },
     "beerstreet::Klenot::Ale": {
       "untappd_url": "https://untappd.com/b/hradecky-klenot-sour-ale-orange-cinnamon/5361488",
@@ -1859,11 +1877,6 @@
       "last_tried_at": "2026-06-19T19:00:45Z",
       "reason": "no_candidates_above_threshold"
     },
-    "beerstreet::Haksna::BRU - 1ng Galaxy": {
-      "attempts": 1,
-      "last_tried_at": "2026-07-15T14:57:25Z",
-      "reason": "no_candidates_above_threshold"
-    },
     "beerstreet::Haksna::Our Lager": {
       "attempts": 1,
       "last_tried_at": "2026-05-08T20:05:21Z",
@@ -1872,11 +1885,6 @@
     "beerstreet::Hoppy Dog::Mahlerova Osma": {
       "attempts": 1,
       "last_tried_at": "2026-05-30T15:13:41Z",
-      "reason": "no_candidates_above_threshold"
-    },
-    "beerstreet::Klenot & Zmajska::Dragon Gem": {
-      "attempts": 1,
-      "last_tried_at": "2026-07-15T14:57:05Z",
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::Klenot::Guava and rosemary": {
