@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-15T18:12:39Z",
+  "generated_at": "2026-07-15T20:14:57Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -2350,6 +2350,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-agent-essence-of-summer/5435243",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Agent::Helenka": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Agent",
+        "name": "Helenka",
+        "style": "Výroční ležák 6 let",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-07-15T20:14:57Z",
+      "candidates": [
+        {
+          "name": "Helenka 11° Výroční Ležák",
+          "brewery": "Pivovar Agent",
+          "url": "/b/pivovar-agent-helenka-11-deg-vyrocni-lezak/6458582",
+          "rating": 3.54
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Helenka 11° Agent",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-agent-helenka-11-deg-vyrocni-lezak/6458582",
         "score": 1.0
       }
     },

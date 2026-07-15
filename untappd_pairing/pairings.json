@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-15T18:12:39Z",
+  "generated_at": "2026-07-15T20:14:57Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -883,6 +883,15 @@
       "match_score": 1.0,
       "matched_at": "2026-07-15T14:57:10Z",
       "query_used": "Essence of Summer 11° Agent"
+    },
+    "beerstreet::Agent::Helenka": {
+      "untappd_url": "https://untappd.com/b/pivovar-agent-helenka-11-deg-vyrocni-lezak/6458582",
+      "untappd_name": "Helenka 11° Výroční Ležák",
+      "untappd_brewery": "Pivovar Agent",
+      "rating": 3.54,
+      "match_score": 1.0,
+      "matched_at": "2026-07-15T20:14:57Z",
+      "query_used": "Helenka 11° Agent"
     },
     "beerstreet::Agent::Moves - jahody+hroz. víno": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-moves-white-grapes-and-strawberries/4836340",
