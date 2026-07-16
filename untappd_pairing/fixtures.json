@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-16T15:07:03Z",
+  "generated_at": "2026-07-16T17:24:19Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -2530,6 +2530,40 @@
         "source": "llm"
       }
     },
+    "beerstreet::Agent::Moves-Exotic ananas & kiwi": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Agent",
+        "name": "Moves-Exotic ananas & kiwi",
+        "style": "Sour",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-07-16T17:24:19Z",
+      "candidates": [
+        {
+          "name": "Moves – Exotic",
+          "brewery": "Pivovar Agent",
+          "url": "/b/pivovar-agent-moves-exotic/4961829",
+          "rating": 3.75
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Moves-Exotic ananas & kiwi 11° Agent",
+          "hits": []
+        },
+        {
+          "query": "Moves-Exotic ananas & kiwi Agent",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-agent-moves-exotic/4961829",
+        "score": 1.0
+      }
+    },
     "beerstreet::Agent::Pale Lager": {
       "beer": {
         "source": "beerstreet",
@@ -4018,6 +4052,40 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-louka-haka-12deg/4422305",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Louka::Hazy Lazy": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Louka",
+        "name": "Hazy Lazy",
+        "style": "Session NEIPA",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-07-16T17:24:18Z",
+      "candidates": [
+        {
+          "name": "Hazy Lazy",
+          "brewery": "Pivovar Louka",
+          "url": "/b/pivovar-louka-hazy-lazy/5352539",
+          "rating": 3.59
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Hazy Lazy 11° Louka",
+          "hits": []
+        },
+        {
+          "query": "Hazy Lazy Louka",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-louka-hazy-lazy/5352539",
         "score": 1.0
       }
     },
