@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-17T16:19:20Z",
+  "generated_at": "2026-07-17T18:10:18Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -1245,6 +1245,36 @@
       ],
       "outcome": {
         "matched": "/b/pratelsky-pivovar-malesov-american-pale-ale-11/3551415",
+        "score": 1.0
+      }
+    },
+    "ambasada::Mazák, Dolní Bojanovice::Letní Den": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Mazák, Dolní Bojanovice",
+        "name": "Letní Den",
+        "style": "Ale",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-07-17T18:10:18Z",
+      "candidates": [
+        {
+          "name": "Letní den 10",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-letni-den/2666945",
+          "rating": 3.58
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Letní Den 10° Mazák",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mazak-letni-den/2666945",
         "score": 1.0
       }
     },
@@ -4191,6 +4221,36 @@
         "score": 1.0
       }
     },
+    "beerstreet::Louka::Horňácká": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Louka",
+        "name": "Horňácká",
+        "style": "Ležák světlý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-07-17T18:10:17Z",
+      "candidates": [
+        {
+          "name": "Horňácká 11",
+          "brewery": "Pivovar Louka",
+          "url": "/b/pivovar-louka-hornacka-11/6079709",
+          "rating": 3.31
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Horňácká 11° Louka",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-louka-hornacka-11/6079709",
+        "score": 1.0
+      }
+    },
     "beerstreet::Louka::Kuželka": {
       "beer": {
         "source": "beerstreet",
@@ -5067,6 +5127,40 @@
       ],
       "outcome": {
         "matched": "/b/tvarg-lezak-11/4088691",
+        "score": 1.0
+      }
+    },
+    "beerstreet::U Vojtěchů::Silver A": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "U Vojtěchů",
+        "name": "Silver A",
+        "style": "India pale lager",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-07-17T18:10:14Z",
+      "candidates": [
+        {
+          "name": "Silver A",
+          "brewery": "Pivovar U Vojtěchů",
+          "url": "/b/pivovar-u-vojtechu-silver-a/6751896",
+          "rating": 3.7
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Silver A 12° U Vojtěchů",
+          "hits": []
+        },
+        {
+          "query": "Silver A U Vojtěchů",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-u-vojtechu-silver-a/6751896",
         "score": 1.0
       }
     },
