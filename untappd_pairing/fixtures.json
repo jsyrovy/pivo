@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-17T22:58:25Z",
+  "generated_at": "2026-07-18T14:21:51Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -4804,6 +4804,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-mazak-extra-horka-11-za-studena-chmelena/6616906",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Mordýř::Simcoe": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Mordýř",
+        "name": "Simcoe",
+        "style": "Smash ale",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-07-18T14:21:51Z",
+      "candidates": [
+        {
+          "name": "Simcoe Session ALE 12",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-simcoe-session-ale-12/5946792",
+          "rating": 3.64
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Simcoe 12° Mordýř",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mordyr-simcoe-session-ale-12/5946792",
         "score": 1.0
       }
     },
