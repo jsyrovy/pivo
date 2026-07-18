@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-18T16:01:27Z",
+  "generated_at": "2026-07-18T17:59:12Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -4701,6 +4701,40 @@
       "outcome": {
         "matched": null,
         "reason": "no_candidates_above_threshold"
+      }
+    },
+    "beerstreet::Loutkář::Šlapák": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Loutkář",
+        "name": "Šlapák",
+        "style": "Summer ale",
+        "degree_plato": 9.0
+      },
+      "captured_at": "2026-07-18T17:59:12Z",
+      "candidates": [
+        {
+          "name": "Špalák Ale 9",
+          "brewery": "Pivovar Loutkář",
+          "url": "/b/pivovar-loutkar-spalak-ale-9/6791607",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Šlapák 9° Loutkář",
+          "hits": []
+        },
+        {
+          "query": "Šlapák Loutkář",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-loutkar-spalak-ale-9/6791607",
+        "score": 0.6
       }
     },
     "beerstreet::Loutkář::Švihák": {
