@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-20T22:04:45Z",
+  "generated_at": "2026-07-21T15:07:47Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -73,6 +73,15 @@
       "match_score": 1.0,
       "matched_at": "2026-06-02T21:52:38Z",
       "query_used": "Sunny Day Brewnicorn"
+    },
+    "ambasada::Bura Brew, Chorvatsko::14,5° Tornado IPA": {
+      "untappd_url": "https://untappd.com/b/bura-brew-tornado-ipa-istrian-pale-ale/1501740",
+      "untappd_name": "Tornado IPA - Istrian Pale Ale",
+      "untappd_brewery": "Bura Brew ",
+      "rating": 3.49,
+      "match_score": 1.0,
+      "matched_at": "2026-07-21T15:07:47Z",
+      "query_used": "Tornado IPA Bura Brew"
     },
     "ambasada::Chroust, Potštejn::Hoptopia": {
       "untappd_url": "https://untappd.com/b/chroust-hoptopia/2290462",
@@ -1181,6 +1190,15 @@
       "matched_at": "2026-05-27T07:22:53Z",
       "query_used": "Pomeranč + skořice Klenot"
     },
+    "beerstreet::Klenot::Vera & Mosaic": {
+      "untappd_url": "https://untappd.com/b/hradecky-klenot-vera-and-mosaic-hazy-ale-12/6709729",
+      "untappd_name": "Vera & Mosaic Hazy Ale 12",
+      "untappd_brewery": "Hradecký Klenot",
+      "rating": 3.74,
+      "match_score": 1.0,
+      "matched_at": "2026-07-21T15:07:39Z",
+      "query_used": "Vera & Mosaic Klenot"
+    },
     "beerstreet::Klenot::orange & cinnamon": {
       "untappd_url": "https://untappd.com/b/hradecky-klenot-sour-ale-orange-cinnamon/5361488",
       "untappd_name": "Sour ALE– Orange & Cinnamon",
@@ -1967,6 +1985,11 @@
     "beerstreet::Kynšperský zajíc::Summer Ale": {
       "attempts": 1,
       "last_tried_at": "2026-05-30T17:14:51Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "beerstreet::Louka::Fresh Breakfast #005 dračí ovoce": {
+      "attempts": 1,
+      "last_tried_at": "2026-07-21T15:07:46Z",
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::Záhora::Silk Road": {

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-20T22:04:45Z",
+  "generated_at": "2026-07-21T15:07:47Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -250,6 +250,36 @@
       ],
       "outcome": {
         "matched": "/b/brewnicorn-sunny-day/6689258",
+        "score": 1.0
+      }
+    },
+    "ambasada::Bura Brew, Chorvatsko::14,5° Tornado IPA": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Bura Brew, Chorvatsko",
+        "name": "14,5° Tornado IPA",
+        "style": "Istrian pale ale",
+        "degree_plato": null
+      },
+      "captured_at": "2026-07-21T15:07:47Z",
+      "candidates": [
+        {
+          "name": "Tornado IPA - Istrian Pale Ale",
+          "brewery": "Bura Brew ",
+          "url": "/b/bura-brew-tornado-ipa-istrian-pale-ale/1501740",
+          "rating": 3.49
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Tornado IPA Bura Brew",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/bura-brew-tornado-ipa-istrian-pale-ale/1501740",
         "score": 1.0
       }
     },
@@ -3830,31 +3860,32 @@
         "brewery": "Klenot",
         "name": "Vera & Mosaic",
         "style": "Hazy ale",
-        "degree_plato": 12.0
+        "degree_plato": 11.0
       },
-      "captured_at": "2026-06-26T17:44:45Z",
-      "candidates": [],
+      "captured_at": "2026-07-21T15:07:39Z",
+      "candidates": [
+        {
+          "name": "Vera & Mosaic Hazy Ale 12",
+          "brewery": "Hradecký Klenot",
+          "url": "/b/hradecky-klenot-vera-and-mosaic-hazy-ale-12/6709729",
+          "rating": 3.74
+        }
+      ],
       "attempts": [
         {
-          "query": "Vera & Mosaic 12° Klenot",
+          "query": "Vera & Mosaic 11° Klenot",
           "hits": []
         },
         {
           "query": "Vera & Mosaic Klenot",
-          "hits": []
-        },
-        {
-          "query": "Vera & Mosaic 12°",
-          "hits": []
-        },
-        {
-          "query": "Vera & Mosaic",
-          "hits": []
+          "hits": [
+            0
+          ]
         }
       ],
       "outcome": {
-        "matched": null,
-        "reason": "no_candidates_above_threshold"
+        "matched": "/b/hradecky-klenot-vera-and-mosaic-hazy-ale-12/6709729",
+        "score": 1.0
       }
     },
     "beerstreet::Kynšperský zajíc::Summer Ale": {
@@ -4003,6 +4034,39 @@
       "outcome": {
         "matched": "/b/pivovar-louka-festivalove-pivo-straznice/6319061",
         "score": 1.0
+      }
+    },
+    "beerstreet::Louka::Fresh Breakfast #005 dračí ovoce": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Louka",
+        "name": "Fresh Breakfast #005 dračí ovoce",
+        "style": "Pastry sour",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-07-21T15:07:46Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Fresh Breakfast #005 dračí ovoce 12° Louka",
+          "hits": []
+        },
+        {
+          "query": "Fresh Breakfast #005 dračí ovoce Louka",
+          "hits": []
+        },
+        {
+          "query": "Fresh Breakfast #005 dračí ovoce 12°",
+          "hits": []
+        },
+        {
+          "query": "Fresh Breakfast #005 dračí ovoce",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "beerstreet::Louka::Fresh Breakfast 001 - meruňka+maracuja+mango": {
