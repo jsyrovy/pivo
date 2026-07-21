@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-21T17:26:32Z",
+  "generated_at": "2026-07-21T19:39:11Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -775,6 +775,15 @@
       "match_score": 1.0,
       "matched_at": "2026-07-09T16:04:30Z",
       "query_used": "Flash Ale 13° Volt"
+    },
+    "ambasada::Volt, Jablonec nad Nisou::Krvavý Pomeranč": {
+      "untappd_url": "https://untappd.com/b/pivovar-volt-krvavy-pomeranc-gose/6083415",
+      "untappd_name": "Krvavý Pomeranč Gose",
+      "untappd_brewery": "Pivovar Volt",
+      "rating": 3.68,
+      "match_score": 1.0,
+      "matched_at": "2026-07-21T19:39:11Z",
+      "query_used": "Krvavý Pomeranč Volt"
     },
     "ambasada::Wagner, Merkendorf::Wagner Weisse": {
       "untappd_url": "https://untappd.com/b/brauerei-wagner-merkendorf-wagner-weisse/170390",

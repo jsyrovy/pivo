@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-21T17:26:32Z",
+  "generated_at": "2026-07-21T19:39:11Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -2161,6 +2161,40 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-volt-flash/2515817",
+        "score": 1.0
+      }
+    },
+    "ambasada::Volt, Jablonec nad Nisou::Krvavý Pomeranč": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Volt, Jablonec nad Nisou",
+        "name": "Krvavý Pomeranč",
+        "style": "Fruit gose",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-07-21T19:39:11Z",
+      "candidates": [
+        {
+          "name": "Krvavý Pomeranč Gose",
+          "brewery": "Pivovar Volt",
+          "url": "/b/pivovar-volt-krvavy-pomeranc-gose/6083415",
+          "rating": 3.68
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Krvavý Pomeranč 12° Volt",
+          "hits": []
+        },
+        {
+          "query": "Krvavý Pomeranč Volt",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-volt-krvavy-pomeranc-gose/6083415",
         "score": 1.0
       }
     },
