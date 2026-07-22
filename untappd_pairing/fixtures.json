@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-21T23:01:37Z",
+  "generated_at": "2026-07-22T13:38:54Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -2870,6 +2870,40 @@
       "outcome": {
         "matched": null,
         "reason": "no_candidates_above_threshold"
+      }
+    },
+    "beerstreet::Brewnicorn::Hazy Frenzy Vibe": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Brewnicorn",
+        "name": "Hazy Frenzy Vibe",
+        "style": "Session hazy",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-07-22T13:38:54Z",
+      "candidates": [
+        {
+          "name": "Hazy Frenzy Vibe",
+          "brewery": "Brewnicorn",
+          "url": "/b/brewnicorn-hazy-frenzy-vibe/6734151",
+          "rating": 3.62
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Hazy Frenzy Vibe 11° Brewnicorn",
+          "hits": []
+        },
+        {
+          "query": "Hazy Frenzy Vibe Brewnicorn",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/brewnicorn-hazy-frenzy-vibe/6734151",
+        "score": 1.0
       }
     },
     "beerstreet::Brewnicorn::Pivorožec": {
