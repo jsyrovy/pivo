@@ -7,7 +7,7 @@ from typing import TYPE_CHECKING
 import httpx
 
 from robot.base import BaseRobot
-from untappd_pairing import llm_matcher, matcher, normalize, tap_api, untappd_search
+from untappd_pairing import describe, llm_matcher, matcher, normalize, tap_api, untappd_search
 from untappd_pairing import overrides as overrides_module
 from untappd_pairing.fixtures import FIXTURES_PATH, FixtureOutcome, FixturesStore, compress_url
 from untappd_pairing.matcher import MatchResult
@@ -133,6 +133,10 @@ class UntappdPairing(BaseRobot):
         return UntappdPairing._pair_via_search(beer, store, fixtures_store)
 
     @staticmethod
+    def _record_match(store: PairingsStore, beer: tap_api.TapBeer, result: MatchResult, query: str) -> None:
+        store.record_match(beer, result, query, description=describe.generate(beer, result.candidate))
+
+    @staticmethod
     def _pair_via_override(beer: tap_api.TapBeer, store: PairingsStore, url: str) -> str | None:
         try:
             candidate = untappd_search.fetch_beer_page(url)
@@ -148,7 +152,7 @@ class UntappdPairing(BaseRobot):
 
         result = MatchResult(candidate=candidate, score=1.0, brewery_matched=True)
         logger.info("Override matched %s::%s -> %s", beer.brewery, beer.name, url)
-        store.record_match(beer, result, OVERRIDE_QUERY_MARKER)
+        UntappdPairing._record_match(store, beer, result, OVERRIDE_QUERY_MARKER)
         return None
 
     @staticmethod
@@ -175,7 +179,7 @@ class UntappdPairing(BaseRobot):
                     result.candidate.url,
                     result.score,
                 )
-                store.record_match(beer, result, query)
+                UntappdPairing._record_match(store, beer, result, query)
                 fixtures_store.upsert(
                     beer,
                     trace,
@@ -193,7 +197,7 @@ class UntappdPairing(BaseRobot):
                     brewery_matched=matcher.brewery_matches(beer.brewery, chosen.brewery),
                 )
                 logger.info("LLM matched %s::%s -> %s", beer.brewery, beer.name, chosen.url)
-                store.record_match(beer, result, LLM_QUERY_MARKER)
+                UntappdPairing._record_match(store, beer, result, LLM_QUERY_MARKER)
                 fixtures_store.upsert(
                     beer,
                     trace,

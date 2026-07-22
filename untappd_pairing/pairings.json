@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-21T23:01:37Z",
+  "generated_at": "2026-07-22T13:38:54Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -81,7 +81,8 @@
       "rating": 3.49,
       "match_score": 1.0,
       "matched_at": "2026-07-21T15:07:47Z",
-      "query_used": "Tornado IPA Bura Brew"
+      "query_used": "Tornado IPA Bura Brew",
+      "description": "Tornado IPA od Bura Brew je osvěžující Istrijský pale ale s 6,1 % alkoholu a průměrným hodnocením 3,49 hvězdičky na Untappd, vhodný pro příjemné osvěžení v teplém počasí."
     },
     "ambasada::Chroust, Potštejn::Hoptopia": {
       "untappd_url": "https://untappd.com/b/chroust-hoptopia/2290462",
@@ -117,7 +118,8 @@
       "rating": 3.653,
       "match_score": 0.0,
       "matched_at": "2026-06-16T16:37:52Z",
-      "query_used": "Clock 12° Clock"
+      "query_used": "Clock 12° Clock",
+      "description": "Jistota Ale 12° od Pivovaru Clock je středně silné APA s 5,2 % alkoholu a mírně hořkým profilem, který osvěží po práci nebo při neformální schůzce."
     },
     "ambasada::Clock, Potštejn::Glee": {
       "untappd_url": "https://untappd.com/b/pivovar-clock-glee/3101033",
@@ -243,7 +245,8 @@
       "rating": 3.44,
       "match_score": 1.0,
       "matched_at": "2026-05-22T09:09:20Z",
-      "query_used": "PP 12° JungBerg"
+      "query_used": "PP 12° JungBerg",
+      "description": "PP 12% od Pivovaru JungBerg je světlý ležák o stupňovitosti 12° a obsahu alkoholu 4,9 % ABV, který nabízí vyváženou sladovou základnu a jemnou hořkost typickou pro tento styl. S hodnocením 3,44/5 na Untappd patří mezi oblíbené ležáky regionu."
     },
     "ambasada::JungBerg, Hořice::Petr ALE": {
       "untappd_url": "https://untappd.com/b/pivovar-jungberg-petrale/2199006",
@@ -333,7 +336,8 @@
       "rating": 3.487,
       "match_score": 1.0,
       "matched_at": "2026-04-23T20:04:51Z",
-      "query_used": "Summer Day Louka"
+      "query_used": "Summer Day Louka",
+      "description": "Letní den 10 od pivovaru Louka je lehký amber ale s mírnou sladkostí a 4 % alkoholu, který osvěží v horkém počasí a hodí se k odpočinku na sluníčku."
     },
     "ambasada::Loutkář, Chrudim::13,4° Mozaika": {
       "untappd_url": "https://untappd.com/b/pivovar-loutkar-mozaika-13-single-hop/4242113",
@@ -405,7 +409,8 @@
       "rating": 3.59793,
       "match_score": 1.0,
       "matched_at": "2026-05-22T09:09:34Z",
-      "query_used": "<override>"
+      "query_used": "<override>",
+      "description": "Maisel's Weisse Original je klasické hefeweizen s mírně vyšší sílou 5,1 % ABV a 12° stupňovitostí, který osvěží svým vyváženým profilem a hodí se k lehkým snídaním, sýrům nebo grilovanému masu."
     },
     "ambasada::Malešov::American Pale Ale": {
       "untappd_url": "https://untappd.com/b/pratelsky-pivovar-malesov-american-pale-ale-11/3551415",
@@ -450,7 +455,8 @@
       "rating": 3.504,
       "match_score": 0.1429,
       "matched_at": "2026-06-16T16:37:48Z",
-      "query_used": "Kurtizána 13° Mordýř"
+      "query_used": "Kurtizána 13° Mordýř",
+      "description": "Mango Ale od Pivovaru Mordýř je lehký pale ale s mírnou sladkostí a ovocným profilem, 5,5 % alkoholu. Hodnocení 3,5/5 na Untappd ho řadí mezi průměrné, ale osvěžující letní pivo."
     },
     "ambasada::Mordýř, Dolní Ředice::Masopustní": {
       "untappd_url": "https://untappd.com/b/pivovar-mordyr-masopust/3687038",
@@ -468,7 +474,8 @@
       "rating": 3.365,
       "match_score": 1.0,
       "matched_at": "2026-05-22T09:09:23Z",
-      "query_used": "Mordýř 11° Mordýř"
+      "query_used": "Mordýř 11° Mordýř",
+      "description": "Mordýř 11 je světlý ležák s mírnou silou 4,6 % ABV a stupňovitostí 11°, který potěší vyváženým profilem a hodí se na běžné posezení s přáteli."
     },
     "ambasada::Mordýř, Dolní Ředice::Msopustní": {
       "untappd_url": "https://untappd.com/b/uneticky-pivovar-uneticky-special-16deg-masopustni-bock/977876",
@@ -783,7 +790,8 @@
       "rating": 3.68,
       "match_score": 1.0,
       "matched_at": "2026-07-21T19:39:11Z",
-      "query_used": "Krvavý Pomeranč Volt"
+      "query_used": "Krvavý Pomeranč Volt",
+      "description": "Krvavý Pomeranč Gose od Pivovaru Volt je ovocný gose s 5 % alkoholu a 12° stupňovitosti, který nabízí osvěžující kyselou rovnováhu a lehkou ovocnou charakteristiku."
     },
     "ambasada::Wagner, Merkendorf::Wagner Weisse": {
       "untappd_url": "https://untappd.com/b/brauerei-wagner-merkendorf-wagner-weisse/170390",
@@ -945,7 +953,8 @@
       "rating": 3.455,
       "match_score": 1.0,
       "matched_at": "2026-06-13T17:27:49Z",
-      "query_used": "Pale Lager 11° Agent"
+      "query_used": "Pale Lager 11° Agent",
+      "description": "Pale Lager 11 od Pivovaru Agent je světlý ležák s 11° stupňovitostí a 4,9 % alkoholu, který potěší příznivce mírně hořkého, osvěžujícího stylu s průměrným hodnocením 3,46 na Untappd."
     },
     "beerstreet::Avar::The FiRsT": {
       "untappd_url": "https://untappd.com/b/avar-brewing-co-the-first-11-deg/5218056",
@@ -955,6 +964,16 @@
       "match_score": 1.0,
       "matched_at": "2026-07-15T14:57:14Z",
       "query_used": "The FiRsT 11° Avar"
+    },
+    "beerstreet::Brewnicorn::Hazy Frenzy Vibe": {
+      "untappd_url": "https://untappd.com/b/brewnicorn-hazy-frenzy-vibe/6734151",
+      "untappd_name": "Hazy Frenzy Vibe",
+      "untappd_brewery": "Brewnicorn",
+      "rating": 3.62,
+      "match_score": 1.0,
+      "matched_at": "2026-07-22T13:38:54Z",
+      "query_used": "Hazy Frenzy Vibe Brewnicorn",
+      "description": "Hazy Frenzy Vibe od Brewnicornu je session hazy s 11° stupňovitostí a 4,5 % alkoholu, který potěší příjemným, lehkým charakterem a osvěží při neformální setkání s přáteli."
     },
     "beerstreet::Brewnicorn::Pivorožec": {
       "untappd_url": "https://untappd.com/b/brewnicorn-pivorozec/6706555",
@@ -1224,7 +1243,8 @@
       "rating": 3.457,
       "match_score": 1.0,
       "matched_at": "2026-05-04T20:13:12Z",
-      "query_used": "Parohatej Kojetín"
+      "query_used": "Parohatej Kojetín",
+      "description": "Parohatej je svěžák 11° ležák s mírnou silou 4,4 % ABV, který potěší příjemnou pitelností a vyváženou strukturou, ideální k odpočinku po práci nebo ke lehkému jídlu."
     },
     "beerstreet::Kročehlavy::Kladenský ležák": {
       "untappd_url": "https://untappd.com/b/pivovar-kladno-krocehlavy-kladensky-lezak-12deg/4260740",
@@ -1260,7 +1280,8 @@
       "rating": 3.21071,
       "match_score": 1.0,
       "matched_at": "2026-07-21T16:39:04Z",
-      "query_used": "<override>"
+      "query_used": "<override>",
+      "description": "Fresh Breakfast #005 od Pivovaru Louka je pastry sour s mírnou kyselostí, lehkou ovocnou notou a 4,2 % alkoholu, který osvěží po ránu, a na Untappd získává 3,21 hvězdičky."
     },
     "beerstreet::Louka::Fresh Breakfast 001 - meruňka+maracuja+mango": {
       "untappd_url": "https://untappd.com/b/pivovar-louka-fresh-breakfast-001/5368521",
@@ -1476,7 +1497,8 @@
       "rating": null,
       "match_score": 0.6,
       "matched_at": "2026-07-18T17:59:12Z",
-      "query_used": "Šlapák Loutkář"
+      "query_used": "Šlapák Loutkář",
+      "description": "Špalák Ale 9 od pivovaru Loutkář je lehký summer ale s mírnou silou 3,8 % ABV. Osvěžuje v letních dnech a dobře se hodí k odpočinku u grilu nebo k přátelskému posezení."
     },
     "beerstreet::Loutkář::Švihák": {
       "untappd_url": "https://untappd.com/b/pivovar-loutkar-svihak/4911049",
@@ -1539,7 +1561,8 @@
       "rating": 3.64,
       "match_score": 1.0,
       "matched_at": "2026-07-18T14:21:51Z",
-      "query_used": "Simcoe 12° Mordýř"
+      "query_used": "Simcoe 12° Mordýř",
+      "description": "Simcoe Session ALE 12 od Pivovaru Mordýř je lehký smash ale s 5,2 % alkoholu a 12° stupňovitosti, který potěší příznivce mírně hořkých, aromatických piv s průměrným hodnocením 3,64 na Untappd."
     },
     "beerstreet::Mordýř::Summer Ale": {
       "untappd_url": "https://untappd.com/b/pivovar-mordyr-summer-ale/2146925",
