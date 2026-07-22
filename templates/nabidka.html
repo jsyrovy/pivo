@@ -123,6 +123,42 @@
     .beer-unavailable {
         opacity: 0.45;
     }
+    .desc-wrap {
+        position: relative;
+    }
+    .desc-btn {
+        transition: color 0.15s ease, background-color 0.15s ease;
+    }
+    .desc-popover {
+        position: absolute;
+        top: calc(100% + 6px);
+        right: 0;
+        z-index: 30;
+        width: min(18rem, calc(100vw - 3rem));
+        padding: 8px 10px;
+        font-size: 11px;
+        line-height: 1.5;
+        border-radius: 8px;
+        background: #1c2333;
+        color: #e5e7eb;
+        border: 1px solid rgba(212, 168, 84, 0.25);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-4px);
+        transition: opacity 0.15s ease, transform 0.15s ease, visibility 0.15s;
+    }
+    html:not(.dark) .desc-popover {
+        background: #fffdf7;
+        color: #3f3f46;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    }
+    .desc-wrap:hover .desc-popover,
+    .desc-wrap.desc-open .desc-popover {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
     </style>
 {% endblock head %}
 {% block content %}
@@ -290,6 +326,20 @@
                 </a>`;
     }
 
+    function renderDescriptionHtml(pairing) {
+        if (!pairing || !pairing.description) return '';
+        const description = esc(pairing.description);
+        return `<span class="desc-wrap inline-flex">
+                    <button type="button" class="desc-btn inline-flex items-center justify-center w-[18px] h-[18px] rounded text-amber/70 hover:text-amber hover:bg-amber/10" aria-label="Popis piva" aria-expanded="false" onclick="toggleDescription(event, this)">
+                        <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 11.25h1.5v5.25m-1.5 0h3M12 7.5h.008v.008H12V7.5Z" />
+                            <circle cx="12" cy="12" r="9" />
+                        </svg>
+                    </button>
+                    <span class="desc-popover" role="tooltip">${description}</span>
+                </span>`;
+    }
+
     function buildDebugHtml(beer, pairing) {
         const key = pairingKey(beer);
         const beerJson = JSON.stringify(beer, null, 2);
@@ -360,7 +410,9 @@
             const abvText = beer.abv != null ? esc(formatAbv(beer.abv)) : '';
             const degreeText = beer.degreePlato != null ? esc(String(beer.degreePlato)) : '';
             const pricingHtml = renderPricingHtml(beer.pricing);
-            const ratingHtml = renderRatingHtml(pairings[pairingKey(beer)]);
+            const pairing = pairings[pairingKey(beer)];
+            const ratingHtml = renderRatingHtml(pairing);
+            const descriptionHtml = renderDescriptionHtml(pairing);
 
             const card = document.createElement('div');
             const isUnavailable = beer.name === '-';
@@ -374,7 +426,8 @@
                     <h2 class="font-display text-lg text-zinc-900 dark:text-chalk leading-snug min-w-0">
                         ${degreeText ? `<span class="text-amber">${degreeText}°</span> ` : ''}${name}
                     </h2>
-                    <div class="shrink-0 flex items-start gap-1 mt-1">
+                    <div class="shrink-0 flex items-center gap-1 mt-1">
+                        ${descriptionHtml}
                         ${ratingHtml}
                         <span class="text-[10px] font-medium ${src.color} border rounded px-1.5 py-px">${src.label}</span>
                     </div>
@@ -428,6 +481,28 @@
     window.onDebugChange = function() {
         setFilter(activeFilter);
     };
+
+    function closeDescriptions() {
+        document.querySelectorAll('.desc-wrap.desc-open').forEach(wrap => {
+            wrap.classList.remove('desc-open');
+            const btn = wrap.querySelector('.desc-btn');
+            if (btn) btn.setAttribute('aria-expanded', 'false');
+        });
+    }
+
+    window.toggleDescription = function(event, btn) {
+        event.preventDefault();
+        event.stopPropagation();
+        const wrap = btn.closest('.desc-wrap');
+        const willOpen = !wrap.classList.contains('desc-open');
+        closeDescriptions();
+        wrap.classList.toggle('desc-open', willOpen);
+        btn.setAttribute('aria-expanded', willOpen ? 'true' : 'false');
+    };
+
+    document.addEventListener('click', (e) => {
+        if (!e.target.closest('.desc-wrap')) closeDescriptions();
+    });
 
     async function loadAll() {
         $error.classList.add('hidden');
