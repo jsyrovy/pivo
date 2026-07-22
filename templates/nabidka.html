@@ -5,6 +5,7 @@
 {% block head %}
     <style>
     .beer-card {
+        position: relative;
         transition: transform 0.25s ease, box-shadow 0.25s ease;
     }
     .beer-card:hover {
@@ -123,20 +124,20 @@
     .beer-unavailable {
         opacity: 0.45;
     }
-    .desc-wrap {
-        position: relative;
-    }
     .desc-btn {
         transition: color 0.15s ease, background-color 0.15s ease;
     }
+    /* Anchored to the card (not the tiny icon) and spanning its full width, so it can never
+       overflow the viewport -- the icon sits near the card's right edge, so an icon-anchored
+       popover would clip off the left of the screen for left-column cards and on phones. */
     .desc-popover {
         position: absolute;
         top: calc(100% + 6px);
+        left: 0;
         right: 0;
         z-index: 30;
-        width: min(18rem, calc(100vw - 3rem));
-        padding: 8px 10px;
-        font-size: 11px;
+        padding: 10px 12px;
+        font-size: 12px;
         line-height: 1.5;
         border-radius: 8px;
         background: #1c2333;
