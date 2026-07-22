@@ -25,6 +25,12 @@ def mock_llm():
 
 
 @pytest.fixture(autouse=True)
+def mock_describe():
+    with mock.patch.object(pairing.describe, "generate", return_value=None) as m:
+        yield m
+
+
+@pytest.fixture(autouse=True)
 def isolate_fixtures_path(tmp_path, monkeypatch):
     monkeypatch.setattr(pairing, "FIXTURES_PATH", tmp_path / "fixtures.json")
 
@@ -65,6 +71,44 @@ def test_pairing_writes_matched_and_unmatched(tmp_path, monkeypatch):
     assert "beerstreet::Wild Creatures::Tears of St Laurent (2020)" in saved["pairings"]
     assert "beerstreet::Unknown::Mystery Brew" in saved["unmatched"]
     assert saved["unmatched"]["beerstreet::Unknown::Mystery Brew"]["reason"] == "no_candidates_above_threshold"
+
+
+def test_pairing_stores_ai_description_for_matched_beer(tmp_path, monkeypatch, mock_describe):
+    pairings_path = tmp_path / "pairings.json"
+    monkeypatch.setattr(pairing, "PAIRINGS_PATH", pairings_path)
+
+    mock_describe.return_value = "Svěží americká IPA s výraznou hořkostí."
+    beer = _beer("Tears of St Laurent (2020)", "Wild Creatures")
+    candidate = _candidate("Tears of St Laurent (2020)", brewery="Wild Creatures")
+
+    with (
+        mock.patch.object(pairing.tap_api, "fetch_all_beers", return_value=[beer]),
+        mock.patch.object(pairing.untappd_search, "search_beer", return_value=[candidate]),
+    ):
+        UntappdPairing(args=Args()).run()
+
+    mock_describe.assert_called_once()
+    saved = json.loads(pairings_path.read_text())
+    entry = saved["pairings"]["beerstreet::Wild Creatures::Tears of St Laurent (2020)"]
+    assert entry["description"] == "Svěží americká IPA s výraznou hořkostí."
+
+
+def test_pairing_omits_description_key_when_generation_returns_none(tmp_path, monkeypatch):
+    pairings_path = tmp_path / "pairings.json"
+    monkeypatch.setattr(pairing, "PAIRINGS_PATH", pairings_path)
+
+    beer = _beer("Tears of St Laurent (2020)", "Wild Creatures")
+    candidate = _candidate("Tears of St Laurent (2020)", brewery="Wild Creatures")
+
+    with (
+        mock.patch.object(pairing.tap_api, "fetch_all_beers", return_value=[beer]),
+        mock.patch.object(pairing.untappd_search, "search_beer", return_value=[candidate]),
+    ):
+        UntappdPairing(args=Args()).run()
+
+    saved = json.loads(pairings_path.read_text())
+    entry = saved["pairings"]["beerstreet::Wild Creatures::Tears of St Laurent (2020)"]
+    assert "description" not in entry
 
 
 def test_pairing_skips_already_paired_beers_on_second_run(tmp_path, monkeypatch):

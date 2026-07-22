@@ -79,9 +79,16 @@ class PairingsStore:
             pending.append(beer)
         return pending
 
-    def record_match(self, beer: TapBeer, result: MatchResult, query: str, now: datetime | None = None) -> None:
+    def record_match(
+        self,
+        beer: TapBeer,
+        result: MatchResult,
+        query: str,
+        now: datetime | None = None,
+        description: str | None = None,
+    ) -> None:
         key = beer_key(beer.source, beer.brewery, beer.name)
-        self.pairings[key] = {
+        entry: dict[str, Any] = {
             "untappd_url": result.candidate.url,
             "untappd_name": result.candidate.name,
             "untappd_brewery": result.candidate.brewery,
@@ -90,6 +97,9 @@ class PairingsStore:
             "matched_at": common.iso_utc(now or common.now_utc()),
             "query_used": query,
         }
+        if description:
+            entry["description"] = description
+        self.pairings[key] = entry
         self.unmatched.pop(key, None)
 
     def record_unmatched(self, beer: TapBeer, reason: str, now: datetime | None = None) -> None:
