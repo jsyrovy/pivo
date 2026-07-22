@@ -12,6 +12,12 @@
         transform: translateY(-3px);
         box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
     }
+    /* Lift the whole card (and its overflowing popover) above later sibling cards while the
+       description is open -- without this the popover paints behind the next card in Safari. */
+    .beer-card:hover,
+    .beer-card.desc-open {
+        z-index: 20;
+    }
     .price-pulse {
         animation: pulse-glow 2.5s ease-in-out infinite;
     }
