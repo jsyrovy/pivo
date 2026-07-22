@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-22T17:25:21Z",
+  "generated_at": "2026-07-22T18:08:47Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -5003,6 +5003,36 @@
         "score": 1.0
       }
     },
+    "beerstreet::Nachmelená opice::Sun APA": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Nachmelená opice",
+        "name": "Sun APA",
+        "style": "APA",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-07-22T18:08:47Z",
+      "candidates": [
+        {
+          "name": "Sun APA 12%",
+          "brewery": "Nachmelená Opice",
+          "url": "/b/nachmelena-opice-sun-apa-12/1558059",
+          "rating": 3.62
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Sun APA 12° Nachmelená opice",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/nachmelena-opice-sun-apa-12/1558059",
+        "score": 1.0
+      }
+    },
     "beerstreet::Nozib::Goseteria #8 broskev+limeta+rosmaryn": {
       "beer": {
         "source": "beerstreet",
@@ -5101,6 +5131,64 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-ovipistan-diplomat/4422840",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Permon::Summer Ale": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Permon",
+        "name": "Summer Ale",
+        "style": "Summer ale",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-07-22T18:08:38Z",
+      "candidates": [
+        {
+          "name": "Summer Ale 10°",
+          "brewery": "Pivovar Permon",
+          "url": "/b/pivovar-permon-summer-ale-10-deg/705144",
+          "rating": 3.42
+        },
+        {
+          "name": "Pivní Jistota Summer Ale 10°",
+          "brewery": "Pivovar Permon",
+          "url": "/b/pivovar-permon-pivni-jistota-summer-ale-10-deg/3830056",
+          "rating": 3.51
+        },
+        {
+          "name": "Summer Ale Citra 10°",
+          "brewery": "Pivovar Permon",
+          "url": "/b/pivovar-permon-summer-ale-citra-10-deg/3425116",
+          "rating": 3.44
+        },
+        {
+          "name": "Watermelon Summer Ale",
+          "brewery": "Pivovar Permon",
+          "url": "/b/pivovar-permon-watermelon-summer-ale/2720220",
+          "rating": 3.29
+        },
+        {
+          "name": "Raspberry Summer Ale",
+          "brewery": "Pivovar Permon",
+          "url": "/b/pivovar-permon-raspberry-summer-ale/2698604",
+          "rating": 3.68
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Summer Ale 10° Permon",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-permon-pivni-jistota-summer-ale-10-deg/3830056",
         "score": 1.0
       }
     },

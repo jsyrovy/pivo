@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-22T17:25:21Z",
+  "generated_at": "2026-07-22T18:08:47Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -1573,6 +1573,16 @@
       "matched_at": "2026-04-28T20:13:44Z",
       "query_used": "Summer Ale Mordýř"
     },
+    "beerstreet::Nachmelená opice::Sun APA": {
+      "untappd_url": "https://untappd.com/b/nachmelena-opice-sun-apa-12/1558059",
+      "untappd_name": "Sun APA 12%",
+      "untappd_brewery": "Nachmelená Opice",
+      "rating": 3.62,
+      "match_score": 1.0,
+      "matched_at": "2026-07-22T18:08:47Z",
+      "query_used": "Sun APA 12° Nachmelená opice",
+      "description": "Sun APA od Nachmelené Opice je silné 5,2 % ABV s 12° stupňovitostí, styl APA, které potěší milovníky chmelených, vyvážených piv vhodných na letní večery a odpolední setkání. Své uplatnění najde při osvěžujícím doplnění grilování nebo při neformálním setkání s přáteli."
+    },
     "beerstreet::Nozib::Goseteria #8 broskev+limeta+rosmaryn": {
       "untappd_url": "https://untappd.com/b/nozib-special-brews-goseteria-8-peach-lime-rosemary-salt/6682972",
       "untappd_name": "GOSETERIA #8 Peach + Lime + Rosemary + Salt",
@@ -1617,6 +1627,16 @@
       "match_score": 1.0,
       "matched_at": "2026-04-17T19:07:45Z",
       "query_used": "Premiér Ovipistán"
+    },
+    "beerstreet::Permon::Summer Ale": {
+      "untappd_url": "https://untappd.com/b/pivovar-permon-pivni-jistota-summer-ale-10-deg/3830056",
+      "untappd_name": "Pivní Jistota Summer Ale 10°",
+      "untappd_brewery": "Pivovar Permon",
+      "rating": 3.51,
+      "match_score": 1.0,
+      "matched_at": "2026-07-22T18:08:38Z",
+      "query_used": "Summer Ale 10° Permon",
+      "description": "Pivní Jistota Summer Ale 10° od Pivovaru Permon je lehký letní ale s mírnou sladkostí a osvěžujícím koncem, vhodný na slunečné odpoledne nebo neformální setkání s přáteli."
     },
     "beerstreet::Pioneer::Cruel River": {
       "untappd_url": "https://untappd.com/b/pioneer-beer-cruel-river/6629762",
