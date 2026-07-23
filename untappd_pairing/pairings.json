@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-23T17:35:50Z",
+  "generated_at": "2026-07-23T19:07:20Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -2025,6 +2025,36 @@
       "match_score": 1.0,
       "matched_at": "2026-06-17T22:06:03Z",
       "query_used": "Bard Švabín"
+    },
+    "uzamastilu::Budvar::Birgo Mango-Limetka": {
+      "untappd_url": "https://untappd.com/b/budejovicky-budvar-birgo-mango-limetka/4803777",
+      "untappd_name": "BirGo Mango - Limetka",
+      "untappd_brewery": "Budějovický Budvar",
+      "rating": 3.04,
+      "match_score": 1.0,
+      "matched_at": "2026-07-23T19:07:20Z",
+      "query_used": "Birgo Mango-Limetka Budvar",
+      "description": "BirGo Mango - Limetka od Budvaru je osvěžující, lehké pivo s nulovou stupňovitostí, ideální pro letní posezení a neformální setkání."
+    },
+    "uzamastilu::Loutkář::Kašpárek Ležák": {
+      "untappd_url": "https://untappd.com/b/pivovar-loutkar-kasparek-11-svetly-lezak/3940222",
+      "untappd_name": "Kašpárek 11 světlý ležák",
+      "untappd_brewery": "Pivovar Loutkář",
+      "rating": 3.46,
+      "match_score": 0.9167,
+      "matched_at": "2026-07-23T19:06:26Z",
+      "query_used": "Kašpárek Ležák 11° Loutkář",
+      "description": "Kašpárek 11 světlý ležák od Pivovaru Loutkář je středně silný (11°) světlý ležák s průměrným hodnocením 3.46 / 5 a hodí se na neformální posezení s přáteli."
+    },
+    "uzamastilu::Trautenberk::APA": {
+      "untappd_url": "https://untappd.com/b/pivovar-trautenberk-trautenberk-14-apa/1446943",
+      "untappd_name": "Trautenberk 14 APA",
+      "untappd_brewery": "Pivovar Trautenberk",
+      "rating": 3.69,
+      "match_score": 1.0,
+      "matched_at": "2026-07-23T19:06:13Z",
+      "query_used": "APA 14° Trautenberk",
+      "description": "Trautenberk 14 APA je středně silné pivo s 14° stupňovitostí a mírnou hořkostí, vhodné na osvěžení po práci nebo při neformální schůzce."
     }
   },
   "unmatched": {
@@ -2071,6 +2101,26 @@
     "beerstreet::Černý Potoka::Cold Fish Mosaic dry hopped": {
       "attempts": 1,
       "last_tried_at": "2026-06-03T18:24:49Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "uzamastilu::Clock::Hex Modern Pale Ale": {
+      "attempts": 1,
+      "last_tried_at": "2026-07-23T19:06:24Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "uzamastilu::Mazák::Wai-Wai Hazy IPA": {
+      "attempts": 1,
+      "last_tried_at": "2026-07-23T19:06:31Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "uzamastilu::Polička::Otakar Ležák": {
+      "attempts": 1,
+      "last_tried_at": "2026-07-23T19:06:57Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "uzamastilu::Polička::Záviš Nefiltr Ležák": {
+      "attempts": 1,
+      "last_tried_at": "2026-07-23T19:06:44Z",
       "reason": "no_candidates_above_threshold"
     }
   }

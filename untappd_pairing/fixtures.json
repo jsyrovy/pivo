@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-23T17:35:50Z",
+  "generated_at": "2026-07-23T19:07:20Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -6246,6 +6246,241 @@
       ],
       "outcome": {
         "matched": "/b/svabin-brewery-bard/5953825",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Budvar::Birgo Mango-Limetka": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Budvar",
+        "name": "Birgo Mango-Limetka",
+        "style": "",
+        "degree_plato": 0.0
+      },
+      "captured_at": "2026-07-23T19:07:20Z",
+      "candidates": [
+        {
+          "name": "BirGo Mango - Limetka",
+          "brewery": "Budějovický Budvar",
+          "url": "/b/budejovicky-budvar-birgo-mango-limetka/4803777",
+          "rating": 3.04
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Birgo Mango-Limetka 0° Budvar",
+          "hits": []
+        },
+        {
+          "query": "Birgo Mango-Limetka Budvar",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/budejovicky-budvar-birgo-mango-limetka/4803777",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Clock::Hex Modern Pale Ale": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Clock",
+        "name": "Hex Modern Pale Ale",
+        "style": "",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-07-23T19:06:24Z",
+      "candidates": [
+        {
+          "name": "Hex Modern Pale Ale",
+          "brewery": "Hex Brewing",
+          "url": "/b/hex-brewing-hex-modern-pale-ale/6772694",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Hex Modern Pale Ale 11° Clock",
+          "hits": []
+        },
+        {
+          "query": "Hex Modern Pale Ale Clock",
+          "hits": []
+        },
+        {
+          "query": "Hex Modern Pale Ale 11°",
+          "hits": []
+        },
+        {
+          "query": "Hex Modern Pale Ale",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
+    "uzamastilu::Loutkář::Kašpárek Ležák": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Loutkář",
+        "name": "Kašpárek Ležák",
+        "style": "",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-07-23T19:06:26Z",
+      "candidates": [
+        {
+          "name": "Kašpárek 11 světlý ležák",
+          "brewery": "Pivovar Loutkář",
+          "url": "/b/pivovar-loutkar-kasparek-11-svetly-lezak/3940222",
+          "rating": 3.46
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Kašpárek Ležák 11° Loutkář",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-loutkar-kasparek-11-svetly-lezak/3940222",
+        "score": 0.9167
+      }
+    },
+    "uzamastilu::Mazák::Wai-Wai Hazy IPA": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Mazák",
+        "name": "Wai-Wai Hazy IPA",
+        "style": "",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-07-23T19:06:31Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Wai-Wai Hazy IPA 12° Mazák",
+          "hits": []
+        },
+        {
+          "query": "Wai-Wai Hazy IPA Mazák",
+          "hits": []
+        },
+        {
+          "query": "Wai-Wai Hazy IPA 12°",
+          "hits": []
+        },
+        {
+          "query": "Wai-Wai Hazy IPA",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
+    "uzamastilu::Polička::Otakar Ležák": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Polička",
+        "name": "Otakar Ležák",
+        "style": "",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-07-23T19:06:57Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Otakar Ležák 11° Polička",
+          "hits": []
+        },
+        {
+          "query": "Otakar Ležák Polička",
+          "hits": []
+        },
+        {
+          "query": "Otakar Ležák 11°",
+          "hits": []
+        },
+        {
+          "query": "Otakar Ležák",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
+    "uzamastilu::Polička::Záviš Nefiltr Ležák": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Polička",
+        "name": "Záviš Nefiltr Ležák",
+        "style": "",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-07-23T19:06:44Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Záviš Nefiltr Ležák 12° Polička",
+          "hits": []
+        },
+        {
+          "query": "Záviš Nefiltr Ležák Polička",
+          "hits": []
+        },
+        {
+          "query": "Záviš Nefiltr Ležák 12°",
+          "hits": []
+        },
+        {
+          "query": "Záviš Nefiltr Ležák",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
+    "uzamastilu::Trautenberk::APA": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Trautenberk",
+        "name": "APA",
+        "style": "",
+        "degree_plato": 14.0
+      },
+      "captured_at": "2026-07-23T19:06:13Z",
+      "candidates": [
+        {
+          "name": "Trautenberk 14 APA",
+          "brewery": "Pivovar Trautenberk",
+          "url": "/b/pivovar-trautenberk-trautenberk-14-apa/1446943",
+          "rating": 3.69
+        }
+      ],
+      "attempts": [
+        {
+          "query": "APA 14° Trautenberk",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-trautenberk-trautenberk-14-apa/1446943",
         "score": 1.0
       }
     }
