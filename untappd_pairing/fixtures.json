@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-23T19:26:29Z",
+  "generated_at": "2026-07-23T21:10:38Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -693,6 +693,70 @@
       "outcome": {
         "matched": "/b/pivovar-jungberg-300-kurven-10/3144726",
         "score": 1.0
+      }
+    },
+    "ambasada::JungBerg, Hořice::Hasta la Vista": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "JungBerg, Hořice",
+        "name": "Hasta la Vista",
+        "style": "Single hop ale",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-07-23T21:10:38Z",
+      "candidates": [
+        {
+          "name": "Hasta La Vista Summer NEIPA 12%",
+          "brewery": "Nachmelená Opice",
+          "url": "/b/nachmelena-opice-hasta-la-vista-summer-neipa-12/4998877",
+          "rating": 3.77
+        },
+        {
+          "name": "Hasta La Vista",
+          "brewery": "Brouwerij Kees",
+          "url": "/b/brouwerij-kees-hasta-la-vista/4817091",
+          "rating": 3.55
+        },
+        {
+          "name": "Hasta La Vista, Baby",
+          "brewery": "Southern Prohibition Brewing",
+          "url": "/b/southern-prohibition-brewing-hasta-la-vista-baby/3372816",
+          "rating": 3.8
+        },
+        {
+          "name": "HASTA LA VISTA",
+          "brewery": "Cervejaria EverBrew",
+          "url": "/b/cervejaria-everbrew-hasta-la-vista/6299927",
+          "rating": 4.16
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Hasta la Vista 12° JungBerg",
+          "hits": []
+        },
+        {
+          "query": "Hasta la Vista JungBerg",
+          "hits": []
+        },
+        {
+          "query": "Hasta la Vista 12°",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Hasta la Vista",
+          "hits": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "ambasada::JungBerg, Hořice::PP (Pořádné Pivo)": {
