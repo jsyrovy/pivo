@@ -1,6 +1,7 @@
 import type { Beer } from "../schema";
 import { beerStreetPricing } from "../pricing";
 import { formatStyle } from "../style";
+import { isObject, parseNumber, trimString } from "./json-utils";
 
 interface RawBeer {
   nazev?: unknown;
@@ -37,24 +38,4 @@ export function parseBeerStreetJson(raw: unknown): Beer[] {
     order: index + 1,
     pricing: beerStreetPricing(item.cena04, item.cena03),
   }));
-}
-
-function isObject(value: unknown): value is Record<string, unknown> {
-  return typeof value === "object" && value !== null && !Array.isArray(value);
-}
-
-function trimString(value: unknown): string {
-  if (typeof value !== "string") return "";
-  return value.trim();
-}
-
-function parseNumber(value: unknown): number | null {
-  if (typeof value === "number") {
-    return Number.isFinite(value) ? value : null;
-  }
-  if (typeof value !== "string") return null;
-  const normalized = value.trim().replace(",", ".");
-  if (!normalized) return null;
-  const n = Number.parseFloat(normalized);
-  return Number.isFinite(n) ? n : null;
 }
