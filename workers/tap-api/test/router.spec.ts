@@ -1,6 +1,6 @@
 import { describe, it, expect, beforeAll, afterEach } from "vitest";
 import { SELF, fetchMock } from "cloudflare:test";
-import { AMBASADA_FIXTURE, BEERSTREET_FIXTURE } from "./fixtures";
+import { AMBASADA_FIXTURE, BEERSTREET_FIXTURE, UZAMASTILU_FIXTURE } from "./fixtures";
 
 const ALLOWED_ORIGIN = "https://pivo.jsyrovy.cz";
 
@@ -62,6 +62,27 @@ describe("router", () => {
     };
     expect(body.source).toBe("ambasada");
     expect(body.beers.map((b) => b.order)).toEqual([1, 2, 3]);
+  });
+
+  it("returns U Zámastilů menu parsed from JSON", async () => {
+    fetchMock
+      .get("https://uzamastilu.cz")
+      .intercept({ path: "/data" })
+      .reply(200, JSON.stringify(UZAMASTILU_FIXTURE), {
+        headers: { "Content-Type": "application/json" },
+      });
+
+    const res = await call("/uzamastilu", {
+      headers: { Origin: ALLOWED_ORIGIN },
+    });
+
+    expect(res.status).toBe(200);
+    const body = (await res.json()) as {
+      source: string;
+      beers: Array<{ name: string; order: number | null }>;
+    };
+    expect(body.source).toBe("uzamastilu");
+    expect(body.beers.map((b) => b.order)).toEqual([1, 5, 3]);
   });
 
   it("rejects requests from disallowed origin with 403", async () => {

@@ -70,6 +70,45 @@ export const AMBASADA_FIXTURE = `<!doctype html>
 </table>
 </body></html>`;
 
+export const UZAMASTILU_FIXTURE = [
+  {
+    _id: "6a2c42f0ad3391234a74e956",
+    order: 1,
+    degree: "14°",
+    brewery: "Trautenberk",
+    name: "APA ",
+    price05: "70",
+    price03: "58",
+  },
+  {
+    _id: "6a2c42f0ad3391234a74e95a",
+    order: 5,
+    degree: "12°",
+    brewery: "Polička",
+    name: "Záviš*Nefiltr Ležák",
+    price05: "50",
+    price03: "40",
+  },
+  {
+    _id: "6a2c42f0ad3391234a74e95b",
+    order: 3,
+    degree: "00°",
+    brewery: "Bernard",
+    name: "Nealko",
+    price05: "35",
+    price03: "",
+  },
+  {
+    _id: "6a2c42f0ad3391234a74e95c",
+    order: 9,
+    degree: "11°",
+    brewery: "Should not appear",
+    name: "Out of range tap",
+    price05: "60",
+    price03: "",
+  },
+];
+
 export const AMBASADA_EMPTY_FIXTURE = `<!doctype html>
 <html><body>
 <table class="listek_tab">

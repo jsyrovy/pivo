@@ -68,6 +68,30 @@ export function extractTrailingVolume(description: string | null): number | null
   return volume;
 }
 
+export function uzamastiluPricing(
+  price05: unknown,
+  price03: unknown,
+): PricingInfo | null {
+  const p05 = toPositiveNumber(price05);
+  const p03 = toPositiveNumber(price03);
+
+  if (p05 !== null) {
+    return {
+      halfLiterCzk: p05,
+      reference: null,
+      secondary: p03 !== null ? { priceCzk: p03, volumeLiters: 0.3 } : null,
+    };
+  }
+  if (p03 !== null) {
+    return {
+      halfLiterCzk: halfLiterFrom(p03, 0.3),
+      reference: { priceCzk: p03, volumeLiters: 0.3 },
+      secondary: null,
+    };
+  }
+  return null;
+}
+
 function toPositiveNumber(value: unknown): number | null {
   if (typeof value === "number") {
     return Number.isFinite(value) && value > 0 ? value : null;

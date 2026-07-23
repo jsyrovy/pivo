@@ -1,6 +1,7 @@
 import type { Beer, MenuResponse, Source } from "./schema";
 import { parseBeerStreetJson } from "./parsers/beerstreet";
 import { parseAmbasadaHtml } from "./parsers/ambasada";
+import { parseUzamastiluJson } from "./parsers/uzamastilu";
 
 const USER_AGENT = "tap-api/1.0";
 
@@ -30,3 +31,8 @@ export const fetchBeerStreetMenu = (): Promise<MenuResponse> =>
 
 export const fetchAmbasadaMenu = (): Promise<MenuResponse> =>
   fetchMenu("ambasada", "https://pivniambasada.cz/", parseAmbasadaHtml);
+
+export const fetchUzamastiluMenu = (): Promise<MenuResponse> =>
+  fetchMenu("uzamastilu", "https://uzamastilu.cz/data", async (r) =>
+    parseUzamastiluJson(await r.json()),
+  );
