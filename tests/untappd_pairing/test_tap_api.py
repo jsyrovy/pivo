@@ -74,6 +74,9 @@ def test_fetch_all_beers_combines_endpoints():
         "https://tap-api.jiri-syrovy.workers.dev/ambasada": json.dumps(
             {"source": "ambasada", "fetchedAt": "x", "beers": []},
         ),
+        "https://tap-api.jiri-syrovy.workers.dev/uzamastilu": json.dumps(
+            {"source": "uzamastilu", "fetchedAt": "x", "beers": [{"name": "APA", "source": "uzamastilu"}]},
+        ),
     }
 
     def fake_download(url, extra_headers=None, timeout=None):  # noqa: ARG001
@@ -82,7 +85,7 @@ def test_fetch_all_beers_combines_endpoints():
     with mock.patch.object(tap_api.common, "download_page", side_effect=fake_download):
         beers = tap_api.fetch_all_beers()
 
-    assert [b.source for b in beers] == ["beerstreet", "beerstreet"]
+    assert [b.source for b in beers] == ["beerstreet", "beerstreet", "uzamastilu"]
 
 
 def test_fetch_endpoint_skips_empty_tap_slots():
@@ -114,5 +117,5 @@ def test_fetch_all_beers_swallows_endpoint_errors(caplog):
     ):
         beers = tap_api.fetch_all_beers()
 
-    assert len(beers) == 2
+    assert len(beers) == 4
     assert any("Failed to fetch tap-api endpoint /ambasada" in record.message for record in caplog.records)
