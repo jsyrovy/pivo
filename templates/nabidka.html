@@ -386,7 +386,8 @@
             html += '<div class="debug-panel-section">';
             html += '<div class="debug-panel-section-header">🔗 PÁROVÁNÍ</div>';
             html += '<div class="debug-panel-section-value">';
-            html += `name: ${esc(pairing.untappd_name)}`;
+            html += `url: ${esc(pairing.untappd_url)}`;
+            html += `\nname: ${esc(pairing.untappd_name)}`;
             if (!nameOk) html += ' <span class="mismatch">✗</span>';
             html += `\nbrewery: ${esc(pairing.untappd_brewery)}`;
             if (!breweryOk) html += ' <span class="mismatch">✗</span>';
@@ -395,6 +396,13 @@
             if (pairing.query_used) html += `\nquery: ${esc(pairing.query_used)}`;
             if (pairing.matched_at) html += `\nmatched: ${esc(pairing.matched_at)}`;
             html += '</div></div>';
+
+            if (pairing.description) {
+                html += '<div class="debug-panel-section">';
+                html += '<div class="debug-panel-section-header">🤖 AI SHRNUTÍ</div>';
+                html += `<div class="debug-panel-section-value">${esc(pairing.description)}</div>`;
+                html += '</div>';
+            }
         } else {
             html += '<div class="debug-panel-section">';
             html += '<div class="debug-panel-section-header">⛔ PÁROVÁNÍ</div>';
