@@ -186,6 +186,9 @@
         <button class="filter-btn text-xs border border-zinc-300 dark:border-chalk/10 text-zinc-500 dark:text-chalk/60 rounded-full px-3 py-1.5 whitespace-nowrap"
                 data-filter="ambasada"
                 onclick="setFilter('ambasada')">Pivní Ambasáda</button>
+        <button class="filter-btn text-xs border border-zinc-300 dark:border-chalk/10 text-zinc-500 dark:text-chalk/60 rounded-full px-3 py-1.5 whitespace-nowrap"
+                data-filter="uzamastilu"
+                onclick="setFilter('uzamastilu')">U Zámastilů</button>
         <button id="refresh-btn"
                 class="text-xs border border-zinc-300 dark:border-chalk/10 text-zinc-500 dark:text-chalk/60 rounded-full w-8 h-8 flex items-center justify-center ml-1 shrink-0"
                 onclick="loadAll()"
@@ -238,6 +241,11 @@
                target="_blank"
                rel="noopener"
                class="text-zinc-400 dark:text-chalk/30 text-xs hover:text-amber transition-colors">pivniambasada.cz</a>
+            <span class="text-zinc-300 dark:text-chalk/15">·</span>
+            <a href="https://uzamastilu.cz"
+               target="_blank"
+               rel="noopener"
+               class="text-zinc-400 dark:text-chalk/30 text-xs hover:text-amber transition-colors">uzamastilu.cz</a>
         </div>
     </footer>
 {% endblock content %}
@@ -250,9 +258,11 @@
     }
 
     const SOURCES = {
-        beerstreet: {label: 'BS', color: 'bg-emerald-500/15 text-emerald-400 border-emerald-500/25'},
-        ambasada: {label: 'PA', color: 'bg-violet-500/15 text-violet-400 border-violet-500/25'},
+        beerstreet: {name: 'Beer Street', label: 'BS', color: 'bg-emerald-500/15 text-emerald-400 border-emerald-500/25'},
+        ambasada: {name: 'Pivní Ambasáda', label: 'PA', color: 'bg-violet-500/15 text-violet-400 border-violet-500/25'},
+        uzamastilu: {name: 'U Zámastilů', label: 'UZ', color: 'bg-sky-500/15 text-sky-400 border-sky-500/25'},
     };
+    const SOURCE_KEYS = Object.keys(SOURCES);
 
     const API_BASE = 'https://tap-api.jiri-syrovy.workers.dev';
     const PAIRINGS_URL = 'pairings.json';
@@ -528,17 +538,15 @@
         }
 
         try {
-            const [bsResult, paResult, pairingsResult] = await Promise.allSettled([
-                fetchMenu('/beerstreet'),
-                fetchMenu('/ambasada'),
+            const results = await Promise.allSettled([
+                ...SOURCE_KEYS.map((key) => fetchMenu('/' + key)),
                 fetchPairings(),
             ]);
+            const menuResults = results.slice(0, SOURCE_KEYS.length);
+            const pairingsResult = results[results.length - 1];
 
-            const bsBeers = bsResult.status === 'fulfilled' ? bsResult.value : [];
-            const paBeers = paResult.status === 'fulfilled' ? paResult.value : [];
+            allBeers = menuResults.flatMap((r) => r.status === 'fulfilled' ? r.value : []);
             pairings = pairingsResult.status === 'fulfilled' ? pairingsResult.value : {};
-
-            allBeers = [...bsBeers, ...paBeers];
 
             if (allBeers.length === 0) {
                 $loading.classList.add('hidden');
@@ -546,9 +554,9 @@
                 return;
             }
 
-            const warnings = [];
-            if (bsResult.status === 'rejected') warnings.push('Beer Street se nepodařilo načíst');
-            if (paResult.status === 'rejected') warnings.push('Pivní Ambasádu se nepodařilo načíst');
+            const warnings = menuResults
+                .map((r, i) => r.status === 'rejected' ? `${SOURCES[SOURCE_KEYS[i]].name} se nepodařilo načíst` : null)
+                .filter(Boolean);
             if (warnings.length > 0) {
                 $warningText.textContent = warnings.join(' · ');
                 $warning.classList.remove('hidden');
