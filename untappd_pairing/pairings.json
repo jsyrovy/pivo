@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-23T15:13:32Z",
+  "generated_at": "2026-07-23T17:35:50Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -1600,6 +1600,16 @@
       "match_score": 1.0,
       "matched_at": "2026-06-11T16:58:24Z",
       "query_used": "Sunny APA Obora"
+    },
+    "beerstreet::Old Cock::Vývar": {
+      "untappd_url": "https://untappd.com/b/old-cock-beer-vyvar/5433430",
+      "untappd_name": "Vývar",
+      "untappd_brewery": "Old Cock Beer",
+      "rating": 3.39,
+      "match_score": 1.0,
+      "matched_at": "2026-07-23T17:35:50Z",
+      "query_used": "Vývar 11° Old Cock",
+      "description": "Vývar od Old Cock Beer je světlý ležák s 4,5 % alkoholu a 11° stupňovitostí. Hodí se na letní posezení nebo neformální setkání s přáteli."
     },
     "beerstreet::Ovipistán::Diplomat": {
       "untappd_url": "https://untappd.com/b/pivovar-ovipistan-diplomat/4422840",

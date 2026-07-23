@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-23T15:13:32Z",
+  "generated_at": "2026-07-23T17:35:50Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -5097,6 +5097,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-obora-sunny-apa/5829209",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Old Cock::Vývar": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Old Cock",
+        "name": "Vývar",
+        "style": "Ležák světlý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-07-23T17:35:50Z",
+      "candidates": [
+        {
+          "name": "Vývar",
+          "brewery": "Old Cock Beer",
+          "url": "/b/old-cock-beer-vyvar/5433430",
+          "rating": 3.39
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Vývar 11° Old Cock",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/old-cock-beer-vyvar/5433430",
         "score": 1.0
       }
     },
