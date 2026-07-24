@@ -48,19 +48,15 @@ def _stem(token: str) -> str:
     return token[:-2] if len(token) >= _STEM_MIN_LEN else token
 
 
-def _token_matches(beer_token: str, candidate_tokens: set[str]) -> bool:
-    if beer_token in candidate_tokens:
-        return True
-    beer_stem = _stem(beer_token)
-    return any(beer_stem == _stem(candidate_token) for candidate_token in candidate_tokens)
-
-
 def brewery_matches(beer_brewery: str, candidate_brewery: str) -> bool:
     beer_tokens = set(normalize_for_compare(clean_brewery_name(beer_brewery)).split())
     candidate_tokens = set(normalize_for_compare(clean_brewery_name(candidate_brewery)).split())
     if not beer_tokens or not candidate_tokens:
         return False
-    return all(_token_matches(beer_token, candidate_tokens) for beer_token in beer_tokens)
+    # Compare stems so Czech case declension ("Polička" vs "Poličce") doesn't block the subset check.
+    beer_stems = {_stem(token) for token in beer_tokens}
+    candidate_stems = {_stem(token) for token in candidate_tokens}
+    return beer_stems.issubset(candidate_stems)
 
 
 def _exact_normalized(beer_name: str, candidate_name: str) -> int:
