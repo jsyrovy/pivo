@@ -1,6 +1,7 @@
 lint.select = ["ALL"]
 lint.ignore = [
     "BLE001", # Do not catch blind exception
+    "CPY001", # Missing copyright notice at top of file
     "DTZ", # flake8-datetimez
     "D100", # Missing docstring in public module
     "D101", # Missing docstring in public class
