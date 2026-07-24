@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-09T22:36:30Z",
+  "generated_at": "2026-07-24T13:25:38Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -19,16 +19,6 @@
       "match_score": 1.0,
       "matched_at": "2026-06-12T19:11:01Z",
       "query_used": "Moves 11° Agent"
-    },
-    "ambasada::Agent, Olešnice::Moves Exotic": {
-      "untappd_url": "https://untappd.com/b/pivovar-agent-moves-exotic/4961829",
-      "untappd_name": "Moves – Exotic",
-      "untappd_brewery": "Pivovar Agent",
-      "rating": 3.77,
-      "match_score": 1.0,
-      "matched_at": "2026-07-28T19:40:08Z",
-      "query_used": "Moves Exotic Agent",
-      "description": "Moves – Exotic od Pivovaru Agent je ovocný sour ale s mírnou kyselostí a lehkou plností, který osvěží při letním odpočinku nebo při neformálním setkání s přáteli."
     },
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-stylish-girl-milkshake-neipa-13deg-blackberry/5988268",
@@ -66,16 +56,6 @@
       "matched_at": "2026-06-04T21:45:33Z",
       "query_used": "Ginger & Lime Beskydský"
     },
-    "ambasada::Beskydský, Ostravice::Rampouch": {
-      "untappd_url": "https://untappd.com/b/beskydsky-pivovarek-rampouch/6515520",
-      "untappd_name": "Rampouch",
-      "untappd_brewery": "Beskydský pivovárek",
-      "rating": 3.54,
-      "match_score": 1.0,
-      "matched_at": "2026-07-28T15:25:14Z",
-      "query_used": "Rampouch Beskydský",
-      "description": "Rampouch od Beskydského pivováreku je chladně suché IPA s 6 % alkoholu a 13 stupňovitostí, hodnocený 3,54 hvězdičky na Untappd, vhodný na letní večery u kamarádů."
-    },
     "ambasada::Bevog, Bad Radkersburg, Rakousko::Buzz": {
       "untappd_url": "https://untappd.com/b/bevog-brewery-buzz/4510503",
       "untappd_name": "Buzz",
@@ -93,16 +73,6 @@
       "match_score": 1.0,
       "matched_at": "2026-06-02T21:52:38Z",
       "query_used": "Sunny Day Brewnicorn"
-    },
-    "ambasada::Brewnicorn::Sunny Day": {
-      "untappd_url": "https://untappd.com/b/brewnicorn-sunny-day/6689258",
-      "untappd_name": "Sunny Day",
-      "untappd_brewery": "Brewnicorn",
-      "rating": 3.69,
-      "match_score": 1.0,
-      "matched_at": "2026-08-05T17:46:10Z",
-      "query_used": "Sunny Day Brewnicorn",
-      "description": "Sunny Day od Brewnicorn je osvěžující American pale ale s mírnou až střední silou 4,8 % ABV a stupňovitostí 11°, který potěší příznivce lehkých, vyvážených piv na jaře nebo při letních výletech."
     },
     "ambasada::Bura Brew, Chorvatsko::14,5° Tornado IPA": {
       "untappd_url": "https://untappd.com/b/bura-brew-tornado-ipa-istrian-pale-ale/1501740",
@@ -159,16 +129,6 @@
       "match_score": 1.0,
       "matched_at": "2026-05-06T20:19:51Z",
       "query_used": "Glee Clock"
-    },
-    "ambasada::Clock, Potštejn::HEX": {
-      "untappd_url": "https://untappd.com/b/pivovar-clock-hex/6717949",
-      "untappd_name": "HEX",
-      "untappd_brewery": "Pivovar Clock",
-      "rating": 3.65,
-      "match_score": 1.0,
-      "matched_at": "2026-08-07T19:04:02Z",
-      "query_used": "HEX Clock",
-      "description": "HEX od Pivovaru Clock je moderní pale ale s mírnou silou 4,7 % ABV a 11° stupňovitostí, který potěší příznivce piva s lehkým charakterem a vhodný je na společenské posezení nebo odpolední relaxaci."
     },
     "ambasada::Clock, Potštejn::Maracuja & Elderflower": {
       "untappd_url": "https://untappd.com/b/pivovar-clock-maracuja-elderflower/6270248",
@@ -397,16 +357,6 @@
       "matched_at": "2026-05-10T08:54:54Z",
       "query_used": "<override>"
     },
-    "ambasada::MadCat, Kamenice::Brut IPA": {
-      "untappd_url": "https://untappd.com/b/madcat-brut-ipa/6245191",
-      "untappd_name": "Brut IPA",
-      "untappd_brewery": "MadCat",
-      "rating": 3.66,
-      "match_score": 1.0,
-      "matched_at": "2026-08-05T19:43:06Z",
-      "query_used": "Brut IPA MadCat",
-      "description": "Brut IPA od MadCat s 7,2 % ABV a 14° stupňovitostí potěší milovníky suchých, osvěžujících ip a nabízí lehkou, ale silnou povzbuzující zkušenost, ideální na letní večery nebo při osvěžujícím rozhovoru."
-    },
     "ambasada::MadCat, Kamenice::Mango Pina Coco Sourus": {
       "untappd_url": "https://untappd.com/b/madcat-mango-pina-coco/2990679",
       "untappd_name": "Mango-Piña-Coco",
@@ -535,16 +485,6 @@
       "match_score": 0.875,
       "matched_at": "2026-05-05T20:05:03Z",
       "query_used": "Msopustní"
-    },
-    "ambasada::Mordýř, Dolní Ředice::Rybíz": {
-      "untappd_url": "https://untappd.com/b/pivovar-mordyr-calamansi-rybiz-sour-12-deg/6028553",
-      "untappd_name": "Calamansi & Rybíz Sour 12°",
-      "untappd_brewery": "Pivovar Mordýř",
-      "rating": null,
-      "match_score": 1.0,
-      "matched_at": "2026-08-05T17:46:05Z",
-      "query_used": "Rybíz 10° Mordýř",
-      "description": "Calamansi & Rybíz Sour 12° od Pivovaru Mordýř je ovocný sour ale s mírnou kyselostí a 4 % alkoholu, ideální pro osvěžení v letních dnech."
     },
     "ambasada::Mordýř, Dolní Ředice::Sametová": {
       "untappd_url": "https://untappd.com/b/pivovar-mordyr-sametova-10/1909913",
@@ -689,16 +629,6 @@
       "match_score": 1.0,
       "matched_at": "2026-05-22T09:09:29Z",
       "query_used": "Blackcurrant Sorbet Sibeeria"
-    },
-    "ambasada::Sibeeria, Praha::Exotic Orchard": {
-      "untappd_url": "https://untappd.com/b/sibeeria-exotic-orchard/5953178",
-      "untappd_name": "Exotic Orchard",
-      "untappd_brewery": "Sibeeria Brewery",
-      "rating": 3.85,
-      "match_score": 1.0,
-      "matched_at": "2026-08-07T14:15:07Z",
-      "query_used": "Exotic Orchard Sibeeria",
-      "description": "Exotic Orchard od Sibeeria Brewery je session IPA s mírnou 11° stupňovitostí a 4,6 % alkoholu, který osvěží při letních dnech a hodí se na neformální posezení s přáteli."
     },
     "ambasada::Sibeeria, Praha::Frozen Cryo Lollihop": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-fresh-frozen-cryo-lollihop/6740338",
@@ -945,16 +875,6 @@
       "matched_at": "2026-06-03T21:54:09Z",
       "query_used": "Hellion Černý Potoka"
     },
-    "ambasada::Čestmír, Brandýs nad Labem::Fiction APA": {
-      "untappd_url": "https://untappd.com/b/pivovar-cestmir-fiction-apa-10/5277126",
-      "untappd_name": "Fiction APA 10",
-      "untappd_brewery": "Pivovar Čestmír",
-      "rating": 3.58,
-      "match_score": 1.0,
-      "matched_at": "2026-08-03T19:47:58Z",
-      "query_used": "Fiction APA 10° Čestmír",
-      "description": "Fiction APA 10 od Pivovaru Čestmír je typické amber ale s mírnou hořkostí a vyváženou sladkostí, 4,2 % alkoholu, vhodné na odpolední setkání s přáteli nebo jako doplněk k lehkým jídlům."
-    },
     "ambasada::Čestmír, Brandýs nad Labem::Frida Revolution": {
       "untappd_url": "https://untappd.com/b/pivovar-cestmir-frida-revolucion/4413649",
       "untappd_name": "Frida Revolucion",
@@ -963,16 +883,6 @@
       "match_score": 0.8571,
       "matched_at": "2026-05-19T20:28:43Z",
       "query_used": "Frida Revolution Čestmír"
-    },
-    "ambasada::Čestmír, Brandýs nad Labem::Letní Mlha": {
-      "untappd_url": "https://untappd.com/b/pivovar-cestmir-letni-mlha/5422326",
-      "untappd_name": "Letní mlha",
-      "untappd_brewery": "Pivovar Čestmír",
-      "rating": 3.81,
-      "match_score": 1.0,
-      "matched_at": "2026-07-28T17:39:37Z",
-      "query_used": "Letní Mlha Čestmír",
-      "description": "Letní mlha od Pivovaru Čestmír je jemná hazy pale ale s 4 % alkoholu a 11° stupňovitosti, která potěší příznivce mírně ovocného stylu a hodí se na osvěžující letní den."
     },
     "ambasada::Čestmír, Brandýs nad Labem::Pink Guava Maracuja": {
       "untappd_url": "https://untappd.com/b/pivovar-cestmir-sour-pink-guava-maracuja/6534373",
@@ -1028,26 +938,6 @@
       "matched_at": "2026-07-15T20:14:57Z",
       "query_used": "Helenka 11° Agent"
     },
-    "beerstreet::Agent::Léto": {
-      "untappd_url": "https://untappd.com/b/pivovar-agent-leto/5400226",
-      "untappd_name": "Léto",
-      "untappd_brewery": "Pivovar Agent",
-      "rating": 3.39,
-      "match_score": 1.0,
-      "matched_at": "2026-08-01T20:11:29Z",
-      "query_used": "Léto 11° Agent",
-      "description": "Léto od Pivovaru Agent je světlý ležák s 4,2 % alkoholu a 11° stupňovitostí, který osvěží v letních dnech a hodí se na odpolední posezení u grilu."
-    },
-    "beerstreet::Agent::Moves - Broskev + Liči": {
-      "untappd_url": "https://untappd.com/b/pivovar-agent-moves-exotic/4961829",
-      "untappd_name": "Moves – Exotic",
-      "untappd_brewery": "Pivovar Agent",
-      "rating": 3.76,
-      "match_score": 0.5,
-      "matched_at": "2026-08-08T19:34:33Z",
-      "query_used": "Moves Agent",
-      "description": "Exotic od Pivovaru Agent je pastry sour s mírnou kyselostí a ovocným charakterem, 4,4 % ABV a 11° stupňovitosti, který potěší milovníky jemných ovocných sourů v letních odpoledních nebo při neformálních setkáních s přáteli."
-    },
     "beerstreet::Agent::Moves - jahody+hroz. víno": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-moves-white-grapes-and-strawberries/4836340",
       "untappd_name": "Moves – White Grapes and Strawberries",
@@ -1076,16 +966,6 @@
       "query_used": "Pale Lager 11° Agent",
       "description": "Pale Lager 11 od Pivovaru Agent je světlý ležák s 11° stupňovitostí a 4,9 % alkoholu, který potěší příznivce mírně hořkého, osvěžujícího stylu s průměrným hodnocením 3,46 na Untappd."
     },
-    "beerstreet::Agent::Stylish Girl - malina": {
-      "untappd_url": "https://untappd.com/b/pivovar-agent-stylish-girl-raspberry-milkshake-neipa/5517076",
-      "untappd_name": "Stylish Girl - Raspberry Milkshake NEIPA",
-      "untappd_brewery": "Pivovar Agent",
-      "rating": 3.82451,
-      "match_score": 1.0,
-      "matched_at": "2026-07-24T19:47:15Z",
-      "query_used": "<override>",
-      "description": "Stylish Girl je mléčný NEIPA s 5,9 % alkoholu a 13 stupni. Vhodné je na letní posezení s přáteli nebo neformální setkání."
-    },
     "beerstreet::Avar::The FiRsT": {
       "untappd_url": "https://untappd.com/b/avar-brewing-co-the-first-11-deg/5218056",
       "untappd_name": "ThE FiRsT 11°",
@@ -1113,16 +993,6 @@
       "match_score": 1.0,
       "matched_at": "2026-05-22T20:41:04Z",
       "query_used": "Pivorožec Brewnicorn"
-    },
-    "beerstreet::Brewnicorn::Raspberry": {
-      "untappd_url": "https://untappd.com/b/brewnicorn-raspberry/6779570",
-      "untappd_name": "Raspberry",
-      "untappd_brewery": "Brewnicorn",
-      "rating": 3.81,
-      "match_score": 1.0,
-      "matched_at": "2026-07-29T17:20:40Z",
-      "query_used": "Raspberry Brewnicorn",
-      "description": "Raspberry od Brewnicornu je osvěžující sour s lehkou ovocnou charakteristikou, 4,2 % alkoholu a mírnou kyselostí, který potěší milovníky ovocných sourů a hodí se na letní den nebo k odpočinku po práci. S hodnocením 3,81 na Untappd patří mezi oblíbené kousky."
     },
     "beerstreet::Chroust::EXTRA EXTRA": {
       "untappd_url": "https://untappd.com/b/chroust-extra-extra/6656532",
@@ -1177,26 +1047,6 @@
       "match_score": 1.0,
       "matched_at": "2026-05-15T20:14:37Z",
       "query_used": "Mosaic Duck&Dog"
-    },
-    "beerstreet::Fenek::Cherry pie": {
-      "untappd_url": "https://untappd.com/b/fenek-craft-beer-cherry-pie-goose/6706071",
-      "untappd_name": "Cherry Pie Goose",
-      "untappd_brewery": "Fenek Craft Beer",
-      "rating": 3.38,
-      "match_score": 1.0,
-      "matched_at": "2026-07-31T19:42:15Z",
-      "query_used": "Cherry pie Fenek",
-      "description": "Cherry Pie Goose od FENEK Craft Beer je sour‑gose s 4,8 % alkoholu a 12° stupňovitosti, mírně kyselé a osvěžující, ideální na letní den nebo k odpočinku po práci."
-    },
-    "beerstreet::Fenek::Fenek": {
-      "untappd_url": "https://untappd.com/b/fenek-craft-beer-svetly-lezak-11-deg/3322596",
-      "untappd_name": "Světlý ležák 11°",
-      "untappd_brewery": "Fenek Craft Beer",
-      "rating": 3.4,
-      "match_score": 0.0,
-      "matched_at": "2026-07-28T15:24:45Z",
-      "query_used": "Fenek 11° Fenek",
-      "description": "Světlý ležák 11° od Fenek Craft Beer má mírnou sílu 4,6 % ABV a nabízí klasické, vyvážené chody, který potěší příznivce tradičních českých ležáků během odpoledního setkání s přáteli."
     },
     "beerstreet::Fracek::Guamansi": {
       "untappd_url": "https://untappd.com/b/fracek-guamansi/6729422",
@@ -1279,16 +1129,6 @@
       "matched_at": "2026-04-30T20:07:48Z",
       "query_used": "American Pale Ale Hřebec"
     },
-    "beerstreet::Hřebec::Hřebec": {
-      "untappd_url": "https://untappd.com/b/pivovar-hrebec-11-deg-lezak/6340661",
-      "untappd_name": "11° Ležák",
-      "untappd_brewery": "Pivovar Hřebec",
-      "rating": 3.58,
-      "match_score": 0.0,
-      "matched_at": "2026-07-30T19:41:09Z",
-      "query_used": "Hřebec 11° Hřebec",
-      "description": "Světlý ležák 11° od Pivovaru Hřebec s 4,6 % alkoholu má mírnou až střední plnost a hodnocení 3,58/5, vhodný na běžné posezení či odpolední setkání s přáteli."
-    },
     "beerstreet::Hřebec::Ležák světlý": {
       "untappd_url": "https://untappd.com/b/pivovar-hrebec-11deg-lezak/6340661",
       "untappd_name": "11° Ležák",
@@ -1306,36 +1146,6 @@
       "match_score": 1.0,
       "matched_at": "2026-04-24T19:50:41Z",
       "query_used": "Summer Ale Hřebec"
-    },
-    "beerstreet::Kamenice::American lager": {
-      "untappd_url": "https://untappd.com/b/pivovar-kamenice-nad-lipou-american-lager-11-deg/6501625",
-      "untappd_name": "American Lager 11°",
-      "untappd_brewery": "Pivovar Kamenice nad Lipou",
-      "rating": 3.67,
-      "match_score": 1.0,
-      "matched_at": "2026-07-31T19:42:12Z",
-      "query_used": "American lager 11° Kamenice",
-      "description": "American Lager 11° od Pivovaru Kamenice nad Lipou je svěžím světlým ležákem s mírnou silou 4,7 % ABV, který potěší příznivce klasických lagerů a hodí se na letní osvěžení nebo neformální setkání s přáteli."
-    },
-    "beerstreet::Kamenice::Kamenická": {
-      "untappd_url": "https://untappd.com/b/pivovar-kamenice-nad-lipou-kamenicka-11/2606694",
-      "untappd_name": "Kamenická 11",
-      "untappd_brewery": "Pivovar Kamenice nad Lipou",
-      "rating": 3.47,
-      "match_score": 1.0,
-      "matched_at": "2026-07-29T17:20:19Z",
-      "query_used": "Kamenická 11° Kamenice",
-      "description": "Kamenická 11 je světlý ležák s 4,7 % alkoholu a 11° stupňovitostí. Hodí se na běžné posezení i letní osvěžení."
-    },
-    "beerstreet::Kamenice::Summer Ale": {
-      "untappd_url": "https://untappd.com/b/pivovar-kamenice-nad-lipou-summer-ale-9/6770335",
-      "untappd_name": "Summer Ale 9",
-      "untappd_brewery": "Pivovar Kamenice nad Lipou",
-      "rating": 3.38,
-      "match_score": 1.0,
-      "matched_at": "2026-07-25T20:12:47Z",
-      "query_used": "Summer Ale Kamenice",
-      "description": "Letní ale s mírnou silou 3,8 % ABV a 9,5 ° stupňovitosti, lehce osvěžující a vhodné na letní den nebo odpolední setkání, hodnocení 3,38/5 na Untappd."
     },
     "beerstreet::Klenot & Zmajska::Dragon Gem": {
       "untappd_url": "https://untappd.com/b/hradecky-klenot-dragon-gem/6752717",
@@ -1417,26 +1227,6 @@
       "match_score": 0.2143,
       "matched_at": "2026-05-27T07:22:53Z",
       "query_used": "Pomeranč + skořice Klenot"
-    },
-    "beerstreet::Klenot::Sour Ale - guava + rozmarýn": {
-      "untappd_url": "https://untappd.com/b/hradecky-klenot-brusinka-sour-ale-12/5873420",
-      "untappd_name": "Brusinka Sour ALE 12",
-      "untappd_brewery": "Hradecký Klenot",
-      "rating": null,
-      "match_score": 0.375,
-      "matched_at": "2026-07-29T15:11:08Z",
-      "query_used": "Sour Ale 12° Klenot",
-      "description": "Brusinka Sour ALE 12 od Hradeckého Klenotu je lehký sour ale s mírnou kyselostí a 3,7 % alkoholu. Vhodné na letní den nebo k odpočinku po práci."
-    },
-    "beerstreet::Klenot::Sour Ale Guava + rozmaryn": {
-      "untappd_url": "https://untappd.com/b/hradecky-klenot-guavw-with-rosemary-kvajava-s-rozmarynem-12/6735312",
-      "untappd_name": "Guava with a Hint of Rosemary / Kvajáva s rozmarýnem 12",
-      "untappd_brewery": "Hradecký Klenot",
-      "rating": 3.818,
-      "match_score": 1.0,
-      "matched_at": "2026-07-24T19:47:22Z",
-      "query_used": "<override>",
-      "description": "Guava with a Hint of Rosemary je lehký sour ale s 3,7 % alkoholu a 12° stupňovitosti. Vhodné pro osvěžení v letním dni nebo při neformální setkání."
     },
     "beerstreet::Klenot::Vera & Mosaic": {
       "untappd_url": "https://untappd.com/b/hradecky-klenot-vera-and-mosaic-hazy-ale-12/6709729",
@@ -1547,16 +1337,6 @@
       "match_score": 1.0,
       "matched_at": "2026-07-17T18:10:17Z",
       "query_used": "Horňácká 11° Louka"
-    },
-    "beerstreet::Louka::Kontráš": {
-      "untappd_url": "https://untappd.com/b/pivovar-louka-kontras-12/3903539",
-      "untappd_name": "Kontráš 12",
-      "untappd_brewery": "Pivovar Louka",
-      "rating": 3.35,
-      "match_score": 1.0,
-      "matched_at": "2026-07-25T20:12:39Z",
-      "query_used": "Kontráš 12° Louka",
-      "description": "Kontráš 12 od Pivovaru Louka je klasický světlý ležák s mírnou silou 4,6 % ABV a 12° stupňovitostí, který potěší příznivce vyváženého stylu a hodí se na běžné posezení nebo odpolední setkání."
     },
     "beerstreet::Louka::Kuželka": {
       "untappd_url": "https://untappd.com/b/pivovar-louka-kuzelka/4615473",
@@ -1766,16 +1546,6 @@
       "matched_at": "2026-05-22T09:08:55Z",
       "query_used": "Extra hořká 11° Mazák"
     },
-    "beerstreet::Mazák::Svatojánský": {
-      "untappd_url": "https://untappd.com/b/pivovar-mazak-svatojansky-13/6751459",
-      "untappd_name": "Svatojánský Modern Pale Ale 13",
-      "untappd_brewery": "Pivovar Mazák",
-      "rating": 3.85,
-      "match_score": 1.0,
-      "matched_at": "2026-07-30T19:41:12Z",
-      "query_used": "Svatojánský 13° Mazák",
-      "description": "Svatojánský Modern Pale Ale 13 od Pivovaru Mazák je moderní pale ale s mírnou až střední silou 5,5 % ABV a příjemnou pitelností, vhodný na letní posezení nebo neformální setkání s přáteli."
-    },
     "beerstreet::Mazák::Tropical Wave": {
       "untappd_url": "https://untappd.com/b/pivovar-mazak-tropical-wave-11/6652946",
       "untappd_name": "Tropical Wave 11",
@@ -1784,16 +1554,6 @@
       "match_score": 1.0,
       "matched_at": "2026-05-19T20:28:39Z",
       "query_used": "Tropical Wave Mazák"
-    },
-    "beerstreet::Moravia::Kluzák": {
-      "untappd_url": "https://untappd.com/b/pivovar-moravia-medlanecky-kluzak-11/3088875",
-      "untappd_name": "Medlánecký Kluzák 11",
-      "untappd_brewery": "Pivovar Moravia",
-      "rating": 3.33,
-      "match_score": 1.0,
-      "matched_at": "2026-08-07T00:07:11Z",
-      "query_used": "Kluzák 11° Moravia",
-      "description": "Medlánecký Kluzák 11 od Pivovaru Moravia je světlý ležák s 4,7 % alkoholu a 11° stupňovitosti, který potěší příznivce mírně silnějšího, ale stále osvěžujícího stylu a hodí se na letní posezení u kamaráda."
     },
     "beerstreet::Mordýř::Nectaron": {
       "untappd_url": "https://untappd.com/b/pivovar-mordyr-nectaron-smash-ale/6361344",
@@ -1888,16 +1648,6 @@
       "matched_at": "2026-04-17T19:07:45Z",
       "query_used": "Premiér Ovipistán"
     },
-    "beerstreet::Permon::Joe in the garden, meruňka": {
-      "untappd_url": "https://untappd.com/b/pivovar-permon-joe-in-the-garden-merunka-gose/6143378",
-      "untappd_name": "Joe In the Garden-Meruňka Gose",
-      "untappd_brewery": "Pivovar Permon",
-      "rating": 3.99,
-      "match_score": 1.0,
-      "matched_at": "2026-08-04T19:43:45Z",
-      "query_used": "Joe in the garden, meruňka Permon",
-      "description": "Joe In the Garden-Meruňka Gose od Permona je ovocný sour‑gose s mírnou kyselostí a lehkou sladkostí, 5,8 % alkoholu a 12° stupňovitosti, vhodné na letní odpoledne nebo při přátelském posezení, hodnoceno 3,99/5 na Untappd."
-    },
     "beerstreet::Permon::Summer Ale": {
       "untappd_url": "https://untappd.com/b/pivovar-permon-pivni-jistota-summer-ale-10-deg/3830056",
       "untappd_name": "Pivní Jistota Summer Ale 10°",
@@ -1925,36 +1675,6 @@
       "match_score": 1.0,
       "matched_at": "2026-06-18T17:18:09Z",
       "query_used": "<override>"
-    },
-    "beerstreet::Pionner::Summer Citra & Motueka": {
-      "untappd_url": "https://untappd.com/b/pioneer-beer-summer-citra-motueka/6818184",
-      "untappd_name": "Summer - Citra + Motueka",
-      "untappd_brewery": "Pioneer Beer",
-      "rating": 3.89,
-      "match_score": 1.0,
-      "matched_at": "2026-08-08T16:39:55Z",
-      "query_used": "<llm>",
-      "description": "Letní ale s lehkou až střední silou (10° stupňovitost, 3,9 % ABV) od pivovaru Pioneer Beer, hodnocená 3,89 / 5 na Untappd, je osvěžujícím doplňkem pro slunečné dny a neformální setkání."
-    },
-    "beerstreet::Poupě::Summer Ale": {
-      "untappd_url": "https://untappd.com/b/pivovarsky-dum-poupe-summer-ale/5853620",
-      "untappd_name": "Summer Ale 10°",
-      "untappd_brewery": "Pivovarský dům Poupě",
-      "rating": 3.49,
-      "match_score": 1.0,
-      "matched_at": "2026-07-24T18:22:20Z",
-      "query_used": "Summer Ale 10° Poupě",
-      "description": "Letní ale s mírnou sladkostí a lehkou hořkostí, 4 % alkoholu, vhodná na osvěžující osvěžení v horkých dnech. Hodnocení 3,49 hvězdiček na Untappd potvrzuje její průměrnou kvalitu."
-    },
-    "beerstreet::Raven::Summer Citra": {
-      "untappd_url": "https://untappd.com/b/pivovar-raven-summer-citra/2191517",
-      "untappd_name": "Summer Citra",
-      "untappd_brewery": "Pivovar Raven",
-      "rating": 3.65,
-      "match_score": 1.0,
-      "matched_at": "2026-08-01T18:02:57Z",
-      "query_used": "Summer Citra 11° Raven",
-      "description": "Summer Citra od Pivovaru Raven je lehký Session IPA s 4,7 % alkoholu a 11° stupňovitosti, který potěší příjemnou hořkostí a osvěžujícím profilem, ideální pro letní posezení s přáteli."
     },
     "beerstreet::Sqbru::Sůl12 - Chilliout": {
       "untappd_url": "https://untappd.com/b/sqbru-skju-bru-sul12-chilliout/6607628",
@@ -2046,16 +1766,6 @@
       "matched_at": "2026-05-28T17:36:28Z",
       "query_used": "Ležák 11° Tvarg"
     },
-    "beerstreet::Twinberg::Karel": {
-      "untappd_url": "https://untappd.com/b/twinberg-karel-11-deg/5632847",
-      "untappd_name": "Karel 11°",
-      "untappd_brewery": "Twinberg",
-      "rating": 3.5,
-      "match_score": 1.0,
-      "matched_at": "2026-08-08T16:39:38Z",
-      "query_used": "Karel 11° Twinberg",
-      "description": "Karel 11° od Twinbergu je světlý ležák s mírnou silou 4,2 % ABV, který potěší příjemným pivením a hodí se na běžné posezení i odpolední setkání s přáteli."
-    },
     "beerstreet::U Vojtěchů::Artur": {
       "untappd_url": "https://untappd.com/b/pivovar-u-vojtechu-artur/6303126",
       "untappd_name": "Artur",
@@ -2082,16 +1792,6 @@
       "match_score": 1.0,
       "matched_at": "2026-05-20T09:45:20Z",
       "query_used": "Jan Kašpar"
-    },
-    "beerstreet::U Vojtěchů::Podlipák": {
-      "untappd_url": "https://untappd.com/b/pivovar-u-vojtechu-podlipak-11/4081441",
-      "untappd_name": "Podlipák 11",
-      "untappd_brewery": "Pivovar U Vojtěchů",
-      "rating": 3.56,
-      "match_score": 1.0,
-      "matched_at": "2026-08-04T23:07:11Z",
-      "query_used": "Podlipák 11° U Vojtěchů",
-      "description": "Podlipák 11 od Pivovaru U Vojtěchů je svěží ležák s mírnou sladkostí a vyváženou hořkostí, vhodný na letní osvěžení nebo neformální setkání s přáteli. Obsah alkoholu 4,4 % zajišťuje lehký pocit, zatímco 11° stupňovitost dodává plnější tělo."
     },
     "beerstreet::U Vojtěchů::Silver A": {
       "untappd_url": "https://untappd.com/b/pivovar-u-vojtechu-silver-a/6751896",
@@ -2156,46 +1856,6 @@
       "matched_at": "2026-06-02T18:07:43Z",
       "query_used": "Vinohradská 11° Vinohradský"
     },
-    "beerstreet::Vinohradský::APA": {
-      "untappd_url": "https://untappd.com/b/vinohradsky-pivovar-our-first-apa-13/1085042",
-      "untappd_name": "Our First APA 13",
-      "untappd_brewery": "Vinohradský pivovar",
-      "rating": 3.63,
-      "match_score": 1.0,
-      "matched_at": "2026-07-24T18:22:27Z",
-      "query_used": "APA Vinohradský",
-      "description": "Our First APA 13 od Vinohradského pivovaru je průměrně silné 4,5 % ABV s 11° stupňovitostí, stylově vyvážené a vhodné na běžné posezení nebo odpolední setkání s přáteli."
-    },
-    "beerstreet::Vinohradský::Liberator": {
-      "untappd_url": "https://untappd.com/b/vinohradsky-pivovar-liberator/3790452",
-      "untappd_name": "Liberator",
-      "untappd_brewery": "Vinohradský pivovar",
-      "rating": 3.6,
-      "match_score": 1.0,
-      "matched_at": "2026-07-24T19:47:08Z",
-      "query_used": "Liberator Vinohradský",
-      "description": "Liberator od Vinohradského pivovaru je stylizovaný APA s mírnou až střední silou (4,5 % ABV). Vhodný je na odpolední setkání s přáteli nebo uvolněný večer."
-    },
-    "beerstreet::Vinohradský::Vinohradská": {
-      "untappd_url": "https://untappd.com/b/vinohradsky-pivovar-vinohradska-11/916918",
-      "untappd_name": "Vinohradská 11",
-      "untappd_brewery": "Vinohradský pivovar",
-      "rating": 3.54,
-      "match_score": 1.0,
-      "matched_at": "2026-07-25T14:39:37Z",
-      "query_used": "Vinohradská 11° Vinohradský",
-      "description": "Vinohradská 11 je klasické světlé ležáky s mírnou pitelností 4,5 % ABV a stupňovitostí 11°, který potěší příznivce vyváženého stylu vhodného na běžné posezení i odpolední setkání."
-    },
-    "beerstreet::Vorkloster::Munich Helles": {
-      "untappd_url": "https://untappd.com/b/klasterni-pivovar-porta-coeli-vorkloster-helles-12/4520675",
-      "untappd_name": "Vorkloster Munich Helles",
-      "untappd_brewery": "Klášterní pivovar Porta Coeli",
-      "rating": 3.47903,
-      "match_score": 1.0,
-      "matched_at": "2026-07-24T19:50:50Z",
-      "query_used": "<override>",
-      "description": "Vorkloster Munich Helles od Klášterního pivovaru Porta Coeli je klasické polotmavé ležácké pivo s mírnou sladkostí a elegantní hořkostí, 4,9 % alkoholu a 12° stupňovitosti, vhodné na osvěžující letní den nebo při neformální setkání s přáteli."
-    },
     "beerstreet::Zichovec::Everyday Juice": {
       "untappd_url": "https://untappd.com/b/pivovar-zichovec-everyday-juice-12/6619650",
       "untappd_name": "Everyday Juice 12",
@@ -2231,16 +1891,6 @@
       "match_score": 1.0,
       "matched_at": "2026-05-29T17:34:32Z",
       "query_used": "American Pale Lager 10° Záhora"
-    },
-    "beerstreet::Záhora::Lost Angels": {
-      "untappd_url": "https://untappd.com/b/pivovar-zahora-13-la-i2-lost-angels/6791084",
-      "untappd_name": "13.LA.I2 Lost Angels",
-      "untappd_brewery": "Pivovar Záhora",
-      "rating": null,
-      "match_score": 1.0,
-      "matched_at": "2026-08-04T17:53:37Z",
-      "query_used": "Lost Angels 13° Záhora",
-      "description": "13.LA.I2 Lost Angels je hazy session IPA s 13° stupňovitostí a 5 % alkoholu, nabízí svěží, lehce zakalený profil vhodný k letnímu posezení nebo k lehkým pokrmům."
     },
     "beerstreet::Záhora::NewZealand Lager": {
       "untappd_url": "https://untappd.com/b/pivovar-zahora-new-zealand-pale-lager/6340595",
@@ -2332,26 +1982,6 @@
       "matched_at": "2026-04-22T17:58:12Z",
       "query_used": "Orion μ Černý potoka"
     },
-    "beerstreet::Černý potoka::Pegasus": {
-      "untappd_url": "https://untappd.com/b/cerny-potoka-pegasus/6757517",
-      "untappd_name": "Pegasus",
-      "untappd_brewery": "černý potoka",
-      "rating": 3.69,
-      "match_score": 1.0,
-      "matched_at": "2026-07-28T15:24:55Z",
-      "query_used": "Pegasus Černý potoka",
-      "description": "Pegasus od černého potoka je hazy session IPA s mírnou 4,7% alkoholem, vhodný na letní odpoledne a přátelské setkání, s hodnocením 3.69 na Untappd."
-    },
-    "beerstreet::Čestmír::Maunga": {
-      "untappd_url": "https://untappd.com/b/pivovar-cestmir-milkshake-session-12-deg-with-raspberry-blackberry-mango/6377526",
-      "untappd_name": "Milkshake Session 12° With Raspberry, Blackberry, Mango",
-      "untappd_brewery": "Pivovar Čestmír",
-      "rating": 3.91,
-      "match_score": 0.4,
-      "matched_at": "2026-08-07T00:07:05Z",
-      "query_used": "Maunga 12° Čestmír",
-      "description": "Lehký new zealand pilsner s 5 % alkoholu a 12° stupňovitosti, který osvěží vaše letní chvíle a hodí se na neformální posezení s přáteli."
-    },
     "beerstreet::Čestmír::Pink Guava Maracuja": {
       "untappd_url": "https://untappd.com/b/pivovar-cestmir-sour-pink-guava-maracuja/6534373",
       "untappd_name": "Sour Pink Guava Maracuja",
@@ -2406,26 +2036,6 @@
       "matched_at": "2026-06-17T22:06:03Z",
       "query_used": "Bard Švabín"
     },
-    "uzamastilu::Beskydský Pivovárek::Ležák": {
-      "untappd_url": "https://untappd.com/b/beskydsky-pivovarek-beskydsky-lezak/551041",
-      "untappd_name": "Beskydský ležák",
-      "untappd_brewery": "Beskydský pivovárek",
-      "rating": 3.46,
-      "match_score": 1.0,
-      "matched_at": "2026-07-30T19:41:17Z",
-      "query_used": "Ležák 11° Beskydský Pivovárek",
-      "description": "Beskydský ležák od Beskydského pivováreku je středně silný ležák s mírně sladkým profilem, vhodný pro běžné posezení i osvěžení po práci. Hodnocení na Untappd dosahuje 3.46 / 5."
-    },
-    "uzamastilu::Brewnicorn::Hoppla! Continental": {
-      "untappd_url": "https://untappd.com/b/brewnicorn-hoppla/6791335",
-      "untappd_name": "Hoppla!",
-      "untappd_brewery": "Brewnicorn",
-      "rating": 3.70909,
-      "match_score": 1.0,
-      "matched_at": "2026-07-27T16:09:53Z",
-      "query_used": "<override>",
-      "description": "Hoppla! od Brewnicornu je lehký pale ale s mírnou až střední silou (12°), který potěší příznivce klasických piv s příjemnou pitelností a průměrným hodnocením 3,71 / 5 na Untappd. Vhodné na běžné posezení i mírně delší setkání."
-    },
     "uzamastilu::Budvar::Birgo Mango-Limetka": {
       "untappd_url": "https://untappd.com/b/budejovicky-budvar-birgo-mango-limetka/4803777",
       "untappd_name": "BirGo Mango - Limetka",
@@ -2435,16 +2045,6 @@
       "matched_at": "2026-07-23T19:07:20Z",
       "query_used": "Birgo Mango-Limetka Budvar",
       "description": "BirGo Mango - Limetka od Budvaru je osvěžující, lehké pivo s nulovou stupňovitostí, ideální pro letní posezení a neformální setkání."
-    },
-    "uzamastilu::Chroust::Shaolin Shark": {
-      "untappd_url": "https://untappd.com/b/chroust-shaolin-shark/6797775",
-      "untappd_name": "Shaolin Shark",
-      "untappd_brewery": "Chroust",
-      "rating": 3.8,
-      "match_score": 1.0,
-      "matched_at": "2026-07-24T18:23:17Z",
-      "query_used": "Shaolin Shark Chroust",
-      "description": "IPA s mírně vyšší extraktem 12° nabízí vyváženou hořkost a aromatické chmelové tóny, vhodná pro odpolední setkání nebo neformální posezení. S průměrným hodnocením 3.8 na Untappd ji ocení milovníci chmelených piv."
     },
     "uzamastilu::Clock::Hex": {
       "untappd_url": "https://untappd.com/b/pivovar-clock-hex/6717949",
@@ -2456,85 +2056,6 @@
       "query_used": "Hex Clock",
       "description": "HEX od Pivovaru Clock je moderní pale ale s mírnou hořkostí a ovocným aroma, který osvěží při letním posezení nebo u neformálního setkání s přáteli. S vyváženou silou a lehkou pitelností se hodí na odpolední relaxaci."
     },
-    "uzamastilu::Clock::Hex Modern Pale Ale": {
-      "untappd_url": "https://untappd.com/b/pivovar-clock-hex/6717949",
-      "untappd_name": "HEX",
-      "untappd_brewery": "Pivovar Clock",
-      "rating": 3.64,
-      "match_score": 1.0,
-      "matched_at": "2026-07-24T06:55:31Z",
-      "query_used": "Hex Clock"
-    },
-    "uzamastilu::Hauskrecht::Brněnská 11": {
-      "untappd_url": "https://untappd.com/b/brnenska-pivovarnicka-spolecnost-hauskrecht-brnenska-11/917211",
-      "untappd_name": "Hauskrecht Brněnská 11",
-      "untappd_brewery": "Brněnská pivovarnická společnost",
-      "rating": 3.38,
-      "match_score": 1.0,
-      "matched_at": "2026-08-04T17:54:02Z",
-      "query_used": "<llm>",
-      "description": "Hauskrecht Brněnská 11 je klasické 11° ležáky od Brněnské pivovarnické společnosti s mírnou až střední silou, vhodné pro běžné setkání s přáteli."
-    },
-    "uzamastilu::Hauskrecht::Brněnská 12": {
-      "untappd_url": "https://untappd.com/b/brnenska-pivovarnicka-spolecnost-hauskrecht-brnenska-12/924325",
-      "untappd_name": "Hauskrecht Brněnská 12",
-      "untappd_brewery": "Brněnská pivovarnická společnost",
-      "rating": 3.41,
-      "match_score": 1.0,
-      "matched_at": "2026-08-05T19:43:26Z",
-      "query_used": "<llm>",
-      "description": "Hauskrecht Brněnská 12 je lehký 11° ležák od Brněnské pivovarnické společnosti s mírnou sladkostí a průměrnou hořkostí, vhodný na běžné posezení nebo odpolední setkání."
-    },
-    "uzamastilu::HoppyDog::Sunny Dog": {
-      "untappd_url": "https://untappd.com/b/pivovar-hoppydog-sunny-dog-summer-ale-10/6785110",
-      "untappd_name": "Sunny Dog Summer Ale 10",
-      "untappd_brewery": "Pivovar HoppyDog",
-      "rating": 3.7,
-      "match_score": 1.0,
-      "matched_at": "2026-08-07T17:03:23Z",
-      "query_used": "Sunny Dog 10° HoppyDog",
-      "description": "Sunny Dog Summer Ale 10 od Pivovaru HoppyDog je středně silné letní ale s mírně vyšší extraktem, vhodné na osvěžení v horkém dni."
-    },
-    "uzamastilu::Hřebec::Summer": {
-      "untappd_url": "https://untappd.com/b/pivovar-hrebec-10-deg-summer-ale/6376217",
-      "untappd_name": "10° Summer Ale",
-      "untappd_brewery": "Pivovar Hřebec",
-      "rating": 3.75,
-      "match_score": 1.0,
-      "matched_at": "2026-08-03T19:48:10Z",
-      "query_used": "Summer 10° Hřebec",
-      "description": "10° Summer Ale od Pivovaru Hřebec je lehký, osvěžující ale s mírnou sladkostí a vyváženou hořkostí, vhodný na letní den a neformální setkání. Průměrné hodnocení 3.75 ukazuje na příjemný, ale nenáročný profil."
-    },
-    "uzamastilu::Kamenice nad Lipou::Ležák": {
-      "untappd_url": "https://untappd.com/b/pivovar-kamenice-nad-lipou-vyrocni-lezak-13/6044423",
-      "untappd_name": "Výroční Ležák 13",
-      "untappd_brewery": "Pivovar Kamenice nad Lipou",
-      "rating": null,
-      "match_score": 1.0,
-      "matched_at": "2026-08-08T17:35:50Z",
-      "query_used": "Ležák Kamenice nad Lipou",
-      "description": "Výroční Ležák 13 od Pivovaru Kamenice nad Lipou je klasické české ležáky s 12° stupňovitostí, mírnou až střední plností a příjemnou pitelností, vhodné pro slavnostní i běžné příležitosti."
-    },
-    "uzamastilu::Kynšperk::Ležák": {
-      "untappd_url": "https://untappd.com/b/kynspersky-pivovar-kynspersky-zajic-12-deg-svetly-lezak/850661",
-      "untappd_name": "Kynšperský Zajíc 12° světlý ležák",
-      "untappd_brewery": "Kynšperský pivovar",
-      "rating": 3.3,
-      "match_score": 1.0,
-      "matched_at": "2026-07-26T16:06:01Z",
-      "query_used": "<llm>",
-      "description": "Kynšperský Zajíc 12° světlý ležák od Kynšperského pivovaru je klasické české pivo s mírnou plností a vyváženou hořkostí, vhodné pro běžné posezení i odpolední setkání s přáteli."
-    },
-    "uzamastilu::Křikloun::West Coast IPA": {
-      "untappd_url": "https://untappd.com/b/krikloun-west-coast-ipa-14-deg/6622541",
-      "untappd_name": "West Coast IPA 14°",
-      "untappd_brewery": "Křikloun",
-      "rating": 3.64,
-      "match_score": 1.0,
-      "matched_at": "2026-07-24T18:23:06Z",
-      "query_used": "West Coast IPA 14° Křikloun",
-      "description": "West Coast IPA od Křiklouna s 14° stupňovitostí nabízí ostrou hořkost a osvěžující kontrast, ideální pro letní grilování nebo odpolední posezení s přáteli."
-    },
     "uzamastilu::Loutkář::Kašpárek": {
       "untappd_url": "https://untappd.com/b/pivovar-loutkar-kasparek-11-svetly-lezak/3940222",
       "untappd_name": "Kašpárek 11 světlý ležák",
@@ -2544,76 +2065,6 @@
       "matched_at": "2026-07-24T13:25:15Z",
       "query_used": "Kašpárek 11° Loutkář",
       "description": "Kašpárek 11 světlý ležák od Pivovaru Loutkář je středně silný ležák, vhodný na běžné posezení i odpolední setkání."
-    },
-    "uzamastilu::Loutkář::Kašpárek Ležák": {
-      "untappd_url": "https://untappd.com/b/pivovar-loutkar-kasparek-11-svetly-lezak/3940222",
-      "untappd_name": "Kašpárek 11 světlý ležák",
-      "untappd_brewery": "Pivovar Loutkář",
-      "rating": 3.46,
-      "match_score": 0.9167,
-      "matched_at": "2026-07-23T19:06:26Z",
-      "query_used": "Kašpárek Ležák 11° Loutkář",
-      "description": "Kašpárek 11 světlý ležák od Pivovaru Loutkář je středně silný (11°) světlý ležák s průměrným hodnocením 3.46 / 5 a hodí se na neformální posezení s přáteli."
-    },
-    "uzamastilu::Madcat::Kochám Se": {
-      "untappd_url": "https://untappd.com/b/madcat-kocham-se/6804594",
-      "untappd_name": "Kochám Se",
-      "untappd_brewery": "MadCat",
-      "rating": null,
-      "match_score": 1.0,
-      "matched_at": "2026-07-31T21:12:17Z",
-      "query_used": "Kochám Se Madcat",
-      "description": "Kochám Se je vysoce aromatické Hazy IPA s mírně vyšší extraktem 12°, nabízí hladký tělesný pocit a vhodné pro neformální posezení s přáteli."
-    },
-    "uzamastilu::Madcat::Ležák": {
-      "untappd_url": "https://untappd.com/b/madcat-madcat-lezak-kamenicky-svetly-lezak/3619166",
-      "untappd_name": "MadCat Ležák / Kamenický světlý ležák ",
-      "untappd_brewery": "MadCat",
-      "rating": 3.46,
-      "match_score": 1.0,
-      "matched_at": "2026-07-24T18:23:23Z",
-      "query_used": "Ležák 12° Madcat",
-      "description": "Středně silné, osvěžující světlé ležáky od MadCatu s 12° stupňovitostí, vhodné na letní posezení u kamaráda. S průměrným tělesem a mírnou hořkostí potěší i ve společnosti."
-    },
-    "uzamastilu::Mazák::Extra Hořká": {
-      "untappd_url": "https://untappd.com/b/pivovar-mazak-eho-11-deg-chmelena-za-studena/6616906",
-      "untappd_name": "Extra hořká 11 za studena chmelená",
-      "untappd_brewery": "Pivovar Mazák",
-      "rating": 3.7,
-      "match_score": 1.0,
-      "matched_at": "2026-08-01T20:11:32Z",
-      "query_used": "Extra Hořká 11° Mazák",
-      "description": "Extra hořký ležák 11° od Pivovaru Mazák, za studena chmelený, má mírnou hořkost a vhodný na osvěžení po práci."
-    },
-    "uzamastilu::Mazák::Ipa": {
-      "untappd_url": "https://untappd.com/b/pivovar-mazak-australian-ipa-14-deg/2388637",
-      "untappd_name": "Australian IPA 14°",
-      "untappd_brewery": "Pivovar Mazák",
-      "rating": 3.76,
-      "match_score": 1.0,
-      "matched_at": "2026-07-31T21:12:08Z",
-      "query_used": "Ipa 14° Mazák",
-      "description": "Australian IPA 14° od pivovaru Mazák patří mezi středně silné IPA s typickým bitter‑sladkým profilem. Je vhodné na letní posezení na čepu nebo jako doplněk k odpočinku po práci."
-    },
-    "uzamastilu::Mazák::Moutere": {
-      "untappd_url": "https://untappd.com/b/pivovar-mazak-moutere-modern-ipa-14/6793799",
-      "untappd_name": "Moutere Modern IPA 14",
-      "untappd_brewery": "Pivovar Mazák",
-      "rating": 3.55,
-      "match_score": 1.0,
-      "matched_at": "2026-07-28T19:40:18Z",
-      "query_used": "Moutere 14° Mazák",
-      "description": "Modern IPA s 14° stupňovitostí od pivovaru Mazák, průměrně hodnocený 3,55 bodu na Untappd, kombinuje vyváženou hořkost s aromatickou komplexností. Vhodné pro odpolední setkání nebo neformální posezení."
-    },
-    "uzamastilu::Mazák::Peach": {
-      "untappd_url": "https://untappd.com/b/pivovar-mazak-peach-gose-11/6806117",
-      "untappd_name": "Peach Gose 11",
-      "untappd_brewery": "Pivovar Mazák",
-      "rating": 3.5,
-      "match_score": 1.0,
-      "matched_at": "2026-08-03T21:09:59Z",
-      "query_used": "Peach 11° Mazák",
-      "description": "Gose s mírnou kyselostí a lehkou soleností, 11° stupňovitosti, vhodná na letní osvěžení nebo neformální posezení."
     },
     "uzamastilu::Mazák::Wai-Wai": {
       "untappd_url": "https://untappd.com/b/pivovar-mazak-wai-wai/6776198",
@@ -2625,72 +2076,13 @@
       "query_used": "Wai-Wai 12° Mazák",
       "description": "Wai-Wai 12 od Pivovaru Mazák je vysoce aromatické a měkké Hazy IPA s mírnou hořkostí, vhodné pro letní odpoledne nebo neformální setkání, ohodnocené 3,74 hvězdičkami na Untappd."
     },
-    "uzamastilu::Mazák::Wai-Wai Hazy IPA": {
-      "untappd_url": "https://untappd.com/b/pivovar-mazak-wai-wai/6776198",
-      "untappd_name": "Wai-Wai 12",
-      "untappd_brewery": "Pivovar Mazák",
-      "rating": 3.74,
-      "match_score": 0.6,
-      "matched_at": "2026-07-24T06:55:42Z",
-      "query_used": "Wai-Wai 12° Mazák"
-    },
-    "uzamastilu::Pale Ale Brewnicorn::Hoppla! Continental": {
-      "untappd_url": "https://untappd.com/b/brewnicorn-hoppla/6791335",
-      "untappd_name": "Hoppla!",
-      "untappd_brewery": "Brewnicorn",
-      "rating": null,
-      "match_score": 1.0,
-      "matched_at": "2026-07-27T05:53:54Z",
-      "query_used": "<override>",
-      "description": "Hoppla! od Brewnicornu je dvanáctistupňové pivo s neznámým obsahem alkoholu, které svým robustním charakterem potěší milovníky silných, aromatických brewů a hodí se na osvěžující večerní setkání."
-    },
-    "uzamastilu::Pioneer Beer::Rezident": {
-      "untappd_url": "https://untappd.com/b/pioneer-beer-rezident/2898266",
-      "untappd_name": "Rezident",
-      "untappd_brewery": "Pioneer Beer",
-      "rating": 3.59,
-      "match_score": 1.0,
-      "matched_at": "2026-08-03T15:46:48Z",
-      "query_used": "Rezident Pioneer Beer",
-      "description": "Rezident od Pioneer Beer je klasický 11° ležák s mírnou až střední silou, který potěší milovníky vyváženého stylu a dobře se hodí na běžné posezení i odpolední setkání. Hodnocení 3.59 na Untappd potvrzuje jeho průměrnou, ale stabilní kvalitu."
-    },
-    "uzamastilu::Plum Sorbet Sibeeria::Blackberry,Raspberry,": {
-      "untappd_url": "https://untappd.com/b/sibeeria-brewery-blackberry-plum-and-raspberry-sorbet/6757224",
-      "untappd_name": "Blackberry, Plum & Raspberry Sorbet",
-      "untappd_brewery": "Sibeeria Brewery",
-      "rating": 3.77,
-      "match_score": 0.9285714285714286,
-      "matched_at": "2026-07-25T16:08:03Z",
-      "query_used": "<llm>",
-      "description": "Ovocné pivo s mírnou sladkostí a ovocným charakterem, vhodné na letní osvěžení. S lehkou až střední tělesností a 11° stupňovitostí nabízí příjemný poměr alkoholu a ovocného projevu, ideální pro neformální setkání."
-    },
-    "uzamastilu::Polička::IPL": {
-      "untappd_url": "https://untappd.com/b/mestansky-pivovar-v-policce-policsky-india-pale-lager/6783487",
-      "untappd_name": "Poličský India Pale Lager",
-      "untappd_brewery": "Měšťanský pivovar v Poličce",
-      "rating": null,
-      "match_score": 0.0,
-      "matched_at": "2026-08-05T19:43:49Z",
-      "query_used": "<llm>",
-      "description": "Polickej India Pale Lager od Měšťanského pivovaru v Poličce je silný 12° lager s neznámým obsahem alkoholu, vhodný pro letní osvěžení i slavnostní okamžiky."
-    },
     "uzamastilu::Polička::Otakar": {
-      "untappd_url": "https://untappd.com/b/mestansky-pivovar-v-policce-otakar-11-velikonocni/6613562",
-      "untappd_name": "Velikonoční Otakar 11%",
-      "untappd_brewery": "Měšťanský pivovar v Poličce",
-      "rating": 3.4,
-      "match_score": 1.0,
-      "matched_at": "2026-07-24T13:25:38Z",
-      "query_used": "Otakar 11° Polička",
-      "description": "Velikonoční Otakar 11% je silný ležák z Měšťanského pivovaru v Poličce s 11° stupňovitostí a mírně nadprůměrným hodnocením 3.40 na Untappu, vhodný pro slavnostní jarní setkání nebo jako doplněk k pečivu."
-    },
-    "uzamastilu::Polička::Otakar Ležák": {
       "untappd_url": "https://untappd.com/b/mestansky-pivovar-v-policce-otakar-11/188783",
       "untappd_name": "Otakar 11%",
       "untappd_brewery": "Měšťanský pivovar v Poličce",
       "rating": 3.33,
-      "match_score": 0.7143,
-      "matched_at": "2026-07-24T06:56:16Z",
+      "match_score": 1.0,
+      "matched_at": "2026-07-24T13:25:38Z",
       "query_used": "Otakar 11° Polička"
     },
     "uzamastilu::Polička::Záviš": {
@@ -2703,45 +2095,6 @@
       "query_used": "Záviš 12° Polička",
       "description": "Záviš 12° nefiltrované je pivo s mírnou plností a lehkou kvasnou charakteristikou, vhodné pro odpočinek po práci nebo setkání s přáteli, s hodnocením 3.42/5 na Untappd."
     },
-    "uzamastilu::Polička::Záviš Nefiltr Ležák": {
-      "untappd_url": "https://untappd.com/b/mestansky-pivovar-v-policce-zavis-12-nefiltrovane/188796",
-      "untappd_name": "Záviš 12° nefiltrované",
-      "untappd_brewery": "Měšťanský pivovar v Poličce",
-      "rating": 3.42,
-      "match_score": 0.6667,
-      "matched_at": "2026-07-24T06:56:03Z",
-      "query_used": "Záviš 12° Polička"
-    },
-    "uzamastilu::Poupě::Summer": {
-      "untappd_url": "https://untappd.com/b/pivovarsky-dum-poupe-summer-ale/5853620",
-      "untappd_name": "Summer Ale 10° (Kohatu, Ekuanot)",
-      "untappd_brewery": "Pivovarský dům Poupě",
-      "rating": 3.51,
-      "match_score": 1.0,
-      "matched_at": "2026-08-06T15:18:36Z",
-      "query_used": "Summer 10° Poupě",
-      "description": "Letní ale s mírnou až střední silou (10°) a průměrným hodnocením 3,5 / 5, vhodná na osvěžující odpoledne ve společnosti přátel."
-    },
-    "uzamastilu::Raven::ColdFest Cold": {
-      "untappd_url": "https://untappd.com/b/pivovar-raven-coldfest-2026/6800289",
-      "untappd_name": "ColdFest 2026",
-      "untappd_brewery": "Pivovar Raven",
-      "rating": 3.55,
-      "match_score": 0.875,
-      "matched_at": "2026-08-08T21:35:05Z",
-      "query_used": "ColdFest Cold",
-      "description": "ColdFest 2026 od Pivovaru Raven je osvěžující IPA s mírnou až střední silou (10°), která potěší příznivce aromatických chmířových not a získala průměrné hodnocení 3,55/5 na Untappd, ideální pro letní večery a neformální setkání."
-    },
-    "uzamastilu::Sibeeria::Blackberry,Raspberry, Plum Sorbet": {
-      "untappd_url": "https://untappd.com/b/sibeeria-brewery-blackberry-plum-and-raspberry-sorbet/6757224",
-      "untappd_name": "Blackberry, Plum & Raspberry Sorbet",
-      "untappd_brewery": "Sibeeria Brewery",
-      "rating": 3.77,
-      "match_score": 0.913,
-      "matched_at": "2026-07-27T15:46:34Z",
-      "query_used": "Blackberry,Raspberry, Plum Sorbet Sibeeria",
-      "description": "Ovocné pivo s mírnou sladkostí a 11° stupňovitostí, které potěší příznivce lehkých, ovocných stylů a dobře se hodí k letním osvěžujícím příležitostem."
-    },
     "uzamastilu::Trautenberk::APA": {
       "untappd_url": "https://untappd.com/b/pivovar-trautenberk-trautenberk-14-apa/1446943",
       "untappd_name": "Trautenberk 14 APA",
@@ -2751,86 +2104,6 @@
       "matched_at": "2026-07-23T19:06:13Z",
       "query_used": "APA 14° Trautenberk",
       "description": "Trautenberk 14 APA je středně silné pivo s 14° stupňovitostí a mírnou hořkostí, vhodné na osvěžení po práci nebo při neformální schůzce."
-    },
-    "uzamastilu::Trautenberk::Ležák": {
-      "untappd_url": "https://untappd.com/b/pivovar-trautenberk-trautenberk-tmavy-lezak/1825642",
-      "untappd_name": "Trautenberk Tmavý ležák",
-      "untappd_brewery": "Pivovar Trautenberk",
-      "rating": 3.46,
-      "match_score": 1.0,
-      "matched_at": "2026-07-25T16:07:48Z",
-      "query_used": "Ležák Trautenberk",
-      "description": "Trautenberk Tmavý ležák je tmavý ležák s 11° stupňovitostí, který potěší příznivce klasických českých piv a hodí se na neformální setkání s přáteli."
-    },
-    "uzamastilu::Twinberg::Moustache": {
-      "untappd_url": "https://untappd.com/b/twinberg-moustache/6755650",
-      "untappd_name": "Moustache",
-      "untappd_brewery": "Twinberg",
-      "rating": 3.98,
-      "match_score": 1.0,
-      "matched_at": "2026-08-08T21:34:53Z",
-      "query_used": "Moustache Twinberg",
-      "description": "Moustache od Twinberg je NEIPA s 14° stupňovitostí a skvělým hodnocením 3.98, nabízí jemnou, aromatickou strukturu a hodí se na neformální setkání s přáteli."
-    },
-    "uzamastilu::Valeč::Prázdniny 2026": {
-      "untappd_url": "https://untappd.com/b/pivovar-valec-prazdniny-2026/6786559",
-      "untappd_name": "Prázdniny 2026",
-      "untappd_brewery": "Pivovar Valeč",
-      "rating": 3.77,
-      "match_score": 1.0,
-      "matched_at": "2026-07-29T19:24:57Z",
-      "query_used": "Prázdniny 2026 Valeč",
-      "description": "Prázdniny 2026 od Pivovaru Valeč je lehký ale s 10° stupňovitostí, který potěší příjemnou pitelností a mírnou sladkostí, ideální pro letní odpoledne a neformální setkání."
-    },
-    "uzamastilu::Zichovec::Thyme is Now": {
-      "untappd_url": "https://untappd.com/b/pivovar-zichovec-thyme-is-now-12/6709089",
-      "untappd_name": "Thyme Is Now 12",
-      "untappd_brewery": "Pivovar ZICHOVEC",
-      "rating": 3.77,
-      "match_score": 1.0,
-      "matched_at": "2026-08-07T14:15:18Z",
-      "query_used": "Thyme is Now 12° Zichovec",
-      "description": "Thyme Is Now 12 od Pivovaru ZICHOVEC je Gose s 12° stupňovitosti a hodnocením 3,77 na Untappd, vhodné pro letní posezení."
-    },
-    "uzamastilu::Záhora::Novozélandský": {
-      "untappd_url": "https://untappd.com/b/pivovar-zahora-novozelanska-11/6638961",
-      "untappd_name": "Novozélanská 11",
-      "untappd_brewery": "Pivovar Záhora",
-      "rating": null,
-      "match_score": 0.75,
-      "matched_at": "2026-07-27T19:42:28Z",
-      "query_used": "Novozélandský 11° Záhora",
-      "description": "Novozélanská 11 od Pivovaru Záhora je středně silný ležák s 11° stupňovitostí. Hodí se na běžné posezení i mírnější oslavu."
-    },
-    "uzamastilu::Záhora::Saaz": {
-      "untappd_url": "https://untappd.com/b/pivovar-zahora-saaz-jedenactka-z-hlavkoveho-chmelu-11-l-r1/4053867",
-      "untappd_name": "SAAZ Jedenáctka z hlávkového chmelu /// 11.L.R1",
-      "untappd_brewery": "Pivovar Záhora",
-      "rating": 3.59,
-      "match_score": 1.0,
-      "matched_at": "2026-07-29T17:20:45Z",
-      "query_used": "Saaz 11° Záhora",
-      "description": "SAAZ Jedenáctka z hlávkového chmelu od Pivovaru Záhora je klasický 11° ležák s mírnou hořkostí a vyváženou sladkostí, který potěší příznivce tradičních českých pilsnerů a hodí se na běžné posezení i menší oslavu."
-    },
-    "uzamastilu::čestmír::čest": {
-      "untappd_url": "https://untappd.com/b/pivovar-cestmir-svetly-lezak-11-deg-cest/4892957",
-      "untappd_name": "Světlý Ležák 11° ČEST",
-      "untappd_brewery": "Pivovar Čestmír",
-      "rating": 3.56,
-      "match_score": 1.0,
-      "matched_at": "2026-08-07T19:04:08Z",
-      "query_used": "čest 11° čestmír",
-      "description": "Světlý ležák od Pivovaru Čestmír s 11° stupňovitostí potěší příznivce klasických českých pilsnerů svou střední plnost a vyváženou hořkostí, ideální na běžné posezení i letní osvěžení."
-    },
-    "uzamastilu::Švabín::Pathfinder": {
-      "untappd_url": "https://untappd.com/b/svabin-brewery-pathfinder/6807375",
-      "untappd_name": "Pathfinder",
-      "untappd_brewery": "Švabín Brewery",
-      "rating": null,
-      "match_score": 1.0,
-      "matched_at": "2026-08-05T21:17:12Z",
-      "query_used": "Pathfinder Švabín",
-      "description": "Pathfinder od Švabín Brewery je moderní NEIPA s 12° stupňovitostí. Je vhodný na neformální posezení s přáteli, kde oceníš jeho aromatické, ovocné tóny."
     }
   },
   "unmatched": {
@@ -2844,19 +2117,9 @@
       "last_tried_at": "2026-05-29T20:26:06Z",
       "reason": "no_candidates_above_threshold"
     },
-    "ambasada::Záhora, Kněžičky::13.NZHIPA": {
-      "attempts": 1,
-      "last_tried_at": "2026-07-31T19:42:20Z",
-      "reason": "no_candidates_above_threshold"
-    },
     "beerstreet::Avar::Kazbek": {
       "attempts": 1,
       "last_tried_at": "2026-06-19T19:00:45Z",
-      "reason": "no_candidates_above_threshold"
-    },
-    "beerstreet::Duck & Dog::D&D Sunrise": {
-      "attempts": 1,
-      "last_tried_at": "2026-08-07T00:07:23Z",
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::Haksna::Our Lager": {
@@ -2864,19 +2127,9 @@
       "last_tried_at": "2026-05-08T20:05:21Z",
       "reason": "upstream_error"
     },
-    "beerstreet::Hauskrecht::Preegl": {
-      "attempts": 1,
-      "last_tried_at": "2026-08-05T17:45:54Z",
-      "reason": "no_candidates_above_threshold"
-    },
     "beerstreet::Hoppy Dog::Mahlerova Osma": {
       "attempts": 1,
       "last_tried_at": "2026-05-30T15:13:41Z",
-      "reason": "no_candidates_above_threshold"
-    },
-    "beerstreet::Hákův par. pivovar::Amík": {
-      "attempts": 1,
-      "last_tried_at": "2026-07-29T17:20:31Z",
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::Klenot::Guava and rosemary": {
@@ -2884,34 +2137,9 @@
       "last_tried_at": "2026-05-22T09:09:16Z",
       "reason": "no_candidates_above_threshold"
     },
-    "beerstreet::Kojetín::Rhubba Hubba - jahoda, rebarbora": {
-      "attempts": 1,
-      "last_tried_at": "2026-08-07T00:07:29Z",
-      "reason": "no_candidates_above_threshold"
-    },
     "beerstreet::Kynšperský zajíc::Summer Ale": {
       "attempts": 1,
       "last_tried_at": "2026-05-30T17:14:51Z",
-      "reason": "no_candidates_above_threshold"
-    },
-    "beerstreet::Mazák::Aramis SHA": {
-      "attempts": 1,
-      "last_tried_at": "2026-08-04T17:53:32Z",
-      "reason": "no_candidates_above_threshold"
-    },
-    "beerstreet::U Vojtěchů::Aleš 29.": {
-      "attempts": 1,
-      "last_tried_at": "2026-08-04T17:53:25Z",
-      "reason": "no_candidates_above_threshold"
-    },
-    "beerstreet::U Vojtěchů::Podlipák - special pro festival": {
-      "attempts": 1,
-      "last_tried_at": "2026-07-29T15:10:58Z",
-      "reason": "no_candidates_above_threshold"
-    },
-    "beerstreet::Václav & Brewnicorn::World Hop Tour": {
-      "attempts": 1,
-      "last_tried_at": "2026-07-31T15:23:31Z",
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::Záhora::Silk Road": {
@@ -2927,21 +2155,6 @@
     "beerstreet::Černý Potoka::Cold Fish Mosaic dry hopped": {
       "attempts": 1,
       "last_tried_at": "2026-06-03T18:24:49Z",
-      "reason": "no_candidates_above_threshold"
-    },
-    "uzamastilu::Fracek::Lagerfuck-3 IPL": {
-      "attempts": 1,
-      "last_tried_at": "2026-07-29T23:02:13Z",
-      "reason": "no_candidates_above_threshold"
-    },
-    "uzamastilu::NZ Hazy IPA Klenot::Rhapsody Of Fog": {
-      "attempts": 1,
-      "last_tried_at": "2026-08-09T20:39:10Z",
-      "reason": "no_candidates_above_threshold"
-    },
-    "uzamastilu::Raspb.Sorbet Sibeeria::Blackberry,Plum &": {
-      "attempts": 1,
-      "last_tried_at": "2026-07-25T14:39:48Z",
       "reason": "no_candidates_above_threshold"
     }
   }
