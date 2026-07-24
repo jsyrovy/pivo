@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-24T19:47:22Z",
+  "generated_at": "2026-07-24T19:50:50Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -1906,6 +1906,16 @@
       "query_used": "Liberator Vinohradský",
       "description": "Liberator od Vinohradského pivovaru je stylizovaný APA s mírnou až střední silou (4,5 % ABV). Vhodný je na odpolední setkání s přáteli nebo uvolněný večer."
     },
+    "beerstreet::Vorkloster::Munich Helles": {
+      "untappd_url": "https://untappd.com/b/klasterni-pivovar-porta-coeli-vorkloster-helles-12/4520675",
+      "untappd_name": "Vorkloster Munich Helles",
+      "untappd_brewery": "Klášterní pivovar Porta Coeli",
+      "rating": 3.47903,
+      "match_score": 1.0,
+      "matched_at": "2026-07-24T19:50:50Z",
+      "query_used": "<override>",
+      "description": "Vorkloster Munich Helles od Klášterního pivovaru Porta Coeli je klasické polotmavé ležácké pivo s mírnou sladkostí a elegantní hořkostí, 4,9 % alkoholu a 12° stupňovitosti, vhodné na osvěžující letní den nebo při neformální setkání s přáteli."
+    },
     "beerstreet::Zichovec::Everyday Juice": {
       "untappd_url": "https://untappd.com/b/pivovar-zichovec-everyday-juice-12/6619650",
       "untappd_name": "Everyday Juice 12",
@@ -2267,11 +2277,6 @@
     "beerstreet::Kynšperský zajíc::Summer Ale": {
       "attempts": 1,
       "last_tried_at": "2026-05-30T17:14:51Z",
-      "reason": "no_candidates_above_threshold"
-    },
-    "beerstreet::Vorkloster::Munich Helles": {
-      "attempts": 1,
-      "last_tried_at": "2026-07-24T19:47:03Z",
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::Záhora::Silk Road": {
