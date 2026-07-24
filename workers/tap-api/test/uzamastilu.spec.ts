@@ -79,6 +79,13 @@ describe("parseUzamastiluJson", () => {
     expect(beers[0]).toMatchObject({ name: "Nealko", style: "Nealko" });
   });
 
+  it("infers Nealko style from a 0° degree when the name carries no style word", () => {
+    const beers = parseUzamastiluJson([
+      { order: 1, name: "Birgo Mango-Limetka", brewery: "Budvar", degree: "00°" },
+    ]);
+    expect(beers[0]).toMatchObject({ name: "Birgo Mango-Limetka", style: "Nealko", degreePlato: 0 });
+  });
+
   it("throws on invalid payload", () => {
     expect(() => parseUzamastiluJson(null)).toThrow(TypeError);
     expect(() => parseUzamastiluJson({})).toThrow(TypeError);

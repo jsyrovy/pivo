@@ -84,6 +84,14 @@ export function extractStyleFromName(name: string): {
   };
 }
 
+// 0° degree Plato is the standard Czech labeling convention for a non-alcoholic beer. Used as a
+// name-extraction fallback for U Zámastilu, which never provides its own style field (e.g. "Birgo
+// Mango-Limetka" carries no style word in the name but is 0° "Nealko"). Beer Street and Ambasada
+// aren't wired to this: they already curate/derive a real `style` from their own source data.
+export function inferStyleFromDegree(degreePlato: number | null): string {
+  return degreePlato === 0 ? "Nealko" : "";
+}
+
 export function formatStyle(raw: string): string {
   const trimmed = raw.trim();
   if (!trimmed) return "";

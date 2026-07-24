@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { extractStyleFromName, formatStyle } from "../src/style";
+import { extractStyleFromName, formatStyle, inferStyleFromDegree } from "../src/style";
 
 describe("formatStyle", () => {
   it("returns empty string for empty input", () => {
@@ -82,5 +82,16 @@ describe("extractStyleFromName", () => {
 
   it("handles empty input", () => {
     expect(extractStyleFromName("")).toEqual({ name: "", style: "" });
+  });
+});
+
+describe("inferStyleFromDegree", () => {
+  it("labels 0° as Nealko", () => {
+    expect(inferStyleFromDegree(0)).toBe("Nealko");
+  });
+
+  it("returns no style for any other degree or unknown degree", () => {
+    expect(inferStyleFromDegree(11)).toBe("");
+    expect(inferStyleFromDegree(null)).toBe("");
   });
 });

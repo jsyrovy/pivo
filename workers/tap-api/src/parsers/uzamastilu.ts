@@ -1,6 +1,6 @@
 import type { Beer } from "../schema";
 import { uzamastiluPricing } from "../pricing";
-import { extractStyleFromName, formatStyle } from "../style";
+import { extractStyleFromName, formatStyle, inferStyleFromDegree } from "../style";
 import { isObject, parseNumber, trimString } from "./json-utils";
 
 interface RawBeer {
@@ -21,13 +21,14 @@ export function parseUzamastiluJson(raw: unknown): Beer[] {
 
   return items
     .map((item): Beer => {
+      const degreePlato = parseDegree(item.degree);
       const { name, style } = extractStyleFromName(cleanName(item.name));
       return {
         name,
         brewery: trimString(item.brewery),
-        style: formatStyle(style),
+        style: formatStyle(style || inferStyleFromDegree(degreePlato)),
         abv: null,
-        degreePlato: parseDegree(item.degree),
+        degreePlato,
         source: "uzamastilu",
         order: parseNumber(item.order),
         pricing: uzamastiluPricing(item.price05, item.price03),
