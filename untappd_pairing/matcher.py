@@ -37,12 +37,30 @@ def name_overlap(beer_name: str, candidate_name: str) -> float:
     return _overlap_from_bigrams(_bigrams(clean_beer_name(beer_name)), candidate_name)
 
 
+_STEM_MIN_LEN = 5
+
+
+def _stem(token: str) -> str:
+    # Czech grammatical case changes a word's ending ("Polička" nominative vs "v Poličce" locative,
+    # as in Untappd's own "Měšťanský pivovar v Poličce"). A tap list writes the base form while
+    # Untappd's brewery name embeds a declined form, so an exact-token subset check never matches.
+    # Trimming the last two characters of longer words compares stems instead of full inflected forms.
+    return token[:-2] if len(token) >= _STEM_MIN_LEN else token
+
+
+def _token_matches(beer_token: str, candidate_tokens: set[str]) -> bool:
+    if beer_token in candidate_tokens:
+        return True
+    beer_stem = _stem(beer_token)
+    return any(beer_stem == _stem(candidate_token) for candidate_token in candidate_tokens)
+
+
 def brewery_matches(beer_brewery: str, candidate_brewery: str) -> bool:
     beer_tokens = set(normalize_for_compare(clean_brewery_name(beer_brewery)).split())
     candidate_tokens = set(normalize_for_compare(clean_brewery_name(candidate_brewery)).split())
     if not beer_tokens or not candidate_tokens:
         return False
-    return beer_tokens.issubset(candidate_tokens)
+    return all(_token_matches(beer_token, candidate_tokens) for beer_token in beer_tokens)
 
 
 def _exact_normalized(beer_name: str, candidate_name: str) -> int:

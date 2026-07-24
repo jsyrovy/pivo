@@ -105,6 +105,50 @@ def test_build_search_queries_drops_style_adjective_fallback_last():
     assert queries[-1] == "Ležák"
 
 
+def test_build_search_queries_drops_trailing_lezak_fallback():
+    # "Otakar Ležák" (U Zámastilu) is "Otakar 11%" on Untappd -- unlike "Ležák světlý", here "Ležák"
+    # is a trailing style noun appended to the beer's own name, not the name itself.
+    queries = build_search_queries("Otakar Ležák", "Polička", degree_plato=11)
+    assert "Otakar Ležák 11° Polička" in queries
+    assert "Otakar 11° Polička" in queries
+    assert queries.index("Otakar Ležák 11° Polička") < queries.index("Otakar 11° Polička")
+    assert queries[-1] == "Otakar"
+
+
+def test_build_search_queries_drops_combined_nefiltr_and_trailing_lezak_fallback():
+    # "Záviš Nefiltr Ležák" (U Zámastilu) is "Záviš 12%" on Untappd -- both the abbreviated "Nefiltr"
+    # adjective and the trailing "Ležák" noun must strip together to reach the bare name.
+    queries = build_search_queries("Záviš Nefiltr Ležák", "Polička", degree_plato=12)
+    assert "Záviš Nefiltr Ležák 12° Polička" in queries
+    assert "Záviš Ležák 12° Polička" in queries
+    assert "Záviš 12° Polička" in queries
+    assert queries[-1] == "Záviš"
+
+
+def test_build_search_queries_drops_trailing_style_phrase_fallback():
+    # "Hex Modern Pale Ale" (U Zámastilu, Pivovar Clock) is just "HEX" on Untappd -- the whole style
+    # is folded into the tap-list name instead of a separate field.
+    queries = build_search_queries("Hex Modern Pale Ale", "Clock", degree_plato=11)
+    assert "Hex Modern Pale Ale 11° Clock" in queries
+    assert "Hex 11° Clock" in queries
+    assert queries.index("Hex Modern Pale Ale 11° Clock") < queries.index("Hex 11° Clock")
+    assert queries[-1] == "Hex"
+
+    queries = build_search_queries("Wai-Wai Hazy IPA", "Mazák", degree_plato=12)
+    assert "Wai-Wai Hazy IPA 12° Mazák" in queries
+    assert "Wai-Wai 12° Mazák" in queries
+    assert queries[-1] == "Wai-Wai"
+
+
+def test_build_search_queries_keeps_style_word_that_is_the_whole_name():
+    # A bare style name can legitimately be the entire beer name -- only a *trailing* style phrase
+    # appended after something else is dropped.
+    queries = build_search_queries("IPA", "")
+    assert queries == ["IPA"]
+    queries = build_search_queries("Italian Pilsner", "Sibeeria")
+    assert all(q != "Italian" for q in queries)
+
+
 def test_build_search_queries_drops_ingredient_note_fallback():
     # "Fresh Breakfast 001 - meruňka+maracuja+mango" (Louka) is "Fresh Breakfast 001" on Untappd; the
     # full name returns nothing, so the note-stripped form is tried as a fallback.

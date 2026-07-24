@@ -12,8 +12,25 @@ _DRYHOP_RE = re.compile(r"\b(?:(?:double|triple) )?dry[ -]?hop(?:ped|s)?\b", re.
 # A generic Czech style adjective a tap list appends ("Ležák světlý") that the Untappd entry often
 # omits ("11° Ležák"), so the full name surfaces only unrelated pale lagers. Like the dry-hop
 # descriptor it can be a legitimate part of the name, so it is dropped only as a search fallback.
+# "nefiltr" also matches its bare abbreviated form ("Nefiltr" instead of "Nefiltrovaný"), which some
+# tap lists use.
 _STYLE_ADJECTIVE_RE = re.compile(
-    r"\b(?:světl|polotmav|tmav|řezan|nefiltrovan|kvasnicov|čern)[ýáé]\b",
+    r"\b(?:(?:světl|polotmav|tmav|řezan|kvasnicov|čern)[ýáé]|nefiltr(?:ovan[ýáé])?)\b",
+    re.IGNORECASE,
+)
+# Some tap lists append the generic style noun "Ležák" after the beer's own name ("Otakar Ležák")
+# where Untappd keeps just the bare name ("Otakar 11%"). Unlike the adjective case above, "Ležák" can
+# also legitimately be the beer's own name ("Ležák světlý"), so this only strips it when trailing --
+# i.e. appended after something else -- never when it's the only or leading word.
+_TRAILING_STYLE_NOUN_RE = re.compile(r"\s+ležák\s*$", re.IGNORECASE)
+# Some tap lists fold the whole style into the name instead of a separate field ("Hex Modern Pale
+# Ale", "Wai-Wai Hazy IPA") where Untappd only has the bare first part ("Hex", "Wai-Wai"). This is
+# deliberately narrow (IPA/Pale-Ale family only, with common modifiers) rather than a generic
+# "drop the last word" rule -- a broad rule would also mangle beers legitimately named e.g. "Italian
+# Pilsner" or "Cold Fish Mosaic", where the trailing word(s) are the name, not an appended style.
+_TRAILING_STYLE_PHRASE_RE = re.compile(
+    r"\s+(?:(?:new england|imperial|double|triple|session|modern|hazy)\s+)*"
+    r"(?:pale ale|ipa|apa|neipa|dipa)\s*$",
     re.IGNORECASE,
 )
 # A trailing " - <ingredients>" flavor note a tap list appends, where the ingredients are joined by
@@ -88,13 +105,22 @@ def build_search_queries(name: str, brewery: str, degree_plato: float | None = N
         candidates.append(raw_name)
 
     # Last-resort fallbacks: each drops a different descriptor the tap list appends but Untappd omits
-    # (brewing process, generic style adjective, "+"-joined ingredient note). Appended after every
-    # full-name variant so a beer that legitimately carries the descriptor still wins earlier; the
+    # (brewing process, generic style adjective/noun, "+"-joined ingredient note). Applied cumulatively
+    # so combined descriptors ("Nefiltr Ležák") strip down to the bare name in one pass. Appended after
+    # every full-name variant so a beer that legitimately carries the descriptor still wins earlier; the
     # brewery-gated matcher filters out any noise these broader queries surface.
-    for descriptor_re in (_DRYHOP_RE, _STYLE_ADJECTIVE_RE, _INGREDIENT_NOTE_RE):
-        stripped = _WHITESPACE_RE.sub(" ", descriptor_re.sub(" ", cleaned_name)).strip()
-        if stripped and stripped != cleaned_name:
-            _append_variants(candidates, stripped, cleaned_brewery, degree)
+    stripped = cleaned_name
+    for descriptor_re in (
+        _DRYHOP_RE,
+        _STYLE_ADJECTIVE_RE,
+        _TRAILING_STYLE_NOUN_RE,
+        _TRAILING_STYLE_PHRASE_RE,
+        _INGREDIENT_NOTE_RE,
+    ):
+        next_stripped = _WHITESPACE_RE.sub(" ", descriptor_re.sub(" ", stripped)).strip()
+        if next_stripped and next_stripped != stripped:
+            _append_variants(candidates, next_stripped, cleaned_brewery, degree)
+            stripped = next_stripped
 
     queries: list[str] = []
     for candidate in candidates:

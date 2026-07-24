@@ -51,8 +51,15 @@ def test_brewery_matches_strips_city_suffix_before_comparison():
     assert matcher.brewery_matches("Maisel, Bayreuth, Bavorsko", "Brauerei Gebr. Maisel") is True
 
 
+def test_brewery_matches_tolerates_czech_case_declension():
+    # Tap list writes the nominative "Polička"; Untappd's own brewery name embeds the locative
+    # "v Poličce" ("Měšťanský pivovar v Poličce") -- an exact token match can never bridge that.
+    assert matcher.brewery_matches("Polička", "Měšťanský pivovar v Poličce") is True
+
+
 def test_brewery_matches_returns_false_when_disjoint():
     assert matcher.brewery_matches("Loutkář", "Copper Bottom Brewing") is False
+    assert matcher.brewery_matches("Polička", "Pivovar Poliklinika") is False
 
 
 def test_brewery_matches_returns_false_when_either_is_empty():

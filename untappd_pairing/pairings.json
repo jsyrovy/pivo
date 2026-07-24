@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-23T23:01:50Z",
+  "generated_at": "2026-07-24T06:56:16Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -2036,6 +2036,15 @@
       "query_used": "Birgo Mango-Limetka Budvar",
       "description": "BirGo Mango - Limetka od Budvaru je osvěžující, lehké pivo s nulovou stupňovitostí, ideální pro letní posezení a neformální setkání."
     },
+    "uzamastilu::Clock::Hex Modern Pale Ale": {
+      "untappd_url": "https://untappd.com/b/pivovar-clock-hex/6717949",
+      "untappd_name": "HEX",
+      "untappd_brewery": "Pivovar Clock",
+      "rating": 3.64,
+      "match_score": 1.0,
+      "matched_at": "2026-07-24T06:55:31Z",
+      "query_used": "Hex Clock"
+    },
     "uzamastilu::Loutkář::Kašpárek Ležák": {
       "untappd_url": "https://untappd.com/b/pivovar-loutkar-kasparek-11-svetly-lezak/3940222",
       "untappd_name": "Kašpárek 11 světlý ležák",
@@ -2045,6 +2054,33 @@
       "matched_at": "2026-07-23T19:06:26Z",
       "query_used": "Kašpárek Ležák 11° Loutkář",
       "description": "Kašpárek 11 světlý ležák od Pivovaru Loutkář je středně silný (11°) světlý ležák s průměrným hodnocením 3.46 / 5 a hodí se na neformální posezení s přáteli."
+    },
+    "uzamastilu::Mazák::Wai-Wai Hazy IPA": {
+      "untappd_url": "https://untappd.com/b/pivovar-mazak-wai-wai/6776198",
+      "untappd_name": "Wai-Wai 12",
+      "untappd_brewery": "Pivovar Mazák",
+      "rating": 3.74,
+      "match_score": 0.6,
+      "matched_at": "2026-07-24T06:55:42Z",
+      "query_used": "Wai-Wai 12° Mazák"
+    },
+    "uzamastilu::Polička::Otakar Ležák": {
+      "untappd_url": "https://untappd.com/b/mestansky-pivovar-v-policce-otakar-11/188783",
+      "untappd_name": "Otakar 11%",
+      "untappd_brewery": "Měšťanský pivovar v Poličce",
+      "rating": 3.33,
+      "match_score": 0.7143,
+      "matched_at": "2026-07-24T06:56:16Z",
+      "query_used": "Otakar 11° Polička"
+    },
+    "uzamastilu::Polička::Záviš Nefiltr Ležák": {
+      "untappd_url": "https://untappd.com/b/mestansky-pivovar-v-policce-zavis-12-nefiltrovane/188796",
+      "untappd_name": "Záviš 12° nefiltrované",
+      "untappd_brewery": "Měšťanský pivovar v Poličce",
+      "rating": 3.42,
+      "match_score": 0.6667,
+      "matched_at": "2026-07-24T06:56:03Z",
+      "query_used": "Záviš 12° Polička"
     },
     "uzamastilu::Trautenberk::APA": {
       "untappd_url": "https://untappd.com/b/pivovar-trautenberk-trautenberk-14-apa/1446943",
@@ -2106,26 +2142,6 @@
     "beerstreet::Černý Potoka::Cold Fish Mosaic dry hopped": {
       "attempts": 1,
       "last_tried_at": "2026-06-03T18:24:49Z",
-      "reason": "no_candidates_above_threshold"
-    },
-    "uzamastilu::Clock::Hex Modern Pale Ale": {
-      "attempts": 1,
-      "last_tried_at": "2026-07-23T19:06:24Z",
-      "reason": "no_candidates_above_threshold"
-    },
-    "uzamastilu::Mazák::Wai-Wai Hazy IPA": {
-      "attempts": 1,
-      "last_tried_at": "2026-07-23T19:06:31Z",
-      "reason": "no_candidates_above_threshold"
-    },
-    "uzamastilu::Polička::Otakar Ležák": {
-      "attempts": 1,
-      "last_tried_at": "2026-07-23T19:06:57Z",
-      "reason": "no_candidates_above_threshold"
-    },
-    "uzamastilu::Polička::Záviš Nefiltr Ležák": {
-      "attempts": 1,
-      "last_tried_at": "2026-07-23T19:06:44Z",
       "reason": "no_candidates_above_threshold"
     }
   }
