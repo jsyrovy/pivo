@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-24T16:51:43Z",
+  "generated_at": "2026-07-24T18:23:23Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -1676,6 +1676,16 @@
       "matched_at": "2026-06-18T17:18:09Z",
       "query_used": "<override>"
     },
+    "beerstreet::Poupě::Summer Ale": {
+      "untappd_url": "https://untappd.com/b/pivovarsky-dum-poupe-summer-ale/5853620",
+      "untappd_name": "Summer Ale 10°",
+      "untappd_brewery": "Pivovarský dům Poupě",
+      "rating": 3.49,
+      "match_score": 1.0,
+      "matched_at": "2026-07-24T18:22:20Z",
+      "query_used": "Summer Ale 10° Poupě",
+      "description": "Letní ale s mírnou sladkostí a lehkou hořkostí, 4 % alkoholu, vhodná na osvěžující osvěžení v horkých dnech. Hodnocení 3,49 hvězdiček na Untappd potvrzuje její průměrnou kvalitu."
+    },
     "beerstreet::Sqbru::Sůl12 - Chilliout": {
       "untappd_url": "https://untappd.com/b/sqbru-skju-bru-sul12-chilliout/6607628",
       "untappd_name": "Sůl12: Chilliout",
@@ -1855,6 +1865,16 @@
       "match_score": 1.0,
       "matched_at": "2026-06-02T18:07:43Z",
       "query_used": "Vinohradská 11° Vinohradský"
+    },
+    "beerstreet::Vinohradský::APA": {
+      "untappd_url": "https://untappd.com/b/vinohradsky-pivovar-our-first-apa-13/1085042",
+      "untappd_name": "Our First APA 13",
+      "untappd_brewery": "Vinohradský pivovar",
+      "rating": 3.63,
+      "match_score": 1.0,
+      "matched_at": "2026-07-24T18:22:27Z",
+      "query_used": "APA Vinohradský",
+      "description": "Our First APA 13 od Vinohradského pivovaru je průměrně silné 4,5 % ABV s 11° stupňovitostí, stylově vyvážené a vhodné na běžné posezení nebo odpolední setkání s přáteli."
     },
     "beerstreet::Zichovec::Everyday Juice": {
       "untappd_url": "https://untappd.com/b/pivovar-zichovec-everyday-juice-12/6619650",
@@ -2046,6 +2066,16 @@
       "query_used": "Birgo Mango-Limetka Budvar",
       "description": "BirGo Mango - Limetka od Budvaru je osvěžující, lehké pivo s nulovou stupňovitostí, ideální pro letní posezení a neformální setkání."
     },
+    "uzamastilu::Chroust::Shaolin Shark": {
+      "untappd_url": "https://untappd.com/b/chroust-shaolin-shark/6797775",
+      "untappd_name": "Shaolin Shark",
+      "untappd_brewery": "Chroust",
+      "rating": 3.8,
+      "match_score": 1.0,
+      "matched_at": "2026-07-24T18:23:17Z",
+      "query_used": "Shaolin Shark Chroust",
+      "description": "IPA s mírně vyšší extraktem 12° nabízí vyváženou hořkost a aromatické chmelové tóny, vhodná pro odpolední setkání nebo neformální posezení. S průměrným hodnocením 3.8 na Untappd ji ocení milovníci chmelených piv."
+    },
     "uzamastilu::Clock::Hex": {
       "untappd_url": "https://untappd.com/b/pivovar-clock-hex/6717949",
       "untappd_name": "HEX",
@@ -2064,6 +2094,16 @@
       "match_score": 1.0,
       "matched_at": "2026-07-24T06:55:31Z",
       "query_used": "Hex Clock"
+    },
+    "uzamastilu::Křikloun::West Coast IPA": {
+      "untappd_url": "https://untappd.com/b/krikloun-west-coast-ipa-14-deg/6622541",
+      "untappd_name": "West Coast IPA 14°",
+      "untappd_brewery": "Křikloun",
+      "rating": 3.64,
+      "match_score": 1.0,
+      "matched_at": "2026-07-24T18:23:06Z",
+      "query_used": "West Coast IPA 14° Křikloun",
+      "description": "West Coast IPA od Křiklouna s 14° stupňovitostí nabízí ostrou hořkost a osvěžující kontrast, ideální pro letní grilování nebo odpolední posezení s přáteli."
     },
     "uzamastilu::Loutkář::Kašpárek": {
       "untappd_url": "https://untappd.com/b/pivovar-loutkar-kasparek-11-svetly-lezak/3940222",
@@ -2084,6 +2124,16 @@
       "matched_at": "2026-07-23T19:06:26Z",
       "query_used": "Kašpárek Ležák 11° Loutkář",
       "description": "Kašpárek 11 světlý ležák od Pivovaru Loutkář je středně silný (11°) světlý ležák s průměrným hodnocením 3.46 / 5 a hodí se na neformální posezení s přáteli."
+    },
+    "uzamastilu::Madcat::Ležák": {
+      "untappd_url": "https://untappd.com/b/madcat-madcat-lezak-kamenicky-svetly-lezak/3619166",
+      "untappd_name": "MadCat Ležák / Kamenický světlý ležák ",
+      "untappd_brewery": "MadCat",
+      "rating": 3.46,
+      "match_score": 1.0,
+      "matched_at": "2026-07-24T18:23:23Z",
+      "query_used": "Ležák 12° Madcat",
+      "description": "Středně silné, osvěžující světlé ležáky od MadCatu s 12° stupňovitostí, vhodné na letní posezení u kamaráda. S průměrným tělesem a mírnou hořkostí potěší i ve společnosti."
     },
     "uzamastilu::Mazák::Wai-Wai": {
       "untappd_url": "https://untappd.com/b/pivovar-mazak-wai-wai/6776198",
@@ -2164,6 +2214,11 @@
       "last_tried_at": "2026-05-29T20:26:06Z",
       "reason": "no_candidates_above_threshold"
     },
+    "beerstreet::Agent::Stylish Girl - malina": {
+      "attempts": 1,
+      "last_tried_at": "2026-07-24T18:22:43Z",
+      "reason": "no_candidates_above_threshold"
+    },
     "beerstreet::Avar::Kazbek": {
       "attempts": 1,
       "last_tried_at": "2026-06-19T19:00:45Z",
@@ -2182,6 +2237,11 @@
     "beerstreet::Klenot::Guava and rosemary": {
       "attempts": 1,
       "last_tried_at": "2026-05-22T09:09:16Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "beerstreet::Klenot::Sour Ale Guava + rozmaryn": {
+      "attempts": 1,
+      "last_tried_at": "2026-07-24T18:22:53Z",
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::Kynšperský zajíc::Summer Ale": {

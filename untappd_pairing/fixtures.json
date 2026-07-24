@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-24T16:51:43Z",
+  "generated_at": "2026-07-24T18:23:23Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -2793,6 +2793,39 @@
         "score": 1.0
       }
     },
+    "beerstreet::Agent::Stylish Girl - malina": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Agent",
+        "name": "Stylish Girl - malina",
+        "style": "Milkshake NEIPA",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-07-24T18:22:43Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Stylish Girl - malina 13° Agent",
+          "hits": []
+        },
+        {
+          "query": "Stylish Girl - malina Agent",
+          "hits": []
+        },
+        {
+          "query": "Stylish Girl - malina 13°",
+          "hits": []
+        },
+        {
+          "query": "Stylish Girl - malina",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
     "beerstreet::Avar::Kazbek": {
       "beer": {
         "source": "beerstreet",
@@ -4018,6 +4051,39 @@
       "outcome": {
         "matched": "/b/hradecky-klenot-sour-ale-orange-cinnamon/5361488",
         "score": 0.2143
+      }
+    },
+    "beerstreet::Klenot::Sour Ale Guava + rozmaryn": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Klenot",
+        "name": "Sour Ale Guava + rozmaryn",
+        "style": "Sour ale",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-07-24T18:22:53Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Sour Ale Guava + rozmaryn 12° Klenot",
+          "hits": []
+        },
+        {
+          "query": "Sour Ale Guava + rozmaryn Klenot",
+          "hits": []
+        },
+        {
+          "query": "Sour Ale Guava + rozmaryn 12°",
+          "hits": []
+        },
+        {
+          "query": "Sour Ale Guava + rozmaryn",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "beerstreet::Klenot::Vera & Mosaic": {
@@ -5436,6 +5502,50 @@
         "reason": "no_candidates_above_threshold"
       }
     },
+    "beerstreet::Poupě::Summer Ale": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Poupě",
+        "name": "Summer Ale",
+        "style": "Summer ale",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-07-24T18:22:20Z",
+      "candidates": [
+        {
+          "name": "Summer Ale 10°",
+          "brewery": "Pivovarský dům Poupě",
+          "url": "/b/pivovarsky-dum-poupe-summer-ale/5853620",
+          "rating": 3.49
+        },
+        {
+          "name": "Summer Ale",
+          "brewery": "Lomnické pivo",
+          "url": "/b/lomnicke-pivo-summer-ale/3294056",
+          "rating": 3.65
+        },
+        {
+          "name": "Summer Ale 10",
+          "brewery": "Pivovarský dům Poupě",
+          "url": "/b/pivovarsky-dum-poupe-summer-ale-10/6722957",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Summer Ale 10° Poupě",
+          "hits": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovarsky-dum-poupe-summer-ale/5853620",
+        "score": 1.0
+      }
+    },
     "beerstreet::TAMTAM::Raise your horns": {
       "beer": {
         "source": "beerstreet",
@@ -5799,6 +5909,54 @@
       ],
       "outcome": {
         "matched": "/b/vinohradsky-pivovar-vinohradska-11/916918",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Vinohradský::APA": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Vinohradský",
+        "name": "APA",
+        "style": "APA",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-07-24T18:22:27Z",
+      "candidates": [
+        {
+          "name": "Our First APA 12",
+          "brewery": "Vinohradský pivovar",
+          "url": "/b/vinohradsky-pivovar-our-first-apa-12/1290936",
+          "rating": 3.58
+        },
+        {
+          "name": "Our First APA 13",
+          "brewery": "Vinohradský pivovar",
+          "url": "/b/vinohradsky-pivovar-our-first-apa-13/1085042",
+          "rating": 3.63
+        },
+        {
+          "name": "APA 12 Citra",
+          "brewery": "Vinohradský pivovar",
+          "url": "/b/vinohradsky-pivovar-apa-12-citra/3270737",
+          "rating": 3.61
+        }
+      ],
+      "attempts": [
+        {
+          "query": "APA 11° Vinohradský",
+          "hits": []
+        },
+        {
+          "query": "APA Vinohradský",
+          "hits": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/vinohradsky-pivovar-our-first-apa-13/1085042",
         "score": 1.0
       }
     },
@@ -6381,6 +6539,40 @@
         "score": 1.0
       }
     },
+    "uzamastilu::Chroust::Shaolin Shark": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Chroust",
+        "name": "Shaolin Shark",
+        "style": "IPA",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-07-24T18:23:17Z",
+      "candidates": [
+        {
+          "name": "Shaolin Shark",
+          "brewery": "Chroust",
+          "url": "/b/chroust-shaolin-shark/6797775",
+          "rating": 3.8
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Shaolin Shark 12° Chroust",
+          "hits": []
+        },
+        {
+          "query": "Shaolin Shark Chroust",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/chroust-shaolin-shark/6797775",
+        "score": 1.0
+      }
+    },
     "uzamastilu::Clock::Hex": {
       "beer": {
         "source": "uzamastilu",
@@ -6473,6 +6665,36 @@
         "score": 1.0
       }
     },
+    "uzamastilu::Křikloun::West Coast IPA": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Křikloun",
+        "name": "West Coast IPA",
+        "style": "West coast IPA",
+        "degree_plato": 14.0
+      },
+      "captured_at": "2026-07-24T18:23:06Z",
+      "candidates": [
+        {
+          "name": "West Coast IPA 14°",
+          "brewery": "Křikloun",
+          "url": "/b/krikloun-west-coast-ipa-14-deg/6622541",
+          "rating": 3.64
+        }
+      ],
+      "attempts": [
+        {
+          "query": "West Coast IPA 14° Křikloun",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/krikloun-west-coast-ipa-14-deg/6622541",
+        "score": 1.0
+      }
+    },
     "uzamastilu::Loutkář::Kašpárek": {
       "beer": {
         "source": "uzamastilu",
@@ -6559,6 +6781,50 @@
       "outcome": {
         "matched": "/b/pivovar-loutkar-kasparek-11-svetly-lezak/3940222",
         "score": 0.9167
+      }
+    },
+    "uzamastilu::Madcat::Ležák": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Madcat",
+        "name": "Ležák",
+        "style": "Ležák",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-07-24T18:23:23Z",
+      "candidates": [
+        {
+          "name": "MadCat Ležák / Kamenický světlý ležák ",
+          "brewery": "MadCat",
+          "url": "/b/madcat-madcat-lezak-kamenicky-svetly-lezak/3619166",
+          "rating": 3.46
+        },
+        {
+          "name": "Světlý ležák 11°",
+          "brewery": "Fenek Craft Beer",
+          "url": "/b/fenek-craft-beer-svetly-lezak-11-deg/3322596",
+          "rating": 3.4
+        },
+        {
+          "name": "Podzimní Ležák 11°",
+          "brewery": "MadCat",
+          "url": "/b/madcat-podzimni-lezak-11-deg/3955921",
+          "rating": 3.19
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Ležák 12° Madcat",
+          "hits": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/madcat-madcat-lezak-kamenicky-svetly-lezak/3619166",
+        "score": 1.0
       }
     },
     "uzamastilu::Mazák::Wai-Wai": {
