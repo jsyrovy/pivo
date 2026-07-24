@@ -11,7 +11,7 @@ describe("parseUzamastiluJson", () => {
   it("cleans stray asterisks and whitespace from name", () => {
     const beers = parseUzamastiluJson(UZAMASTILU_FIXTURE);
     expect(beers[0].name).toBe("APA");
-    expect(beers[1].name).toBe("Záviš Nefiltr Ležák");
+    expect(beers[1].name).toBe("Záviš");
   });
 
   it("parses degree as leading number, including 00°", () => {
@@ -54,9 +54,29 @@ describe("parseUzamastiluJson", () => {
     expect(beers.every((b) => b.source === "uzamastilu")).toBe(true);
   });
 
-  it("has empty style and null abv since the API does not expose them", () => {
+  it("detects the style folded into the beer name", () => {
     const beers = parseUzamastiluJson(UZAMASTILU_FIXTURE);
-    expect(beers.every((b) => b.style === "" && b.abv === null)).toBe(true);
+    expect(beers[0].style).toBe("APA");
+    expect(beers[1].style).toBe("Nefiltr ležák");
+  });
+
+  it("never exposes abv since the API does not expose it", () => {
+    const beers = parseUzamastiluJson(UZAMASTILU_FIXTURE);
+    expect(beers.every((b) => b.abv === null)).toBe(true);
+  });
+
+  it("splits name and style for a trailing multi-word style", () => {
+    const beers = parseUzamastiluJson([
+      { order: 1, name: "Hex Modern Pale Ale", brewery: "Zichovec" },
+      { order: 2, name: "Wai-Wai Hazy IPA", brewery: "Zichovec" },
+    ]);
+    expect(beers[0]).toMatchObject({ name: "Hex", style: "Modern pale ale" });
+    expect(beers[1]).toMatchObject({ name: "Wai-Wai", style: "Hazy IPA" });
+  });
+
+  it("keeps the name intact when it carries no style", () => {
+    const beers = parseUzamastiluJson([{ order: 1, name: "Nealko" }]);
+    expect(beers[0]).toMatchObject({ name: "Nealko", style: "Nealko" });
   });
 
   it("throws on invalid payload", () => {

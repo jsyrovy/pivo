@@ -1,6 +1,6 @@
 import type { Beer } from "../schema";
 import { ambasadaPricing } from "../pricing";
-import { formatStyle } from "../style";
+import { STYLE_KEYWORDS, formatStyle } from "../style";
 
 interface PendingRow {
   name?: string;
@@ -96,17 +96,6 @@ function buildBeer(row: PendingRow, order: number): Beer | null {
     pricing,
   };
 }
-
-const STYLE_KEYWORDS = new Set([
-  "stout", "lager", "pilsner", "ipa", "neipa", "dipa", "iipa", "tipa",
-  "apa", "nepa", "ale", "porter", "weizen", "wheat", "hefeweizen",
-  "saison", "tripel", "dubbel", "quadrupel", "gose", "sour",
-  "pale", "india", "imperial", "barleywine",
-  "kölsch", "altbier", "helles", "dunkel", "bock", "märzen",
-  "rauchbier", "berliner", "lambic", "gueuze",
-  "ležák", "světlý", "světlé", "polotmavý", "polotmavé",
-  "tmavý", "tmavé", "pšeničné", "pšenice", "výčepní", "kvasnicové",
-]);
 
 function startsWithStyleKeyword(part: string): boolean {
   const words = part.toLocaleLowerCase("cs-CZ").split(/\s+/).slice(0, 2);

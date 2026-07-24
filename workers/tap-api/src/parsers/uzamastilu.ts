@@ -1,5 +1,6 @@
 import type { Beer } from "../schema";
 import { uzamastiluPricing } from "../pricing";
+import { extractStyleFromName, formatStyle } from "../style";
 import { isObject, parseNumber, trimString } from "./json-utils";
 
 interface RawBeer {
@@ -19,16 +20,19 @@ export function parseUzamastiluJson(raw: unknown): Beer[] {
   const items = raw.filter(isObject) as RawBeer[];
 
   return items
-    .map((item): Beer => ({
-      name: cleanName(item.name),
-      brewery: trimString(item.brewery),
-      style: "",
-      abv: null,
-      degreePlato: parseDegree(item.degree),
-      source: "uzamastilu",
-      order: parseNumber(item.order),
-      pricing: uzamastiluPricing(item.price05, item.price03),
-    }))
+    .map((item): Beer => {
+      const { name, style } = extractStyleFromName(cleanName(item.name));
+      return {
+        name,
+        brewery: trimString(item.brewery),
+        style: formatStyle(style),
+        abv: null,
+        degreePlato: parseDegree(item.degree),
+        source: "uzamastilu",
+        order: parseNumber(item.order),
+        pricing: uzamastiluPricing(item.price05, item.price03),
+      };
+    })
     .filter((beer) => beer.order !== null && beer.order >= 1 && beer.order <= 7);
 }
 

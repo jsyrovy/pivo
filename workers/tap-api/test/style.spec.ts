@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { formatStyle } from "../src/style";
+import { extractStyleFromName, formatStyle } from "../src/style";
 
 describe("formatStyle", () => {
   it("returns empty string for empty input", () => {
@@ -32,5 +32,55 @@ describe("formatStyle", () => {
 
   it("treats acronyms with surrounding punctuation as acronyms", () => {
     expect(formatStyle("ipa,")).toBe("IPA,");
+  });
+});
+
+describe("extractStyleFromName", () => {
+  it("splits a trailing single-word style", () => {
+    expect(extractStyleFromName("Otakar Ležák")).toEqual({
+      name: "Otakar",
+      style: "Ležák",
+    });
+  });
+
+  it("keeps modifiers attached to the core style", () => {
+    expect(extractStyleFromName("Hex Modern Pale Ale")).toEqual({
+      name: "Hex",
+      style: "Modern Pale Ale",
+    });
+    expect(extractStyleFromName("Wai-Wai Hazy IPA")).toEqual({
+      name: "Wai-Wai",
+      style: "Hazy IPA",
+    });
+    expect(extractStyleFromName("Záviš Nefiltr Ležák")).toEqual({
+      name: "Záviš",
+      style: "Nefiltr Ležák",
+    });
+  });
+
+  it("keeps the whole name when the style is the only information", () => {
+    expect(extractStyleFromName("APA")).toEqual({ name: "APA", style: "APA" });
+  });
+
+  it("returns no style when the name has none", () => {
+    expect(extractStyleFromName("Nealko")).toEqual({
+      name: "Nealko",
+      style: "Nealko",
+    });
+    expect(extractStyleFromName("Kingswood")).toEqual({
+      name: "Kingswood",
+      style: "",
+    });
+  });
+
+  it("ignores a trailing modifier without a core style word", () => {
+    expect(extractStyleFromName("Something Dry")).toEqual({
+      name: "Something Dry",
+      style: "",
+    });
+  });
+
+  it("handles empty input", () => {
+    expect(extractStyleFromName("")).toEqual({ name: "", style: "" });
   });
 });
