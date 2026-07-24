@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-24T06:56:16Z",
+  "generated_at": "2026-07-24T13:25:38Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -2049,6 +2049,40 @@
       ],
       "outcome": {
         "matched": "/b/sibeeria-brewery-leto-2026/6757175",
+        "score": 1.0
+      }
+    },
+    "ambasada::Sibeeria, Praha::One Burning": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Sibeeria, Praha",
+        "name": "One Burning",
+        "style": "Session NEIPA",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-07-24T13:24:37Z",
+      "candidates": [
+        {
+          "name": "One Burning",
+          "brewery": "Sibeeria Brewery",
+          "url": "/b/sibeeria-brewery-one-burning/6774633",
+          "rating": 3.89
+        }
+      ],
+      "attempts": [
+        {
+          "query": "One Burning 12° Sibeeria",
+          "hits": []
+        },
+        {
+          "query": "One Burning Sibeeria",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/sibeeria-brewery-one-burning/6774633",
         "score": 1.0
       }
     },
@@ -6347,6 +6381,40 @@
         "score": 1.0
       }
     },
+    "uzamastilu::Clock::Hex": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Clock",
+        "name": "Hex",
+        "style": "Modern pale ale",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-07-24T13:25:03Z",
+      "candidates": [
+        {
+          "name": "HEX",
+          "brewery": "Pivovar Clock",
+          "url": "/b/pivovar-clock-hex/6717949",
+          "rating": 3.64
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Hex 11° Clock",
+          "hits": []
+        },
+        {
+          "query": "Hex Clock",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-clock-hex/6717949",
+        "score": 1.0
+      }
+    },
     "uzamastilu::Clock::Hex Modern Pale Ale": {
       "beer": {
         "source": "uzamastilu",
@@ -6405,6 +6473,64 @@
         "score": 1.0
       }
     },
+    "uzamastilu::Loutkář::Kašpárek": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Loutkář",
+        "name": "Kašpárek",
+        "style": "Ležák",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-07-24T13:25:15Z",
+      "candidates": [
+        {
+          "name": "Kašpárek 11 světlý ležák",
+          "brewery": "Pivovar Loutkář",
+          "url": "/b/pivovar-loutkar-kasparek-11-svetly-lezak/3940222",
+          "rating": 3.46
+        },
+        {
+          "name": "Kašpárek 11 Zelené",
+          "brewery": "Pivovar Loutkář",
+          "url": "/b/pivovar-loutkar-kasparek-11-zelene/5766868",
+          "rating": 3.1
+        },
+        {
+          "name": "Kašpárek 11 černý Rybíz",
+          "brewery": "Pivovar Loutkář",
+          "url": "/b/pivovar-loutkar-kasparek-11-cerny-rybiz/6297356",
+          "rating": null
+        },
+        {
+          "name": "Višňový Kašpárek 11",
+          "brewery": "Pivovar Loutkář",
+          "url": "/b/pivovar-loutkar-visnovy-kasparek-11/5875087",
+          "rating": null
+        },
+        {
+          "name": "Mangový Kašpárek 11",
+          "brewery": "Pivovar Loutkář",
+          "url": "/b/pivovar-loutkar-mangovy-kasparek-11/5956836",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Kašpárek 11° Loutkář",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-loutkar-kasparek-11-svetly-lezak/3940222",
+        "score": 1.0
+      }
+    },
     "uzamastilu::Loutkář::Kašpárek Ležák": {
       "beer": {
         "source": "uzamastilu",
@@ -6433,6 +6559,36 @@
       "outcome": {
         "matched": "/b/pivovar-loutkar-kasparek-11-svetly-lezak/3940222",
         "score": 0.9167
+      }
+    },
+    "uzamastilu::Mazák::Wai-Wai": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Mazák",
+        "name": "Wai-Wai",
+        "style": "Hazy IPA",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-07-24T13:25:23Z",
+      "candidates": [
+        {
+          "name": "Wai-Wai 12",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-wai-wai/6776198",
+          "rating": 3.74
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Wai-Wai 12° Mazák",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mazak-wai-wai/6776198",
+        "score": 1.0
       }
     },
     "uzamastilu::Mazák::Wai-Wai Hazy IPA": {
@@ -6479,6 +6635,50 @@
       "outcome": {
         "matched": "/b/pivovar-mazak-wai-wai/6776198",
         "score": 0.6
+      }
+    },
+    "uzamastilu::Polička::Otakar": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Polička",
+        "name": "Otakar",
+        "style": "Ležák",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-07-24T13:25:38Z",
+      "candidates": [
+        {
+          "name": "Otakar 11%",
+          "brewery": "Měšťanský pivovar v Poličce",
+          "url": "/b/mestansky-pivovar-v-policce-otakar-11/188783",
+          "rating": 3.33
+        },
+        {
+          "name": "Otakar 11 nefiltrované",
+          "brewery": "Měšťanský pivovar v Poličce",
+          "url": "/b/mestansky-pivovar-v-policce-otakar-11-nefiltrovane/94352",
+          "rating": 3.37
+        },
+        {
+          "name": "Velikonoční Otakar 11%",
+          "brewery": "Měšťanský pivovar v Poličce",
+          "url": "/b/mestansky-pivovar-v-policce-otakar-11-velikonocni/6613562",
+          "rating": 3.4
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Otakar 11° Polička",
+          "hits": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/mestansky-pivovar-v-policce-otakar-11-velikonocni/6613562",
+        "score": 1.0
       }
     },
     "uzamastilu::Polička::Otakar Ležák": {
@@ -6539,6 +6739,43 @@
       "outcome": {
         "matched": "/b/mestansky-pivovar-v-policce-otakar-11/188783",
         "score": 0.7143
+      }
+    },
+    "uzamastilu::Polička::Záviš": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Polička",
+        "name": "Záviš",
+        "style": "Nefiltr ležák",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-07-24T13:25:28Z",
+      "candidates": [
+        {
+          "name": "Záviš 12° nefiltrované",
+          "brewery": "Měšťanský pivovar v Poličce",
+          "url": "/b/mestansky-pivovar-v-policce-zavis-12-nefiltrovane/188796",
+          "rating": 3.42
+        },
+        {
+          "name": "Záviš 12%",
+          "brewery": "Měšťanský pivovar v Poličce",
+          "url": "/b/mestansky-pivovar-v-policce-zavis-12/99091",
+          "rating": 3.38
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Záviš 12° Polička",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/mestansky-pivovar-v-policce-zavis-12-nefiltrovane/188796",
+        "score": 1.0
       }
     },
     "uzamastilu::Polička::Záviš Nefiltr Ležák": {

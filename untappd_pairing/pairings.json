@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-24T06:56:16Z",
+  "generated_at": "2026-07-24T13:25:38Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -692,6 +692,16 @@
       "match_score": 1.0,
       "matched_at": "2026-05-01T20:02:14Z",
       "query_used": "One Bloom Sibeeria"
+    },
+    "ambasada::Sibeeria, Praha::One Burning": {
+      "untappd_url": "https://untappd.com/b/sibeeria-brewery-one-burning/6774633",
+      "untappd_name": "One Burning",
+      "untappd_brewery": "Sibeeria Brewery",
+      "rating": 3.89,
+      "match_score": 1.0,
+      "matched_at": "2026-07-24T13:24:37Z",
+      "query_used": "One Burning Sibeeria",
+      "description": "One Burning je svěží Session NEIPA s mírnou hořkostí a ovocným aroma, 4,2 % alkoholu, vhodná na letní posezení u přátel nebo u sportovního zápasu."
     },
     "ambasada::Sibeeria, Praha::Timeless": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-timeless/4299412",
@@ -2036,6 +2046,16 @@
       "query_used": "Birgo Mango-Limetka Budvar",
       "description": "BirGo Mango - Limetka od Budvaru je osvěžující, lehké pivo s nulovou stupňovitostí, ideální pro letní posezení a neformální setkání."
     },
+    "uzamastilu::Clock::Hex": {
+      "untappd_url": "https://untappd.com/b/pivovar-clock-hex/6717949",
+      "untappd_name": "HEX",
+      "untappd_brewery": "Pivovar Clock",
+      "rating": 3.64,
+      "match_score": 1.0,
+      "matched_at": "2026-07-24T13:25:03Z",
+      "query_used": "Hex Clock",
+      "description": "HEX od Pivovaru Clock je moderní pale ale s mírnou hořkostí a ovocným aroma, který osvěží při letním posezení nebo u neformálního setkání s přáteli. S vyváženou silou a lehkou pitelností se hodí na odpolední relaxaci."
+    },
     "uzamastilu::Clock::Hex Modern Pale Ale": {
       "untappd_url": "https://untappd.com/b/pivovar-clock-hex/6717949",
       "untappd_name": "HEX",
@@ -2044,6 +2064,16 @@
       "match_score": 1.0,
       "matched_at": "2026-07-24T06:55:31Z",
       "query_used": "Hex Clock"
+    },
+    "uzamastilu::Loutkář::Kašpárek": {
+      "untappd_url": "https://untappd.com/b/pivovar-loutkar-kasparek-11-svetly-lezak/3940222",
+      "untappd_name": "Kašpárek 11 světlý ležák",
+      "untappd_brewery": "Pivovar Loutkář",
+      "rating": 3.46,
+      "match_score": 1.0,
+      "matched_at": "2026-07-24T13:25:15Z",
+      "query_used": "Kašpárek 11° Loutkář",
+      "description": "Kašpárek 11 světlý ležák od Pivovaru Loutkář je středně silný ležák, vhodný na běžné posezení i odpolední setkání."
     },
     "uzamastilu::Loutkář::Kašpárek Ležák": {
       "untappd_url": "https://untappd.com/b/pivovar-loutkar-kasparek-11-svetly-lezak/3940222",
@@ -2055,6 +2085,16 @@
       "query_used": "Kašpárek Ležák 11° Loutkář",
       "description": "Kašpárek 11 světlý ležák od Pivovaru Loutkář je středně silný (11°) světlý ležák s průměrným hodnocením 3.46 / 5 a hodí se na neformální posezení s přáteli."
     },
+    "uzamastilu::Mazák::Wai-Wai": {
+      "untappd_url": "https://untappd.com/b/pivovar-mazak-wai-wai/6776198",
+      "untappd_name": "Wai-Wai 12",
+      "untappd_brewery": "Pivovar Mazák",
+      "rating": 3.74,
+      "match_score": 1.0,
+      "matched_at": "2026-07-24T13:25:23Z",
+      "query_used": "Wai-Wai 12° Mazák",
+      "description": "Wai-Wai 12 od Pivovaru Mazák je vysoce aromatické a měkké Hazy IPA s mírnou hořkostí, vhodné pro letní odpoledne nebo neformální setkání, ohodnocené 3,74 hvězdičkami na Untappd."
+    },
     "uzamastilu::Mazák::Wai-Wai Hazy IPA": {
       "untappd_url": "https://untappd.com/b/pivovar-mazak-wai-wai/6776198",
       "untappd_name": "Wai-Wai 12",
@@ -2064,6 +2104,16 @@
       "matched_at": "2026-07-24T06:55:42Z",
       "query_used": "Wai-Wai 12° Mazák"
     },
+    "uzamastilu::Polička::Otakar": {
+      "untappd_url": "https://untappd.com/b/mestansky-pivovar-v-policce-otakar-11-velikonocni/6613562",
+      "untappd_name": "Velikonoční Otakar 11%",
+      "untappd_brewery": "Měšťanský pivovar v Poličce",
+      "rating": 3.4,
+      "match_score": 1.0,
+      "matched_at": "2026-07-24T13:25:38Z",
+      "query_used": "Otakar 11° Polička",
+      "description": "Velikonoční Otakar 11% je silný ležák z Měšťanského pivovaru v Poličce s 11° stupňovitostí a mírně nadprůměrným hodnocením 3.40 na Untappu, vhodný pro slavnostní jarní setkání nebo jako doplněk k pečivu."
+    },
     "uzamastilu::Polička::Otakar Ležák": {
       "untappd_url": "https://untappd.com/b/mestansky-pivovar-v-policce-otakar-11/188783",
       "untappd_name": "Otakar 11%",
@@ -2072,6 +2122,16 @@
       "match_score": 0.7143,
       "matched_at": "2026-07-24T06:56:16Z",
       "query_used": "Otakar 11° Polička"
+    },
+    "uzamastilu::Polička::Záviš": {
+      "untappd_url": "https://untappd.com/b/mestansky-pivovar-v-policce-zavis-12-nefiltrovane/188796",
+      "untappd_name": "Záviš 12° nefiltrované",
+      "untappd_brewery": "Měšťanský pivovar v Poličce",
+      "rating": 3.42,
+      "match_score": 1.0,
+      "matched_at": "2026-07-24T13:25:28Z",
+      "query_used": "Záviš 12° Polička",
+      "description": "Záviš 12° nefiltrované je pivo s mírnou plností a lehkou kvasnou charakteristikou, vhodné pro odpočinek po práci nebo setkání s přáteli, s hodnocením 3.42/5 na Untappd."
     },
     "uzamastilu::Polička::Záviš Nefiltr Ležák": {
       "untappd_url": "https://untappd.com/b/mestansky-pivovar-v-policce-zavis-12-nefiltrovane/188796",
