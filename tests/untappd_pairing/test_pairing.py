@@ -609,6 +609,60 @@ def test_pairing_llm_fallback_declines_keeps_unmatched(tmp_path, monkeypatch, mo
     assert key not in saved["pairings"]
 
 
+def test_pairing_llm_breaks_deterministic_tie_over_rating(tmp_path, monkeypatch, mock_llm):
+    pairings_path = tmp_path / "pairings.json"
+    fixtures_path = tmp_path / "fixtures.json"
+    monkeypatch.setattr(pairing, "PAIRINGS_PATH", pairings_path)
+    monkeypatch.setattr(pairing, "FIXTURES_PATH", fixtures_path)
+
+    # Two identically-named same-brewery beers tie on every deterministic signal. Rating would pick
+    # the 4.5 one; the LLM instead picks the lower-rated one, proving the tie escalates to the LLM.
+    beer = _beer("Juno", brewery="Loutkař")
+    low = _candidate("Juno", brewery="Pivovar Loutkař", url="https://untappd.com/b/low/1", rating=3.5)
+    high = _candidate("Juno", brewery="Pivovar Loutkař", url="https://untappd.com/b/high/2", rating=4.5)
+    mock_llm.return_value = low
+
+    with (
+        mock.patch.object(pairing.tap_api, "fetch_all_beers", return_value=[beer]),
+        mock.patch.object(pairing.untappd_search, "search_beer", return_value=[low, high]),
+    ):
+        UntappdPairing(args=Args()).run()
+
+    mock_llm.assert_called_once()
+    assert {c.url for c in mock_llm.call_args.args[1]} == {
+        "https://untappd.com/b/low/1",
+        "https://untappd.com/b/high/2",
+    }
+
+    key = "beerstreet::Loutkař::Juno"
+    pairings = json.loads(pairings_path.read_text())
+    assert pairings["pairings"][key]["untappd_url"] == "https://untappd.com/b/low/1"
+    assert pairings["pairings"][key]["query_used"] == pairing.LLM_QUERY_MARKER
+    assert json.loads(fixtures_path.read_text())["fixtures"][key]["outcome"]["source"] == "llm"
+
+
+def test_pairing_tie_falls_back_to_rating_when_llm_declines(tmp_path, monkeypatch, mock_llm):
+    pairings_path = tmp_path / "pairings.json"
+    monkeypatch.setattr(pairing, "PAIRINGS_PATH", pairings_path)
+
+    # LLM is unavailable/undecided (returns None), so the deterministic rating pick stands.
+    beer = _beer("Juno", brewery="Loutkař")
+    low = _candidate("Juno", brewery="Pivovar Loutkař", url="https://untappd.com/b/low/1", rating=3.5)
+    high = _candidate("Juno", brewery="Pivovar Loutkař", url="https://untappd.com/b/high/2", rating=4.5)
+
+    with (
+        mock.patch.object(pairing.tap_api, "fetch_all_beers", return_value=[beer]),
+        mock.patch.object(pairing.untappd_search, "search_beer", return_value=[low, high]),
+    ):
+        UntappdPairing(args=Args()).run()
+
+    mock_llm.assert_called_once()
+    key = "beerstreet::Loutkař::Juno"
+    pairings = json.loads(pairings_path.read_text())
+    assert pairings["pairings"][key]["untappd_url"] == "https://untappd.com/b/high/2"
+    assert pairings["pairings"][key]["query_used"] != pairing.LLM_QUERY_MARKER
+
+
 def test_pairing_pushover_failure_does_not_crash_run(tmp_path, monkeypatch, mock_pushover, caplog):
     pairings_path = tmp_path / "pairings.json"
     monkeypatch.setattr(pairing, "PAIRINGS_PATH", pairings_path)

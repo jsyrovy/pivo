@@ -137,6 +137,23 @@ class UntappdPairing(BaseRobot):
         store.record_match(beer, result, query, description=describe.generate(beer, result.candidate))
 
     @staticmethod
+    def _record_llm_match(
+        store: PairingsStore,
+        beer: tap_api.TapBeer,
+        fixtures_store: FixturesStore,
+        chosen: UntappdCandidate,
+        trace: list[tuple[str, list[UntappdCandidate]]],
+    ) -> None:
+        result = MatchResult(
+            candidate=chosen,
+            score=matcher.name_overlap(beer.name, chosen.name),
+            brewery_matched=matcher.brewery_matches(beer.brewery, chosen.brewery),
+        )
+        logger.info("LLM matched %s::%s -> %s", beer.brewery, beer.name, chosen.url)
+        UntappdPairing._record_match(store, beer, result, LLM_QUERY_MARKER)
+        fixtures_store.upsert(beer, trace, FixtureOutcome(matched_url=compress_url(chosen.url), source="llm"))
+
+    @staticmethod
     def _pair_via_override(beer: tap_api.TapBeer, store: PairingsStore, url: str) -> str | None:
         try:
             candidate = untappd_search.fetch_beer_page(url)
@@ -172,6 +189,17 @@ class UntappdPairing(BaseRobot):
 
             result = matcher.best_match(beer.name, beer.brewery, candidates, beer.degree_plato, beer.style)
             if result is not None:
+                # A deterministic tie (several candidates equal on everything but rating) is exactly
+                # where a rating pick misfires -- let the LLM choose among the tied variants instead.
+                if len(result.tied_candidates) > 1:
+                    chosen = llm_matcher.adjudicate(beer, list(result.tied_candidates))
+                    if chosen is not None:
+                        logger.info(
+                            "LLM broke a %d-way tie for %s::%s", len(result.tied_candidates), beer.brewery, beer.name,
+                        )
+                        UntappdPairing._record_llm_match(store, beer, fixtures_store, chosen, trace)
+                        return None
+                    # LLM unavailable or undecided: keep the deterministic rating-based pick below.
                 logger.info(
                     "Matched %s::%s -> %s (score=%.2f)",
                     beer.brewery,
@@ -191,18 +219,7 @@ class UntappdPairing(BaseRobot):
         if pool:
             chosen = llm_matcher.adjudicate(beer, pool)
             if chosen is not None:
-                result = MatchResult(
-                    candidate=chosen,
-                    score=matcher.name_overlap(beer.name, chosen.name),
-                    brewery_matched=matcher.brewery_matches(beer.brewery, chosen.brewery),
-                )
-                logger.info("LLM matched %s::%s -> %s", beer.brewery, beer.name, chosen.url)
-                UntappdPairing._record_match(store, beer, result, LLM_QUERY_MARKER)
-                fixtures_store.upsert(
-                    beer,
-                    trace,
-                    FixtureOutcome(matched_url=compress_url(chosen.url), source="llm"),
-                )
+                UntappdPairing._record_llm_match(store, beer, fixtures_store, chosen, trace)
                 return None
 
         logger.info("No match for %s::%s after %d queries", beer.brewery, beer.name, len(queries))

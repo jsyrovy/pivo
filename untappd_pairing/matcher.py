@@ -17,6 +17,9 @@ class MatchResult:
     candidate: UntappdCandidate
     score: float
     brewery_matched: bool = False
+    # Populated (length > 1) only when several candidates share the top deterministic rank and just
+    # rating separates them -- a genuine ambiguity the caller may escalate to the LLM adjudicator.
+    tied_candidates: tuple[UntappdCandidate, ...] = ()
 
 
 def _bigrams(text: str) -> set[str]:
@@ -189,4 +192,11 @@ def best_match(
     # Rating stays as the last resort when the deterministic rank cannot separate candidates.
     brewery_hits.sort(key=lambda s: (_rank(s), s.candidate.rating or 0.0), reverse=True)
     top = brewery_hits[0]
-    return MatchResult(candidate=top.candidate, score=round(top.overlap, 4), brewery_matched=True)
+    top_rank = _rank(top)
+    tied = tuple(s.candidate for s in brewery_hits if _rank(s) == top_rank)
+    return MatchResult(
+        candidate=top.candidate,
+        score=round(top.overlap, 4),
+        brewery_matched=True,
+        tied_candidates=tied if len(tied) > 1 else (),
+    )

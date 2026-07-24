@@ -109,10 +109,16 @@ def test_best_match_prefers_base_variant_over_higher_rated_special_edition():
     # the plain base beer must win over the higher-rated special/unfiltered editions, whose extra
     # qualifier words the tap-list name doesn't carry. Rating alone would wrongly pick the special.
     base = _candidate(
-        "Otakar 11%", brewery="Měšťanský pivovar v Poličce", url="https://untappd.com/b/base/1", rating=3.33,
+        "Otakar 11%",
+        brewery="Měšťanský pivovar v Poličce",
+        url="https://untappd.com/b/base/1",
+        rating=3.33,
     )
     unfiltered = _candidate(
-        "Otakar 11 nefiltrované", brewery="Měšťanský pivovar v Poličce", url="https://untappd.com/b/unf/2", rating=3.37,
+        "Otakar 11 nefiltrované",
+        brewery="Měšťanský pivovar v Poličce",
+        url="https://untappd.com/b/unf/2",
+        rating=3.37,
     )
     easter = _candidate(
         "Velikonoční Otakar 11%",
@@ -123,6 +129,18 @@ def test_best_match_prefers_base_variant_over_higher_rated_special_edition():
     result = matcher.best_match("Otakar", "Polička", [easter, unfiltered, base], degree_plato=11)
     assert result is not None
     assert result.candidate.url == "https://untappd.com/b/base/1"
+    # The base beer wins the extra-qualifier tiebreak outright, so this is not a tie to escalate.
+    assert result.tied_candidates == ()
+
+
+def test_best_match_flags_tied_candidates_when_only_rating_separates():
+    # Two identically-named same-brewery beers tie on every deterministic signal; only rating
+    # differs, so best_match exposes both for the caller to escalate rather than trusting rating.
+    low = _candidate("Juno", brewery="Pivovar Loutkař", url="https://untappd.com/b/low/1", rating=3.5)
+    high = _candidate("Juno", brewery="Pivovar Loutkař", url="https://untappd.com/b/high/2", rating=4.5)
+    result = matcher.best_match("Juno", "Loutkař", [low, high])
+    assert result is not None
+    assert {c.url for c in result.tied_candidates} == {"https://untappd.com/b/low/1", "https://untappd.com/b/high/2"}
 
 
 def test_best_match_extra_qualifier_tiebreaker_ranks_below_name_overlap():
