@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-24T18:23:23Z",
+  "generated_at": "2026-07-24T19:47:22Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -5958,6 +5958,154 @@
       "outcome": {
         "matched": "/b/vinohradsky-pivovar-our-first-apa-13/1085042",
         "score": 1.0
+      }
+    },
+    "beerstreet::Vinohradský::Liberator": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Vinohradský",
+        "name": "Liberator",
+        "style": "APA",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-07-24T19:47:08Z",
+      "candidates": [
+        {
+          "name": "Liberator",
+          "brewery": "Vinohradský pivovar",
+          "url": "/b/vinohradsky-pivovar-liberator/3790452",
+          "rating": 3.6
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Liberator 11° Vinohradský",
+          "hits": []
+        },
+        {
+          "query": "Liberator Vinohradský",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/vinohradsky-pivovar-liberator/3790452",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Vorkloster::Munich Helles": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Vorkloster",
+        "name": "Munich Helles",
+        "style": "Helles",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-07-24T19:47:03Z",
+      "candidates": [
+        {
+          "name": "Vorkloster Munich Helles",
+          "brewery": "Klášterní pivovar Porta Coeli",
+          "url": "/b/klasterni-pivovar-porta-coeli-vorkloster-helles-12/4520675",
+          "rating": 3.48
+        },
+        {
+          "name": "Periodic Series - Helles Munich Lager",
+          "brewery": "Category 12 Brewing",
+          "url": "/b/category-12-brewing-periodic-series-helles-munich-lager/4538521",
+          "rating": 3.72
+        },
+        {
+          "name": "Helles 10°",
+          "brewery": "Remeselný pivovar Hellstork",
+          "url": "/b/remeselny-pivovar-hellstork-helles-10-deg/1757284",
+          "rating": 3.37
+        },
+        {
+          "name": "2020/07/12 Munich Helles",
+          "brewery": "Geisen Brewing",
+          "url": "/b/geisen-brewing-2020-07-12-munich-helles/3901237",
+          "rating": null
+        },
+        {
+          "name": "Munich Helles",
+          "brewery": "Way Beer",
+          "url": "/b/way-beer-munich-helles/4822974",
+          "rating": 3.77
+        },
+        {
+          "name": "Club 12 Munich Helles",
+          "brewery": "Cervejaria Walfänger",
+          "url": "/b/cervejaria-walfanger-club-12-munich-helles/5267026",
+          "rating": null
+        },
+        {
+          "name": "Spaten Münchner Hell / Premium Lager",
+          "brewery": "Spaten-Franziskaner-Löwenbräu-Gruppe",
+          "url": "/b/spaten-franziskaner-lowenbrau-gruppe-spaten-munchner-hell-premium-lager/1633",
+          "rating": 3.39
+        },
+        {
+          "name": "Münchner Hell ",
+          "brewery": "Paulaner Brauerei",
+          "url": "/b/paulaner-brauerei-munchner-hell/3235",
+          "rating": 3.46
+        },
+        {
+          "name": "Edelstoff",
+          "brewery": "Augustiner-Bräu München",
+          "url": "/b/augustiner-brau-munchen-edelstoff/1697",
+          "rating": 3.63
+        },
+        {
+          "name": "Weihenstephaner Original",
+          "brewery": "Bayerische Staatsbrauerei Weihenstephan",
+          "url": "/b/bayerische-staatsbrauerei-weihenstephan-weihenstephaner-original/2716",
+          "rating": 3.61
+        },
+        {
+          "name": "Münchner Hell",
+          "brewery": "Hacker-Pschorr",
+          "url": "/b/hacker-pschorr-munchner-hell/16238",
+          "rating": 3.43
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Munich Helles 12° Vorkloster",
+          "hits": []
+        },
+        {
+          "query": "Munich Helles Vorkloster",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Munich Helles 12°",
+          "hits": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "query": "Munich Helles",
+          "hits": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "beerstreet::Zichovec::Everyday Juice": {

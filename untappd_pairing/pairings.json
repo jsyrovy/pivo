@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-24T18:23:23Z",
+  "generated_at": "2026-07-24T19:47:22Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -966,6 +966,16 @@
       "query_used": "Pale Lager 11° Agent",
       "description": "Pale Lager 11 od Pivovaru Agent je světlý ležák s 11° stupňovitostí a 4,9 % alkoholu, který potěší příznivce mírně hořkého, osvěžujícího stylu s průměrným hodnocením 3,46 na Untappd."
     },
+    "beerstreet::Agent::Stylish Girl - malina": {
+      "untappd_url": "https://untappd.com/b/pivovar-agent-stylish-girl-raspberry-milkshake-neipa/5517076",
+      "untappd_name": "Stylish Girl - Raspberry Milkshake NEIPA",
+      "untappd_brewery": "Pivovar Agent",
+      "rating": 3.82451,
+      "match_score": 1.0,
+      "matched_at": "2026-07-24T19:47:15Z",
+      "query_used": "<override>",
+      "description": "Stylish Girl je mléčný NEIPA s 5,9 % alkoholu a 13 stupni. Vhodné je na letní posezení s přáteli nebo neformální setkání."
+    },
     "beerstreet::Avar::The FiRsT": {
       "untappd_url": "https://untappd.com/b/avar-brewing-co-the-first-11-deg/5218056",
       "untappd_name": "ThE FiRsT 11°",
@@ -1227,6 +1237,16 @@
       "match_score": 0.2143,
       "matched_at": "2026-05-27T07:22:53Z",
       "query_used": "Pomeranč + skořice Klenot"
+    },
+    "beerstreet::Klenot::Sour Ale Guava + rozmaryn": {
+      "untappd_url": "https://untappd.com/b/hradecky-klenot-guavw-with-rosemary-kvajava-s-rozmarynem-12/6735312",
+      "untappd_name": "Guava with a Hint of Rosemary / Kvajáva s rozmarýnem 12",
+      "untappd_brewery": "Hradecký Klenot",
+      "rating": 3.818,
+      "match_score": 1.0,
+      "matched_at": "2026-07-24T19:47:22Z",
+      "query_used": "<override>",
+      "description": "Guava with a Hint of Rosemary je lehký sour ale s 3,7 % alkoholu a 12° stupňovitosti. Vhodné pro osvěžení v letním dni nebo při neformální setkání."
     },
     "beerstreet::Klenot::Vera & Mosaic": {
       "untappd_url": "https://untappd.com/b/hradecky-klenot-vera-and-mosaic-hazy-ale-12/6709729",
@@ -1876,6 +1896,16 @@
       "query_used": "APA Vinohradský",
       "description": "Our First APA 13 od Vinohradského pivovaru je průměrně silné 4,5 % ABV s 11° stupňovitostí, stylově vyvážené a vhodné na běžné posezení nebo odpolední setkání s přáteli."
     },
+    "beerstreet::Vinohradský::Liberator": {
+      "untappd_url": "https://untappd.com/b/vinohradsky-pivovar-liberator/3790452",
+      "untappd_name": "Liberator",
+      "untappd_brewery": "Vinohradský pivovar",
+      "rating": 3.6,
+      "match_score": 1.0,
+      "matched_at": "2026-07-24T19:47:08Z",
+      "query_used": "Liberator Vinohradský",
+      "description": "Liberator od Vinohradského pivovaru je stylizovaný APA s mírnou až střední silou (4,5 % ABV). Vhodný je na odpolední setkání s přáteli nebo uvolněný večer."
+    },
     "beerstreet::Zichovec::Everyday Juice": {
       "untappd_url": "https://untappd.com/b/pivovar-zichovec-everyday-juice-12/6619650",
       "untappd_name": "Everyday Juice 12",
@@ -2214,11 +2244,6 @@
       "last_tried_at": "2026-05-29T20:26:06Z",
       "reason": "no_candidates_above_threshold"
     },
-    "beerstreet::Agent::Stylish Girl - malina": {
-      "attempts": 1,
-      "last_tried_at": "2026-07-24T18:22:43Z",
-      "reason": "no_candidates_above_threshold"
-    },
     "beerstreet::Avar::Kazbek": {
       "attempts": 1,
       "last_tried_at": "2026-06-19T19:00:45Z",
@@ -2239,14 +2264,14 @@
       "last_tried_at": "2026-05-22T09:09:16Z",
       "reason": "no_candidates_above_threshold"
     },
-    "beerstreet::Klenot::Sour Ale Guava + rozmaryn": {
-      "attempts": 1,
-      "last_tried_at": "2026-07-24T18:22:53Z",
-      "reason": "no_candidates_above_threshold"
-    },
     "beerstreet::Kynšperský zajíc::Summer Ale": {
       "attempts": 1,
       "last_tried_at": "2026-05-30T17:14:51Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "beerstreet::Vorkloster::Munich Helles": {
+      "attempts": 1,
+      "last_tried_at": "2026-07-24T19:47:03Z",
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::Záhora::Silk Road": {
