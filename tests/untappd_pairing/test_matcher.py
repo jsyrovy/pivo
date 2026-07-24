@@ -104,6 +104,37 @@ def test_best_match_tie_breaker_prefers_higher_rating_within_brewery_tier():
     assert result.candidate.url == "https://untappd.com/b/h/1"
 
 
+def test_best_match_prefers_base_variant_over_higher_rated_special_edition():
+    # "Otakar" (U Zámastilu, degree 11) has three same-brewery variants with equal name overlap;
+    # the plain base beer must win over the higher-rated special/unfiltered editions, whose extra
+    # qualifier words the tap-list name doesn't carry. Rating alone would wrongly pick the special.
+    base = _candidate(
+        "Otakar 11%", brewery="Měšťanský pivovar v Poličce", url="https://untappd.com/b/base/1", rating=3.33,
+    )
+    unfiltered = _candidate(
+        "Otakar 11 nefiltrované", brewery="Měšťanský pivovar v Poličce", url="https://untappd.com/b/unf/2", rating=3.37,
+    )
+    easter = _candidate(
+        "Velikonoční Otakar 11%",
+        brewery="Měšťanský pivovar v Poličce",
+        url="https://untappd.com/b/easter/3",
+        rating=3.4,
+    )
+    result = matcher.best_match("Otakar", "Polička", [easter, unfiltered, base], degree_plato=11)
+    assert result is not None
+    assert result.candidate.url == "https://untappd.com/b/base/1"
+
+
+def test_best_match_extra_qualifier_tiebreaker_ranks_below_name_overlap():
+    # The extra-qualifier tiebreaker only orders candidates already equal on the stronger signals;
+    # a genuinely better name overlap still wins even if it carries more qualifier words.
+    fewer_extra = _candidate("Sun", brewery="Pivovar Loutkař", url="https://untappd.com/b/a/1", rating=4.0)
+    better_overlap = _candidate("Sunshine Haze", brewery="Pivovar Loutkař", url="https://untappd.com/b/b/2", rating=4.0)
+    result = matcher.best_match("Sunshine Haze", "Loutkař", [fewer_extra, better_overlap])
+    assert result is not None
+    assert result.candidate.url == "https://untappd.com/b/b/2"
+
+
 def test_best_match_prefers_exact_normalized_match_over_other_vintage():
     # Same brewery, both names contain the cleaned form, but only one is the exact 2020 vintage
     older = _candidate("Tears of St Laurent (2019)", brewery="Wild Creatures", url="https://untappd.com/b/2019/1")
