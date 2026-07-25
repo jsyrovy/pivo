@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-25T14:39:48Z",
+  "generated_at": "2026-07-25T16:08:03Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -7109,6 +7109,120 @@
         "score": 0.6
       }
     },
+    "uzamastilu::Plum Sorbet Sibeeria::Blackberry,Raspberry,": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Plum Sorbet Sibeeria",
+        "name": "Blackberry,Raspberry,",
+        "style": "",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-07-25T16:08:03Z",
+      "candidates": [
+        {
+          "name": "Blackberry, Plum & Raspberry Sorbet",
+          "brewery": "Sibeeria Brewery",
+          "url": "/b/sibeeria-brewery-blackberry-plum-and-raspberry-sorbet/6757224",
+          "rating": 3.77
+        },
+        {
+          "name": "Slice! - Raspberry/Blackberry",
+          "brewery": "Eleventh Hour Brewing",
+          "url": "/b/eleventh-hour-brewing-slice-raspberry-blackberry/4031249",
+          "rating": 4.07
+        },
+        {
+          "name": "Undertone Preserves: Blackberry + Black Raspberry (11/3/21)",
+          "brewery": "Casey Brewing & Blending",
+          "url": "/b/casey-brewing-and-blending-undertone-preserves-blackberry-black-raspberry-11-3-21/4704350",
+          "rating": 4.24
+        },
+        {
+          "name": "Illusion of Safety - [Blackberry + Blueberry + Raspberry + Pomegranate] (Ghost 1171)",
+          "brewery": "Adroit Theory",
+          "url": "/b/adroit-theory-illusion-of-safety-blackberry-blueberry-raspberry-pomegranate-ghost-1171/4744929",
+          "rating": 4.21
+        },
+        {
+          "name": "How To Get Aciddicted – Nr. 11 (Raspberry, Blackberry & Acai)",
+          "brewery": "This Is How",
+          "url": "/b/this-is-how-how-to-get-aciddicted-nr-11-raspberry-blackberry-and-acai/5254638",
+          "rating": 3.36
+        },
+        {
+          "name": "Milkshake Session 12° With Raspberry, Blackberry, Mango",
+          "brewery": "Pivovar Čestmír",
+          "url": "/b/pivovar-cestmir-milkshake-session-12-deg-with-raspberry-blackberry-mango/6377526",
+          "rating": 3.91
+        },
+        {
+          "name": "The Gadget",
+          "brewery": "Urban Artifact",
+          "url": "/b/urban-artifact-the-gadget/1692444",
+          "rating": 3.98
+        },
+        {
+          "name": "Dr. Robot",
+          "brewery": "Monday Night Brewing",
+          "url": "/b/monday-night-brewing-dr-robot/2262795",
+          "rating": 3.65
+        },
+        {
+          "name": "Secret Machine - Triple Berry",
+          "brewery": "Dewey Beer Company",
+          "url": "/b/dewey-beer-company-secret-machine-triple-berry/2581458",
+          "rating": 4.1
+        },
+        {
+          "name": "Sour Blackberry Raspberry",
+          "brewery": "Edmund's Oast Brewing Company",
+          "url": "/b/edmund-s-oast-brewing-company-sour-blackberry-raspberry/2451548",
+          "rating": 4.07
+        },
+        {
+          "name": "Operation Plowshare",
+          "brewery": "Urban Artifact",
+          "url": "/b/urban-artifact-operation-plowshare/1771865",
+          "rating": 3.99
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Blackberry,Raspberry, 11° Plum Sorbet Sibeeria",
+          "hits": []
+        },
+        {
+          "query": "Blackberry,Raspberry, Plum Sorbet Sibeeria",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Blackberry,Raspberry, 11°",
+          "hits": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "query": "Blackberry,Raspberry,",
+          "hits": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/sibeeria-brewery-blackberry-plum-and-raspberry-sorbet/6757224",
+        "source": "llm"
+      }
+    },
     "uzamastilu::Polička::Otakar": {
       "beer": {
         "source": "uzamastilu",
@@ -7417,6 +7531,49 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-trautenberk-trautenberk-14-apa/1446943",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Trautenberk::Ležák": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Trautenberk",
+        "name": "Ležák",
+        "style": "Ležák",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-07-25T16:07:48Z",
+      "candidates": [
+        {
+          "name": "Trautenberk Kančí Ležák 12°",
+          "brewery": "Pivovar Permon",
+          "url": "/b/pivovar-permon-trautenberk-kanci-lezak-12-deg/5846270",
+          "rating": 3.56
+        },
+        {
+          "name": "Trautenberk Tmavý ležák",
+          "brewery": "Pivovar Trautenberk",
+          "url": "/b/pivovar-trautenberk-trautenberk-tmavy-lezak/1825642",
+          "rating": 3.46
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Ležák 11° Trautenberk",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Ležák Trautenberk",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-trautenberk-trautenberk-tmavy-lezak/1825642",
         "score": 1.0
       }
     }

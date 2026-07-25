@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-25T14:39:48Z",
+  "generated_at": "2026-07-25T16:08:03Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -2204,6 +2204,16 @@
       "matched_at": "2026-07-24T06:55:42Z",
       "query_used": "Wai-Wai 12° Mazák"
     },
+    "uzamastilu::Plum Sorbet Sibeeria::Blackberry,Raspberry,": {
+      "untappd_url": "https://untappd.com/b/sibeeria-brewery-blackberry-plum-and-raspberry-sorbet/6757224",
+      "untappd_name": "Blackberry, Plum & Raspberry Sorbet",
+      "untappd_brewery": "Sibeeria Brewery",
+      "rating": 3.77,
+      "match_score": 0.9285714285714286,
+      "matched_at": "2026-07-25T16:08:03Z",
+      "query_used": "<llm>",
+      "description": "Ovocné pivo s mírnou sladkostí a ovocným charakterem, vhodné na letní osvěžení. S lehkou až střední tělesností a 11° stupňovitostí nabízí příjemný poměr alkoholu a ovocného projevu, ideální pro neformální setkání."
+    },
     "uzamastilu::Polička::Otakar": {
       "untappd_url": "https://untappd.com/b/mestansky-pivovar-v-policce-otakar-11-velikonocni/6613562",
       "untappd_name": "Velikonoční Otakar 11%",
@@ -2251,6 +2261,16 @@
       "matched_at": "2026-07-23T19:06:13Z",
       "query_used": "APA 14° Trautenberk",
       "description": "Trautenberk 14 APA je středně silné pivo s 14° stupňovitostí a mírnou hořkostí, vhodné na osvěžení po práci nebo při neformální schůzce."
+    },
+    "uzamastilu::Trautenberk::Ležák": {
+      "untappd_url": "https://untappd.com/b/pivovar-trautenberk-trautenberk-tmavy-lezak/1825642",
+      "untappd_name": "Trautenberk Tmavý ležák",
+      "untappd_brewery": "Pivovar Trautenberk",
+      "rating": 3.46,
+      "match_score": 1.0,
+      "matched_at": "2026-07-25T16:07:48Z",
+      "query_used": "Ležák Trautenberk",
+      "description": "Trautenberk Tmavý ležák je tmavý ležák s 11° stupňovitostí, který potěší příznivce klasických českých piv a hodí se na neformální setkání s přáteli."
     }
   },
   "unmatched": {
