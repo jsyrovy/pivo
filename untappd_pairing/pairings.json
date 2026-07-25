@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-25T18:00:26Z",
+  "generated_at": "2026-07-25T20:12:47Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -1157,6 +1157,16 @@
       "matched_at": "2026-04-24T19:50:41Z",
       "query_used": "Summer Ale Hřebec"
     },
+    "beerstreet::Kamenice::Summer Ale": {
+      "untappd_url": "https://untappd.com/b/pivovar-kamenice-nad-lipou-summer-ale-9/6770335",
+      "untappd_name": "Summer Ale 9",
+      "untappd_brewery": "Pivovar Kamenice nad Lipou",
+      "rating": 3.38,
+      "match_score": 1.0,
+      "matched_at": "2026-07-25T20:12:47Z",
+      "query_used": "Summer Ale Kamenice",
+      "description": "Letní ale s mírnou silou 3,8 % ABV a 9,5 ° stupňovitosti, lehce osvěžující a vhodné na letní den nebo odpolední setkání, hodnocení 3,38/5 na Untappd."
+    },
     "beerstreet::Klenot & Zmajska::Dragon Gem": {
       "untappd_url": "https://untappd.com/b/hradecky-klenot-dragon-gem/6752717",
       "untappd_name": "Dragon Gem",
@@ -1357,6 +1367,16 @@
       "match_score": 1.0,
       "matched_at": "2026-07-17T18:10:17Z",
       "query_used": "Horňácká 11° Louka"
+    },
+    "beerstreet::Louka::Kontráš": {
+      "untappd_url": "https://untappd.com/b/pivovar-louka-kontras-12/3903539",
+      "untappd_name": "Kontráš 12",
+      "untappd_brewery": "Pivovar Louka",
+      "rating": 3.35,
+      "match_score": 1.0,
+      "matched_at": "2026-07-25T20:12:39Z",
+      "query_used": "Kontráš 12° Louka",
+      "description": "Kontráš 12 od Pivovaru Louka je klasický světlý ležák s mírnou silou 4,6 % ABV a 12° stupňovitostí, který potěší příznivce vyváženého stylu a hodí se na běžné posezení nebo odpolední setkání."
     },
     "beerstreet::Louka::Kuželka": {
       "untappd_url": "https://untappd.com/b/pivovar-louka-kuzelka/4615473",

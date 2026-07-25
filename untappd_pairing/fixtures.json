@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-25T18:00:26Z",
+  "generated_at": "2026-07-25T20:12:47Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -3799,6 +3799,40 @@
         "score": 0.6667
       }
     },
+    "beerstreet::Kamenice::Summer Ale": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Kamenice",
+        "name": "Summer Ale",
+        "style": "Summer ale",
+        "degree_plato": 9.5
+      },
+      "captured_at": "2026-07-25T20:12:47Z",
+      "candidates": [
+        {
+          "name": "Summer Ale 9",
+          "brewery": "Pivovar Kamenice nad Lipou",
+          "url": "/b/pivovar-kamenice-nad-lipou-summer-ale-9/6770335",
+          "rating": 3.38
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Summer Ale 9° Kamenice",
+          "hits": []
+        },
+        {
+          "query": "Summer Ale Kamenice",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-kamenice-nad-lipou-summer-ale-9/6770335",
+        "score": 1.0
+      }
+    },
     "beerstreet::Klenot & Zmajska::Dragon Gem": {
       "beer": {
         "source": "beerstreet",
@@ -4544,6 +4578,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-louka-hornacka-11/6079709",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Louka::Kontráš": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Louka",
+        "name": "Kontráš",
+        "style": "Ležák světlý",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-07-25T20:12:39Z",
+      "candidates": [
+        {
+          "name": "Kontráš 12",
+          "brewery": "Pivovar Louka",
+          "url": "/b/pivovar-louka-kontras-12/3903539",
+          "rating": 3.35
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Kontráš 12° Louka",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-louka-kontras-12/3903539",
         "score": 1.0
       }
     },
