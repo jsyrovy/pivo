@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-24T22:09:55Z",
+  "generated_at": "2026-07-25T14:39:48Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -5994,6 +5994,64 @@
         "score": 1.0
       }
     },
+    "beerstreet::Vinohradský::Vinohradská": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Vinohradský",
+        "name": "Vinohradská",
+        "style": "Ležák světiý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-07-25T14:39:37Z",
+      "candidates": [
+        {
+          "name": "Vinohradská 11",
+          "brewery": "Vinohradský pivovar",
+          "url": "/b/vinohradsky-pivovar-vinohradska-11/916918",
+          "rating": 3.54
+        },
+        {
+          "name": "Weiss 11",
+          "brewery": "Vinohradský pivovar",
+          "url": "/b/vinohradsky-pivovar-weiss-11/4420983",
+          "rating": 3.61
+        },
+        {
+          "name": "Micro Lager 11",
+          "brewery": "Vinohradský pivovar",
+          "url": "/b/vinohradsky-pivovar-micro-lager-11/6211486",
+          "rating": 3.73
+        },
+        {
+          "name": "Galaktická 11",
+          "brewery": "Vinohradský pivovar",
+          "url": "/b/vinohradsky-pivovar-galakticka-11/6421550",
+          "rating": 3.65
+        },
+        {
+          "name": "DDH Wai-iti SMaSH 16°",
+          "brewery": "Vinohradský Démon",
+          "url": "/b/vinohradsky-demon-ddh-wai-iti-smash-16-deg/4549448",
+          "rating": 3.81
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Vinohradská 11° Vinohradský",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/vinohradsky-pivovar-vinohradska-11/916918",
+        "score": 1.0
+      }
+    },
     "beerstreet::Vorkloster::Munich Helles": {
       "beer": {
         "source": "beerstreet",
@@ -7259,6 +7317,77 @@
       "outcome": {
         "matched": "/b/mestansky-pivovar-v-policce-zavis-12-nefiltrovane/188796",
         "score": 0.6667
+      }
+    },
+    "uzamastilu::Raspb.Sorbet Sibeeria::Blackberry,Plum &": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Raspb.Sorbet Sibeeria",
+        "name": "Blackberry,Plum &",
+        "style": "",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-07-25T14:39:48Z",
+      "candidates": [
+        {
+          "name": "Funky Blender Preserves: Plum + Blackberry + Cherry (Elephant Heart, BB, Danubue 11/18/18)",
+          "brewery": "Casey Brewing & Blending",
+          "url": "/b/casey-brewing-and-blending-funky-blender-preserves-plum-blackberry-cherry-elephant-heart-bb-danubue-11-18-18/3107665",
+          "rating": 4.4
+        },
+        {
+          "name": "Puff Tart XL - Blackberry, Peach, Guava, Plum",
+          "brewery": "The Brewing Projekt",
+          "url": "/b/the-brewing-projekt-puff-tart-blackberry-peach-guava-plum/3905462",
+          "rating": 4.24
+        },
+        {
+          "name": "Braaaaaaaains - Blackberry, Plum, Raspberry",
+          "brewery": "Drekker Brewing Company",
+          "url": "/b/drekker-brewing-company-braaaaaaaains-blackberry-plum-raspberry/4051710",
+          "rating": 4.36
+        },
+        {
+          "name": "Daily Serving: Blackberry, Plum & Raspberry",
+          "brewery": "Trillium Brewing Company",
+          "url": "/b/trillium-brewing-company-daily-serving-blackberry-plum-and-raspberry/3855144",
+          "rating": 4.32
+        },
+        {
+          "name": "Braaaaaaaains - Blackberry, Cherry, Plum",
+          "brewery": "Drekker Brewing Company",
+          "url": "/b/drekker-brewing-company-braaaaaaaains-blackberry-cherry-plum/5022352",
+          "rating": 4.16
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Blackberry,Plum & 11° Raspb.Sorbet Sibeeria",
+          "hits": []
+        },
+        {
+          "query": "Blackberry,Plum & Raspb.Sorbet Sibeeria",
+          "hits": []
+        },
+        {
+          "query": "Blackberry,Plum & 11°",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Blackberry,Plum &",
+          "hits": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "uzamastilu::Trautenberk::APA": {
