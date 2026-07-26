@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-26T20:13:51Z",
+  "generated_at": "2026-07-26T22:03:06Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -7319,6 +7319,76 @@
       "outcome": {
         "matched": "/b/pivovar-mazak-wai-wai/6776198",
         "score": 0.6
+      }
+    },
+    "uzamastilu::Pale Ale Brewnicorn::Hoppla! Continental": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Pale Ale Brewnicorn",
+        "name": "Hoppla! Continental",
+        "style": "",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-07-26T22:03:06Z",
+      "candidates": [
+        {
+          "name": "American Ipa, Continental Edition",
+          "brewery": "Panimo Hoppa",
+          "url": "/b/panimo-hoppa-american-ipa-continental-edition/6174241",
+          "rating": null
+        },
+        {
+          "name": "Old Continental",
+          "brewery": "HopFly Brewing",
+          "url": "/b/hopfly-brewing-old-continental/6438074",
+          "rating": 3.81
+        },
+        {
+          "name": "Caesar Salad Continental Hopped Pilsner | Cheatmeal 欺骗餐·凯撒沙拉",
+          "brewery": "NBeer Craft Brewing Co. 牛啤堂",
+          "url": "/b/nbeer-craft-brewing-co-caesar-salad-continental-hopped-pilsner-cheatmeal/6523703",
+          "rating": 3.81
+        },
+        {
+          "name": "Continental Double Hopped IPA",
+          "brewery": "Flashback Brewing",
+          "url": "/b/flashback-brewing-continental-double-hopped-ipa/5242996",
+          "rating": null
+        },
+        {
+          "name": "Double Dry-Hopped Continental",
+          "brewery": "Argilla Brewing Company",
+          "url": "/b/argilla-brewing-company-double-dry-hopped-continental/686876",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Hoppla! Continental 12° Pale Ale Brewnicorn",
+          "hits": []
+        },
+        {
+          "query": "Hoppla! Continental Pale Ale Brewnicorn",
+          "hits": []
+        },
+        {
+          "query": "Hoppla! Continental 12°",
+          "hits": []
+        },
+        {
+          "query": "Hoppla! Continental",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "uzamastilu::Plum Sorbet Sibeeria::Blackberry,Raspberry,": {
