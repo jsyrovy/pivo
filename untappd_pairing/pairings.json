@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-26T22:03:06Z",
+  "generated_at": "2026-07-27T05:53:54Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -2234,6 +2234,16 @@
       "matched_at": "2026-07-24T06:55:42Z",
       "query_used": "Wai-Wai 12° Mazák"
     },
+    "uzamastilu::Pale Ale Brewnicorn::Hoppla! Continental": {
+      "untappd_url": "https://untappd.com/b/brewnicorn-hoppla/6791335",
+      "untappd_name": "Hoppla!",
+      "untappd_brewery": "Brewnicorn",
+      "rating": null,
+      "match_score": 1.0,
+      "matched_at": "2026-07-27T05:53:54Z",
+      "query_used": "<override>",
+      "description": "Hoppla! od Brewnicornu je dvanáctistupňové pivo s neznámým obsahem alkoholu, které svým robustním charakterem potěší milovníky silných, aromatických brewů a hodí se na osvěžující večerní setkání."
+    },
     "uzamastilu::Plum Sorbet Sibeeria::Blackberry,Raspberry,": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-blackberry-plum-and-raspberry-sorbet/6757224",
       "untappd_name": "Blackberry, Plum & Raspberry Sorbet",
@@ -2352,11 +2362,6 @@
     "beerstreet::Černý Potoka::Cold Fish Mosaic dry hopped": {
       "attempts": 1,
       "last_tried_at": "2026-06-03T18:24:49Z",
-      "reason": "no_candidates_above_threshold"
-    },
-    "uzamastilu::Pale Ale Brewnicorn::Hoppla! Continental": {
-      "attempts": 1,
-      "last_tried_at": "2026-07-26T22:03:06Z",
       "reason": "no_candidates_above_threshold"
     },
     "uzamastilu::Raspb.Sorbet Sibeeria::Blackberry,Plum &": {
