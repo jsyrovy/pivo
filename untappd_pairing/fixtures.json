@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-27T05:53:54Z",
+  "generated_at": "2026-07-27T15:46:34Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -6775,6 +6775,69 @@
         "score": 1.0
       }
     },
+    "uzamastilu::Brewnicorn::Hoppla! Continental": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Brewnicorn",
+        "name": "Hoppla! Continental",
+        "style": "Pale ale",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-07-27T15:46:28Z",
+      "candidates": [
+        {
+          "name": "American Ipa, Continental Edition",
+          "brewery": "Panimo Hoppa",
+          "url": "/b/panimo-hoppa-american-ipa-continental-edition/6174241",
+          "rating": null
+        },
+        {
+          "name": "Caesar Salad Continental Hopped Pilsner | Cheatmeal 欺骗餐·凯撒沙拉",
+          "brewery": "NBeer Craft Brewing Co. 牛啤堂",
+          "url": "/b/nbeer-craft-brewing-co-caesar-salad-continental-hopped-pilsner-cheatmeal/6523703",
+          "rating": 3.81
+        },
+        {
+          "name": "Continental Double Hopped IPA",
+          "brewery": "Flashback Brewing",
+          "url": "/b/flashback-brewing-continental-double-hopped-ipa/5242996",
+          "rating": null
+        },
+        {
+          "name": "Double Dry-Hopped Continental",
+          "brewery": "Argilla Brewing Company",
+          "url": "/b/argilla-brewing-company-double-dry-hopped-continental/686876",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Hoppla! Continental 12° Brewnicorn",
+          "hits": []
+        },
+        {
+          "query": "Hoppla! Continental Brewnicorn",
+          "hits": []
+        },
+        {
+          "query": "Hoppla! Continental 12°",
+          "hits": []
+        },
+        {
+          "query": "Hoppla! Continental",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
     "uzamastilu::Budvar::Birgo Mango-Limetka": {
       "beer": {
         "source": "uzamastilu",
@@ -7784,6 +7847,40 @@
       "outcome": {
         "matched": null,
         "reason": "no_candidates_above_threshold"
+      }
+    },
+    "uzamastilu::Sibeeria::Blackberry,Raspberry, Plum Sorbet": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Sibeeria",
+        "name": "Blackberry,Raspberry, Plum Sorbet",
+        "style": "",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-07-27T15:46:34Z",
+      "candidates": [
+        {
+          "name": "Blackberry, Plum & Raspberry Sorbet",
+          "brewery": "Sibeeria Brewery",
+          "url": "/b/sibeeria-brewery-blackberry-plum-and-raspberry-sorbet/6757224",
+          "rating": 3.77
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Blackberry,Raspberry, Plum Sorbet 11° Sibeeria",
+          "hits": []
+        },
+        {
+          "query": "Blackberry,Raspberry, Plum Sorbet Sibeeria",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/sibeeria-brewery-blackberry-plum-and-raspberry-sorbet/6757224",
+        "score": 0.913
       }
     },
     "uzamastilu::Trautenberk::APA": {
