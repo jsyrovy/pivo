@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-27T17:47:03Z",
+  "generated_at": "2026-07-27T19:42:28Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -7954,6 +7954,36 @@
       "outcome": {
         "matched": "/b/pivovar-trautenberk-trautenberk-tmavy-lezak/1825642",
         "score": 1.0
+      }
+    },
+    "uzamastilu::Záhora::Novozélandský": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Záhora",
+        "name": "Novozélandský",
+        "style": "Ležák",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-07-27T19:42:28Z",
+      "candidates": [
+        {
+          "name": "Novozélanská 11",
+          "brewery": "Pivovar Záhora",
+          "url": "/b/pivovar-zahora-novozelanska-11/6638961",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Novozélandský 11° Záhora",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-zahora-novozelanska-11/6638961",
+        "score": 0.75
       }
     }
   }
