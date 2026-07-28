@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-28T15:25:14Z",
+  "generated_at": "2026-07-28T17:39:37Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -893,6 +893,16 @@
       "match_score": 0.8571,
       "matched_at": "2026-05-19T20:28:43Z",
       "query_used": "Frida Revolution Čestmír"
+    },
+    "ambasada::Čestmír, Brandýs nad Labem::Letní Mlha": {
+      "untappd_url": "https://untappd.com/b/pivovar-cestmir-letni-mlha/5422326",
+      "untappd_name": "Letní mlha",
+      "untappd_brewery": "Pivovar Čestmír",
+      "rating": 3.81,
+      "match_score": 1.0,
+      "matched_at": "2026-07-28T17:39:37Z",
+      "query_used": "Letní Mlha Čestmír",
+      "description": "Letní mlha od Pivovaru Čestmír je jemná hazy pale ale s 4 % alkoholu a 11° stupňovitosti, která potěší příznivce mírně ovocného stylu a hodí se na osvěžující letní den."
     },
     "ambasada::Čestmír, Brandýs nad Labem::Pink Guava Maracuja": {
       "untappd_url": "https://untappd.com/b/pivovar-cestmir-sour-pink-guava-maracuja/6534373",

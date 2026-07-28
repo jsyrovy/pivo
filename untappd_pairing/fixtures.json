@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-28T15:25:14Z",
+  "generated_at": "2026-07-28T17:39:37Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -2482,6 +2482,40 @@
       ],
       "outcome": {
         "matched": "/b/cerny-potoka-hellion/3092309",
+        "score": 1.0
+      }
+    },
+    "ambasada::Čestmír, Brandýs nad Labem::Letní Mlha": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Čestmír, Brandýs nad Labem",
+        "name": "Letní Mlha",
+        "style": "Hazy pale ale",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-07-28T17:39:37Z",
+      "candidates": [
+        {
+          "name": "Letní mlha",
+          "brewery": "Pivovar Čestmír",
+          "url": "/b/pivovar-cestmir-letni-mlha/5422326",
+          "rating": 3.81
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Letní Mlha 11° Čestmír",
+          "hits": []
+        },
+        {
+          "query": "Letní Mlha Čestmír",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-cestmir-letni-mlha/5422326",
         "score": 1.0
       }
     },
