@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-28T17:39:37Z",
+  "generated_at": "2026-07-28T19:40:18Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -19,6 +19,16 @@
       "match_score": 1.0,
       "matched_at": "2026-06-12T19:11:01Z",
       "query_used": "Moves 11° Agent"
+    },
+    "ambasada::Agent, Olešnice::Moves Exotic": {
+      "untappd_url": "https://untappd.com/b/pivovar-agent-moves-exotic/4961829",
+      "untappd_name": "Moves – Exotic",
+      "untappd_brewery": "Pivovar Agent",
+      "rating": 3.77,
+      "match_score": 1.0,
+      "matched_at": "2026-07-28T19:40:08Z",
+      "query_used": "Moves Exotic Agent",
+      "description": "Moves – Exotic od Pivovaru Agent je ovocný sour ale s mírnou kyselostí a lehkou plností, který osvěží při letním odpočinku nebo při neformálním setkání s přáteli."
     },
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-stylish-girl-milkshake-neipa-13deg-blackberry/5988268",
@@ -2264,6 +2274,16 @@
       "matched_at": "2026-07-24T18:23:23Z",
       "query_used": "Ležák 12° Madcat",
       "description": "Středně silné, osvěžující světlé ležáky od MadCatu s 12° stupňovitostí, vhodné na letní posezení u kamaráda. S průměrným tělesem a mírnou hořkostí potěší i ve společnosti."
+    },
+    "uzamastilu::Mazák::Moutere": {
+      "untappd_url": "https://untappd.com/b/pivovar-mazak-moutere-modern-ipa-14/6793799",
+      "untappd_name": "Moutere Modern IPA 14",
+      "untappd_brewery": "Pivovar Mazák",
+      "rating": 3.55,
+      "match_score": 1.0,
+      "matched_at": "2026-07-28T19:40:18Z",
+      "query_used": "Moutere 14° Mazák",
+      "description": "Modern IPA s 14° stupňovitostí od pivovaru Mazák, průměrně hodnocený 3,55 bodu na Untappd, kombinuje vyváženou hořkost s aromatickou komplexností. Vhodné pro odpolední setkání nebo neformální posezení."
     },
     "uzamastilu::Mazák::Wai-Wai": {
       "untappd_url": "https://untappd.com/b/pivovar-mazak-wai-wai/6776198",

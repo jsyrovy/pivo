@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-28T17:39:37Z",
+  "generated_at": "2026-07-28T19:40:18Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -78,6 +78,40 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-agent-moves-white-grapes-and-strawberries/4836340",
+        "score": 1.0
+      }
+    },
+    "ambasada::Agent, Olešnice::Moves Exotic": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Agent, Olešnice",
+        "name": "Moves Exotic",
+        "style": "Fruit sour ale",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-07-28T19:40:08Z",
+      "candidates": [
+        {
+          "name": "Moves – Exotic",
+          "brewery": "Pivovar Agent",
+          "url": "/b/pivovar-agent-moves-exotic/4961829",
+          "rating": 3.77
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Moves Exotic 11° Agent",
+          "hits": []
+        },
+        {
+          "query": "Moves Exotic Agent",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-agent-moves-exotic/4961829",
         "score": 1.0
       }
     },
@@ -7479,6 +7513,36 @@
       ],
       "outcome": {
         "matched": "/b/madcat-madcat-lezak-kamenicky-svetly-lezak/3619166",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Mazák::Moutere": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Mazák",
+        "name": "Moutere",
+        "style": "Modern IPA",
+        "degree_plato": 14.0
+      },
+      "captured_at": "2026-07-28T19:40:18Z",
+      "candidates": [
+        {
+          "name": "Moutere Modern IPA 14",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-moutere-modern-ipa-14/6793799",
+          "rating": 3.55
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Moutere 14° Mazák",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mazak-moutere-modern-ipa-14/6793799",
         "score": 1.0
       }
     },
