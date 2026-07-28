@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-27T23:08:52Z",
+  "generated_at": "2026-07-28T15:25:14Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -55,6 +55,16 @@
       "match_score": 1.0,
       "matched_at": "2026-06-04T21:45:33Z",
       "query_used": "Ginger & Lime Beskydský"
+    },
+    "ambasada::Beskydský, Ostravice::Rampouch": {
+      "untappd_url": "https://untappd.com/b/beskydsky-pivovarek-rampouch/6515520",
+      "untappd_name": "Rampouch",
+      "untappd_brewery": "Beskydský pivovárek",
+      "rating": 3.54,
+      "match_score": 1.0,
+      "matched_at": "2026-07-28T15:25:14Z",
+      "query_used": "Rampouch Beskydský",
+      "description": "Rampouch od Beskydského pivováreku je chladně suché IPA s 6 % alkoholu a 13 stupňovitostí, hodnocený 3,54 hvězdičky na Untappd, vhodný na letní večery u kamarádů."
     },
     "ambasada::Bevog, Bad Radkersburg, Rakousko::Buzz": {
       "untappd_url": "https://untappd.com/b/bevog-brewery-buzz/4510503",
@@ -1057,6 +1067,16 @@
       "match_score": 1.0,
       "matched_at": "2026-05-15T20:14:37Z",
       "query_used": "Mosaic Duck&Dog"
+    },
+    "beerstreet::Fenek::Fenek": {
+      "untappd_url": "https://untappd.com/b/fenek-craft-beer-svetly-lezak-11-deg/3322596",
+      "untappd_name": "Světlý ležák 11°",
+      "untappd_brewery": "Fenek Craft Beer",
+      "rating": 3.4,
+      "match_score": 0.0,
+      "matched_at": "2026-07-28T15:24:45Z",
+      "query_used": "Fenek 11° Fenek",
+      "description": "Světlý ležák 11° od Fenek Craft Beer má mírnou sílu 4,6 % ABV a nabízí klasické, vyvážené chody, který potěší příznivce tradičních českých ležáků během odpoledního setkání s přáteli."
     },
     "beerstreet::Fracek::Guamansi": {
       "untappd_url": "https://untappd.com/b/fracek-guamansi/6729422",
@@ -2071,6 +2091,16 @@
       "match_score": 1.0,
       "matched_at": "2026-04-22T17:58:12Z",
       "query_used": "Orion μ Černý potoka"
+    },
+    "beerstreet::Černý potoka::Pegasus": {
+      "untappd_url": "https://untappd.com/b/cerny-potoka-pegasus/6757517",
+      "untappd_name": "Pegasus",
+      "untappd_brewery": "černý potoka",
+      "rating": 3.69,
+      "match_score": 1.0,
+      "matched_at": "2026-07-28T15:24:55Z",
+      "query_used": "Pegasus Černý potoka",
+      "description": "Pegasus od černého potoka je hazy session IPA s mírnou 4,7% alkoholem, vhodný na letní odpoledne a přátelské setkání, s hodnocením 3.69 na Untappd."
     },
     "beerstreet::Čestmír::Pink Guava Maracuja": {
       "untappd_url": "https://untappd.com/b/pivovar-cestmir-sour-pink-guava-maracuja/6534373",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-27T23:08:52Z",
+  "generated_at": "2026-07-28T15:25:14Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -149,6 +149,40 @@
       ],
       "outcome": {
         "matched": "/b/beskydsky-pivovarek-ginger-lime-ale/6345697",
+        "score": 1.0
+      }
+    },
+    "ambasada::Beskydský, Ostravice::Rampouch": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Beskydský, Ostravice",
+        "name": "Rampouch",
+        "style": "Cold dry IPA",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-07-28T15:25:14Z",
+      "candidates": [
+        {
+          "name": "Rampouch",
+          "brewery": "Beskydský pivovárek",
+          "url": "/b/beskydsky-pivovarek-rampouch/6515520",
+          "rating": 3.54
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Rampouch 13° Beskydský",
+          "hits": []
+        },
+        {
+          "query": "Rampouch Beskydský",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/beskydsky-pivovarek-rampouch/6515520",
         "score": 1.0
       }
     },
@@ -3247,6 +3281,64 @@
       "outcome": {
         "matched": "/b/pivovar-duck-dog-duck-dog-fiskus-svetly-lezak-11deg/4367516",
         "score": 1.0
+      }
+    },
+    "beerstreet::Fenek::Fenek": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Fenek",
+        "name": "Fenek",
+        "style": "Ležák světiý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-07-28T15:24:45Z",
+      "candidates": [
+        {
+          "name": "Světlý ležák 11°",
+          "brewery": "Fenek Craft Beer",
+          "url": "/b/fenek-craft-beer-svetly-lezak-11-deg/3322596",
+          "rating": 3.4
+        },
+        {
+          "name": "Sunborn 11°",
+          "brewery": "Fenek Craft Beer",
+          "url": "/b/fenek-craft-beer-sunborn/6681984",
+          "rating": 3.58
+        },
+        {
+          "name": "Hoppy Lager 11° IPL",
+          "brewery": "Fenek Craft Beer",
+          "url": "/b/fenek-craft-beer-hoppy-lager-11-deg-ipl/5986366",
+          "rating": 3.55
+        },
+        {
+          "name": "Anime IPA 11°",
+          "brewery": "Fenek Craft Beer",
+          "url": "/b/fenek-craft-beer-anime-ipa-11-deg/6360496",
+          "rating": 3.37
+        },
+        {
+          "name": "Breakfast At Jonny's 11° Elani",
+          "brewery": "Fenek Craft Beer",
+          "url": "/b/fenek-craft-beer-breakfast-at-jonny-s-11-deg-elani/6537662",
+          "rating": 3.38
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Fenek 11° Fenek",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/fenek-craft-beer-svetly-lezak-11-deg/3322596",
+        "score": 0.0
       }
     },
     "beerstreet::Fracek::Guamansi": {
@@ -6704,6 +6796,54 @@
       ],
       "outcome": {
         "matched": "/b/cerny-potoka-cold-fish-mosaic-dry-hop/6699043",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Černý potoka::Pegasus": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Černý potoka",
+        "name": "Pegasus",
+        "style": "Hazy session IPA",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-07-28T15:24:55Z",
+      "candidates": [
+        {
+          "name": "Pegasus",
+          "brewery": "černý potoka",
+          "url": "/b/cerny-potoka-pegasus/6757517",
+          "rating": 3.69
+        },
+        {
+          "name": "Oude Kriek Pegasus",
+          "brewery": "černý potoka",
+          "url": "/b/cerny-potoka-oude-kriek-pegasus/6757522",
+          "rating": 3.69
+        },
+        {
+          "name": "Pineapple / Ginger Pegasus",
+          "brewery": "černý potoka",
+          "url": "/b/cerny-potoka-pineapple-ginger-pegasus/6757520",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Pegasus 11° Černý potoka",
+          "hits": []
+        },
+        {
+          "query": "Pegasus Černý potoka",
+          "hits": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/cerny-potoka-pegasus/6757517",
         "score": 1.0
       }
     },
