@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-29T17:20:45Z",
+  "generated_at": "2026-07-29T19:24:57Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -8477,6 +8477,40 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-trautenberk-trautenberk-tmavy-lezak/1825642",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Valeč::Prázdniny 2026": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Valeč",
+        "name": "Prázdniny 2026",
+        "style": "Ale",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-07-29T19:24:57Z",
+      "candidates": [
+        {
+          "name": "Prázdniny 2026",
+          "brewery": "Pivovar Valeč",
+          "url": "/b/pivovar-valec-prazdniny-2026/6786559",
+          "rating": 3.77
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Prázdniny 2026 10° Valeč",
+          "hits": []
+        },
+        {
+          "query": "Prázdniny 2026 Valeč",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-valec-prazdniny-2026/6786559",
         "score": 1.0
       }
     },
