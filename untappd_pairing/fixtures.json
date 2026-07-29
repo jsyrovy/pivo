@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-29T21:02:12Z",
+  "generated_at": "2026-07-29T23:02:13Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -7490,6 +7490,39 @@
       "outcome": {
         "matched": "/b/pivovar-clock-hex/6717949",
         "score": 1.0
+      }
+    },
+    "uzamastilu::Fracek::Lagerfuck-3 IPL": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Fracek",
+        "name": "Lagerfuck-3 IPL",
+        "style": "",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-07-29T23:02:13Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Lagerfuck-3 IPL 12° Fracek",
+          "hits": []
+        },
+        {
+          "query": "Lagerfuck-3 IPL Fracek",
+          "hits": []
+        },
+        {
+          "query": "Lagerfuck-3 IPL 12°",
+          "hits": []
+        },
+        {
+          "query": "Lagerfuck-3 IPL",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "uzamastilu::Kynšperk::Ležák": {

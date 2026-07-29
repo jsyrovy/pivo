@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-29T21:02:11Z",
+  "generated_at": "2026-07-29T23:02:13Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -2512,6 +2512,11 @@
     "beerstreet::Černý Potoka::Cold Fish Mosaic dry hopped": {
       "attempts": 1,
       "last_tried_at": "2026-06-03T18:24:49Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "uzamastilu::Fracek::Lagerfuck-3 IPL": {
+      "attempts": 1,
+      "last_tried_at": "2026-07-29T23:02:13Z",
       "reason": "no_candidates_above_threshold"
     },
     "uzamastilu::Raspb.Sorbet Sibeeria::Blackberry,Plum &": {
