@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-29T15:11:08Z",
+  "generated_at": "2026-07-29T17:20:45Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -3177,6 +3177,40 @@
         "score": 1.0
       }
     },
+    "beerstreet::Brewnicorn::Raspberry": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Brewnicorn",
+        "name": "Raspberry",
+        "style": "Sour",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-07-29T17:20:40Z",
+      "candidates": [
+        {
+          "name": "Raspberry",
+          "brewery": "Brewnicorn",
+          "url": "/b/brewnicorn-raspberry/6779570",
+          "rating": 3.81
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Raspberry 10° Brewnicorn",
+          "hits": []
+        },
+        {
+          "query": "Raspberry Brewnicorn",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/brewnicorn-raspberry/6779570",
+        "score": 1.0
+      }
+    },
     "beerstreet::Chroust::EXTRA EXTRA": {
       "beer": {
         "source": "beerstreet",
@@ -3794,6 +3828,100 @@
         "source": "llm"
       }
     },
+    "beerstreet::Hákův par. pivovar::Amík": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Hákův par. pivovar",
+        "name": "Amík",
+        "style": "APA",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-07-29T17:20:31Z",
+      "candidates": [
+        {
+          "name": "Amík",
+          "brewery": "Pivovar Vagabund",
+          "url": "/b/pivovar-vagabund-amik/4252898",
+          "rating": 3.43
+        },
+        {
+          "name": "Amík 13",
+          "brewery": "Pivovar Nový Bydžov ",
+          "url": "/b/pivovar-novy-bydzov-amik-13/6183524",
+          "rating": null
+        },
+        {
+          "name": "Erzikin Blond'ácik 12°",
+          "brewery": "Pálffy Brauerei",
+          "url": "/b/palffy-brauerei-erzikin-blond-acik-12-deg/6345703",
+          "rating": 3.58
+        },
+        {
+          "name": "Ádik 11°",
+          "brewery": "Ledhujský pivovar",
+          "url": "/b/ledhujsky-pivovar-adik-11-deg/6286301",
+          "rating": 3.36
+        },
+        {
+          "name": "AMIŠ’ 13",
+          "brewery": "Trofeja",
+          "url": "/b/trofeja-amis-13/5767030",
+          "rating": null
+        },
+        {
+          "name": "Amika",
+          "brewery": "Anytime Beer Co. ",
+          "url": "/b/anytime-beer-co-amika/2946275",
+          "rating": 3.65
+        },
+        {
+          "name": "Amika Strawberry",
+          "brewery": "Anytime Beer Co. ",
+          "url": "/b/anytime-beer-co-amika-strawberry/3534611",
+          "rating": null
+        },
+        {
+          "name": "Kelmiser Amikejo",
+          "brewery": "Der Blinde Brauer",
+          "url": "/b/der-blinde-brauer-kelmiser-amikejo/6709910",
+          "rating": 3.7
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Amík 13° Hákův par.",
+          "hits": []
+        },
+        {
+          "query": "Amík Hákův par.",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Amík 13°",
+          "hits": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "query": "Amík",
+          "hits": [
+            5,
+            0,
+            6,
+            7
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
     "beerstreet::Hřebec::Ležák světlý": {
       "beer": {
         "source": "beerstreet",
@@ -3957,6 +4085,64 @@
       "outcome": {
         "matched": "/b/pivovar-hrebec-11deg-lezak/6340661",
         "score": 0.6667
+      }
+    },
+    "beerstreet::Kamenice::Kamenická": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Kamenice",
+        "name": "Kamenická",
+        "style": "Ležák světlý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-07-29T17:20:19Z",
+      "candidates": [
+        {
+          "name": "Výroční Kamenická 11°",
+          "brewery": "Pivovar Kamenice nad Lipou",
+          "url": "/b/pivovar-kamenice-nad-lipou-vyrocni-kamenicka-11/4490578",
+          "rating": null
+        },
+        {
+          "name": "Kamenická 11°",
+          "brewery": "Pivovar a palírna Kotouč",
+          "url": "/b/pivovar-a-palirna-kotouc-kamenicka-11-deg/1487902",
+          "rating": null
+        },
+        {
+          "name": "Kamenická 11",
+          "brewery": "Pivovar Kamenice nad Lipou",
+          "url": "/b/pivovar-kamenice-nad-lipou-kamenicka-11/2606694",
+          "rating": 3.47
+        },
+        {
+          "name": "Kamenický Zlaťák 11°",
+          "brewery": "Pivovar a palírna Kotouč",
+          "url": "/b/pivovar-a-palirna-kotouc-kamenicky-zlatak-11-deg/1487941",
+          "rating": 3.16
+        },
+        {
+          "name": "Kamenická Podkova 12°",
+          "brewery": "Pivovar a palírna Kotouč",
+          "url": "/b/pivovar-a-palirna-kotouc-kamenicka-podkova-12-deg/1487898",
+          "rating": 3.08
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Kamenická 11° Kamenice",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-kamenice-nad-lipou-kamenicka-11/2606694",
+        "score": 1.0
       }
     },
     "beerstreet::Kamenice::Summer Ale": {
@@ -8322,6 +8508,36 @@
       "outcome": {
         "matched": "/b/pivovar-zahora-novozelanska-11/6638961",
         "score": 0.75
+      }
+    },
+    "uzamastilu::Záhora::Saaz": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Záhora",
+        "name": "Saaz",
+        "style": "Ležák",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-07-29T17:20:45Z",
+      "candidates": [
+        {
+          "name": "SAAZ Jedenáctka z hlávkového chmelu /// 11.L.R1",
+          "brewery": "Pivovar Záhora",
+          "url": "/b/pivovar-zahora-saaz-jedenactka-z-hlavkoveho-chmelu-11-l-r1/4053867",
+          "rating": 3.59
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Saaz 11° Záhora",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-zahora-saaz-jedenactka-z-hlavkoveho-chmelu-11-l-r1/4053867",
+        "score": 1.0
       }
     }
   }

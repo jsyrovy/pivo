@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-29T15:11:08Z",
+  "generated_at": "2026-07-29T17:20:45Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -1034,6 +1034,16 @@
       "matched_at": "2026-05-22T20:41:04Z",
       "query_used": "Pivorožec Brewnicorn"
     },
+    "beerstreet::Brewnicorn::Raspberry": {
+      "untappd_url": "https://untappd.com/b/brewnicorn-raspberry/6779570",
+      "untappd_name": "Raspberry",
+      "untappd_brewery": "Brewnicorn",
+      "rating": 3.81,
+      "match_score": 1.0,
+      "matched_at": "2026-07-29T17:20:40Z",
+      "query_used": "Raspberry Brewnicorn",
+      "description": "Raspberry od Brewnicornu je osvěžující sour s lehkou ovocnou charakteristikou, 4,2 % alkoholu a mírnou kyselostí, který potěší milovníky ovocných sourů a hodí se na letní den nebo k odpočinku po práci. S hodnocením 3,81 na Untappd patří mezi oblíbené kousky."
+    },
     "beerstreet::Chroust::EXTRA EXTRA": {
       "untappd_url": "https://untappd.com/b/chroust-extra-extra/6656532",
       "untappd_name": "Extra Extra",
@@ -1196,6 +1206,16 @@
       "match_score": 1.0,
       "matched_at": "2026-04-24T19:50:41Z",
       "query_used": "Summer Ale Hřebec"
+    },
+    "beerstreet::Kamenice::Kamenická": {
+      "untappd_url": "https://untappd.com/b/pivovar-kamenice-nad-lipou-kamenicka-11/2606694",
+      "untappd_name": "Kamenická 11",
+      "untappd_brewery": "Pivovar Kamenice nad Lipou",
+      "rating": 3.47,
+      "match_score": 1.0,
+      "matched_at": "2026-07-29T17:20:19Z",
+      "query_used": "Kamenická 11° Kamenice",
+      "description": "Kamenická 11 je světlý ležák s 4,7 % alkoholu a 11° stupňovitostí. Hodí se na běžné posezení i letní osvěžení."
     },
     "beerstreet::Kamenice::Summer Ale": {
       "untappd_url": "https://untappd.com/b/pivovar-kamenice-nad-lipou-summer-ale-9/6770335",
@@ -2411,6 +2431,16 @@
       "matched_at": "2026-07-27T19:42:28Z",
       "query_used": "Novozélandský 11° Záhora",
       "description": "Novozélanská 11 od Pivovaru Záhora je středně silný ležák s 11° stupňovitostí. Hodí se na běžné posezení i mírnější oslavu."
+    },
+    "uzamastilu::Záhora::Saaz": {
+      "untappd_url": "https://untappd.com/b/pivovar-zahora-saaz-jedenactka-z-hlavkoveho-chmelu-11-l-r1/4053867",
+      "untappd_name": "SAAZ Jedenáctka z hlávkového chmelu /// 11.L.R1",
+      "untappd_brewery": "Pivovar Záhora",
+      "rating": 3.59,
+      "match_score": 1.0,
+      "matched_at": "2026-07-29T17:20:45Z",
+      "query_used": "Saaz 11° Záhora",
+      "description": "SAAZ Jedenáctka z hlávkového chmelu od Pivovaru Záhora je klasický 11° ležák s mírnou hořkostí a vyváženou sladkostí, který potěší příznivce tradičních českých pilsnerů a hodí se na běžné posezení i menší oslavu."
     }
   },
   "unmatched": {
@@ -2437,6 +2467,11 @@
     "beerstreet::Hoppy Dog::Mahlerova Osma": {
       "attempts": 1,
       "last_tried_at": "2026-05-30T15:13:41Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "beerstreet::Hákův par. pivovar::Amík": {
+      "attempts": 1,
+      "last_tried_at": "2026-07-29T17:20:31Z",
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::Klenot::Guava and rosemary": {
