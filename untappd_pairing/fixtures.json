@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-28T23:04:43Z",
+  "generated_at": "2026-07-29T15:11:08Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -4247,6 +4247,73 @@
         "score": 0.2143
       }
     },
+    "beerstreet::Klenot::Sour Ale - guava + rozmarýn": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Klenot",
+        "name": "Sour Ale - guava + rozmarýn",
+        "style": "Sour ale",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-07-29T15:11:08Z",
+      "candidates": [
+        {
+          "name": "Sour ALE– Plum & Chilli",
+          "brewery": "Hradecký Klenot",
+          "url": "/b/hradecky-klenot-sour-ale-plum-and-chilli/4963480",
+          "rating": 3.41
+        },
+        {
+          "name": "Sour ALE – Pear & Ginger",
+          "brewery": "Hradecký Klenot",
+          "url": "/b/hradecky-klenot-sour-ale-pear-and-ginger/4835361",
+          "rating": 3.54
+        },
+        {
+          "name": "Sour – Apricot & Lemon Balm",
+          "brewery": "Hradecký Klenot",
+          "url": "/b/hradecky-klenot-sour-apricot-and-lemon-balm/5003902",
+          "rating": 3.62
+        },
+        {
+          "name": "Brusinka Sour ALE 12",
+          "brewery": "Hradecký Klenot",
+          "url": "/b/hradecky-klenot-brusinka-sour-ale-12/5873420",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Sour Ale - guava + rozmarýn 12° Klenot",
+          "hits": []
+        },
+        {
+          "query": "Sour Ale - guava + rozmarýn Klenot",
+          "hits": []
+        },
+        {
+          "query": "Sour Ale - guava + rozmarýn 12°",
+          "hits": []
+        },
+        {
+          "query": "Sour Ale - guava + rozmarýn",
+          "hits": []
+        },
+        {
+          "query": "Sour Ale 12° Klenot",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/hradecky-klenot-brusinka-sour-ale-12/5873420",
+        "score": 0.375
+      }
+    },
     "beerstreet::Klenot::Sour Ale Guava + rozmaryn": {
       "beer": {
         "source": "beerstreet",
@@ -5874,6 +5941,39 @@
       "outcome": {
         "matched": "/b/tvarg-lezak-11/4088691",
         "score": 1.0
+      }
+    },
+    "beerstreet::U Vojtěchů::Podlipák - special pro festival": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "U Vojtěchů",
+        "name": "Podlipák - special pro festival",
+        "style": "Ležák světiý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-07-29T15:10:58Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Podlipák - special pro festival 11° U Vojtěchů",
+          "hits": []
+        },
+        {
+          "query": "Podlipák - special pro festival U Vojtěchů",
+          "hits": []
+        },
+        {
+          "query": "Podlipák - special pro festival 11°",
+          "hits": []
+        },
+        {
+          "query": "Podlipák - special pro festival",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "beerstreet::U Vojtěchů::Silver A": {
