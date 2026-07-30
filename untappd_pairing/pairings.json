@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-30T17:40:53Z",
+  "generated_at": "2026-07-30T19:41:17Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -1189,6 +1189,16 @@
       "matched_at": "2026-04-30T20:07:48Z",
       "query_used": "American Pale Ale Hřebec"
     },
+    "beerstreet::Hřebec::Hřebec": {
+      "untappd_url": "https://untappd.com/b/pivovar-hrebec-11-deg-lezak/6340661",
+      "untappd_name": "11° Ležák",
+      "untappd_brewery": "Pivovar Hřebec",
+      "rating": 3.58,
+      "match_score": 0.0,
+      "matched_at": "2026-07-30T19:41:09Z",
+      "query_used": "Hřebec 11° Hřebec",
+      "description": "Světlý ležák 11° od Pivovaru Hřebec s 4,6 % alkoholu má mírnou až střední plnost a hodnocení 3,58/5, vhodný na běžné posezení či odpolední setkání s přáteli."
+    },
     "beerstreet::Hřebec::Ležák světlý": {
       "untappd_url": "https://untappd.com/b/pivovar-hrebec-11deg-lezak/6340661",
       "untappd_name": "11° Ležák",
@@ -1655,6 +1665,16 @@
       "match_score": 1.0,
       "matched_at": "2026-05-22T09:08:55Z",
       "query_used": "Extra hořká 11° Mazák"
+    },
+    "beerstreet::Mazák::Svatojánský": {
+      "untappd_url": "https://untappd.com/b/pivovar-mazak-svatojansky-13/6751459",
+      "untappd_name": "Svatojánský Modern Pale Ale 13",
+      "untappd_brewery": "Pivovar Mazák",
+      "rating": 3.85,
+      "match_score": 1.0,
+      "matched_at": "2026-07-30T19:41:12Z",
+      "query_used": "Svatojánský 13° Mazák",
+      "description": "Svatojánský Modern Pale Ale 13 od Pivovaru Mazák je moderní pale ale s mírnou až střední silou 5,5 % ABV a příjemnou pitelností, vhodný na letní posezení nebo neformální setkání s přáteli."
     },
     "beerstreet::Mazák::Tropical Wave": {
       "untappd_url": "https://untappd.com/b/pivovar-mazak-tropical-wave-11/6652946",
@@ -2205,6 +2225,16 @@
       "match_score": 1.0,
       "matched_at": "2026-06-17T22:06:03Z",
       "query_used": "Bard Švabín"
+    },
+    "uzamastilu::Beskydský Pivovárek::Ležák": {
+      "untappd_url": "https://untappd.com/b/beskydsky-pivovarek-beskydsky-lezak/551041",
+      "untappd_name": "Beskydský ležák",
+      "untappd_brewery": "Beskydský pivovárek",
+      "rating": 3.46,
+      "match_score": 1.0,
+      "matched_at": "2026-07-30T19:41:17Z",
+      "query_used": "Ležák 11° Beskydský Pivovárek",
+      "description": "Beskydský ležák od Beskydského pivováreku je středně silný ležák s mírně sladkým profilem, vhodný pro běžné posezení i osvěžení po práci. Hodnocení na Untappd dosahuje 3.46 / 5."
     },
     "uzamastilu::Brewnicorn::Hoppla! Continental": {
       "untappd_url": "https://untappd.com/b/brewnicorn-hoppla/6791335",
