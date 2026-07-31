@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-30T23:12:15Z",
+  "generated_at": "2026-07-31T15:23:31Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -2527,6 +2527,11 @@
     "beerstreet::U Vojtěchů::Podlipák - special pro festival": {
       "attempts": 1,
       "last_tried_at": "2026-07-29T15:10:58Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "beerstreet::Václav & Brewnicorn::World Hop Tour": {
+      "attempts": 1,
+      "last_tried_at": "2026-07-31T15:23:31Z",
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::Záhora::Silk Road": {

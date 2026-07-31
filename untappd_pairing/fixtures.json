@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-30T23:12:15Z",
+  "generated_at": "2026-07-31T15:23:31Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -6756,6 +6756,78 @@
             8,
             9,
             10
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
+    "beerstreet::Václav & Brewnicorn::World Hop Tour": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Václav & Brewnicorn",
+        "name": "World Hop Tour",
+        "style": "Hazy session IPA",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-07-31T15:23:31Z",
+      "candidates": [
+        {
+          "name": "World Hop Tour",
+          "brewery": "Pivo Václav",
+          "url": "/b/pivo-vaclav-world-hop-tour/6749836",
+          "rating": 3.74
+        },
+        {
+          "name": "World Hop Tour - USA (Yakima Valley)",
+          "brewery": "Skumringen Andelsbryggeri",
+          "url": "/b/skumringen-andelsbryggeri-world-hop-tour-usa-yakima-valley/2651942",
+          "rating": null
+        },
+        {
+          "name": "World Hop Tour - New Zealand",
+          "brewery": "Skumringen Andelsbryggeri",
+          "url": "/b/skumringen-andelsbryggeri-world-hop-tour-new-zealand/2591762",
+          "rating": null
+        },
+        {
+          "name": "World Hop Tour - Route #7 from Idaho to New Zealand ",
+          "brewery": "Skumringen Andelsbryggeri",
+          "url": "/b/skumringen-andelsbryggeri-world-hop-tour-route-7-from-idaho-to-new-zealand/2767322",
+          "rating": null
+        },
+        {
+          "name": "Pizza Tourist",
+          "brewery": "Hop Butcher For The World",
+          "url": "/b/hop-butcher-for-the-world-pizza-tourist/6798435",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "World Hop Tour 11° Václav & Brewnicorn",
+          "hits": []
+        },
+        {
+          "query": "World Hop Tour Václav & Brewnicorn",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "World Hop Tour 11°",
+          "hits": []
+        },
+        {
+          "query": "World Hop Tour",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
           ]
         }
       ],
