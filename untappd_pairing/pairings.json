@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-31T17:45:00Z",
+  "generated_at": "2026-07-31T19:42:20Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -1098,6 +1098,16 @@
       "matched_at": "2026-05-15T20:14:37Z",
       "query_used": "Mosaic Duck&Dog"
     },
+    "beerstreet::Fenek::Cherry pie": {
+      "untappd_url": "https://untappd.com/b/fenek-craft-beer-cherry-pie-goose/6706071",
+      "untappd_name": "Cherry Pie Goose",
+      "untappd_brewery": "Fenek Craft Beer",
+      "rating": 3.38,
+      "match_score": 1.0,
+      "matched_at": "2026-07-31T19:42:15Z",
+      "query_used": "Cherry pie Fenek",
+      "description": "Cherry Pie Goose od FENEK Craft Beer je sour‑gose s 4,8 % alkoholu a 12° stupňovitosti, mírně kyselé a osvěžující, ideální na letní den nebo k odpočinku po práci."
+    },
     "beerstreet::Fenek::Fenek": {
       "untappd_url": "https://untappd.com/b/fenek-craft-beer-svetly-lezak-11-deg/3322596",
       "untappd_name": "Světlý ležák 11°",
@@ -1216,6 +1226,16 @@
       "match_score": 1.0,
       "matched_at": "2026-04-24T19:50:41Z",
       "query_used": "Summer Ale Hřebec"
+    },
+    "beerstreet::Kamenice::American lager": {
+      "untappd_url": "https://untappd.com/b/pivovar-kamenice-nad-lipou-american-lager-11-deg/6501625",
+      "untappd_name": "American Lager 11°",
+      "untappd_brewery": "Pivovar Kamenice nad Lipou",
+      "rating": 3.67,
+      "match_score": 1.0,
+      "matched_at": "2026-07-31T19:42:12Z",
+      "query_used": "American lager 11° Kamenice",
+      "description": "American Lager 11° od Pivovaru Kamenice nad Lipou je svěžím světlým ležákem s mírnou silou 4,7 % ABV, který potěší příznivce klasických lagerů a hodí se na letní osvěžení nebo neformální setkání s přáteli."
     },
     "beerstreet::Kamenice::Kamenická": {
       "untappd_url": "https://untappd.com/b/pivovar-kamenice-nad-lipou-kamenicka-11/2606694",
@@ -2492,6 +2512,11 @@
     "ambasada::Maisel & Friends, Bayreuth, Bavorsko::13,7° Artbeer #8": {
       "attempts": 1,
       "last_tried_at": "2026-05-29T20:26:06Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "ambasada::Záhora, Kněžičky::13.NZHIPA": {
+      "attempts": 1,
+      "last_tried_at": "2026-07-31T19:42:20Z",
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::Avar::Kazbek": {

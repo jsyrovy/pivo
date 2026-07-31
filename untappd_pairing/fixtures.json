@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-31T17:45:00Z",
+  "generated_at": "2026-07-31T19:42:20Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -2401,6 +2401,80 @@
         "score": 1.0
       }
     },
+    "ambasada::Záhora, Kněžičky::13.NZHIPA": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Záhora, Kněžičky",
+        "name": "13.NZHIPA",
+        "style": "New zeland hazy IPA",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-07-31T19:42:20Z",
+      "candidates": [
+        {
+          "name": "13 NEIPA",
+          "brewery": "Zlatá kráva",
+          "url": "/b/zlata-krava-13-neipa/3208908",
+          "rating": 3.65
+        },
+        {
+          "name": "New England IPA 13 (Podzim)",
+          "brewery": "Pivovar Clock",
+          "url": "/b/pivovar-clock-new-england-ipa-13-podzim/5046833",
+          "rating": 3.85
+        },
+        {
+          "name": "NEIPA 13",
+          "brewery": "Pivovar Máša",
+          "url": "/b/pivovar-masa-neipa-13/2765619",
+          "rating": 3.84
+        },
+        {
+          "name": "Dragon Love",
+          "brewery": "Pivovar Antoš  ",
+          "url": "/b/pivovar-antos-dragon-love/4702356",
+          "rating": 3.39
+        },
+        {
+          "name": "Summer NEIPA 13%",
+          "brewery": "Nachmelená Opice",
+          "url": "/b/nachmelena-opice-summer-neipa-13/3830333",
+          "rating": 3.79
+        }
+      ],
+      "attempts": [
+        {
+          "query": "13.NZHIPA 13° Záhora",
+          "hits": []
+        },
+        {
+          "query": "13.NZHIPA Záhora",
+          "hits": []
+        },
+        {
+          "query": "13.NZHIPA 13°",
+          "hits": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "query": "13.NZHIPA",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
     "ambasada::piv. Van Honsebrouck, Ingelmunster, Západní Flandry, Tropical Fruit Ale, 0::Kasteel Tropical": {
       "beer": {
         "source": "ambasada",
@@ -3385,6 +3459,40 @@
         "score": 1.0
       }
     },
+    "beerstreet::Fenek::Cherry pie": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Fenek",
+        "name": "Cherry pie",
+        "style": "Sour - gose",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-07-31T19:42:15Z",
+      "candidates": [
+        {
+          "name": "Cherry Pie Goose",
+          "brewery": "Fenek Craft Beer",
+          "url": "/b/fenek-craft-beer-cherry-pie-goose/6706071",
+          "rating": 3.38
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Cherry pie 12° Fenek",
+          "hits": []
+        },
+        {
+          "query": "Cherry pie Fenek",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/fenek-craft-beer-cherry-pie-goose/6706071",
+        "score": 1.0
+      }
+    },
     "beerstreet::Fenek::Fenek": {
       "beer": {
         "source": "beerstreet",
@@ -4143,6 +4251,43 @@
       "outcome": {
         "matched": "/b/pivovar-hrebec-11deg-lezak/6340661",
         "score": 0.6667
+      }
+    },
+    "beerstreet::Kamenice::American lager": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Kamenice",
+        "name": "American lager",
+        "style": "Ležák světiý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-07-31T19:42:12Z",
+      "candidates": [
+        {
+          "name": "American Lager 11°",
+          "brewery": "Pivovar Kamenice nad Lipou",
+          "url": "/b/pivovar-kamenice-nad-lipou-american-lager-11-deg/6501625",
+          "rating": 3.67
+        },
+        {
+          "name": "American Pilsner",
+          "brewery": "Pivovar Antoš  ",
+          "url": "/b/pivovar-antos-american-pilsner/6256626",
+          "rating": 3.55
+        }
+      ],
+      "attempts": [
+        {
+          "query": "American lager 11° Kamenice",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-kamenice-nad-lipou-american-lager-11-deg/6501625",
+        "score": 1.0
       }
     },
     "beerstreet::Kamenice::Kamenická": {
