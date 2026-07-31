@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-31T19:42:20Z",
+  "generated_at": "2026-07-31T21:12:17Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -8133,6 +8133,40 @@
         "score": 0.9167
       }
     },
+    "uzamastilu::Madcat::Kochám Se": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Madcat",
+        "name": "Kochám Se",
+        "style": "Hazy IPA",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-07-31T21:12:17Z",
+      "candidates": [
+        {
+          "name": "Kochám Se",
+          "brewery": "MadCat",
+          "url": "/b/madcat-kocham-se/6804594",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Kochám Se 12° Madcat",
+          "hits": []
+        },
+        {
+          "query": "Kochám Se Madcat",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/madcat-kocham-se/6804594",
+        "score": 1.0
+      }
+    },
     "uzamastilu::Madcat::Ležák": {
       "beer": {
         "source": "uzamastilu",
@@ -8174,6 +8208,57 @@
       ],
       "outcome": {
         "matched": "/b/madcat-madcat-lezak-kamenicky-svetly-lezak/3619166",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Mazák::Ipa": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Mazák",
+        "name": "Ipa",
+        "style": "IPA",
+        "degree_plato": 14.0
+      },
+      "captured_at": "2026-07-31T21:12:08Z",
+      "candidates": [
+        {
+          "name": "India Pale Ale 14°",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-india-pale-ale-14-deg/813738",
+          "rating": 3.7
+        },
+        {
+          "name": "NZ IPA 14°",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-nz-ipa-14-deg/913268",
+          "rating": 3.73
+        },
+        {
+          "name": "Australian IPA 14°",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-australian-ipa-14-deg/2388637",
+          "rating": 3.76
+        },
+        {
+          "name": "CZ IPA 14°",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-cz-ipa-14-deg/1157640",
+          "rating": 3.71
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Ipa 14° Mazák",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mazak-australian-ipa-14-deg/2388637",
         "score": 1.0
       }
     },
