@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-01T16:04:25Z",
+  "generated_at": "2026-08-01T18:02:57Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -6253,6 +6253,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovarsky-dum-poupe-summer-ale/5853620",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Raven::Summer Citra": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Raven",
+        "name": "Summer Citra",
+        "style": "Session IPA",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-01T18:02:57Z",
+      "candidates": [
+        {
+          "name": "Summer Citra",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-summer-citra/2191517",
+          "rating": 3.65
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Summer Citra 11° Raven",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-raven-summer-citra/2191517",
         "score": 1.0
       }
     },

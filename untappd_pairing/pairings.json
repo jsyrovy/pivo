@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-01T16:04:25Z",
+  "generated_at": "2026-08-01T18:02:57Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -1835,6 +1835,16 @@
       "matched_at": "2026-07-24T18:22:20Z",
       "query_used": "Summer Ale 10° Poupě",
       "description": "Letní ale s mírnou sladkostí a lehkou hořkostí, 4 % alkoholu, vhodná na osvěžující osvěžení v horkých dnech. Hodnocení 3,49 hvězdiček na Untappd potvrzuje její průměrnou kvalitu."
+    },
+    "beerstreet::Raven::Summer Citra": {
+      "untappd_url": "https://untappd.com/b/pivovar-raven-summer-citra/2191517",
+      "untappd_name": "Summer Citra",
+      "untappd_brewery": "Pivovar Raven",
+      "rating": 3.65,
+      "match_score": 1.0,
+      "matched_at": "2026-08-01T18:02:57Z",
+      "query_used": "Summer Citra 11° Raven",
+      "description": "Summer Citra od Pivovaru Raven je lehký Session IPA s 4,7 % alkoholu a 11° stupňovitosti, který potěší příjemnou hořkostí a osvěžujícím profilem, ideální pro letní posezení s přáteli."
     },
     "beerstreet::Sqbru::Sůl12 - Chilliout": {
       "untappd_url": "https://untappd.com/b/sqbru-skju-bru-sul12-chilliout/6607628",
