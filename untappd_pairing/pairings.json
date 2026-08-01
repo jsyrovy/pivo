@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-01T18:02:57Z",
+  "generated_at": "2026-08-01T20:11:32Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -967,6 +967,16 @@
       "match_score": 1.0,
       "matched_at": "2026-07-15T20:14:57Z",
       "query_used": "Helenka 11° Agent"
+    },
+    "beerstreet::Agent::Léto": {
+      "untappd_url": "https://untappd.com/b/pivovar-agent-leto/5400226",
+      "untappd_name": "Léto",
+      "untappd_brewery": "Pivovar Agent",
+      "rating": 3.39,
+      "match_score": 1.0,
+      "matched_at": "2026-08-01T20:11:29Z",
+      "query_used": "Léto 11° Agent",
+      "description": "Léto od Pivovaru Agent je světlý ležák s 4,2 % alkoholu a 11° stupňovitostí, který osvěží v letních dnech a hodí se na odpolední posezení u grilu."
     },
     "beerstreet::Agent::Moves - jahody+hroz. víno": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-moves-white-grapes-and-strawberries/4836340",
@@ -2374,6 +2384,16 @@
       "matched_at": "2026-07-24T18:23:23Z",
       "query_used": "Ležák 12° Madcat",
       "description": "Středně silné, osvěžující světlé ležáky od MadCatu s 12° stupňovitostí, vhodné na letní posezení u kamaráda. S průměrným tělesem a mírnou hořkostí potěší i ve společnosti."
+    },
+    "uzamastilu::Mazák::Extra Hořká": {
+      "untappd_url": "https://untappd.com/b/pivovar-mazak-eho-11-deg-chmelena-za-studena/6616906",
+      "untappd_name": "Extra hořká 11 za studena chmelená",
+      "untappd_brewery": "Pivovar Mazák",
+      "rating": 3.7,
+      "match_score": 1.0,
+      "matched_at": "2026-08-01T20:11:32Z",
+      "query_used": "Extra Hořká 11° Mazák",
+      "description": "Extra hořký ležák 11° od Pivovaru Mazák, za studena chmelený, má mírnou hořkost a vhodný na osvěžení po práci."
     },
     "uzamastilu::Mazák::Ipa": {
       "untappd_url": "https://untappd.com/b/pivovar-mazak-australian-ipa-14-deg/2388637",

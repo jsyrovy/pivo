@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-01T18:02:57Z",
+  "generated_at": "2026-08-01T20:11:32Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -2748,6 +2748,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-agent-helenka-11-deg-vyrocni-lezak/6458582",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Agent::Léto": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Agent",
+        "name": "Léto",
+        "style": "Ležák světlý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-01T20:11:29Z",
+      "candidates": [
+        {
+          "name": "Léto",
+          "brewery": "Pivovar Agent",
+          "url": "/b/pivovar-agent-leto/5400226",
+          "rating": 3.39
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Léto 11° Agent",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-agent-leto/5400226",
         "score": 1.0
       }
     },
@@ -8238,6 +8268,43 @@
       ],
       "outcome": {
         "matched": "/b/madcat-madcat-lezak-kamenicky-svetly-lezak/3619166",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Mazák::Extra Hořká": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Mazák",
+        "name": "Extra Hořká",
+        "style": "Ležák",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-01T20:11:32Z",
+      "candidates": [
+        {
+          "name": "Extra hořká 11°",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-extra-horka-11-deg/792388",
+          "rating": 3.52
+        },
+        {
+          "name": "Extra hořká 11 za studena chmelená",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-eho-11-deg-chmelena-za-studena/6616906",
+          "rating": 3.7
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Extra Hořká 11° Mazák",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mazak-eho-11-deg-chmelena-za-studena/6616906",
         "score": 1.0
       }
     },
