@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-03T19:48:10Z",
+  "generated_at": "2026-08-03T21:09:59Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -8446,6 +8446,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-mazak-moutere-modern-ipa-14/6793799",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Mazák::Peach": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Mazák",
+        "name": "Peach",
+        "style": "Gose",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-03T21:09:59Z",
+      "candidates": [
+        {
+          "name": "Peach Gose 11",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-peach-gose-11/6806117",
+          "rating": 3.5
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Peach 11° Mazák",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mazak-peach-gose-11/6806117",
         "score": 1.0
       }
     },

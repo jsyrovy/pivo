@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-03T19:48:10Z",
+  "generated_at": "2026-08-03T21:09:59Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -2434,6 +2434,16 @@
       "matched_at": "2026-07-28T19:40:18Z",
       "query_used": "Moutere 14° Mazák",
       "description": "Modern IPA s 14° stupňovitostí od pivovaru Mazák, průměrně hodnocený 3,55 bodu na Untappd, kombinuje vyváženou hořkost s aromatickou komplexností. Vhodné pro odpolední setkání nebo neformální posezení."
+    },
+    "uzamastilu::Mazák::Peach": {
+      "untappd_url": "https://untappd.com/b/pivovar-mazak-peach-gose-11/6806117",
+      "untappd_name": "Peach Gose 11",
+      "untappd_brewery": "Pivovar Mazák",
+      "rating": 3.5,
+      "match_score": 1.0,
+      "matched_at": "2026-08-03T21:09:59Z",
+      "query_used": "Peach 11° Mazák",
+      "description": "Gose s mírnou kyselostí a lehkou soleností, 11° stupňovitosti, vhodná na letní osvěžení nebo neformální posezení."
     },
     "uzamastilu::Mazák::Wai-Wai": {
       "untappd_url": "https://untappd.com/b/pivovar-mazak-wai-wai/6776198",
