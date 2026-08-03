@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-02T23:04:03Z",
+  "generated_at": "2026-08-03T15:46:48Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -8533,6 +8533,40 @@
       "outcome": {
         "matched": null,
         "reason": "no_candidates_above_threshold"
+      }
+    },
+    "uzamastilu::Pioneer Beer::Rezident": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Pioneer Beer",
+        "name": "Rezident",
+        "style": "Ležák",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-03T15:46:48Z",
+      "candidates": [
+        {
+          "name": "Rezident",
+          "brewery": "Pioneer Beer",
+          "url": "/b/pioneer-beer-rezident/2898266",
+          "rating": 3.59
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Rezident 11° Pioneer Beer",
+          "hits": []
+        },
+        {
+          "query": "Rezident Pioneer Beer",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pioneer-beer-rezident/2898266",
+        "score": 1.0
       }
     },
     "uzamastilu::Plum Sorbet Sibeeria::Blackberry,Raspberry,": {

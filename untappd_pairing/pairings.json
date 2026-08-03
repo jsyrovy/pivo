@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-02T23:04:03Z",
+  "generated_at": "2026-08-03T15:46:48Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -2443,6 +2443,16 @@
       "matched_at": "2026-07-27T05:53:54Z",
       "query_used": "<override>",
       "description": "Hoppla! od Brewnicornu je dvanáctistupňové pivo s neznámým obsahem alkoholu, které svým robustním charakterem potěší milovníky silných, aromatických brewů a hodí se na osvěžující večerní setkání."
+    },
+    "uzamastilu::Pioneer Beer::Rezident": {
+      "untappd_url": "https://untappd.com/b/pioneer-beer-rezident/2898266",
+      "untappd_name": "Rezident",
+      "untappd_brewery": "Pioneer Beer",
+      "rating": 3.59,
+      "match_score": 1.0,
+      "matched_at": "2026-08-03T15:46:48Z",
+      "query_used": "Rezident Pioneer Beer",
+      "description": "Rezident od Pioneer Beer je klasický 11° ležák s mírnou až střední silou, který potěší milovníky vyváženého stylu a dobře se hodí na běžné posezení i odpolední setkání. Hodnocení 3.59 na Untappd potvrzuje jeho průměrnou, ale stabilní kvalitu."
     },
     "uzamastilu::Plum Sorbet Sibeeria::Blackberry,Raspberry,": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-blackberry-plum-and-raspberry-sorbet/6757224",
