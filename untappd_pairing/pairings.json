@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-03T17:56:13Z",
+  "generated_at": "2026-08-03T19:48:10Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -894,6 +894,16 @@
       "match_score": 1.0,
       "matched_at": "2026-06-03T21:54:09Z",
       "query_used": "Hellion Černý Potoka"
+    },
+    "ambasada::Čestmír, Brandýs nad Labem::Fiction APA": {
+      "untappd_url": "https://untappd.com/b/pivovar-cestmir-fiction-apa-10/5277126",
+      "untappd_name": "Fiction APA 10",
+      "untappd_brewery": "Pivovar Čestmír",
+      "rating": 3.58,
+      "match_score": 1.0,
+      "matched_at": "2026-08-03T19:47:58Z",
+      "query_used": "Fiction APA 10° Čestmír",
+      "description": "Fiction APA 10 od Pivovaru Čestmír je typické amber ale s mírnou hořkostí a vyváženou sladkostí, 4,2 % alkoholu, vhodné na odpolední setkání s přáteli nebo jako doplněk k lehkým jídlům."
     },
     "ambasada::Čestmír, Brandýs nad Labem::Frida Revolution": {
       "untappd_url": "https://untappd.com/b/pivovar-cestmir-frida-revolucion/4413649",
@@ -2324,6 +2334,16 @@
       "match_score": 1.0,
       "matched_at": "2026-07-24T06:55:31Z",
       "query_used": "Hex Clock"
+    },
+    "uzamastilu::Hřebec::Summer": {
+      "untappd_url": "https://untappd.com/b/pivovar-hrebec-10-deg-summer-ale/6376217",
+      "untappd_name": "10° Summer Ale",
+      "untappd_brewery": "Pivovar Hřebec",
+      "rating": 3.75,
+      "match_score": 1.0,
+      "matched_at": "2026-08-03T19:48:10Z",
+      "query_used": "Summer 10° Hřebec",
+      "description": "10° Summer Ale od Pivovaru Hřebec je lehký, osvěžující ale s mírnou sladkostí a vyváženou hořkostí, vhodný na letní den a neformální setkání. Průměrné hodnocení 3.75 ukazuje na příjemný, ale nenáročný profil."
     },
     "uzamastilu::Kynšperk::Ležák": {
       "untappd_url": "https://untappd.com/b/kynspersky-pivovar-kynspersky-zajic-12-deg-svetly-lezak/850661",

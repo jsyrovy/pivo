@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-03T17:56:13Z",
+  "generated_at": "2026-08-03T19:48:10Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -2590,6 +2590,36 @@
       ],
       "outcome": {
         "matched": "/b/cerny-potoka-hellion/3092309",
+        "score": 1.0
+      }
+    },
+    "ambasada::Čestmír, Brandýs nad Labem::Fiction APA": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Čestmír, Brandýs nad Labem",
+        "name": "Fiction APA",
+        "style": "APA",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-08-03T19:47:58Z",
+      "candidates": [
+        {
+          "name": "Fiction APA 10",
+          "brewery": "Pivovar Čestmír",
+          "url": "/b/pivovar-cestmir-fiction-apa-10/5277126",
+          "rating": 3.58
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Fiction APA 10° Čestmír",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-cestmir-fiction-apa-10/5277126",
         "score": 1.0
       }
     },
@@ -7925,6 +7955,36 @@
       "outcome": {
         "matched": null,
         "reason": "no_candidates_above_threshold"
+      }
+    },
+    "uzamastilu::Hřebec::Summer": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Hřebec",
+        "name": "Summer",
+        "style": "Ale",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-08-03T19:48:10Z",
+      "candidates": [
+        {
+          "name": "10° Summer Ale",
+          "brewery": "Pivovar Hřebec",
+          "url": "/b/pivovar-hrebec-10-deg-summer-ale/6376217",
+          "rating": 3.75
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Summer 10° Hřebec",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-hrebec-10-deg-summer-ale/6376217",
+        "score": 1.0
       }
     },
     "uzamastilu::Kynšperk::Ležák": {
