@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-04T17:54:02Z",
+  "generated_at": "2026-08-04T19:43:45Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -1817,6 +1817,16 @@
       "match_score": 1.0,
       "matched_at": "2026-04-17T19:07:45Z",
       "query_used": "Premiér Ovipistán"
+    },
+    "beerstreet::Permon::Joe in the garden, meruňka": {
+      "untappd_url": "https://untappd.com/b/pivovar-permon-joe-in-the-garden-merunka-gose/6143378",
+      "untappd_name": "Joe In the Garden-Meruňka Gose",
+      "untappd_brewery": "Pivovar Permon",
+      "rating": 3.99,
+      "match_score": 1.0,
+      "matched_at": "2026-08-04T19:43:45Z",
+      "query_used": "Joe in the garden, meruňka Permon",
+      "description": "Joe In the Garden-Meruňka Gose od Permona je ovocný sour‑gose s mírnou kyselostí a lehkou sladkostí, 5,8 % alkoholu a 12° stupňovitosti, vhodné na letní odpoledne nebo při přátelském posezení, hodnoceno 3,99/5 na Untappd."
     },
     "beerstreet::Permon::Summer Ale": {
       "untappd_url": "https://untappd.com/b/pivovar-permon-pivni-jistota-summer-ale-10-deg/3830056",

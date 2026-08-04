@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-04T17:54:02Z",
+  "generated_at": "2026-08-04T19:43:45Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -6165,6 +6165,40 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-ovipistan-diplomat/4422840",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Permon::Joe in the garden, meruňka": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Permon",
+        "name": "Joe in the garden, meruňka",
+        "style": "Sour - gose",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-08-04T19:43:45Z",
+      "candidates": [
+        {
+          "name": "Joe In the Garden-Meruňka Gose",
+          "brewery": "Pivovar Permon",
+          "url": "/b/pivovar-permon-joe-in-the-garden-merunka-gose/6143378",
+          "rating": 3.99
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Joe in the garden, meruňka 12° Permon",
+          "hits": []
+        },
+        {
+          "query": "Joe in the garden, meruňka Permon",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-permon-joe-in-the-garden-merunka-gose/6143378",
         "score": 1.0
       }
     },
