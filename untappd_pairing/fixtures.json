@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-04T15:26:56Z",
+  "generated_at": "2026-08-04T17:54:02Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -5803,6 +5803,76 @@
         "score": 1.0
       }
     },
+    "beerstreet::Mazák::Aramis SHA": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Mazák",
+        "name": "Aramis SHA",
+        "style": "Single hop ale",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-08-04T17:53:32Z",
+      "candidates": [
+        {
+          "name": "Aramis Rye Pilsner",
+          "brewery": "Oskar Blues Brewery®",
+          "url": "/b/oskar-blues-brewery-aramis-rye-pilsner/1015869",
+          "rating": 3.56
+        },
+        {
+          "name": "Beerfir ® W/ Aramis",
+          "brewery": "Shacklands Brewing Company",
+          "url": "/b/shacklands-brewing-company-beerfir-w-aramis/3368074",
+          "rating": null
+        },
+        {
+          "name": "Pale Ale (Aramis)",
+          "brewery": "Privatbrauerei Sander",
+          "url": "/b/privatbrauerei-sander-pale-ale-aramis/4338230",
+          "rating": 3.6
+        },
+        {
+          "name": "Aramis",
+          "brewery": "La Bouledogue",
+          "url": "/b/la-bouledogue-aramis/2054305",
+          "rating": 3.43
+        },
+        {
+          "name": "Saison Aramis",
+          "brewery": "Medusa Brewing Company",
+          "url": "/b/medusa-brewing-company-saison-aramis/2617360",
+          "rating": 3.86
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Aramis SHA 13° Mazák",
+          "hits": []
+        },
+        {
+          "query": "Aramis SHA Mazák",
+          "hits": []
+        },
+        {
+          "query": "Aramis SHA 13°",
+          "hits": []
+        },
+        {
+          "query": "Aramis SHA",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
     "beerstreet::Mazák::Bojanowitz": {
       "beer": {
         "source": "beerstreet",
@@ -6450,6 +6520,84 @@
       "outcome": {
         "matched": "/b/tvarg-lezak-11/4088691",
         "score": 1.0
+      }
+    },
+    "beerstreet::U Vojtěchů::Aleš 29.": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "U Vojtěchů",
+        "name": "Aleš 29.",
+        "style": "Ležák výroční",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-04T17:53:25Z",
+      "candidates": [
+        {
+          "name": "Madrugada Obscura (Blend 11-29-2027)",
+          "brewery": "Jolly Pumpkin Artisan Ales",
+          "url": "/b/jolly-pumpkin-artisan-ales-madrugada-obscura-blend-11-29-2027/5751360",
+          "rating": null
+        },
+        {
+          "name": "IPA Batch #29",
+          "brewery": "Ardent Craft Ales",
+          "url": "/b/ardent-craft-ales-ipa-batch-29/2008610",
+          "rating": 3.71
+        },
+        {
+          "name": "Czech Dark Lager",
+          "brewery": "Ocean Beach Brewery",
+          "url": "/b/ocean-beach-brewery-czech-dark-lager/6143547",
+          "rating": 4.02
+        },
+        {
+          "name": "B-29 Fifi",
+          "brewery": "Sky-High Ales",
+          "url": "/b/sky-high-ales-b-29-fifi/857732",
+          "rating": null
+        },
+        {
+          "name": "Brewer's Birthday Bash (Volume 29)",
+          "brewery": "Alliteration Ales",
+          "url": "/b/alliteration-ales-brewer-s-birthday-bash-volume-29/4272459",
+          "rating": 3.5
+        },
+        {
+          "name": "29 To Life",
+          "brewery": "29 Palms Beer Co.",
+          "url": "/b/29-palms-beer-co-29-to-life/6186850",
+          "rating": 3.34
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Aleš 29. 11° U Vojtěchů",
+          "hits": []
+        },
+        {
+          "query": "Aleš 29. U Vojtěchů",
+          "hits": []
+        },
+        {
+          "query": "Aleš 29. 11°",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Aleš 29.",
+          "hits": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "beerstreet::U Vojtěchů::Podlipák - special pro festival": {
@@ -7188,6 +7336,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-zahora-american-pale-lager-10-apl-r1/3060264",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Záhora::Lost Angels": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Záhora",
+        "name": "Lost Angels",
+        "style": "Hazy session IPA",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-08-04T17:53:37Z",
+      "candidates": [
+        {
+          "name": "13.LA.I2 Lost Angels",
+          "brewery": "Pivovar Záhora",
+          "url": "/b/pivovar-zahora-13-la-i2-lost-angels/6791084",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Lost Angels 13° Záhora",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-zahora-13-la-i2-lost-angels/6791084",
         "score": 1.0
       }
     },
@@ -7955,6 +8133,85 @@
       "outcome": {
         "matched": null,
         "reason": "no_candidates_above_threshold"
+      }
+    },
+    "uzamastilu::Hauskrecht::Brněnská 11": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Hauskrecht",
+        "name": "Brněnská 11",
+        "style": "Ležák",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-04T17:54:02Z",
+      "candidates": [
+        {
+          "name": "Hauskrecht Brněnská 11",
+          "brewery": "Brněnská pivovarnická společnost",
+          "url": "/b/brnenska-pivovarnicka-spolecnost-hauskrecht-brnenska-11/917211",
+          "rating": 3.38
+        },
+        {
+          "name": "Hauskrecht v Globusu Jaro 2022",
+          "brewery": "Brněnská pivovarnická společnost",
+          "url": "/b/brnenska-pivovarnicka-spolecnost-hauskrecht-v-globusu-jaro-2022/4861124",
+          "rating": null
+        },
+        {
+          "name": "Zahořklý 11",
+          "brewery": "Brněnský minipivovar Richard",
+          "url": "/b/brnensky-minipivovar-richard-zahorkly-11/1877370",
+          "rating": 3.44
+        },
+        {
+          "name": "Darmochleb 11",
+          "brewery": "Brněnský minipivovar Richard",
+          "url": "/b/brnensky-minipivovar-richard-darmochleb-11/333386",
+          "rating": 3.2
+        },
+        {
+          "name": "Nevada Ale 11°",
+          "brewery": "Pivovar Knajzl",
+          "url": "/b/pivovar-knajzl-nevada-ale-11-deg/2231694",
+          "rating": 3.45
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Brněnská 11 11° Hauskrecht",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Brněnská 11 Hauskrecht",
+          "hits": [
+            0,
+            1
+          ]
+        },
+        {
+          "query": "Brněnská 11 11°",
+          "hits": [
+            0,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "query": "Brněnská 11",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/brnenska-pivovarnicka-spolecnost-hauskrecht-brnenska-11/917211",
+        "source": "llm"
       }
     },
     "uzamastilu::Hřebec::Summer": {
