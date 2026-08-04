@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-04T21:16:47Z",
+  "generated_at": "2026-08-04T23:07:11Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -6632,6 +6632,36 @@
       "outcome": {
         "matched": null,
         "reason": "no_candidates_above_threshold"
+      }
+    },
+    "beerstreet::U Vojtěchů::Podlipák": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "U Vojtěchů",
+        "name": "Podlipák",
+        "style": "Ležák světiý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-04T23:07:11Z",
+      "candidates": [
+        {
+          "name": "Podlipák 11",
+          "brewery": "Pivovar U Vojtěchů",
+          "url": "/b/pivovar-u-vojtechu-podlipak-11/4081441",
+          "rating": 3.56
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Podlipák 11° U Vojtěchů",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-u-vojtechu-podlipak-11/4081441",
+        "score": 1.0
       }
     },
     "beerstreet::U Vojtěchů::Podlipák - special pro festival": {
