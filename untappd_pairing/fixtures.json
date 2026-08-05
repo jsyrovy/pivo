@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-05T17:46:10Z",
+  "generated_at": "2026-08-05T19:43:49Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -1250,6 +1250,47 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-louka-apac/3902175",
+        "score": 1.0
+      }
+    },
+    "ambasada::MadCat, Kamenice::Brut IPA": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "MadCat, Kamenice",
+        "name": "Brut IPA",
+        "style": "Brut IPA",
+        "degree_plato": 14.0
+      },
+      "captured_at": "2026-08-05T19:43:06Z",
+      "candidates": [
+        {
+          "name": "Brut IPA",
+          "brewery": "MadCat",
+          "url": "/b/madcat-brut-ipa/6245191",
+          "rating": 3.66
+        },
+        {
+          "name": "Brut IPA",
+          "brewery": "MadCat",
+          "url": "/b/madcat-brut-ipa/5698394",
+          "rating": 3.44
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Brut IPA 14° MadCat",
+          "hits": []
+        },
+        {
+          "query": "Brut IPA MadCat",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/madcat-brut-ipa/6245191",
         "score": 1.0
       }
     },
@@ -8407,6 +8448,102 @@
         "source": "llm"
       }
     },
+    "uzamastilu::Hauskrecht::Brněnská 12": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Hauskrecht",
+        "name": "Brněnská 12",
+        "style": "Ležák",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-05T19:43:26Z",
+      "candidates": [
+        {
+          "name": "Hauskrecht Brněnská 12",
+          "brewery": "Brněnská pivovarnická společnost",
+          "url": "/b/brnenska-pivovarnicka-spolecnost-hauskrecht-brnenska-12/924325",
+          "rating": 3.41
+        },
+        {
+          "name": "Hauskrecht Brněnská 12 Limitovaná edice čerstvá sklizeň",
+          "brewery": "Brněnská pivovarnická společnost",
+          "url": "/b/brnenska-pivovarnicka-spolecnost-hauskrecht-brnenska-12-limitovana-edice-cerstva-sklizen/1772843",
+          "rating": 3.56
+        },
+        {
+          "name": "Hauskrecht PH 12 Republika",
+          "brewery": "Brněnská pivovarnická společnost",
+          "url": "/b/brnenska-pivovarnicka-spolecnost-hauskrecht-ph-12-republika/2908618",
+          "rating": 3.68
+        },
+        {
+          "name": "Hauskrecht Brněnská 12 LE sklizeň 2022",
+          "brewery": "Brněnská pivovarnická společnost",
+          "url": "/b/brnenska-pivovarnicka-spolecnost-hauskrecht-brnenska-12-le-sklizen-2022/5073292",
+          "rating": 3.61
+        },
+        {
+          "name": "Světák 12",
+          "brewery": "Brněnský minipivovar Richard",
+          "url": "/b/brnensky-minipivovar-richard-svetak-12/346876",
+          "rating": 3.29
+        },
+        {
+          "name": "Proutník 12",
+          "brewery": "Brněnský minipivovar Richard",
+          "url": "/b/brnensky-minipivovar-richard-proutnik-12/746658",
+          "rating": 2.99
+        },
+        {
+          "name": "Ponocný 12",
+          "brewery": "Brněnský minipivovar Richard",
+          "url": "/b/brnensky-minipivovar-richard-ponocny-12/435830",
+          "rating": 3.12
+        },
+        {
+          "name": "Cream Ale 12°",
+          "brewery": "Brněnská pivovarnická společnost",
+          "url": "/b/brnenska-pivovarnicka-spolecnost-cream-ale-12-deg/6665187",
+          "rating": 3.66
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Brněnská 12 11° Hauskrecht",
+          "hits": []
+        },
+        {
+          "query": "Brněnská 12 Hauskrecht",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "query": "Brněnská 12 11°",
+          "hits": [
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "query": "Brněnská 12",
+          "hits": [
+            0,
+            1,
+            2,
+            7
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/brnenska-pivovarnicka-spolecnost-hauskrecht-brnenska-12/924325",
+        "source": "llm"
+      }
+    },
     "uzamastilu::Hřebec::Summer": {
       "beer": {
         "source": "uzamastilu",
@@ -9220,6 +9357,122 @@
       ],
       "outcome": {
         "matched": "/b/sibeeria-brewery-blackberry-plum-and-raspberry-sorbet/6757224",
+        "source": "llm"
+      }
+    },
+    "uzamastilu::Polička::IPL": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Polička",
+        "name": "IPL",
+        "style": "",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-08-05T19:43:49Z",
+      "candidates": [
+        {
+          "name": "Pelikán IPL 12°",
+          "brewery": "Panský pivovar Bojnice",
+          "url": "/b/pansky-pivovar-bojnice-pelikan-ipl-12-deg/3643498",
+          "rating": 3.53
+        },
+        {
+          "name": "Poličský India Pale Lager",
+          "brewery": "Měšťanský pivovar v Poličce",
+          "url": "/b/mestansky-pivovar-v-policce-policsky-india-pale-lager/6783487",
+          "rating": null
+        },
+        {
+          "name": "Knipl IPL 12°",
+          "brewery": "Pivovar Hangár",
+          "url": "/b/pivovar-hangar-knipl-ipl-12-deg/2511129",
+          "rating": 3.6
+        },
+        {
+          "name": "Jistota 12° IPL",
+          "brewery": "Pivovar Ovipistán",
+          "url": "/b/pivovar-ovipistan-jistota-12-deg-ipl/3995151",
+          "rating": 3.46
+        },
+        {
+          "name": "Beer Up",
+          "brewery": "Liptovar",
+          "url": "/b/liptovar-beer-up/1740759",
+          "rating": 3.19
+        },
+        {
+          "name": "Con Lai 12°",
+          "brewery": "Pivovar Clock",
+          "url": "/b/pivovar-clock-con-lai-12-deg/5516376",
+          "rating": 3.63
+        },
+        {
+          "name": "Soul Style",
+          "brewery": "Green Flash Brewing Company",
+          "url": "/b/green-flash-brewing-company-soul-style/795543",
+          "rating": 3.75
+        },
+        {
+          "name": "IPA",
+          "brewery": "AleSmith Brewing Company",
+          "url": "/b/alesmith-brewing-company-ipa/1793",
+          "rating": 3.89
+        },
+        {
+          "name": "Fourpure Session IPA",
+          "brewery": "Fourpure Brewing Co",
+          "url": "/b/fourpure-brewing-co-fourpure-session-ipa/4254799",
+          "rating": 3.51
+        },
+        {
+          "name": "Double Agent IPL",
+          "brewery": "Samuel Adams",
+          "url": "/b/samuel-adams-double-agent-ipl/259276",
+          "rating": 3.45
+        },
+        {
+          "name": "Kiwi Rising",
+          "brewery": "Jack’s Abby Craft Lagers",
+          "url": "/b/jack-s-abby-craft-lagers-kiwi-rising/99558",
+          "rating": 3.89
+        }
+      ],
+      "attempts": [
+        {
+          "query": "IPL 12° Polička",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "IPL Polička",
+          "hits": [
+            1
+          ]
+        },
+        {
+          "query": "IPL 12°",
+          "hits": [
+            2,
+            3,
+            4,
+            5,
+            0
+          ]
+        },
+        {
+          "query": "IPL",
+          "hits": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/mestansky-pivovar-v-policce-policsky-india-pale-lager/6783487",
         "source": "llm"
       }
     },

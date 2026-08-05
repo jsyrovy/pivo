@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-05T17:46:10Z",
+  "generated_at": "2026-08-05T19:43:49Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -386,6 +386,16 @@
       "match_score": 1.0,
       "matched_at": "2026-05-10T08:54:54Z",
       "query_used": "<override>"
+    },
+    "ambasada::MadCat, Kamenice::Brut IPA": {
+      "untappd_url": "https://untappd.com/b/madcat-brut-ipa/6245191",
+      "untappd_name": "Brut IPA",
+      "untappd_brewery": "MadCat",
+      "rating": 3.66,
+      "match_score": 1.0,
+      "matched_at": "2026-08-05T19:43:06Z",
+      "query_used": "Brut IPA MadCat",
+      "description": "Brut IPA od MadCat s 7,2 % ABV a 14° stupňovitostí potěší milovníky suchých, osvěžujících ip a nabízí lehkou, ale silnou povzbuzující zkušenost, ideální na letní večery nebo při osvěžujícím rozhovoru."
     },
     "ambasada::MadCat, Kamenice::Mango Pina Coco Sourus": {
       "untappd_url": "https://untappd.com/b/madcat-mango-pina-coco/2990679",
@@ -2395,6 +2405,16 @@
       "query_used": "<llm>",
       "description": "Hauskrecht Brněnská 11 je klasické 11° ležáky od Brněnské pivovarnické společnosti s mírnou až střední silou, vhodné pro běžné setkání s přáteli."
     },
+    "uzamastilu::Hauskrecht::Brněnská 12": {
+      "untappd_url": "https://untappd.com/b/brnenska-pivovarnicka-spolecnost-hauskrecht-brnenska-12/924325",
+      "untappd_name": "Hauskrecht Brněnská 12",
+      "untappd_brewery": "Brněnská pivovarnická společnost",
+      "rating": 3.41,
+      "match_score": 1.0,
+      "matched_at": "2026-08-05T19:43:26Z",
+      "query_used": "<llm>",
+      "description": "Hauskrecht Brněnská 12 je lehký 11° ležák od Brněnské pivovarnické společnosti s mírnou sladkostí a průměrnou hořkostí, vhodný na běžné posezení nebo odpolední setkání."
+    },
     "uzamastilu::Hřebec::Summer": {
       "untappd_url": "https://untappd.com/b/pivovar-hrebec-10-deg-summer-ale/6376217",
       "untappd_name": "10° Summer Ale",
@@ -2553,6 +2573,16 @@
       "matched_at": "2026-07-25T16:08:03Z",
       "query_used": "<llm>",
       "description": "Ovocné pivo s mírnou sladkostí a ovocným charakterem, vhodné na letní osvěžení. S lehkou až střední tělesností a 11° stupňovitostí nabízí příjemný poměr alkoholu a ovocného projevu, ideální pro neformální setkání."
+    },
+    "uzamastilu::Polička::IPL": {
+      "untappd_url": "https://untappd.com/b/mestansky-pivovar-v-policce-policsky-india-pale-lager/6783487",
+      "untappd_name": "Poličský India Pale Lager",
+      "untappd_brewery": "Měšťanský pivovar v Poličce",
+      "rating": null,
+      "match_score": 0.0,
+      "matched_at": "2026-08-05T19:43:49Z",
+      "query_used": "<llm>",
+      "description": "Polickej India Pale Lager od Měšťanského pivovaru v Poličce je silný 12° lager s neznámým obsahem alkoholu, vhodný pro letní osvěžení i slavnostní okamžiky."
     },
     "uzamastilu::Polička::Otakar": {
       "untappd_url": "https://untappd.com/b/mestansky-pivovar-v-policce-otakar-11-velikonocni/6613562",
