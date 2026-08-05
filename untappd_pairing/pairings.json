@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-05T19:43:49Z",
+  "generated_at": "2026-08-05T21:17:12Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -2681,6 +2681,16 @@
       "matched_at": "2026-07-29T17:20:45Z",
       "query_used": "Saaz 11° Záhora",
       "description": "SAAZ Jedenáctka z hlávkového chmelu od Pivovaru Záhora je klasický 11° ležák s mírnou hořkostí a vyváženou sladkostí, který potěší příznivce tradičních českých pilsnerů a hodí se na běžné posezení i menší oslavu."
+    },
+    "uzamastilu::Švabín::Pathfinder": {
+      "untappd_url": "https://untappd.com/b/svabin-brewery-pathfinder/6807375",
+      "untappd_name": "Pathfinder",
+      "untappd_brewery": "Švabín Brewery",
+      "rating": null,
+      "match_score": 1.0,
+      "matched_at": "2026-08-05T21:17:12Z",
+      "query_used": "Pathfinder Švabín",
+      "description": "Pathfinder od Švabín Brewery je moderní NEIPA s 12° stupňovitostí. Je vhodný na neformální posezení s přáteli, kde oceníš jeho aromatické, ovocné tóny."
     }
   },
   "unmatched": {

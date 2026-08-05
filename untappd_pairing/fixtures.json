@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-05T19:43:49Z",
+  "generated_at": "2026-08-05T21:17:12Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -9955,6 +9955,40 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-zahora-saaz-jedenactka-z-hlavkoveho-chmelu-11-l-r1/4053867",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Švabín::Pathfinder": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Švabín",
+        "name": "Pathfinder",
+        "style": "NEIPA",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-08-05T21:17:12Z",
+      "candidates": [
+        {
+          "name": "Pathfinder",
+          "brewery": "Švabín Brewery",
+          "url": "/b/svabin-brewery-pathfinder/6807375",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Pathfinder 12° Švabín",
+          "hits": []
+        },
+        {
+          "query": "Pathfinder Švabín",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/svabin-brewery-pathfinder/6807375",
         "score": 1.0
       }
     }
