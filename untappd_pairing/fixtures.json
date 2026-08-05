@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-05T15:18:56Z",
+  "generated_at": "2026-08-05T17:46:10Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -302,6 +302,40 @@
           "brewery": "Brewnicorn",
           "url": "/b/brewnicorn-sunny-day/6689258",
           "rating": 3.751
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Sunny Day 11° Brewnicorn",
+          "hits": []
+        },
+        {
+          "query": "Sunny Day Brewnicorn",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/brewnicorn-sunny-day/6689258",
+        "score": 1.0
+      }
+    },
+    "ambasada::Brewnicorn::Sunny Day": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Brewnicorn",
+        "name": "Sunny Day",
+        "style": "American pale ale",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-05T17:46:10Z",
+      "candidates": [
+        {
+          "name": "Sunny Day",
+          "brewery": "Brewnicorn",
+          "url": "/b/brewnicorn-sunny-day/6689258",
+          "rating": 3.69
         }
       ],
       "attempts": [
@@ -1612,6 +1646,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-mordyr-mordyr-11/609306",
+        "score": 1.0
+      }
+    },
+    "ambasada::Mordýř, Dolní Ředice::Rybíz": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Mordýř, Dolní Ředice",
+        "name": "Rybíz",
+        "style": "Fruit sour ale",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-08-05T17:46:05Z",
+      "candidates": [
+        {
+          "name": "Calamansi & Rybíz Sour 12°",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-calamansi-rybiz-sour-12-deg/6028553",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Rybíz 10° Mordýř",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mordyr-calamansi-rybiz-sour-12-deg/6028553",
         "score": 1.0
       }
     },
@@ -3772,6 +3836,71 @@
         {
           "query": "BRU-Ing. Galaxy",
           "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
+    "beerstreet::Hauskrecht::Preegl": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Hauskrecht",
+        "name": "Preegl",
+        "style": "Summer ale",
+        "degree_plato": 9.0
+      },
+      "captured_at": "2026-08-05T17:45:54Z",
+      "candidates": [
+        {
+          "name": "Preegl Summer Ale",
+          "brewery": "Brněnská pivovarnická společnost",
+          "url": "/b/brnenska-pivovarnicka-spolecnost-preegl-summer-ale/6734482",
+          "rating": 3.45
+        },
+        {
+          "name": "Preegl",
+          "brewery": "Harry ",
+          "url": "/b/harry-preegl/4888639",
+          "rating": 3.39
+        },
+        {
+          "name": "PREGL Catharina Sour",
+          "brewery": "Maister Brewery",
+          "url": "/b/maister-brewery-pregl-catharina-sour/3446228",
+          "rating": 3.71
+        },
+        {
+          "name": "PREGL NEIPA",
+          "brewery": "Maister Brewery",
+          "url": "/b/maister-brewery-pregl-neipa/3385233",
+          "rating": 3.51
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Preegl 9° Hauskrecht",
+          "hits": []
+        },
+        {
+          "query": "Preegl Hauskrecht",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Preegl 9°",
+          "hits": []
+        },
+        {
+          "query": "Preegl",
+          "hits": [
+            1,
+            0,
+            2,
+            3
+          ]
         }
       ],
       "outcome": {

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-05T15:18:56Z",
+  "generated_at": "2026-08-05T17:46:10Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -93,6 +93,16 @@
       "match_score": 1.0,
       "matched_at": "2026-06-02T21:52:38Z",
       "query_used": "Sunny Day Brewnicorn"
+    },
+    "ambasada::Brewnicorn::Sunny Day": {
+      "untappd_url": "https://untappd.com/b/brewnicorn-sunny-day/6689258",
+      "untappd_name": "Sunny Day",
+      "untappd_brewery": "Brewnicorn",
+      "rating": 3.69,
+      "match_score": 1.0,
+      "matched_at": "2026-08-05T17:46:10Z",
+      "query_used": "Sunny Day Brewnicorn",
+      "description": "Sunny Day od Brewnicorn je osvěžující American pale ale s mírnou až střední silou 4,8 % ABV a stupňovitostí 11°, který potěší příznivce lehkých, vyvážených piv na jaře nebo při letních výletech."
     },
     "ambasada::Bura Brew, Chorvatsko::14,5° Tornado IPA": {
       "untappd_url": "https://untappd.com/b/bura-brew-tornado-ipa-istrian-pale-ale/1501740",
@@ -505,6 +515,16 @@
       "match_score": 0.875,
       "matched_at": "2026-05-05T20:05:03Z",
       "query_used": "Msopustní"
+    },
+    "ambasada::Mordýř, Dolní Ředice::Rybíz": {
+      "untappd_url": "https://untappd.com/b/pivovar-mordyr-calamansi-rybiz-sour-12-deg/6028553",
+      "untappd_name": "Calamansi & Rybíz Sour 12°",
+      "untappd_brewery": "Pivovar Mordýř",
+      "rating": null,
+      "match_score": 1.0,
+      "matched_at": "2026-08-05T17:46:05Z",
+      "query_used": "Rybíz 10° Mordýř",
+      "description": "Calamansi & Rybíz Sour 12° od Pivovaru Mordýř je ovocný sour ale s mírnou kyselostí a 4 % alkoholu, ideální pro osvěžení v letních dnech."
     },
     "ambasada::Mordýř, Dolní Ředice::Sametová": {
       "untappd_url": "https://untappd.com/b/pivovar-mordyr-sametova-10/1909913",
@@ -2658,6 +2678,11 @@
       "attempts": 1,
       "last_tried_at": "2026-05-08T20:05:21Z",
       "reason": "upstream_error"
+    },
+    "beerstreet::Hauskrecht::Preegl": {
+      "attempts": 1,
+      "last_tried_at": "2026-08-05T17:45:54Z",
+      "reason": "no_candidates_above_threshold"
     },
     "beerstreet::Hoppy Dog::Mahlerova Osma": {
       "attempts": 1,
