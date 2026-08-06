@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-05T23:05:43Z",
+  "generated_at": "2026-08-06T15:18:36Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -2621,6 +2621,16 @@
       "match_score": 0.6667,
       "matched_at": "2026-07-24T06:56:03Z",
       "query_used": "Záviš 12° Polička"
+    },
+    "uzamastilu::Poupě::Summer": {
+      "untappd_url": "https://untappd.com/b/pivovarsky-dum-poupe-summer-ale/5853620",
+      "untappd_name": "Summer Ale 10° (Kohatu, Ekuanot)",
+      "untappd_brewery": "Pivovarský dům Poupě",
+      "rating": 3.51,
+      "match_score": 1.0,
+      "matched_at": "2026-08-06T15:18:36Z",
+      "query_used": "Summer 10° Poupě",
+      "description": "Letní ale s mírnou až střední silou (10°) a průměrným hodnocením 3,5 / 5, vhodná na osvěžující odpoledne ve společnosti přátel."
     },
     "uzamastilu::Sibeeria::Blackberry,Raspberry, Plum Sorbet": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-blackberry-plum-and-raspberry-sorbet/6757224",

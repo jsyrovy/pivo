@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-05T23:05:43Z",
+  "generated_at": "2026-08-06T15:18:36Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -9684,6 +9684,50 @@
       "outcome": {
         "matched": "/b/mestansky-pivovar-v-policce-zavis-12-nefiltrovane/188796",
         "score": 0.6667
+      }
+    },
+    "uzamastilu::Poupě::Summer": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Poupě",
+        "name": "Summer",
+        "style": "Ale",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-08-06T15:18:36Z",
+      "candidates": [
+        {
+          "name": "Summer Ale 10° (Kohatu, Ekuanot)",
+          "brewery": "Pivovarský dům Poupě",
+          "url": "/b/pivovarsky-dum-poupe-summer-ale/5853620",
+          "rating": 3.51
+        },
+        {
+          "name": "Summer Ale 10° (Sabro, Vital, Krush, Mosaic)",
+          "brewery": "Pivovarský dům Poupě",
+          "url": "/b/pivovarsky-dum-poupe-summer-ale-10/6722957",
+          "rating": null
+        },
+        {
+          "name": "Summer Ale",
+          "brewery": "Lomnické pivo",
+          "url": "/b/lomnicke-pivo-summer-ale/3294056",
+          "rating": 3.65
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Summer 10° Poupě",
+          "hits": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovarsky-dum-poupe-summer-ale/5853620",
+        "score": 1.0
       }
     },
     "uzamastilu::Raspb.Sorbet Sibeeria::Blackberry,Plum &": {
