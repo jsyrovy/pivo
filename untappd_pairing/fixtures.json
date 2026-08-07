@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-07T00:07:29Z",
+  "generated_at": "2026-08-07T14:15:18Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -2079,6 +2079,40 @@
       ],
       "outcome": {
         "matched": "/b/sibeeria-brewery-blackcurrant-sorbet/3759941",
+        "score": 1.0
+      }
+    },
+    "ambasada::Sibeeria, Praha::Exotic Orchard": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Sibeeria, Praha",
+        "name": "Exotic Orchard",
+        "style": "Session IPA",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-07T14:15:07Z",
+      "candidates": [
+        {
+          "name": "Exotic Orchard",
+          "brewery": "Sibeeria Brewery",
+          "url": "/b/sibeeria-exotic-orchard/5953178",
+          "rating": 3.85
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Exotic Orchard 11° Sibeeria",
+          "hits": []
+        },
+        {
+          "query": "Exotic Orchard Sibeeria",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/sibeeria-exotic-orchard/5953178",
         "score": 1.0
       }
     },
@@ -10124,6 +10158,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-valec-prazdniny-2026/6786559",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Zichovec::Thyme is Now": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Zichovec",
+        "name": "Thyme is Now",
+        "style": "Gose",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-08-07T14:15:18Z",
+      "candidates": [
+        {
+          "name": "Thyme Is Now 12",
+          "brewery": "Pivovar ZICHOVEC",
+          "url": "/b/pivovar-zichovec-thyme-is-now-12/6709089",
+          "rating": 3.77
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Thyme is Now 12° Zichovec",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-zichovec-thyme-is-now-12/6709089",
         "score": 1.0
       }
     },
