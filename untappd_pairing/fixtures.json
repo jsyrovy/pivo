@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-07T16:00:17Z",
+  "generated_at": "2026-08-07T17:03:23Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -8761,6 +8761,36 @@
       "outcome": {
         "matched": "/b/brnenska-pivovarnicka-spolecnost-hauskrecht-brnenska-12/924325",
         "source": "llm"
+      }
+    },
+    "uzamastilu::HoppyDog::Sunny Dog": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "HoppyDog",
+        "name": "Sunny Dog",
+        "style": "Ale",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-08-07T17:03:23Z",
+      "candidates": [
+        {
+          "name": "Sunny Dog Summer Ale 10",
+          "brewery": "Pivovar HoppyDog",
+          "url": "/b/pivovar-hoppydog-sunny-dog-summer-ale-10/6785110",
+          "rating": 3.7
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Sunny Dog 10° HoppyDog",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-hoppydog-sunny-dog-summer-ale-10/6785110",
+        "score": 1.0
       }
     },
     "uzamastilu::Hřebec::Summer": {

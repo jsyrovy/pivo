@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-07T16:00:17Z",
+  "generated_at": "2026-08-07T17:03:23Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -2444,6 +2444,16 @@
       "matched_at": "2026-08-05T19:43:26Z",
       "query_used": "<llm>",
       "description": "Hauskrecht Brněnská 12 je lehký 11° ležák od Brněnské pivovarnické společnosti s mírnou sladkostí a průměrnou hořkostí, vhodný na běžné posezení nebo odpolední setkání."
+    },
+    "uzamastilu::HoppyDog::Sunny Dog": {
+      "untappd_url": "https://untappd.com/b/pivovar-hoppydog-sunny-dog-summer-ale-10/6785110",
+      "untappd_name": "Sunny Dog Summer Ale 10",
+      "untappd_brewery": "Pivovar HoppyDog",
+      "rating": 3.7,
+      "match_score": 1.0,
+      "matched_at": "2026-08-07T17:03:23Z",
+      "query_used": "Sunny Dog 10° HoppyDog",
+      "description": "Sunny Dog Summer Ale 10 od Pivovaru HoppyDog je středně silné letní ale s mírně vyšší extraktem, vhodné na osvěžení v horkém dni."
     },
     "uzamastilu::Hřebec::Summer": {
       "untappd_url": "https://untappd.com/b/pivovar-hrebec-10-deg-summer-ale/6376217",
