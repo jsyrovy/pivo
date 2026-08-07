@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-07T17:03:23Z",
+  "generated_at": "2026-08-07T19:04:08Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -475,6 +475,54 @@
       "outcome": {
         "matched": "/b/pivovar-clock-jistota-ale-12deg/2938974",
         "score": 0.0
+      }
+    },
+    "ambasada::Clock, Potštejn::HEX": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Clock, Potštejn",
+        "name": "HEX",
+        "style": "Modern pale ale",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-07T19:04:02Z",
+      "candidates": [
+        {
+          "name": "HEX",
+          "brewery": "Pivovar Clock",
+          "url": "/b/pivovar-clock-hex/6717949",
+          "rating": 3.65
+        },
+        {
+          "name": "Peach Hex",
+          "brewery": "Pivovar Clock",
+          "url": "/b/pivovar-clock-peach-hex/6804474",
+          "rating": null
+        },
+        {
+          "name": "Pineapple HEX",
+          "brewery": "Pivovar Clock",
+          "url": "/b/pivovar-clock-pineapple-hex/6804800",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "HEX 11° Clock",
+          "hits": []
+        },
+        {
+          "query": "HEX Clock",
+          "hits": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-clock-hex/6717949",
+        "score": 1.0
       }
     },
     "ambasada::Clock, Potštejn::Maracuja & Elderflower": {
@@ -10278,6 +10326,43 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-zahora-saaz-jedenactka-z-hlavkoveho-chmelu-11-l-r1/4053867",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::čestmír::čest": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "čestmír",
+        "name": "čest",
+        "style": "Ležák",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-07T19:04:08Z",
+      "candidates": [
+        {
+          "name": "Světlý Ležák 11° ČEST",
+          "brewery": "Pivovar Čestmír",
+          "url": "/b/pivovar-cestmir-svetly-lezak-11-deg-cest/4892957",
+          "rating": 3.56
+        },
+        {
+          "name": "Světlý ležák 11 (nyní máme Ležák 11 ČEST)",
+          "brewery": "Pivovar Čestmír",
+          "url": "/b/pivovar-cestmir-svetly-lezak-11-nyni-mame-lezak-11-cest/2721866",
+          "rating": 3.43
+        }
+      ],
+      "attempts": [
+        {
+          "query": "čest 11° čestmír",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-cestmir-svetly-lezak-11-deg-cest/4892957",
         "score": 1.0
       }
     },

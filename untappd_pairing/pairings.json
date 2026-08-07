@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-07T17:03:23Z",
+  "generated_at": "2026-08-07T19:04:08Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -159,6 +159,16 @@
       "match_score": 1.0,
       "matched_at": "2026-05-06T20:19:51Z",
       "query_used": "Glee Clock"
+    },
+    "ambasada::Clock, Potštejn::HEX": {
+      "untappd_url": "https://untappd.com/b/pivovar-clock-hex/6717949",
+      "untappd_name": "HEX",
+      "untappd_brewery": "Pivovar Clock",
+      "rating": 3.65,
+      "match_score": 1.0,
+      "matched_at": "2026-08-07T19:04:02Z",
+      "query_used": "HEX Clock",
+      "description": "HEX od Pivovaru Clock je moderní pale ale s mírnou silou 4,7 % ABV a 11° stupňovitostí, který potěší příznivce piva s lehkým charakterem a vhodný je na společenské posezení nebo odpolední relaxaci."
     },
     "ambasada::Clock, Potštejn::Maracuja & Elderflower": {
       "untappd_url": "https://untappd.com/b/pivovar-clock-maracuja-elderflower/6270248",
@@ -2741,6 +2751,16 @@
       "matched_at": "2026-07-29T17:20:45Z",
       "query_used": "Saaz 11° Záhora",
       "description": "SAAZ Jedenáctka z hlávkového chmelu od Pivovaru Záhora je klasický 11° ležák s mírnou hořkostí a vyváženou sladkostí, který potěší příznivce tradičních českých pilsnerů a hodí se na běžné posezení i menší oslavu."
+    },
+    "uzamastilu::čestmír::čest": {
+      "untappd_url": "https://untappd.com/b/pivovar-cestmir-svetly-lezak-11-deg-cest/4892957",
+      "untappd_name": "Světlý Ležák 11° ČEST",
+      "untappd_brewery": "Pivovar Čestmír",
+      "rating": 3.56,
+      "match_score": 1.0,
+      "matched_at": "2026-08-07T19:04:08Z",
+      "query_used": "čest 11° čestmír",
+      "description": "Světlý ležák od Pivovaru Čestmír s 11° stupňovitostí potěší příznivce klasických českých pilsnerů svou střední plnost a vyváženou hořkostí, ideální na běžné posezení i letní osvěžení."
     },
     "uzamastilu::Švabín::Pathfinder": {
       "untappd_url": "https://untappd.com/b/svabin-brewery-pathfinder/6807375",
