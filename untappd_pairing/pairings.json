@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-06T15:18:36Z",
+  "generated_at": "2026-08-07T00:07:29Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -1755,6 +1755,16 @@
       "matched_at": "2026-05-19T20:28:39Z",
       "query_used": "Tropical Wave Mazák"
     },
+    "beerstreet::Moravia::Kluzák": {
+      "untappd_url": "https://untappd.com/b/pivovar-moravia-medlanecky-kluzak-11/3088875",
+      "untappd_name": "Medlánecký Kluzák 11",
+      "untappd_brewery": "Pivovar Moravia",
+      "rating": 3.33,
+      "match_score": 1.0,
+      "matched_at": "2026-08-07T00:07:11Z",
+      "query_used": "Kluzák 11° Moravia",
+      "description": "Medlánecký Kluzák 11 od Pivovaru Moravia je světlý ležák s 4,7 % alkoholu a 11° stupňovitosti, který potěší příznivce mírně silnějšího, ale stále osvěžujícího stylu a hodí se na letní posezení u kamaráda."
+    },
     "beerstreet::Mordýř::Nectaron": {
       "untappd_url": "https://untappd.com/b/pivovar-mordyr-nectaron-smash-ale/6361344",
       "untappd_name": "Nectaron Smash Ale",
@@ -2282,6 +2292,16 @@
       "query_used": "Pegasus Černý potoka",
       "description": "Pegasus od černého potoka je hazy session IPA s mírnou 4,7% alkoholem, vhodný na letní odpoledne a přátelské setkání, s hodnocením 3.69 na Untappd."
     },
+    "beerstreet::Čestmír::Maunga": {
+      "untappd_url": "https://untappd.com/b/pivovar-cestmir-milkshake-session-12-deg-with-raspberry-blackberry-mango/6377526",
+      "untappd_name": "Milkshake Session 12° With Raspberry, Blackberry, Mango",
+      "untappd_brewery": "Pivovar Čestmír",
+      "rating": 3.91,
+      "match_score": 0.4,
+      "matched_at": "2026-08-07T00:07:05Z",
+      "query_used": "Maunga 12° Čestmír",
+      "description": "Lehký new zealand pilsner s 5 % alkoholu a 12° stupňovitosti, který osvěží vaše letní chvíle a hodí se na neformální posezení s přáteli."
+    },
     "beerstreet::Čestmír::Pink Guava Maracuja": {
       "untappd_url": "https://untappd.com/b/pivovar-cestmir-sour-pink-guava-maracuja/6534373",
       "untappd_name": "Sour Pink Guava Maracuja",
@@ -2724,6 +2744,11 @@
       "last_tried_at": "2026-06-19T19:00:45Z",
       "reason": "no_candidates_above_threshold"
     },
+    "beerstreet::Duck & Dog::D&D Sunrise": {
+      "attempts": 1,
+      "last_tried_at": "2026-08-07T00:07:23Z",
+      "reason": "no_candidates_above_threshold"
+    },
     "beerstreet::Haksna::Our Lager": {
       "attempts": 1,
       "last_tried_at": "2026-05-08T20:05:21Z",
@@ -2747,6 +2772,11 @@
     "beerstreet::Klenot::Guava and rosemary": {
       "attempts": 1,
       "last_tried_at": "2026-05-22T09:09:16Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "beerstreet::Kojetín::Rhubba Hubba - jahoda, rebarbora": {
+      "attempts": 1,
+      "last_tried_at": "2026-08-07T00:07:29Z",
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::Kynšperský zajíc::Summer Ale": {

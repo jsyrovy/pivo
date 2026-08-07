@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-06T15:18:36Z",
+  "generated_at": "2026-08-07T00:07:29Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -3518,6 +3518,84 @@
         "score": 1.0
       }
     },
+    "beerstreet::Duck & Dog::D&D Sunrise": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Duck & Dog",
+        "name": "D&D Sunrise",
+        "style": "Summer ale",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-08-07T00:07:23Z",
+      "candidates": [
+        {
+          "name": "Survive Sunrise - HBC 1019",
+          "brewery": "D.B. McWeenis",
+          "url": "/b/d-b-mcweenis-survive-sunrise-hbc-1019/5467018",
+          "rating": null
+        },
+        {
+          "name": "R&D Series: Tequila Sunrise Sour",
+          "brewery": "2Toms Brewing Co.",
+          "url": "/b/2toms-brewing-co-r-and-d-series-tequila-sunrise-sour/6264326",
+          "rating": 3.76
+        },
+        {
+          "name": "Trigger Sunrise Pale Ale",
+          "brewery": "Trigger Pivo - Set D.o.o",
+          "url": "/b/trigger-pivo-set-d-o-o-trigger-sunrise-pale-ale/3811024",
+          "rating": null
+        },
+        {
+          "name": "Survive Sunrise - Idaho 7 And Azacca",
+          "brewery": "D.B. McWeenis",
+          "url": "/b/d-b-mcweenis-survive-sunrise-idaho-7-and-azacca/4768373",
+          "rating": null
+        },
+        {
+          "name": "Survive Sunrise - Centennial, Amarillo, Mandarina Bavaria, Citra",
+          "brewery": "D.B. McWeenis",
+          "url": "/b/d-b-mcweenis-survive-sunrise-centennial-amarillo-mandarina-bavaria-citra/3183628",
+          "rating": null
+        },
+        {
+          "name": "Survive Sunrise - Citra and Sabro",
+          "brewery": "D.B. McWeenis",
+          "url": "/b/d-b-mcweenis-survive-sunrise-citra-and-sabro/5155181",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "D&D Sunrise 10° Duck & Dog",
+          "hits": []
+        },
+        {
+          "query": "D&D Sunrise Duck & Dog",
+          "hits": []
+        },
+        {
+          "query": "D&D Sunrise 10°",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "D&D Sunrise",
+          "hits": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
     "beerstreet::Duck & Dog::Mosaic": {
       "beer": {
         "source": "beerstreet",
@@ -5000,6 +5078,39 @@
         "score": 1.0
       }
     },
+    "beerstreet::Kojetín::Rhubba Hubba - jahoda, rebarbora": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Kojetín",
+        "name": "Rhubba Hubba - jahoda, rebarbora",
+        "style": "Sour",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-08-07T00:07:29Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Rhubba Hubba - jahoda, rebarbora 13° Kojetín",
+          "hits": []
+        },
+        {
+          "query": "Rhubba Hubba - jahoda, rebarbora Kojetín",
+          "hits": []
+        },
+        {
+          "query": "Rhubba Hubba - jahoda, rebarbora 13°",
+          "hits": []
+        },
+        {
+          "query": "Rhubba Hubba - jahoda, rebarbora",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
     "beerstreet::Kynšperský zajíc::Summer Ale": {
       "beer": {
         "source": "beerstreet",
@@ -6144,6 +6255,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-mazak-svatojansky-13/6751459",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Moravia::Kluzák": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Moravia",
+        "name": "Kluzák",
+        "style": "Ležák světiý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-07T00:07:11Z",
+      "candidates": [
+        {
+          "name": "Medlánecký Kluzák 11",
+          "brewery": "Pivovar Moravia",
+          "url": "/b/pivovar-moravia-medlanecky-kluzak-11/3088875",
+          "rating": 3.33
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Kluzák 11° Moravia",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-moravia-medlanecky-kluzak-11/3088875",
         "score": 1.0
       }
     },
@@ -8006,6 +8147,50 @@
       "outcome": {
         "matched": "/b/cerny-potoka-pegasus/6757517",
         "score": 1.0
+      }
+    },
+    "beerstreet::Čestmír::Maunga": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Čestmír",
+        "name": "Maunga",
+        "style": "New zealand pilsner",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-08-07T00:07:05Z",
+      "candidates": [
+        {
+          "name": "Milkshake Session 12° With Raspberry, Blackberry, Mango",
+          "brewery": "Pivovar Čestmír",
+          "url": "/b/pivovar-cestmir-milkshake-session-12-deg-with-raspberry-blackberry-mango/6377526",
+          "rating": 3.91
+        },
+        {
+          "name": "Mango Session IPA 12",
+          "brewery": "Pivovar Čestmír",
+          "url": "/b/pivovar-cestmir-mango-session-ipa-12/5775497",
+          "rating": 3.55
+        },
+        {
+          "name": "Mango Milkshake I.P.A. 16°",
+          "brewery": "Pivovar Čestmír",
+          "url": "/b/pivovar-cestmir-mango-milkshake-i-p-a-16-deg/3883910",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Maunga 12° Čestmír",
+          "hits": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-cestmir-milkshake-session-12-deg-with-raspberry-blackberry-mango/6377526",
+        "score": 0.4
       }
     },
     "beerstreet::Čestmír::Pink Guava Maracuja": {
