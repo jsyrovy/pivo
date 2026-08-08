@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-08T15:35:04Z",
+  "generated_at": "2026-08-08T16:39:55Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -6769,6 +6769,50 @@
         "reason": "no_candidates_above_threshold"
       }
     },
+    "beerstreet::Pionner::Summer Citra & Motueka": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Pionner",
+        "name": "Summer Citra & Motueka",
+        "style": "Summer ale",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-08-08T16:39:55Z",
+      "candidates": [
+        {
+          "name": "Summer - Citra + Motueka",
+          "brewery": "Pioneer Beer",
+          "url": "/b/pioneer-beer-summer-citra-motueka/6818184",
+          "rating": 3.89
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Summer Citra & Motueka 10° Pionner",
+          "hits": []
+        },
+        {
+          "query": "Summer Citra & Motueka Pionner",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Summer Citra & Motueka 10°",
+          "hits": []
+        },
+        {
+          "query": "Summer Citra & Motueka",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pioneer-beer-summer-citra-motueka/6818184",
+        "source": "llm"
+      }
+    },
     "beerstreet::Poupě::Summer Ale": {
       "beer": {
         "source": "beerstreet",
@@ -6946,6 +6990,36 @@
       ],
       "outcome": {
         "matched": "/b/tvarg-lezak-11/4088691",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Twinberg::Karel": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Twinberg",
+        "name": "Karel",
+        "style": "Ležák světlý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-08T16:39:38Z",
+      "candidates": [
+        {
+          "name": "Karel 11°",
+          "brewery": "Twinberg",
+          "url": "/b/twinberg-karel-11-deg/5632847",
+          "rating": 3.5
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Karel 11° Twinberg",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/twinberg-karel-11-deg/5632847",
         "score": 1.0
       }
     },
