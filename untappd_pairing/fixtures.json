@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-08T18:45:11Z",
+  "generated_at": "2026-08-08T19:34:33Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -2996,6 +2996,79 @@
       "outcome": {
         "matched": "/b/pivovar-agent-leto/5400226",
         "score": 1.0
+      }
+    },
+    "beerstreet::Agent::Moves - Broskev + Liči": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Agent",
+        "name": "Moves - Broskev + Liči",
+        "style": "Pastry sour",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-08T19:34:33Z",
+      "candidates": [
+        {
+          "name": "Moves – White Grapes and Strawberries",
+          "brewery": "Pivovar Agent",
+          "url": "/b/pivovar-agent-moves-white-grapes-and-strawberries/4836340",
+          "rating": 3.76
+        },
+        {
+          "name": "Moves – Cherry & Banana",
+          "brewery": "Pivovar Agent",
+          "url": "/b/pivovar-agent-moves-cherry-and-banana/4917970",
+          "rating": 3.82
+        },
+        {
+          "name": "Moves – Exotic",
+          "brewery": "Pivovar Agent",
+          "url": "/b/pivovar-agent-moves-exotic/4961829",
+          "rating": 3.76
+        },
+        {
+          "name": "Moves Peach And Lychee",
+          "brewery": "Pivovar Agent",
+          "url": "/b/pivovar-agent-moves-peach-and-lychee/6352309",
+          "rating": 3.84
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Moves - Broskev + Liči 11° Agent",
+          "hits": []
+        },
+        {
+          "query": "Moves - Broskev + Liči Agent",
+          "hits": []
+        },
+        {
+          "query": "Moves - Broskev + Liči 11°",
+          "hits": []
+        },
+        {
+          "query": "Moves - Broskev + Liči",
+          "hits": []
+        },
+        {
+          "query": "Moves 11° Agent",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Moves Agent",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-agent-moves-exotic/4961829",
+        "score": 0.5
       }
     },
     "beerstreet::Agent::Moves - jahody+hroz. víno": {
