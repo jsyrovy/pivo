@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-08T20:36:13Z",
+  "generated_at": "2026-08-08T21:35:05Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -2722,6 +2722,16 @@
       "query_used": "Summer 10° Poupě",
       "description": "Letní ale s mírnou až střední silou (10°) a průměrným hodnocením 3,5 / 5, vhodná na osvěžující odpoledne ve společnosti přátel."
     },
+    "uzamastilu::Raven::ColdFest Cold": {
+      "untappd_url": "https://untappd.com/b/pivovar-raven-coldfest-2026/6800289",
+      "untappd_name": "ColdFest 2026",
+      "untappd_brewery": "Pivovar Raven",
+      "rating": 3.55,
+      "match_score": 0.875,
+      "matched_at": "2026-08-08T21:35:05Z",
+      "query_used": "ColdFest Cold",
+      "description": "ColdFest 2026 od Pivovaru Raven je osvěžující IPA s mírnou až střední silou (10°), která potěší příznivce aromatických chmířových not a získala průměrné hodnocení 3,55/5 na Untappd, ideální pro letní večery a neformální setkání."
+    },
     "uzamastilu::Sibeeria::Blackberry,Raspberry, Plum Sorbet": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-blackberry-plum-and-raspberry-sorbet/6757224",
       "untappd_name": "Blackberry, Plum & Raspberry Sorbet",
@@ -2751,6 +2761,16 @@
       "matched_at": "2026-07-25T16:07:48Z",
       "query_used": "Ležák Trautenberk",
       "description": "Trautenberk Tmavý ležák je tmavý ležák s 11° stupňovitostí, který potěší příznivce klasických českých piv a hodí se na neformální setkání s přáteli."
+    },
+    "uzamastilu::Twinberg::Moustache": {
+      "untappd_url": "https://untappd.com/b/twinberg-moustache/6755650",
+      "untappd_name": "Moustache",
+      "untappd_brewery": "Twinberg",
+      "rating": 3.98,
+      "match_score": 1.0,
+      "matched_at": "2026-08-08T21:34:53Z",
+      "query_used": "Moustache Twinberg",
+      "description": "Moustache od Twinberg je NEIPA s 14° stupňovitostí a skvělým hodnocením 3.98, nabízí jemnou, aromatickou strukturu a hodí se na neformální setkání s přáteli."
     },
     "uzamastilu::Valeč::Prázdniny 2026": {
       "untappd_url": "https://untappd.com/b/pivovar-valec-prazdniny-2026/6786559",

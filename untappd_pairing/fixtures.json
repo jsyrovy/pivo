@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-08T20:36:13Z",
+  "generated_at": "2026-08-08T21:35:05Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -10279,6 +10279,76 @@
         "reason": "no_candidates_above_threshold"
       }
     },
+    "uzamastilu::Raven::ColdFest Cold": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Raven",
+        "name": "ColdFest Cold",
+        "style": "IPA",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-08-08T21:35:05Z",
+      "candidates": [
+        {
+          "name": "ColdFest 2026",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-coldfest-2026/6800289",
+          "rating": 3.55
+        },
+        {
+          "name": "Coldest Beer In Town",
+          "brewery": "Breakside Brewery",
+          "url": "/b/breakside-brewery-coldest-beer-in-town/3255332",
+          "rating": 3.73
+        },
+        {
+          "name": "Coldest of Them All",
+          "brewery": "CraftHaus Brewery",
+          "url": "/b/crafthaus-brewery-coldest-of-them-all/5189979",
+          "rating": 3.86
+        },
+        {
+          "name": "Coldest IPA",
+          "brewery": "Symbol Brewing Company",
+          "url": "/b/symbol-brewing-company-coldest-ipa/5468857",
+          "rating": 3.64
+        },
+        {
+          "name": "Da Coldest",
+          "brewery": "Bearded Brewer Artisan Ales",
+          "url": "/b/bearded-brewer-artisan-ales-da-coldest/5001157",
+          "rating": 3.83
+        }
+      ],
+      "attempts": [
+        {
+          "query": "ColdFest Cold 10° Raven",
+          "hits": []
+        },
+        {
+          "query": "ColdFest Cold Raven",
+          "hits": []
+        },
+        {
+          "query": "ColdFest Cold 10°",
+          "hits": []
+        },
+        {
+          "query": "ColdFest Cold",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-raven-coldfest-2026/6800289",
+        "score": 0.875
+      }
+    },
     "uzamastilu::Sibeeria::Blackberry,Raspberry, Plum Sorbet": {
       "beer": {
         "source": "uzamastilu",
@@ -10383,6 +10453,40 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-trautenberk-trautenberk-tmavy-lezak/1825642",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Twinberg::Moustache": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Twinberg",
+        "name": "Moustache",
+        "style": "NEIPA",
+        "degree_plato": 14.0
+      },
+      "captured_at": "2026-08-08T21:34:53Z",
+      "candidates": [
+        {
+          "name": "Moustache",
+          "brewery": "Twinberg",
+          "url": "/b/twinberg-moustache/6755650",
+          "rating": 3.98
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Moustache 14° Twinberg",
+          "hits": []
+        },
+        {
+          "query": "Moustache Twinberg",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/twinberg-moustache/6755650",
         "score": 1.0
       }
     },
