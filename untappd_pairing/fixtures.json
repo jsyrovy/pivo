@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-09T19:37:51Z",
+  "generated_at": "2026-08-09T20:39:10Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -9618,6 +9618,50 @@
       "outcome": {
         "matched": "/b/pivovar-mazak-wai-wai/6776198",
         "score": 0.6
+      }
+    },
+    "uzamastilu::NZ Hazy IPA Klenot::Rhapsody Of Fog": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "NZ Hazy IPA Klenot",
+        "name": "Rhapsody Of Fog",
+        "style": "",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-08-09T20:39:10Z",
+      "candidates": [
+        {
+          "name": "Rhapsony Of Fog 12",
+          "brewery": "Hradecký Klenot",
+          "url": "/b/hradecky-klenot-rhapsony-od-fog/6822491",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Rhapsody Of Fog 12° NZ Hazy IPA Klenot",
+          "hits": []
+        },
+        {
+          "query": "Rhapsody Of Fog NZ Hazy IPA Klenot",
+          "hits": []
+        },
+        {
+          "query": "Rhapsody Of Fog 12°",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Rhapsody Of Fog",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "uzamastilu::Pale Ale Brewnicorn::Hoppla! Continental": {

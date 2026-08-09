@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-09T19:37:51Z",
+  "generated_at": "2026-08-09T20:39:10Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -2932,6 +2932,11 @@
     "uzamastilu::Fracek::Lagerfuck-3 IPL": {
       "attempts": 1,
       "last_tried_at": "2026-07-29T23:02:13Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "uzamastilu::NZ Hazy IPA Klenot::Rhapsody Of Fog": {
+      "attempts": 1,
+      "last_tried_at": "2026-08-09T20:39:10Z",
       "reason": "no_candidates_above_threshold"
     },
     "uzamastilu::Raspb.Sorbet Sibeeria::Blackberry,Plum &": {
