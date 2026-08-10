@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-24T13:25:38Z",
+  "generated_at": "2026-08-10T09:33:50Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -373,6 +373,54 @@
       "outcome": {
         "matched": "/b/pivovar-clock-stastnejsi-12deg/5624411",
         "score": 0.0
+      }
+    },
+    "ambasada::Clock, Potštejn::HEX": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Clock, Potštejn",
+        "name": "HEX",
+        "style": "Modern pale ale",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-10T09:31:16Z",
+      "candidates": [
+        {
+          "name": "HEX",
+          "brewery": "Pivovar Clock",
+          "url": "/b/pivovar-clock-hex/6717949",
+          "rating": 3.66
+        },
+        {
+          "name": "Peach Hex",
+          "brewery": "Pivovar Clock",
+          "url": "/b/pivovar-clock-peach-hex/6804474",
+          "rating": null
+        },
+        {
+          "name": "Pineapple HEX",
+          "brewery": "Pivovar Clock",
+          "url": "/b/pivovar-clock-pineapple-hex/6804800",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "HEX 11° Clock",
+          "hits": []
+        },
+        {
+          "query": "HEX Clock",
+          "hits": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-clock-hex/6717949",
+        "score": 1.0
       }
     },
     "ambasada::Clock, Potštejn::Maracuja & Elderflower": {
@@ -1151,6 +1199,47 @@
         "score": 1.0
       }
     },
+    "ambasada::MadCat, Kamenice::Brut IPA": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "MadCat, Kamenice",
+        "name": "Brut IPA",
+        "style": "Brut IPA",
+        "degree_plato": 14.0
+      },
+      "captured_at": "2026-08-10T09:31:12Z",
+      "candidates": [
+        {
+          "name": "Brut IPA",
+          "brewery": "MadCat",
+          "url": "/b/madcat-brut-ipa/6245191",
+          "rating": 3.67
+        },
+        {
+          "name": "Brut IPA",
+          "brewery": "MadCat",
+          "url": "/b/madcat-brut-ipa/5698394",
+          "rating": 3.44
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Brut IPA 14° MadCat",
+          "hits": []
+        },
+        {
+          "query": "Brut IPA MadCat",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/madcat-brut-ipa/6245191",
+        "source": "llm"
+      }
+    },
     "ambasada::MadCat, Kamenice::Mango Pina Coco Sourus": {
       "beer": {
         "source": "ambasada",
@@ -1909,6 +1998,40 @@
         "score": 1.0
       }
     },
+    "ambasada::Sibeeria, Praha::Exotic Orchard": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Sibeeria, Praha",
+        "name": "Exotic Orchard",
+        "style": "Session IPA",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-10T09:30:57Z",
+      "candidates": [
+        {
+          "name": "Exotic Orchard",
+          "brewery": "Sibeeria Brewery",
+          "url": "/b/sibeeria-exotic-orchard/5953178",
+          "rating": 3.85
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Exotic Orchard 11° Sibeeria",
+          "hits": []
+        },
+        {
+          "query": "Exotic Orchard Sibeeria",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/sibeeria-exotic-orchard/5953178",
+        "score": 1.0
+      }
+    },
     "ambasada::Sibeeria, Praha::Frozen Cryo Lollihop": {
       "beer": {
         "source": "ambasada",
@@ -2573,6 +2696,79 @@
       "outcome": {
         "matched": "/b/pivovar-agent-helenka-11-deg-vyrocni-lezak/6458582",
         "score": 1.0
+      }
+    },
+    "beerstreet::Agent::Moves - Broskev + Liči": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Agent",
+        "name": "Moves - Broskev + Liči",
+        "style": "Pastry sour",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-10T09:30:49Z",
+      "candidates": [
+        {
+          "name": "Moves – White Grapes and Strawberries",
+          "brewery": "Pivovar Agent",
+          "url": "/b/pivovar-agent-moves-white-grapes-and-strawberries/4836340",
+          "rating": 3.76
+        },
+        {
+          "name": "Moves – Cherry & Banana",
+          "brewery": "Pivovar Agent",
+          "url": "/b/pivovar-agent-moves-cherry-and-banana/4917970",
+          "rating": 3.82
+        },
+        {
+          "name": "Moves – Exotic",
+          "brewery": "Pivovar Agent",
+          "url": "/b/pivovar-agent-moves-exotic/4961829",
+          "rating": 3.76
+        },
+        {
+          "name": "Moves Peach And Lychee",
+          "brewery": "Pivovar Agent",
+          "url": "/b/pivovar-agent-moves-peach-and-lychee/6352309",
+          "rating": 3.84
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Moves - Broskev + Liči 11° Agent",
+          "hits": []
+        },
+        {
+          "query": "Moves - Broskev + Liči Agent",
+          "hits": []
+        },
+        {
+          "query": "Moves - Broskev + Liči 11°",
+          "hits": []
+        },
+        {
+          "query": "Moves - Broskev + Liči",
+          "hits": []
+        },
+        {
+          "query": "Moves 11° Agent",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Moves Agent",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-agent-moves-exotic/4961829",
+        "score": 0.5
       }
     },
     "beerstreet::Agent::Moves - jahody+hroz. víno": {
@@ -5436,6 +5632,50 @@
         "reason": "no_candidates_above_threshold"
       }
     },
+    "beerstreet::Pionner::Summer Citra & Motueka": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Pionner",
+        "name": "Summer Citra & Motueka",
+        "style": "Summer ale",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-08-10T09:30:21Z",
+      "candidates": [
+        {
+          "name": "Summer - Citra + Motueka",
+          "brewery": "Pioneer Beer",
+          "url": "/b/pioneer-beer-summer-citra-motueka/6818184",
+          "rating": 3.87
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Summer Citra & Motueka 10° Pionner",
+          "hits": []
+        },
+        {
+          "query": "Summer Citra & Motueka Pionner",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Summer Citra & Motueka 10°",
+          "hits": []
+        },
+        {
+          "query": "Summer Citra & Motueka",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pioneer-beer-summer-citra-motueka/6818184",
+        "source": "llm"
+      }
+    },
     "beerstreet::TAMTAM::Raise your horns": {
       "beer": {
         "source": "beerstreet",
@@ -5539,6 +5779,36 @@
       ],
       "outcome": {
         "matched": "/b/tvarg-lezak-11/4088691",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Twinberg::Karel": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Twinberg",
+        "name": "Karel",
+        "style": "Ležák světlý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-10T09:30:02Z",
+      "candidates": [
+        {
+          "name": "Karel 11°",
+          "brewery": "Twinberg",
+          "url": "/b/twinberg-karel-11-deg/5632847",
+          "rating": 3.5
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Karel 11° Twinberg",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/twinberg-karel-11-deg/5632847",
         "score": 1.0
       }
     },
@@ -6347,6 +6617,425 @@
         "score": 1.0
       }
     },
+    "toulavapipa::Beskydský pivovárek::Borůvkový ležák": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Beskydský pivovárek",
+        "name": "Borůvkový ležák",
+        "style": "Ochucený ležák",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-10T09:32:38Z",
+      "candidates": [
+        {
+          "name": "Borůvkový ležák",
+          "brewery": "Beskydský pivovárek",
+          "url": "/b/beskydsky-pivovarek-boruvkovy-lezak/497749",
+          "rating": 3.34
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Borůvkový ležák Beskydský pivovárek",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/beskydsky-pivovarek-boruvkovy-lezak/497749",
+        "score": 1.0
+      }
+    },
+    "toulavapipa::Clock::Clock": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Clock",
+        "name": "Clock",
+        "style": "APA",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-10T09:32:25Z",
+      "candidates": [
+        {
+          "name": "Clockwork",
+          "brewery": "BrewDog",
+          "url": "/b/brewdog-clockwork/2504661",
+          "rating": 3.43
+        },
+        {
+          "name": "Wild Sour Series: Counter ClockWeisse",
+          "brewery": "DESTIHL Brewery",
+          "url": "/b/destihl-brewery-wild-sour-series-counter-clockweisse/574418",
+          "rating": 3.68
+        },
+        {
+          "name": "Witch Slap®",
+          "brewery": "Clock House Brewing",
+          "url": "/b/clock-house-brewing-witch-slap/2575809",
+          "rating": 4.07
+        },
+        {
+          "name": "...Like Clockwork",
+          "brewery": "Foam Brewers",
+          "url": "/b/foam-brewers-like-clockwork/2046585",
+          "rating": 4.24
+        },
+        {
+          "name": "5 O'Clock Pils",
+          "brewery": "Saint Arnold Brewing Company",
+          "url": "/b/saint-arnold-brewing-company-5-o-clock-pils/1482801",
+          "rating": 3.58
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Clock Clock",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "query": "Clock",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
+    "toulavapipa::Hřebec::Hoppy lager": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Hřebec",
+        "name": "Hoppy lager",
+        "style": "IPL",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-08-10T09:31:45Z",
+      "candidates": [
+        {
+          "name": "10° Hoppy Lager",
+          "brewery": "Pivovar Hřebec",
+          "url": "/b/pivovar-hrebec-10-deg-hoppy-lager/6684488",
+          "rating": 3.67
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Hoppy lager 10° Hřebec",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-hrebec-10-deg-hoppy-lager/6684488",
+        "score": 1.0
+      }
+    },
+    "toulavapipa::Kamenice nad Labem::Kamenická": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Kamenice nad Labem",
+        "name": "Kamenická",
+        "style": "Světlý ležák",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-08-10T09:31:35Z",
+      "candidates": [
+        {
+          "name": "Kamenická Podkova 12°",
+          "brewery": "Pivovar a palírna Kotouč",
+          "url": "/b/pivovar-a-palirna-kotouc-kamenicka-podkova-12-deg/1487898",
+          "rating": 3.08
+        },
+        {
+          "name": "Velikonoční Kamenická 12°",
+          "brewery": "Pivovar Kamenice nad Lipou",
+          "url": "/b/pivovar-kamenice-nad-lipou-zelena-12-velikonocni/4794479",
+          "rating": 3.21
+        },
+        {
+          "name": "Kamenická Zlatá podkova 12°",
+          "brewery": "Pivovar a palírna Kotouč",
+          "url": "/b/pivovar-a-palirna-kotouc-kamenicka-zlata-podkova-12-deg/2217285",
+          "rating": 2.97
+        },
+        {
+          "name": "Výroční Kamenická 12°",
+          "brewery": "Pivovar Kamenice nad Lipou",
+          "url": "/b/pivovar-kamenice-nad-lipou-vyrocni-kamenicka-12/4490872",
+          "rating": 3.26
+        },
+        {
+          "name": "Kamenická 12° Svatováclavská",
+          "brewery": "Pivovar Kamenice nad Lipou",
+          "url": "/b/pivovar-kamenice-nad-lipou-kamenicka-12-deg-svatovaclavska/6009156",
+          "rating": null
+        },
+        {
+          "name": "Kamenická 10",
+          "brewery": "Pivovar Kamenice nad Lipou",
+          "url": "/b/pivovar-kamenice-nad-lipou-kamenicka-10/2377012",
+          "rating": 3.42
+        },
+        {
+          "name": "Kamenická 12",
+          "brewery": "Pivovar Kamenice nad Lipou",
+          "url": "/b/pivovar-kamenice-nad-lipou-kamenicka-12/2146941",
+          "rating": 3.45
+        },
+        {
+          "name": "Kamenická 11",
+          "brewery": "Pivovar Kamenice nad Lipou",
+          "url": "/b/pivovar-kamenice-nad-lipou-kamenicka-11/2606694",
+          "rating": 3.47
+        },
+        {
+          "name": "Kamenická 13",
+          "brewery": "Pivovar Kamenice nad Lipou",
+          "url": "/b/pivovar-kamenice-nad-lipou-kamenicka-13/2385405",
+          "rating": 3.31
+        },
+        {
+          "name": "Kamenická 12 Tmavá",
+          "brewery": "Pivovar Kamenice nad Lipou",
+          "url": "/b/pivovar-kamenice-nad-lipou-kamenicka-12-tmava/2583806",
+          "rating": 3.58
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Kamenická 12° Kamenice nad Labem",
+          "hits": []
+        },
+        {
+          "query": "Kamenická Kamenice nad Labem",
+          "hits": []
+        },
+        {
+          "query": "Kamenická 12°",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "query": "Kamenická",
+          "hits": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
+    "toulavapipa::Kynšperský pivovar::Zajíc": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Kynšperský pivovar",
+        "name": "Zajíc",
+        "style": "Světlý ležák",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-10T09:31:48Z",
+      "candidates": [
+        {
+          "name": "Kynšperský Zajíc 11° medový ležák",
+          "brewery": "Kynšperský pivovar",
+          "url": "/b/kynspersky-pivovar-kynspersky-zajic-11-deg-medovy-lezak/890985",
+          "rating": 3.29
+        },
+        {
+          "name": "Kynšperský Zajíc 11° světlý ležák",
+          "brewery": "Kynšperský pivovar",
+          "url": "/b/kynspersky-pivovar-kynspersky-zajic-11-deg-svetly-lezak/1936006",
+          "rating": 3.42
+        },
+        {
+          "name": "Císařský speciál 11°",
+          "brewery": "Kynšperský pivovar",
+          "url": "/b/kynspersky-pivovar-cisarsky-special-11-deg/3205213",
+          "rating": 3.5
+        },
+        {
+          "name": "Red Ipl 11°",
+          "brewery": "Kynšperský pivovar",
+          "url": "/b/kynspersky-pivovar-red-ipl-11-deg/4882805",
+          "rating": null
+        },
+        {
+          "name": "Dejvický šakal 11°",
+          "brewery": "Kynšperský pivovar",
+          "url": "/b/kynspersky-pivovar-dejvicky-sakal-11-deg/923796",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Zajíc 11° Kynšperský",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/kynspersky-pivovar-kynspersky-zajic-11-deg-svetly-lezak/1936006",
+        "score": 1.0
+      }
+    },
+    "toulavapipa::MadCat::Chaton blanc": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "MadCat",
+        "name": "Chaton blanc",
+        "style": "Witbier",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-10T09:32:16Z",
+      "candidates": [
+        {
+          "name": "Chaton Blanc",
+          "brewery": "MadCat",
+          "url": "/b/madcat-chaton-blanc/6800030",
+          "rating": 3.63
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Chaton blanc MadCat",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/madcat-chaton-blanc/6800030",
+        "score": 1.0
+      }
+    },
+    "toulavapipa::MadCat::Mango pina coco": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "MadCat",
+        "name": "Mango pina coco",
+        "style": "Sour ale",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-10T09:32:54Z",
+      "candidates": [
+        {
+          "name": "Mango-Piña-Coco",
+          "brewery": "MadCat",
+          "url": "/b/madcat-mango-pina-coco/2990679",
+          "rating": 3.8
+        },
+        {
+          "name": "Double Infused Mango-Piña-Coco",
+          "brewery": "MadCat",
+          "url": "/b/madcat-double-infused-mango-pina-coco/5293565",
+          "rating": 4.1
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Mango pina coco MadCat",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/madcat-mango-pina-coco/2990679",
+        "score": 1.0
+      }
+    },
+    "toulavapipa::Sibeeria::Avid ant": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Sibeeria",
+        "name": "Avid ant",
+        "style": "Session NEIPA",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-10T09:32:31Z",
+      "candidates": [
+        {
+          "name": "Avid Ant",
+          "brewery": "Sibeeria Brewery",
+          "url": "/b/sibeeria-brewery-avid-ant/6812058",
+          "rating": 4.0
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Avid ant Sibeeria",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/sibeeria-brewery-avid-ant/6812058",
+        "score": 1.0
+      }
+    },
+    "toulavapipa::Čestmír::New zealand pilsner": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Čestmír",
+        "name": "New zealand pilsner",
+        "style": "IPL",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-10T09:32:09Z",
+      "candidates": [
+        {
+          "name": "New Zealand Pilsner - Maunga",
+          "brewery": "Pivovar Čestmír",
+          "url": "/b/pivovar-cestmir-nwe-zealand-pilsner-maunga/6606406",
+          "rating": 3.73
+        }
+      ],
+      "attempts": [
+        {
+          "query": "New zealand pilsner Čestmír",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-cestmir-nwe-zealand-pilsner-maunga/6606406",
+        "score": 1.0
+      }
+    },
     "uzamastilu::Budvar::Birgo Mango-Limetka": {
       "beer": {
         "source": "uzamastilu",
@@ -6412,6 +7101,40 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-clock-hex/6717949",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Kamenice nad Lipou::Ležák": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Kamenice nad Lipou",
+        "name": "Ležák",
+        "style": "Ležák",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-08-10T09:33:36Z",
+      "candidates": [
+        {
+          "name": "Výroční Ležák 13",
+          "brewery": "Pivovar Kamenice nad Lipou",
+          "url": "/b/pivovar-kamenice-nad-lipou-vyrocni-lezak-13/6044423",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Ležák 12° Kamenice nad Lipou",
+          "hits": []
+        },
+        {
+          "query": "Ležák Kamenice nad Lipou",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-kamenice-nad-lipou-vyrocni-lezak-13/6044423",
         "score": 1.0
       }
     },
@@ -6503,6 +7226,50 @@
         "score": 1.0
       }
     },
+    "uzamastilu::NZ Hazy IPA Klenot::Rhapsody Of Fog": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "NZ Hazy IPA Klenot",
+        "name": "Rhapsody Of Fog",
+        "style": "",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-08-10T09:33:50Z",
+      "candidates": [
+        {
+          "name": "Rhapsony Of Fog 12",
+          "brewery": "Hradecký Klenot",
+          "url": "/b/hradecky-klenot-rhapsony-od-fog/6822491",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Rhapsody Of Fog 12° NZ Hazy IPA Klenot",
+          "hits": []
+        },
+        {
+          "query": "Rhapsody Of Fog NZ Hazy IPA Klenot",
+          "hits": []
+        },
+        {
+          "query": "Rhapsody Of Fog 12°",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Rhapsody Of Fog",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
     "uzamastilu::Polička::Otakar": {
       "beer": {
         "source": "uzamastilu",
@@ -6584,6 +7351,76 @@
         "score": 1.0
       }
     },
+    "uzamastilu::Raven::ColdFest Cold": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Raven",
+        "name": "ColdFest Cold",
+        "style": "IPA",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-08-10T09:33:28Z",
+      "candidates": [
+        {
+          "name": "ColdFest 2026",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-coldfest-2026/6800289",
+          "rating": 3.55
+        },
+        {
+          "name": "Coldest Beer In Town",
+          "brewery": "Breakside Brewery",
+          "url": "/b/breakside-brewery-coldest-beer-in-town/3255332",
+          "rating": 3.73
+        },
+        {
+          "name": "Coldest of Them All",
+          "brewery": "CraftHaus Brewery",
+          "url": "/b/crafthaus-brewery-coldest-of-them-all/5189979",
+          "rating": 3.86
+        },
+        {
+          "name": "Coldest IPA",
+          "brewery": "Symbol Brewing Company",
+          "url": "/b/symbol-brewing-company-coldest-ipa/5468857",
+          "rating": 3.64
+        },
+        {
+          "name": "Da Coldest",
+          "brewery": "Bearded Brewer Artisan Ales",
+          "url": "/b/bearded-brewer-artisan-ales-da-coldest/5001157",
+          "rating": 3.83
+        }
+      ],
+      "attempts": [
+        {
+          "query": "ColdFest Cold 10° Raven",
+          "hits": []
+        },
+        {
+          "query": "ColdFest Cold Raven",
+          "hits": []
+        },
+        {
+          "query": "ColdFest Cold 10°",
+          "hits": []
+        },
+        {
+          "query": "ColdFest Cold",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-raven-coldfest-2026/6800289",
+        "score": 0.875
+      }
+    },
     "uzamastilu::Trautenberk::APA": {
       "beer": {
         "source": "uzamastilu",
@@ -6611,6 +7448,40 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-trautenberk-trautenberk-14-apa/1446943",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Twinberg::Moustache": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Twinberg",
+        "name": "Moustache",
+        "style": "NEIPA",
+        "degree_plato": 14.0
+      },
+      "captured_at": "2026-08-10T09:33:10Z",
+      "candidates": [
+        {
+          "name": "Moustache",
+          "brewery": "Twinberg",
+          "url": "/b/twinberg-moustache/6755650",
+          "rating": 3.98
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Moustache 14° Twinberg",
+          "hits": []
+        },
+        {
+          "query": "Moustache Twinberg",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/twinberg-moustache/6755650",
         "score": 1.0
       }
     }
