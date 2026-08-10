@@ -195,7 +195,10 @@ class UntappdPairing(BaseRobot):
                     chosen = llm_matcher.adjudicate(beer, list(result.tied_candidates))
                     if chosen is not None:
                         logger.info(
-                            "LLM broke a %d-way tie for %s::%s", len(result.tied_candidates), beer.brewery, beer.name,
+                            "LLM broke a %d-way tie for %s::%s",
+                            len(result.tied_candidates),
+                            beer.brewery,
+                            beer.name,
                         )
                         UntappdPairing._record_llm_match(store, beer, fixtures_store, chosen, trace)
                         return None
