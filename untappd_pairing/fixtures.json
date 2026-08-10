@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-10T16:03:28Z",
+  "generated_at": "2026-08-10T17:54:27Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -2679,6 +2679,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-cestmir-summer-ale-10-tanec-slunce/3337676",
+        "score": 1.0
+      }
+    },
+    "ambasada::Čestmír, Brandýs nad Labem::West of Heaven": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Čestmír, Brandýs nad Labem",
+        "name": "West of Heaven",
+        "style": "West coast IPA",
+        "degree_plato": 14.0
+      },
+      "captured_at": "2026-08-10T17:54:09Z",
+      "candidates": [
+        {
+          "name": "IPA 14 - WEST OF HEAVEN",
+          "brewery": "Pivovar Čestmír",
+          "url": "/b/pivovar-cestmir-ipa-14-west-of-heaven/6152754",
+          "rating": 3.71
+        }
+      ],
+      "attempts": [
+        {
+          "query": "West of Heaven 14° Čestmír",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-cestmir-ipa-14-west-of-heaven/6152754",
         "score": 1.0
       }
     },
@@ -7821,6 +7851,84 @@
       "outcome": {
         "matched": "/b/twinberg-moustache/6755650",
         "score": 1.0
+      }
+    },
+    "uzamastilu::Čestmír::Vera Smash": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Čestmír",
+        "name": "Vera Smash",
+        "style": "APA",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-08-10T17:54:27Z",
+      "candidates": [
+        {
+          "name": "Very Hot Sorachi - SMASH Pale Ale 13°",
+          "brewery": "Axiom Brewery",
+          "url": "/b/axiom-brewery-very-hot-sorachi-smash-pale-ale-13-deg/4717632",
+          "rating": null
+        },
+        {
+          "name": "Cryo Smash",
+          "brewery": "Vetra",
+          "url": "/b/vetra-cryo-smash/6065232",
+          "rating": 3.72
+        },
+        {
+          "name": "Smash Very Hot Sorachi",
+          "brewery": "Formosa Brewing Co",
+          "url": "/b/formosa-brewing-co-smash-very-hot-sorachi/4597451",
+          "rating": 3.26
+        },
+        {
+          "name": "Chichibu Ikinari SMaSH Cascade Ver.",
+          "brewery": "Bear Meet Beer",
+          "url": "/b/bear-meet-beer-chichibu-ikinari-smash-cascade-ver/2403751",
+          "rating": 3.42
+        },
+        {
+          "name": "Gone Fishin Ver. #56 S.M.A.S.H.",
+          "brewery": "Flying Fish Brewing Co.",
+          "url": "/b/flying-fish-brewing-co-gone-fishin-ver-56-s-m-a-s-h/1875973",
+          "rating": 4.27
+        },
+        {
+          "name": "Dosanko SMaSH Golden Ale Ver.",
+          "brewery": "Hop Kotan Brewing",
+          "url": "/b/hop-kotan-brewing-dosanko-smash-golden-ale-ver/3764121",
+          "rating": 3.65
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Vera Smash 12° Čestmír",
+          "hits": []
+        },
+        {
+          "query": "Vera Smash Čestmír",
+          "hits": []
+        },
+        {
+          "query": "Vera Smash 12°",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Vera Smash",
+          "hits": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     }
   }

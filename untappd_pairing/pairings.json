@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-10T16:03:28Z",
+  "generated_at": "2026-08-10T17:54:27Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -950,6 +950,16 @@
       "match_score": 1.0,
       "matched_at": "2026-06-20T15:06:35Z",
       "query_used": "Tanec Slunce 10° Čestmír"
+    },
+    "ambasada::Čestmír, Brandýs nad Labem::West of Heaven": {
+      "untappd_url": "https://untappd.com/b/pivovar-cestmir-ipa-14-west-of-heaven/6152754",
+      "untappd_name": "IPA 14 - WEST OF HEAVEN",
+      "untappd_brewery": "Pivovar Čestmír",
+      "rating": 3.71,
+      "match_score": 1.0,
+      "matched_at": "2026-08-10T17:54:09Z",
+      "query_used": "West of Heaven 14° Čestmír",
+      "description": "IPA 14 - WEST OF HEAVEN od Pivovaru Čestmír je typickým west coast IPA s mírně vyšší stupňovitostí 14° a 6,1 % alkoholu, vhodné pro osvěžující osvěžení po práci nebo při společenských setkáních."
     },
     "ambasada::Švabín::Puk Malina/Granátové Jablko": {
       "untappd_url": "https://untappd.com/b/svabin-brewery-puk-malina-granatove-jablko/6703830",
@@ -2420,6 +2430,11 @@
     "uzamastilu::NZ Hazy IPA Klenot::Rhapsody Of Fog": {
       "attempts": 1,
       "last_tried_at": "2026-08-10T09:33:50Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "uzamastilu::Čestmír::Vera Smash": {
+      "attempts": 1,
+      "last_tried_at": "2026-08-10T17:54:27Z",
       "reason": "no_candidates_above_threshold"
     }
   }
