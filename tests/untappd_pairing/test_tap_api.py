@@ -74,6 +74,12 @@ def test_fetch_all_beers_combines_endpoints():
         "https://tap-api.jiri-syrovy.workers.dev/ambasada": json.dumps(
             {"source": "ambasada", "fetchedAt": "x", "beers": []},
         ),
+        "https://tap-api.jiri-syrovy.workers.dev/toulavapipa": json.dumps(
+            {"source": "toulavapipa", "fetchedAt": "x", "beers": [{"name": "Kamenická", "source": "toulavapipa"}]},
+        ),
+        "https://tap-api.jiri-syrovy.workers.dev/lodotava": json.dumps(
+            {"source": "lodotava", "fetchedAt": "x", "beers": [{"name": "Otava", "source": "lodotava"}]},
+        ),
         "https://tap-api.jiri-syrovy.workers.dev/uzamastilu": json.dumps(
             {"source": "uzamastilu", "fetchedAt": "x", "beers": [{"name": "APA", "source": "uzamastilu"}]},
         ),
@@ -85,7 +91,7 @@ def test_fetch_all_beers_combines_endpoints():
     with mock.patch.object(tap_api.common, "download_page", side_effect=fake_download):
         beers = tap_api.fetch_all_beers()
 
-    assert [b.source for b in beers] == ["beerstreet", "beerstreet", "uzamastilu"]
+    assert [b.source for b in beers] == ["beerstreet", "beerstreet", "toulavapipa", "lodotava", "uzamastilu"]
 
 
 def test_fetch_endpoint_skips_empty_tap_slots():
@@ -117,5 +123,5 @@ def test_fetch_all_beers_swallows_endpoint_errors(caplog):
     ):
         beers = tap_api.fetch_all_beers()
 
-    assert len(beers) == 4
+    assert len(beers) == 8
     assert any("Failed to fetch tap-api endpoint /ambasada" in record.message for record in caplog.records)

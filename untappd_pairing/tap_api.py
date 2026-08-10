@@ -9,11 +9,13 @@ logger = logging.getLogger(__name__)
 
 TAP_API_BASE_URL = "https://tap-api.jiri-syrovy.workers.dev"
 ALLOWED_ORIGIN = common.DASHBOARD_BASE_URL
-ENDPOINTS: tuple[str, ...] = ("/beerstreet", "/ambasada", "/uzamastilu")
+ENDPOINTS: tuple[str, ...] = ("/beerstreet", "/ambasada", "/toulavapipa", "/lodotava", "/uzamastilu")
 
 VENUE_SHORT: dict[str, str] = {
     "beerstreet": "BS",
     "ambasada": "PA",
+    "toulavapipa": "TP",
+    "lodotava": "LO",
     "uzamastilu": "UZ",
 }
 EMPTY_TAP_PLACEHOLDER = "-"
