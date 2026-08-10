@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-10T19:03:38Z",
+  "generated_at": "2026-08-10T20:49:48Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -593,6 +593,40 @@
       ],
       "outcome": {
         "matched": "/b/haksna-brewery-batalion-25-narozeniny/6693539",
+        "score": 1.0
+      }
+    },
+    "ambasada::Haksna, Ostrava::Lett": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Haksna, Ostrava",
+        "name": "Lett",
+        "style": "Kveik pale ale",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-10T20:49:48Z",
+      "candidates": [
+        {
+          "name": "Lett",
+          "brewery": "Haksna Brewery",
+          "url": "/b/haksna-brewery-lett/6822982",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Lett 11° Haksna",
+          "hits": []
+        },
+        {
+          "query": "Lett Haksna",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/haksna-brewery-lett/6822982",
         "score": 1.0
       }
     },
