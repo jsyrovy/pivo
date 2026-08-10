@@ -2327,11 +2327,6 @@
       "last_tried_at": "2026-06-03T18:24:49Z",
       "reason": "no_candidates_above_threshold"
     },
-    "toulavapipa::Kamenice nad Labem::Kamenická": {
-      "attempts": 1,
-      "last_tried_at": "2026-08-10T11:14:17Z",
-      "reason": "upstream_error"
-    },
     "uzamastilu::NZ Hazy IPA Klenot::Rhapsody Of Fog": {
       "attempts": 1,
       "last_tried_at": "2026-08-10T09:33:50Z",
