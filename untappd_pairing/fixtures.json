@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-10T11:37:53Z",
+  "generated_at": "2026-08-10T14:22:40Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -6745,6 +6745,64 @@
         "score": 1.0
       }
     },
+    "toulavapipa::Hřebec::Hřebec": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Hřebec",
+        "name": "Hřebec",
+        "style": "Ležák",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-10T14:21:39Z",
+      "candidates": [
+        {
+          "name": "11° Ležák",
+          "brewery": "Pivovar Hřebec",
+          "url": "/b/pivovar-hrebec-11-deg-lezak/6340661",
+          "rating": 3.58
+        },
+        {
+          "name": "11° American Pale Ale",
+          "brewery": "Pivovar Hřebec",
+          "url": "/b/pivovar-hrebec-11-deg-american-pale-ale/6340678",
+          "rating": 3.47
+        },
+        {
+          "name": "11° Ležák Polotmavý",
+          "brewery": "Pivovar Hřebec",
+          "url": "/b/pivovar-hrebec-11-deg-lezak-polotmavy/6340675",
+          "rating": 3.34
+        },
+        {
+          "name": "10° Summer Ale",
+          "brewery": "Pivovar Hřebec",
+          "url": "/b/pivovar-hrebec-10-deg-summer-ale/6376217",
+          "rating": 3.75
+        },
+        {
+          "name": "12° Ležák",
+          "brewery": "Pivovar Hřebec",
+          "url": "/b/pivovar-hrebec-12-deg-lezak/6516216",
+          "rating": 3.55
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Hřebec 11° Hřebec",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-hrebec-11-deg-lezak/6340661",
+        "score": 0.0
+      }
+    },
     "toulavapipa::Kamenice nad Labem::Kamenická": {
       "beer": {
         "source": "toulavapipa",
@@ -6849,6 +6907,101 @@
       "outcome": {
         "matched": null,
         "reason": "no_candidates_above_threshold"
+      }
+    },
+    "toulavapipa::Klín::Canbera": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Klín",
+        "name": "Canbera",
+        "style": "Ležák",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-10T14:22:08Z",
+      "candidates": [
+        {
+          "name": "12 Canbeera",
+          "brewery": "Pivovar Klín",
+          "url": "/b/pivovar-klin-12-canbeera/6738375",
+          "rating": 3.63
+        },
+        {
+          "name": "Cauwe, Cauberg Weizen By Klinker",
+          "brewery": "Brouwerij Klinker",
+          "url": "/b/brouwerij-klinker-cauwe-cauberg-weizen-by-klinker/4279461",
+          "rating": 3.41
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Canbera Klín",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-klin-12-canbeera/6738375",
+        "score": 1.0
+      }
+    },
+    "toulavapipa::Kynšperský pivovar::Kynšperský Zajíc": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Kynšperský pivovar",
+        "name": "Kynšperský Zajíc",
+        "style": "Světlý ležák",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-10T14:22:00Z",
+      "candidates": [
+        {
+          "name": "Kynšperský Zajíc 11° medový ležák",
+          "brewery": "Kynšperský pivovar",
+          "url": "/b/kynspersky-pivovar-kynspersky-zajic-11-deg-medovy-lezak/890985",
+          "rating": 3.29
+        },
+        {
+          "name": "Kynšperský Zajíc 11° světlý ležák",
+          "brewery": "Kynšperský pivovar",
+          "url": "/b/kynspersky-pivovar-kynspersky-zajic-11-deg-svetly-lezak/1936006",
+          "rating": 3.42
+        },
+        {
+          "name": "Císařský speciál 11°",
+          "brewery": "Kynšperský pivovar",
+          "url": "/b/kynspersky-pivovar-cisarsky-special-11-deg/3205213",
+          "rating": 3.5
+        },
+        {
+          "name": "Red Ipl 11°",
+          "brewery": "Kynšperský pivovar",
+          "url": "/b/kynspersky-pivovar-red-ipl-11-deg/4882805",
+          "rating": null
+        },
+        {
+          "name": "Dejvický šakal 11°",
+          "brewery": "Kynšperský pivovar",
+          "url": "/b/kynspersky-pivovar-dejvicky-sakal-11-deg/923796",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Kynšperský Zajíc 11° Kynšperský",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/kynspersky-pivovar-kynspersky-zajic-11-deg-svetly-lezak/1936006",
+        "score": 1.0
       }
     },
     "toulavapipa::Kynšperský pivovar::Zajíc": {
@@ -7003,6 +7156,103 @@
       ],
       "outcome": {
         "matched": "/b/sibeeria-brewery-avid-ant/6812058",
+        "score": 1.0
+      }
+    },
+    "toulavapipa::Sibeeria::Exotic Orchard": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Sibeeria",
+        "name": "Exotic Orchard",
+        "style": "Ipa/dipa",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-10T14:22:33Z",
+      "candidates": [
+        {
+          "name": "Exotic Orchard",
+          "brewery": "Sibeeria Brewery",
+          "url": "/b/sibeeria-exotic-orchard/5953178",
+          "rating": 3.85
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Exotic Orchard Sibeeria",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/sibeeria-exotic-orchard/5953178",
+        "score": 1.0
+      }
+    },
+    "toulavapipa::Zichovec::Fiesta": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Zichovec",
+        "name": "Fiesta",
+        "style": "Kyseláč",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-10T14:22:40Z",
+      "candidates": [
+        {
+          "name": "FIESTA",
+          "brewery": "FALKON",
+          "url": "/b/falkon-fiesta/6792151",
+          "rating": 3.9
+        },
+        {
+          "name": "Fiesta 12",
+          "brewery": "Pivovar ZICHOVEC",
+          "url": "/b/pivovar-zichovec-fiesta-12/6819456",
+          "rating": 3.86
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Fiesta Zichovec",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-zichovec-fiesta-12/6819456",
+        "score": 1.0
+      }
+    },
+    "toulavapipa::Zichovec::Robin na grepu": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Zichovec",
+        "name": "Robin na grepu",
+        "style": "APA",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-10T14:22:18Z",
+      "candidates": [
+        {
+          "name": "Robin na Grepu 12",
+          "brewery": "Pivovar ZICHOVEC",
+          "url": "/b/pivovar-zichovec-robin-na-grepu-12/5411257",
+          "rating": 3.71
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Robin na grepu Zichovec",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-zichovec-robin-na-grepu-12/5411257",
         "score": 1.0
       }
     },

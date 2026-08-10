@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-10T11:37:53Z",
+  "generated_at": "2026-08-10T14:22:40Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -2126,6 +2126,16 @@
       "query_used": "Hoppy lager 10° Hřebec",
       "description": "10° Hoppy Lager od Pivovaru Hřebec je osvěžující IPL s mírnou hořkostí a lehkou pěnivostí, vhodný na letní posezení u grilu nebo při přátelském setkání. S průměrnou sílou 10° se hodí i k delším večerům."
     },
+    "toulavapipa::Hřebec::Hřebec": {
+      "untappd_url": "https://untappd.com/b/pivovar-hrebec-11-deg-lezak/6340661",
+      "untappd_name": "11° Ležák",
+      "untappd_brewery": "Pivovar Hřebec",
+      "rating": 3.58,
+      "match_score": 0.0,
+      "matched_at": "2026-08-10T14:21:39Z",
+      "query_used": "Hřebec 11° Hřebec",
+      "description": "11° Ležák od Pivovaru Hřebec je středně silný ležák s průměrnou pitelností. Hodí se na běžné posezení i mírnější oslavu."
+    },
     "toulavapipa::Kamenice nad Labem::Kamenická": {
       "untappd_url": "https://untappd.com/b/pivovar-kamenice-nad-lipou-kamenicka-12/2146941",
       "untappd_name": "Kamenická 12",
@@ -2135,6 +2145,26 @@
       "matched_at": "2026-08-10T11:37:53Z",
       "query_used": "<override>",
       "description": "Kamenická 12 od pivovaru Kamenice nad Lipou je středně silný světlý ležák s pitelností, který potěší při běžném posezení i neformálním setkání s přáteli."
+    },
+    "toulavapipa::Klín::Canbera": {
+      "untappd_url": "https://untappd.com/b/pivovar-klin-12-canbeera/6738375",
+      "untappd_name": "12 Canbeera",
+      "untappd_brewery": "Pivovar Klín",
+      "rating": 3.63,
+      "match_score": 1.0,
+      "matched_at": "2026-08-10T14:22:08Z",
+      "query_used": "Canbera Klín",
+      "description": "12 Canbeera od Pivovaru Klín je klasický český ležák s průměrnou až plnou tělesností, mírně hořkým profilem a příjemným koncem, který ocení milovníci pilsnerů a hodí se na běžné posezení i letní osvěžení, s hodnocením 3.6 na Untappd."
+    },
+    "toulavapipa::Kynšperský pivovar::Kynšperský Zajíc": {
+      "untappd_url": "https://untappd.com/b/kynspersky-pivovar-kynspersky-zajic-11-deg-svetly-lezak/1936006",
+      "untappd_name": "Kynšperský Zajíc 11° světlý ležák",
+      "untappd_brewery": "Kynšperský pivovar",
+      "rating": 3.42,
+      "match_score": 1.0,
+      "matched_at": "2026-08-10T14:22:00Z",
+      "query_used": "Kynšperský Zajíc 11° Kynšperský",
+      "description": "Kynšperský Zajíc 11° světlý ležák od Kynšperského pivovaru je středně silný ležák s mírnou sladkostí a čistým koncem, vhodný na běžné posezení i letní osvěžení."
     },
     "toulavapipa::Kynšperský pivovar::Zajíc": {
       "untappd_url": "https://untappd.com/b/kynspersky-pivovar-kynspersky-zajic-11-deg-svetly-lezak/1936006",
@@ -2175,6 +2205,36 @@
       "matched_at": "2026-08-10T09:32:31Z",
       "query_used": "Avid ant Sibeeria",
       "description": "Avid Ant od Sibeeria Brewery je session NEIPA s mírnou hořkostí a lehkým tělem, vhodná pro neformální setkání s přáteli, dle hodnocení 4,0 na Untappd."
+    },
+    "toulavapipa::Sibeeria::Exotic Orchard": {
+      "untappd_url": "https://untappd.com/b/sibeeria-exotic-orchard/5953178",
+      "untappd_name": "Exotic Orchard",
+      "untappd_brewery": "Sibeeria Brewery",
+      "rating": 3.85,
+      "match_score": 1.0,
+      "matched_at": "2026-08-10T14:22:33Z",
+      "query_used": "Exotic Orchard Sibeeria",
+      "description": "Exotic Orchard od Sibeeria Brewery je double IPA s průměrným až vysokým tělesem a mírně hořkým profilem, který potěší příznivce aromatických, ovocných hopů; oceněný 3,85 hvězdičkou na Untappd, vhodný na letní večery nebo k osvěžení po práci."
+    },
+    "toulavapipa::Zichovec::Fiesta": {
+      "untappd_url": "https://untappd.com/b/pivovar-zichovec-fiesta-12/6819456",
+      "untappd_name": "Fiesta 12",
+      "untappd_brewery": "Pivovar ZICHOVEC",
+      "rating": 3.86,
+      "match_score": 1.0,
+      "matched_at": "2026-08-10T14:22:40Z",
+      "query_used": "Fiesta Zichovec",
+      "description": "Fiesta 12 od Pivovaru Zichovec je osvěžující kyselý ale s mírnou kyselostí a lehkou pěnivostí. Vhodný na letní den nebo k odpočinku po práci."
+    },
+    "toulavapipa::Zichovec::Robin na grepu": {
+      "untappd_url": "https://untappd.com/b/pivovar-zichovec-robin-na-grepu-12/5411257",
+      "untappd_name": "Robin na Grepu 12",
+      "untappd_brewery": "Pivovar ZICHOVEC",
+      "rating": 3.71,
+      "match_score": 1.0,
+      "matched_at": "2026-08-10T14:22:18Z",
+      "query_used": "Robin na grepu Zichovec",
+      "description": "Robin na Grepu 12 od pivovaru Zichovec je americkým pale alem s průměrným tělesem a vyváženou hořkostí, který potěší příznivce piva s mírnou aromatickou charakteristikou a hodí se na neformální setkání s přáteli."
     },
     "toulavapipa::Čestmír::New zealand pilsner": {
       "untappd_url": "https://untappd.com/b/pivovar-cestmir-nwe-zealand-pilsner-maunga/6606406",
