@@ -187,6 +187,12 @@
                 data-filter="ambasada"
                 onclick="setFilter('ambasada')">Pivní Ambasáda</button>
         <button class="filter-btn text-xs border border-zinc-300 dark:border-chalk/10 text-zinc-500 dark:text-chalk/60 rounded-full px-3 py-1.5 whitespace-nowrap"
+                data-filter="toulavapipa"
+                onclick="setFilter('toulavapipa')">U Toulavé Pípy</button>
+        <button class="filter-btn text-xs border border-zinc-300 dark:border-chalk/10 text-zinc-500 dark:text-chalk/60 rounded-full px-3 py-1.5 whitespace-nowrap"
+                data-filter="lodotava"
+                onclick="setFilter('lodotava')">Loď Otava</button>
+        <button class="filter-btn text-xs border border-zinc-300 dark:border-chalk/10 text-zinc-500 dark:text-chalk/60 rounded-full px-3 py-1.5 whitespace-nowrap"
                 data-filter="uzamastilu"
                 onclick="setFilter('uzamastilu')">U Zámastilů</button>
         <button id="refresh-btn"
@@ -242,6 +248,11 @@
                rel="noopener"
                class="text-zinc-400 dark:text-chalk/30 text-xs hover:text-amber transition-colors">pivniambasada.cz</a>
             <span class="text-zinc-300 dark:text-chalk/15">·</span>
+            <a href="https://www.utoulavepipy.cz"
+               target="_blank"
+               rel="noopener"
+               class="text-zinc-400 dark:text-chalk/30 text-xs hover:text-amber transition-colors">utoulavepipy.cz</a>
+            <span class="text-zinc-300 dark:text-chalk/15">·</span>
             <a href="https://uzamastilu.cz"
                target="_blank"
                rel="noopener"
@@ -260,6 +271,8 @@
     const SOURCES = {
         beerstreet: {name: 'Beer Street', label: 'BS', color: 'bg-emerald-500/15 text-emerald-400 border-emerald-500/25'},
         ambasada: {name: 'Pivní Ambasáda', label: 'PA', color: 'bg-violet-500/15 text-violet-400 border-violet-500/25'},
+        toulavapipa: {name: 'U Toulavé Pípy', label: 'TP', color: 'bg-rose-500/15 text-rose-400 border-rose-500/25'},
+        lodotava: {name: 'Loď Otava', label: 'LO', color: 'bg-teal-500/15 text-teal-400 border-teal-500/25'},
         uzamastilu: {name: 'U Zámastilů', label: 'UZ', color: 'bg-sky-500/15 text-sky-400 border-sky-500/25'},
     };
     const SOURCE_KEYS = Object.keys(SOURCES);
