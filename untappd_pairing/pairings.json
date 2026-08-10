@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-10T11:14:23Z",
+  "generated_at": "2026-08-10T11:34:18Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -2326,6 +2326,11 @@
       "attempts": 1,
       "last_tried_at": "2026-06-03T18:24:49Z",
       "reason": "no_candidates_above_threshold"
+    },
+    "toulavapipa::Kamenice nad Labem::Kamenická": {
+      "attempts": 1,
+      "last_tried_at": "2026-08-10T11:34:18Z",
+      "reason": "upstream_error"
     },
     "uzamastilu::NZ Hazy IPA Klenot::Rhapsody Of Fog": {
       "attempts": 1,
