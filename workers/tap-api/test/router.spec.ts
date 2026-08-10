@@ -166,8 +166,12 @@ describe("router", () => {
     });
 
     expect(res.status).toBe(502);
-    const body = (await res.json()) as { error: string; source: string };
-    expect(body).toEqual({ error: "upstream_failed", source: "beerstreet" });
+    const body = (await res.json()) as { error: string; source: string; message: string };
+    expect(body).toEqual({
+      error: "upstream_failed",
+      source: "beerstreet",
+      message: "beerstreet upstream returned 500",
+    });
   });
 
   it("handles OPTIONS preflight from allowed origin", async () => {

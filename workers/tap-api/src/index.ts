@@ -45,7 +45,7 @@ export default {
     } catch (error) {
       const message = error instanceof Error ? error.message : String(error);
       console.error("upstream_failed", { source: route.source, message });
-      return json({ error: "upstream_failed", source: route.source }, 502, origin);
+      return json({ error: "upstream_failed", source: route.source, message }, 502, origin);
     }
   },
 } satisfies ExportedHandler;
