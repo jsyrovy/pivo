@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-10T09:33:50Z",
+  "generated_at": "2026-08-10T11:14:23Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -2106,6 +2106,16 @@
       "query_used": "Borůvkový ležák Beskydský pivovárek",
       "description": "Borovský ležák od Beskydského pivováreku je ochucený ležák s mírnou ovocnou charakteristikou, vhodný pro osvěžení v letních dnech."
     },
+    "toulavapipa::Clock::Clock": {
+      "untappd_url": "https://untappd.com/b/clock-clock-apa/730508",
+      "untappd_name": "Clock APA",
+      "untappd_brewery": "Pivovar Clock",
+      "rating": 3.65778,
+      "match_score": 1.0,
+      "matched_at": "2026-08-10T11:14:23Z",
+      "query_used": "<override>",
+      "description": "Clock APA od pivovaru Clock je typické americké pale ale s vyváženou hořkostí a ovocnými aromaty chmele, má střední tělo a dobře se hodí k odpočinku po práci nebo k neformálnímu setkání s přáteli."
+    },
     "toulavapipa::Hřebec::Hoppy lager": {
       "untappd_url": "https://untappd.com/b/pivovar-hrebec-10-deg-hoppy-lager/6684488",
       "untappd_name": "10° Hoppy Lager",
@@ -2317,7 +2327,11 @@
       "last_tried_at": "2026-06-03T18:24:49Z",
       "reason": "no_candidates_above_threshold"
     },
-
+    "toulavapipa::Kamenice nad Labem::Kamenická": {
+      "attempts": 1,
+      "last_tried_at": "2026-08-10T11:14:17Z",
+      "reason": "upstream_error"
+    },
     "uzamastilu::NZ Hazy IPA Klenot::Rhapsody Of Fog": {
       "attempts": 1,
       "last_tried_at": "2026-08-10T09:33:50Z",
