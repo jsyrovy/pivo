@@ -109,6 +109,18 @@ export const UZAMASTILU_FIXTURE = [
   },
 ];
 
+export const TOULAVA_PIPA_FIXTURE = `Název piva,Pivní styl,Pivovar,Pozn.:,Detaily
+Kamenická 12,světlý ležák ,Kynšperský zajíc,,
+,,,,
+Zajíc 11,Polotmavý ležák,Kynšperský zajíc,EVERGREEN,
+"Hoppy lager 10",IPA,"Pivovar ""Quoted""",Novinka!,untappd.com/b/x
+Birgo Mango 0,,Budvar,,
+`;
+
+export const LODOTAVA_CLOSED_FIXTURE = `Název piva,Pivní styl,Pivovar,Pozn.:,Detaily
+Zahradní výčep dnes uzavřen,,,,
+`;
+
 export const AMBASADA_EMPTY_FIXTURE = `<!doctype html>
 <html><body>
 <table class="listek_tab">

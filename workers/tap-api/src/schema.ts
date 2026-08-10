@@ -1,4 +1,4 @@
-export type Source = "beerstreet" | "ambasada" | "uzamastilu";
+export type Source = "beerstreet" | "ambasada" | "toulavapipa" | "lodotava" | "uzamastilu";
 
 export interface PriceReference {
   priceCzk: number;

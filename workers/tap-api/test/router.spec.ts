@@ -1,8 +1,16 @@
 import { describe, it, expect, beforeAll, afterEach } from "vitest";
 import { SELF, fetchMock } from "cloudflare:test";
-import { AMBASADA_FIXTURE, BEERSTREET_FIXTURE, UZAMASTILU_FIXTURE } from "./fixtures";
+import {
+  AMBASADA_FIXTURE,
+  BEERSTREET_FIXTURE,
+  LODOTAVA_CLOSED_FIXTURE,
+  TOULAVA_PIPA_FIXTURE,
+  UZAMASTILU_FIXTURE,
+} from "./fixtures";
 
 const ALLOWED_ORIGIN = "https://pivo.jsyrovy.cz";
+const TOULAVA_PIPA_SHEET_PATH =
+  "/spreadsheets/d/e/2PACX-1vSgPAMETGHHgIC7ND6p79_D5WVCtrU6UBCwEm32LFZfK5eOKoXQYtuklEfAfvixIuHHiYjUBnhYG2PH/pub";
 
 beforeAll(() => {
   fetchMock.activate();
@@ -83,6 +91,45 @@ describe("router", () => {
     };
     expect(body.source).toBe("uzamastilu");
     expect(body.beers.map((b) => b.order)).toEqual([1, 5, 3]);
+  });
+
+  it("returns Toulavá Pípa menu parsed from CSV", async () => {
+    fetchMock
+      .get("https://docs.google.com")
+      .intercept({ path: `${TOULAVA_PIPA_SHEET_PATH}?gid=0&single=true&output=csv` })
+      .reply(200, TOULAVA_PIPA_FIXTURE, {
+        headers: { "Content-Type": "text/csv; charset=utf-8" },
+      });
+
+    const res = await call("/toulavapipa", {
+      headers: { Origin: ALLOWED_ORIGIN },
+    });
+
+    expect(res.status).toBe(200);
+    const body = (await res.json()) as {
+      source: string;
+      beers: Array<{ name: string; order: number | null }>;
+    };
+    expect(body.source).toBe("toulavapipa");
+    expect(body.beers.map((b) => b.order)).toEqual([1, 2, 3, 4]);
+  });
+
+  it("returns Loď Otava menu (closed) as an empty list", async () => {
+    fetchMock
+      .get("https://docs.google.com")
+      .intercept({ path: `${TOULAVA_PIPA_SHEET_PATH}?gid=310545451&single=true&output=csv` })
+      .reply(200, LODOTAVA_CLOSED_FIXTURE, {
+        headers: { "Content-Type": "text/csv; charset=utf-8" },
+      });
+
+    const res = await call("/lodotava", {
+      headers: { Origin: ALLOWED_ORIGIN },
+    });
+
+    expect(res.status).toBe(200);
+    const body = (await res.json()) as { source: string; beers: unknown[] };
+    expect(body.source).toBe("lodotava");
+    expect(body.beers).toEqual([]);
   });
 
   it("rejects requests from disallowed origin with 403", async () => {

@@ -1,5 +1,11 @@
 import { corsHeaders, handlePreflight, isAllowedOrigin } from "./cors";
-import { fetchAmbasadaMenu, fetchBeerStreetMenu, fetchUzamastiluMenu } from "./sources";
+import {
+  fetchAmbasadaMenu,
+  fetchBeerStreetMenu,
+  fetchLodotavaMenu,
+  fetchToulavapipaMenu,
+  fetchUzamastiluMenu,
+} from "./sources";
 import type { MenuResponse, Source } from "./schema";
 
 type MenuFetcher = () => Promise<MenuResponse>;
@@ -7,6 +13,8 @@ type MenuFetcher = () => Promise<MenuResponse>;
 const ROUTES: Record<string, { source: Source; fetcher: MenuFetcher }> = {
   "/beerstreet": { source: "beerstreet", fetcher: fetchBeerStreetMenu },
   "/ambasada": { source: "ambasada", fetcher: fetchAmbasadaMenu },
+  "/toulavapipa": { source: "toulavapipa", fetcher: fetchToulavapipaMenu },
+  "/lodotava": { source: "lodotava", fetcher: fetchLodotavaMenu },
   "/uzamastilu": { source: "uzamastilu", fetcher: fetchUzamastiluMenu },
 };
 
