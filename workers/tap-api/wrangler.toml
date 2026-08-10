@@ -4,3 +4,10 @@ compatibility_date = "2025-04-01"
 
 [vars]
 ALLOWED_ORIGIN = "https://pivo.jsyrovy.cz"
+
+[observability.logs]
+enabled = true
+invocation_logs = true
+
+[observability.traces]
+enabled = false

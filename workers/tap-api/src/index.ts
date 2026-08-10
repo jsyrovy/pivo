@@ -43,7 +43,8 @@ export default {
       const menu = await route.fetcher();
       return json(menu, 200, origin);
     } catch (error) {
-      console.error(`upstream_failed source=${route.source}`, error);
+      const message = error instanceof Error ? error.message : String(error);
+      console.error("upstream_failed", { source: route.source, message });
       return json({ error: "upstream_failed", source: route.source }, 502, origin);
     }
   },
