@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-10T14:22:40Z",
+  "generated_at": "2026-08-10T16:03:28Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -2323,6 +2323,50 @@
       "outcome": {
         "matched": null,
         "reason": "no_candidates_above_threshold"
+      }
+    },
+    "ambasada::Sibeeria/Fauve::Prizm, Sacrilege On the Planet Ygam": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Sibeeria/Fauve",
+        "name": "Prizm, Sacrilege On the Planet Ygam",
+        "style": "Czech amber lager",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-08-10T16:03:20Z",
+      "candidates": [
+        {
+          "name": "On the Planet Ygam",
+          "brewery": "Sibeeria Brewery",
+          "url": "/b/sibeeria-brewery-on-the-planet-ygam/6735402",
+          "rating": 3.7
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Prizm, Sacrilege On the Planet Ygam 13° Sibeeria/Fauve",
+          "hits": []
+        },
+        {
+          "query": "Prizm, Sacrilege On the Planet Ygam Sibeeria/Fauve",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Prizm, Sacrilege On the Planet Ygam 13°",
+          "hits": []
+        },
+        {
+          "query": "Prizm, Sacrilege On the Planet Ygam",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/sibeeria-brewery-on-the-planet-ygam/6735402",
+        "source": "llm"
       }
     },
     "ambasada::Volt, Jablonec nad Nisou::Ampér": {
@@ -7518,6 +7562,50 @@
       "outcome": {
         "matched": null,
         "reason": "no_candidates_above_threshold"
+      }
+    },
+    "uzamastilu::Permon::Ležák": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Permon",
+        "name": "Ležák",
+        "style": "Ležák",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-08-10T16:03:28Z",
+      "candidates": [
+        {
+          "name": "Světlý ležák 12°",
+          "brewery": "Pivovar Permon",
+          "url": "/b/pivovar-permon-svetly-lezak-12-deg/413456",
+          "rating": 3.47
+        },
+        {
+          "name": "Trautenberk Kančí Ležák 12°",
+          "brewery": "Pivovar Permon",
+          "url": "/b/pivovar-permon-trautenberk-kanci-lezak-12-deg/5846270",
+          "rating": 3.56
+        },
+        {
+          "name": "Frajer 12° Světlý Ležák",
+          "brewery": "Pivovar Permon",
+          "url": "/b/pivovar-permon-frajer-12-deg-svetly-lezak/5793337",
+          "rating": 3.48
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Ležák 12° Permon",
+          "hits": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-permon-svetly-lezak-12-deg/413456",
+        "score": 1.0
       }
     },
     "uzamastilu::Polička::Otakar": {
