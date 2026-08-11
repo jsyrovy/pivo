@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-11T16:03:44Z",
+  "generated_at": "2026-08-11T18:00:03Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -3863,6 +3863,95 @@
         "reason": "no_candidates_above_threshold"
       }
     },
+    "beerstreet::Hoppy Dog::Sunny Dog": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Hoppy Dog",
+        "name": "Sunny Dog",
+        "style": "Summer ale",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-08-11T17:59:48Z",
+      "candidates": [
+        {
+          "name": "Sunny Dog Summer Ale 10",
+          "brewery": "Pivovar HoppyDog",
+          "url": "/b/pivovar-hoppydog-sunny-dog-summer-ale-10/6785110",
+          "rating": 3.7
+        },
+        {
+          "name": "Sunny Dog",
+          "brewery": "Black Dog Brewing Group",
+          "url": "/b/black-dog-brewing-group-sunny-dog/2174734",
+          "rating": 3.29
+        },
+        {
+          "name": "70° & Sunny Christmas Ale",
+          "brewery": "Adventure Dog Brewing Company",
+          "url": "/b/adventure-dog-brewing-company-70-deg-sunny-christmas-ale/888463",
+          "rating": null
+        },
+        {
+          "name": "Sunny’s Day Hazy IPA",
+          "brewery": "Bad Dog Brewing",
+          "url": "/b/bad-dog-brewing-sunny-s-day-hazy-ipa/3185991",
+          "rating": 3.65
+        },
+        {
+          "name": "Sunny As Helles",
+          "brewery": "Adopted Dog Brewing",
+          "url": "/b/adopted-dog-brewing-sunny-as-helles/5208339",
+          "rating": 3.71
+        },
+        {
+          "name": "Sunny DEEZ",
+          "brewery": "Bad Dog Brewing Company ",
+          "url": "/b/bad-dog-brewing-company-sunny-deez/4523322",
+          "rating": 3.63
+        },
+        {
+          "name": "Sunny Dog IPA",
+          "brewery": "Wasserhund Brewing Company",
+          "url": "/b/wasserhund-brewing-company-sunny-dog-ipa/2589041",
+          "rating": 3.76
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Sunny Dog 10° Hoppy Dog",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Sunny Dog Hoppy Dog",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Sunny Dog 10°",
+          "hits": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "query": "Sunny Dog",
+          "hits": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-hoppydog-sunny-dog-summer-ale-10/6785110",
+        "source": "llm"
+      }
+    },
     "beerstreet::Hoppy Dog::Vojta": {
       "beer": {
         "source": "beerstreet",
@@ -7527,6 +7616,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-kamenice-nad-lipou-vyrocni-lezak-13/6044423",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Klenot::Kazbek": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Klenot",
+        "name": "Kazbek",
+        "style": "Ležák",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-11T18:00:03Z",
+      "candidates": [
+        {
+          "name": "Kazbek 11",
+          "brewery": "Hradecký Klenot",
+          "url": "/b/hradecky-klenot-kazbek-11/2344577",
+          "rating": 3.38
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Kazbek 11° Klenot",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/hradecky-klenot-kazbek-11/2344577",
         "score": 1.0
       }
     },

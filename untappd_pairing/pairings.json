@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-11T16:03:44Z",
+  "generated_at": "2026-08-11T18:00:03Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -1191,6 +1191,16 @@
       "matched_at": "2026-06-20T15:06:30Z",
       "query_used": "<llm>"
     },
+    "beerstreet::Hoppy Dog::Sunny Dog": {
+      "untappd_url": "https://untappd.com/b/pivovar-hoppydog-sunny-dog-summer-ale-10/6785110",
+      "untappd_name": "Sunny Dog Summer Ale 10",
+      "untappd_brewery": "Pivovar HoppyDog",
+      "rating": 3.7,
+      "match_score": 1.0,
+      "matched_at": "2026-08-11T17:59:48Z",
+      "query_used": "<llm>",
+      "description": "Letní ale s mírnou sladkostí, jemnou chmelovou hořkostí a ovocným aroma, které mu dodává osvěžující pocit a střední plnost těla."
+    },
     "beerstreet::Hoppy Dog::Vojta": {
       "untappd_url": "https://untappd.com/b/pivovar-hoppydog-vojta-11/4841834",
       "untappd_name": "Vojta 11",
@@ -2315,6 +2325,16 @@
       "matched_at": "2026-08-10T09:33:36Z",
       "query_used": "Ležák Kamenice nad Lipou",
       "description": "Výroční Ležák 13 od Pivovaru Kamenice nad Lipou je klasické 12° ležáky s mírnou až střední silou, vhodný na slavnostní večeři nebo odpolední setkání s přáteli."
+    },
+    "uzamastilu::Klenot::Kazbek": {
+      "untappd_url": "https://untappd.com/b/hradecky-klenot-kazbek-11/2344577",
+      "untappd_name": "Kazbek 11",
+      "untappd_brewery": "Hradecký Klenot",
+      "rating": 3.38,
+      "match_score": 1.0,
+      "matched_at": "2026-08-11T18:00:03Z",
+      "query_used": "Kazbek 11° Klenot",
+      "description": "We need to produce a description in Czech, 1-2 sentences, max ~300 characters, based only on given data. Must not mention name, brewery, ABV, rating unless rating qualifies. Rating is 3.38, which is lower than 3.40, so it's below threshold; we must not mention rating at all. Must not repeat any of the data (like \"11°\"…"
     },
     "uzamastilu::Loutkář::Kašpárek": {
       "untappd_url": "https://untappd.com/b/pivovar-loutkar-kasparek-11-svetly-lezak/3940222",
