@@ -57,6 +57,33 @@ def test_prompt_includes_beer_facts():
     assert "3.87 / 5" in prompt
 
 
+def test_returns_none_for_sentinel():
+    with _patch_complete("NELZE"):
+        assert describe.generate(_beer(style=""), _candidate()) is None
+
+
+def test_returns_none_for_dressed_up_sentinel():
+    with _patch_complete("Nelze popsat na základě zadaných údajů."):
+        assert describe.generate(_beer(style=""), _candidate()) is None
+
+
+def test_prompt_includes_tap_name_when_it_differs():
+    with _patch_complete("popis") as complete:
+        describe.generate(_beer(name="Moves"), _candidate(name="Moves - White Grapes and Strawberries"))
+
+    prompt = "\n".join(m["content"] for m in complete.call_args.args[0])
+    assert "Název na výčepu: Moves" in prompt
+    assert "Moves - White Grapes and Strawberries" in prompt
+
+
+def test_prompt_omits_tap_name_when_identical():
+    with _patch_complete("popis") as complete:
+        describe.generate(_beer(name="Summer Ale"), _candidate(name="Summer Ale"))
+
+    prompt = "\n".join(m["content"] for m in complete.call_args.args[0])
+    assert "Název na výčepu" not in prompt
+
+
 def test_uses_max_tokens_budget():
     with _patch_complete("popis") as complete:
         describe.generate(_beer(), _candidate())
