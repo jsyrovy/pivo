@@ -63,13 +63,13 @@ class UntappdPairing(BaseRobot):
         pending = store.select_pending(beers, overrides=overrides)
         logger.info("Pairing %d pending beers (rest already paired or in cooldown)", len(pending))
 
-        matched: list[tuple[tap_api.TapBeer, str]] = []
+        matched: list[tuple[tap_api.TapBeer, str, str | None]] = []
         unmatched: list[tuple[tap_api.TapBeer, str]] = []
         for beer in pending:
             reason = self._pair_one(beer, store, fixtures_store, overrides)
             key = beer_key(beer.source, beer.brewery, beer.name)
             if reason is None:
-                matched.append((beer, store.get_url(key)))
+                matched.append((beer, store.get_url(key), store.get_description(key)))
             else:
                 unmatched.append((beer, reason))
 
@@ -88,7 +88,7 @@ class UntappdPairing(BaseRobot):
 
     def _notify_run(
         self,
-        matched: list[tuple[tap_api.TapBeer, str]],
+        matched: list[tuple[tap_api.TapBeer, str, str | None]],
         unmatched: list[tuple[tap_api.TapBeer, str]],
     ) -> None:
         sections: list[str] = []
@@ -97,7 +97,8 @@ class UntappdPairing(BaseRobot):
             lines = [
                 f"• {html_escape(beer.venue_short)} :: {html_escape(beer.brewery)} :: {html_escape(beer.name)}\n"
                 f'  <a href="{html_escape(url, quote=True)}">{html_escape(url)}</a>'
-                for beer, url in matched
+                + (f"\n  <i>{html_escape(description)}</i>" if description else "")
+                for beer, url, description in matched
             ]
             sections.append(header + "\n" + "\n".join(lines))
         if unmatched:

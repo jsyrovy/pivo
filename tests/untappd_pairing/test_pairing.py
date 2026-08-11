@@ -301,6 +301,30 @@ def test_pairing_sends_pushover_notification_when_beer_matched(tmp_path, monkeyp
     assert "Tears of St Laurent" in message
 
 
+def test_pairing_pushover_message_includes_ai_description(tmp_path, monkeypatch, mock_pushover, mock_describe):
+    pairings_path = tmp_path / "pairings.json"
+    monkeypatch.setattr(pairing, "PAIRINGS_PATH", pairings_path)
+
+    mock_describe.return_value = "Svěží americká IPA s výraznou hořkostí."
+    beer = _beer("Tears of St Laurent (2020)", "Wild Creatures")
+    candidates = [
+        _candidate(
+            "Tears of St Laurent (2020)",
+            brewery="Wild Creatures",
+            url="https://untappd.com/b/wild-creatures-tears/1",
+        ),
+    ]
+
+    with (
+        mock.patch.object(pairing.tap_api, "fetch_all_beers", return_value=[beer]),
+        mock.patch.object(pairing.untappd_search, "search_beer", return_value=candidates),
+    ):
+        UntappdPairing(args=Args()).run()
+
+    message = mock_pushover.call_args.args[0]
+    assert "<i>Svěží americká IPA s výraznou hořkostí.</i>" in message
+
+
 def test_pairing_skips_pushover_when_nothing_pending(tmp_path, monkeypatch, mock_pushover):
     pairings_path = tmp_path / "pairings.json"
     monkeypatch.setattr(pairing, "PAIRINGS_PATH", pairings_path)

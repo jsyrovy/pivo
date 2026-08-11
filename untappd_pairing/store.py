@@ -43,6 +43,10 @@ class PairingsStore:
     def get_url(self, key: str) -> str:
         return str(self.pairings[key]["untappd_url"])
 
+    def get_description(self, key: str) -> str | None:
+        description = self.pairings[key].get("description")
+        return str(description) if description else None
+
     def should_retry(self, key: str, now: datetime | None = None) -> bool:
         entry = self.unmatched.get(key)
         if entry is None:
