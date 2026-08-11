@@ -13,6 +13,11 @@ const TOULAVA_PIPA_SHEET_BASE =
 // socket path reaches the same host successfully, so retry there.
 const SOCKET_FALLBACK_STATUSES = new Set([401, 403]);
 
+// The same upstreams sometimes tarpit the egress instead of answering, and
+// fetch() has no timeout of its own, so a stalled request hangs the Worker
+// until the platform kills it. Bound it and treat a stall as a block too.
+const FETCH_TIMEOUT_MS = 5_000;
+
 export interface FetchMenuDeps {
   fetchImpl: (url: string, init?: RequestInit) => Promise<Response>;
   socketFetch: (url: string, options?: Pick<FetchViaSocketOptions, "userAgent">) => Promise<Response>;
@@ -29,36 +34,54 @@ async function fetchMenu(
   parse: (response: Response) => Promise<Beer[]>,
   deps: FetchMenuDeps = DEFAULT_DEPS,
 ): Promise<MenuResponse> {
-  let response = await deps.fetchImpl(url, {
-    headers: { "User-Agent": USER_AGENT },
-    cf: { cacheTtl: 0, cacheEverything: false },
-  });
+  let response: Response | undefined;
+  let blocked: string | undefined;
 
-  let viaSocket = false;
-
-  if (SOCKET_FALLBACK_STATUSES.has(response.status)) {
-    const blockedStatus = response.status;
-    console.info("socket_fallback", { source, blockedStatus });
-    try {
-      response = await deps.socketFetch(url, { userAgent: USER_AGENT });
-      viaSocket = true;
-    } catch (error) {
-      const message = error instanceof Error ? error.message : String(error);
-      throw new Error(`${source} upstream returned ${blockedStatus}, socket fallback failed: ${message}`);
-    }
+  try {
+    response = await deps.fetchImpl(url, {
+      headers: { "User-Agent": USER_AGENT },
+      cf: { cacheTtl: 0, cacheEverything: false },
+      signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
+    });
+  } catch (error) {
+    blocked = `fetch failed: ${errorMessage(error)}`;
   }
 
-  if (!response.ok) {
-    const suffix = viaSocket ? " (via socket)" : "";
-    throw new Error(`${source} upstream returned ${response.status}${suffix}`);
+  if (response && SOCKET_FALLBACK_STATUSES.has(response.status)) {
+    blocked = `upstream returned ${response.status}`;
+  }
+
+  if (!blocked) {
+    const ok = response as Response;
+    if (!ok.ok) {
+      throw new Error(`${source} upstream returned ${ok.status}`);
+    }
+    return { source, fetchedAt: new Date().toISOString(), beers: await parse(ok) };
+  }
+
+  console.info("socket_fallback", { source, blocked });
+
+  let viaSocket: Response;
+  try {
+    viaSocket = await deps.socketFetch(url, { userAgent: USER_AGENT });
+  } catch (error) {
+    throw new Error(`${source} ${blocked}, socket fallback failed: ${errorMessage(error)}`);
+  }
+
+  if (!viaSocket.ok) {
+    throw new Error(`${source} upstream returned ${viaSocket.status} (via socket)`);
   }
 
   return {
     source,
     fetchedAt: new Date().toISOString(),
-    beers: await parse(response),
-    viaSocket: viaSocket || undefined,
+    beers: await parse(viaSocket),
+    viaSocket: true,
   };
+}
+
+function errorMessage(error: unknown): string {
+  return error instanceof Error ? error.message : String(error);
 }
 
 export const fetchBeerStreetMenu = (deps?: FetchMenuDeps): Promise<MenuResponse> =>
