@@ -26,4 +26,5 @@ export interface MenuResponse {
   source: Source;
   fetchedAt: string;
   beers: Beer[];
+  viaSocket?: boolean;
 }
