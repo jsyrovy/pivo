@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-11T14:21:17Z",
+  "generated_at": "2026-08-11T16:03:44Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -303,6 +303,16 @@
       "match_score": 1.0,
       "matched_at": "2026-07-13T15:44:49Z",
       "query_used": "Fleur de Lorien Klenot"
+    },
+    "ambasada::Klenot, Hradec Králové::Orange & Cinnamon": {
+      "untappd_url": "https://untappd.com/b/hradecky-klenot-sour-ale-orange-and-cinnamon/5361488",
+      "untappd_name": "Sour ALE– Orange & Cinnamon",
+      "untappd_brewery": "Hradecký Klenot",
+      "rating": 3.87,
+      "match_score": 1.0,
+      "matched_at": "2026-08-11T16:03:44Z",
+      "query_used": "Orange & Cinnamon Klenot",
+      "description": "Nadprůměrně hodnocené sour ale s jasným citrusovým aroma a jemným kořením, lehce kyselé a svěží, s měkkým tělem a mírnou hořkostí."
     },
     "ambasada::Kynšperský Zajíc, Kynšperk::Summer Ale": {
       "untappd_url": "https://untappd.com/b/kynspersky-pivovar-summer-ale/4267619",

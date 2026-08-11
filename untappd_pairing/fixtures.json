@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-11T14:21:17Z",
+  "generated_at": "2026-08-11T16:03:44Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -1040,6 +1040,40 @@
       ],
       "outcome": {
         "matched": "/b/hradecky-klenot-fleur-de-lorien/6623866",
+        "score": 1.0
+      }
+    },
+    "ambasada::Klenot, Hradec Králové::Orange & Cinnamon": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Klenot, Hradec Králové",
+        "name": "Orange & Cinnamon",
+        "style": "Fruit sour ale",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-08-11T16:03:44Z",
+      "candidates": [
+        {
+          "name": "Sour ALE– Orange & Cinnamon",
+          "brewery": "Hradecký Klenot",
+          "url": "/b/hradecky-klenot-sour-ale-orange-and-cinnamon/5361488",
+          "rating": 3.87
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Orange & Cinnamon 10° Klenot",
+          "hits": []
+        },
+        {
+          "query": "Orange & Cinnamon Klenot",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/hradecky-klenot-sour-ale-orange-and-cinnamon/5361488",
         "score": 1.0
       }
     },
