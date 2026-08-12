@@ -63,9 +63,32 @@ def test_rejection_reason(text, reason):
     assert describe.rejection_reason(text) == reason
 
 
-def test_rejects_invalid_description():
-    with _patch_complete("We need to produce a Czech description of at most 300 characters here."):
+def test_rejects_invalid_description_after_every_attempt():
+    with _patch_complete("We need to produce a Czech description of at most 300 characters here.") as complete:
         assert describe.generate(_beer(), _candidate()) is None
+    assert complete.call_count == describe.MAX_ATTEMPTS
+
+
+def test_retry_feeds_the_rejected_answer_back():
+    bad = "We need to produce a Czech description of at most 300 characters here."
+    with mock.patch.object(describe.openrouter_client, "complete", side_effect=[bad, _VALID]) as complete:
+        assert describe.generate(_beer(), _candidate()) == _VALID
+
+    retry_messages = complete.call_args_list[1].args[0]
+    assert retry_messages[-2] == {"role": "assistant", "content": bad}
+    assert retry_messages[-1]["content"] == describe.RETRY_PROMPT
+
+
+def test_refusal_is_not_retried():
+    with _patch_complete("NELZE") as complete:
+        assert describe.generate(_beer(style=""), _candidate()) is None
+    assert complete.call_count == 1
+
+
+def test_unavailable_llm_is_not_retried():
+    with _patch_complete(None) as complete:
+        assert describe.generate(_beer(), _candidate()) is None
+    assert complete.call_count == 1
 
 
 def test_truncates_overlong_text():

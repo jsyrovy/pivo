@@ -76,6 +76,16 @@ SYSTEM_PROMPT = (
 )
 
 
+RETRY_PROMPT = (
+    "Tvoje předchozí odpověď byla neplatná. Odpověz znovu a POUZE hotovým popisem piva v češtině: "
+    "1 až 2 celé věty do 300 znaků, bez úvah, bez angličtiny, bez uvozovek a bez úvodní nálepky "
+    f"typu „Popis:“. Pokud pivo nelze z údajů popsat, odpověz jediným slovem {NO_DESCRIPTION_SENTINEL}."
+)
+
+# One extra shot is enough: if the model rambles twice, no description is the right outcome.
+MAX_ATTEMPTS = 2
+
+
 def _build_user_prompt(beer: TapBeer, candidate: UntappdCandidate) -> str:
     lines = [
         f"Název: {candidate.name or beer.name}",
@@ -130,30 +140,37 @@ def generate(beer: TapBeer, candidate: UntappdCandidate) -> str | None:
         {"role": "user", "content": _build_user_prompt(beer, candidate)},
     ]
 
-    text = openrouter_client.complete(messages, max_tokens=MAX_TOKENS, reasoning=False)
-    if text is None:
-        logger.info("No AI description generated for %s::%s", beer.brewery, beer.name)
-        return None
+    for attempt in range(1, MAX_ATTEMPTS + 1):
+        text = openrouter_client.complete(messages, max_tokens=MAX_TOKENS, reasoning=False)
+        if text is None:
+            logger.info("No AI description generated for %s::%s", beer.brewery, beer.name)
+            return None
 
-    description = _clean(text)
-    if not description:
-        logger.info("AI returned empty description for %s::%s", beer.brewery, beer.name)
-        return None
+        description = _clean(text)
+        if _is_refusal(description):
+            logger.info("Not enough facts to describe %s::%s", beer.brewery, beer.name)
+            return None
 
-    if _is_refusal(description):
-        logger.info("Not enough facts to describe %s::%s", beer.brewery, beer.name)
-        return None
+        reason = rejection_reason(description)
+        if reason is None:
+            logger.info("Generated AI description for %s::%s", beer.brewery, beer.name)
+            return description
 
-    reason = rejection_reason(description)
-    if reason is not None:
         logger.warning(
-            "Rejected AI description for %s::%s (%s): %s",
+            "Rejected AI description for %s::%s, attempt %d/%d (%s): %s",
             beer.brewery,
             beer.name,
+            attempt,
+            MAX_ATTEMPTS,
             reason,
             description,
         )
-        return None
+        # Temperature is 0, so a plain re-ask would return the same text; feeding the rejected
+        # answer back with the complaint changes the input and gives the model something to fix.
+        messages = [
+            *messages,
+            {"role": "assistant", "content": description},
+            {"role": "user", "content": RETRY_PROMPT},
+        ]
 
-    logger.info("Generated AI description for %s::%s", beer.brewery, beer.name)
-    return description
+    return None
