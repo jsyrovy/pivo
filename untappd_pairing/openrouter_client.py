@@ -12,6 +12,7 @@ from openrouter.components import (
     ChatSystemMessageTypedDict,
     ChatToolMessageTypedDict,
     ChatUserMessageTypedDict,
+    ReasoningTypedDict,
 )
 
 if TYPE_CHECKING:
@@ -40,6 +41,10 @@ DEFAULT_MODELS: tuple[str, ...] = (
     "z-ai/glm-4.5-air:free",
 )
 
+# Asking for zero reasoning effort is how the SDK expresses "no thinking"; callers that store the
+# answer verbatim use it so a truncated chain of thought can never become the answer.
+REASONING_OFF: ReasoningTypedDict = {"effort": "none"}
+
 REQUEST_TIMEOUT_S = 90.0
 # Free models are flaky: upstream returns 429 ("temporarily rate-limited") / 503 ("no healthy
 # upstream") sporadically. Retry a few times before moving to the next model.
@@ -60,20 +65,30 @@ def models() -> tuple[str, ...]:
     return DEFAULT_MODELS
 
 
-def message_text(message: ChatAssistantMessage) -> str:
+def message_text(message: ChatAssistantMessage, *, allow_reasoning: bool = True) -> str:
     # `content` may be a plain string, a list of content parts, None, or the SDK's UNSET
     # sentinel -- only a non-empty string is useful here. Reasoning models often leave
     # `content` empty and put the answer in `reasoning`.
     content = message.content
     if isinstance(content, str) and (stripped := content.strip()):
         return stripped
+    if not allow_reasoning:
+        # Callers that store the text verbatim must not end up publishing a chain of thought.
+        return ""
     reasoning = message.reasoning
     if isinstance(reasoning, str):
         return reasoning.strip()
     return ""
 
 
-def _call_model(client: OpenRouter, model: str, messages: list[ChatMessage], *, max_tokens: int) -> str:
+def _call_model(
+    client: OpenRouter,
+    model: str,
+    messages: list[ChatMessage],
+    *,
+    max_tokens: int,
+    reasoning: bool,
+) -> str:
     for attempt in range(1, MAX_RETRIES + 1):
         try:
             res = client.chat.send(
@@ -82,6 +97,7 @@ def _call_model(client: OpenRouter, model: str, messages: list[ChatMessage], *, 
                 temperature=0,
                 max_tokens=max_tokens,
                 stream=False,
+                reasoning=None if reasoning else REASONING_OFF,
             )
         except RETRY_ERRORS as exc:
             if attempt >= MAX_RETRIES:
@@ -90,12 +106,12 @@ def _call_model(client: OpenRouter, model: str, messages: list[ChatMessage], *, 
             logger.debug("%s -> %s, retry %d/%d in %.0fs", model, type(exc).__name__, attempt, MAX_RETRIES, wait)
             time.sleep(wait)
             continue
-        return message_text(res.choices[0].message)
+        return message_text(res.choices[0].message, allow_reasoning=reasoning)
     msg = "retry loop exited without returning"  # unreachable: last attempt re-raises
     raise AssertionError(msg)
 
 
-def complete(messages: list[ChatMessage], *, max_tokens: int) -> str | None:
+def complete(messages: list[ChatMessage], *, max_tokens: int, reasoning: bool = True) -> str | None:
     api_key = os.environ.get("OPENROUTER_API_KEY")
     if not api_key:
         logger.warning("OPENROUTER_API_KEY not set; skipping LLM call")
@@ -104,7 +120,7 @@ def complete(messages: list[ChatMessage], *, max_tokens: int) -> str | None:
     with OpenRouter(api_key=api_key, timeout_ms=int(REQUEST_TIMEOUT_S * 1000)) as client:
         for model in models():
             try:
-                return _call_model(client, model, messages, max_tokens=max_tokens)
+                return _call_model(client, model, messages, max_tokens=max_tokens, reasoning=reasoning)
             except (*SDK_ERRORS, KeyError, IndexError) as exc:
                 logger.warning("LLM model %s failed (%s: %s); trying next", model, type(exc).__name__, exc)
                 continue

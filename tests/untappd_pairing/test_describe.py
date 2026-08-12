@@ -88,3 +88,9 @@ def test_uses_max_tokens_budget():
     with _patch_complete("popis") as complete:
         describe.generate(_beer(), _candidate())
     assert complete.call_args.kwargs["max_tokens"] == describe.MAX_TOKENS
+
+
+def test_disables_reasoning():
+    with _patch_complete("popis") as complete:
+        describe.generate(_beer(), _candidate())
+    assert complete.call_args.kwargs["reasoning"] is False

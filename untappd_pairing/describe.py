@@ -12,8 +12,8 @@ if TYPE_CHECKING:
 
 logger = logging.getLogger(__name__)
 
-# Reasoning free models spend many tokens "thinking" before the final text; too small a budget
-# truncates the answer mid-sentence, so keep it generous even though the description is short.
+# Reasoning is disabled for descriptions (a truncated chain of thought used to leak into the
+# popover), but free models still ramble, so keep the budget comfortably above the target length.
 MAX_TOKENS = 1200
 # Guard against a runaway model that ignores the length instruction; the popover is small.
 MAX_CHARS = 320
@@ -98,7 +98,7 @@ def generate(beer: TapBeer, candidate: UntappdCandidate) -> str | None:
         {"role": "user", "content": _build_user_prompt(beer, candidate)},
     ]
 
-    text = openrouter_client.complete(messages, max_tokens=MAX_TOKENS)
+    text = openrouter_client.complete(messages, max_tokens=MAX_TOKENS, reasoning=False)
     if text is None:
         logger.info("No AI description generated for %s::%s", beer.brewery, beer.name)
         return None
