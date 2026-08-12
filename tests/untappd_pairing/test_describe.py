@@ -1,5 +1,7 @@
 from unittest import mock
 
+import pytest
+
 from untappd_pairing import describe
 from untappd_pairing.tap_api import TapBeer
 from untappd_pairing.untappd_search import UntappdCandidate
@@ -18,9 +20,9 @@ def _patch_complete(return_value):
 
 
 def test_returns_cleaned_description():
-    with _patch_complete('  "Svěží IPA s výraznou\n  hořkostí."  '):
+    with _patch_complete('  "Svěží IPA s výraznou hořkostí,\n  citrusovým aroma a suchým závěrem."  '):
         result = describe.generate(_beer(), _candidate())
-    assert result == "Svěží IPA s výraznou hořkostí."
+    assert result == "Svěží IPA s výraznou hořkostí, citrusovým aroma a suchým závěrem."
 
 
 def test_returns_none_when_llm_unavailable():
@@ -33,8 +35,41 @@ def test_returns_none_for_empty_text():
         assert describe.generate(_beer(), _candidate()) is None
 
 
+_VALID = "Klasický světlý ležák se sladovým základem, jemnou hořkostí a lehčím tělem."
+
+
+@pytest.mark.parametrize(
+    ("text", "reason"),
+    [
+        (_VALID, None),
+        ("11° ležák: sladový základ, jemná hořkost a čistá, dopíjivá chuť.", None),
+        ("Světlá jedenáctka.", "too short"),
+        ("We need to produce a description in Czech based only on the given data, 1-2 sentences.", "no Czech letters"),
+        (
+            "Popis: Klasický světlý ležák se sladovým základem a jemnou chmelovou hořkostí v závěru.",
+            "model talking about the task",
+        ),
+        (
+            "ležák se sladovým základem, jemnou chmelovou hořkostí a čistou, dopíjivou chutí.",
+            "starts mid-sentence",
+        ),
+        (
+            "Klasický světlý ležák se sladovým základem a jemnou chmelovou hořkostí v závěru",
+            "not a finished sentence",
+        ),
+    ],
+)
+def test_rejection_reason(text, reason):
+    assert describe.rejection_reason(text) == reason
+
+
+def test_rejects_invalid_description():
+    with _patch_complete("We need to produce a Czech description of at most 300 characters here."):
+        assert describe.generate(_beer(), _candidate()) is None
+
+
 def test_truncates_overlong_text():
-    with _patch_complete("A" * 500):
+    with _patch_complete("Svěží IPA s výraznou hořkostí. " * 20):
         result = describe.generate(_beer(), _candidate())
     assert result is not None
     assert len(result) == describe.MAX_CHARS

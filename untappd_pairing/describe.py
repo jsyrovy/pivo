@@ -17,6 +17,20 @@ logger = logging.getLogger(__name__)
 MAX_TOKENS = 1200
 # Guard against a runaway model that ignores the length instruction; the popover is small.
 MAX_CHARS = 320
+# Anything shorter than this cannot be the two sentences we asked for.
+MIN_CHARS = 40
+
+SENTENCE_END = ".!?…"
+# No Czech text of the length we ask for lacks accented letters; English self-talk has none.
+_CZECH_LETTERS_RE = re.compile(r"[ěščřžýáíéúůňťďĚŠČŘŽÝÁÍÉÚŮŇŤĎ]")
+# Phrases that mean the model is discussing the assignment instead of answering it, plus the
+# "Popis:" style label it sometimes prefixes the answer with.
+_META_TALK_RE = re.compile(
+    r"^(popis|odpověď|answer|description)\s*:"
+    r"|\b(we need|we must|we have|must not|the user|let'?s|i should|i must|characters?|sentence"
+    r"|czech|description|instruction|based only|given data|zadaných údajů|zadání)\b",
+    re.IGNORECASE,
+)
 
 # The model answers with this single word when the inputs carry no substance to describe;
 # an empty popover is better than a sentence of filler.
@@ -92,6 +106,24 @@ def _is_refusal(description: str) -> bool:
     return description.upper().startswith(NO_DESCRIPTION_SENTINEL)
 
 
+def rejection_reason(description: str) -> str | None:
+    # Last line of defence against a model that ignores the prompt: better no popover than a
+    # popover full of English self-talk. Returns why the text is unusable, or None if it passes.
+    if len(description) < MIN_CHARS:
+        return "too short"
+    if not _CZECH_LETTERS_RE.search(description):
+        # A Czech sentence this long without a single accented letter is not Czech.
+        return "no Czech letters"
+    if _META_TALK_RE.search(description):
+        return "model talking about the task"
+    if description[0].islower():
+        # A digit is a fine opening ("11° ležák ..."), a lowercase letter means a cut-off start.
+        return "starts mid-sentence"
+    if description[-1] not in SENTENCE_END:
+        return "not a finished sentence"
+    return None
+
+
 def generate(beer: TapBeer, candidate: UntappdCandidate) -> str | None:
     messages: list[openrouter_client.ChatMessage] = [
         {"role": "system", "content": SYSTEM_PROMPT},
@@ -110,6 +142,17 @@ def generate(beer: TapBeer, candidate: UntappdCandidate) -> str | None:
 
     if _is_refusal(description):
         logger.info("Not enough facts to describe %s::%s", beer.brewery, beer.name)
+        return None
+
+    reason = rejection_reason(description)
+    if reason is not None:
+        logger.warning(
+            "Rejected AI description for %s::%s (%s): %s",
+            beer.brewery,
+            beer.name,
+            reason,
+            description,
+        )
         return None
 
     logger.info("Generated AI description for %s::%s", beer.brewery, beer.name)
