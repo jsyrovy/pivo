@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-12T14:22:36Z",
+  "generated_at": "2026-08-12T15:49:57Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -247,7 +247,8 @@
       "rating": 3.46,
       "match_score": 1.0,
       "matched_at": "2026-07-02T08:53:53Z",
-      "query_used": "300 Kurven 10° JungBerg"
+      "query_used": "300 Kurven 10° JungBerg",
+      "description": "Světlý ležák s mírnou sladkostí a jemnou chmelovou hořkostí, lehkým tělem a čistým profilem, doplněný jemným ovocným tónem z názvu, který přidává lehkou ovocnou notu. POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE PO…"
     },
     "ambasada::JungBerg, Hořice::LucIPA": {
       "untappd_url": "https://untappd.com/b/pivovar-jungberg-lucipa/2199010",
@@ -824,7 +825,8 @@
       "rating": 3.592,
       "match_score": 1.0,
       "matched_at": "2026-04-18T19:39:28Z",
-      "query_used": "Kasteel Rouge Van Honsebrouck"
+      "query_used": "Kasteel Rouge Van Honsebrouck",
+      "description": "Silně ovocné a sladové dubové víno s bohatým tělem, intenzivní třešňovou a čokoládovou chutí, mírnou vanilkou a jemnou kořenovou notkou, podpořené mírnou hořkostí a dlouhým, teplým závěrem. Hodnocení na Untappd."
     },
     "ambasada::Vik/Fauve::Confluence": {
       "untappd_url": "https://untappd.com/b/pivovar-vik-confluence-neipa-vik-fauve/6660039",
@@ -2436,6 +2438,16 @@
       "matched_at": "2026-08-10T09:33:10Z",
       "query_used": "Moustache Twinberg",
       "description": "Moustache od Twinbergu je svěží NEIPA s mírně až střední silou, která potěší milovníky aromatických, ovocných pivních stylů a hodí se na neformální setkání s přáteli."
+    },
+    "uzamastilu::Čestmír::Vera Smash": {
+      "untappd_url": "https://untappd.com/b/pivovar-cestmir-smash-apa-vera/6827149",
+      "untappd_name": "Smash APA - Vera",
+      "untappd_brewery": "Pivovar Čestmír",
+      "rating": null,
+      "match_score": 1.0,
+      "matched_at": "2026-08-12T15:49:45Z",
+      "query_used": "<override>",
+      "description": "Smash APA s názvem Vera od Pivovaru Čestmír, 12° stupňovitosti, typicky ovocně chmelené aroma s citrusovými tóny a mírnou hořkostí, středně plné tělo, suchý závěr."
     }
   },
   "unmatched": {
@@ -2492,11 +2504,6 @@
     "uzamastilu::NZ Hazy IPA Klenot::Rhapsody Of Fog": {
       "attempts": 1,
       "last_tried_at": "2026-08-10T09:33:50Z",
-      "reason": "no_candidates_above_threshold"
-    },
-    "uzamastilu::Čestmír::Vera Smash": {
-      "attempts": 1,
-      "last_tried_at": "2026-08-10T17:54:27Z",
       "reason": "no_candidates_above_threshold"
     }
   }
