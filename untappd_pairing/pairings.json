@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-12T17:59:25Z",
+  "generated_at": "2026-08-12T19:14:50Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -2378,6 +2378,16 @@
       "matched_at": "2026-07-24T13:25:23Z",
       "query_used": "Wai-Wai 12° Mazák",
       "description": "Wai-Wai 12 od Pivovaru Mazák je vysoce aromatické a měkké Hazy IPA s mírnou hořkostí, vhodné pro letní odpoledne nebo neformální setkání, ohodnocené 3,74 hvězdičkami na Untappd."
+    },
+    "uzamastilu::Mordýř::Kurtizána": {
+      "untappd_url": "https://untappd.com/b/pivovar-mordyr-kurtizana/704889",
+      "untappd_name": "Kurtizána",
+      "untappd_brewery": "Pivovar Mordýř",
+      "rating": 3.57,
+      "match_score": 1.0,
+      "matched_at": "2026-08-12T19:14:48Z",
+      "query_used": "Kurtizána 13° Mordýř",
+      "description": "Klasická IPA s bohatým chmelným aroma citrusu a pryskyřice, střední hořkosti a plného těla díky 13° stupňovitosti."
     },
     "uzamastilu::NZ Hazy IPA Klenot::Rhapsody Of Fog": {
       "untappd_url": "https://untappd.com/b/hradecky-klenot-rhapsony-od-fog/6822491",

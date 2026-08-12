@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-12T17:59:25Z",
+  "generated_at": "2026-08-12T19:14:50Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -7815,6 +7815,57 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-mazak-wai-wai/6776198",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Mordýř::Kurtizána": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Mordýř",
+        "name": "Kurtizána",
+        "style": "IPA",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-08-12T19:14:48Z",
+      "candidates": [
+        {
+          "name": "Kurtizána Borůvka",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-kurtizana-boruvka/5014849",
+          "rating": null
+        },
+        {
+          "name": "Kurtizána",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-kurtizana/704889",
+          "rating": 3.57
+        },
+        {
+          "name": "Mango Ale",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-mango-ale/4500799",
+          "rating": 3.5
+        },
+        {
+          "name": "Kurtizána Višeň (Tajemství)",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-kurtizana-visen-tajemstvi/3090796",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Kurtizána 13° Mordýř",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mordyr-kurtizana/704889",
         "score": 1.0
       }
     },
