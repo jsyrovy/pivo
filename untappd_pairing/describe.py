@@ -4,7 +4,7 @@ import logging
 import re
 from typing import TYPE_CHECKING
 
-from untappd_pairing import openrouter_client
+from untappd_pairing import normalize, openrouter_client
 
 if TYPE_CHECKING:
     from untappd_pairing.tap_api import TapBeer
@@ -15,19 +15,21 @@ logger = logging.getLogger(__name__)
 # Reasoning is disabled for descriptions (a truncated chain of thought used to leak into the
 # popover), but free models still ramble, so keep the budget comfortably above the target length.
 MAX_TOKENS = 1200
+# The length we ask the model for; MAX_CHARS leaves a little slack before we cut the text off.
+TARGET_CHARS = 300
 # Guard against a runaway model that ignores the length instruction; the popover is small.
 MAX_CHARS = 320
 # Anything shorter than this cannot be the two sentences we asked for.
 MIN_CHARS = 40
 
-SENTENCE_END = ".!?…"
-# No Czech text of the length we ask for lacks accented letters; English self-talk has none.
-_CZECH_LETTERS_RE = re.compile(r"[ěščřžýáíéúůňťďĚŠČŘŽÝÁÍÉÚŮŇŤĎ]")
-# Phrases that mean the model is discussing the assignment instead of answering it, plus the
-# "Popis:" style label it sometimes prefixes the answer with.
+_SENTENCE_END = ".!?…"
+_WHITESPACE_RE = re.compile(r"\s+")
+# A label the model sometimes puts in front of the answer -- a formatting slip, not a bad answer.
+_LABEL_PREFIX_RE = re.compile(r"^(popis|odpověď|answer|description)\s*:\s*", re.IGNORECASE)
+# Phrases that mean the model is discussing the assignment instead of answering it. Mostly a
+# backstop for mixed-language answers; pure English self-talk already fails the Czech check.
 _META_TALK_RE = re.compile(
-    r"^(popis|odpověď|answer|description)\s*:"
-    r"|\b(we need|we must|we have|must not|the user|let'?s|i should|i must|characters?|sentence"
+    r"\b(we need|we must|we have|must not|the user|let'?s|i should|i must|characters?|sentence"
     r"|czech|description|instruction|based only|given data|zadaných údajů|zadání)\b",
     re.IGNORECASE,
 )
@@ -70,7 +72,7 @@ SYSTEM_PROMPT = (
     "citronovou kyselinkou a lehkým tělem; jahody přidávají sladší ovocný tón, který kyselost "
     "změkčuje.\n"
     "\n"
-    "Formát: 1 až 2 věty, maximálně zhruba 300 znaků.\n"
+    f"Formát: 1 až 2 věty, maximálně zhruba {TARGET_CHARS} znaků.\n"
     "Odpověz POUZE hotovým popisem v češtině -- žádné úvahy, mezikroky, poznámky ani anglický "
     "text, žádné uvozovky, úvodní fráze ani odrážky. Rovnou první větou začni popisovat pivo."
 )
@@ -78,8 +80,9 @@ SYSTEM_PROMPT = (
 
 RETRY_PROMPT = (
     "Tvoje předchozí odpověď byla neplatná. Odpověz znovu a POUZE hotovým popisem piva v češtině: "
-    "1 až 2 celé věty do 300 znaků, bez úvah, bez angličtiny, bez uvozovek a bez úvodní nálepky "
-    f"typu „Popis:“. Pokud pivo nelze z údajů popsat, odpověz jediným slovem {NO_DESCRIPTION_SENTINEL}."
+    f"1 až 2 celé věty do {TARGET_CHARS} znaků, bez úvah, bez angličtiny, bez uvozovek a bez úvodní "
+    f"nálepky typu „Popis:“. Pokud pivo nelze z údajů popsat, odpověz jediným slovem "
+    f"{NO_DESCRIPTION_SENTINEL}."
 )
 
 # One extra shot is enough: if the model rambles twice, no description is the right outcome.
@@ -102,10 +105,15 @@ def _build_user_prompt(beer: TapBeer, candidate: UntappdCandidate) -> str:
     return "\n".join(lines)
 
 
+def _unwrap(text: str) -> str:
+    return text.strip().strip('"').strip()
+
+
 def _clean(text: str) -> str:
-    stripped = text.strip().strip('"').strip()
+    # Unwrap twice: a labelled answer often quotes the description itself ('Popis: "..."').
+    stripped = _unwrap(_LABEL_PREFIX_RE.sub("", _unwrap(text)))
     # Collapse any accidental line breaks -- the popover renders a single flowing paragraph.
-    collapsed = re.sub(r"\s+", " ", stripped)
+    collapsed = _WHITESPACE_RE.sub(" ", stripped)
     if len(collapsed) > MAX_CHARS:
         return collapsed[: MAX_CHARS - 1].rstrip() + "…"
     return collapsed
@@ -121,7 +129,7 @@ def rejection_reason(description: str) -> str | None:
     # popover full of English self-talk. Returns why the text is unusable, or None if it passes.
     if len(description) < MIN_CHARS:
         return "too short"
-    if not _CZECH_LETTERS_RE.search(description):
+    if normalize.strip_diacritics(description) == description:
         # A Czech sentence this long without a single accented letter is not Czech.
         return "no Czech letters"
     if _META_TALK_RE.search(description):
@@ -129,7 +137,7 @@ def rejection_reason(description: str) -> str | None:
     if description[0].islower():
         # A digit is a fine opening ("11° ležák ..."), a lowercase letter means a cut-off start.
         return "starts mid-sentence"
-    if description[-1] not in SENTENCE_END:
+    if description[-1] not in _SENTENCE_END:
         return "not a finished sentence"
     return None
 
@@ -141,12 +149,16 @@ def generate(beer: TapBeer, candidate: UntappdCandidate) -> str | None:
     ]
 
     for attempt in range(1, MAX_ATTEMPTS + 1):
-        text = openrouter_client.complete(messages, max_tokens=MAX_TOKENS, reasoning=False)
+        text = openrouter_client.complete(messages, max_tokens=MAX_TOKENS, allow_reasoning=False)
         if text is None:
             logger.info("No AI description generated for %s::%s", beer.brewery, beer.name)
             return None
 
         description = _clean(text)
+        if not description:
+            logger.info("AI returned empty description for %s::%s", beer.brewery, beer.name)
+            return None
+
         if _is_refusal(description):
             logger.info("Not enough facts to describe %s::%s", beer.brewery, beer.name)
             return None

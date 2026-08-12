@@ -177,41 +177,30 @@ def test_load_recovers_from_corrupt_file(tmp_path, caplog):
     assert store.unmatched == {}
 
 
-def _paired_store(description=None, now=None):
+_DESCRIPTION = "Klasický světlý ležák se sladovým základem, jemnou hořkostí a lehčím tělem."
+_FAILED_AT = datetime(2026, 4, 17, 19, 0, tzinfo=UTC)
+
+
+def _store_with_entry(entry):
     store = PairingsStore()
-    beer = _beer()
-    key = beer_key(beer.source, beer.brewery, beer.name)
-    store.record_match(
-        beer,
-        MatchResult(candidate=_candidate(), score=1.0),
-        "IPA Falkon",
-        now=now or datetime(2026, 4, 17, 19, 0, tzinfo=UTC),
-        description=description,
-    )
+    key = beer_key("beerstreet", "Falkon", "IPA")
+    store.pairings[key] = {"untappd_url": "https://untappd.com/b/falkon-ipa/1", **entry}
     return store, key
 
 
-def test_does_not_need_description_right_after_a_failed_generation():
-    failed_at = datetime(2026, 4, 17, 19, 0, tzinfo=UTC)
-    store, key = _paired_store(now=failed_at)
-    assert store.needs_description(key, now=failed_at + timedelta(days=1)) is False
-
-
-def test_needs_description_after_cooldown():
-    failed_at = datetime(2026, 4, 17, 19, 0, tzinfo=UTC)
-    store, key = _paired_store(now=failed_at)
-    assert store.needs_description(key, now=failed_at + RETRY_AFTER) is True
-
-
-def test_needs_description_when_key_has_no_marker_at_all():
-    store, key = _paired_store(description="Klasický ležák se sladovým základem a jemnou hořkostí.")
-    del store.pairings[key]["description"]
-    assert store.needs_description(key) is True
-
-
-def test_does_not_need_description_when_present():
-    store, key = _paired_store(description="Klasický ležák se sladovým základem a jemnou hořkostí.")
-    assert store.needs_description(key) is False
+@pytest.mark.parametrize(
+    ("entry", "now", "expected"),
+    [
+        ({"description": _DESCRIPTION}, _FAILED_AT, False),
+        ({"description_failed_at": "2026-04-17T19:00:00Z"}, _FAILED_AT + timedelta(days=1), False),
+        ({"description_failed_at": "2026-04-17T19:00:00Z"}, _FAILED_AT + RETRY_AFTER, True),
+        ({"description_failed_at": "not-a-date"}, _FAILED_AT, True),
+        ({}, _FAILED_AT, True),
+    ],
+)
+def test_needs_description(entry, now, expected):
+    store, key = _store_with_entry(entry)
+    assert store.needs_description(key, now=now) is expected
 
 
 def test_needs_description_is_false_for_unknown_key():
@@ -219,16 +208,46 @@ def test_needs_description_is_false_for_unknown_key():
     assert store.needs_description("nope") is False
 
 
+def test_record_match_leaves_the_description_to_the_later_pass():
+    store = PairingsStore()
+    beer = _beer()
+    key = beer_key(beer.source, beer.brewery, beer.name)
+    store.record_match(beer, MatchResult(candidate=_candidate(), score=1.0), "IPA Falkon", now=_FAILED_AT)
+
+    assert "description" not in store.pairings[key]
+    assert "description_failed_at" not in store.pairings[key]
+    assert store.needs_description(key, now=_FAILED_AT) is True
+
+
 def test_set_description_clears_the_failure_marker():
-    store, key = _paired_store()
-    store.set_description(key, "Klasický ležák se sladovým základem a jemnou hořkostí.")
-    assert store.get_description(key) == "Klasický ležák se sladovým základem a jemnou hořkostí."
+    store, key = _store_with_entry({"description_failed_at": "2026-04-17T19:00:00Z"})
+    store.set_description(key, _DESCRIPTION)
+
+    assert store.get_description(key) == _DESCRIPTION
     assert "description_failed_at" not in store.pairings[key]
 
 
+def test_set_description_without_text_starts_the_cooldown():
+    store, key = _store_with_entry({"description": _DESCRIPTION})
+    store.set_description(key, None, now=_FAILED_AT)
+
+    assert store.get_description(key) is None
+    assert store.pairings[key]["description_failed_at"] == "2026-04-17T19:00:00Z"
+    assert store.needs_description(key, now=_FAILED_AT) is False
+
+
+def test_clear_description_leaves_no_cooldown():
+    store, key = _store_with_entry({"description": _DESCRIPTION, "description_failed_at": "2026-04-17T19:00:00Z"})
+    store.clear_description(key)
+
+    assert store.get_description(key) is None
+    assert store.needs_description(key, now=_FAILED_AT) is True
+
+
 def test_stored_candidate_rebuilds_from_the_entry():
-    store, key = _paired_store()
+    store, key = _store_with_entry({"untappd_name": "IPA", "untappd_brewery": "Falkon", "rating": 4.1})
     candidate = store.stored_candidate(key)
+
     assert candidate.name == "IPA"
     assert candidate.brewery == "Falkon"
     assert candidate.url == "https://untappd.com/b/falkon-ipa/1"

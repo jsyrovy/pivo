@@ -12,7 +12,7 @@ from untappd_pairing import overrides as overrides_module
 from untappd_pairing.fixtures import FIXTURES_PATH, FixtureOutcome, FixturesStore, compress_url
 from untappd_pairing.matcher import MatchResult
 from untappd_pairing.store import PAIRINGS_PATH, PairingsStore, beer_key
-from utils import pushover
+from utils import common, pushover
 
 if TYPE_CHECKING:
     from untappd_pairing.untappd_search import UntappdCandidate
@@ -63,17 +63,21 @@ class UntappdPairing(BaseRobot):
         pending = store.select_pending(beers, overrides=overrides)
         logger.info("Pairing %d pending beers (rest already paired or in cooldown)", len(pending))
 
-        matched: list[tuple[tap_api.TapBeer, str, str | None]] = []
+        newly_matched: list[tap_api.TapBeer] = []
         unmatched: list[tuple[tap_api.TapBeer, str]] = []
         for beer in pending:
             reason = self._pair_one(beer, store, fixtures_store, overrides)
-            key = beer_key(beer.source, beer.brewery, beer.name)
             if reason is None:
-                matched.append((beer, store.get_url(key), store.get_description(key)))
+                newly_matched.append(beer)
             else:
                 unmatched.append((beer, reason))
 
-        self._backfill_descriptions(beers, store)
+        self._describe_beers(beers, store)
+
+        matched: list[tuple[tap_api.TapBeer, str, str | None]] = []
+        for beer in newly_matched:
+            key = beer_key(beer.source, beer.brewery, beer.name)
+            matched.append((beer, store.get_url(key), store.get_description(key)))
 
         store.save(PAIRINGS_PATH)
         fixtures_store.save(FIXTURES_PATH)
@@ -89,17 +93,19 @@ class UntappdPairing(BaseRobot):
             self._notify_run(matched, unmatched)
 
     @staticmethod
-    def _backfill_descriptions(beers: list[tap_api.TapBeer], store: PairingsStore) -> None:
-        # Beers paired before descriptions existed -- or whose description was rejected as
-        # nonsense -- keep their pairing but have no text; generate it without re-pairing them.
-        pending = [beer for beer in beers if store.needs_description(beer_key(beer.source, beer.brewery, beer.name))]
-        if not pending:
-            return
-
-        logger.info("Backfilling descriptions for %d already paired beers", len(pending))
-        for beer in pending:
+    def _describe_beers(beers: list[tap_api.TapBeer], store: PairingsStore) -> None:
+        # The single description site: covers beers just paired above, beers paired before
+        # descriptions existed, and beers whose previous description was rejected as nonsense.
+        # Everything the prompt needs is in the store, so this costs no extra Untappd requests.
+        now = common.now_utc()
+        described = 0
+        for beer in beers:
             key = beer_key(beer.source, beer.brewery, beer.name)
-            store.set_description(key, describe.generate(beer, store.stored_candidate(key)))
+            if not store.needs_description(key, now=now):
+                continue
+            store.set_description(key, describe.generate(beer, store.stored_candidate(key)), now=now)
+            described += 1
+        logger.info("Generated descriptions for %d beers", described)
 
     def _notify_run(
         self,
@@ -149,10 +155,6 @@ class UntappdPairing(BaseRobot):
         return UntappdPairing._pair_via_search(beer, store, fixtures_store)
 
     @staticmethod
-    def _record_match(store: PairingsStore, beer: tap_api.TapBeer, result: MatchResult, query: str) -> None:
-        store.record_match(beer, result, query, description=describe.generate(beer, result.candidate))
-
-    @staticmethod
     def _record_llm_match(
         store: PairingsStore,
         beer: tap_api.TapBeer,
@@ -166,7 +168,7 @@ class UntappdPairing(BaseRobot):
             brewery_matched=matcher.brewery_matches(beer.brewery, chosen.brewery),
         )
         logger.info("LLM matched %s::%s -> %s", beer.brewery, beer.name, chosen.url)
-        UntappdPairing._record_match(store, beer, result, LLM_QUERY_MARKER)
+        store.record_match(beer, result, LLM_QUERY_MARKER)
         fixtures_store.upsert(beer, trace, FixtureOutcome(matched_url=compress_url(chosen.url), source="llm"))
 
     @staticmethod
@@ -185,7 +187,7 @@ class UntappdPairing(BaseRobot):
 
         result = MatchResult(candidate=candidate, score=1.0, brewery_matched=True)
         logger.info("Override matched %s::%s -> %s", beer.brewery, beer.name, url)
-        UntappdPairing._record_match(store, beer, result, OVERRIDE_QUERY_MARKER)
+        store.record_match(beer, result, OVERRIDE_QUERY_MARKER)
         return None
 
     @staticmethod
@@ -226,7 +228,7 @@ class UntappdPairing(BaseRobot):
                     result.candidate.url,
                     result.score,
                 )
-                UntappdPairing._record_match(store, beer, result, query)
+                store.record_match(beer, result, query)
                 fixtures_store.upsert(
                     beer,
                     trace,

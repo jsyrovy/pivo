@@ -6,6 +6,9 @@ from untappd_pairing import describe
 from untappd_pairing.tap_api import TapBeer
 from untappd_pairing.untappd_search import UntappdCandidate
 
+_VALID = "Klasický světlý ležák se sladovým základem, jemnou hořkostí a lehčím tělem."
+_META_TALK = "We need to produce a Czech description of at most 300 characters here."
+
 
 def _beer(name="Summer Ale", brewery="Falkon", style="IPA", abv=5.2, degree_plato=12.0):
     return TapBeer(name=name, brewery=brewery, style=style, abv=abv, degree_plato=degree_plato, source="beerstreet")
@@ -31,11 +34,15 @@ def test_returns_none_when_llm_unavailable():
 
 
 def test_returns_none_for_empty_text():
-    with _patch_complete("   "):
+    with _patch_complete("   ") as complete:
         assert describe.generate(_beer(), _candidate()) is None
+    assert complete.call_count == 1
 
 
-_VALID = "Klasický světlý ležák se sladovým základem, jemnou hořkostí a lehčím tělem."
+@pytest.mark.parametrize("answer", ["Popis: {}", 'Popis: "{}"', "Description: {}"])
+def test_strips_a_label_the_model_prefixed(answer):
+    with _patch_complete(answer.format(_VALID)):
+        assert describe.generate(_beer(), _candidate()) == _VALID
 
 
 @pytest.mark.parametrize(
@@ -44,9 +51,9 @@ _VALID = "Klasický světlý ležák se sladovým základem, jemnou hořkostí a
         (_VALID, None),
         ("11° ležák: sladový základ, jemná hořkost a čistá, dopíjivá chuť.", None),
         ("Světlá jedenáctka.", "too short"),
-        ("We need to produce a description in Czech based only on the given data, 1-2 sentences.", "no Czech letters"),
+        (_META_TALK, "no Czech letters"),
         (
-            "Popis: Klasický světlý ležák se sladovým základem a jemnou chmelovou hořkostí v závěru.",
+            "Světlý ležák: sladový základ, jemná hořkost. We need to keep it under 300 characters.",
             "model talking about the task",
         ),
         (
@@ -64,18 +71,17 @@ def test_rejection_reason(text, reason):
 
 
 def test_rejects_invalid_description_after_every_attempt():
-    with _patch_complete("We need to produce a Czech description of at most 300 characters here.") as complete:
+    with _patch_complete(_META_TALK) as complete:
         assert describe.generate(_beer(), _candidate()) is None
     assert complete.call_count == describe.MAX_ATTEMPTS
 
 
 def test_retry_feeds_the_rejected_answer_back():
-    bad = "We need to produce a Czech description of at most 300 characters here."
-    with mock.patch.object(describe.openrouter_client, "complete", side_effect=[bad, _VALID]) as complete:
+    with mock.patch.object(describe.openrouter_client, "complete", side_effect=[_META_TALK, _VALID]) as complete:
         assert describe.generate(_beer(), _candidate()) == _VALID
 
     retry_messages = complete.call_args_list[1].args[0]
-    assert retry_messages[-2] == {"role": "assistant", "content": bad}
+    assert retry_messages[-2] == {"role": "assistant", "content": _META_TALK}
     assert retry_messages[-1]["content"] == describe.RETRY_PROMPT
 
 
@@ -151,4 +157,4 @@ def test_uses_max_tokens_budget():
 def test_disables_reasoning():
     with _patch_complete("popis") as complete:
         describe.generate(_beer(), _candidate())
-    assert complete.call_args.kwargs["reasoning"] is False
+    assert complete.call_args.kwargs["allow_reasoning"] is False

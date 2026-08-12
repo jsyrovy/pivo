@@ -62,24 +62,18 @@ def test_message_text_ignores_reasoning_when_disallowed():
     assert openrouter_client.message_text(message, allow_reasoning=False) == ""
 
 
-def test_reasoning_enabled_by_default():
+@pytest.mark.parametrize(("allow_reasoning", "payload"), [(True, None), (False, {"effort": "none"})])
+def test_reasoning_payload_follows_the_flag(allow_reasoning, payload):
     patch_cm, client = _patch_openrouter(_response(content="ok"))
     with patch_cm:
-        openrouter_client.complete(_MESSAGES, max_tokens=100)
-    assert client.chat.send.call_args.kwargs["reasoning"] is None
-
-
-def test_reasoning_can_be_disabled():
-    patch_cm, client = _patch_openrouter(_response(content="ok"))
-    with patch_cm:
-        openrouter_client.complete(_MESSAGES, max_tokens=100, reasoning=False)
-    assert client.chat.send.call_args.kwargs["reasoning"] == openrouter_client.REASONING_OFF
+        openrouter_client.complete(_MESSAGES, max_tokens=100, allow_reasoning=allow_reasoning)
+    assert client.chat.send.call_args.kwargs["reasoning"] == payload
 
 
 def test_reasoning_disabled_discards_thinking_only_answer():
     patch_cm, _client = _patch_openrouter(_response(content="", reasoning="thinking out loud"))
     with patch_cm:
-        assert openrouter_client.complete(_MESSAGES, max_tokens=100, reasoning=False) == ""
+        assert openrouter_client.complete(_MESSAGES, max_tokens=100, allow_reasoning=False) == ""
 
 
 def test_missing_api_key_returns_none_without_instantiating_sdk(monkeypatch, caplog):
