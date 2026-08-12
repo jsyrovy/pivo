@@ -73,6 +73,8 @@ class UntappdPairing(BaseRobot):
             else:
                 unmatched.append((beer, reason))
 
+        self._backfill_descriptions(beers, store)
+
         store.save(PAIRINGS_PATH)
         fixtures_store.save(FIXTURES_PATH)
         logger.info(
@@ -85,6 +87,19 @@ class UntappdPairing(BaseRobot):
 
         if matched or unmatched:
             self._notify_run(matched, unmatched)
+
+    @staticmethod
+    def _backfill_descriptions(beers: list[tap_api.TapBeer], store: PairingsStore) -> None:
+        # Beers paired before descriptions existed -- or whose description was rejected as
+        # nonsense -- keep their pairing but have no text; generate it without re-pairing them.
+        pending = [beer for beer in beers if store.needs_description(beer_key(beer.source, beer.brewery, beer.name))]
+        if not pending:
+            return
+
+        logger.info("Backfilling descriptions for %d already paired beers", len(pending))
+        for beer in pending:
+            key = beer_key(beer.source, beer.brewery, beer.name)
+            store.set_description(key, describe.generate(beer, store.stored_candidate(key)))
 
     def _notify_run(
         self,

@@ -6,6 +6,7 @@ from datetime import datetime, timedelta
 from pathlib import Path
 from typing import TYPE_CHECKING, Any
 
+from untappd_pairing.untappd_search import UntappdCandidate
 from utils import common
 
 if TYPE_CHECKING:
@@ -22,6 +23,15 @@ TRANSIENT_UNMATCHED_REASONS = frozenset({"upstream_error"})
 
 def beer_key(source: str, brewery: str, name: str) -> str:
     return f"{source}::{brewery}::{name}"
+
+
+def _apply_description(entry: dict[str, Any], description: str | None, now: datetime | None = None) -> None:
+    if description:
+        entry["description"] = description
+        entry.pop("description_failed_at", None)
+        return
+    entry.pop("description", None)
+    entry["description_failed_at"] = common.iso_utc(now or common.now_utc())
 
 
 @dataclass
@@ -46,6 +56,35 @@ class PairingsStore:
     def get_description(self, key: str) -> str | None:
         description = self.pairings[key].get("description")
         return str(description) if description else None
+
+    def stored_candidate(self, key: str) -> UntappdCandidate:
+        # Everything a description needs is already in the store, so backfilling costs no HTTP.
+        entry = self.pairings[key]
+        rating = entry.get("rating")
+        return UntappdCandidate(
+            name=str(entry.get("untappd_name") or ""),
+            brewery=str(entry.get("untappd_brewery") or ""),
+            url=str(entry["untappd_url"]),
+            rating=float(rating) if isinstance(rating, (int, float)) else None,
+        )
+
+    def needs_description(self, key: str, now: datetime | None = None) -> bool:
+        entry = self.pairings.get(key)
+        if entry is None or entry.get("description"):
+            return False
+        failed_raw = entry.get("description_failed_at")
+        if not isinstance(failed_raw, str):
+            return True
+        try:
+            failed_at = datetime.fromisoformat(failed_raw)
+        except ValueError:
+            return True
+        # Some beers legitimately have nothing describable; retrying every run would burn the
+        # free-model quota for nothing, so wait out the same cooldown as an unmatched beer.
+        return ((now or common.now_utc()) - failed_at) >= RETRY_AFTER
+
+    def set_description(self, key: str, description: str | None, now: datetime | None = None) -> None:
+        _apply_description(self.pairings[key], description, now)
 
     def should_retry(self, key: str, now: datetime | None = None) -> bool:
         entry = self.unmatched.get(key)
@@ -101,8 +140,7 @@ class PairingsStore:
             "matched_at": common.iso_utc(now or common.now_utc()),
             "query_used": query,
         }
-        if description:
-            entry["description"] = description
+        _apply_description(entry, description, now)
         self.pairings[key] = entry
         self.unmatched.pop(key, None)
 

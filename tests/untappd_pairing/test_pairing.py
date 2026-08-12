@@ -705,3 +705,67 @@ def test_pairing_pushover_failure_does_not_crash_run(tmp_path, monkeypatch, mock
     saved = json.loads(pairings_path.read_text())
     assert "beerstreet::Unknown::Mystery Brew" in saved["unmatched"]
     assert any("Pushover" in record.message for record in caplog.records)
+
+
+def test_backfills_description_for_already_paired_beer(tmp_path, monkeypatch, mock_describe):
+    pairings_path = tmp_path / "pairings.json"
+    monkeypatch.setattr(pairing, "PAIRINGS_PATH", pairings_path)
+
+    key = "beerstreet::Falkon::Sunny"
+    pairings_path.write_text(
+        json.dumps(
+            {
+                "version": 1,
+                "pairings": {
+                    key: {
+                        "untappd_url": "https://untappd.com/b/x/1",
+                        "untappd_name": "Sunny",
+                        "untappd_brewery": "Falkon Brewery",
+                        "rating": 3.9,
+                    },
+                },
+            },
+        ),
+    )
+    mock_describe.return_value = "Svěží americká IPA s výraznou hořkostí a citrusovým aroma."
+
+    with (
+        mock.patch.object(pairing.tap_api, "fetch_all_beers", return_value=[_beer("Sunny")]),
+        mock.patch.object(pairing.untappd_search, "search_beer", side_effect=AssertionError("must not re-pair")),
+    ):
+        UntappdPairing(args=Args()).run()
+
+    candidate = mock_describe.call_args.args[1]
+    assert candidate.url == "https://untappd.com/b/x/1"
+    assert candidate.brewery == "Falkon Brewery"
+
+    saved = json.loads(pairings_path.read_text())
+    assert saved["pairings"][key]["description"] == "Svěží americká IPA s výraznou hořkostí a citrusovým aroma."
+
+
+def test_backfill_skips_beers_that_already_have_a_description(tmp_path, monkeypatch, mock_describe):
+    pairings_path = tmp_path / "pairings.json"
+    monkeypatch.setattr(pairing, "PAIRINGS_PATH", pairings_path)
+
+    key = "beerstreet::Falkon::Sunny"
+    pairings_path.write_text(
+        json.dumps(
+            {
+                "version": 1,
+                "pairings": {
+                    key: {
+                        "untappd_url": "https://untappd.com/b/x/1",
+                        "untappd_name": "Sunny",
+                        "untappd_brewery": "Falkon Brewery",
+                        "rating": 3.9,
+                        "description": "Svěží americká IPA s výraznou hořkostí a citrusovým aroma.",
+                    },
+                },
+            },
+        ),
+    )
+
+    with mock.patch.object(pairing.tap_api, "fetch_all_beers", return_value=[_beer("Sunny")]):
+        UntappdPairing(args=Args()).run()
+
+    mock_describe.assert_not_called()

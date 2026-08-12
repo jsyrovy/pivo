@@ -175,3 +175,61 @@ def test_load_recovers_from_corrupt_file(tmp_path, caplog):
         store = PairingsStore.load(path)
     assert store.pairings == {}
     assert store.unmatched == {}
+
+
+def _paired_store(description=None, now=None):
+    store = PairingsStore()
+    beer = _beer()
+    key = beer_key(beer.source, beer.brewery, beer.name)
+    store.record_match(
+        beer,
+        MatchResult(candidate=_candidate(), score=1.0),
+        "IPA Falkon",
+        now=now or datetime(2026, 4, 17, 19, 0, tzinfo=UTC),
+        description=description,
+    )
+    return store, key
+
+
+def test_does_not_need_description_right_after_a_failed_generation():
+    failed_at = datetime(2026, 4, 17, 19, 0, tzinfo=UTC)
+    store, key = _paired_store(now=failed_at)
+    assert store.needs_description(key, now=failed_at + timedelta(days=1)) is False
+
+
+def test_needs_description_after_cooldown():
+    failed_at = datetime(2026, 4, 17, 19, 0, tzinfo=UTC)
+    store, key = _paired_store(now=failed_at)
+    assert store.needs_description(key, now=failed_at + RETRY_AFTER) is True
+
+
+def test_needs_description_when_key_has_no_marker_at_all():
+    store, key = _paired_store(description="Klasický ležák se sladovým základem a jemnou hořkostí.")
+    del store.pairings[key]["description"]
+    assert store.needs_description(key) is True
+
+
+def test_does_not_need_description_when_present():
+    store, key = _paired_store(description="Klasický ležák se sladovým základem a jemnou hořkostí.")
+    assert store.needs_description(key) is False
+
+
+def test_needs_description_is_false_for_unknown_key():
+    store = PairingsStore()
+    assert store.needs_description("nope") is False
+
+
+def test_set_description_clears_the_failure_marker():
+    store, key = _paired_store()
+    store.set_description(key, "Klasický ležák se sladovým základem a jemnou hořkostí.")
+    assert store.get_description(key) == "Klasický ležák se sladovým základem a jemnou hořkostí."
+    assert "description_failed_at" not in store.pairings[key]
+
+
+def test_stored_candidate_rebuilds_from_the_entry():
+    store, key = _paired_store()
+    candidate = store.stored_candidate(key)
+    assert candidate.name == "IPA"
+    assert candidate.brewery == "Falkon"
+    assert candidate.url == "https://untappd.com/b/falkon-ipa/1"
+    assert candidate.rating == 4.1
