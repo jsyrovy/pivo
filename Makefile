@@ -45,6 +45,12 @@ run-untappd-pairing:
 run-untappd-pairing-local:
 	uv run --no-dev $(ENV_FILE) run_untappd_pairing.py --local
 
+audit-descriptions:
+	uv run --no-dev -m maintenance.audit_descriptions
+
+drop-bad-descriptions:
+	uv run --no-dev -m maintenance.audit_descriptions --drop
+
 mypy:
 	uv run --dev -m mypy --ignore-missing-imports --strict  --exclude tests .
 	uv run --dev -m mypy --ignore-missing-imports  tests
