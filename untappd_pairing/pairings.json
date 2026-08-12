@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-11T22:50:03Z",
+  "generated_at": "2026-08-12T06:10:51Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -2243,8 +2243,7 @@
       "rating": 3.8,
       "match_score": 1.0,
       "matched_at": "2026-08-10T09:32:54Z",
-      "query_used": "Mango pina coco MadCat",
-      "description": "We need to produce a short description 1-2 sentences, max ~300 characters, in Czech, describing the beer based on given data. Must not invent flavors or ingredients not given. We have name Mango-Piña-Coco, style Sour ale, brewery MadCat, rating 3.80/5. We cannot mention specific flavors like mango, pineapple, coconut?…"
+      "query_used": "Mango pina coco MadCat"
     },
     "toulavapipa::Sibeeria::Avid ant": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-avid-ant/6812058",
@@ -2293,8 +2292,7 @@
       "rating": 3.73,
       "match_score": 1.0,
       "matched_at": "2026-08-10T09:32:09Z",
-      "query_used": "New zealand pilsner Čestmír",
-      "description": "We need to produce a short description in Czech, 1-2 sentences, max ~300 characters, describing the beer, focusing on style, strength, and suitable occasion. No invented flavors or ingredients not given. Must be factual, no invented tastes. Use only given data: name New Zealand Pilsner - Maunga, brewery Pivovar Čestmí…"
+      "query_used": "New zealand pilsner Čestmír"
     },
     "uzamastilu::Budvar::Birgo Mango-Limetka": {
       "untappd_url": "https://untappd.com/b/budejovicky-budvar-birgo-mango-limetka/4803777",
@@ -2333,8 +2331,7 @@
       "rating": 3.38,
       "match_score": 1.0,
       "matched_at": "2026-08-11T18:00:03Z",
-      "query_used": "Kazbek 11° Klenot",
-      "description": "We need to produce a description in Czech, 1-2 sentences, max ~300 characters, based only on given data. Must not mention name, brewery, ABV, rating unless rating qualifies. Rating is 3.38, which is lower than 3.40, so it's below threshold; we must not mention rating at all. Must not repeat any of the data (like \"11°\"…"
+      "query_used": "Kazbek 11° Klenot"
     },
     "uzamastilu::Loutkář::Kašpárek": {
       "untappd_url": "https://untappd.com/b/pivovar-loutkar-kasparek-11-svetly-lezak/3940222",
