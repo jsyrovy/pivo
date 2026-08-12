@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-11T22:50:03Z",
+  "generated_at": "2026-08-12T14:22:36Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -7360,6 +7360,57 @@
         "score": 1.0
       }
     },
+    "toulavapipa::Raven::Gunslinger": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Raven",
+        "name": "Gunslinger",
+        "style": "West coast IPA",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-12T14:21:59Z",
+      "candidates": [
+        {
+          "name": "Gunslinger",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-gunslinger/1614466",
+          "rating": 3.75
+        },
+        {
+          "name": "Cryo Gunslinger",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-cryo-gunslinger/6752751",
+          "rating": 3.76
+        },
+        {
+          "name": "Grapefruit Gunslinger",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-grapefruit-gunslinger/5588553",
+          "rating": 3.7
+        },
+        {
+          "name": "Raven Gunslinger IPA",
+          "brewery": "KJ Brewing Company",
+          "url": "/b/kj-brewing-company-raven-gunslinger-ipa/4885135",
+          "rating": 3.7
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Gunslinger Raven",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-raven-gunslinger/1614466",
+        "score": 1.0
+      }
+    },
     "toulavapipa::Sibeeria::Avid ant": {
       "beer": {
         "source": "toulavapipa",
@@ -7388,6 +7439,36 @@
       "outcome": {
         "matched": "/b/sibeeria-brewery-avid-ant/6812058",
         "score": 1.0
+      }
+    },
+    "toulavapipa::Sibeeria::Exotic Irchard": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Sibeeria",
+        "name": "Exotic Irchard",
+        "style": "Session IPA",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-12T14:21:57Z",
+      "candidates": [
+        {
+          "name": "Exotic Orchard",
+          "brewery": "Sibeeria Brewery",
+          "url": "/b/sibeeria-exotic-orchard/5953178",
+          "rating": 3.85
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Exotic Irchard Sibeeria",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/sibeeria-exotic-orchard/5953178",
+        "score": 0.8333
       }
     },
     "toulavapipa::Sibeeria::Exotic Orchard": {
