@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-12T22:48:26Z",
+  "generated_at": "2026-08-13T14:24:40Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -2051,6 +2051,16 @@
       "matched_at": "2026-05-15T20:14:33Z",
       "query_used": "Česká jedenáctka Záhora"
     },
+    "beerstreet::Černý potoka::Carina": {
+      "untappd_url": "https://untappd.com/b/cerny-potoka-carina/6780973",
+      "untappd_name": "Carina",
+      "untappd_brewery": "černý potoka",
+      "rating": 3.77,
+      "match_score": 1.0,
+      "matched_at": "2026-08-13T14:24:22Z",
+      "query_used": "Carina Černý potoka",
+      "description_failed_at": "2026-08-13T14:24:26Z"
+    },
     "beerstreet::Černý potoka::Centaurus": {
       "untappd_url": "https://untappd.com/b/cerny-potoka-centaurus/6613595",
       "untappd_name": "Centaurus",
@@ -2171,6 +2181,16 @@
       "query_used": "<override>",
       "description": "Clock APA od pivovaru Clock je typické americké pale ale s vyváženou hořkostí a ovocnými aromaty chmele, má střední tělo a dobře se hodí k odpočinku po práci nebo k neformálnímu setkání s přáteli."
     },
+    "toulavapipa::Fracek::Original ležák": {
+      "untappd_url": "https://untappd.com/b/fracek-original-lezak-lager-11/5384122",
+      "untappd_name": "ORIGINAL Ležák/ Lager 11",
+      "untappd_brewery": "FRACEK",
+      "rating": 3.52,
+      "match_score": 1.0,
+      "matched_at": "2026-08-13T14:24:26Z",
+      "query_used": "Original ležák Fracek",
+      "description": "Sladký sladový základ s mírnou chmelovou hořkostí, lehké tělo a čistý závěr typický pro klasické české ležáky."
+    },
     "toulavapipa::Hřebec::Hoppy lager": {
       "untappd_url": "https://untappd.com/b/pivovar-hrebec-10-deg-hoppy-lager/6684488",
       "untappd_name": "10° Hoppy Lager",
@@ -2259,6 +2279,16 @@
       "matched_at": "2026-08-12T14:21:59Z",
       "query_used": "Gunslinger Raven",
       "description_failed_at": "2026-08-12T14:21:59Z"
+    },
+    "toulavapipa::Raven::Summer Citra": {
+      "untappd_url": "https://untappd.com/b/pivovar-raven-summer-citra/2191517",
+      "untappd_name": "Summer Citra",
+      "untappd_brewery": "Pivovar Raven",
+      "rating": 3.66,
+      "match_score": 1.0,
+      "matched_at": "2026-08-13T14:24:26Z",
+      "query_used": "Summer Citra Raven",
+      "description": "Silně chmelený ale s aromatem tropického ovoce a citrusů, lehkou až střední sladkostí a mírnou hořkostí, středně plné tělo, dobře pitelné. POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE…"
     },
     "toulavapipa::Sibeeria::Avid ant": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-avid-ant/6812058",
@@ -2490,6 +2520,11 @@
       "attempts": 1,
       "last_tried_at": "2026-05-08T20:05:21Z",
       "reason": "upstream_error"
+    },
+    "beerstreet::Hauskrecht::Brněnská": {
+      "attempts": 1,
+      "last_tried_at": "2026-08-13T14:24:22Z",
+      "reason": "no_candidates_above_threshold"
     },
     "beerstreet::Hoppy Dog::Mahlerova Osma": {
       "attempts": 1,

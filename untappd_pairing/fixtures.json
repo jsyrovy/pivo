@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-12T22:48:26Z",
+  "generated_at": "2026-08-13T14:24:40Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -3722,6 +3722,122 @@
         "reason": "no_candidates_above_threshold"
       }
     },
+    "beerstreet::Hauskrecht::Brněnská": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Hauskrecht",
+        "name": "Brněnská",
+        "style": "Ležák světiý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-13T14:24:22Z",
+      "candidates": [
+        {
+          "name": "Hauskrecht Brněnská 11",
+          "brewery": "Brněnská pivovarnická společnost",
+          "url": "/b/brnenska-pivovarnicka-spolecnost-hauskrecht-brnenska-11/917211",
+          "rating": 3.38
+        },
+        {
+          "name": "Cream Ale 12°",
+          "brewery": "Brněnská pivovarnická společnost",
+          "url": "/b/brnenska-pivovarnicka-spolecnost-cream-ale-12-deg/6665187",
+          "rating": 3.66
+        },
+        {
+          "name": "Hadrák nefiltrovaný ležák 12°",
+          "brewery": "Brněnská pivovarnická společnost",
+          "url": "/b/brnenska-pivovarnicka-spolecnost-hadrak-nefiltrovany-lezak-12-deg/2277272",
+          "rating": 3.73
+        },
+        {
+          "name": "Underdog 12°",
+          "brewery": "Brněnská pivovarnická společnost",
+          "url": "/b/brnenska-pivovarnicka-spolecnost-underdog-12-deg/6598474",
+          "rating": 3.63
+        },
+        {
+          "name": "Hauskrecht Brněnská 12",
+          "brewery": "Brněnská pivovarnická společnost",
+          "url": "/b/brnenska-pivovarnicka-spolecnost-hauskrecht-brnenska-12/924325",
+          "rating": 3.41
+        },
+        {
+          "name": "Hauskrecht PH 13 Black Flek",
+          "brewery": "Brněnská pivovarnická společnost",
+          "url": "/b/brnenska-pivovarnicka-spolecnost-hauskrecht-ph-13-black-flek/895600",
+          "rating": 3.53
+        },
+        {
+          "name": "Hauskrecht Špilberk 10",
+          "brewery": "Brněnská pivovarnická společnost",
+          "url": "/b/brnenska-pivovarnicka-spolecnost-hauskrecht-spilberk-10/1131395",
+          "rating": 3.33
+        },
+        {
+          "name": "Hauskrecht Brněnský Weiss",
+          "brewery": "Brněnská pivovarnická společnost",
+          "url": "/b/brnenska-pivovarnicka-spolecnost-hauskrecht-brnensky-weiss/3234580",
+          "rating": 3.38
+        },
+        {
+          "name": "Zahořklý 11",
+          "brewery": "Brněnský minipivovar Richard",
+          "url": "/b/brnensky-minipivovar-richard-zahorkly-11/1877370",
+          "rating": 3.44
+        },
+        {
+          "name": "Darmochleb 11",
+          "brewery": "Brněnský minipivovar Richard",
+          "url": "/b/brnensky-minipivovar-richard-darmochleb-11/333386",
+          "rating": 3.2
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Brněnská 11° Hauskrecht",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "query": "Brněnská Hauskrecht",
+          "hits": [
+            0,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "query": "Brněnská 11°",
+          "hits": [
+            0,
+            8,
+            9,
+            1
+          ]
+        },
+        {
+          "query": "Brněnská",
+          "hits": [
+            0,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
     "beerstreet::Hoppy Dog::Lassie": {
       "beer": {
         "source": "beerstreet",
@@ -6687,6 +6803,40 @@
         "reason": "no_candidates_above_threshold"
       }
     },
+    "beerstreet::Černý potoka::Carina": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Černý potoka",
+        "name": "Carina",
+        "style": "Session IPA",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-13T14:24:22Z",
+      "candidates": [
+        {
+          "name": "Carina",
+          "brewery": "černý potoka",
+          "url": "/b/cerny-potoka-carina/6780973",
+          "rating": 3.77
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Carina 11° Černý potoka",
+          "hits": []
+        },
+        {
+          "query": "Carina Černý potoka",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/cerny-potoka-carina/6780973",
+        "score": 1.0
+      }
+    },
     "beerstreet::Černý potoka::Cold Fish": {
       "beer": {
         "source": "beerstreet",
@@ -6944,6 +7094,36 @@
       "outcome": {
         "matched": null,
         "reason": "no_candidates_above_threshold"
+      }
+    },
+    "toulavapipa::Fracek::Original ležák": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Fracek",
+        "name": "Original ležák",
+        "style": "Ležák",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-13T14:24:26Z",
+      "candidates": [
+        {
+          "name": "ORIGINAL Ležák/ Lager 11",
+          "brewery": "FRACEK",
+          "url": "/b/fracek-original-lezak-lager-11/5384122",
+          "rating": 3.52
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Original ležák Fracek",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/fracek-original-lezak-lager-11/5384122",
+        "score": 1.0
       }
     },
     "toulavapipa::Hřebec::Hoppy lager": {
@@ -7408,6 +7588,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-raven-gunslinger/1614466",
+        "score": 1.0
+      }
+    },
+    "toulavapipa::Raven::Summer Citra": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Raven",
+        "name": "Summer Citra",
+        "style": "Ale",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-13T14:24:26Z",
+      "candidates": [
+        {
+          "name": "Summer Citra",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-summer-citra/2191517",
+          "rating": 3.66
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Summer Citra Raven",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-raven-summer-citra/2191517",
         "score": 1.0
       }
     },
