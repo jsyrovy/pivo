@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-13T14:24:40Z",
+  "generated_at": "2026-08-13T16:02:09Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -8316,6 +8316,55 @@
       "outcome": {
         "matched": "/b/pivovar-raven-coldfest-2026/6800289",
         "score": 0.875
+      }
+    },
+    "uzamastilu::Sour Madcat::Cherry n' Apricot": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Sour Madcat",
+        "name": "Cherry n' Apricot",
+        "style": "",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-13T16:02:08Z",
+      "candidates": [
+        {
+          "name": "Slip N' Slush Sweet Cherry Apricot",
+          "brewery": "Scorched Earth Brewing Company",
+          "url": "/b/scorched-earth-brewing-company-slip-n-slush-sweet-cherry-apricot/3899460",
+          "rating": 3.7
+        },
+        {
+          "name": "Cherry N' Apricot",
+          "brewery": "MadCat",
+          "url": "/b/madcat-cherry-n-apricot/6820586",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Cherry n' Apricot 11° Sour Madcat",
+          "hits": []
+        },
+        {
+          "query": "Cherry n' Apricot Sour Madcat",
+          "hits": []
+        },
+        {
+          "query": "Cherry n' Apricot 11°",
+          "hits": []
+        },
+        {
+          "query": "Cherry n' Apricot",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/madcat-cherry-n-apricot/6820586",
+        "source": "llm"
       }
     },
     "uzamastilu::Trautenberk::APA": {
