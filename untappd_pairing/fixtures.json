@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-13T17:59:28Z",
+  "generated_at": "2026-08-13T19:15:22Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -6468,6 +6468,81 @@
         "score": 1.0
       }
     },
+    "beerstreet::Vorkloster::Brillante": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Vorkloster",
+        "name": "Brillante",
+        "style": "Pilsner",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-13T19:15:13Z",
+      "candidates": [
+        {
+          "name": "Vorkloster Brillante Pils 11°",
+          "brewery": "Klášterní pivovar Porta Coeli",
+          "url": "/b/klasterni-pivovar-porta-coeli-vorkloster-brillante-pils-11-deg/6802491",
+          "rating": 3.51
+        },
+        {
+          "name": "Grande Valse Brillante",
+          "brewery": "Piwoteka",
+          "url": "/b/piwoteka-grande-valse-brillante/3777738",
+          "rating": 3.67
+        },
+        {
+          "name": "Brillante Hazy IPA",
+          "brewery": "Quartet Brewing",
+          "url": "/b/quartet-brewing-brillante-hazy-ipa/5409206",
+          "rating": 3.89
+        },
+        {
+          "name": "La Brillante",
+          "brewery": "Guinness Open Gate Brewery Dublin",
+          "url": "/b/guinness-open-gate-brewery-dublin-la-brillante/3290271",
+          "rating": 3.45
+        },
+        {
+          "name": "El Cielo Es Tan Brillante Desde Aquí",
+          "brewery": "Valve Brewers",
+          "url": "/b/orion-brewery-nj-el-cielo-es-tan-brillante-desde-aqui/1430490",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Brillante 11° Vorkloster",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Brillante Vorkloster",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Brillante 11°",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Brillante",
+          "hits": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
     "beerstreet::Zichovec::Everyday Juice": {
       "beer": {
         "source": "beerstreet",
@@ -8477,6 +8552,40 @@
       ],
       "outcome": {
         "matched": "/b/twinberg-moustache/6755650",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Vik::Beach Club": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Vik",
+        "name": "Beach Club",
+        "style": "Pale ale",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-08-13T19:15:20Z",
+      "candidates": [
+        {
+          "name": "Beach Club",
+          "brewery": "Pivovar Vik",
+          "url": "/b/pivovar-vik-beach-club/6822681",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Beach Club 10° Vik",
+          "hits": []
+        },
+        {
+          "query": "Beach Club Vik",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-vik-beach-club/6822681",
         "score": 1.0
       }
     },
