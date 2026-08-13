@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-13T16:02:09Z",
+  "generated_at": "2026-08-13T17:59:28Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -4594,6 +4594,55 @@
       ],
       "outcome": {
         "matched": "/b/hradecky-klenot-vera-and-mosaic-hazy-ale-12/6709729",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Kocour::Summer Ale": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Kocour",
+        "name": "Summer Ale",
+        "style": "Summer ale",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-08-13T17:59:27Z",
+      "candidates": [
+        {
+          "name": "Summer Kozi",
+          "brewery": "Kočovný Kozi",
+          "url": "/b/kocovny-kozi-summer-kozi/3836620",
+          "rating": 3.53
+        },
+        {
+          "name": "Feribášo",
+          "brewery": "Feriba pub",
+          "url": "/b/feriba-pub-feribaso/2726306",
+          "rating": null
+        },
+        {
+          "name": "Kocour Summer Ale",
+          "brewery": "Pivovar Kocour Varnsdorf",
+          "url": "/b/pivovar-kocour-varnsdorf-kocour-summer-ale/6786130",
+          "rating": 3.72
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Summer Ale 10° Kocour",
+          "hits": [
+            0,
+            1
+          ]
+        },
+        {
+          "query": "Summer Ale Kocour",
+          "hits": [
+            2
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-kocour-varnsdorf-kocour-summer-ale/6786130",
         "score": 1.0
       }
     },

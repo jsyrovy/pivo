@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-13T16:02:09Z",
+  "generated_at": "2026-08-13T17:59:28Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -1337,6 +1337,16 @@
       "match_score": 1.0,
       "matched_at": "2026-04-29T20:08:22Z",
       "query_used": "orange & cinnamon Klenot"
+    },
+    "beerstreet::Kocour::Summer Ale": {
+      "untappd_url": "https://untappd.com/b/pivovar-kocour-varnsdorf-kocour-summer-ale/6786130",
+      "untappd_name": "Kocour Summer Ale",
+      "untappd_brewery": "Pivovar Kocour Varnsdorf",
+      "rating": 3.72,
+      "match_score": 1.0,
+      "matched_at": "2026-08-13T17:59:27Z",
+      "query_used": "Summer Ale Kocour",
+      "description": "Letní ale s lehkým tělem a mírnou sladkostí sladu doplněnou jemnou chmelovou hořkostí a ovocným aroma citrusů a tropického ovoce, středně plná až plná struktura s vyváženým profilem."
     },
     "beerstreet::Kojetín::Parohatej": {
       "untappd_url": "https://untappd.com/b/mestansky-pivovar-kojetin-parohatej/5041078",
