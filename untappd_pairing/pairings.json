@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-14T14:17:28Z",
+  "generated_at": "2026-08-14T15:56:41Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -1713,6 +1713,16 @@
       "match_score": 1.0,
       "matched_at": "2026-06-11T16:58:24Z",
       "query_used": "Sunny APA Obora"
+    },
+    "beerstreet::Old Cock::Pipka - černý rybíz": {
+      "untappd_url": "https://untappd.com/b/old-cock-beer-pipka-cerny-rybiz/5864787",
+      "untappd_name": "Pipka Černý rybíz",
+      "untappd_brewery": "Old Cock Beer",
+      "rating": 3.66,
+      "match_score": 1.0,
+      "matched_at": "2026-08-14T15:56:36Z",
+      "query_used": "Pipka - černý rybíz Old Cock",
+      "description": "Kyselé svrchně kvašené pivo s dominantním ovocným aroma černého rybízu, jemnou sladkostí a lehkou kyselinkou, středně plné tělo s mírnou kyselou a ovocnou chutí, málo hořké, dobře pitelné."
     },
     "beerstreet::Old Cock::Vývar": {
       "untappd_url": "https://untappd.com/b/old-cock-beer-vyvar/5433430",

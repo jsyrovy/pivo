@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-14T14:17:28Z",
+  "generated_at": "2026-08-14T15:56:41Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -5787,6 +5787,40 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-obora-sunny-apa/5829209",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Old Cock::Pipka - černý rybíz": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Old Cock",
+        "name": "Pipka - černý rybíz",
+        "style": "Sour",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-08-14T15:56:36Z",
+      "candidates": [
+        {
+          "name": "Pipka Černý rybíz",
+          "brewery": "Old Cock Beer",
+          "url": "/b/old-cock-beer-pipka-cerny-rybiz/5864787",
+          "rating": 3.66
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Pipka - černý rybíz 10° Old Cock",
+          "hits": []
+        },
+        {
+          "query": "Pipka - černý rybíz Old Cock",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/old-cock-beer-pipka-cerny-rybiz/5864787",
         "score": 1.0
       }
     },
