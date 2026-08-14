@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-14T17:00:58Z",
+  "generated_at": "2026-08-14T19:01:07Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -5257,6 +5257,36 @@
         "score": 1.0
       }
     },
+    "beerstreet::Loutkář::Bílá dáma": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Loutkář",
+        "name": "Bílá dáma",
+        "style": "White IPA",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-14T19:00:52Z",
+      "candidates": [
+        {
+          "name": "Bílá Dáma 11",
+          "brewery": "Pivovar Loutkář",
+          "url": "/b/pivovar-loutkar-bila-dama-11/6389524",
+          "rating": 3.62
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Bílá dáma 11° Loutkář",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-loutkar-bila-dama-11/6389524",
+        "score": 1.0
+      }
+    },
     "beerstreet::Loutkář::Eldorado": {
       "beer": {
         "source": "beerstreet",
@@ -8248,6 +8278,152 @@
       "outcome": {
         "matched": "/b/hradecky-klenot-kazbek-11/2344577",
         "score": 1.0
+      }
+    },
+    "uzamastilu::Kujebák::Ležák": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Kujebák",
+        "name": "Ležák",
+        "style": "Ležák",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-08-14T19:01:05Z",
+      "candidates": [
+        {
+          "name": "Mejto 12° Originál, Světlý Ležák",
+          "brewery": "Pivovar Mejto",
+          "url": "/b/pivovar-mejto-mejto-12-deg-original-svetly-lezak/4976918",
+          "rating": null
+        },
+        {
+          "name": "Mejťák 12% Polotmavý ležák",
+          "brewery": "Pivovar Mejto",
+          "url": "/b/pivovar-mejto-mejtak-12-polotmavy-lezak/1183284",
+          "rating": 3.11
+        },
+        {
+          "name": "Mejťák 12% Světlý ležák",
+          "brewery": "Pivovar Mejto",
+          "url": "/b/pivovar-mejto-mejtak-12-svetly-lezak/2646119",
+          "rating": 3.35
+        },
+        {
+          "name": "Mejťák 12% Tmavý ležák",
+          "brewery": "Pivovar Mejto",
+          "url": "/b/pivovar-mejto-mejtak-12-tmavy-lezak/1134854",
+          "rating": 3.24
+        },
+        {
+          "name": "Mejťák 11% Světlý ležák",
+          "brewery": "Pivovar Mejto",
+          "url": "/b/pivovar-mejto-mejtak-11-svetly-lezak/1135082",
+          "rating": 3.04
+        },
+        {
+          "name": "Dačický",
+          "brewery": "Heineken Česká Republika",
+          "url": "/b/heineken-ceska-republika-dacicky/110959",
+          "rating": 2.82
+        },
+        {
+          "name": "Konrad 12°",
+          "brewery": "Pivovar Vratislavice nad Nisou",
+          "url": "/b/pivovar-vratislavice-nad-nisou-konrad-12-deg/158057",
+          "rating": 3.09
+        },
+        {
+          "name": "Světlý ležák 12°",
+          "brewery": "Krakonoš",
+          "url": "/b/krakonos-svetly-lezak-12-deg/167392",
+          "rating": 3.18
+        },
+        {
+          "name": "Světlý ležák Premium 12°",
+          "brewery": "Hubertus",
+          "url": "/b/hubertus-svetly-lezak-premium-12-deg/21022",
+          "rating": 3.15
+        },
+        {
+          "name": "Unfiltered Lager (Nefiltrovaná 12)",
+          "brewery": "Bernard Family Brewery",
+          "url": "/b/bernard-family-brewery-unfiltered-lager-nefiltrovana-12/177007",
+          "rating": 3.36
+        },
+        {
+          "name": "Pilsner Urquell",
+          "brewery": "Plzeňský Prazdroj",
+          "url": "/b/plzensky-prazdroj-pilsner-urquell/37936",
+          "rating": 3.38
+        },
+        {
+          "name": "Budweiser Budvar / Czechvar Original",
+          "brewery": "Budějovický Budvar",
+          "url": "/b/budejovicky-budvar-budweiser-budvar-czechvar-original/5385",
+          "rating": 3.31
+        },
+        {
+          "name": "Staropramen Premium / Ležák 12",
+          "brewery": "Pivovary Staropramen",
+          "url": "/b/pivovary-staropramen-staropramen-premium-lezak-12/38700",
+          "rating": 3.26
+        },
+        {
+          "name": "Kozel Premium Lager / Kozel 11",
+          "brewery": "Pivovar Velké Popovice",
+          "url": "/b/pivovar-velke-popovice-kozel-premium-lager-kozel-11/30101",
+          "rating": 3.19
+        },
+        {
+          "name": "Budweiser Budvar / Czechvar DARK",
+          "brewery": "Budějovický Budvar",
+          "url": "/b/budejovicky-budvar-budweiser-budvar-czechvar-dark/39819",
+          "rating": 3.3
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Ležák 12° Kujebák",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "query": "Ležák Kujebák",
+          "hits": [
+            4,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "query": "Ležák 12°",
+          "hits": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "query": "Ležák",
+          "hits": [
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "uzamastilu::Loutkář::Kašpárek": {

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-14T17:00:58Z",
+  "generated_at": "2026-08-14T19:01:07Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -1502,7 +1502,8 @@
       "rating": 3.484,
       "match_score": 1.0,
       "matched_at": "2026-05-20T20:58:10Z",
-      "query_used": "Summer Day 10° Louka"
+      "query_used": "Summer Day 10° Louka",
+      "description": "Letní ale s lehkým tělem a mírnou hořkostí, ovocné a květinové aroma s jemnou sladkostí, podprůměrně hodnocené."
     },
     "beerstreet::Louka::Sv. Hubert": {
       "untappd_url": "https://untappd.com/b/pivovar-louka-sv-hubert-12/4592832",
@@ -1521,6 +1522,16 @@
       "match_score": 1.0,
       "matched_at": "2026-04-24T19:50:40Z",
       "query_used": "Verbuňk Louka"
+    },
+    "beerstreet::Loutkář::Bílá dáma": {
+      "untappd_url": "https://untappd.com/b/pivovar-loutkar-bila-dama-11/6389524",
+      "untappd_name": "Bílá Dáma 11",
+      "untappd_brewery": "Pivovar Loutkář",
+      "rating": 3.62,
+      "match_score": 1.0,
+      "matched_at": "2026-08-14T19:00:52Z",
+      "query_used": "Bílá dáma 11° Loutkář",
+      "description": "Bílá Dáma 11 je stylizovaný White IPA s mírně sladkým tělem a jemnou chmelovou hořkostí, doplněný citrusovým a tropickým aroma, které přidává svěžest a lehkou plnost. Hodnocení na Untappd je nadprůměrné."
     },
     "beerstreet::Loutkář::Eldorado": {
       "untappd_url": "https://untappd.com/b/pivovar-loutkar-eldorado-12-single-hop/5230836",
@@ -2624,6 +2635,11 @@
     "toulavapipa::Berquell Brauerei::Jahodový porter": {
       "attempts": 1,
       "last_tried_at": "2026-08-14T14:17:23Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "uzamastilu::Kujebák::Ležák": {
+      "attempts": 1,
+      "last_tried_at": "2026-08-14T19:01:05Z",
       "reason": "no_candidates_above_threshold"
     }
   }
