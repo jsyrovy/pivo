@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-13T22:49:22Z",
+  "generated_at": "2026-08-14T14:17:28Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -7122,6 +7122,63 @@
         "score": 1.0
       }
     },
+    "toulavapipa::Berquell Brauerei::Jahodový porter": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Berquell Brauerei",
+        "name": "Jahodový porter",
+        "style": "Ochucené tm. pivo",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-14T14:17:23Z",
+      "candidates": [
+        {
+          "name": "Erdbeer Porter",
+          "brewery": "Bergquell Brauerei Löbau",
+          "url": "/b/bergquell-brauerei-lobau-erdbeer-porter/46157",
+          "rating": 2.9
+        },
+        {
+          "name": "Jahodový Porter",
+          "brewery": "God Times Brewery",
+          "url": "/b/god-times-brewery-jahodovy-porter/5130188",
+          "rating": 3.68
+        },
+        {
+          "name": "Jahodový porter",
+          "brewery": "Minipivovar Domov",
+          "url": "/b/minipivovar-domov-jahodovy-porter/1463831",
+          "rating": 3.26
+        },
+        {
+          "name": "Porter Jahodový 16%",
+          "brewery": "Teplický pivovar Monopol",
+          "url": "/b/teplicky-pivovar-monopol-porter-jahodovy-16/3602867",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Jahodový porter Berquell Brauerei",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Jahodový porter",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
     "toulavapipa::Beskydský pivovárek::Borůvkový ležák": {
       "beer": {
         "source": "toulavapipa",
@@ -7661,6 +7718,101 @@
       ],
       "outcome": {
         "matched": "/b/madcat-mango-pina-coco/2990679",
+        "score": 1.0
+      }
+    },
+    "toulavapipa::MadCat::Mango-pina-coco": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "MadCat",
+        "name": "Mango-pina-coco",
+        "style": "Sour ale",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-14T14:17:23Z",
+      "candidates": [
+        {
+          "name": "Mango-Piña-Coco",
+          "brewery": "MadCat",
+          "url": "/b/madcat-mango-pina-coco/2990679",
+          "rating": 3.8
+        },
+        {
+          "name": "Double Infused Mango-Piña-Coco",
+          "brewery": "MadCat",
+          "url": "/b/madcat-double-infused-mango-pina-coco/5293565",
+          "rating": 4.1
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Mango-pina-coco MadCat",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/madcat-mango-pina-coco/2990679",
+        "score": 1.0
+      }
+    },
+    "toulavapipa::Mordýř::Kurtizána": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Mordýř",
+        "name": "Kurtizána",
+        "style": "IPA",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-14T14:17:11Z",
+      "candidates": [
+        {
+          "name": "Kurtizána",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-kurtizana/704889",
+          "rating": 3.57
+        },
+        {
+          "name": "Zelená Kurtizána",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-zelena-kurtizana/2041473",
+          "rating": 3.39
+        },
+        {
+          "name": "Mango Ale",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-mango-ale/4500799",
+          "rating": 3.5
+        },
+        {
+          "name": "Kurtizána Maracuja",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-kurtizana-maracuja/4480229",
+          "rating": 3.7
+        },
+        {
+          "name": "Kurtizána Borůvka",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-kurtizana-boruvka/5014849",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Kurtizána Mordýř",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mordyr-kurtizana/704889",
         "score": 1.0
       }
     },

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-13T22:49:22Z",
+  "generated_at": "2026-08-14T14:17:28Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -2280,6 +2280,26 @@
       "matched_at": "2026-08-10T09:32:54Z",
       "query_used": "Mango pina coco MadCat"
     },
+    "toulavapipa::MadCat::Mango-pina-coco": {
+      "untappd_url": "https://untappd.com/b/madcat-mango-pina-coco/2990679",
+      "untappd_name": "Mango-Piña-Coco",
+      "untappd_brewery": "MadCat",
+      "rating": 3.8,
+      "match_score": 1.0,
+      "matched_at": "2026-08-14T14:17:23Z",
+      "query_used": "Mango-pina-coco MadCat",
+      "description_failed_at": "2026-08-14T14:17:23Z"
+    },
+    "toulavapipa::Mordýř::Kurtizána": {
+      "untappd_url": "https://untappd.com/b/pivovar-mordyr-kurtizana/704889",
+      "untappd_name": "Kurtizána",
+      "untappd_brewery": "Pivovar Mordýř",
+      "rating": 3.57,
+      "match_score": 1.0,
+      "matched_at": "2026-08-14T14:17:11Z",
+      "query_used": "Kurtizána Mordýř",
+      "description": "Kurtizána je typická IPA s intenzivním chmelovým aroma, citrusovými a tropickými tóny a výraznou hořkostí, doplněná středně plným tělem a suchým závěrem."
+    },
     "toulavapipa::Raven::Gunslinger": {
       "untappd_url": "https://untappd.com/b/pivovar-raven-gunslinger/1614466",
       "untappd_name": "Gunslinger",
@@ -2589,6 +2609,11 @@
     "beerstreet::Černý Potoka::Cold Fish Mosaic dry hopped": {
       "attempts": 1,
       "last_tried_at": "2026-06-03T18:24:49Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "toulavapipa::Berquell Brauerei::Jahodový porter": {
+      "attempts": 1,
+      "last_tried_at": "2026-08-14T14:17:23Z",
       "reason": "no_candidates_above_threshold"
     }
   }
