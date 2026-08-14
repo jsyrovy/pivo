@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-14T19:01:07Z",
+  "generated_at": "2026-08-14T20:36:11Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -2437,6 +2437,40 @@
         "source": "llm"
       }
     },
+    "ambasada::Vik, Praha::Lost in C-Hops": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Vik, Praha",
+        "name": "Lost in C-Hops",
+        "style": "West coast IPA",
+        "degree_plato": 14.0
+      },
+      "captured_at": "2026-08-14T20:36:00Z",
+      "candidates": [
+        {
+          "name": "Lost in C- Hops",
+          "brewery": "Pivovar Vik",
+          "url": "/b/pivovar-vik-lost-in-c-hops/6827322",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Lost in C-Hops 14° Vik",
+          "hits": []
+        },
+        {
+          "query": "Lost in C-Hops Vik",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-vik-lost-in-c-hops/6827322",
+        "score": 1.0
+      }
+    },
     "ambasada::Volt, Jablonec nad Nisou::Ampér": {
       "beer": {
         "source": "ambasada",
@@ -3551,6 +3585,50 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-duck-dog-duck-dog-fiskus-svetly-lezak-11deg/4367516",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Fenek::Hoppy Lager": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Fenek",
+        "name": "Hoppy Lager",
+        "style": "India pale lager",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-14T20:35:45Z",
+      "candidates": [
+        {
+          "name": "Hoppy Lager 11° IPL",
+          "brewery": "Fenek Craft Beer",
+          "url": "/b/fenek-craft-beer-hoppy-lager-11-deg-ipl/5986366",
+          "rating": 3.55
+        },
+        {
+          "name": "Hoppy Lager 11° IPL (Nelson Sauvin)",
+          "brewery": "Fenek Craft Beer",
+          "url": "/b/fenek-craft-beer-hoppy-lager-11-deg-ipl-nelson-sauvin/6393679",
+          "rating": 3.61
+        },
+        {
+          "name": "Hoppy Lager 11° IPL (Citra)",
+          "brewery": "Fenek Craft Beer",
+          "url": "/b/fenek-craft-beer-hoppy-lager-11-deg-ipl-citra/6773225",
+          "rating": 3.84
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Hoppy Lager 11° Fenek",
+          "hits": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/fenek-craft-beer-hoppy-lager-11-deg-ipl/5986366",
         "score": 1.0
       }
     },
@@ -6242,6 +6320,40 @@
         "score": 1.0
       }
     },
+    "beerstreet::Twinberg::Az Ban": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Twinberg",
+        "name": "Az Ban",
+        "style": "NEIPA",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-14T20:35:55Z",
+      "candidates": [
+        {
+          "name": "Az Ban",
+          "brewery": "Twinberg",
+          "url": "/b/twinberg-az-ban/6599433",
+          "rating": 3.76
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Az Ban 11° Twinberg",
+          "hits": []
+        },
+        {
+          "query": "Az Ban Twinberg",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/twinberg-az-ban/6599433",
+        "score": 1.0
+      }
+    },
     "beerstreet::Twinberg::Karel": {
       "beer": {
         "source": "beerstreet",
@@ -7183,6 +7295,36 @@
       ],
       "outcome": {
         "matched": "/b/svabin-brewery-bard/5953825",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Švabín::Satyr": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Švabín",
+        "name": "Satyr",
+        "style": "Ležák světiý",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-08-14T20:35:48Z",
+      "candidates": [
+        {
+          "name": "Satyr 12°",
+          "brewery": "Švabín Brewery",
+          "url": "/b/svabin-brewery-satyr-12-deg/5850087",
+          "rating": 3.45
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Satyr 12° Švabín",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/svabin-brewery-satyr-12-deg/5850087",
         "score": 1.0
       }
     },
@@ -8949,6 +9091,47 @@
       "outcome": {
         "matched": "/b/pivovar-vik-beach-club/6822681",
         "score": 1.0
+      }
+    },
+    "uzamastilu::Záhora::New Zealand": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Záhora",
+        "name": "New Zealand",
+        "style": "Hazy IPA",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-08-14T20:36:05Z",
+      "candidates": [
+        {
+          "name": "New Zealand Pale Lager",
+          "brewery": "Pivovar Záhora",
+          "url": "/b/pivovar-zahora-new-zealand-pale-lager/6340595",
+          "rating": 3.47
+        },
+        {
+          "name": "New Zeland Hazy IPA",
+          "brewery": "Pivovar Záhora",
+          "url": "/b/pivovar-zahora-new-zeland-hazy-ipa/6817258",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "New Zealand 13° Záhora",
+          "hits": []
+        },
+        {
+          "query": "New Zealand Záhora",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-zahora-new-zeland-hazy-ipa/6817258",
+        "score": 0.7778
       }
     },
     "uzamastilu::Čestmír::Vera Smash": {

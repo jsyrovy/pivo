@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-14T19:01:07Z",
+  "generated_at": "2026-08-14T20:36:11Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -828,6 +828,16 @@
       "query_used": "Kasteel Rouge Van Honsebrouck",
       "description": "Silně ovocné a sladové dubové víno s bohatým tělem, intenzivní třešňovou a čokoládovou chutí, mírnou vanilkou a jemnou kořenovou notkou, podpořené mírnou hořkostí a dlouhým, teplým závěrem. Hodnocení na Untappd."
     },
+    "ambasada::Vik, Praha::Lost in C-Hops": {
+      "untappd_url": "https://untappd.com/b/pivovar-vik-lost-in-c-hops/6827322",
+      "untappd_name": "Lost in C- Hops",
+      "untappd_brewery": "Pivovar Vik",
+      "rating": null,
+      "match_score": 1.0,
+      "matched_at": "2026-08-14T20:36:00Z",
+      "query_used": "Lost in C-Hops Vik",
+      "description": "Silně chmelená West Coast IPA s intenzivním tropickým a citrusovým aroma, ostrou hořkostí a suchým závěrem, plné tělo a vysoká síla z 14° stupňovitosti a 6,6 % alkoholu."
+    },
     "ambasada::Vik/Fauve::Confluence": {
       "untappd_url": "https://untappd.com/b/pivovar-vik-confluence-neipa-vik-fauve/6660039",
       "untappd_name": "CONFLUENCE / NEIPA Vik & Fauve",
@@ -1129,6 +1139,16 @@
       "match_score": 1.0,
       "matched_at": "2026-05-15T20:14:37Z",
       "query_used": "Mosaic Duck&Dog"
+    },
+    "beerstreet::Fenek::Hoppy Lager": {
+      "untappd_url": "https://untappd.com/b/fenek-craft-beer-hoppy-lager-11-deg-ipl/5986366",
+      "untappd_name": "Hoppy Lager 11° IPL",
+      "untappd_brewery": "Fenek Craft Beer",
+      "rating": 3.55,
+      "match_score": 1.0,
+      "matched_at": "2026-08-14T20:35:45Z",
+      "query_used": "Hoppy Lager 11° Fenek",
+      "description": "IPA styl lageru s lehkou hořkostí, citrusovým a tropickým aroma a mírně plným tělem, jemně sladkým podkladem a suchým závěrem."
     },
     "beerstreet::Fracek::Guamansi": {
       "untappd_url": "https://untappd.com/b/fracek-guamansi/6729422",
@@ -1900,6 +1920,16 @@
       "matched_at": "2026-05-28T17:36:28Z",
       "query_used": "Ležák 11° Tvarg"
     },
+    "beerstreet::Twinberg::Az Ban": {
+      "untappd_url": "https://untappd.com/b/twinberg-az-ban/6599433",
+      "untappd_name": "Az Ban",
+      "untappd_brewery": "Twinberg",
+      "rating": 3.76,
+      "match_score": 1.0,
+      "matched_at": "2026-08-14T20:35:55Z",
+      "query_used": "Az Ban Twinberg",
+      "description": "NEIPA s mírnou sladkostí a ovocným aroma, lehkou až střední plností a jemnou hořkostí, doplněná jemnou vanilkovou a karamellovou notou z vanilky v názvu."
+    },
     "beerstreet::Twinberg::Karel": {
       "untappd_url": "https://untappd.com/b/twinberg-karel-11-deg/5632847",
       "untappd_name": "Karel 11°",
@@ -2191,6 +2221,16 @@
       "matched_at": "2026-06-17T22:06:03Z",
       "query_used": "Bard Švabín",
       "description": "Sladové aroma s mírnou chmelovou hořkostí, lehké tělo a čistý závěr typický pro světlý ležák."
+    },
+    "beerstreet::Švabín::Satyr": {
+      "untappd_url": "https://untappd.com/b/svabin-brewery-satyr-12-deg/5850087",
+      "untappd_name": "Satyr 12°",
+      "untappd_brewery": "Švabín Brewery",
+      "rating": 3.45,
+      "match_score": 1.0,
+      "matched_at": "2026-08-14T20:35:48Z",
+      "query_used": "Satyr 12° Švabín",
+      "description": "Svěžákově sladové aroma s mírnou chmelovou hořkostí a lehkým ovocným tónem, středně plné tělo typické pro světlé ležáky stupně 12 %."
     },
     "toulavapipa::Beskydský pivovárek::Borůvkový ležák": {
       "untappd_url": "https://untappd.com/b/beskydsky-pivovarek-boruvkovy-lezak/497749",
@@ -2559,6 +2599,16 @@
       "matched_at": "2026-08-13T19:15:20Z",
       "query_used": "Beach Club Vik",
       "description": "Pale ale s mírnou sladkostí a jemnou chmelovou hořkostí, lehkým tělem a ovocným aroma, typickým pro anglický pale ale."
+    },
+    "uzamastilu::Záhora::New Zealand": {
+      "untappd_url": "https://untappd.com/b/pivovar-zahora-new-zeland-hazy-ipa/6817258",
+      "untappd_name": "New Zeland Hazy IPA",
+      "untappd_brewery": "Pivovar Záhora",
+      "rating": null,
+      "match_score": 0.7778,
+      "matched_at": "2026-08-14T20:36:05Z",
+      "query_used": "New Zealand Záhora",
+      "description": "Hladké, ovocně chmelené New Zealand Hazy IPA s měkkou hořkostí, aromatem tropického ovoce a jemnou, krémovou plností díky vyššímu extraktu."
     },
     "uzamastilu::Čestmír::Vera Smash": {
       "untappd_url": "https://untappd.com/b/pivovar-cestmir-smash-apa-vera/6827149",
