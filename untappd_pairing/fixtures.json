@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-15T17:25:07Z",
+  "generated_at": "2026-08-15T18:37:16Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -1336,6 +1336,57 @@
       "outcome": {
         "matched": "/b/madcat-mango-pina-coco/2990679",
         "score": 1.0
+      }
+    },
+    "ambasada::MadCat/Hulvát::Cherry n Apricot": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "MadCat/Hulvát",
+        "name": "Cherry n Apricot",
+        "style": "Fruit sour ale",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-15T18:36:47Z",
+      "candidates": [
+        {
+          "name": "Cherry N' Apricot",
+          "brewery": "MadCat",
+          "url": "/b/madcat-cherry-n-apricot/6820586",
+          "rating": 3.77
+        },
+        {
+          "name": "Slip N' Slush Sweet Cherry Apricot",
+          "brewery": "Scorched Earth Brewing Company",
+          "url": "/b/scorched-earth-brewing-company-slip-n-slush-sweet-cherry-apricot/3899460",
+          "rating": 3.7
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Cherry n Apricot 11° MadCat/Hulvát",
+          "hits": []
+        },
+        {
+          "query": "Cherry n Apricot MadCat/Hulvát",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Cherry n Apricot 11°",
+          "hits": []
+        },
+        {
+          "query": "Cherry n Apricot",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/madcat-cherry-n-apricot/6820586",
+        "source": "llm"
       }
     },
     "ambasada::Magic Road, Polsko::Beauty Extreme - Carrot, Pineapple, Calamansi & Ginger": {

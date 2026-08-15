@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-15T17:25:07Z",
+  "generated_at": "2026-08-15T18:37:16Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -406,6 +406,16 @@
       "match_score": 1.0,
       "matched_at": "2026-05-22T09:09:37Z",
       "query_used": "Mango Pina Coco Sourus 10° MadCat"
+    },
+    "ambasada::MadCat/Hulvát::Cherry n Apricot": {
+      "untappd_url": "https://untappd.com/b/madcat-cherry-n-apricot/6820586",
+      "untappd_name": "Cherry N' Apricot",
+      "untappd_brewery": "MadCat",
+      "rating": 3.77,
+      "match_score": 1.0,
+      "matched_at": "2026-08-15T18:36:47Z",
+      "query_used": "<llm>",
+      "description": "Kyselé svrchně kvašené sour ale s ovocným charakterem, kde dominují třešně a meruňky přináší sladké ovocné aroma a jemnou ovocnou chuť, doplněnou lehkou kyselinkou a měkkým tělem s mírnou sladkostí a nízkou hořkostí. POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE…"
     },
     "ambasada::Magic Road, Polsko::Beauty Extreme - Carrot, Pineapple, Calamansi & Ginger": {
       "untappd_url": "https://untappd.com/b/magic-road-beauty-extreme-carrot-pineapple-calamansi-and-ginger/6645524",
