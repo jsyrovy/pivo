@@ -2048,6 +2048,14 @@ INSERT INTO "archive" VALUES(1592390719,'2026-08-08 10:18:21.000000','sejrik','�
 INSERT INTO "archive" VALUES(1592672612,'2026-08-08 20:17:45.000000','sejrik','Poděbradský zdroj 11°','Poděbradský pivovar','Chvojenec');
 INSERT INTO "archive" VALUES(1593472208,'2026-08-12 15:54:27.000000','sejrik','Smash APA - Vera','Pivovar Čestmír','U Zamastilů');
 INSERT INTO "archive" VALUES(1593477608,'2026-08-12 16:17:48.000000','sejrik','Moustache','Twinberg','U Zamastilů');
+INSERT INTO "archive" VALUES(1593849349,'2026-08-14 07:02:32.000000','sejrik','Baltic Express','Chroust','Ex3 railjet/Metropolitan • Praha - Brno - Wien/Budapest');
+INSERT INTO "archive" VALUES(1593851833,'2026-08-14 08:23:15.000000','sejrik','Oranžový expres','Pivovar Chříč','R770 | Berounka • Praha – Plzeň');
+INSERT INTO "archive" VALUES(1593869857,'2026-08-14 12:25:06.000000','sejrik','Desítka','Pivovar Matuška','Kontejner Matuška');
+INSERT INTO "archive" VALUES(1593873913,'2026-08-14 12:54:54.000000','sejrik','California 12°','Pivovar Matuška','Kontejner Matuška');
+INSERT INTO "archive" VALUES(1593878589,'2026-08-14 13:25:33.000000','sejrik','Zlatá Raketa 17°','Pivovar Matuška','Kontejner Matuška');
+INSERT INTO "archive" VALUES(1593966210,'2026-08-14 17:34:19.000000','sejrik','Florida 10°','Pivovar Matuška','Rozhledna Máminka');
+INSERT INTO "archive" VALUES(1593990465,'2026-08-14 18:18:19.000000','sejrik','Voltage','Pivovar Matuška','Rozhledna Máminka');
+INSERT INTO "archive" VALUES(1594043577,'2026-08-14 19:49:28.000000','sejrik','Raptor 15°','Pivovar Matuška','Rozhledna Máminka');
 CREATE TABLE [pivni_valka] (
 	[id] integer PRIMARY KEY,
 	[date] text,
