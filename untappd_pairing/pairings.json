@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-15T18:37:16Z",
+  "generated_at": "2026-08-15T19:25:29Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -2549,6 +2549,16 @@
       "matched_at": "2026-08-10T16:03:28Z",
       "query_used": "Ležák 12° Permon",
       "description": "Světlý ležák 12° od Pivovaru Permon je středně silný, osvěžující ležák s mírnou sladkostí a vyváženou hořkostí, vhodný na letní posezení nebo neformální setkání. Je to klasický český ležák, který potěší příznivce mírných, pitelněých piv."
+    },
+    "uzamastilu::Pioneer Beer::Summer Citra+Motueka": {
+      "untappd_url": "https://untappd.com/b/pioneer-beer-summer-citra-motueka/6818184",
+      "untappd_name": "Summer - Citra + Motueka",
+      "untappd_brewery": "Pioneer Beer",
+      "rating": 3.71,
+      "match_score": 1.0,
+      "matched_at": "2026-08-15T19:25:29Z",
+      "query_used": "Summer Citra+Motueka Pioneer Beer",
+      "description": "Silně chmelený americký ale s aromatem tropického ovoce a citrusových tónů, suchým a mírně hořkým koncem, lehké až střední plnosti díky 10° stupňovitosti."
     },
     "uzamastilu::Polička::Otakar": {
       "untappd_url": "https://untappd.com/b/mestansky-pivovar-v-policce-otakar-11/188783",

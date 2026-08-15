@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-15T18:37:16Z",
+  "generated_at": "2026-08-15T19:25:29Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -8873,6 +8873,40 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-permon-svetly-lezak-12-deg/413456",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Pioneer Beer::Summer Citra+Motueka": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Pioneer Beer",
+        "name": "Summer Citra+Motueka",
+        "style": "Ale",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-08-15T19:25:29Z",
+      "candidates": [
+        {
+          "name": "Summer - Citra + Motueka",
+          "brewery": "Pioneer Beer",
+          "url": "/b/pioneer-beer-summer-citra-motueka/6818184",
+          "rating": 3.71
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Summer Citra+Motueka 10° Pioneer Beer",
+          "hits": []
+        },
+        {
+          "query": "Summer Citra+Motueka Pioneer Beer",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pioneer-beer-summer-citra-motueka/6818184",
         "score": 1.0
       }
     },
