@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-16T16:31:20Z",
+  "generated_at": "2026-08-16T17:23:49Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -9314,6 +9314,40 @@
       "outcome": {
         "matched": "/b/pivovar-zahora-new-zeland-hazy-ipa/6817258",
         "score": 0.7778
+      }
+    },
+    "uzamastilu::Záhora::Silk Road": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Záhora",
+        "name": "Silk Road",
+        "style": "Gose",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-16T17:23:48Z",
+      "candidates": [
+        {
+          "name": "Silk Road",
+          "brewery": "Pivovar Záhora",
+          "url": "/b/pivovar-zahora-silk-road/6732360",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Silk Road 11° Záhora",
+          "hits": []
+        },
+        {
+          "query": "Silk Road Záhora",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-zahora-silk-road/6732360",
+        "score": 1.0
       }
     },
     "uzamastilu::Čestmír::Vera Smash": {
