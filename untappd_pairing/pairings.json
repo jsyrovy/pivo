@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-15T22:27:45Z",
+  "generated_at": "2026-08-16T13:35:34Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -2272,6 +2272,16 @@
       "query_used": "<override>",
       "description": "Clock APA od pivovaru Clock je typické americké pale ale s vyváženou hořkostí a ovocnými aromaty chmele, má střední tělo a dobře se hodí k odpočinku po práci nebo k neformálnímu setkání s přáteli."
     },
+    "toulavapipa::Clock::Goldie": {
+      "untappd_url": "https://untappd.com/b/pivovar-clock-goldie/778831",
+      "untappd_name": "Goldie",
+      "untappd_brewery": "Pivovar Clock",
+      "rating": 3.49,
+      "match_score": 1.0,
+      "matched_at": "2026-08-16T13:35:16Z",
+      "query_used": "Goldie Clock",
+      "description": "Weizenbier s typickým ovocným a banánovým aroma, lehkou sladkostí a mírnou hořkostí, středně plné tělo, dobře vyvážené a osvěžující."
+    },
     "toulavapipa::Fracek::Original ležák": {
       "untappd_url": "https://untappd.com/b/fracek-original-lezak-lager-11/5384122",
       "untappd_name": "ORIGINAL Ležák/ Lager 11",
@@ -2430,6 +2440,16 @@
       "matched_at": "2026-08-10T14:22:33Z",
       "query_used": "Exotic Orchard Sibeeria",
       "description": "Exotic Orchard od Sibeeria Brewery je double IPA s průměrným až vysokým tělesem a mírně hořkým profilem, který potěší příznivce aromatických, ovocných hopů; oceněný 3,85 hvězdičkou na Untappd, vhodný na letní večery nebo k osvěžení po práci."
+    },
+    "toulavapipa::U Vojtěchů::Podlipák": {
+      "untappd_url": "https://untappd.com/b/pivovar-u-vojtechu-podlipak-11/4081441",
+      "untappd_name": "Podlipák 11",
+      "untappd_brewery": "Pivovar U Vojtěchů",
+      "rating": 3.55,
+      "match_score": 1.0,
+      "matched_at": "2026-08-16T13:35:14Z",
+      "query_used": "Podlipák U Vojtěchů",
+      "description": "Ležák s mírnou sladkostí a jemnou chmelovou hořkostí, středně plné tělo, typický český styl, podprůměrně hodnocený."
     },
     "toulavapipa::Zichovec::Fiesta": {
       "untappd_url": "https://untappd.com/b/pivovar-zichovec-fiesta-12/6819456",

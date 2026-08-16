@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-15T22:27:45Z",
+  "generated_at": "2026-08-16T13:35:34Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -7564,6 +7564,43 @@
         "reason": "no_candidates_above_threshold"
       }
     },
+    "toulavapipa::Clock::Goldie": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Clock",
+        "name": "Goldie",
+        "style": "Weizenbier",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-16T13:35:16Z",
+      "candidates": [
+        {
+          "name": "Goldie",
+          "brewery": "Pivovar Clock",
+          "url": "/b/pivovar-clock-goldie/778831",
+          "rating": 3.49
+        },
+        {
+          "name": "Goldie Malinová",
+          "brewery": "Pivovar Clock",
+          "url": "/b/pivovar-clock-goldie-malinova/2247539",
+          "rating": 3.3
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Goldie Clock",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-clock-goldie/778831",
+        "score": 1.0
+      }
+    },
     "toulavapipa::Fracek::Original ležák": {
       "beer": {
         "source": "toulavapipa",
@@ -8271,6 +8308,36 @@
       ],
       "outcome": {
         "matched": "/b/sibeeria-exotic-orchard/5953178",
+        "score": 1.0
+      }
+    },
+    "toulavapipa::U Vojtěchů::Podlipák": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "U Vojtěchů",
+        "name": "Podlipák",
+        "style": "Ležák",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-16T13:35:14Z",
+      "candidates": [
+        {
+          "name": "Podlipák 11",
+          "brewery": "Pivovar U Vojtěchů",
+          "url": "/b/pivovar-u-vojtechu-podlipak-11/4081441",
+          "rating": 3.55
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Podlipák U Vojtěchů",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-u-vojtechu-podlipak-11/4081441",
         "score": 1.0
       }
     },
