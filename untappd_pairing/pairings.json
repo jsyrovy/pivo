@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-16T17:23:49Z",
+  "generated_at": "2026-08-16T18:35:31Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -276,7 +276,8 @@
       "rating": 3.48,
       "match_score": 1.0,
       "matched_at": "2026-07-04T18:05:57Z",
-      "query_used": "Petr ALE 10° JungBerg"
+      "query_used": "Petr ALE 10° JungBerg",
+      "description": "Sladké ovocné aroma s lehkou chmelovou hořkostí, středně plné tělo a suchý závěr, spodně kvašený styl s mírnou kyselinkou a jemnou ovocnou notou."
     },
     "ambasada::JungBerg, Hořice::PetrIPA": {
       "untappd_url": "https://untappd.com/b/pivovar-jungberg-petripa/6763574",
