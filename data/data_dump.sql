@@ -2056,6 +2056,10 @@ INSERT INTO "archive" VALUES(1593878589,'2026-08-14 13:25:33.000000','sejrik','Z
 INSERT INTO "archive" VALUES(1593966210,'2026-08-14 17:34:19.000000','sejrik','Florida 10°','Pivovar Matuška','Rozhledna Máminka');
 INSERT INTO "archive" VALUES(1593990465,'2026-08-14 18:18:19.000000','sejrik','Voltage','Pivovar Matuška','Rozhledna Máminka');
 INSERT INTO "archive" VALUES(1594043577,'2026-08-14 19:49:28.000000','sejrik','Raptor 15°','Pivovar Matuška','Rozhledna Máminka');
+INSERT INTO "archive" VALUES(1594220893,'2026-08-15 10:44:43.000000','sejrik','Cyklopivo 8° světlé','Berounský medvěd','Pivovar Berounský medvěd');
+INSERT INTO "archive" VALUES(1594223064,'2026-08-15 10:58:56.000000','sejrik','Zlatý kůň 11° světlé','Berounský medvěd','Pivovar Berounský medvěd');
+INSERT INTO "archive" VALUES(1594235060,'2026-08-15 12:02:08.000000','sejrik','Medvěd 13° tmavé','Berounský medvěd','Pivovar Berounský medvěd');
+INSERT INTO "archive" VALUES(1594249187,'2026-08-15 13:00:42.000000','sejrik','Karlíček 12°','1. Karlštejnský mikropivovar','Karlštejnský mikropivovar');
 CREATE TABLE [pivni_valka] (
 	[id] integer PRIMARY KEY,
 	[date] text,
