@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-17T16:33:54Z",
+  "generated_at": "2026-08-17T17:31:26Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -565,6 +565,16 @@
       "match_score": 1.0,
       "matched_at": "2026-05-30T21:05:17Z",
       "query_used": "Sun APA 12° Nachmelená Opice"
+    },
+    "ambasada::Obora, Malšice::IPA": {
+      "untappd_url": "https://untappd.com/b/pivovar-obora-brut-ipa-15/3242671",
+      "untappd_name": "Brut IPA 15",
+      "untappd_brewery": "Pivovar Obora",
+      "rating": 3.63,
+      "match_score": 1.0,
+      "matched_at": "2026-08-17T17:31:05Z",
+      "query_used": "IPA 15° Obora",
+      "description": "Brut IPA s 15° stupňovitostí a 6,5 % alkoholu má suchý, čistý profil s intenzivní chmelovou aromatickou hořkostí, citrusovými a tropickými notami a lehkou plností těla, doplněnou jemnou kyselostí z použitých kvasinek. POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE…"
     },
     "ambasada::Obora, Malšice::Philadelphia Jahoda": {
       "untappd_url": "https://untappd.com/b/pivovar-obora-philadelphia-sour-strawberry/4161242",
