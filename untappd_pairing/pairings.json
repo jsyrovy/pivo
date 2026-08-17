@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-17T14:33:07Z",
+  "generated_at": "2026-08-17T16:33:54Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -499,6 +499,16 @@
       "match_score": 1.0,
       "matched_at": "2026-05-12T20:28:28Z",
       "query_used": "Intergalactic Medvěd"
+    },
+    "ambasada::Mikkeller, Copenhagen, Dánsko::Hop Shop": {
+      "untappd_url": "https://untappd.com/b/mikkeller-hop-shop/5205020",
+      "untappd_name": "Hop Shop",
+      "untappd_brewery": "Mikkeller",
+      "rating": 3.55,
+      "match_score": 1.0,
+      "matched_at": "2026-08-17T16:33:28Z",
+      "query_used": "Hop Shop Mikkeller",
+      "description": "Hazy IPA s mírně ovocným a tropickým chmelením, jemnou sladkostí a lehkou, krémovou plností díky 13° stupňovitosti a 4,9 % alkoholu, podprůměrně hodnocené."
     },
     "ambasada::Mordýř, Dolní Ředice::Kurtizána": {
       "untappd_url": "https://untappd.com/b/pivovar-mordyr-mango-ale/4500799",
@@ -2392,6 +2402,26 @@
       "query_used": "Kurtizána Mordýř",
       "description": "Kurtizána je typická IPA s intenzivním chmelovým aroma, citrusovými a tropickými tóny a výraznou hořkostí, doplněná středně plným tělem a suchým závěrem."
     },
+    "toulavapipa::Obora::Summer ale": {
+      "untappd_url": "https://untappd.com/b/pivovar-obora-summer-ale/3300598",
+      "untappd_name": "Summer Ale",
+      "untappd_brewery": "Pivovar Obora",
+      "rating": 3.68,
+      "match_score": 1.0,
+      "matched_at": "2026-08-17T16:33:31Z",
+      "query_used": "Summer ale Obora",
+      "description": "Summer ale s mírnou sladkostí a ovocným aroma, lehkou hořkostí a středně plným tělem, typické pro letní styl."
+    },
+    "toulavapipa::Raven::Cascadelicous": {
+      "untappd_url": "https://untappd.com/b/pivovar-raven-cascadelicious/6792361",
+      "untappd_name": "Cascadelicious",
+      "untappd_brewery": "Pivovar Raven",
+      "rating": 3.68,
+      "match_score": 0.9091,
+      "matched_at": "2026-08-17T16:33:33Z",
+      "query_used": "Cascadelicous Raven",
+      "description": "Cascadelicious je lehké a svěží Session IPA s aromatickými citrusovými a tropickými tóny, mírnou hořkostí a měkkým tělem, vyrobené s kvasinkami Kveik pro intenzivní ovocnou vůni. POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE PO…"
+    },
     "toulavapipa::Raven::Gunslinger": {
       "untappd_url": "https://untappd.com/b/pivovar-raven-gunslinger/1614466",
       "untappd_name": "Gunslinger",
@@ -2401,6 +2431,16 @@
       "matched_at": "2026-08-12T14:21:59Z",
       "query_used": "Gunslinger Raven",
       "description_failed_at": "2026-08-12T14:21:59Z"
+    },
+    "toulavapipa::Raven::Orange IPA": {
+      "untappd_url": "https://untappd.com/b/pivovar-raven-orange-ipa/1676555",
+      "untappd_name": "Orange IPA",
+      "untappd_brewery": "Pivovar Raven",
+      "rating": 3.61,
+      "match_score": 1.0,
+      "matched_at": "2026-08-17T16:33:37Z",
+      "query_used": "Orange IPA Raven",
+      "description": "Silně aromatické Fruit IPA s dominantním citrusovým aroma pomeranče doplněné jemnou sladovou základnou a lehkou hořkostí, středně plné tělo s ovocně-květinovým charakterem a suchým závěrem."
     },
     "toulavapipa::Raven::Summer Citra": {
       "untappd_url": "https://untappd.com/b/pivovar-raven-summer-citra/2191517",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-17T14:33:07Z",
+  "generated_at": "2026-08-17T16:33:54Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -1577,6 +1577,61 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-mazak-letni-den/2666945",
+        "score": 1.0
+      }
+    },
+    "ambasada::Mikkeller, Copenhagen, Dánsko::Hop Shop": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Mikkeller, Copenhagen, Dánsko",
+        "name": "Hop Shop",
+        "style": "Hazy IPA",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-08-17T16:33:28Z",
+      "candidates": [
+        {
+          "name": "Hop Shop",
+          "brewery": "Mikkeller",
+          "url": "/b/mikkeller-hop-shop/5205020",
+          "rating": 3.55
+        },
+        {
+          "name": "Hop Shop Dream",
+          "brewery": "Mikkeller",
+          "url": "/b/mikkeller-hop-shop-dream/6423525",
+          "rating": 3.74
+        },
+        {
+          "name": "Organic Hop Shop",
+          "brewery": "Mikkeller",
+          "url": "/b/mikkeller-organic-hop-shop/6280019",
+          "rating": 3.46
+        },
+        {
+          "name": "Zesty Hop Shop ",
+          "brewery": "Mikkeller",
+          "url": "/b/mikkeller-zesty-hop-shop/6776255",
+          "rating": 3.58
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Hop Shop 13° Mikkeller",
+          "hits": []
+        },
+        {
+          "query": "Hop Shop Mikkeller",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/mikkeller-hop-shop/5205020",
         "score": 1.0
       }
     },
@@ -8140,6 +8195,73 @@
         "score": 1.0
       }
     },
+    "toulavapipa::Obora::Summer ale": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Obora",
+        "name": "Summer ale",
+        "style": "Summer ale",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-17T16:33:31Z",
+      "candidates": [
+        {
+          "name": "Summer Ale",
+          "brewery": "Pivovar Obora",
+          "url": "/b/pivovar-obora-summer-ale/3300598",
+          "rating": 3.68
+        },
+        {
+          "name": "Obora Summer Hazy Ale  10",
+          "brewery": "Pivovar Obora",
+          "url": "/b/pivovar-obora-obora-summer-hazy-ale-10/6815167",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Summer ale Obora",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-obora-summer-ale/3300598",
+        "score": 1.0
+      }
+    },
+    "toulavapipa::Raven::Cascadelicous": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Raven",
+        "name": "Cascadelicous",
+        "style": "Session kveik IPA",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-17T16:33:33Z",
+      "candidates": [
+        {
+          "name": "Cascadelicious",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-cascadelicious/6792361",
+          "rating": 3.68
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Cascadelicous Raven",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-raven-cascadelicious/6792361",
+        "score": 0.9091
+      }
+    },
     "toulavapipa::Raven::Gunslinger": {
       "beer": {
         "source": "toulavapipa",
@@ -8188,6 +8310,57 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-raven-gunslinger/1614466",
+        "score": 1.0
+      }
+    },
+    "toulavapipa::Raven::Orange IPA": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Raven",
+        "name": "Orange IPA",
+        "style": "Fruit IPA",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-17T16:33:37Z",
+      "candidates": [
+        {
+          "name": "Black Raven IPA",
+          "brewery": "Olde Hickory Brewery",
+          "url": "/b/olde-hickory-brewery-black-raven-ipa/15083",
+          "rating": 3.66
+        },
+        {
+          "name": "Orange IPA",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-orange-ipa/1676555",
+          "rating": 3.61
+        },
+        {
+          "name": "Orange Juicy New England IPA",
+          "brewery": "3 Ravens Brewery",
+          "url": "/b/3-ravens-brewery-orange-juicy-new-england-ipa/2755301",
+          "rating": 3.74
+        },
+        {
+          "name": "Blood Orange Blast IPA",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-blood-orange-blast-ipa/6263913",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Orange IPA Raven",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-raven-orange-ipa/1676555",
         "score": 1.0
       }
     },
