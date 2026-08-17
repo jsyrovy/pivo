@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-16T22:26:18Z",
+  "generated_at": "2026-08-17T13:42:43Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -8897,6 +8897,50 @@
       "outcome": {
         "matched": null,
         "reason": "no_candidates_above_threshold"
+      }
+    },
+    "uzamastilu::Obora::Ježibaba": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Obora",
+        "name": "Ježibaba",
+        "style": "Ležák",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-08-17T13:42:42Z",
+      "candidates": [
+        {
+          "name": "Ježibaba 12",
+          "brewery": "Pivovar Obora",
+          "url": "/b/pivovar-obora-jezibaba-12/1573582",
+          "rating": 3.48
+        },
+        {
+          "name": "12 Ježibaba - Fresh Hop",
+          "brewery": "Pivovar Obora",
+          "url": "/b/pivovar-obora-12-jezibaba-fresh-hop/5643768",
+          "rating": 3.54
+        },
+        {
+          "name": "12 Ježibaba - Barrel Aged",
+          "brewery": "Pivovar Obora",
+          "url": "/b/pivovar-obora-12-jezibaba-barrel-aged/5623589",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Ježibaba 12° Obora",
+          "hits": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-obora-jezibaba-12/1573582",
+        "score": 1.0
       }
     },
     "uzamastilu::Permon::Ležák": {
