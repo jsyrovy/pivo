@@ -2060,6 +2060,10 @@ INSERT INTO "archive" VALUES(1594220893,'2026-08-15 10:44:43.000000','sejrik','C
 INSERT INTO "archive" VALUES(1594223064,'2026-08-15 10:58:56.000000','sejrik','Zlatý kůň 11° světlé','Berounský medvěd','Pivovar Berounský medvěd');
 INSERT INTO "archive" VALUES(1594235060,'2026-08-15 12:02:08.000000','sejrik','Medvěd 13° tmavé','Berounský medvěd','Pivovar Berounský medvěd');
 INSERT INTO "archive" VALUES(1594249187,'2026-08-15 13:00:42.000000','sejrik','Karlíček 12°','1. Karlštejnský mikropivovar','Karlštejnský mikropivovar');
+INSERT INTO "archive" VALUES(1594652483,'2026-08-16 09:38:10.000000','sejrik','Světlý ležák 10°','Pivovar Kulivá Hora','Pivovar Kulivá hora');
+INSERT INTO "archive" VALUES(1594653565,'2026-08-16 09:54:37.000000','sejrik','Světlý ležák 11°','Pivovar Kulivá Hora','Pivovar Kulivá hora');
+INSERT INTO "archive" VALUES(1594655044,'2026-08-16 10:13:09.000000','sejrik','Jantarový ležák 12°','Pivovar Kulivá Hora','Pivovar Kulivá hora');
+INSERT INTO "archive" VALUES(1594667886,'2026-08-16 12:04:05.000000','sejrik','Letní IPA 10°','Pivovar Kulivá Hora','R19 | Svitava • Praha - Česká Třebová - Brno');
 CREATE TABLE [pivni_valka] (
 	[id] integer PRIMARY KEY,
 	[date] text,
