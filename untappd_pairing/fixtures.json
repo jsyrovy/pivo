@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-18T17:32:09Z",
+  "generated_at": "2026-08-18T18:44:54Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -115,6 +115,64 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-agent-stylish-girl-milkshake-neipa-13deg-blackberry/5988268",
+        "score": 1.0
+      }
+    },
+    "ambasada::Beskydský pivovárek, Ostravice::Beskydská": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Beskydský pivovárek, Ostravice",
+        "name": "Beskydská",
+        "style": "Ale",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-08-18T18:44:53Z",
+      "candidates": [
+        {
+          "name": "Stojácké poupě 12°",
+          "brewery": "Beskydský pivovárek",
+          "url": "/b/beskydsky-pivovarek-stojacke-poupe-12-deg/974518",
+          "rating": 3.53
+        },
+        {
+          "name": "Beskydská 12",
+          "brewery": "Beskydský pivovárek",
+          "url": "/b/beskydsky-pivovarek-beskydska-12/763041",
+          "rating": 3.46
+        },
+        {
+          "name": "Stračena 12°",
+          "brewery": "Beskydský pivovárek",
+          "url": "/b/beskydsky-pivovarek-stracena-12-deg/3090516",
+          "rating": 3.45
+        },
+        {
+          "name": "Beskydský Yellow Leaf 12°",
+          "brewery": "Beskydský pivovárek",
+          "url": "/b/beskydsky-pivovarek-beskydsky-yellow-leaf-12-deg/874043",
+          "rating": 3.12
+        },
+        {
+          "name": "Vinohradský Angličan",
+          "brewery": "Beskydský pivovárek",
+          "url": "/b/beskydsky-pivovarek-vinohradsky-anglican/2404699",
+          "rating": 3.35
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Beskydská 12° Beskydský pivovárek",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/beskydsky-pivovarek-beskydska-12/763041",
         "score": 1.0
       }
     },
