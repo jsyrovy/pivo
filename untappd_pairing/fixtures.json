@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-18T19:31:19Z",
+  "generated_at": "2026-08-18T20:29:48Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -8807,6 +8807,39 @@
       "outcome": {
         "matched": "/b/pivovar-cestmir-nwe-zealand-pilsner-maunga/6606406",
         "score": 1.0
+      }
+    },
+    "uzamastilu::4.3% alc Loutkář::Marioneta sv.výčepní": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "4.3% alc Loutkář",
+        "name": "Marioneta sv.výčepní",
+        "style": "",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-08-18T20:29:48Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Marioneta sv.výčepní 10° 4.3% alc Loutkář",
+          "hits": []
+        },
+        {
+          "query": "Marioneta sv.výčepní 4.3% alc Loutkář",
+          "hits": []
+        },
+        {
+          "query": "Marioneta sv.výčepní 10°",
+          "hits": []
+        },
+        {
+          "query": "Marioneta sv.výčepní",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "uzamastilu::Budvar::Birgo Mango-Limetka": {
