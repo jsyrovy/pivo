@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-18T15:36:28Z",
+  "generated_at": "2026-08-18T16:36:56Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -1545,7 +1545,8 @@
       "rating": 3.247,
       "match_score": 1.0,
       "matched_at": "2026-06-08T17:25:41Z",
-      "query_used": "Primáš 11° Louka"
+      "query_used": "Primáš 11° Louka",
+      "description": "Ležák světiý s mírnou sladkostí, jemnou chmelovou hořkostí a čistým, středně plným tělem, doplněný jemnou ovocnou notou z místních surovin."
     },
     "beerstreet::Louka::Session Cryo": {
       "untappd_url": "https://untappd.com/b/pivovar-louka-session-cryo-11/5478053",
