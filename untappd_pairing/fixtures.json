@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-18T13:47:10Z",
+  "generated_at": "2026-08-18T14:38:17Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -8213,6 +8213,68 @@
       "outcome": {
         "matched": "/b/madcat-mango-pina-coco/2990679",
         "score": 1.0
+      }
+    },
+    "toulavapipa::Madcat::Desítka": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Madcat",
+        "name": "Desítka",
+        "style": "Světlé výčepní",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-18T14:38:17Z",
+      "candidates": [
+        {
+          "name": "Krušovice Originál",
+          "brewery": "Heineken Česká Republika",
+          "url": "/b/heineken-ceska-republika-krusovice-original/23585",
+          "rating": 3.06
+        },
+        {
+          "name": "Radegast Rázná 10",
+          "brewery": "Radegast",
+          "url": "/b/radegast-radegast-razna-10/2108664",
+          "rating": 3.11
+        },
+        {
+          "name": "Platan Desítka",
+          "brewery": "Pivovar Protivín",
+          "url": "/b/pivovar-protivin-platan-desitka/1321991",
+          "rating": 3.02
+        },
+        {
+          "name": "Svijanská Desítka",
+          "brewery": "Svijany",
+          "url": "/b/svijany-svijanska-desitka/67965",
+          "rating": 3.17
+        },
+        {
+          "name": "Light Lager (Světlé Pivo 10)",
+          "brewery": "Bernard Family Brewery",
+          "url": "/b/bernard-family-brewery-light-lager-svetle-pivo-10/29830",
+          "rating": 3.19
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Desítka Madcat",
+          "hits": []
+        },
+        {
+          "query": "Desítka",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "toulavapipa::Mordýř::Kurtizána": {
