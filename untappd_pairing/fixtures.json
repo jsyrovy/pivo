@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-18T18:44:54Z",
+  "generated_at": "2026-08-18T19:31:19Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -9143,6 +9143,39 @@
       "outcome": {
         "matched": "/b/pivovar-loutkar-kasparek-11-svetly-lezak/3940222",
         "score": 1.0
+      }
+    },
+    "uzamastilu::Loutkář::Marioneta sv.výčepní": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Loutkář",
+        "name": "Marioneta sv.výčepní",
+        "style": "",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-08-18T19:31:19Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Marioneta sv.výčepní 10° Loutkář",
+          "hits": []
+        },
+        {
+          "query": "Marioneta sv.výčepní Loutkář",
+          "hits": []
+        },
+        {
+          "query": "Marioneta sv.výčepní 10°",
+          "hits": []
+        },
+        {
+          "query": "Marioneta sv.výčepní",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "uzamastilu::Mazák::Aurora Cold": {
