@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-18T16:36:56Z",
+  "generated_at": "2026-08-18T17:32:09Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -2591,6 +2591,16 @@
       "matched_at": "2026-07-24T13:25:15Z",
       "query_used": "Kašpárek 11° Loutkář",
       "description": "Kašpárek 11 světlý ležák od Pivovaru Loutkář je středně silný ležák, vhodný na běžné posezení i odpolední setkání."
+    },
+    "uzamastilu::Mazák::Aurora Cold": {
+      "untappd_url": "https://untappd.com/b/pivovar-mazak-aurora-cold-ipa/6810130",
+      "untappd_name": "Aurora Cold IPA",
+      "untappd_brewery": "Pivovar Mazák",
+      "rating": 3.86,
+      "match_score": 1.0,
+      "matched_at": "2026-08-18T17:31:57Z",
+      "query_used": "Aurora Cold Mazák",
+      "description": "Aurora Cold IPA je silně chmelená, aromatická IPA s citrusovými a tropickými tóny, suchým závěrem a lehkou až střední plností díky vyššímu stupňování, přesto osvěžující a dobře pitelné. POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE P…"
     },
     "uzamastilu::Mazák::Wai-Wai": {
       "untappd_url": "https://untappd.com/b/pivovar-mazak-wai-wai/6776198",
