@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-19T13:48:47Z",
+  "generated_at": "2026-08-19T14:39:01Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -19,6 +19,16 @@
       "match_score": 1.0,
       "matched_at": "2026-06-12T19:11:01Z",
       "query_used": "Moves 11° Agent"
+    },
+    "ambasada::Agent, Olešnice::Moves Peach and Lychee": {
+      "untappd_url": "https://untappd.com/b/pivovar-agent-moves-peach-and-lychee/6352309",
+      "untappd_name": "Moves Peach And Lychee",
+      "untappd_brewery": "Pivovar Agent",
+      "rating": 3.87,
+      "match_score": 1.0,
+      "matched_at": "2026-08-19T14:38:59Z",
+      "query_used": "Moves Peach and Lychee Agent",
+      "description": "Kyselé pivko typu pastry sour s dominantním ovocným aroma po broskvi a lychee, lehce sladké chuti s jemnou kyselinkou a měkkým tělem, podpořené jemnou chmeli; hodnoceno nadprůměrně."
     },
     "ambasada::Agent, Olešnice::Stylish Girl": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-stylish-girl-milkshake-neipa-13deg-blackberry/5988268",
@@ -249,6 +259,16 @@
       "match_score": 1.0,
       "matched_at": "2026-04-30T20:07:54Z",
       "query_used": "Ginger Paw Hoppydog"
+    },
+    "ambasada::Hummel, Merkendorf::Weissbier": {
+      "untappd_url": "https://untappd.com/b/brauerei-hummel-weissbier-hell/20171",
+      "untappd_name": "Weißbier Hell",
+      "untappd_brewery": "Brauerei Hummel",
+      "rating": 3.5,
+      "match_score": 0.625,
+      "matched_at": "2026-08-19T14:38:59Z",
+      "query_used": "<llm>",
+      "description": "Weizenbier s typickým banánovým a hřebíčkovým aroma, mírně sladkou chuť s lehkou kvasnicovou plností a střední hořkostí, středně plné tělo, dobře vyvážené."
     },
     "ambasada::JungBerg, Hořice::300 Kurven": {
       "untappd_url": "https://untappd.com/b/pivovar-jungberg-300-kurven-10/3144726",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-19T13:48:47Z",
+  "generated_at": "2026-08-19T14:39:01Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -78,6 +78,40 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-agent-moves-white-grapes-and-strawberries/4836340",
+        "score": 1.0
+      }
+    },
+    "ambasada::Agent, Olešnice::Moves Peach and Lychee": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Agent, Olešnice",
+        "name": "Moves Peach and Lychee",
+        "style": "Pastry sour ale",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-19T14:38:59Z",
+      "candidates": [
+        {
+          "name": "Moves Peach And Lychee",
+          "brewery": "Pivovar Agent",
+          "url": "/b/pivovar-agent-moves-peach-and-lychee/6352309",
+          "rating": 3.87
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Moves Peach and Lychee 11° Agent",
+          "hits": []
+        },
+        {
+          "query": "Moves Peach and Lychee Agent",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-agent-moves-peach-and-lychee/6352309",
         "score": 1.0
       }
     },
@@ -802,6 +836,76 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-hoppydog-rafan/2658169",
+        "source": "llm"
+      }
+    },
+    "ambasada::Hummel, Merkendorf::Weissbier": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Hummel, Merkendorf",
+        "name": "Weissbier",
+        "style": "Weizen",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-08-19T14:38:59Z",
+      "candidates": [
+        {
+          "name": "Weissbier 12°",
+          "brewery": "Pivovar U medveďa",
+          "url": "/b/pivovar-u-medveda-weissbier-12-deg/2259186",
+          "rating": 3.19
+        },
+        {
+          "name": "Weißbier Hell",
+          "brewery": "Brauerei Hummel",
+          "url": "/b/brauerei-hummel-weissbier-hell/20171",
+          "rating": 3.5
+        },
+        {
+          "name": "Weißbier Dunkel",
+          "brewery": "Brauerei Hummel",
+          "url": "/b/brauerei-hummel-weissbier-dunkel/20170",
+          "rating": 3.32
+        },
+        {
+          "name": "Leichtes Weißbier",
+          "brewery": "Brauerei Hummel",
+          "url": "/b/brauerei-hummel-leichtes-weissbier/755640",
+          "rating": 2.93
+        },
+        {
+          "name": "Der Himmel Uber Berlin Weissbier",
+          "brewery": "Dream Brewing (梦想酿造)",
+          "url": "/b/dream-brewing-der-himmel-uber-berlin-weissbier/4612893",
+          "rating": 3.19
+        },
+        {
+          "name": "Der Himmel Über Berlin (柏林苍芎下)",
+          "brewery": "YE Brewing (野鹅微醺)",
+          "url": "/b/ye-brewing-der-himmel-uber-berlin/5008419",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Weissbier 12° Hummel",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Weissbier Hummel",
+          "hits": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/brauerei-hummel-weissbier-hell/20171",
         "source": "llm"
       }
     },
