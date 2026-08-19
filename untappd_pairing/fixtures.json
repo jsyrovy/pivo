@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-19T15:36:20Z",
+  "generated_at": "2026-08-19T16:36:43Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -3760,6 +3760,40 @@
         "score": 1.0
       }
     },
+    "beerstreet::Brewnicorn::Sunny Day": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Brewnicorn",
+        "name": "Sunny Day",
+        "style": "APA",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-19T16:36:38Z",
+      "candidates": [
+        {
+          "name": "Sunny Day",
+          "brewery": "Brewnicorn",
+          "url": "/b/brewnicorn-sunny-day/6689258",
+          "rating": 3.69
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Sunny Day 11° Brewnicorn",
+          "hits": []
+        },
+        {
+          "query": "Sunny Day Brewnicorn",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/brewnicorn-sunny-day/6689258",
+        "score": 1.0
+      }
+    },
     "beerstreet::Chroust::EXTRA EXTRA": {
       "beer": {
         "source": "beerstreet",
@@ -6588,6 +6622,36 @@
       "outcome": {
         "matched": "/b/pioneer-beer-summer-citra-motueka/6818184",
         "source": "llm"
+      }
+    },
+    "beerstreet::Stadioner::Indianhead": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Stadioner",
+        "name": "Indianhead",
+        "style": "NEIPA",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-19T16:36:42Z",
+      "candidates": [
+        {
+          "name": "Indianhead 12°",
+          "brewery": "Stadioner",
+          "url": "/b/stadioner-indianhead-12-deg/6704326",
+          "rating": 3.86
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Indianhead 11° Stadioner",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/stadioner-indianhead-12-deg/6704326",
+        "score": 1.0
       }
     },
     "beerstreet::TAMTAM::Raise your horns": {

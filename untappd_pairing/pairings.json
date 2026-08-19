@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-19T15:36:20Z",
+  "generated_at": "2026-08-19T16:36:43Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -1157,6 +1157,16 @@
       "query_used": "Sunny Day Brewnicorn",
       "description": "Sunny Day je typický American Pale Ale s mírně sladkým tělem, jemnou chmelovou hořkostí a ovocným aroma citrusových a tropických not, doplněné lehkým sladovým podkladem a čistým závěrem."
     },
+    "beerstreet::Brewnicorn::Sunny Day": {
+      "untappd_url": "https://untappd.com/b/brewnicorn-sunny-day/6689258",
+      "untappd_name": "Sunny Day",
+      "untappd_brewery": "Brewnicorn",
+      "rating": 3.69,
+      "match_score": 1.0,
+      "matched_at": "2026-08-19T16:36:38Z",
+      "query_used": "Sunny Day Brewnicorn",
+      "description": "Sunny Day je typický American Pale Ale s lehkým sladovým tělem, mírnou chmelovou hořkostí a ovocným aroma citrusových a tropických tónů, podpořeným střední plností a 4,8 % alkoholu."
+    },
     "beerstreet::Chroust::EXTRA EXTRA": {
       "untappd_url": "https://untappd.com/b/chroust-extra-extra/6656532",
       "untappd_name": "Extra Extra",
@@ -1929,6 +1939,16 @@
       "match_score": 1.0,
       "matched_at": "2026-04-17T19:07:47Z",
       "query_used": "Vidle Sqbru"
+    },
+    "beerstreet::Stadioner::Indianhead": {
+      "untappd_url": "https://untappd.com/b/stadioner-indianhead-12-deg/6704326",
+      "untappd_name": "Indianhead 12°",
+      "untappd_brewery": "Stadioner",
+      "rating": 3.86,
+      "match_score": 1.0,
+      "matched_at": "2026-08-19T16:36:42Z",
+      "query_used": "Indianhead 11° Stadioner",
+      "description": "NEIPA s ovocným a aromatickým profilem, měkkou hořkostí a plným tělem, doplněná jemnou sladkostí sladu a lehkým alkoholem, který přináší sílu a vyváženou plnost. Hodnocení na Untappd je nadprůměrné."
     },
     "beerstreet::TAMTAM::Raise your horns": {
       "untappd_url": "https://untappd.com/b/tamtam-brewing-co-raise-your-horns/6694650",
