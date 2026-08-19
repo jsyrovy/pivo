@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-19T14:39:01Z",
+  "generated_at": "2026-08-19T15:36:20Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -3723,6 +3723,40 @@
       ],
       "outcome": {
         "matched": "/b/brewnicorn-pivorozec/6706555",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Brewnicorn::Sunny  Day": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Brewnicorn",
+        "name": "Sunny  Day",
+        "style": "APA",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-19T15:36:08Z",
+      "candidates": [
+        {
+          "name": "Sunny Day",
+          "brewery": "Brewnicorn",
+          "url": "/b/brewnicorn-sunny-day/6689258",
+          "rating": 3.69
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Sunny Day 11° Brewnicorn",
+          "hits": []
+        },
+        {
+          "query": "Sunny Day Brewnicorn",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/brewnicorn-sunny-day/6689258",
         "score": 1.0
       }
     },
@@ -9347,6 +9381,39 @@
       "outcome": {
         "matched": "/b/pivovar-mazak-aurora-cold-ipa/6810130",
         "score": 1.0
+      }
+    },
+    "uzamastilu::Mazák::Taiheke SH Hop": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Mazák",
+        "name": "Taiheke SH Hop",
+        "style": "Ale",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-08-19T15:36:19Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Taiheke SH Hop 13° Mazák",
+          "hits": []
+        },
+        {
+          "query": "Taiheke SH Hop Mazák",
+          "hits": []
+        },
+        {
+          "query": "Taiheke SH Hop 13°",
+          "hits": []
+        },
+        {
+          "query": "Taiheke SH Hop",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "uzamastilu::Mazák::Wai-Wai": {
