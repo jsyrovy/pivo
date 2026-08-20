@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-20T14:41:02Z",
+  "generated_at": "2026-08-20T15:38:44Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -1479,6 +1479,16 @@
       "matched_at": "2026-04-17T19:07:41Z",
       "query_used": "Kladenský ležák Kročehlavy"
     },
+    "beerstreet::Kynšperský::Kynšperský Zajíc": {
+      "untappd_url": "https://untappd.com/b/kynspersky-pivovar-kynspersky-zajic-11-deg-svetly-lezak/1936006",
+      "untappd_name": "Kynšperský Zajíc 11° světlý ležák",
+      "untappd_brewery": "Kynšperský pivovar",
+      "rating": 3.42,
+      "match_score": 1.0,
+      "matched_at": "2026-08-20T15:38:24Z",
+      "query_used": "<llm>",
+      "description": "Ležák typu Summer ale s mírnou hořkostí a ovocným podtónem, lehký a osvěžující, vhodný pro letní konzumaci."
+    },
     "beerstreet::Louka::Apač": {
       "untappd_url": "https://untappd.com/b/pivovar-louka-apac/3902175",
       "untappd_name": "Apač",
@@ -2484,6 +2494,16 @@
       "query_used": "Kurtizána Mordýř",
       "description": "Kurtizána je typická IPA s intenzivním chmelovým aroma, citrusovými a tropickými tóny a výraznou hořkostí, doplněná středně plným tělem a suchým závěrem."
     },
+    "toulavapipa::Mordýř::kurtizána": {
+      "untappd_url": "https://untappd.com/b/pivovar-mordyr-kurtizana/704889",
+      "untappd_name": "Kurtizána",
+      "untappd_brewery": "Pivovar Mordýř",
+      "rating": 3.57,
+      "match_score": 1.0,
+      "matched_at": "2026-08-20T15:38:41Z",
+      "query_used": "kurtizána Mordýř",
+      "description": "Kurtizána je typická IPA s výraznou chmelovou hořkostí, aromatem citrusů a tropického ovoce a středně plným tělem. Hodnocení na Untappd je průměrné."
+    },
     "toulavapipa::Obora::Summer ale": {
       "untappd_url": "https://untappd.com/b/pivovar-obora-summer-ale/3300598",
       "untappd_name": "Summer Ale",
@@ -2534,6 +2554,16 @@
       "query_used": "Summer Citra Raven",
       "description": "Silně chmelený ale s aromatem tropického ovoce a citrusů, lehkou až střední sladkostí a mírnou hořkostí, středně plné tělo, dobře pitelné. POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE…"
     },
+    "toulavapipa::Raven::raven": {
+      "untappd_url": "https://untappd.com/b/pivovar-raven-raven-12/2531564",
+      "untappd_name": "Raven 12",
+      "untappd_brewery": "Pivovar Raven",
+      "rating": 3.52,
+      "match_score": 1.0,
+      "matched_at": "2026-08-20T15:38:27Z",
+      "query_used": "raven 12° Raven",
+      "description": "Raven 12 je klasický světlý ležák s mírnou sladkostí, jemnou chmelovou hořkostí a čistým, suchým závěrem, lehkým až středně plným tělem a typickým spodně kvašeným profilem."
+    },
     "toulavapipa::Sibeeria::Avid ant": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-avid-ant/6812058",
       "untappd_name": "Avid Ant",
@@ -2563,6 +2593,16 @@
       "matched_at": "2026-08-10T14:22:33Z",
       "query_used": "Exotic Orchard Sibeeria",
       "description": "Exotic Orchard od Sibeeria Brewery je double IPA s průměrným až vysokým tělesem a mírně hořkým profilem, který potěší příznivce aromatických, ovocných hopů; oceněný 3,85 hvězdičkou na Untappd, vhodný na letní večery nebo k osvěžení po práci."
+    },
+    "toulavapipa::U Vojtěchů::Artur": {
+      "untappd_url": "https://untappd.com/b/pivovar-u-vojtechu-artur/6303126",
+      "untappd_name": "Artur",
+      "untappd_brewery": "Pivovar U Vojtěchů",
+      "rating": 3.61,
+      "match_score": 1.0,
+      "matched_at": "2026-08-20T15:38:30Z",
+      "query_used": "Artur U Vojtěchů",
+      "description": "Světlé výčepní s mírnou sladkostí sladu, jemnou chmelovou hořkostí a lehkým tělem, spodně kvašený a čistý v chuti, hodnocení nadprůměrně."
     },
     "toulavapipa::U Vojtěchů::Podlipák": {
       "untappd_url": "https://untappd.com/b/pivovar-u-vojtechu-podlipak-11/4081441",
@@ -2893,6 +2933,11 @@
     "toulavapipa::Madcat::Desítka": {
       "attempts": 1,
       "last_tried_at": "2026-08-18T14:38:17Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "toulavapipa::clock::summer affair": {
+      "attempts": 1,
+      "last_tried_at": "2026-08-20T15:38:38Z",
       "reason": "no_candidates_above_threshold"
     },
     "uzamastilu::4.3% alc Loutkář::Marioneta sv.výčepní": {

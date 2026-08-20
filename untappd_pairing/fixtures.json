@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-20T14:41:02Z",
+  "generated_at": "2026-08-20T15:38:44Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -5248,6 +5248,64 @@
         "reason": "no_candidates_above_threshold"
       }
     },
+    "beerstreet::Kynšperský::Kynšperský Zajíc": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Kynšperský",
+        "name": "Kynšperský Zajíc",
+        "style": "Summer ale",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-20T15:38:24Z",
+      "candidates": [
+        {
+          "name": "Kynšperský Zajíc 11° medový ležák",
+          "brewery": "Kynšperský pivovar",
+          "url": "/b/kynspersky-pivovar-kynspersky-zajic-11-deg-medovy-lezak/890985",
+          "rating": 3.29
+        },
+        {
+          "name": "Kynšperský Zajíc 11° světlý ležák",
+          "brewery": "Kynšperský pivovar",
+          "url": "/b/kynspersky-pivovar-kynspersky-zajic-11-deg-svetly-lezak/1936006",
+          "rating": 3.42
+        },
+        {
+          "name": "Císařský speciál 11°",
+          "brewery": "Kynšperský pivovar",
+          "url": "/b/kynspersky-pivovar-cisarsky-special-11-deg/3205213",
+          "rating": 3.5
+        },
+        {
+          "name": "Red Ipl 11°",
+          "brewery": "Kynšperský pivovar",
+          "url": "/b/kynspersky-pivovar-red-ipl-11-deg/4882805",
+          "rating": null
+        },
+        {
+          "name": "Dejvický šakal 11°",
+          "brewery": "Kynšperský pivovar",
+          "url": "/b/kynspersky-pivovar-dejvicky-sakal-11-deg/923796",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Kynšperský Zajíc 11° Kynšperský",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/kynspersky-pivovar-kynspersky-zajic-11-deg-svetly-lezak/1936006",
+        "source": "llm"
+      }
+    },
     "beerstreet::Louka::Festivalové": {
       "beer": {
         "source": "beerstreet",
@@ -8595,6 +8653,64 @@
         "score": 1.0
       }
     },
+    "toulavapipa::Mordýř::kurtizána": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Mordýř",
+        "name": "kurtizána",
+        "style": "IPA",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-20T15:38:41Z",
+      "candidates": [
+        {
+          "name": "Kurtizána",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-kurtizana/704889",
+          "rating": 3.57
+        },
+        {
+          "name": "Zelená Kurtizána",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-zelena-kurtizana/2041473",
+          "rating": 3.39
+        },
+        {
+          "name": "Mango Ale",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-mango-ale/4500799",
+          "rating": 3.5
+        },
+        {
+          "name": "Kurtizána Maracuja",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-kurtizana-maracuja/4480229",
+          "rating": 3.7
+        },
+        {
+          "name": "Kurtizána Borůvka",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-kurtizana-boruvka/5014849",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "kurtizána Mordýř",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mordyr-kurtizana/704889",
+        "score": 1.0
+      }
+    },
     "toulavapipa::Obora::Summer ale": {
       "beer": {
         "source": "toulavapipa",
@@ -8794,6 +8910,64 @@
         "score": 1.0
       }
     },
+    "toulavapipa::Raven::raven": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Raven",
+        "name": "raven",
+        "style": "Ležák",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-08-20T15:38:27Z",
+      "candidates": [
+        {
+          "name": "Dragonfruit & Pineapple 12°",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-dragonfruit-and-pineapple-12-deg/6801640",
+          "rating": 3.92
+        },
+        {
+          "name": "Raven 12",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-raven-12/2531564",
+          "rating": 3.52
+        },
+        {
+          "name": "Coffee Sour",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-coffee-sour/3691289",
+          "rating": 3.72
+        },
+        {
+          "name": "Brutal Strawberry",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-brutal-strawberry/3832359",
+          "rating": 3.77
+        },
+        {
+          "name": "Bolevecká IPA 15°",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-bolevecka-ipa-15-deg/6310534",
+          "rating": 3.75
+        }
+      ],
+      "attempts": [
+        {
+          "query": "raven 12° Raven",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-raven-raven-12/2531564",
+        "score": 1.0
+      }
+    },
     "toulavapipa::Sibeeria::Avid ant": {
       "beer": {
         "source": "toulavapipa",
@@ -8881,6 +9055,36 @@
       ],
       "outcome": {
         "matched": "/b/sibeeria-exotic-orchard/5953178",
+        "score": 1.0
+      }
+    },
+    "toulavapipa::U Vojtěchů::Artur": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "U Vojtěchů",
+        "name": "Artur",
+        "style": "Světlé výčepní",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-20T15:38:30Z",
+      "candidates": [
+        {
+          "name": "Artur",
+          "brewery": "Pivovar U Vojtěchů",
+          "url": "/b/pivovar-u-vojtechu-artur/6303126",
+          "rating": 3.61
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Artur U Vojtěchů",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-u-vojtechu-artur/6303126",
         "score": 1.0
       }
     },
@@ -8979,6 +9183,56 @@
       "outcome": {
         "matched": "/b/pivovar-zichovec-robin-na-grepu-12/5411257",
         "score": 1.0
+      }
+    },
+    "toulavapipa::clock::summer affair": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "clock",
+        "name": "summer affair",
+        "style": "Juicy pale ale",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-20T15:38:38Z",
+      "candidates": [
+        {
+          "name": "Summer Affair",
+          "brewery": "Budějovický Budvar",
+          "url": "/b/budejovicky-budvar-summer-affair/5381920",
+          "rating": 3.61
+        },
+        {
+          "name": "Summer Affair",
+          "brewery": "Chotoviny",
+          "url": "/b/chotoviny-summer-affair/2806567",
+          "rating": 3.52
+        },
+        {
+          "name": "Summer Affair",
+          "brewery": "Bier Distillery",
+          "url": "/b/bier-distillery-summer-affair/2760334",
+          "rating": 3.51
+        }
+      ],
+      "attempts": [
+        {
+          "query": "summer affair clock",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "summer affair",
+          "hits": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "toulavapipa::Čestmír::New zealand pilsner": {
