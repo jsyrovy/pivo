@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-19T22:29:28Z",
+  "generated_at": "2026-08-20T13:50:34Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -785,7 +785,8 @@
       "rating": 3.722,
       "match_score": 1.0,
       "matched_at": "2026-05-12T20:28:23Z",
-      "query_used": "Liquid Luck Sibeeria"
+      "query_used": "Liquid Luck Sibeeria",
+      "description": "Silně chmelený American pale ale s citrusovým a tropickým aroma, mírnou sladkostí a lehkou hořkostí, středně plné tělo s čistým, osvěžujícím závěrem."
     },
     "ambasada::Sibeeria, Praha::Léto 2026": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-leto-2026/6757175",
