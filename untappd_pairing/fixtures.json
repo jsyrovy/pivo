@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-20T16:39:51Z",
+  "generated_at": "2026-08-20T17:34:42Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -6680,6 +6680,40 @@
       "outcome": {
         "matched": "/b/pioneer-beer-summer-citra-motueka/6818184",
         "source": "llm"
+      }
+    },
+    "beerstreet::Sibeeria::Modus": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Sibeeria",
+        "name": "Modus",
+        "style": "Czech pilsner",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-20T17:34:41Z",
+      "candidates": [
+        {
+          "name": "Modus",
+          "brewery": "Sibeeria Brewery",
+          "url": "/b/sibeeria-brewery-modus/6659994",
+          "rating": 3.66
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Modus 11° Sibeeria",
+          "hits": []
+        },
+        {
+          "query": "Modus Sibeeria",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/sibeeria-brewery-modus/6659994",
+        "score": 1.0
       }
     },
     "beerstreet::Stadioner::Indianhead": {

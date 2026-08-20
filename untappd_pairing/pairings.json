@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-20T16:39:51Z",
+  "generated_at": "2026-08-20T17:34:42Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -1932,6 +1932,16 @@
       "matched_at": "2026-08-10T09:30:21Z",
       "query_used": "<llm>",
       "description": "Letní ale s mírnou silou 3,9 % ABV a příjemnou pitelností, ideální pro osvěžující víkendové posezení."
+    },
+    "beerstreet::Sibeeria::Modus": {
+      "untappd_url": "https://untappd.com/b/sibeeria-brewery-modus/6659994",
+      "untappd_name": "Modus",
+      "untappd_brewery": "Sibeeria Brewery",
+      "rating": 3.66,
+      "match_score": 1.0,
+      "matched_at": "2026-08-20T17:34:41Z",
+      "query_used": "Modus Sibeeria",
+      "description": "Modus je klasický český ležák s mírně sladkým tělem, jemnou chmelovou hořkostí a čistým, mírně ovocným aroma typickým pro pilsner. Hodnocení na Untappd je nadprůměrné."
     },
     "beerstreet::Sqbru::Sůl12 - Chilliout": {
       "untappd_url": "https://untappd.com/b/sqbru-skju-bru-sul12-chilliout/6607628",
