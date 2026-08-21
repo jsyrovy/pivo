@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-21T15:38:29Z",
+  "generated_at": "2026-08-21T16:40:08Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -1527,6 +1527,16 @@
       "matched_at": "2026-06-10T12:02:24Z",
       "query_used": "Fresh Breakfast 001 Louka"
     },
+    "beerstreet::Louka::Freshbreakfast #003": {
+      "untappd_url": "https://untappd.com/b/pivovar-louka-fresh-breakfast-003/5429042",
+      "untappd_name": "Fresh Breakfast #003",
+      "untappd_brewery": "Pivovar Louka",
+      "rating": 3.34,
+      "match_score": 1.0,
+      "matched_at": "2026-08-21T16:40:01Z",
+      "query_used": "Freshbreakfast #003 Louka",
+      "description": "Kyselé pivní styl Pastry sour s nízkou hořkostí a ovocným, krémovým aroma, lehkou sladkostí a měkkým tělem, připomíná ovocný džus s mírnou kyselinkou a jemnou texturou. Hodnocení podprůměrné."
+    },
     "beerstreet::Louka::Haka": {
       "untappd_url": "https://untappd.com/b/pivovar-louka-haka-12deg/4422305",
       "untappd_name": "Haka 12°",
@@ -2762,6 +2772,16 @@
       "matched_at": "2026-08-17T13:42:42Z",
       "query_used": "Ježibaba 12° Obora",
       "description": "Ležák 12° s mírnou sladkostí a jemnou chmelovou hořkostí, středně plné tělo, čistý a vyvážený profil, lehce ovocný podtón, hodnocení nadprůměrné."
+    },
+    "uzamastilu::Old Cock::Vývar": {
+      "untappd_url": "https://untappd.com/b/old-cock-beer-vyvar/5433430",
+      "untappd_name": "Vývar",
+      "untappd_brewery": "Old Cock Beer",
+      "rating": 3.39,
+      "match_score": 1.0,
+      "matched_at": "2026-08-21T16:40:05Z",
+      "query_used": "Vývar 11° Old Cock",
+      "description": "Ležák s mírnou sladkostí a jemnou chmelovou hořkostí, středně plné tělo, lehký až suchý závěr, hodnocení podprůměrné."
     },
     "uzamastilu::Permon::Ležák": {
       "untappd_url": "https://untappd.com/b/pivovar-permon-svetly-lezak-12-deg/413456",

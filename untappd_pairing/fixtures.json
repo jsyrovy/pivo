@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-21T15:38:29Z",
+  "generated_at": "2026-08-21T16:40:08Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -5423,6 +5423,40 @@
         "score": 1.0
       }
     },
+    "beerstreet::Louka::Freshbreakfast #003": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Louka",
+        "name": "Freshbreakfast #003",
+        "style": "Pastry sour",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-08-21T16:40:01Z",
+      "candidates": [
+        {
+          "name": "Fresh Breakfast #003",
+          "brewery": "Pivovar Louka",
+          "url": "/b/pivovar-louka-fresh-breakfast-003/5429042",
+          "rating": 3.34
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Freshbreakfast #003 10° Louka",
+          "hits": []
+        },
+        {
+          "query": "Freshbreakfast #003 Louka",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-louka-fresh-breakfast-003/5429042",
+        "score": 1.0
+      }
+    },
     "beerstreet::Louka::Haka": {
       "beer": {
         "source": "beerstreet",
@@ -9964,6 +9998,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-obora-jezibaba-12/1573582",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Old Cock::Vývar": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Old Cock",
+        "name": "Vývar",
+        "style": "Ležák",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-21T16:40:05Z",
+      "candidates": [
+        {
+          "name": "Vývar",
+          "brewery": "Old Cock Beer",
+          "url": "/b/old-cock-beer-vyvar/5433430",
+          "rating": 3.39
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Vývar 11° Old Cock",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/old-cock-beer-vyvar/5433430",
         "score": 1.0
       }
     },
