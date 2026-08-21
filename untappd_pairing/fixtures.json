@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-21T18:43:12Z",
+  "generated_at": "2026-08-21T19:29:18Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -1795,6 +1795,98 @@
       "outcome": {
         "matched": "/b/mikkeller-hop-shop/5205020",
         "score": 1.0
+      }
+    },
+    "ambasada::Mordýř, Dolní Ředice::Hazy Summer": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Mordýř, Dolní Ředice",
+        "name": "Hazy Summer",
+        "style": "Hazy ale",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-21T19:29:16Z",
+      "candidates": [
+        {
+          "name": "Kartel Summer Hazy Ale 11 (Srpen 2025)",
+          "brewery": "Pivovar ZICHOVEC",
+          "url": "/b/pivovar-zichovec-kartel-summer-hazy-ale-11-srpen-2025/6357422",
+          "rating": 3.77
+        },
+        {
+          "name": "Kartel Summer Hazy Ale 11 (červenec 2026)",
+          "brewery": "Pivovar ZICHOVEC",
+          "url": "/b/pivovar-zichovec-kartel-summer-hazy-ale-11-cervenec-2026/6772625",
+          "rating": 3.68
+        },
+        {
+          "name": "Hazy Summer 11",
+          "brewery": "Pivovar Máša",
+          "url": "/b/pivovar-masa-hazy-summer-11/6303547",
+          "rating": 3.79
+        },
+        {
+          "name": "One Hazy Summer",
+          "brewery": "Harpoon Brewery",
+          "url": "/b/harpoon-brewery-one-hazy-summer/3102783",
+          "rating": 3.54
+        },
+        {
+          "name": "Summer Hazy Love",
+          "brewery": "Victory Brewing Company",
+          "url": "/b/victory-brewing-company-summer-hazy-love/3800829",
+          "rating": 3.72
+        },
+        {
+          "name": "Hazy Shade of Summer (ex Poetry of Love, ex/ex Mahatma G.)",
+          "brewery": "Rewort Brewery",
+          "url": "/b/rewort-brewery-hazy-shade-of-summer-ex-poetry-of-love-ex-ex-mahatma-g/2367269",
+          "rating": 3.89
+        },
+        {
+          "name": "Summer Style",
+          "brewery": "Harpoon Brewery",
+          "url": "/b/harpoon-brewery-summer-style/4754157",
+          "rating": 3.53
+        },
+        {
+          "name": "Summer Hazy",
+          "brewery": "Burgsviks Bryggeri",
+          "url": "/b/burgsviks-bryggeri-summer-hazy/3252777",
+          "rating": 3.31
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Hazy Summer 11° Mordýř",
+          "hits": []
+        },
+        {
+          "query": "Hazy Summer Mordýř",
+          "hits": []
+        },
+        {
+          "query": "Hazy Summer 11°",
+          "hits": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "query": "Hazy Summer",
+          "hits": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "ambasada::Mordýř, Dolní Ředice::Kurtizána": {
@@ -6358,6 +6450,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-mazak-extra-horka-11deg/792388",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Moravia::Punkevní": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Moravia",
+        "name": "Punkevní",
+        "style": "Ležák světlý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-21T19:29:05Z",
+      "candidates": [
+        {
+          "name": "Punkevní 11",
+          "brewery": "Pivovar Moravia",
+          "url": "/b/pivovar-moravia-punkevni-11/2618927",
+          "rating": 3.25
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Punkevní 11° Moravia",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-moravia-punkevni-11/2618927",
         "score": 1.0
       }
     },

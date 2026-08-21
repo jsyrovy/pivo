@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-21T18:43:12Z",
+  "generated_at": "2026-08-21T19:29:18Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -316,7 +316,8 @@
       "rating": null,
       "match_score": 1.0,
       "matched_at": "2026-07-05T14:48:13Z",
-      "query_used": "PetrIPA JungBerg"
+      "query_used": "PetrIPA JungBerg",
+      "description": "Silně chmelená západní IPA s intenzivním citrusovým a pryskyřičným aroma, suchým hořkým závěrem a plným tělem podpořeným 14° stupňovitostí a 5,7 % alkoholu."
     },
     "ambasada::JungBerg, Hořice::Vista": {
       "untappd_url": "https://untappd.com/b/pivovar-jungberg-vista-single-hop-ale/6704526",
@@ -1822,6 +1823,16 @@
       "matched_at": "2026-05-19T20:28:39Z",
       "query_used": "Tropical Wave Mazák"
     },
+    "beerstreet::Moravia::Punkevní": {
+      "untappd_url": "https://untappd.com/b/pivovar-moravia-punkevni-11/2618927",
+      "untappd_name": "Punkevní 11",
+      "untappd_brewery": "Pivovar Moravia",
+      "rating": 3.25,
+      "match_score": 1.0,
+      "matched_at": "2026-08-21T19:29:05Z",
+      "query_used": "Punkevní 11° Moravia",
+      "description": "Světlý ležák s mírnou sladkostí a jemnou chmelovou hořkostí, lehkým tělem a čistým profilem, bez nadbytečných aromatických prvků."
+    },
     "beerstreet::Mordýř::Nectaron": {
       "untappd_url": "https://untappd.com/b/pivovar-mordyr-nectaron-smash-ale/6361344",
       "untappd_name": "Nectaron Smash Ale",
@@ -2933,6 +2944,11 @@
     "ambasada::Maisel & Friends, Bayreuth, Bavorsko::13,7° Artbeer #8": {
       "attempts": 1,
       "last_tried_at": "2026-05-29T20:26:06Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "ambasada::Mordýř, Dolní Ředice::Hazy Summer": {
+      "attempts": 1,
+      "last_tried_at": "2026-08-21T19:29:16Z",
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::Avar::Kazbek": {
