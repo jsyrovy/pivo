@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-21T14:40:22Z",
+  "generated_at": "2026-08-21T15:38:29Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -2712,6 +2712,16 @@
       "matched_at": "2026-08-18T17:31:57Z",
       "query_used": "Aurora Cold Mazák",
       "description": "Aurora Cold IPA je silně chmelená, aromatická IPA s citrusovými a tropickými tóny, suchým závěrem a lehkou až střední plností díky vyššímu stupňování, přesto osvěžující a dobře pitelné. POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE P…"
+    },
+    "uzamastilu::Mazák::Cryo Riwaka": {
+      "untappd_url": "https://untappd.com/b/pivovar-mazak-cryo-riwaka-12/6832732",
+      "untappd_name": "Cryo Riwaka 12",
+      "untappd_brewery": "Pivovar Mazák",
+      "rating": null,
+      "match_score": 1.0,
+      "matched_at": "2026-08-21T15:38:28Z",
+      "query_used": "Cryo Riwaka 12° Mazák",
+      "description": "Silně chmelený APA s aromatem tropického ovoce a jemnou hořkostí, středně plné tělo a suchý závěr."
     },
     "uzamastilu::Mazák::Wai-Wai": {
       "untappd_url": "https://untappd.com/b/pivovar-mazak-wai-wai/6776198",

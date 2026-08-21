@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-21T14:40:22Z",
+  "generated_at": "2026-08-21T15:38:29Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -9732,6 +9732,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-mazak-aurora-cold-ipa/6810130",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Mazák::Cryo Riwaka": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Mazák",
+        "name": "Cryo Riwaka",
+        "style": "APA",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-08-21T15:38:28Z",
+      "candidates": [
+        {
+          "name": "Cryo Riwaka 12",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-cryo-riwaka-12/6832732",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Cryo Riwaka 12° Mazák",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mazak-cryo-riwaka-12/6832732",
         "score": 1.0
       }
     },
