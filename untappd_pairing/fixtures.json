@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-21T16:40:08Z",
+  "generated_at": "2026-08-21T17:33:48Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -6236,6 +6236,36 @@
         "score": 1.0
       }
     },
+    "beerstreet::Mazák::Cryo Riwaka": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Mazák",
+        "name": "Cryo Riwaka",
+        "style": "APA",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-08-21T17:33:33Z",
+      "candidates": [
+        {
+          "name": "Cryo Riwaka 12",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-cryo-riwaka-12/6832732",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Cryo Riwaka 12° Mazák",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mazak-cryo-riwaka-12/6832732",
+        "score": 1.0
+      }
+    },
     "beerstreet::Mazák::Extra hořká": {
       "beer": {
         "source": "beerstreet",
@@ -10029,6 +10059,76 @@
       "outcome": {
         "matched": "/b/old-cock-beer-vyvar/5433430",
         "score": 1.0
+      }
+    },
+    "uzamastilu::Pastry Sour Twinberg::Brew Berrymode": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Pastry Sour Twinberg",
+        "name": "Brew Berrymode",
+        "style": "",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-21T17:33:47Z",
+      "candidates": [
+        {
+          "name": "Brew Berrymore ",
+          "brewery": "Muttermilch Vienna Brewery",
+          "url": "/b/muttermilch-vienna-brewery-brew-berrymore/5452928",
+          "rating": 3.88
+        },
+        {
+          "name": "Pink Boots Brew: Brew Berrymore Strawberry Hefeweizen",
+          "brewery": "Last Best Brewing & Distilling",
+          "url": "/b/last-best-brewing-and-distilling-pink-boots-brew-brew-berrymore-strawberry-hefeweizen/5268304",
+          "rating": 3.65
+        },
+        {
+          "name": "Brew Berrymore (Blueberry Hefeweizen)",
+          "brewery": "SOB Brewing",
+          "url": "/b/sob-brewing-brew-berrymore-blueberry-hefeweizen/6376287",
+          "rating": 3.82
+        },
+        {
+          "name": "Brew Berrymore",
+          "brewery": "Rustic Brew",
+          "url": "/b/rustic-brew-brew-berrymore/2692757",
+          "rating": 3.62
+        },
+        {
+          "name": "Brew Berrymore Nitro",
+          "brewery": "Fountain Hill Brewery",
+          "url": "/b/fountain-hill-brewery-brew-berrymore-nitro/3508780",
+          "rating": 3.71
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Brew Berrymode 11° Pastry Sour Twinberg",
+          "hits": []
+        },
+        {
+          "query": "Brew Berrymode Pastry Sour Twinberg",
+          "hits": []
+        },
+        {
+          "query": "Brew Berrymode 11°",
+          "hits": []
+        },
+        {
+          "query": "Brew Berrymode",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "uzamastilu::Permon::Ležák": {
