@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-21T17:33:48Z",
+  "generated_at": "2026-08-21T18:43:12Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -3791,6 +3791,64 @@
       ],
       "outcome": {
         "matched": "/b/brewnicorn-sunny-day/6689258",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Chroust::Chroust": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Chroust",
+        "name": "Chroust",
+        "style": "Ležák světlý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-21T18:43:11Z",
+      "candidates": [
+        {
+          "name": "Fantasy Lager 11°",
+          "brewery": "Chroust",
+          "url": "/b/chroust-fantasy-lager-11-deg/5732661",
+          "rating": 3.78
+        },
+        {
+          "name": "Štědrá IPA (2025)",
+          "brewery": "Chroust",
+          "url": "/b/chroust-stedra-ipa-2025/6451891",
+          "rating": 3.85
+        },
+        {
+          "name": "Chroust 11°",
+          "brewery": "Chroust",
+          "url": "/b/chroust-chroust-11-deg/3270180",
+          "rating": 3.47
+        },
+        {
+          "name": "Štědrá NEIPA",
+          "brewery": "Chroust",
+          "url": "/b/chroust-stedra-neipa/6451883",
+          "rating": 3.85
+        },
+        {
+          "name": "Union Session Brut IPA",
+          "brewery": "Chroust",
+          "url": "/b/chroust-union-session-brut-ipa/5380876",
+          "rating": 3.68
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Chroust 11° Chroust",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/chroust-chroust-11-deg/3270180",
         "score": 1.0
       }
     },
