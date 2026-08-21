@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-21T13:50:07Z",
+  "generated_at": "2026-08-21T14:40:22Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -7902,7 +7902,7 @@
         "style": "Ochucené tm. pivo",
         "degree_plato": null
       },
-      "captured_at": "2026-08-14T14:17:23Z",
+      "captured_at": "2026-08-21T14:40:18Z",
       "candidates": [
         {
           "name": "Erdbeer Porter",

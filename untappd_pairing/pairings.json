@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-21T13:50:07Z",
+  "generated_at": "2026-08-21T14:40:22Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -2492,7 +2492,7 @@
       "match_score": 1.0,
       "matched_at": "2026-08-14T14:17:23Z",
       "query_used": "Mango-pina-coco MadCat",
-      "description_failed_at": "2026-08-14T14:17:23Z"
+      "description": "Mango-pina-coco je ovocně kyselé sour ale s dominantními tropickými mango, ananasem a kokosem, doplněné sladkým ovocným aroma a lehkou kyselinkou, má lehké tělo a osvěžující kyselou kyselost, hodnocení 3.80 nadprůměrně."
     },
     "toulavapipa::Mordýř::Kurtizána": {
       "untappd_url": "https://untappd.com/b/pivovar-mordyr-kurtizana/704889",
@@ -2936,8 +2936,8 @@
       "reason": "no_candidates_above_threshold"
     },
     "toulavapipa::Berquell Brauerei::Jahodový porter": {
-      "attempts": 1,
-      "last_tried_at": "2026-08-14T14:17:23Z",
+      "attempts": 2,
+      "last_tried_at": "2026-08-21T14:40:18Z",
       "reason": "no_candidates_above_threshold"
     },
     "toulavapipa::Madcat::Desítka": {
