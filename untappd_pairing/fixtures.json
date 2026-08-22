@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-21T22:29:51Z",
+  "generated_at": "2026-08-22T13:36:17Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -8330,6 +8330,56 @@
         "score": 1.0
       }
     },
+    "toulavapipa::Clock::Summer affair": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Clock",
+        "name": "Summer affair",
+        "style": "Juicy pale ale",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-22T13:35:38Z",
+      "candidates": [
+        {
+          "name": "Summer Affair",
+          "brewery": "Budějovický Budvar",
+          "url": "/b/budejovicky-budvar-summer-affair/5381920",
+          "rating": 3.61
+        },
+        {
+          "name": "Summer Affair",
+          "brewery": "Chotoviny",
+          "url": "/b/chotoviny-summer-affair/2806567",
+          "rating": 3.52
+        },
+        {
+          "name": "Summer Affair",
+          "brewery": "Bier Distillery",
+          "url": "/b/bier-distillery-summer-affair/2760334",
+          "rating": 3.51
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Summer affair Clock",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Summer affair",
+          "hits": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
     "toulavapipa::Fracek::Original ležák": {
       "beer": {
         "source": "toulavapipa",
@@ -8707,6 +8757,57 @@
         "score": 1.0
       }
     },
+    "toulavapipa::Loutkář::Výroční ležák": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Loutkář",
+        "name": "Výroční ležák",
+        "style": "Světlý ležák",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-22T13:35:32Z",
+      "candidates": [
+        {
+          "name": "Výroční ležák 12",
+          "brewery": "Pivovar Loutkář",
+          "url": "/b/pivovar-loutkar-vyrocni-lezak-12/4480456",
+          "rating": 3.54
+        },
+        {
+          "name": "Výroční Ležák 2024",
+          "brewery": "Pivovar Loutkář",
+          "url": "/b/pivovar-loutkar-vyrocni-lezak-2024/5962622",
+          "rating": null
+        },
+        {
+          "name": "Výroční Ležák 2025",
+          "brewery": "Pivovar Loutkář",
+          "url": "/b/pivovar-loutkar-vyrocni-lezak-2025/6390454",
+          "rating": null
+        },
+        {
+          "name": "Výroční Ležák 2023",
+          "brewery": "Pivovar Loutkář",
+          "url": "/b/pivovar-loutkar-vyrocni-lezak-2023/5643372",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Výroční ležák Loutkář",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-loutkar-vyrocni-lezak-12/4480456",
+        "source": "llm"
+      }
+    },
     "toulavapipa::MadCat::Chaton blanc": {
       "beer": {
         "source": "toulavapipa",
@@ -8735,6 +8836,36 @@
       "outcome": {
         "matched": "/b/madcat-chaton-blanc/6800030",
         "score": 1.0
+      }
+    },
+    "toulavapipa::MadCat::Cherry apricot": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "MadCat",
+        "name": "Cherry apricot",
+        "style": "Sour ale",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-22T13:35:45Z",
+      "candidates": [
+        {
+          "name": "Cherry N' Apricot",
+          "brewery": "MadCat",
+          "url": "/b/madcat-cherry-n-apricot/6820586",
+          "rating": 3.82
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Cherry apricot MadCat",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/madcat-cherry-n-apricot/6820586",
+        "score": 0.9167
       }
     },
     "toulavapipa::MadCat::Mango pina coco": {
@@ -8873,6 +9004,36 @@
         "reason": "no_candidates_above_threshold"
       }
     },
+    "toulavapipa::Madcat::Jiskra": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Madcat",
+        "name": "Jiskra",
+        "style": "Session IPA",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-22T13:35:36Z",
+      "candidates": [
+        {
+          "name": "Jiskra",
+          "brewery": "MadCat",
+          "url": "/b/madcat-jiskra/5509844",
+          "rating": 3.6
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Jiskra Madcat",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/madcat-jiskra/5509844",
+        "score": 1.0
+      }
+    },
     "toulavapipa::Mordýř::Kurtizána": {
       "beer": {
         "source": "toulavapipa",
@@ -8928,6 +9089,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-mordyr-kurtizana/704889",
+        "score": 1.0
+      }
+    },
+    "toulavapipa::Mordýř::Red eagle": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Mordýř",
+        "name": "Red eagle",
+        "style": "Red APA",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-22T13:35:41Z",
+      "candidates": [
+        {
+          "name": "Red Eagle",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-red-eagle/1625534",
+          "rating": 3.51
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Red eagle Mordýř",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mordyr-red-eagle/1625534",
         "score": 1.0
       }
     },
@@ -9155,6 +9346,64 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-raven-orange-ipa/1676555",
+        "score": 1.0
+      }
+    },
+    "toulavapipa::Raven::Raven": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Raven",
+        "name": "Raven",
+        "style": "Světlý ležák",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-08-22T13:35:20Z",
+      "candidates": [
+        {
+          "name": "Dragonfruit & Pineapple 12°",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-dragonfruit-and-pineapple-12-deg/6801640",
+          "rating": 3.92
+        },
+        {
+          "name": "Raven 12",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-raven-12/2531564",
+          "rating": 3.52
+        },
+        {
+          "name": "Coffee Sour",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-coffee-sour/3691289",
+          "rating": 3.72
+        },
+        {
+          "name": "Brutal Strawberry",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-brutal-strawberry/3832359",
+          "rating": 3.77
+        },
+        {
+          "name": "Bolevecká IPA 15°",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-bolevecka-ipa-15-deg/6310534",
+          "rating": 3.75
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Raven 12° Raven",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-raven-raven-12/2531564",
         "score": 1.0
       }
     },
@@ -10309,6 +10558,78 @@
       "outcome": {
         "matched": null,
         "reason": "no_candidates_above_threshold"
+      }
+    },
+    "uzamastilu::Pastry Sour Twinberg::Brew Berrymore": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Pastry Sour Twinberg",
+        "name": "Brew Berrymore",
+        "style": "",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-22T13:35:51Z",
+      "candidates": [
+        {
+          "name": "Brew Berry More 12°",
+          "brewery": "Twinberg",
+          "url": "/b/twinberg-brew-berry-more-12-deg/6809079",
+          "rating": 3.8
+        },
+        {
+          "name": "Brew Berrymore ",
+          "brewery": "Muttermilch Vienna Brewery",
+          "url": "/b/muttermilch-vienna-brewery-brew-berrymore/5452928",
+          "rating": 3.88
+        },
+        {
+          "name": "Pink Boots Brew: Brew Berrymore Strawberry Hefeweizen",
+          "brewery": "Last Best Brewing & Distilling",
+          "url": "/b/last-best-brewing-and-distilling-pink-boots-brew-brew-berrymore-strawberry-hefeweizen/5268304",
+          "rating": 3.65
+        },
+        {
+          "name": "Brew Berrymore (Blueberry Hefeweizen)",
+          "brewery": "SOB Brewing",
+          "url": "/b/sob-brewing-brew-berrymore-blueberry-hefeweizen/6376287",
+          "rating": 3.82
+        },
+        {
+          "name": "Brew Berry More",
+          "brewery": "Stillmank Brewing Company",
+          "url": "/b/stillmank-brewing-company-brew-berry-more/6677722",
+          "rating": 3.92
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Brew Berrymore 11° Pastry Sour Twinberg",
+          "hits": []
+        },
+        {
+          "query": "Brew Berrymore Pastry Sour Twinberg",
+          "hits": []
+        },
+        {
+          "query": "Brew Berrymore 11°",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Brew Berrymore",
+          "hits": [
+            1,
+            0,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/twinberg-brew-berry-more-12-deg/6809079",
+        "source": "llm"
       }
     },
     "uzamastilu::Permon::Ležák": {
