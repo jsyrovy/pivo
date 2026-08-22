@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-22T16:30:21Z",
+  "generated_at": "2026-08-22T17:25:28Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -9893,6 +9893,87 @@
         "score": 1.0
       }
     },
+    "uzamastilu::Dalešice::Hořká 12": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Dalešice",
+        "name": "Hořká 12",
+        "style": "Ležák",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-08-22T17:25:25Z",
+      "candidates": [
+        {
+          "name": "Radegast Ryze hořká 12",
+          "brewery": "Radegast",
+          "url": "/b/radegast-radegast-ryze-horka-12/770120",
+          "rating": 3.22
+        },
+        {
+          "name": "Radegast Temně hořká 12",
+          "brewery": "Radegast",
+          "url": "/b/radegast-radegast-temne-horka-12/356856",
+          "rating": 3.29
+        },
+        {
+          "name": "Pernštejn - Hořká 12 Ze Sklepa",
+          "brewery": "Ostravar",
+          "url": "/b/ostravar-pernstejn-horka-12-ze-sklepa/5731493",
+          "rating": 3.24
+        },
+        {
+          "name": "Zlínský švec 12% NZ IPA Extra Hořká",
+          "brewery": "Pivovar Malenovice",
+          "url": "/b/pivovar-malenovice-nz-ipa-extra-horka/5686527",
+          "rating": 3.48
+        },
+        {
+          "name": "Kolčavka extra hořká 12°",
+          "brewery": "Pivovar Kolčavka",
+          "url": "/b/pivovar-kolcavka-kolcavka-extra-horka-12-deg/1350003",
+          "rating": 3.48
+        },
+        {
+          "name": "Hořká 12°",
+          "brewery": "Akciový pivovar Dalešice",
+          "url": "/b/akciovy-pivovar-dalesice-horka-12/4071489",
+          "rating": 3.57
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Hořká 12 12° Dalešice",
+          "hits": []
+        },
+        {
+          "query": "Hořká 12 Dalešice",
+          "hits": []
+        },
+        {
+          "query": "Hořká 12 12°",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "query": "Hořká 12",
+          "hits": [
+            0,
+            1,
+            4,
+            5,
+            2
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/akciovy-pivovar-dalesice-horka-12/4071489",
+        "score": 1.0
+      }
+    },
     "uzamastilu::Kamenice nad Lipou::Ležák": {
       "beer": {
         "source": "uzamastilu",
@@ -11080,6 +11161,68 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-zahora-silk-road/6732360",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Černý Potoka::Cloud Scanner": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Černý Potoka",
+        "name": "Cloud Scanner",
+        "style": "NEIPA",
+        "degree_plato": 15.0
+      },
+      "captured_at": "2026-08-22T17:25:12Z",
+      "candidates": [
+        {
+          "name": "Cloud Scanner (Enigma / Citra)",
+          "brewery": "černý potoka",
+          "url": "/b/cerny-potoka-cloud-scanner/2617100",
+          "rating": 3.94
+        },
+        {
+          "name": "Cloud Scanner (Sabro)",
+          "brewery": "černý potoka",
+          "url": "/b/cerny-potoka-cloud-scanner-sabro/3279424",
+          "rating": 4.09
+        },
+        {
+          "name": "Cloud Scanner (Galaxy / Nelson)",
+          "brewery": "černý potoka",
+          "url": "/b/cerny-potoka-cloud-scanner-galaxy-nelson/3556177",
+          "rating": 4.13
+        },
+        {
+          "name": "Cloud Scanner (Motueka / Riwaka)",
+          "brewery": "černý potoka",
+          "url": "/b/cerny-potoka-cloud-scanner-motueka-riwaka/6003658",
+          "rating": 4.04
+        },
+        {
+          "name": "Cloud Scanner (Dolcita, Mosaic, Citra)",
+          "brewery": "černý potoka",
+          "url": "/b/cerny-potoka-cloud-scanner-dolcita-mosaic-citra/6488685",
+          "rating": 4.02
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Cloud Scanner 15° Černý Potoka",
+          "hits": []
+        },
+        {
+          "query": "Cloud Scanner Černý Potoka",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/cerny-potoka-cloud-scanner-sabro/3279424",
         "score": 1.0
       }
     },
