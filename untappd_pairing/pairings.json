@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-23T17:24:50Z",
+  "generated_at": "2026-08-23T18:36:26Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -2407,6 +2407,16 @@
       "query_used": "Satyr 12° Švabín",
       "description": "Svěžákově sladové aroma s mírnou chmelovou hořkostí a lehkým ovocným tónem, středně plné tělo typické pro světlé ležáky stupně 12 %."
     },
+    "toulavapipa::Berquell Brauerei::Kirsch porter": {
+      "untappd_url": "https://untappd.com/b/bergquell-brauerei-lobau-kirsch-porter/60818",
+      "untappd_name": "Kirsch Porter",
+      "untappd_brewery": "Bergquell Brauerei Löbau",
+      "rating": 3.06,
+      "match_score": 1.0,
+      "matched_at": "2026-08-23T18:36:25Z",
+      "query_used": "<llm>",
+      "description": "Tmavý porter s ovocným aroma třešní a mírnou kyselostí, střední plnost těla a jemnou hořkostí, podprůměrně hodnocený."
+    },
     "toulavapipa::Beskydský pivovárek::Borůvkový ležák": {
       "untappd_url": "https://untappd.com/b/beskydsky-pivovarek-boruvkovy-lezak/497749",
       "untappd_name": "Borůvkový ležák",
@@ -2755,6 +2765,16 @@
       "matched_at": "2026-08-10T14:22:18Z",
       "query_used": "Robin na grepu Zichovec",
       "description": "Robin na Grepu 12 od pivovaru Zichovec je americkým pale alem s průměrným tělesem a vyváženou hořkostí, který potěší příznivce piva s mírnou aromatickou charakteristikou a hodí se na neformální setkání s přáteli."
+    },
+    "toulavapipa::Únětice::Únětická nefiltrovaná": {
+      "untappd_url": "https://untappd.com/b/uneticky-pivovar-uneticke-pivo-12-deg-nefiltrovane/103923",
+      "untappd_name": "Únětické pivo 12° nefiltrované",
+      "untappd_brewery": "Únětický pivovar",
+      "rating": 3.43,
+      "match_score": 0.8823529411764706,
+      "matched_at": "2026-08-23T18:36:14Z",
+      "query_used": "<llm>",
+      "description": "Svěžejší ležák s mírnou sladkostí a jemnou chmelovou hořkostí, lehce ovocným aroma a měkkým, plným tělem díky nefiltrovanému charakteru."
     },
     "toulavapipa::Čestmír::New zealand pilsner": {
       "untappd_url": "https://untappd.com/b/pivovar-cestmir-nwe-zealand-pilsner-maunga/6606406",

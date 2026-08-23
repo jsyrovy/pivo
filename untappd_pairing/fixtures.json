@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-23T17:24:50Z",
+  "generated_at": "2026-08-23T18:36:26Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -8195,6 +8195,77 @@
         "reason": "no_candidates_above_threshold"
       }
     },
+    "toulavapipa::Berquell Brauerei::Kirsch porter": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Berquell Brauerei",
+        "name": "Kirsch porter",
+        "style": "Tmavý porter ochuc. třešněmi",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-23T18:36:25Z",
+      "candidates": [
+        {
+          "name": "Kirsch Porter",
+          "brewery": "Bergquell Brauerei Löbau",
+          "url": "/b/bergquell-brauerei-lobau-kirsch-porter/60818",
+          "rating": 3.06
+        },
+        {
+          "name": "Kirsch Porter Alkoholfrei",
+          "brewery": "Bergquell Brauerei Löbau",
+          "url": "/b/bergquell-brauerei-lobau-kirsch-porter-alkoholfrei/1107764",
+          "rating": null
+        },
+        {
+          "name": "Barrel Aged Projekt: Imperial Baltic Porter Black Forest Kirsch BA",
+          "brewery": "Maryensztadt",
+          "url": "/b/maryensztadt-barrel-aged-projekt-imperial-baltic-porter-black-forest-kirsch-ba/3039486",
+          "rating": 3.98
+        },
+        {
+          "name": "Kirsch-Porter",
+          "brewery": "Schinkels Brauhaus",
+          "url": "/b/schinkels-brauhaus-kirsch-porter/4075523",
+          "rating": 3.04
+        },
+        {
+          "name": "Schulzens Kirsch-Porter-Mix",
+          "brewery": "Schulzens Brauerei",
+          "url": "/b/schulzens-brauerei-schulzens-kirsch-porter-mix/3052954",
+          "rating": 3.21
+        },
+        {
+          "name": "Kirsch-Porter",
+          "brewery": "Tungeler - Handgemachtes Bier",
+          "url": "/b/tungeler-das-bier-kirsch-porter/3017903",
+          "rating": 2.84
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Kirsch porter Berquell Brauerei",
+          "hits": [
+            0,
+            1
+          ]
+        },
+        {
+          "query": "Kirsch porter",
+          "hits": [
+            0,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/bergquell-brauerei-lobau-kirsch-porter/60818",
+        "source": "llm"
+      }
+    },
     "toulavapipa::Beskydský pivovárek::Borůvkový ležák": {
       "beer": {
         "source": "toulavapipa",
@@ -9831,6 +9902,160 @@
       "outcome": {
         "matched": null,
         "reason": "no_candidates_above_threshold"
+      }
+    },
+    "toulavapipa::Únětice::Únětická nefiltrovaná": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Únětice",
+        "name": "Únětická nefiltrovaná",
+        "style": "Sv. ležák",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-08-23T18:36:14Z",
+      "candidates": [
+        {
+          "name": "Únětické pivo 12° nefiltrované",
+          "brewery": "Únětický pivovar",
+          "url": "/b/uneticky-pivovar-uneticke-pivo-12-deg-nefiltrovane/103923",
+          "rating": 3.43
+        },
+        {
+          "name": "Únětické pivo 10° nefiltrované",
+          "brewery": "Únětický pivovar",
+          "url": "/b/uneticky-pivovar-uneticke-pivo-10-deg-nefiltrovane/202474",
+          "rating": 3.39
+        },
+        {
+          "name": "Únětický speciál 8° Letní",
+          "brewery": "Únětický pivovar",
+          "url": "/b/uneticky-pivovar-uneticky-special-8-deg-letni/2229333",
+          "rating": 3.42
+        },
+        {
+          "name": "Únětické pivo 10,7° Nefiltrované",
+          "brewery": "Únětický pivovar",
+          "url": "/b/uneticky-pivovar-uneticke-pivo-10-7-deg-nefiltrovane/4993405",
+          "rating": 3.66
+        },
+        {
+          "name": "Únětické pivo 12° Filtrované",
+          "brewery": "Únětický pivovar",
+          "url": "/b/uneticky-pivovar-uneticke-pivo-12-deg-filtrovane/4770623",
+          "rating": 3.13
+        },
+        {
+          "name": "Koala 12°",
+          "brewery": "Únětický pivovar",
+          "url": "/b/uneticky-pivovar-koala-12-deg/468414",
+          "rating": 3.37
+        },
+        {
+          "name": "Unětická Josefína 11°",
+          "brewery": "Únětický pivovar",
+          "url": "/b/uneticky-pivovar-uneticka-josefina-11-deg/2005609",
+          "rating": 3.54
+        },
+        {
+          "name": "Ray Egg – Únětická polotmavá 13° s vůní a chutí whiskey Jameson",
+          "brewery": "Únětický pivovar",
+          "url": "/b/uneticky-pivovar-ray-egg-uneticka-polotmava-13-deg-s-vuni-a-chuti-whiskey-jameson/2459120",
+          "rating": 3.61
+        },
+        {
+          "name": "Únětické pivo 10,7° filtrované",
+          "brewery": "Únětický pivovar",
+          "url": "/b/uneticky-pivovar-uneticke-pivo-10-7-deg-filtrovane/1556893",
+          "rating": 3.47
+        },
+        {
+          "name": "Únětický posvícenský speciál – polotmavá žitná 11,5°",
+          "brewery": "Únětický pivovar",
+          "url": "/b/uneticky-pivovar-uneticky-posvicensky-special-polotmava-zitna-11-5-deg/473137",
+          "rating": 3.54
+        },
+        {
+          "name": "ÚNulka°",
+          "brewery": "Únětický pivovar",
+          "url": "/b/uneticky-pivovar-unulka-deg/6606948",
+          "rating": 3.57
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Únětická nefiltrovaná 12° Únětice",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Únětická nefiltrovaná Únětice",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "query": "Únětická nefiltrovaná 12°",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Únětická nefiltrovaná",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "query": "Únětická 12° Únětice",
+          "hits": [
+            0,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "query": "Únětická Únětice",
+          "hits": [
+            0,
+            8,
+            6,
+            9,
+            10
+          ]
+        },
+        {
+          "query": "Únětická 12°",
+          "hits": [
+            0,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "query": "Únětická",
+          "hits": [
+            0,
+            8,
+            6,
+            9,
+            10
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/uneticky-pivovar-uneticke-pivo-12-deg-nefiltrovane/103923",
+        "source": "llm"
       }
     },
     "toulavapipa::Čestmír::New zealand pilsner": {
