@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-23T15:27:32Z",
+  "generated_at": "2026-08-23T16:31:52Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -11187,6 +11187,43 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-vik-beach-club/6822681",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Zichovec::Krahulík": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Zichovec",
+        "name": "Krahulík",
+        "style": "Ležák",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-23T16:31:51Z",
+      "candidates": [
+        {
+          "name": "Krahulík 11",
+          "brewery": "Pivovar ZICHOVEC",
+          "url": "/b/pivovar-zichovec-krahulik-11/2483912",
+          "rating": 3.52
+        },
+        {
+          "name": "Kartel Coconut Krahulík 11 (duben 2024)",
+          "brewery": "Rodinný pivovar Zichovec",
+          "url": "/b/rodinny-pivovar-zichovec-kartel-coconut-krahulik-11/5772418",
+          "rating": 3.58
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Krahulík 11° Zichovec",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-zichovec-krahulik-11/2483912",
         "score": 1.0
       }
     },

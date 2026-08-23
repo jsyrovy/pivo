@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-23T15:27:32Z",
+  "generated_at": "2026-08-23T16:31:52Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -3004,6 +3004,16 @@
       "matched_at": "2026-08-13T19:15:20Z",
       "query_used": "Beach Club Vik",
       "description": "Pale ale s mírnou sladkostí a jemnou chmelovou hořkostí, lehkým tělem a ovocným aroma, typickým pro anglický pale ale."
+    },
+    "uzamastilu::Zichovec::Krahulík": {
+      "untappd_url": "https://untappd.com/b/pivovar-zichovec-krahulik-11/2483912",
+      "untappd_name": "Krahulík 11",
+      "untappd_brewery": "Pivovar ZICHOVEC",
+      "rating": 3.52,
+      "match_score": 1.0,
+      "matched_at": "2026-08-23T16:31:51Z",
+      "query_used": "Krahulík 11° Zichovec",
+      "description": "Ležák s mírnou sladkostí a jemnou chmelovou hořkostí, středně plné tělo, čistá kvasná profilace, podprůměrně hodnocený."
     },
     "uzamastilu::Záhora::New Zealand": {
       "untappd_url": "https://untappd.com/b/pivovar-zahora-new-zeland-hazy-ipa/6817258",
