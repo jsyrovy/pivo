@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-22T22:27:02Z",
+  "generated_at": "2026-08-23T13:36:03Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -9180,6 +9180,43 @@
         "score": 1.0
       }
     },
+    "toulavapipa::Obora::Ale NE": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Obora",
+        "name": "Ale NE",
+        "style": "NEIPA",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-23T13:36:02Z",
+      "candidates": [
+        {
+          "name": "Ale NE",
+          "brewery": "Pivovar Obora",
+          "url": "/b/pivovar-obora-ale-ne/3852611",
+          "rating": 3.75
+        },
+        {
+          "name": "Skoro NE Alko Ale",
+          "brewery": "Pivovar Obora",
+          "url": "/b/pivovar-obora-skoro-ne-alko-ale/6113978",
+          "rating": 3.43
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Ale NE Obora",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-obora-ale-ne/3852611",
+        "score": 1.0
+      }
+    },
     "toulavapipa::Obora::Summer ale": {
       "beer": {
         "source": "toulavapipa",
@@ -9643,6 +9680,40 @@
       "outcome": {
         "matched": "/b/pivovar-u-vojtechu-podlipak-11/4081441",
         "score": 1.0
+      }
+    },
+    "toulavapipa::Weissenohe (Bavorsko)::Altfränkisch klosterbier": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Weissenohe (Bavorsko)",
+        "name": "Altfränkisch klosterbier",
+        "style": "Rotbier",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-23T13:35:58Z",
+      "candidates": [
+        {
+          "name": "Altfränkisch Klosterbier",
+          "brewery": "Klosterbrauerei Weissenohe",
+          "url": "/b/klosterbrauerei-weissenohe-altfrankisch-klosterbier/90124",
+          "rating": 3.43
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Altfränkisch klosterbier Weissenohe (Bavorsko)",
+          "hits": []
+        },
+        {
+          "query": "Altfränkisch klosterbier",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/klosterbrauerei-weissenohe-altfrankisch-klosterbier/90124",
+        "source": "llm"
       }
     },
     "toulavapipa::Zichovec::Fiesta": {

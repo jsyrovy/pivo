@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-22T22:27:02Z",
+  "generated_at": "2026-08-23T13:36:03Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -2596,6 +2596,16 @@
       "query_used": "kurtizána Mordýř",
       "description": "Kurtizána je typická IPA s výraznou chmelovou hořkostí, aromatem citrusů a tropického ovoce a středně plným tělem. Hodnocení na Untappd je průměrné."
     },
+    "toulavapipa::Obora::Ale NE": {
+      "untappd_url": "https://untappd.com/b/pivovar-obora-ale-ne/3852611",
+      "untappd_name": "Ale NE",
+      "untappd_brewery": "Pivovar Obora",
+      "rating": 3.75,
+      "match_score": 1.0,
+      "matched_at": "2026-08-23T13:36:02Z",
+      "query_used": "Ale NE Obora",
+      "description": "Silně aromatické NEIPA s dominantními ovocnými tóny – mango, ananas a grapefruit – doplněné lehkou sladkostí a měkkou, krémovou plností těla, doplněnou mírnou hořkostí a svěžím, suchým závěrem. Pivo je vysoce hodnocené."
+    },
     "toulavapipa::Obora::Summer ale": {
       "untappd_url": "https://untappd.com/b/pivovar-obora-summer-ale/3300598",
       "untappd_name": "Summer Ale",
@@ -2715,6 +2725,16 @@
       "matched_at": "2026-08-16T13:35:14Z",
       "query_used": "Podlipák U Vojtěchů",
       "description": "Ležák s mírnou sladkostí a jemnou chmelovou hořkostí, středně plné tělo, typický český styl, podprůměrně hodnocený."
+    },
+    "toulavapipa::Weissenohe (Bavorsko)::Altfränkisch klosterbier": {
+      "untappd_url": "https://untappd.com/b/klosterbrauerei-weissenohe-altfrankisch-klosterbier/90124",
+      "untappd_name": "Altfränkisch Klosterbier",
+      "untappd_brewery": "Klosterbrauerei Weissenohe",
+      "rating": 3.43,
+      "match_score": 1.0,
+      "matched_at": "2026-08-23T13:35:58Z",
+      "query_used": "<llm>",
+      "description": "Rotbier s mírnou sladkostí, jemnou karamelovou a pečivo-vonnou, střední hořkostí a lehkou plností těla, spodně kvašený a čistý v chuti."
     },
     "toulavapipa::Zichovec::Fiesta": {
       "untappd_url": "https://untappd.com/b/pivovar-zichovec-fiesta-12/6819456",
