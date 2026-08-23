@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-23T14:28:10Z",
+  "generated_at": "2026-08-23T15:27:32Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -11011,6 +11011,36 @@
       "outcome": {
         "matched": "/b/pivovar-raven-coldfest-2026/6800289",
         "score": 0.875
+      }
+    },
+    "uzamastilu::Rotor::Tryskáč": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Rotor",
+        "name": "Tryskáč",
+        "style": "APA",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-08-23T15:27:31Z",
+      "candidates": [
+        {
+          "name": "Tryskáč",
+          "brewery": "Pivovar Rotor",
+          "url": "/b/pivovar-rotor-tryskac/3873512",
+          "rating": 3.45
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Tryskáč 12° Rotor",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-rotor-tryskac/3873512",
+        "score": 1.0
       }
     },
     "uzamastilu::Sour Madcat::Cherry n' Apricot": {

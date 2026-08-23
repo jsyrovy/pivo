@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-23T14:28:10Z",
+  "generated_at": "2026-08-23T15:27:32Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -2954,6 +2954,16 @@
       "matched_at": "2026-08-10T09:33:28Z",
       "query_used": "ColdFest Cold",
       "description": "ColdFest 2026 od Pivovaru Raven je osvěžující IPA s mírnou až střední silou, která potěší příznivce aromatických chmílových vůní a dobře se hodí na letní osvěžení nebo neformální setkání s přáteli."
+    },
+    "uzamastilu::Rotor::Tryskáč": {
+      "untappd_url": "https://untappd.com/b/pivovar-rotor-tryskac/3873512",
+      "untappd_name": "Tryskáč",
+      "untappd_brewery": "Pivovar Rotor",
+      "rating": 3.45,
+      "match_score": 1.0,
+      "matched_at": "2026-08-23T15:27:31Z",
+      "query_used": "Tryskáč 12° Rotor",
+      "description": "Tryskáč je typický American Pale Ale s mírně hořkým profilem, citrusovým a tropickým aroma z chmele a lehkým sladovým těstem, středně plné až plné tělo odpovídá 12° stupňovitosti, hodnocení je průměrné."
     },
     "uzamastilu::Sour Madcat::Cherry n' Apricot": {
       "untappd_url": "https://untappd.com/b/madcat-cherry-n-apricot/6820586",
