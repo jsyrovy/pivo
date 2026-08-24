@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-24T16:43:35Z",
+  "generated_at": "2026-08-24T17:35:27Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -2362,6 +2362,68 @@
         "score": 1.0
       }
     },
+    "ambasada::Rittmayer, Hallerndorf::Rittmayer Weizen": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Rittmayer, Hallerndorf",
+        "name": "Rittmayer Weizen",
+        "style": "German hefeweizen",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-08-24T17:35:17Z",
+      "candidates": [
+        {
+          "name": "Weizen",
+          "brewery": "Brauerei Rittmayer Hallerndorf",
+          "url": "/b/brauerei-rittmayer-hallerndorf-weizen/5649789",
+          "rating": 3.49
+        },
+        {
+          "name": "Hallerndorfer Winterweizen",
+          "brewery": "Brauerei Rittmayer Hallerndorf",
+          "url": "/b/brauerei-rittmayer-hallerndorfer-winterweizen/129957",
+          "rating": 3.44
+        },
+        {
+          "name": "Weizen",
+          "brewery": "Brauerei Rittmayer Hallerndorf",
+          "url": "/b/brauerei-rittmayer-hallerndorf-rittmayer-weizen/6323974",
+          "rating": 3.44
+        },
+        {
+          "name": "Hallerndorfer Leichtes Weizen",
+          "brewery": "Brauerei Rittmayer Hallerndorf",
+          "url": "/b/brauerei-rittmayer-hallerndorfer-leichtes-weizen/129948",
+          "rating": 3.21
+        },
+        {
+          "name": "Weizen Alkoholfrei",
+          "brewery": "Brauerei Rittmayer Hallerndorf",
+          "url": "/b/brauerei-rittmayer-hallerndorf-weizen-alkoholfrei/6790088",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Rittmayer Weizen 12° Rittmayer",
+          "hits": []
+        },
+        {
+          "query": "Rittmayer Weizen Rittmayer",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/brauerei-rittmayer-hallerndorf-weizen/5649789",
+        "source": "llm"
+      }
+    },
     "ambasada::Salama Brewing co., Finsko::Lizard King": {
       "beer": {
         "source": "ambasada",
@@ -2712,6 +2774,40 @@
       ],
       "outcome": {
         "matched": "/b/sibeeria-brewery-tlaloc-god-of-rain/5939851",
+        "score": 1.0
+      }
+    },
+    "ambasada::Sibeeria, Praha::Wakatu Beach Sunset": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Sibeeria, Praha",
+        "name": "Wakatu Beach Sunset",
+        "style": "New zealand pale lager",
+        "degree_plato": 8.0
+      },
+      "captured_at": "2026-08-24T17:35:07Z",
+      "candidates": [
+        {
+          "name": "Wakatu Beach Sunset",
+          "brewery": "Sibeeria Brewery",
+          "url": "/b/sibeeria-brewery-wakatu-beach-sunset/6779808",
+          "rating": 3.54
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Wakatu Beach Sunset 8° Sibeeria",
+          "hits": []
+        },
+        {
+          "query": "Wakatu Beach Sunset Sibeeria",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/sibeeria-brewery-wakatu-beach-sunset/6779808",
         "score": 1.0
       }
     },
@@ -11344,6 +11440,40 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-trautenberk-trautenberk-14-apa/1446943",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Twinberg::Hoppy Whale 7": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Twinberg",
+        "name": "Hoppy Whale 7",
+        "style": "NEIPA",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-08-24T17:35:20Z",
+      "candidates": [
+        {
+          "name": "Hoppy Whale #7",
+          "brewery": "Twinberg",
+          "url": "/b/twinberg-hoppy-whale-7/6809119",
+          "rating": 3.76
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Hoppy Whale 7 13° Twinberg",
+          "hits": []
+        },
+        {
+          "query": "Hoppy Whale 7 Twinberg",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/twinberg-hoppy-whale-7/6809119",
         "score": 1.0
       }
     },

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-24T16:43:35Z",
+  "generated_at": "2026-08-24T17:35:27Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -697,6 +697,16 @@
       "matched_at": "2026-06-19T16:10:35Z",
       "query_used": "Strawberry Rhubarb Pie Rampušák"
     },
+    "ambasada::Rittmayer, Hallerndorf::Rittmayer Weizen": {
+      "untappd_url": "https://untappd.com/b/brauerei-rittmayer-hallerndorf-weizen/5649789",
+      "untappd_name": "Weizen",
+      "untappd_brewery": "Brauerei Rittmayer Hallerndorf",
+      "rating": 3.49,
+      "match_score": 1.0,
+      "matched_at": "2026-08-24T17:35:17Z",
+      "query_used": "<llm>",
+      "description": "Klasický německý pšeničný svrchně kvašený styl s jemnou sladovou základnou, nízkou chmelovou hořkostí a charakterovými estery banánu a hřebíčku, středně plné tělo a osvěžující zákal. Hodnocení 3,49 je v průměrném rozmezí, takže se nezmiňuje."
+    },
     "ambasada::Roman, Východní Flandry, Belgian Fruit Ale, 0::Ename Rouge": {
       "untappd_url": "https://untappd.com/b/brouwerij-roman-ename-rouge/3065897",
       "untappd_name": "Ename Rouge",
@@ -843,6 +853,16 @@
       "match_score": 1.0,
       "matched_at": "2026-05-10T08:50:47Z",
       "query_used": "Tongariro Sibeeria"
+    },
+    "ambasada::Sibeeria, Praha::Wakatu Beach Sunset": {
+      "untappd_url": "https://untappd.com/b/sibeeria-brewery-wakatu-beach-sunset/6779808",
+      "untappd_name": "Wakatu Beach Sunset",
+      "untappd_brewery": "Sibeeria Brewery",
+      "rating": 3.54,
+      "match_score": 1.0,
+      "matched_at": "2026-08-24T17:35:07Z",
+      "query_used": "Wakatu Beach Sunset Sibeeria",
+      "description": "Lehký novozélandský pale lager s jemnou sladovou základnou a osvěžujícím charakterem; nízká stupňovitost a alkohol zajišťují pitelné, lehké tělo s jemnou chmelovou stopou typickou pro novozélandské odrůdy. Hodnocení 3,54 není dostatečně extrémní pro zmínku."
     },
     "ambasada::Sibeeria, Praha::Zesty Zebra": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-zesty-zebra/6698766",
@@ -3004,6 +3024,16 @@
       "matched_at": "2026-07-23T19:06:13Z",
       "query_used": "APA 14° Trautenberk",
       "description": "Trautenberk 14 APA je středně silné pivo s 14° stupňovitostí a mírnou hořkostí, vhodné na osvěžení po práci nebo při neformální schůzce."
+    },
+    "uzamastilu::Twinberg::Hoppy Whale 7": {
+      "untappd_url": "https://untappd.com/b/twinberg-hoppy-whale-7/6809119",
+      "untappd_name": "Hoppy Whale #7",
+      "untappd_brewery": "Twinberg",
+      "rating": 3.76,
+      "match_score": 1.0,
+      "matched_at": "2026-08-24T17:35:20Z",
+      "query_used": "Hoppy Whale 7 Twinberg",
+      "description": "NEIPA s nižší stupňovitostí nabízí jemnější sladový základ, nižší plnost těla a méně výraznou hořkost než typické exempláře stylu, s důrazem na tropické a ovocné aroma z pozdního chmelového přídavku. Očekávejte zakalený vzhled, měkkou texturu a šťavnatý profil s tóny manga, marakuji nebo grepu, zakončený jemnou sladov…"
     },
     "uzamastilu::Twinberg::Moustache": {
       "untappd_url": "https://untappd.com/b/twinberg-moustache/6755650",
