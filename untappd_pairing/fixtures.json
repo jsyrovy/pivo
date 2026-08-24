@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-24T19:33:44Z",
+  "generated_at": "2026-08-24T20:36:04Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -10930,6 +10930,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-obora-jezibaba-12/1573582",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Obora::Lemongrass": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Obora",
+        "name": "Lemongrass",
+        "style": "Gose",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-08-24T20:36:03Z",
+      "candidates": [
+        {
+          "name": "Gose Lemongrass 12°",
+          "brewery": "Pivovar Obora",
+          "url": "/b/pivovar-obora-lemongrass-11-deg/6417129",
+          "rating": 3.78
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Lemongrass 12° Obora",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-obora-lemongrass-11-deg/6417129",
         "score": 1.0
       }
     },

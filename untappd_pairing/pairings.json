@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-24T19:33:44Z",
+  "generated_at": "2026-08-24T20:36:04Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -2924,6 +2924,16 @@
       "matched_at": "2026-08-17T13:42:42Z",
       "query_used": "Ježibaba 12° Obora",
       "description": "Ležák 12° s mírnou sladkostí a jemnou chmelovou hořkostí, středně plné tělo, čistý a vyvážený profil, lehce ovocný podtón, hodnocení nadprůměrné."
+    },
+    "uzamastilu::Obora::Lemongrass": {
+      "untappd_url": "https://untappd.com/b/pivovar-obora-lemongrass-11-deg/6417129",
+      "untappd_name": "Gose Lemongrass 12°",
+      "untappd_brewery": "Pivovar Obora",
+      "rating": 3.78,
+      "match_score": 1.0,
+      "matched_at": "2026-08-24T20:36:03Z",
+      "query_used": "Lemongrass 12° Obora",
+      "description": "Kyselá a lehce slaná gose s osvěžujícím citrusovým aroma a suchým tělem; přídavek citronové trávy přináší intenzivní citronovou trávu a jemnou bylinkovou svěžest. Střední plnost, jemná kyselost a jemná slanost charakterizují typický profil tohoto stylu."
     },
     "uzamastilu::Old Cock::Vývar": {
       "untappd_url": "https://untappd.com/b/old-cock-beer-vyvar/5433430",
