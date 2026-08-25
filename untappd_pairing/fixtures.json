@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-25T16:42:50Z",
+  "generated_at": "2026-08-25T17:35:53Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -837,6 +837,40 @@
       "outcome": {
         "matched": "/b/pivovar-hoppydog-rafan/2658169",
         "source": "llm"
+      }
+    },
+    "ambasada::HoppyDog, Ostrava::Mallinois Double Red": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "HoppyDog, Ostrava",
+        "name": "Mallinois Double Red",
+        "style": "Fruit sour ale",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-25T17:35:49Z",
+      "candidates": [
+        {
+          "name": "Malinois Double Red",
+          "brewery": "Pivovar HoppyDog",
+          "url": "/b/pivovar-hoppydog-malinois-double-red/6821310",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Mallinois Double Red 11° HoppyDog",
+          "hits": []
+        },
+        {
+          "query": "Mallinois Double Red HoppyDog",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-hoppydog-malinois-double-red/6821310",
+        "score": 1.0
       }
     },
     "ambasada::Hummel, Merkendorf::Weissbier": {
@@ -10620,6 +10654,64 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-kamenice-nad-lipou-vyrocni-lezak-13/6044423",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Klenot::Ale": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Klenot",
+        "name": "Ale",
+        "style": "Ale",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-25T17:35:49Z",
+      "candidates": [
+        {
+          "name": "Ale 11",
+          "brewery": "Hradecký Klenot",
+          "url": "/b/hradecky-klenot-ale-11/2808799",
+          "rating": 3.44
+        },
+        {
+          "name": "Alora Hazy ALE 12°",
+          "brewery": "Hradecký Klenot",
+          "url": "/b/hradecky-klenot-alora-hazy-ale-12-deg/6647271",
+          "rating": 3.6
+        },
+        {
+          "name": "Pumpkin Ale",
+          "brewery": "Hradecký Klenot",
+          "url": "/b/hradecky-klenot-pumpkin-ale/4146150",
+          "rating": 3.49
+        },
+        {
+          "name": "Sour ALE– Plum & Chilli",
+          "brewery": "Hradecký Klenot",
+          "url": "/b/hradecky-klenot-sour-ale-plum-and-chilli/4963480",
+          "rating": 3.41
+        },
+        {
+          "name": "Sour ALE – Pear & Ginger",
+          "brewery": "Hradecký Klenot",
+          "url": "/b/hradecky-klenot-sour-ale-pear-and-ginger/4835361",
+          "rating": 3.54
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Ale 11° Klenot",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/hradecky-klenot-ale-11/2808799",
         "score": 1.0
       }
     },

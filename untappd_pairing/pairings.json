@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-25T16:42:50Z",
+  "generated_at": "2026-08-25T17:35:53Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -250,6 +250,16 @@
       "match_score": 1.0,
       "matched_at": "2026-06-11T22:06:13Z",
       "query_used": "<llm>"
+    },
+    "ambasada::HoppyDog, Ostrava::Mallinois Double Red": {
+      "untappd_url": "https://untappd.com/b/pivovar-hoppydog-malinois-double-red/6821310",
+      "untappd_name": "Malinois Double Red",
+      "untappd_brewery": "Pivovar HoppyDog",
+      "rating": null,
+      "match_score": 1.0,
+      "matched_at": "2026-08-25T17:35:49Z",
+      "query_used": "Mallinois Double Red HoppyDog",
+      "description": "Fruit sour ale s kyselým charakterem a lehkým tělem; název naznačuje použití višní, které přidávají tmavé ovoce a jemnou sladkost do kyselého základu."
     },
     "ambasada::Hoppydog, Ostrava::Ginger Paw": {
       "untappd_url": "https://untappd.com/b/pivovar-hoppydog-ginger-paw/6645070",
@@ -2905,6 +2915,16 @@
       "matched_at": "2026-08-10T09:33:36Z",
       "query_used": "Ležák Kamenice nad Lipou",
       "description": "Výroční Ležák 13 od Pivovaru Kamenice nad Lipou je klasické 12° ležáky s mírnou až střední silou, vhodný na slavnostní večeři nebo odpolední setkání s přáteli."
+    },
+    "uzamastilu::Klenot::Ale": {
+      "untappd_url": "https://untappd.com/b/hradecky-klenot-ale-11/2808799",
+      "untappd_name": "Ale 11",
+      "untappd_brewery": "Hradecký Klenot",
+      "rating": 3.44,
+      "match_score": 1.0,
+      "matched_at": "2026-08-25T17:35:49Z",
+      "query_used": "Ale 11° Klenot",
+      "description": "Klasické svrchně kvašené pivo typu ale s vyváženým sladovým základem, jemem, jemnou chmelovou hořkostí a středně plným tělem, typické pro anglické nebo české ale. Hodnocení 3,44 naznačuje průměrné až mírně nadprůměrné přijetí."
     },
     "uzamastilu::Klenot::Kazbek": {
       "untappd_url": "https://untappd.com/b/hradecky-klenot-kazbek-11/2344577",
