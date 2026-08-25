@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-25T18:46:04Z",
+  "generated_at": "2026-08-25T19:35:52Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -1159,6 +1159,16 @@
       "match_score": 1.0,
       "matched_at": "2026-07-15T14:57:14Z",
       "query_used": "The FiRsT 11° Avar"
+    },
+    "beerstreet::Brewnicorn::Cryomotion": {
+      "untappd_url": "https://untappd.com/b/brewnicorn-cryomotion/6734149",
+      "untappd_name": "Cryomotion",
+      "untappd_brewery": "Brewnicorn",
+      "rating": 3.83,
+      "match_score": 1.0,
+      "matched_at": "2026-08-25T19:35:51Z",
+      "query_used": "Cryomotion Brewnicorn",
+      "description": "Session Cold IPA: lehké tělo, intenzivní chmelové aroma s citrusovými a tropickými tóny, střední hořkost a suchý, osvěžující závěr díky spodnímu kvašení při nižší teplotě. Hodnocení nadprůměrné."
     },
     "beerstreet::Brewnicorn::Hazy Frenzy Vibe": {
       "untappd_url": "https://untappd.com/b/brewnicorn-hazy-frenzy-vibe/6734151",

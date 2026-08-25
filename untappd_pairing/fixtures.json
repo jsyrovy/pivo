@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-25T18:46:04Z",
+  "generated_at": "2026-08-25T19:35:52Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -3874,6 +3874,40 @@
       "outcome": {
         "matched": null,
         "reason": "no_candidates_above_threshold"
+      }
+    },
+    "beerstreet::Brewnicorn::Cryomotion": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Brewnicorn",
+        "name": "Cryomotion",
+        "style": "Cold IPA session",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-25T19:35:51Z",
+      "candidates": [
+        {
+          "name": "Cryomotion",
+          "brewery": "Brewnicorn",
+          "url": "/b/brewnicorn-cryomotion/6734149",
+          "rating": 3.83
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Cryomotion 11° Brewnicorn",
+          "hits": []
+        },
+        {
+          "query": "Cryomotion Brewnicorn",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/brewnicorn-cryomotion/6734149",
+        "score": 1.0
       }
     },
     "beerstreet::Brewnicorn::Hazy Frenzy Vibe": {
