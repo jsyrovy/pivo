@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-25T15:49:07Z",
+  "generated_at": "2026-08-25T16:42:50Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -7054,6 +7054,40 @@
       "outcome": {
         "matched": "/b/pioneer-beer-summer-citra-motueka/6818184",
         "source": "llm"
+      }
+    },
+    "beerstreet::Raven::Citravaganza": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Raven",
+        "name": "Citravaganza",
+        "style": "Sessiin NEIPA",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-25T16:42:42Z",
+      "candidates": [
+        {
+          "name": "Citravaganza",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-citravaganza/4979026",
+          "rating": 3.79
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Citravaganza 11° Raven",
+          "hits": []
+        },
+        {
+          "query": "Citravaganza Raven",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-raven-citravaganza/4979026",
+        "score": 1.0
       }
     },
     "beerstreet::Sibeeria::Modus": {

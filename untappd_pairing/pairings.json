@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-25T15:49:07Z",
+  "generated_at": "2026-08-25T16:42:50Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -2004,6 +2004,16 @@
       "matched_at": "2026-08-10T09:30:21Z",
       "query_used": "<llm>",
       "description": "Letní ale s mírnou silou 3,9 % ABV a příjemnou pitelností, ideální pro osvěžující víkendové posezení."
+    },
+    "beerstreet::Raven::Citravaganza": {
+      "untappd_url": "https://untappd.com/b/pivovar-raven-citravaganza/4979026",
+      "untappd_name": "Citravaganza",
+      "untappd_brewery": "Pivovar Raven",
+      "rating": 3.79,
+      "match_score": 1.0,
+      "matched_at": "2026-08-25T16:42:42Z",
+      "query_used": "Citravaganza Raven",
+      "description": "Sessioňá NEIPA s nižší stupňovitostí a středním alkoholem nabízí jemné tělo, jemné zakalení a nízkou hořkost. Aroma i chuť jsou ovlivněny chmely s tropickým a citrusovým profilem, typickým pro NEIPA, s důrazem na šťavnatost a hladký závěr. Hodnocení 3,79 naznačuje nadprůměrné přijetí."
     },
     "beerstreet::Sibeeria::Modus": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-modus/6659994",
