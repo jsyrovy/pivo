@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-24T22:31:34Z",
+  "generated_at": "2026-08-25T13:55:20Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -4214,6 +4214,40 @@
         "score": 1.0
       }
     },
+    "beerstreet::Falkon::Krasohled": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Falkon",
+        "name": "Krasohled",
+        "style": "Pilsner - czech",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-08-25T13:54:28Z",
+      "candidates": [
+        {
+          "name": "KRASOHLED",
+          "brewery": "FALKON",
+          "url": "/b/falkon-krasohled/3795030",
+          "rating": 3.63
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Krasohled 12° Falkon",
+          "hits": []
+        },
+        {
+          "query": "Krasohled Falkon",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/falkon-krasohled/3795030",
+        "score": 1.0
+      }
+    },
     "beerstreet::Fenek::Hoppy Lager": {
       "beer": {
         "source": "beerstreet",
@@ -8392,6 +8426,36 @@
         "score": 1.0
       }
     },
+    "toulavapipa::Bratři v pivu::Dark": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Bratři v pivu",
+        "name": "Dark",
+        "style": "Polotmavý ležák",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-25T13:54:31Z",
+      "candidates": [
+        {
+          "name": "Dark Polotmavý",
+          "brewery": "Bratři v pivu",
+          "url": "/b/bratri-v-pivu-dark-polotmavy/6417783",
+          "rating": 2.71
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Dark Bratři v pivu",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/bratri-v-pivu-dark-polotmavy/6417783",
+        "score": 1.0
+      }
+    },
     "toulavapipa::Clock::Clock": {
       "beer": {
         "source": "toulavapipa",
@@ -8458,6 +8522,64 @@
       "outcome": {
         "matched": null,
         "reason": "no_candidates_above_threshold"
+      }
+    },
+    "toulavapipa::Clock::Glee": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Clock",
+        "name": "Glee",
+        "style": "Gluten reduced ale",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-25T13:54:33Z",
+      "candidates": [
+        {
+          "name": "Glee",
+          "brewery": "Pivovar Clock",
+          "url": "/b/pivovar-clock-glee/3101033",
+          "rating": 3.58
+        },
+        {
+          "name": "Glee (2023)",
+          "brewery": "Pivovar Clock",
+          "url": "/b/pivovar-clock-glee-2023/5431845",
+          "rating": 3.87
+        },
+        {
+          "name": "Coffee O'Clock",
+          "brewery": "Glen Affric Brewery",
+          "url": "/b/glen-affric-brewery-coffee-o-clock/2908779",
+          "rating": 3.16
+        },
+        {
+          "name": "Blackdog Juicy Gee",
+          "brewery": "Pivovar Clock",
+          "url": "/b/pivovar-clock-blackdog-juicy-gee/4951721",
+          "rating": 3.72
+        },
+        {
+          "name": "Zum Guete Glek Esher Lach Gse",
+          "brewery": "O'Clock Brewing",
+          "url": "/b/o-clock-brewing-zum-guete-glek-esher-lach-gse/5931895",
+          "rating": 3.73
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Glee Clock",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-clock-glee/3101033",
+        "score": 1.0
       }
     },
     "toulavapipa::Clock::Goldie": {
@@ -8921,6 +9043,36 @@
       ],
       "outcome": {
         "matched": "/b/kynspersky-pivovar-kynspersky-zajic-11-deg-svetly-lezak/1936006",
+        "score": 1.0
+      }
+    },
+    "toulavapipa::Loutkář::Bílá Dáma": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Loutkář",
+        "name": "Bílá Dáma",
+        "style": "White session IPA",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-25T13:54:37Z",
+      "candidates": [
+        {
+          "name": "Bílá Dáma 11",
+          "brewery": "Pivovar Loutkář",
+          "url": "/b/pivovar-loutkar-bila-dama-11/6389524",
+          "rating": 3.64
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Bílá Dáma Loutkář",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-loutkar-bila-dama-11/6389524",
         "score": 1.0
       }
     },
@@ -9499,6 +9651,43 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-raven-gunslinger/1614466",
+        "score": 1.0
+      }
+    },
+    "toulavapipa::Raven::Midwest IPA": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Raven",
+        "name": "Midwest IPA",
+        "style": "Hazy IPA",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-25T13:54:39Z",
+      "candidates": [
+        {
+          "name": "Midwest IPA",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-midwest-ipa/6792354",
+          "rating": 3.81
+        },
+        {
+          "name": "Midwest IPA",
+          "brewery": "Steep Ravine Brewing Company",
+          "url": "/b/steep-ravine-brewing-company-midwest-ipa/6495446",
+          "rating": 3.73
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Midwest IPA Raven",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-raven-midwest-ipa/6792354",
         "score": 1.0
       }
     },

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-24T22:31:34Z",
+  "generated_at": "2026-08-25T13:55:20Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -1253,6 +1253,16 @@
       "matched_at": "2026-05-15T20:14:37Z",
       "query_used": "Mosaic Duck&Dog"
     },
+    "beerstreet::Falkon::Krasohled": {
+      "untappd_url": "https://untappd.com/b/falkon-krasohled/3795030",
+      "untappd_name": "KRASOHLED",
+      "untappd_brewery": "FALKON",
+      "rating": 3.63,
+      "match_score": 1.0,
+      "matched_at": "2026-08-25T13:54:28Z",
+      "query_used": "Krasohled Falkon",
+      "description": "Klasický český ležák typu pilsner: sladový základ s jemnou chmelovou hořkostí, středně plné tělo a čistý, vyvážený charakter spodního kvašení."
+    },
     "beerstreet::Fenek::Hoppy Lager": {
       "untappd_url": "https://untappd.com/b/fenek-craft-beer-hoppy-lager-11-deg-ipl/5986366",
       "untappd_name": "Hoppy Lager 11° IPL",
@@ -2447,6 +2457,16 @@
       "query_used": "Borůvkový ležák Beskydský pivovárek",
       "description": "Borovský ležák od Beskydského pivováreku je ochucený ležák s mírnou ovocnou charakteristikou, vhodný pro osvěžení v letních dnech."
     },
+    "toulavapipa::Bratři v pivu::Dark": {
+      "untappd_url": "https://untappd.com/b/bratri-v-pivu-dark-polotmavy/6417783",
+      "untappd_name": "Dark Polotmavý",
+      "untappd_brewery": "Bratři v pivu",
+      "rating": 2.71,
+      "match_score": 1.0,
+      "matched_at": "2026-08-25T13:54:31Z",
+      "query_used": "Dark Bratři v pivu",
+      "description": "Polotmavý ležák s vyváženým sladovým charakterem, jemnou karamelovou sladostí a mírnou chmelovou hořkostí, středně plné tělo a čistý, dobře pitelný závěr. Podprůměrně hodnocené na Untappd."
+    },
     "toulavapipa::Clock::Clock": {
       "untappd_url": "https://untappd.com/b/clock-clock-apa/730508",
       "untappd_name": "Clock APA",
@@ -2456,6 +2476,16 @@
       "matched_at": "2026-08-10T11:14:23Z",
       "query_used": "<override>",
       "description": "Clock APA od pivovaru Clock je typické americké pale ale s vyváženou hořkostí a ovocnými aromaty chmele, má střední tělo a dobře se hodí k odpočinku po práci nebo k neformálnímu setkání s přáteli."
+    },
+    "toulavapipa::Clock::Glee": {
+      "untappd_url": "https://untappd.com/b/pivovar-clock-glee/3101033",
+      "untappd_name": "Glee",
+      "untappd_brewery": "Pivovar Clock",
+      "rating": 3.58,
+      "match_score": 1.0,
+      "matched_at": "2026-08-25T13:54:33Z",
+      "query_used": "Glee Clock",
+      "description": "Gluten reduced ale je svrchně kvašené pivo s nižším obsahem lepku, typicky s jemným sladovým profilem, střední hořkostí a čistým, vyváženým charakterem bez výrazných chmelových nebo ovocných akcentů. Hodnocení 3,58 naznačuje průměrně přijaté pivo bez výrazných extrémů v chuti nebo aroma."
     },
     "toulavapipa::Clock::Goldie": {
       "untappd_url": "https://untappd.com/b/pivovar-clock-goldie/778831",
@@ -2537,6 +2567,16 @@
       "query_used": "Zajíc 11° Kynšperský",
       "description": "Kynšperský Zajíc 11° světlý ležák od Kynšperského pivovaru je středně silný ležák s průměrným hodnocením 3.42, vhodný na běžné posezení i letní osvěžení."
     },
+    "toulavapipa::Loutkář::Bílá Dáma": {
+      "untappd_url": "https://untappd.com/b/pivovar-loutkar-bila-dama-11/6389524",
+      "untappd_name": "Bílá Dáma 11",
+      "untappd_brewery": "Pivovar Loutkář",
+      "rating": 3.64,
+      "match_score": 1.0,
+      "matched_at": "2026-08-25T13:54:37Z",
+      "query_used": "Bílá Dáma Loutkář",
+      "description": "White session IPA je lehké, svrchně kvašené pivo s jemnou sladovou základnou a střední chmelovou hořkostí, typicky s citrusovými, květinovými nebo tropickými tóny v aroma a suchým, osvěžujícím závěrem. Díky nižší stupňovitosti a alkoholu je pivo pitelné a osvěžující, s lehčím tělem než klasické IPA."
+    },
     "toulavapipa::Loutkář::Výroční ležák": {
       "untappd_url": "https://untappd.com/b/pivovar-loutkar-vyrocni-lezak-12/4480456",
       "untappd_name": "Výroční ležák 12",
@@ -2574,7 +2614,8 @@
       "rating": 3.8,
       "match_score": 1.0,
       "matched_at": "2026-08-10T09:32:54Z",
-      "query_used": "Mango pina coco MadCat"
+      "query_used": "Mango pina coco MadCat",
+      "description": "Kyselé svrchně kvašené pivo s ovocným charakterem manga, ananasu a kokosu, které přidává sladké, tropické aroma a chuť, doplňující přirozenou kyselost sour ale. Hodnocení 3,80 naznačuje nadprůměrné přijetí."
     },
     "toulavapipa::MadCat::Mango-pina-coco": {
       "untappd_url": "https://untappd.com/b/madcat-mango-pina-coco/2990679",
@@ -2665,6 +2706,16 @@
       "matched_at": "2026-08-12T14:21:59Z",
       "query_used": "Gunslinger Raven",
       "description_failed_at": "2026-08-12T14:21:59Z"
+    },
+    "toulavapipa::Raven::Midwest IPA": {
+      "untappd_url": "https://untappd.com/b/pivovar-raven-midwest-ipa/6792354",
+      "untappd_name": "Midwest IPA",
+      "untappd_brewery": "Pivovar Raven",
+      "rating": 3.81,
+      "match_score": 1.0,
+      "matched_at": "2026-08-25T13:54:39Z",
+      "query_used": "Midwest IPA Raven",
+      "description": "Hazy IPA s mléčným zákalem, intenzivním tropickým a ovocným aroma chmele, střední hořkostí a plnějším, sametovým tělem typickým pro New England styl. Hodnocení 3,81 naznačuje nadprůměrné přijetí na Untappd."
     },
     "toulavapipa::Raven::Orange IPA": {
       "untappd_url": "https://untappd.com/b/pivovar-raven-orange-ipa/1676555",
