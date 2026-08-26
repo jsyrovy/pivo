@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-26T14:53:00Z",
+  "generated_at": "2026-08-26T16:22:07Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -1031,6 +1031,16 @@
       "matched_at": "2026-07-06T18:59:38Z",
       "query_used": "<llm>"
     },
+    "ambasada::Černý Potoka, Hořice::Cloud Scanner": {
+      "untappd_url": "https://untappd.com/b/cerny-potoka-cloud-scanner-sabro/3279424",
+      "untappd_name": "Cloud Scanner (Sabro)",
+      "untappd_brewery": "černý potoka",
+      "rating": 4.09,
+      "match_score": 1.0,
+      "matched_at": "2026-08-26T16:22:02Z",
+      "query_used": "Cloud Scanner Černý Potoka",
+      "description": "NEIPA s výrazným ovocným a tropickým profilem díky chmelu Sabro, který přináší aroma kokosu, manga a citrusů; středně plné tělo s jemnou zakaleností a nižší hořkostí, typické pro styl. Hodnocení na Untappd je nadprůměrné."
+    },
     "ambasada::Černý Potoka, Potštejn::Hellion": {
       "untappd_url": "https://untappd.com/b/cerny-potoka-hellion/3092309",
       "untappd_name": "Hellion",
@@ -1445,7 +1455,8 @@
       "rating": 3.381,
       "match_score": 1.0,
       "matched_at": "2026-04-17T11:20:46Z",
-      "query_used": "Kazbek Klenot"
+      "query_used": "Kazbek Klenot",
+      "description": "Klasický světlý ležák: sladový základ, jemná chmelová hořkost a lehčí tělo, spodně kvašený a čistý v chuti. Podprůměrně hodnocené na Untappd."
     },
     "beerstreet::Klenot::Mango & broskev": {
       "untappd_url": "https://untappd.com/b/hradecky-klenot-sour-mango-and-peach/4292985",

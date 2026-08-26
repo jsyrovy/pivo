@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-26T14:53:00Z",
+  "generated_at": "2026-08-26T16:22:07Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -3190,6 +3190,68 @@
       "outcome": {
         "matched": "/b/kasteel-brouwerij-vanhonsebrouck-kasteel-tropical/6215549",
         "source": "llm"
+      }
+    },
+    "ambasada::Černý Potoka, Hořice::Cloud Scanner": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Černý Potoka, Hořice",
+        "name": "Cloud Scanner",
+        "style": "NEIPA",
+        "degree_plato": 15.0
+      },
+      "captured_at": "2026-08-26T16:22:02Z",
+      "candidates": [
+        {
+          "name": "Cloud Scanner (Enigma / Citra)",
+          "brewery": "černý potoka",
+          "url": "/b/cerny-potoka-cloud-scanner/2617100",
+          "rating": 3.94
+        },
+        {
+          "name": "Cloud Scanner (Sabro)",
+          "brewery": "černý potoka",
+          "url": "/b/cerny-potoka-cloud-scanner-sabro/3279424",
+          "rating": 4.09
+        },
+        {
+          "name": "Cloud Scanner (Galaxy / Nelson)",
+          "brewery": "černý potoka",
+          "url": "/b/cerny-potoka-cloud-scanner-galaxy-nelson/3556177",
+          "rating": 4.13
+        },
+        {
+          "name": "Cloud Scanner (Motueka / Riwaka)",
+          "brewery": "černý potoka",
+          "url": "/b/cerny-potoka-cloud-scanner-motueka-riwaka/6003658",
+          "rating": 4.04
+        },
+        {
+          "name": "Cloud Scanner (Dolcita, Mosaic, Citra)",
+          "brewery": "černý potoka",
+          "url": "/b/cerny-potoka-cloud-scanner-dolcita-mosaic-citra/6488685",
+          "rating": 4.02
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Cloud Scanner 15° Černý Potoka",
+          "hits": []
+        },
+        {
+          "query": "Cloud Scanner Černý Potoka",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/cerny-potoka-cloud-scanner-sabro/3279424",
+        "score": 1.0
       }
     },
     "ambasada::Černý Potoka, Potštejn::Hellion": {
