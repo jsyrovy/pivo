@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-26T16:22:07Z",
+  "generated_at": "2026-08-26T19:09:10Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -6867,6 +6867,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-obora-sunny-apa/5829209",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Old Cock::Brko": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Old Cock",
+        "name": "Brko",
+        "style": "Ležák světlý",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-08-26T19:09:09Z",
+      "candidates": [
+        {
+          "name": "Brko 12°",
+          "brewery": "Old Cock Beer",
+          "url": "/b/old-cock-beer-brko/6567105",
+          "rating": 3.32
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Brko 12° Old Cock",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/old-cock-beer-brko/6567105",
         "score": 1.0
       }
     },
