@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-26T19:09:10Z",
+  "generated_at": "2026-08-26T23:10:48Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -1202,6 +1202,64 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-jungberg-vista-single-hop-ale/6704526",
+        "score": 1.0
+      }
+    },
+    "ambasada::Klenot, HK::Ale": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Klenot, HK",
+        "name": "Ale",
+        "style": "Ale",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-26T23:10:41Z",
+      "candidates": [
+        {
+          "name": "Ale 11",
+          "brewery": "Hradecký Klenot",
+          "url": "/b/hradecky-klenot-ale-11/2808799",
+          "rating": 3.44
+        },
+        {
+          "name": "Alora Hazy ALE 12°",
+          "brewery": "Hradecký Klenot",
+          "url": "/b/hradecky-klenot-alora-hazy-ale-12-deg/6647271",
+          "rating": 3.6
+        },
+        {
+          "name": "Pumpkin Ale",
+          "brewery": "Hradecký Klenot",
+          "url": "/b/hradecky-klenot-pumpkin-ale/4146150",
+          "rating": 3.49
+        },
+        {
+          "name": "Sour ALE– Plum & Chilli",
+          "brewery": "Hradecký Klenot",
+          "url": "/b/hradecky-klenot-sour-ale-plum-and-chilli/4963480",
+          "rating": 3.41
+        },
+        {
+          "name": "Sour ALE – Pear & Ginger",
+          "brewery": "Hradecký Klenot",
+          "url": "/b/hradecky-klenot-sour-ale-pear-and-ginger/4835361",
+          "rating": 3.54
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Ale 11° Klenot",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/hradecky-klenot-ale-11/2808799",
         "score": 1.0
       }
     },
@@ -10776,6 +10834,36 @@
       ],
       "outcome": {
         "matched": "/b/akciovy-pivovar-dalesice-horka-12/4071489",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Jungberg::PP": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Jungberg",
+        "name": "PP",
+        "style": "Ležák",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-08-26T23:10:42Z",
+      "candidates": [
+        {
+          "name": "PP 12%",
+          "brewery": "Pivovar JungBerg",
+          "url": "/b/pivovar-jungberg-pp-12/1774180",
+          "rating": 3.44
+        }
+      ],
+      "attempts": [
+        {
+          "query": "PP 12° Jungberg",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-jungberg-pp-12/1774180",
         "score": 1.0
       }
     },
