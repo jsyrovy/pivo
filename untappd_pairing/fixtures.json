@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-25T22:32:25Z",
+  "generated_at": "2026-08-26T13:57:31Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -9753,6 +9753,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-raven-gunslinger/1614466",
+        "score": 1.0
+      }
+    },
+    "toulavapipa::Raven::Krush lager": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Raven",
+        "name": "Krush lager",
+        "style": "IPL",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-26T13:57:29Z",
+      "candidates": [
+        {
+          "name": "Krush Lager",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-krush-lager/6781333",
+          "rating": 3.51
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Krush lager Raven",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-raven-krush-lager/6781333",
         "score": 1.0
       }
     },

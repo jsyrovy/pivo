@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-25T22:32:25Z",
+  "generated_at": "2026-08-26T13:57:31Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -2736,6 +2736,16 @@
       "matched_at": "2026-08-12T14:21:59Z",
       "query_used": "Gunslinger Raven",
       "description_failed_at": "2026-08-12T14:21:59Z"
+    },
+    "toulavapipa::Raven::Krush lager": {
+      "untappd_url": "https://untappd.com/b/pivovar-raven-krush-lager/6781333",
+      "untappd_name": "Krush Lager",
+      "untappd_brewery": "Pivovar Raven",
+      "rating": 3.51,
+      "match_score": 1.0,
+      "matched_at": "2026-08-26T13:57:29Z",
+      "query_used": "Krush lager Raven",
+      "description": "IPL kombinuje chmelovou aromatičnost IPA s čistotou a suchostí ležáku – střední hořkost, citrusové a pryskyřičné tóny, lehčí tělo a čistý, osvěžující závěr spodního kvašení."
     },
     "toulavapipa::Raven::Midwest IPA": {
       "untappd_url": "https://untappd.com/b/pivovar-raven-midwest-ipa/6792354",
