@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-26T23:10:48Z",
+  "generated_at": "2026-08-27T22:53:56Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -2056,6 +2056,26 @@
       "query_used": "<llm>",
       "description": "Letní ale s mírnou silou 3,9 % ABV a příjemnou pitelností, ideální pro osvěžující víkendové posezení."
     },
+    "beerstreet::Rampušák::Malinový kyseláč": {
+      "untappd_url": "https://untappd.com/b/rodinny-pivovar-rampusak-malinovy-kyselac-9-deg/6821559",
+      "untappd_name": "Malinový Kyseláč 9°",
+      "untappd_brewery": "Rodinný pivovar Rampušák",
+      "rating": 3.82,
+      "match_score": 1.0,
+      "matched_at": "2026-08-27T22:53:38Z",
+      "query_used": "Malinový kyseláč 9° Rampušák",
+      "description": "Kyselé svrchně kvašené pivo s ostrou ovocnou kyselinkou a lehkým tělem; maliny přidávají sladkokyselý ovocný tón, který kyselost doplňuje a zjemňuje. Nadprůměrně hodnocené."
+    },
+    "beerstreet::Rampušák::Summer Ale": {
+      "untappd_url": "https://untappd.com/b/rodinny-pivovar-rampusak-summer-ale-10-deg/6757698",
+      "untappd_name": "Summer Ale 10°",
+      "untappd_brewery": "Rodinný pivovar Rampušák",
+      "rating": 3.66,
+      "match_score": 1.0,
+      "matched_at": "2026-08-27T22:53:36Z",
+      "query_used": "Summer Ale 10° Rampušák",
+      "description": "Letní ale s lehkým tělem a nižším obsahem alkoholu nabízí jemnou sladovou základnu s možným nádechem obilné sladkosti a jemnou chmelovou hořkostí, typickou pro svrchně kvašená letní piva – osvěžující a snadno pitelné."
+    },
     "beerstreet::Raven::Citravaganza": {
       "untappd_url": "https://untappd.com/b/pivovar-raven-citravaganza/4979026",
       "untappd_name": "Citravaganza",
@@ -3256,6 +3276,16 @@
       "matched_at": "2026-08-12T15:49:45Z",
       "query_used": "<override>",
       "description": "Smash APA s názvem Vera od Pivovaru Čestmír, 12° stupňovitosti, typicky ovocně chmelené aroma s citrusovými tóny a mírnou hořkostí, středně plné tělo, suchý závěr."
+    },
+    "uzamastilu::Římská::Breezy": {
+      "untappd_url": "https://untappd.com/b/pivovar-rimska-breezy-xi-deg/6810175",
+      "untappd_name": "Breezy XI°",
+      "untappd_brewery": "Pivovar Římská",
+      "rating": 3.59,
+      "match_score": 1.0,
+      "matched_at": "2026-08-27T22:53:53Z",
+      "query_used": "Breezy Římská",
+      "description": "Session IPA s lehčím tělem a střední hořkostí, typicky s citrusovým, tropickým a květinovým chmelovým aroma, spodně kvašená nebo svrchně kvašená s důrazem na pitelnost a osvěžující charakter. Hodnocení 3,59 je v průměrném rozmezí, takže se nezmiňuje."
     }
   },
   "unmatched": {
@@ -3367,6 +3397,11 @@
     "uzamastilu::Pastry Sour Twinberg::Brew Berrymode": {
       "attempts": 1,
       "last_tried_at": "2026-08-21T17:33:47Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "uzamastilu::Rhap-Nectaron Čestmír::Stereo Lab": {
+      "attempts": 1,
+      "last_tried_at": "2026-08-27T22:53:52Z",
       "reason": "no_candidates_above_threshold"
     }
   }

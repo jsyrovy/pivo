@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-26T23:10:48Z",
+  "generated_at": "2026-08-27T22:53:56Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -7274,6 +7274,66 @@
         "source": "llm"
       }
     },
+    "beerstreet::Rampušák::Malinový kyseláč": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Rampušák",
+        "name": "Malinový kyseláč",
+        "style": "Sour",
+        "degree_plato": 9.0
+      },
+      "captured_at": "2026-08-27T22:53:38Z",
+      "candidates": [
+        {
+          "name": "Malinový Kyseláč 9°",
+          "brewery": "Rodinný pivovar Rampušák",
+          "url": "/b/rodinny-pivovar-rampusak-malinovy-kyselac-9-deg/6821559",
+          "rating": 3.82
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Malinový kyseláč 9° Rampušák",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/rodinny-pivovar-rampusak-malinovy-kyselac-9-deg/6821559",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Rampušák::Summer Ale": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Rampušák",
+        "name": "Summer Ale",
+        "style": "Summer ale",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-08-27T22:53:36Z",
+      "candidates": [
+        {
+          "name": "Summer Ale 10°",
+          "brewery": "Rodinný pivovar Rampušák",
+          "url": "/b/rodinny-pivovar-rampusak-summer-ale-10-deg/6757698",
+          "rating": 3.66
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Summer Ale 10° Rampušák",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/rodinny-pivovar-rampusak-summer-ale-10-deg/6757698",
+        "score": 1.0
+      }
+    },
     "beerstreet::Raven::Citravaganza": {
       "beer": {
         "source": "beerstreet",
@@ -11923,6 +11983,74 @@
         "score": 0.875
       }
     },
+    "uzamastilu::Rhap-Nectaron Čestmír::Stereo Lab": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Rhap-Nectaron Čestmír",
+        "name": "Stereo Lab",
+        "style": "IPA",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-08-27T22:53:52Z",
+      "candidates": [
+        {
+          "name": "IPA 13° Stereo Lab (Sabro, Citra)",
+          "brewery": "Pivovar Čestmír",
+          "url": "/b/pivovar-cestmir-ipa-13-deg-stereo-lab-sabro-citra/4321069",
+          "rating": 3.77
+        },
+        {
+          "name": "IPA 13° Stereo Lab (Talus, Mosaic)",
+          "brewery": "Pivovar Čestmír",
+          "url": "/b/pivovar-cestmir-ipa-13-deg-stereo-lab-talus-mosaic/4746802",
+          "rating": 3.78
+        },
+        {
+          "name": "IPA 13° Stereo Lab (Riwaka, Nectaron)",
+          "brewery": "Pivovar Čestmír",
+          "url": "/b/pivovar-cestmir-ipa-13-deg-stereo-lab-riwaka-nectaron/5245499",
+          "rating": 3.83
+        },
+        {
+          "name": "IPA 13° Stereo Lab (Strata & Citra)",
+          "brewery": "Pivovar Čestmír",
+          "url": "/b/pivovar-cestmir-ipa-13-deg-stereo-lab-strata-citra/4839345",
+          "rating": 3.77
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Stereo Lab 13° Rhap-Nectaron Čestmír",
+          "hits": []
+        },
+        {
+          "query": "Stereo Lab Rhap-Nectaron Čestmír",
+          "hits": []
+        },
+        {
+          "query": "Stereo Lab 13°",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "query": "Stereo Lab",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
     "uzamastilu::Rotor::Tryskáč": {
       "beer": {
         "source": "uzamastilu",
@@ -12384,6 +12512,48 @@
       "outcome": {
         "matched": null,
         "reason": "no_candidates_above_threshold"
+      }
+    },
+    "uzamastilu::Římská::Breezy": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Římská",
+        "name": "Breezy",
+        "style": "Session IPA",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-27T22:53:53Z",
+      "candidates": [
+        {
+          "name": "Riwaka Breeze 11°",
+          "brewery": "Pivovar Trojan Telč",
+          "url": "/b/pivovar-trojan-telc-riwaka-breeze-11-deg/6841255",
+          "rating": null
+        },
+        {
+          "name": "Breezy XI°",
+          "brewery": "Pivovar Římská",
+          "url": "/b/pivovar-rimska-breezy-xi-deg/6810175",
+          "rating": 3.59
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Breezy 11° Římská",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Breezy Římská",
+          "hits": [
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-rimska-breezy-xi-deg/6810175",
+        "score": 1.0
       }
     }
   }
