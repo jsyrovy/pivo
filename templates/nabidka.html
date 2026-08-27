@@ -282,8 +282,9 @@
     const SOURCE_KEYS = Object.keys(SOURCES);
 
     // Category keys come from the worker (`beer.styleCategory`); the Czech labels and the button
-    // order live here, so the API carries no UI copy. The `other` category has no button on
-    // purpose -- its beers stay visible under "Vše", so nothing falls off the page.
+    // order live here, so the API carries no UI copy. Normally `other` has no button -- its beers
+    // stay visible under "Vše" so nothing falls off the page -- but in debug mode it gets one, to
+    // show what the categorization failed to place.
     const STYLE_CATEGORIES = [
         {key: 'lezak', label: 'Ležáky'},
         {key: 'ipa', label: 'IPA'},
@@ -292,6 +293,7 @@
         {key: 'dark', label: 'Tmavá'},
         {key: 'special', label: 'Pšeničné a speciály'},
         {key: 'nealko', label: 'Nealko'},
+        {key: 'other', label: 'Ostatní', debugOnly: true},
     ];
     const STYLE_KEYS = new Set(STYLE_CATEGORIES.map(category => category.key));
 
@@ -406,6 +408,15 @@
         html += '<div class="debug-panel-section-header">📦 RAW API</div>';
         html += `<div class="debug-panel-section-value">${esc(beerJson)}</div>`;
         html += '</div>';
+
+        // What the pub wrote vs. which filter bucket it landed in
+        html += '<div class="debug-panel-section">';
+        html += '<div class="debug-panel-section-header">🍺 STYL</div>';
+        html += '<div class="debug-panel-section-value">';
+        html += `raw: ${esc(beer.style || '–')}`;
+        html += `\nkategorie: ${esc(beer.styleCategory || 'other')}`;
+        if (!beer.styleCategory) html += ' <span class="missing">(chybí v odpovědi API)</span>';
+        html += '</div></div>';
 
         // Pricing breakdown
         if (beer.pricing) {
@@ -575,14 +586,15 @@
             if (visible && !unavailable) visibleCount++;
         }
 
-        STYLE_CATEGORIES.forEach(({key, label}) => {
+        STYLE_CATEGORIES.forEach(({key, label, debugOnly}) => {
             const count = styleCounts[key] || 0;
             const btn = styleBtns[key];
             btn.textContent = `${label} · ${count}`;
             btn.classList.toggle('active', key === activeStyle);
-            // Nothing on tap means no button -- unless it is the active filter, which has to stay
-            // clickable so it can be switched off again.
-            btn.classList.toggle('hidden', count === 0 && key !== activeStyle);
+            // Nothing on tap (or a debug-only category outside debug mode) means no button -- the
+            // active filter is the exception, it has to stay clickable so it can be switched off.
+            const hide = count === 0 || (debugOnly && !isDebug);
+            btn.classList.toggle('hidden', hide && key !== activeStyle);
         });
 
         $beerCount.textContent = `· ${visibleCount} piv na čepu`;
