@@ -176,7 +176,7 @@
             <span id="beer-count" class="text-zinc-500 dark:text-chalk/40"></span>
         </div>
     </header>
-    <nav class="flex flex-wrap justify-center gap-2 px-6 pb-3">
+    <nav class="flex flex-wrap justify-center gap-2 px-6 pb-2">
         <button class="filter-btn active text-xs border border-zinc-300 dark:border-chalk/10 text-zinc-500 dark:text-chalk/60 rounded-full px-3 py-1.5 whitespace-nowrap"
                 data-filter="all"
                 onclick="setFilter('all')">Vše</button>
@@ -209,6 +209,10 @@
                 <path stroke-linecap="round" stroke-linejoin="round" d="M21 3v5h-5" />
             </svg>
         </button>
+    </nav>
+    <!-- Buttons are built by JS: one per style category that is actually on tap right now. -->
+    <nav id="style-filters"
+         class="hidden flex flex-wrap justify-center gap-2 px-6 pb-3">
     </nav>
     <div id="warning" class="hidden max-w-6xl mx-auto px-6 pb-3">
         <p class="text-yellow-500/70 text-xs text-center" id="warning-text"></p>
@@ -277,6 +281,20 @@
     };
     const SOURCE_KEYS = Object.keys(SOURCES);
 
+    // Category keys come from the worker (`beer.styleCategory`); the Czech labels and the button
+    // order live here, so the API carries no UI copy. The `other` category has no button on
+    // purpose -- its beers stay visible under "Vše", so nothing falls off the page.
+    const STYLE_CATEGORIES = [
+        {key: 'lezak', label: 'Ležáky'},
+        {key: 'ipa', label: 'IPA'},
+        {key: 'paleale', label: 'Pale ale'},
+        {key: 'sour', label: 'Sour'},
+        {key: 'dark', label: 'Tmavá'},
+        {key: 'special', label: 'Pšeničné a speciály'},
+        {key: 'nealko', label: 'Nealko'},
+    ];
+    const STYLE_KEYS = new Set(STYLE_CATEGORIES.map(category => category.key));
+
     const API_BASE = 'https://tap-api.jiri-syrovy.workers.dev';
     const PAIRINGS_URL = 'pairings.json';
 
@@ -290,6 +308,7 @@
     const $updateTime = document.getElementById('update-time');
     const $filterBtns = document.querySelectorAll('.filter-btn');
     const $refreshBtn = document.getElementById('refresh-btn');
+    const $styleFilters = document.getElementById('style-filters');
 
     function formatVolume(liters) {
         return String(liters).replace('.', ',') + ' l';
@@ -456,6 +475,8 @@
             const isUnavailable = beer.name === '-';
             card.className = 'beer-card bg-white dark:bg-slate-light border border-zinc-200 dark:border-slate-mid rounded-lg p-3 flex flex-col' + (isUnavailable ? ' beer-unavailable' : '');
             card.dataset.source = beer.source;
+            // A response cached before the worker started categorizing has no styleCategory.
+            card.dataset.styleCategory = beer.styleCategory || 'other';
             card.dataset.pairingKey = pairingKey(beer);
             if (isUnavailable) card.dataset.unavailable = 'true';
 
@@ -487,37 +508,95 @@
 
     let allBeers = [];
     let pairings = {};
-    let activeFilter = 'all';
+    let activeSource = 'all';
+    let activeStyle = 'all';
+    const styleBtns = {};
 
-    function filterFromHash() {
-        const hash = window.location.hash.slice(1);
-        return (hash in SOURCES) ? hash : 'all';
+    // Two tokens joined by '+' ('#beerstreet+ipa'), each recognized by the set its key belongs to.
+    // A single token is therefore still read the way it always was, so old links keep working.
+    function filtersFromHash() {
+        const filters = {source: 'all', style: 'all'};
+        window.location.hash.slice(1).split('+').forEach(token => {
+            if (token in SOURCES) filters.source = token;
+            else if (STYLE_KEYS.has(token)) filters.style = token;
+        });
+        return filters;
     }
 
-    function setFilter(filter) {
-        activeFilter = filter;
-        window.location.hash = filter === 'all' ? '' : filter;
+    function buildStyleBtns() {
+        STYLE_CATEGORIES.forEach(({key, label}) => {
+            const btn = document.createElement('button');
+            btn.className = 'filter-btn text-xs border border-zinc-300 dark:border-chalk/10 text-zinc-500 dark:text-chalk/60 rounded-full px-3 py-1.5 whitespace-nowrap';
+            btn.dataset.styleFilter = key;
+            btn.textContent = label;
+            btn.onclick = () => setStyleFilter(key);
+            styleBtns[key] = btn;
+            $styleFilters.appendChild(btn);
+        });
+    }
+
+    function setFilter(source) {
+        activeSource = source;
+        applyFilters();
+    }
+
+    // The style row has no "Vše" button of its own, so clicking the active category clears it.
+    function setStyleFilter(style) {
+        activeStyle = activeStyle === style ? 'all' : style;
+        applyFilters();
+    }
+
+    function applyFilters() {
+        const tokens = [];
+        if (activeSource !== 'all') tokens.push(activeSource);
+        if (activeStyle !== 'all') tokens.push(activeStyle);
+        window.location.hash = tokens.join('+');
 
         $filterBtns.forEach(btn => {
-            btn.classList.toggle('active', btn.dataset.filter === filter);
+            btn.classList.toggle('active', btn.dataset.filter === activeSource);
         });
 
         const isDebug = document.documentElement.classList.contains('debug-mode');
         const cards = $container.children;
+        const styleCounts = {};
         let visibleCount = 0;
         for (const card of cards) {
-            const sourceMatch = filter === 'all' || card.dataset.source === filter;
+            const sourceMatch = activeSource === 'all' || card.dataset.source === activeSource;
+            const category = card.dataset.styleCategory;
             const unavailable = card.dataset.unavailable === 'true';
-            const visible = sourceMatch && (!unavailable || isDebug);
+            // Counted per category ignoring the style filter, so every button says how many beers
+            // it would show under the currently selected pub.
+            if (sourceMatch && !unavailable) {
+                styleCounts[category] = (styleCounts[category] || 0) + 1;
+            }
+            const styleMatch = activeStyle === 'all' || category === activeStyle;
+            const visible = sourceMatch && styleMatch && (!unavailable || isDebug);
             card.classList.toggle('hidden', !visible);
             if (visible && !unavailable) visibleCount++;
         }
 
+        STYLE_CATEGORIES.forEach(({key, label}) => {
+            const count = styleCounts[key] || 0;
+            const btn = styleBtns[key];
+            btn.textContent = `${label} · ${count}`;
+            btn.classList.toggle('active', key === activeStyle);
+            // Nothing on tap means no button -- unless it is the active filter, which has to stay
+            // clickable so it can be switched off again.
+            btn.classList.toggle('hidden', count === 0 && key !== activeStyle);
+        });
+
         $beerCount.textContent = `· ${visibleCount} piv na čepu`;
     }
 
+    function applyFiltersFromHash() {
+        const {source, style} = filtersFromHash();
+        activeSource = source;
+        activeStyle = style;
+        applyFilters();
+    }
+
     window.onDebugChange = function() {
-        setFilter(activeFilter);
+        applyFilters();
     };
 
     function closeDescriptions() {
@@ -577,9 +656,10 @@
 
             $loading.classList.add('hidden');
             $grid.classList.remove('hidden');
+            $styleFilters.classList.remove('hidden');
 
             renderBeers(allBeers, pairings);
-            setFilter(filterFromHash());
+            applyFiltersFromHash();
 
             const now = new Date();
             $updateTime.textContent =
@@ -589,7 +669,7 @@
         }
     }
 
-    window.addEventListener('hashchange', () => setFilter(filterFromHash()));
+    window.addEventListener('hashchange', applyFiltersFromHash);
 
     const $toast = document.getElementById('copy-toast');
     let toastTimer = null;
@@ -614,6 +694,7 @@
         }
     });
 
+    buildStyleBtns();
     loadAll();
     </script>
 {% endblock scripts %}
