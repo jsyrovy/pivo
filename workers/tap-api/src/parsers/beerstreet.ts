@@ -1,4 +1,4 @@
-import type { Beer } from "../schema";
+import type { ParsedBeer } from "../schema";
 import { beerStreetPricing } from "../pricing";
 import { formatStyle } from "../style";
 import { isObject, parseNumber, trimString } from "./json-utils";
@@ -17,7 +17,7 @@ interface RawPayload {
   beers?: unknown;
 }
 
-export function parseBeerStreetJson(raw: unknown): Beer[] {
+export function parseBeerStreetJson(raw: unknown): ParsedBeer[] {
   if (!isObject(raw)) {
     throw new TypeError("Beer Street payload is not an object");
   }
@@ -28,7 +28,7 @@ export function parseBeerStreetJson(raw: unknown): Beer[] {
 
   const items = payload.beers.filter(isObject) as RawBeer[];
 
-  return items.map((item, index): Beer => ({
+  return items.map((item, index): ParsedBeer => ({
     name: trimString(item.nazev),
     brewery: trimString(item.nazev_pivovaru),
     style: formatStyle(trimString(item.styl)),

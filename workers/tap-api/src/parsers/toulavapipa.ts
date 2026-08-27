@@ -1,4 +1,4 @@
-import type { Beer, Source } from "../schema";
+import type { ParsedBeer, Source } from "../schema";
 import { formatStyle, inferStyleFromDegree } from "../style";
 
 interface ColumnMap {
@@ -69,7 +69,7 @@ function detectDelimiter(text: string): string {
   return semicolons > commas ? ";" : ",";
 }
 
-export function parseToulavapipaCsv(raw: string, source: Source): Beer[] {
+export function parseToulavapipaCsv(raw: string, source: Source): ParsedBeer[] {
   const rows = parseCsv(raw);
   if (rows.length === 0) return [];
 
@@ -81,7 +81,7 @@ export function parseToulavapipaCsv(raw: string, source: Source): Beer[] {
     dataRows = rows.slice(1);
   }
 
-  const beers: Beer[] = [];
+  const beers: ParsedBeer[] = [];
   for (const row of dataRows) {
     const name = cell(row, columns.name);
     const brewery = cell(row, columns.brewery);

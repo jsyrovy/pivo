@@ -1,4 +1,4 @@
-import type { Beer } from "../schema";
+import type { ParsedBeer } from "../schema";
 import { uzamastiluPricing } from "../pricing";
 import { extractStyleFromName, formatStyle, inferStyleFromDegree } from "../style";
 import { isObject, parseNumber, trimString } from "./json-utils";
@@ -12,7 +12,7 @@ interface RawBeer {
   price03?: unknown;
 }
 
-export function parseUzamastiluJson(raw: unknown): Beer[] {
+export function parseUzamastiluJson(raw: unknown): ParsedBeer[] {
   if (!Array.isArray(raw)) {
     throw new TypeError("U Zámastilů payload is not an array");
   }
@@ -20,7 +20,7 @@ export function parseUzamastiluJson(raw: unknown): Beer[] {
   const items = raw.filter(isObject) as RawBeer[];
 
   return items
-    .map((item): Beer => {
+    .map((item): ParsedBeer => {
       const degreePlato = parseDegree(item.degree);
       const { name, style } = extractStyleFromName(cleanName(item.name));
       return {

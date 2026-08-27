@@ -1,4 +1,4 @@
-import type { Beer } from "../schema";
+import type { ParsedBeer } from "../schema";
 import { ambasadaPricing } from "../pricing";
 import { STYLE_KEYWORDS, formatStyle } from "../style";
 
@@ -35,8 +35,8 @@ function captureCell(
   };
 }
 
-export async function parseAmbasadaHtml(response: Response): Promise<Beer[]> {
-  const beers: Beer[] = [];
+export async function parseAmbasadaHtml(response: Response): Promise<ParsedBeer[]> {
+  const beers: ParsedBeer[] = [];
   let tableEnded = false;
   let pending: PendingRow = {};
   const isSkipped = () => tableEnded;
@@ -74,7 +74,7 @@ export async function parseAmbasadaHtml(response: Response): Promise<Beer[]> {
   return beers;
 }
 
-function buildBeer(row: PendingRow, order: number): Beer | null {
+function buildBeer(row: PendingRow, order: number): ParsedBeer | null {
   const rawName = row.name ?? "";
   if (!rawName) return null;
 

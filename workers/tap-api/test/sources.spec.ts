@@ -97,6 +97,24 @@ describe("fetchMenu socket fallback", () => {
     );
   });
 
+  it("categorizes styles the parser left uncategorized", async () => {
+    const menu = await fetchBeerStreetMenu({
+      fetchImpl: vi.fn(() => Promise.resolve(jsonResponse(200))),
+      socketFetch: vi.fn(),
+    });
+
+    expect(menu.beers.map((b) => b.styleCategory)).toEqual(["lezak", "ipa", "dark"]);
+  });
+
+  it("categorizes styles on the socket fallback path too", async () => {
+    const menu = await fetchBeerStreetMenu({
+      fetchImpl: vi.fn(() => Promise.resolve(jsonResponse(403))),
+      socketFetch: vi.fn(() => Promise.resolve(jsonResponse(200))),
+    });
+
+    expect(menu.beers.map((b) => b.styleCategory)).toEqual(["lezak", "ipa", "dark"]);
+  });
+
   it("surfaces a non-ok status returned by the socket fallback", async () => {
     const deps: FetchMenuDeps = {
       fetchImpl: vi.fn(() => Promise.resolve(jsonResponse(401))),

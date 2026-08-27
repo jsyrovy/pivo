@@ -1,9 +1,10 @@
-import type { Beer, MenuResponse, Source } from "./schema";
+import type { Beer, MenuResponse, ParsedBeer, Source } from "./schema";
 import { parseBeerStreetJson } from "./parsers/beerstreet";
 import { parseAmbasadaHtml } from "./parsers/ambasada";
 import { parseToulavapipaCsv } from "./parsers/toulavapipa";
 import { parseUzamastiluJson } from "./parsers/uzamastilu";
 import { fetchViaSocket, type FetchViaSocketOptions } from "./socket-fetch";
+import { categorizeStyle } from "./style";
 
 const USER_AGENT = "tap-api/1.0";
 const TOULAVA_PIPA_SHEET_BASE =
@@ -28,10 +29,14 @@ const DEFAULT_DEPS: FetchMenuDeps = {
   socketFetch: fetchViaSocket,
 };
 
+function withStyleCategory(beers: ParsedBeer[]): Beer[] {
+  return beers.map((beer) => ({ ...beer, styleCategory: categorizeStyle(beer.style) }));
+}
+
 async function fetchMenu(
   source: Source,
   url: string,
-  parse: (response: Response) => Promise<Beer[]>,
+  parse: (response: Response) => Promise<ParsedBeer[]>,
   deps: FetchMenuDeps = DEFAULT_DEPS,
 ): Promise<MenuResponse> {
   let response: Response | undefined;
@@ -56,7 +61,7 @@ async function fetchMenu(
     if (!ok.ok) {
       throw new Error(`${source} upstream returned ${ok.status}`);
     }
-    return { source, fetchedAt: new Date().toISOString(), beers: await parse(ok) };
+    return { source, fetchedAt: new Date().toISOString(), beers: withStyleCategory(await parse(ok)) };
   }
 
   console.info("socket_fallback", { source, blocked });
@@ -75,7 +80,7 @@ async function fetchMenu(
   return {
     source,
     fetchedAt: new Date().toISOString(),
-    beers: await parse(viaSocket),
+    beers: withStyleCategory(await parse(viaSocket)),
     viaSocket: true,
   };
 }
