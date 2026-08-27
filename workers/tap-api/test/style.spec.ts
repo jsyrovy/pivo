@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { extractStyleFromName, formatStyle, inferStyleFromDegree } from "../src/style";
+import { categorizeStyle, extractStyleFromName, formatStyle, inferStyleFromDegree } from "../src/style";
 
 describe("formatStyle", () => {
   it("returns empty string for empty input", () => {
@@ -93,5 +93,73 @@ describe("inferStyleFromDegree", () => {
   it("returns no style for any other degree or unknown degree", () => {
     expect(inferStyleFromDegree(11)).toBe("");
     expect(inferStyleFromDegree(null)).toBe("");
+  });
+});
+
+describe("categorizeStyle", () => {
+  it("categorizes the plain styles", () => {
+    expect(categorizeStyle("Ležák světlý")).toBe("lezak");
+    expect(categorizeStyle("Italian pilsner")).toBe("lezak");
+    expect(categorizeStyle("Světlé výčepní")).toBe("lezak");
+    expect(categorizeStyle("Session IPA")).toBe("ipa");
+    expect(categorizeStyle("Pale ale")).toBe("paleale");
+    expect(categorizeStyle("Pastry sour")).toBe("sour");
+    expect(categorizeStyle("Weizenbier")).toBe("special");
+    expect(categorizeStyle("Nealko")).toBe("nealko");
+  });
+
+  it("prefers sour over ale and wheat", () => {
+    expect(categorizeStyle("Fruit sour ale")).toBe("sour");
+    expect(categorizeStyle("Fruited berliner weisse")).toBe("sour");
+    expect(categorizeStyle("Lehký sour ale s bezovým květem a maracujou")).toBe("sour");
+  });
+
+  it("treats anything dark as dark, colour before fermentation", () => {
+    expect(categorizeStyle("Tmavý porter ochuc. třešněmi")).toBe("dark");
+    expect(categorizeStyle("Ochucené tm. pivo")).toBe("dark");
+    expect(categorizeStyle("Polotmavý ležák")).toBe("dark");
+    expect(categorizeStyle("Czech amber lager")).toBe("dark");
+    expect(categorizeStyle("Rotbier")).toBe("dark");
+    expect(categorizeStyle("Stout s laktozou, malinami a vanilkou")).toBe("dark");
+  });
+
+  it("keeps red out of dark", () => {
+    expect(categorizeStyle("Red APA")).toBe("paleale");
+  });
+
+  it("reads a bare hazy as an IPA", () => {
+    expect(categorizeStyle("Hazy ale")).toBe("ipa");
+    expect(categorizeStyle("Session hazy")).toBe("ipa");
+  });
+
+  it("puts hop-forward lagers in IPA", () => {
+    expect(categorizeStyle("India pale lager")).toBe("ipa");
+    expect(categorizeStyle("IPL")).toBe("ipa");
+  });
+
+  it("keeps a hopless pale lager in ležáky", () => {
+    expect(categorizeStyle("New zealand pale lager")).toBe("lezak");
+  });
+
+  it("prefers a special over pale ale", () => {
+    expect(categorizeStyle("Hoppy saison ale")).toBe("special");
+  });
+
+  it("survives typos in the qualifier", () => {
+    expect(categorizeStyle("Ležák světiý")).toBe("lezak");
+    expect(categorizeStyle("Sessiin NEIPA")).toBe("ipa");
+    expect(categorizeStyle("Singl hop ale")).toBe("paleale");
+  });
+
+  it("splits on punctuation, not just spaces", () => {
+    expect(categorizeStyle("Ipa/dipa")).toBe("ipa");
+    expect(categorizeStyle("Gose sour - ibišek+koriandr+limeta+yuzu")).toBe("sour");
+    expect(categorizeStyle("Gluten-free session IPA")).toBe("ipa");
+  });
+
+  it("falls back to other for style text that says nothing about the beer", () => {
+    expect(categorizeStyle("")).toBe("other");
+    expect(categorizeStyle("25l")).toBe("other");
+    expect(categorizeStyle("malinami a vanilkou")).toBe("other");
   });
 });

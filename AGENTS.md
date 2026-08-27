@@ -26,6 +26,22 @@ Package manager: **uv** (Astral). No virtual environment activation needed -- us
 | `make coverage`          | Run tests with coverage report (fails under 100%) |
 | `make before-commit`     | format + format-html + coverage + lint-fix + lint-html + mypy (run before committing) |
 | `make publish-pivni-valka` | Regenerate static HTML output (no test data)          |
+| `make test-tap-api`      | Run the Cloudflare Worker test suite (vitest)         |
+
+### Tap API Worker
+
+`workers/tap-api/` is a separate TypeScript/npm project (Cloudflare Worker, vitest
+with `@cloudflare/vitest-pool-workers`). Commands run from that directory:
+
+```sh
+npm test        # vitest run (or `make test-tap-api` from the repo root)
+npm run typecheck  # tsc --noEmit
+npm run dev     # wrangler dev
+```
+
+⚠️ Any push touching `workers/tap-api/**` deploys the Worker
+(`.github/workflows/deploy-tap-api.yml`), and that workflow does **not** run the
+tests -- run `make test-tap-api` before pushing.
 
 ### Running a Single Test
 

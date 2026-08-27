@@ -64,6 +64,9 @@ format:
 test:
 	uv run --dev -m pytest
 
+test-tap-api:
+	cd workers/tap-api && npm test
+
 coverage:
 	uv run --dev -m coverage run -m pytest
 	uv run --dev -m coverage report

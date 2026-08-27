@@ -50,6 +50,74 @@ const NAME_STYLE_KEYWORDS = new Set([
   "nealko", "nealkoholické", "nealkoholický",
 ]);
 
+// Broad, flat buckets for the tap-list style filter. Deliberately few and wide: "ipa" holds every
+// IPA sub-style, "special" holds wheat and Belgian beers together. "other" is the fallback for
+// unclassifiable style text ("25l", empty) and has no filter button of its own.
+export type StyleCategory =
+  | "nealko"
+  | "sour"
+  | "dark"
+  | "ipa"
+  | "special"
+  | "lezak"
+  | "paleale"
+  | "other";
+
+// First row whose keyword appears in the style text wins, so row order is priority. That is what
+// settles the collisions the real corpus is full of: "Fruit sour ale" is sour rather than pale ale,
+// "India pale lager" is an IPA rather than a lager, "Hoppy saison ale" is a special rather than a
+// pale ale. Category boundaries are therefore configuration -- reclassifying a style means moving a
+// word from one row to another, not changing code.
+const STYLE_CATEGORY_RULES: readonly { key: StyleCategory; keywords: readonly string[] }[] = [
+  {
+    key: "nealko",
+    keywords: ["nealko", "nealkoholický", "nealkoholické", "nealkoholická"],
+  },
+  {
+    key: "sour",
+    // "weisse" is missing on purpose: every Berliner weisse in the corpus is caught by "berliner"
+    // or "sour", and a bare "weisse" would drag wheat beers in here.
+    keywords: ["sour", "gose", "berliner", "berlin", "kyseláč", "lambic", "gueuze"],
+  },
+  {
+    key: "dark",
+    // Doubles as a colour filter -- amber lagers and Rotbier land here rather than in "lezak",
+    // which is what someone clicking "Tmavá" is after. "red" is left out: "Red APA" is a pale ale.
+    keywords: [
+      "stout", "porter", "dunkel", "schwarzbier", "rotbier", "amber", "barleywine",
+      "tmavý", "tmavé", "tmavá", "tm", "polotmavý", "polotmavé", "polotmavá",
+    ],
+  },
+  {
+    key: "ipa",
+    // "hazy" alone means an IPA on Czech tap lists ("Session hazy"), and IPL is decided by the hop
+    // profile, not the fermentation.
+    keywords: [
+      "ipa", "neipa", "dipa", "iipa", "tipa", "nedipa", "wipa", "bipa",
+      "ipl", "india", "hazy",
+    ],
+  },
+  {
+    key: "special",
+    keywords: [
+      "weizen", "weizenbier", "hefeweizen", "weissbier", "witbier", "wheat",
+      "pšeničné", "pšeničný", "pšenice", "saison", "farmhouse",
+      "tripel", "dubbel", "quadrupel", "bock", "rauchbier", "kölsch", "altbier",
+    ],
+  },
+  {
+    key: "lezak",
+    keywords: [
+      "ležák", "lager", "pilsner", "pilsener", "pils", "helles", "märzen",
+      "výčepní", "světlý", "světlé", "světlá",
+    ],
+  },
+  {
+    key: "paleale",
+    keywords: ["apa", "nepa", "pale", "ale", "summer", "smash"],
+  },
+];
+
 function styleToken(word: string): string {
   return word.replace(NON_ALPHANUMERIC, "").toLocaleLowerCase("cs-CZ");
 }
@@ -108,4 +176,20 @@ export function formatStyle(raw: string): string {
       return ACRONYMS.has(core) ? token.toUpperCase() : token;
     })
     .join("");
+}
+
+// The style field is free text typed by the pub, so the only reliable signal is which style words it
+// contains -- a typo in the qualifier ("Ležák světiý", "Sessiin NEIPA") leaves the core word intact.
+export function categorizeStyle(style: string): StyleCategory {
+  const tokens = new Set(
+    style
+      .split(NON_ALPHANUMERIC)
+      .map((word) => word.toLocaleLowerCase("cs-CZ"))
+      .filter(Boolean),
+  );
+
+  for (const rule of STYLE_CATEGORY_RULES) {
+    if (rule.keywords.some((keyword) => tokens.has(keyword))) return rule.key;
+  }
+  return "other";
 }
