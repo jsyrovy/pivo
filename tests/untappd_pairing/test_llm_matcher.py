@@ -52,6 +52,16 @@ def test_malformed_reply_returns_none():
     assert result is None
 
 
+def test_index_of_unexpected_type_returns_none(caplog):
+    with (
+        _patch_complete('{"index": [1], "reasoning": "confused"}'),
+        caplog.at_level(logging.WARNING, logger="untappd_pairing.llm_matcher"),
+    ):
+        result = llm_matcher.adjudicate(_beer(), [_candidate("Summer Ale")])
+    assert result is None
+    assert any("TypeError" in record.message for record in caplog.records)
+
+
 def test_json_buried_at_end_of_reasoning_stream_is_parsed():
     candidates = [_candidate("Wrong"), _candidate("Summer Ale", url="https://untappd.com/b/x/2")]
     text = (

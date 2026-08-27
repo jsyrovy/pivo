@@ -329,6 +329,14 @@ def test_best_match_brewery_path_still_works_for_short_source_name():
     assert result.brewery_matched is True
 
 
+def test_best_match_style_does_not_rescue_when_name_is_only_a_degree():
+    # Some tap lists leave the name as bare degrees ("12°"), which cleans down to nothing --
+    # there is no beer name to be distinct from the brewery, so style-only rescue must not fire.
+    stout = _candidate("Imperial Stout", brewery="Pivovar Falkon", url="https://untappd.com/b/x/stout")
+    result = matcher.best_match("12°", "Falkon", [stout], beer_style="Imperial Stout")
+    assert result is None
+
+
 def test_best_match_style_does_not_rescue_when_name_is_just_brewery():
     # Source name equals brewery -- name carries no info beyond the brewery, so style-only
     # rescue must not fire (preserves the Falkon::Falkon "no real beer name" semantics).

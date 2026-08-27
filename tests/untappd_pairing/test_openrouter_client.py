@@ -34,6 +34,8 @@ def _patch_openrouter(*side_effect: object):
 class _FakeRateLimit(openrouter_client.errors.TooManyRequestsResponseError):
     def __init__(self) -> None:
         Exception.__init__(self, "rate limited")
+        # The SDK's base error renders `str(exc)` from `.message`, which our bypassed __init__ skips.
+        self.message = "rate limited"
 
 
 _MESSAGES = [{"role": "user", "content": "hi"}]
@@ -60,6 +62,12 @@ def test_message_text_falls_back_to_reasoning():
 def test_message_text_ignores_reasoning_when_disallowed():
     message = _response(content="", reasoning=" thinking ").choices[0].message
     assert openrouter_client.message_text(message, allow_reasoning=False) == ""
+
+
+def test_message_text_empty_when_neither_content_nor_reasoning_is_a_string():
+    # `content` and `reasoning` may both be None or the SDK's UNSET sentinel.
+    message = _response(content=None, reasoning=None).choices[0].message
+    assert openrouter_client.message_text(message) == ""
 
 
 @pytest.mark.parametrize(("allow_reasoning", "payload"), [(True, None), (False, {"effort": "none"})])
@@ -137,6 +145,29 @@ def test_rate_limit_retries_same_model_then_succeeds():
     assert result == "recovered"
     assert client.chat.send.call_count == 2
     sleep_mock.assert_called_once()
+
+
+def test_rate_limit_exhausts_retries_then_moves_to_next_model():
+    patch_cm, client = _patch_openrouter(
+        _FakeRateLimit(),
+        _FakeRateLimit(),
+        _FakeRateLimit(),
+        _response(content="second model answer"),
+    )
+    with patch_cm, mock.patch.object(openrouter_client.time, "sleep") as sleep_mock:
+        result = openrouter_client.complete(_MESSAGES, max_tokens=100)
+    assert result == "second model answer"
+    assert client.chat.send.call_count == openrouter_client.MAX_RETRIES + 1
+    assert sleep_mock.call_count == openrouter_client.MAX_RETRIES - 1
+
+
+def test_rate_limit_exhausts_retries_on_every_model_returns_none(monkeypatch):
+    monkeypatch.setenv("OPENROUTER_MODEL", "only-model")
+    patch_cm, client = _patch_openrouter(*[_FakeRateLimit() for _ in range(openrouter_client.MAX_RETRIES)])
+    with patch_cm, mock.patch.object(openrouter_client.time, "sleep"):
+        result = openrouter_client.complete(_MESSAGES, max_tokens=100)
+    assert result is None
+    assert client.chat.send.call_count == openrouter_client.MAX_RETRIES
 
 
 def test_permanent_error_is_not_retried(monkeypatch):

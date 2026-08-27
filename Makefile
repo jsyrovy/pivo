@@ -66,7 +66,7 @@ test:
 
 coverage:
 	uv run --dev -m coverage run -m pytest
-	uv run --dev -m coverage report -m
+	uv run --dev -m coverage report
 
 save-db-to-file:
 	uv run --no-dev -m run_tool save-db-to-file
@@ -74,7 +74,7 @@ save-db-to-file:
 before-commit:
 	make format
 	make format-html
-	make test
+	make coverage
 	make lint-fix
 	make lint-html
 	make mypy

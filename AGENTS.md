@@ -23,8 +23,8 @@ Package manager: **uv** (Astral). No virtual environment activation needed -- us
 | `make lint-html`         | Lint HTML templates (`uvx djlint --lint`)      |
 | `make mypy`              | Type-check (strict on src, relaxed on tests)  |
 | `make ty`                | Experimental type-check (`uvx ty check`)      |
-| `make coverage`          | Run tests with coverage report                |
-| `make before-commit`     | format + format-html + test + lint-fix + lint-html + mypy (run before committing) |
+| `make coverage`          | Run tests with coverage report (fails under 100%) |
+| `make before-commit`     | format + format-html + coverage + lint-fix + lint-html + mypy (run before committing) |
 | `make publish-pivni-valka` | Regenerate static HTML output (no test data)          |
 
 ### Running a Single Test
@@ -144,6 +144,10 @@ All checks must pass before merging.
 - Private member access is permitted in tests
 - Mock all IO and network operations -- no integration tests
 - Use `caplog` fixture for asserting log output (not `capsys`)
+- **Coverage must stay at 100%** (`fail_under = 100` in `pyproject.toml`, enforced by
+  `before-commit`). Cover every new branch; if a line is genuinely unreachable from
+  tests, prefer restructuring the code over excluding it, and add the exclusion to
+  `[tool.coverage.report] exclude_also` with a comment only as a last resort
 
 ### What NOT to Do
 

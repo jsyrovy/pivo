@@ -84,7 +84,9 @@ def _call_model(
     max_tokens: int,
     allow_reasoning: bool,
 ) -> str:
-    for attempt in range(1, MAX_RETRIES + 1):
+    attempt = 0
+    while True:
+        attempt += 1
         try:
             res = client.chat.send(
                 model=model,
@@ -104,8 +106,6 @@ def _call_model(
             time.sleep(wait)
             continue
         return message_text(res.choices[0].message, allow_reasoning=allow_reasoning)
-    msg = "retry loop exited without returning"  # unreachable: last attempt re-raises
-    raise AssertionError(msg)
 
 
 def complete(messages: list[ChatMessage], *, max_tokens: int, allow_reasoning: bool = True) -> str | None:
