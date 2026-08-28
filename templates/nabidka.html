@@ -311,6 +311,7 @@
     const $filterBtns = document.querySelectorAll('.filter-btn');
     const $refreshBtn = document.getElementById('refresh-btn');
     const $styleFilters = document.getElementById('style-filters');
+    let $styleAllBtn = null;
 
     function formatVolume(liters) {
         return String(liters).replace('.', ',') + ' l';
@@ -534,10 +535,20 @@
         return filters;
     }
 
+    const STYLE_BTN_CLASS = 'filter-btn text-xs border border-zinc-300 dark:border-chalk/10 text-zinc-500 dark:text-chalk/60 rounded-full px-3 py-1.5 whitespace-nowrap';
+
     function buildStyleBtns() {
+        // "Vše" first, exactly like the pub row -- it is the only way to clear the style filter.
+        $styleAllBtn = document.createElement('button');
+        $styleAllBtn.className = STYLE_BTN_CLASS;
+        $styleAllBtn.dataset.styleFilter = 'all';
+        $styleAllBtn.textContent = 'Vše';
+        $styleAllBtn.onclick = () => setStyleFilter('all');
+        $styleFilters.appendChild($styleAllBtn);
+
         STYLE_CATEGORIES.forEach(({key, label}) => {
             const btn = document.createElement('button');
-            btn.className = 'filter-btn text-xs border border-zinc-300 dark:border-chalk/10 text-zinc-500 dark:text-chalk/60 rounded-full px-3 py-1.5 whitespace-nowrap';
+            btn.className = STYLE_BTN_CLASS;
             btn.dataset.styleFilter = key;
             btn.textContent = label;
             btn.onclick = () => setStyleFilter(key);
@@ -551,9 +562,8 @@
         applyFilters();
     }
 
-    // The style row has no "Vše" button of its own, so clicking the active category clears it.
     function setStyleFilter(style) {
-        activeStyle = activeStyle === style ? 'all' : style;
+        activeStyle = style;
         applyFilters();
     }
 
@@ -585,6 +595,8 @@
             card.classList.toggle('hidden', !visible);
             if (visible && !unavailable) visibleCount++;
         }
+
+        $styleAllBtn.classList.toggle('active', activeStyle === 'all');
 
         STYLE_CATEGORIES.forEach(({key, label, debugOnly}) => {
             const count = styleCounts[key] || 0;
