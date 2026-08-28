@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-27T22:53:56Z",
+  "generated_at": "2026-08-28T22:58:52Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -375,6 +375,40 @@
         "score": 1.0
       }
     },
+    "ambasada::Chroust, Potštejn::Lučiny & Bučiny": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Chroust, Potštejn",
+        "name": "Lučiny & Bučiny",
+        "style": "Elderflower and orange gose",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-08-28T22:58:12Z",
+      "candidates": [
+        {
+          "name": "Lučiny & Bučiny",
+          "brewery": "Chroust",
+          "url": "/b/chroust-luciny-and-buciny/6834444",
+          "rating": 3.9
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Lučiny & Bučiny 12° Chroust",
+          "hits": []
+        },
+        {
+          "query": "Lučiny & Bučiny Chroust",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/chroust-luciny-and-buciny/6834444",
+        "score": 1.0
+      }
+    },
     "ambasada::Chroust, Potštejn::Mango Mojito": {
       "beer": {
         "source": "ambasada",
@@ -580,6 +614,36 @@
       "outcome": {
         "matched": null,
         "reason": "no_candidates_above_threshold"
+      }
+    },
+    "ambasada::Fenetra, Potštejn, Rustical Wild Sour Ale, 0::Pavillon 2025": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Fenetra, Potštejn, Rustical Wild Sour Ale, 0",
+        "name": "Pavillon 2025",
+        "style": "25l",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-28T22:58:17Z",
+      "candidates": [
+        {
+          "name": "Pavillon (2025)",
+          "brewery": "Fenetra",
+          "url": "/b/fenetra-pavillon-2025/6342507",
+          "rating": 3.88
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Pavillon 2025 Fenetra",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/fenetra-pavillon-2025/6342507",
+        "score": 1.0
       }
     },
     "ambasada::Fracek, Praha::Big Sure!": {
@@ -2420,6 +2484,36 @@
         "score": 1.0
       }
     },
+    "ambasada::Pivečka, Rousínov::Maracuja Brut IPA": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Pivečka, Rousínov",
+        "name": "Maracuja Brut IPA",
+        "style": "Brut IPA",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-08-28T22:58:13Z",
+      "candidates": [
+        {
+          "name": "Brut IPA Maracuja 12°",
+          "brewery": "Pivovar Pivečka",
+          "url": "/b/pivovar-pivecka-brut-ipa-maracuja-12-deg/6839421",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Maracuja Brut IPA 12° Pivečka",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-pivecka-brut-ipa-maracuja-12-deg/6839421",
+        "score": 0.9286
+      }
+    },
     "ambasada::Rampušák, Dobruška::Strawberry Rhubarb Pie": {
       "beer": {
         "source": "ambasada",
@@ -3408,6 +3502,36 @@
         "score": 1.0
       }
     },
+    "ambasada::Čestmír, Brandýs nad Labem::Skydancer": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Čestmír, Brandýs nad Labem",
+        "name": "Skydancer",
+        "style": "APA",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-28T22:58:16Z",
+      "candidates": [
+        {
+          "name": "APA 11 – Skydancer",
+          "brewery": "Pivovar Čestmír",
+          "url": "/b/pivovar-cestmir-apa-11-skydancer/3228182",
+          "rating": 3.61
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Skydancer 11° Čestmír",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-cestmir-apa-11-skydancer/3228182",
+        "score": 1.0
+      }
+    },
     "ambasada::Čestmír, Brandýs nad Labem::Tanec Slunce": {
       "beer": {
         "source": "ambasada",
@@ -3525,6 +3649,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-agent-helenka-11-deg-vyrocni-lezak/6458582",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Agent::Léto": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Agent",
+        "name": "Léto",
+        "style": "Ležák světlý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-28T22:58:00Z",
+      "candidates": [
+        {
+          "name": "Léto",
+          "brewery": "Pivovar Agent",
+          "url": "/b/pivovar-agent-leto/5400226",
+          "rating": 3.41
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Léto 11° Agent",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-agent-leto/5400226",
         "score": 1.0
       }
     },
@@ -4293,6 +4447,50 @@
       ],
       "outcome": {
         "matched": "/b/chroust-extra-extra/6656532",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Duck & Dog::Fiškus": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Duck & Dog",
+        "name": "Fiškus",
+        "style": "Ležák světlý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-28T22:58:02Z",
+      "candidates": [
+        {
+          "name": "Duck & Dog Fiškus – světlý ležák 11°",
+          "brewery": "Pivovar Duck&Dog",
+          "url": "/b/pivovar-duck-dog-duck-dog-fiskus-svetly-lezak-11-deg/4367516",
+          "rating": 3.4
+        },
+        {
+          "name": "Duck & Dog Fiškus – světlý ležák 12°",
+          "brewery": "Pivovar Duck&Dog",
+          "url": "/b/pivovar-duck-dog-duck-dog-fiskus-svetly-lezak-12-deg/5216903",
+          "rating": 3.54
+        },
+        {
+          "name": "Duck & Dog Fiškus – světlé výčepní 10°",
+          "brewery": "Pivovar Duck&Dog",
+          "url": "/b/pivovar-duck-dog-duck-dog-fiskus-svetle-vycepni-10-deg/5216902",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Fiškus 11° Duck & Dog",
+          "hits": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-duck-dog-duck-dog-fiskus-svetly-lezak-11-deg/4367516",
         "score": 1.0
       }
     },
@@ -6453,6 +6651,39 @@
         "score": 0.0
       }
     },
+    "beerstreet::Loutkář::Paragánská": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Loutkář",
+        "name": "Paragánská",
+        "style": "Smash ale - kazbek",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-08-28T22:58:10Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Paragánská 12° Loutkář",
+          "hits": []
+        },
+        {
+          "query": "Paragánská Loutkář",
+          "hits": []
+        },
+        {
+          "query": "Paragánská 12°",
+          "hits": []
+        },
+        {
+          "query": "Paragánská",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
     "beerstreet::Loutkář::Sabro": {
       "beer": {
         "source": "beerstreet",
@@ -6828,6 +7059,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-mordyr-simcoe-session-ale-12/5946792",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Nachmelená Opice::Nectaron Hazy": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Nachmelená Opice",
+        "name": "Nectaron Hazy",
+        "style": "Hazy pale ale",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-08-28T22:58:11Z",
+      "candidates": [
+        {
+          "name": "Nectaron Hazy Pale Ale 13",
+          "brewery": "Nachmelená Opice",
+          "url": "/b/nachmelena-opice-nectaron-hazy-pale-ale-13/6636867",
+          "rating": 3.84
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Nectaron Hazy 13° Nachmelená Opice",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/nachmelena-opice-nectaron-hazy-pale-ale-13/6636867",
         "score": 1.0
       }
     },
@@ -8931,6 +9192,43 @@
         "score": 1.0
       }
     },
+    "toulavapipa::Clock::Hektor": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Clock",
+        "name": "Hektor",
+        "style": "Výčepní světlé",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-28T22:58:19Z",
+      "candidates": [
+        {
+          "name": "Hektor",
+          "brewery": "Pivovar Clock",
+          "url": "/b/pivovar-clock-hektor/740151",
+          "rating": 3.49
+        },
+        {
+          "name": "Hektor+ 16°",
+          "brewery": "Pivovar Clock",
+          "url": "/b/pivovar-clock-hektor-16-deg/915392",
+          "rating": 3.35
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Hektor Clock",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-clock-hektor/740151",
+        "score": 1.0
+      }
+    },
     "toulavapipa::Clock::Summer affair": {
       "beer": {
         "source": "toulavapipa",
@@ -10451,6 +10749,43 @@
         "score": 1.0
       }
     },
+    "toulavapipa::Zichovec::Mosaic Ale": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Zichovec",
+        "name": "Mosaic Ale",
+        "style": "APA",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-28T22:58:22Z",
+      "candidates": [
+        {
+          "name": "Mosaic Ale 12",
+          "brewery": "Pivovar ZICHOVEC",
+          "url": "/b/pivovar-zichovec-mosaic-ale-12/1737004",
+          "rating": 3.65
+        },
+        {
+          "name": "Mosaic Ale 12 (2017)",
+          "brewery": "Pivovar ZICHOVEC",
+          "url": "/b/pivovar-zichovec-mosaic-ale-12-2017/3818685",
+          "rating": 3.62
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Mosaic Ale Zichovec",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-zichovec-mosaic-ale-12/1737004",
+        "score": 1.0
+      }
+    },
     "toulavapipa::Zichovec::Robin na grepu": {
       "beer": {
         "source": "toulavapipa",
@@ -10746,6 +11081,36 @@
       "outcome": {
         "matched": null,
         "reason": "no_candidates_above_threshold"
+      }
+    },
+    "uzamastilu::Albert Michler::Malina & Mojito": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Albert Michler",
+        "name": "Malina & Mojito",
+        "style": "Sour",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-08-28T22:58:37Z",
+      "candidates": [
+        {
+          "name": "12 Malina Mojito Sour Ale",
+          "brewery": "Albert Michler akciový pivovar",
+          "url": "/b/albert-michler-akciovy-pivovar-12-malina-mojito-sour-ale/6299182",
+          "rating": 3.84
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Malina & Mojito 12° Albert Michler",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/albert-michler-akciovy-pivovar-12-malina-mojito-sour-ale/6299182",
+        "score": 1.0
       }
     },
     "uzamastilu::Budvar::Birgo Mango-Limetka": {
@@ -11796,6 +12161,39 @@
       "outcome": {
         "matched": "/b/pivovar-permon-svetly-lezak-12-deg/413456",
         "score": 1.0
+      }
+    },
+    "uzamastilu::Pioneer Beer::Dočesná 2025": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Pioneer Beer",
+        "name": "Dočesná 2025",
+        "style": "Ležák",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-08-28T22:58:35Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Dočesná 2025 12° Pioneer Beer",
+          "hits": []
+        },
+        {
+          "query": "Dočesná 2025 Pioneer Beer",
+          "hits": []
+        },
+        {
+          "query": "Dočesná 2025 12°",
+          "hits": []
+        },
+        {
+          "query": "Dočesná 2025",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "uzamastilu::Pioneer Beer::Summer Citra+Motueka": {

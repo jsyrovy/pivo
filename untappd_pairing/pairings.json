@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-27T22:53:56Z",
+  "generated_at": "2026-08-28T22:58:52Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -113,6 +113,16 @@
       "matched_at": "2026-05-02T19:53:20Z",
       "query_used": "Hoptopia Chroust"
     },
+    "ambasada::Chroust, Potštejn::Lučiny & Bučiny": {
+      "untappd_url": "https://untappd.com/b/chroust-luciny-and-buciny/6834444",
+      "untappd_name": "Lučiny & Bučiny",
+      "untappd_brewery": "Chroust",
+      "rating": 3.9,
+      "match_score": 1.0,
+      "matched_at": "2026-08-28T22:58:12Z",
+      "query_used": "Lučiny & Bučiny Chroust",
+      "description": "Kyslé svrchně kvašené gose s lehce slaným tělem a střední plností; přídavek bezového květu přináší jemně květinovo-medový tón, pomeranč sladce citrusový akcent, který doplňuje typickou kyselinku stylu. Nadprůměrně hodnocené."
+    },
     "ambasada::Chroust, Potštejn::Mango Mojito": {
       "untappd_url": "https://untappd.com/b/chroust-mango-mojito/6762622",
       "untappd_name": "Mango Mojito",
@@ -177,6 +187,16 @@
       "match_score": 0.9412,
       "matched_at": "2026-05-07T20:23:43Z",
       "query_used": "No Idols! American IPA Clock"
+    },
+    "ambasada::Fenetra, Potštejn, Rustical Wild Sour Ale, 0::Pavillon 2025": {
+      "untappd_url": "https://untappd.com/b/fenetra-pavillon-2025/6342507",
+      "untappd_name": "Pavillon (2025)",
+      "untappd_brewery": "Fenetra",
+      "rating": 3.88,
+      "match_score": 1.0,
+      "matched_at": "2026-08-28T22:58:17Z",
+      "query_used": "Pavillon 2025 Fenetra",
+      "description_failed_at": "2026-08-28T22:58:37Z"
     },
     "ambasada::Fracek, Praha::Big Sure!": {
       "untappd_url": "https://untappd.com/b/fracek-big-sure-west-coast-ipa/5826591",
@@ -699,6 +719,16 @@
       "matched_at": "2026-05-06T20:19:44Z",
       "query_used": "Lime & Mint Pivečka"
     },
+    "ambasada::Pivečka, Rousínov::Maracuja Brut IPA": {
+      "untappd_url": "https://untappd.com/b/pivovar-pivecka-brut-ipa-maracuja-12-deg/6839421",
+      "untappd_name": "Brut IPA Maracuja 12°",
+      "untappd_brewery": "Pivovar Pivečka",
+      "rating": null,
+      "match_score": 0.9286,
+      "matched_at": "2026-08-28T22:58:13Z",
+      "query_used": "Maracuja Brut IPA 12° Pivečka",
+      "description": "Brut IPA je suché, šumivé pivo s nízkým obsahem zbytkových cukrů, vysokou karbonací a výrazným chmelovým aroma – často citrusovým, tropickým nebo květinovým. S 12° stupňovitostí a 6,5 % ABV nabízí středně plné tělo, ostrý suchý závěr a intenzivní chmelovou přítomnost bez sladové těžkosti; přídavek maracuji vnáší výraz…"
+    },
     "ambasada::Rampušák, Dobruška::Jarní Pšenka": {
       "untappd_url": "https://untappd.com/b/rodinny-pivovar-rampusak-jarni-psenka/2031433",
       "untappd_name": "Jarní pšenka",
@@ -1087,6 +1117,16 @@
       "matched_at": "2026-04-23T20:04:50Z",
       "query_used": "Riwaka Čestmír"
     },
+    "ambasada::Čestmír, Brandýs nad Labem::Skydancer": {
+      "untappd_url": "https://untappd.com/b/pivovar-cestmir-apa-11-skydancer/3228182",
+      "untappd_name": "APA 11 – Skydancer",
+      "untappd_brewery": "Pivovar Čestmír",
+      "rating": 3.61,
+      "match_score": 1.0,
+      "matched_at": "2026-08-28T22:58:16Z",
+      "query_used": "Skydancer 11° Čestmír",
+      "description": "Americký pale ale s střední hořkostí, citrusovým a květinovým chmelem, sladovým základem a středně plným tělem. Spodně kvašený není, jedná se o svrchně kvašené pivo s vyváženým profilem."
+    },
     "ambasada::Čestmír, Brandýs nad Labem::Tanec Slunce": {
       "untappd_url": "https://untappd.com/b/pivovar-cestmir-summer-ale-10-tanec-slunce/3337676",
       "untappd_name": "Summer Ale 10 – Tanec Slunce",
@@ -1132,6 +1172,16 @@
       "match_score": 1.0,
       "matched_at": "2026-07-15T20:14:57Z",
       "query_used": "Helenka 11° Agent"
+    },
+    "beerstreet::Agent::Léto": {
+      "untappd_url": "https://untappd.com/b/pivovar-agent-leto/5400226",
+      "untappd_name": "Léto",
+      "untappd_brewery": "Pivovar Agent",
+      "rating": 3.41,
+      "match_score": 1.0,
+      "matched_at": "2026-08-28T22:58:00Z",
+      "query_used": "Léto 11° Agent",
+      "description": "Klasický světlý ležák: sladový základ, jemná chmelová hořkost a lehčí tělo, spodně kvašený a čistý v chuti."
     },
     "beerstreet::Agent::Moves - Broskev + Liči": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-moves-exotic/4961829",
@@ -1265,6 +1315,16 @@
       "match_score": 1.0,
       "matched_at": "2026-05-06T20:19:40Z",
       "query_used": "Pineapple Chroust"
+    },
+    "beerstreet::Duck & Dog::Fiškus": {
+      "untappd_url": "https://untappd.com/b/pivovar-duck-dog-duck-dog-fiskus-svetly-lezak-11-deg/4367516",
+      "untappd_name": "Duck & Dog Fiškus – světlý ležák 11°",
+      "untappd_brewery": "Pivovar Duck&Dog",
+      "rating": 3.4,
+      "match_score": 1.0,
+      "matched_at": "2026-08-28T22:58:02Z",
+      "query_used": "Fiškus 11° Duck & Dog",
+      "description": "Klasický světlý ležák: sladový základ, jemná chmelová hořkost a lehčí tělo, spodně kvašený a čistý v chuti."
     },
     "beerstreet::Duck & Dog::Mosaic": {
       "untappd_url": "https://untappd.com/b/pivovar-duck-dog-duck-dog-smash-mosaic/1925044",
@@ -1933,6 +1993,16 @@
       "query_used": "Summer Ale Mordýř",
       "description": "Hazy Summer ale s mírnou sladkostí, ovocným aroma a lehkou, měkkou hořkostí, středně plné tělo, spodně kvašený styl s vyšší turbiditou a ovocnými esterovými tóny."
     },
+    "beerstreet::Nachmelená Opice::Nectaron Hazy": {
+      "untappd_url": "https://untappd.com/b/nachmelena-opice-nectaron-hazy-pale-ale-13/6636867",
+      "untappd_name": "Nectaron Hazy Pale Ale 13",
+      "untappd_brewery": "Nachmelená Opice",
+      "rating": 3.84,
+      "match_score": 1.0,
+      "matched_at": "2026-08-28T22:58:11Z",
+      "query_used": "Nectaron Hazy 13° Nachmelená Opice",
+      "description": "Hazy pale ale s výrazným ovocným a tropickým aroma po manga, marakuji a broskvi, střední tělo a jemná kalnost; Nectaron chmel přináší šťavnatou, téměř džusovitou chuť s mírnou hořkostí a hladkým dozníváním. Hodnocení 3,84 naznačuje nadprůměrné přijetí."
+    },
     "beerstreet::Nachmelená opice::Sun APA": {
       "untappd_url": "https://untappd.com/b/nachmelena-opice-sun-apa-12/1558059",
       "untappd_name": "Sun APA 12%",
@@ -2259,7 +2329,8 @@
       "rating": 3.472,
       "match_score": 1.0,
       "matched_at": "2026-06-18T17:18:06Z",
-      "query_used": "Slunečník 10° U Vojtěchů"
+      "query_used": "Slunečník 10° U Vojtěchů",
+      "description": "Letní svrchně kvašené pivo s lehkým tělem, jemnou sladovou základnou a osvěžujícím charakterem vhodným pro teplé počasí. Spodní hranice stupňovitosti naznačuje vyšší pitelnost a jemnou hořkost."
     },
     "beerstreet::U Vojtěchů::Šlehač": {
       "untappd_url": "https://untappd.com/b/pivovar-u-vojtechu-slehac/4240811",
@@ -2577,6 +2648,16 @@
       "matched_at": "2026-08-16T13:35:16Z",
       "query_used": "Goldie Clock",
       "description": "Weizenbier s typickým ovocným a banánovým aroma, lehkou sladkostí a mírnou hořkostí, středně plné tělo, dobře vyvážené a osvěžující."
+    },
+    "toulavapipa::Clock::Hektor": {
+      "untappd_url": "https://untappd.com/b/pivovar-clock-hektor/740151",
+      "untappd_name": "Hektor",
+      "untappd_brewery": "Pivovar Clock",
+      "rating": 3.49,
+      "match_score": 1.0,
+      "matched_at": "2026-08-28T22:58:19Z",
+      "query_used": "Hektor Clock",
+      "description": "Klasický výčepní světlý ležák: sladový základ, jemná chmelová hořkost a lehčí tělo, spodně kvašený a čistý v chuti."
     },
     "toulavapipa::Fracek::Original ležák": {
       "untappd_url": "https://untappd.com/b/fracek-original-lezak-lager-11/5384122",
@@ -2918,6 +2999,16 @@
       "query_used": "Fiesta Zichovec",
       "description": "Fiesta 12 od Pivovaru Zichovec je osvěžující kyselý ale s mírnou kyselostí a lehkou pěnivostí. Vhodný na letní den nebo k odpočinku po práci."
     },
+    "toulavapipa::Zichovec::Mosaic Ale": {
+      "untappd_url": "https://untappd.com/b/pivovar-zichovec-mosaic-ale-12/1737004",
+      "untappd_name": "Mosaic Ale 12",
+      "untappd_brewery": "Pivovar ZICHOVEC",
+      "rating": 3.65,
+      "match_score": 1.0,
+      "matched_at": "2026-08-28T22:58:22Z",
+      "query_used": "Mosaic Ale Zichovec",
+      "description": "APA s výrazným chmelovým profilem odrůdy Mosaic – tropické ovoce, citrus a lehká pryskyřice ve vůni i chuti, střední hořkost a plnější tělo typické pro svrchně kvašené ale. Hodnocení 3,65 naznačuje nadprůměrné přijetí."
+    },
     "toulavapipa::Zichovec::Robin na grepu": {
       "untappd_url": "https://untappd.com/b/pivovar-zichovec-robin-na-grepu-12/5411257",
       "untappd_name": "Robin na Grepu 12",
@@ -2946,6 +3037,16 @@
       "match_score": 1.0,
       "matched_at": "2026-08-10T09:32:09Z",
       "query_used": "New zealand pilsner Čestmír"
+    },
+    "uzamastilu::Albert Michler::Malina & Mojito": {
+      "untappd_url": "https://untappd.com/b/albert-michler-akciovy-pivovar-12-malina-mojito-sour-ale/6299182",
+      "untappd_name": "12 Malina Mojito Sour Ale",
+      "untappd_brewery": "Albert Michler akciový pivovar",
+      "rating": 3.84,
+      "match_score": 1.0,
+      "matched_at": "2026-08-28T22:58:37Z",
+      "query_used": "Malina & Mojito 12° Albert Michler",
+      "description": "Kyselé svrchně kvašené pivo s výraznou ovocnou a bylinkovou charakteristikou; malina přináší sladkokyselé bobulové tóny, zatímco mojito (limeta a máta) přidává osvěžující citrusovou kyselinku a chladivý bylinkový závěr. Střední plnost odpovídá 12° stupňovitosti, hodnocení 3,84 naznačuje nadprůměrné přijetí."
     },
     "uzamastilu::Budvar::Birgo Mango-Limetka": {
       "untappd_url": "https://untappd.com/b/budejovicky-budvar-birgo-mango-limetka/4803777",
@@ -3334,6 +3435,11 @@
       "last_tried_at": "2026-05-30T17:14:51Z",
       "reason": "no_candidates_above_threshold"
     },
+    "beerstreet::Loutkář::Paragánská": {
+      "attempts": 1,
+      "last_tried_at": "2026-08-28T22:58:10Z",
+      "reason": "no_candidates_above_threshold"
+    },
     "beerstreet::Vorkloster::Brillante": {
       "attempts": 1,
       "last_tried_at": "2026-08-13T19:15:13Z",
@@ -3397,6 +3503,11 @@
     "uzamastilu::Pastry Sour Twinberg::Brew Berrymode": {
       "attempts": 1,
       "last_tried_at": "2026-08-21T17:33:47Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "uzamastilu::Pioneer Beer::Dočesná 2025": {
+      "attempts": 1,
+      "last_tried_at": "2026-08-28T22:58:35Z",
       "reason": "no_candidates_above_threshold"
     },
     "uzamastilu::Rhap-Nectaron Čestmír::Stereo Lab": {
