@@ -176,25 +176,10 @@
             <span id="beer-count" class="text-zinc-500 dark:text-chalk/40"></span>
         </div>
     </header>
+    <!-- Both rows are built by JS from the same createFilterRow() component, so pubs and styles
+         behave identically: "Vše" comes first and is the only way to clear the selection. -->
     <nav class="flex flex-wrap justify-center gap-2 px-6 pb-2">
-        <button class="filter-btn active text-xs border border-zinc-300 dark:border-chalk/10 text-zinc-500 dark:text-chalk/60 rounded-full px-3 py-1.5 whitespace-nowrap"
-                data-filter="all"
-                onclick="setFilter('all')">Vše</button>
-        <button class="filter-btn text-xs border border-zinc-300 dark:border-chalk/10 text-zinc-500 dark:text-chalk/60 rounded-full px-3 py-1.5 whitespace-nowrap"
-                data-filter="beerstreet"
-                onclick="setFilter('beerstreet')">Beer Street</button>
-        <button class="filter-btn text-xs border border-zinc-300 dark:border-chalk/10 text-zinc-500 dark:text-chalk/60 rounded-full px-3 py-1.5 whitespace-nowrap"
-                data-filter="ambasada"
-                onclick="setFilter('ambasada')">Pivní Ambasáda</button>
-        <button class="filter-btn text-xs border border-zinc-300 dark:border-chalk/10 text-zinc-500 dark:text-chalk/60 rounded-full px-3 py-1.5 whitespace-nowrap"
-                data-filter="toulavapipa"
-                onclick="setFilter('toulavapipa')">U Toulavé Pípy</button>
-        <button class="filter-btn text-xs border border-zinc-300 dark:border-chalk/10 text-zinc-500 dark:text-chalk/60 rounded-full px-3 py-1.5 whitespace-nowrap"
-                data-filter="lodotava"
-                onclick="setFilter('lodotava')">Loď Otava</button>
-        <button class="filter-btn text-xs border border-zinc-300 dark:border-chalk/10 text-zinc-500 dark:text-chalk/60 rounded-full px-3 py-1.5 whitespace-nowrap"
-                data-filter="uzamastilu"
-                onclick="setFilter('uzamastilu')">U Zamastilů</button>
+        <span id="source-filters" class="contents"></span>
         <button id="refresh-btn"
                 class="text-xs border border-zinc-300 dark:border-chalk/10 text-zinc-500 dark:text-chalk/60 rounded-full w-8 h-8 flex items-center justify-center ml-1 shrink-0"
                 onclick="loadAll()"
@@ -210,7 +195,6 @@
             </svg>
         </button>
     </nav>
-    <!-- Buttons are built by JS: one per style category that is actually on tap right now. -->
     <nav id="style-filters"
          class="hidden flex flex-wrap justify-center gap-2 px-6 pb-3">
     </nav>
@@ -308,10 +292,9 @@
     const $container = document.getElementById('beer-container');
     const $beerCount = document.getElementById('beer-count');
     const $updateTime = document.getElementById('update-time');
-    const $filterBtns = document.querySelectorAll('.filter-btn');
     const $refreshBtn = document.getElementById('refresh-btn');
+    const $sourceFilters = document.getElementById('source-filters');
     const $styleFilters = document.getElementById('style-filters');
-    let $styleAllBtn = null;
 
     function formatVolume(liters) {
         return String(liters).replace('.', ',') + ' l';
@@ -518,11 +501,55 @@
         $container.appendChild(fragment);
     }
 
+    const FILTER_BTN_CLASS = 'filter-btn text-xs border border-zinc-300 dark:border-chalk/10 text-zinc-500 dark:text-chalk/60 rounded-full px-3 py-1.5 whitespace-nowrap';
+
+    // One filter row: a "Vše" button followed by one button per option. Selection is exclusive and
+    // clicking the active option does nothing -- "Vše" is the only way back to an unfiltered list.
+    // Both the pub row and the style row are instances of this, so they cannot drift apart.
+    function createFilterRow($root, options, onSelect) {
+        const buttons = new Map();
+
+        [{key: 'all', label: 'Vše'}, ...options].forEach(({key, label}) => {
+            const btn = document.createElement('button');
+            btn.className = FILTER_BTN_CLASS;
+            btn.dataset.filter = key;
+            btn.textContent = label;
+            btn.onclick = () => onSelect(key);
+            buttons.set(key, btn);
+            $root.appendChild(btn);
+        });
+
+        // `labels` overrides button texts (the style row appends live counts); `hidden` lists
+        // options with nothing to show -- the active one stays put so it can still be switched off.
+        return function update(active, {labels = {}, hidden = new Set()} = {}) {
+            let visibleOptions = 0;
+            buttons.forEach((btn, key) => {
+                btn.classList.toggle('active', key === active);
+                if (key === 'all') return;
+                if (labels[key] != null) btn.textContent = labels[key];
+                const hide = hidden.has(key) && key !== active;
+                btn.classList.toggle('hidden', hide);
+                if (!hide) visibleOptions++;
+            });
+            // A lone "Vše" filters nothing -- hide the whole row instead.
+            $root.classList.toggle('hidden', visibleOptions === 0);
+        };
+    }
+
     let allBeers = [];
     let pairings = {};
     let activeSource = 'all';
     let activeStyle = 'all';
-    const styleBtns = {};
+    const updateSourceRow = createFilterRow(
+        $sourceFilters,
+        SOURCE_KEYS.map(key => ({key, label: SOURCES[key].name})),
+        (key) => setFilter('source', key),
+    );
+    const updateStyleRow = createFilterRow(
+        $styleFilters,
+        STYLE_CATEGORIES.map(({key, label}) => ({key, label})),
+        (key) => setFilter('style', key),
+    );
 
     // Two tokens joined by '+' ('#beerstreet+ipa'), each recognized by the set its key belongs to.
     // A single token is therefore still read the way it always was, so old links keep working.
@@ -535,35 +562,9 @@
         return filters;
     }
 
-    const STYLE_BTN_CLASS = 'filter-btn text-xs border border-zinc-300 dark:border-chalk/10 text-zinc-500 dark:text-chalk/60 rounded-full px-3 py-1.5 whitespace-nowrap';
-
-    function buildStyleBtns() {
-        // "Vše" first, exactly like the pub row -- it is the only way to clear the style filter.
-        $styleAllBtn = document.createElement('button');
-        $styleAllBtn.className = STYLE_BTN_CLASS;
-        $styleAllBtn.dataset.styleFilter = 'all';
-        $styleAllBtn.textContent = 'Vše';
-        $styleAllBtn.onclick = () => setStyleFilter('all');
-        $styleFilters.appendChild($styleAllBtn);
-
-        STYLE_CATEGORIES.forEach(({key, label}) => {
-            const btn = document.createElement('button');
-            btn.className = STYLE_BTN_CLASS;
-            btn.dataset.styleFilter = key;
-            btn.textContent = label;
-            btn.onclick = () => setStyleFilter(key);
-            styleBtns[key] = btn;
-            $styleFilters.appendChild(btn);
-        });
-    }
-
-    function setFilter(source) {
-        activeSource = source;
-        applyFilters();
-    }
-
-    function setStyleFilter(style) {
-        activeStyle = style;
+    function setFilter(row, key) {
+        if (row === 'source') activeSource = key;
+        else activeStyle = key;
         applyFilters();
     }
 
@@ -572,10 +573,6 @@
         if (activeSource !== 'all') tokens.push(activeSource);
         if (activeStyle !== 'all') tokens.push(activeStyle);
         window.location.hash = tokens.join('+');
-
-        $filterBtns.forEach(btn => {
-            btn.classList.toggle('active', btn.dataset.filter === activeSource);
-        });
 
         const isDebug = document.documentElement.classList.contains('debug-mode');
         const cards = $container.children;
@@ -596,24 +593,17 @@
             if (visible && !unavailable) visibleCount++;
         }
 
-        $styleAllBtn.classList.toggle('active', activeStyle === 'all');
+        updateSourceRow(activeSource);
 
-        let visibleStyleBtns = 0;
+        // Nothing on tap (or a debug-only category outside debug mode) means no button.
+        const styleLabels = {};
+        const hiddenStyles = new Set();
         STYLE_CATEGORIES.forEach(({key, label, debugOnly}) => {
             const count = styleCounts[key] || 0;
-            const btn = styleBtns[key];
-            btn.textContent = `${label} · ${count}`;
-            btn.classList.toggle('active', key === activeStyle);
-            // Nothing on tap (or a debug-only category outside debug mode) means no button -- the
-            // active filter is the exception, it has to stay clickable so it can be switched off.
-            const hide = count === 0 || (debugOnly && !isDebug);
-            btn.classList.toggle('hidden', hide && key !== activeStyle);
-            if (!hide || key === activeStyle) visibleStyleBtns++;
+            styleLabels[key] = `${label} · ${count}`;
+            if (count === 0 || (debugOnly && !isDebug)) hiddenStyles.add(key);
         });
-
-        // With no category to pick, "Vše" would be a lone button that does nothing -- hide the
-        // whole row instead.
-        $styleFilters.classList.toggle('hidden', visibleStyleBtns === 0);
+        updateStyleRow(activeStyle, {labels: styleLabels, hidden: hiddenStyles});
 
         $beerCount.textContent = `· ${visibleCount} piv na čepu`;
     }
@@ -723,7 +713,9 @@
         }
     });
 
-    buildStyleBtns();
+    // Highlights "Vše" while the menu is still loading; the style row stays hidden until there is
+    // something to categorize.
+    updateSourceRow(activeSource);
     loadAll();
     </script>
 {% endblock scripts %}
