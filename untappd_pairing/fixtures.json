@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-29T17:03:35Z",
+  "generated_at": "2026-08-29T20:45:47Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -625,6 +625,36 @@
         "degree_plato": null
       },
       "captured_at": "2026-08-28T22:58:17Z",
+      "candidates": [
+        {
+          "name": "Pavillon (2025)",
+          "brewery": "Fenetra",
+          "url": "/b/fenetra-pavillon-2025/6342507",
+          "rating": 3.88
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Pavillon 2025 Fenetra",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/fenetra-pavillon-2025/6342507",
+        "score": 1.0
+      }
+    },
+    "ambasada::Fenetra, Potštejn::Pavillon 2025": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Fenetra, Potštejn",
+        "name": "Pavillon 2025",
+        "style": "Rustical wild sour ale",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-29T20:45:24Z",
       "candidates": [
         {
           "name": "Pavillon (2025)",
@@ -9065,6 +9095,36 @@
         "score": 1.0
       }
     },
+    "toulavapipa::Bratři v pivu::Světlý ležák": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Bratři v pivu",
+        "name": "Světlý ležák",
+        "style": "",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-29T20:45:36Z",
+      "candidates": [
+        {
+          "name": "Světlý Ležák",
+          "brewery": "Bratři v pivu",
+          "url": "/b/bratri-svetly-lezak/4818050",
+          "rating": 3.14
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Světlý ležák Bratři v pivu",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/bratri-svetly-lezak/4818050",
+        "score": 1.0
+      }
+    },
     "toulavapipa::Clock::Clock": {
       "beer": {
         "source": "toulavapipa",
@@ -9307,6 +9367,82 @@
             0,
             1,
             2
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
+    "toulavapipa::Clock::Zajíc": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Clock",
+        "name": "Zajíc",
+        "style": "Výčepní světlé",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-08-29T20:45:35Z",
+      "candidates": [
+        {
+          "name": "Kynšperský Zajíc 10° světlé výčepní",
+          "brewery": "Kynšperský pivovar",
+          "url": "/b/kynspersky-pivovar-kynspersky-zajic-10-deg-svetle-vycepni/815388",
+          "rating": 3.2
+        },
+        {
+          "name": "Kynšperský Zajíc 12° světlý ležák",
+          "brewery": "Kynšperský pivovar",
+          "url": "/b/kynspersky-pivovar-kynspersky-zajic-12-deg-svetly-lezak/850661",
+          "rating": 3.31
+        },
+        {
+          "name": "Kynšperský Zajíc 12° polotmavý ležák",
+          "brewery": "Kynšperský pivovar",
+          "url": "/b/kynspersky-pivovar-kynspersky-zajic-12-deg-polotmavy-lezak/813826",
+          "rating": 3.21
+        },
+        {
+          "name": "Kynšperský Zajíc 12° tmavý ležák",
+          "brewery": "Kynšperský pivovar",
+          "url": "/b/kynspersky-pivovar-kynspersky-zajic-12-deg-tmavy-lezak/1113111",
+          "rating": 3.3
+        },
+        {
+          "name": "Kynšperský Zajíc 12° zelený ležák s kopřivou",
+          "brewery": "Kynšperský pivovar",
+          "url": "/b/kynspersky-pivovar-kynspersky-zajic-12-deg-zeleny-lezak-s-koprivou/1036772",
+          "rating": 2.83
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Zajíc 10° Clock",
+          "hits": []
+        },
+        {
+          "query": "Zajíc Clock",
+          "hits": []
+        },
+        {
+          "query": "Zajíc 10°",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "query": "Zajíc",
+          "hits": [
+            1,
+            2,
+            0,
+            3,
+            4
           ]
         }
       ],
@@ -10304,6 +10440,31 @@
         "score": 1.0
       }
     },
+    "toulavapipa::Obora::Bez a limetka": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Obora",
+        "name": "Bez a limetka",
+        "style": "Sour ale",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-29T20:45:43Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Bez a limetka Obora",
+          "hits": []
+        },
+        {
+          "query": "Bez a limetka",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
     "toulavapipa::Obora::Summer ale": {
       "beer": {
         "source": "toulavapipa",
@@ -10683,6 +10844,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-raven-summer-citra/2191517",
+        "score": 1.0
+      }
+    },
+    "toulavapipa::Raven::Summer Galaxy": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Raven",
+        "name": "Summer Galaxy",
+        "style": "Single hop session IPA",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-29T20:45:38Z",
+      "candidates": [
+        {
+          "name": "Summer Galaxy",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-summer-galaxy/2688351",
+          "rating": 3.64
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Summer Galaxy Raven",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-raven-summer-galaxy/2688351",
         "score": 1.0
       }
     },

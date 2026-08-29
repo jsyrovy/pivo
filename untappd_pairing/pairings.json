@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-29T17:03:35Z",
+  "generated_at": "2026-08-29T20:45:47Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -197,6 +197,16 @@
       "matched_at": "2026-08-28T22:58:17Z",
       "query_used": "Pavillon 2025 Fenetra",
       "description_failed_at": "2026-08-28T22:58:37Z"
+    },
+    "ambasada::Fenetra, Potštejn::Pavillon 2025": {
+      "untappd_url": "https://untappd.com/b/fenetra-pavillon-2025/6342507",
+      "untappd_name": "Pavillon (2025)",
+      "untappd_brewery": "Fenetra",
+      "rating": 3.88,
+      "match_score": 1.0,
+      "matched_at": "2026-08-29T20:45:24Z",
+      "query_used": "Pavillon 2025 Fenetra",
+      "description": "Rustic wild sour ale s výraznou kyselinkou a komplexním charakterem divokých kvasinek a bakterií, středně plné tělo s ovocnými a funky tóny, suchý a osvěžující závěr. Nadprůměrně hodnocené."
     },
     "ambasada::Fracek, Praha::Big Sure!": {
       "untappd_url": "https://untappd.com/b/fracek-big-sure-west-coast-ipa/5826591",
@@ -1257,7 +1267,8 @@
       "rating": 3.655,
       "match_score": 1.0,
       "matched_at": "2026-05-22T20:41:04Z",
-      "query_used": "Pivorožec Brewnicorn"
+      "query_used": "Pivorožec Brewnicorn",
+      "description": "Lehký světlý ležák s jemným sladovým aroma, jemnou chmelovou hořkostí a čistou spodně kvašenou chutí, vyváženou středně plným tělem."
     },
     "beerstreet::Brewnicorn::Sunny  Day": {
       "untappd_url": "https://untappd.com/b/brewnicorn-sunny-day/6689258",
@@ -2629,6 +2640,16 @@
       "query_used": "Dark Bratři v pivu",
       "description": "Polotmavý ležák s vyváženým sladovým charakterem, jemnou karamelovou sladostí a mírnou chmelovou hořkostí, středně plné tělo a čistý, dobře pitelný závěr. Podprůměrně hodnocené na Untappd."
     },
+    "toulavapipa::Bratři v pivu::Světlý ležák": {
+      "untappd_url": "https://untappd.com/b/bratri-svetly-lezak/4818050",
+      "untappd_name": "Světlý Ležák",
+      "untappd_brewery": "Bratři v pivu",
+      "rating": 3.14,
+      "match_score": 1.0,
+      "matched_at": "2026-08-29T20:45:36Z",
+      "query_used": "Světlý ležák Bratři v pivu",
+      "description_failed_at": "2026-08-29T20:45:43Z"
+    },
     "toulavapipa::Clock::Clock": {
       "untappd_url": "https://untappd.com/b/clock-clock-apa/730508",
       "untappd_name": "Clock APA",
@@ -2938,6 +2959,16 @@
       "matched_at": "2026-08-13T14:24:26Z",
       "query_used": "Summer Citra Raven",
       "description": "Silně chmelený ale s aromatem tropického ovoce a citrusů, lehkou až střední sladkostí a mírnou hořkostí, středně plné tělo, dobře pitelné. POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE…"
+    },
+    "toulavapipa::Raven::Summer Galaxy": {
+      "untappd_url": "https://untappd.com/b/pivovar-raven-summer-galaxy/2688351",
+      "untappd_name": "Summer Galaxy",
+      "untappd_brewery": "Pivovar Raven",
+      "rating": 3.64,
+      "match_score": 1.0,
+      "matched_at": "2026-08-29T20:45:38Z",
+      "query_used": "Summer Galaxy Raven",
+      "description": "Session IPA s nižším obsahem alkoholu a lehčím tělem, chmelená výhradně jednou odrůdou Galaxy – tropické ovoce, marakuya a citrusy v aroma, střední hořkost a osvěžující, suchý závěr. Hodnocení 3,64 naznačuje nadprůměrné přijetí."
     },
     "toulavapipa::Raven::raven": {
       "untappd_url": "https://untappd.com/b/pivovar-raven-raven-12/2531564",
@@ -3510,6 +3541,11 @@
       "last_tried_at": "2026-08-22T13:35:38Z",
       "reason": "no_candidates_above_threshold"
     },
+    "toulavapipa::Clock::Zajíc": {
+      "attempts": 1,
+      "last_tried_at": "2026-08-29T20:45:35Z",
+      "reason": "no_candidates_above_threshold"
+    },
     "toulavapipa::Hřebec::MadCat": {
       "attempts": 1,
       "last_tried_at": "2026-08-29T17:03:01Z",
@@ -3518,6 +3554,11 @@
     "toulavapipa::Madcat::Desítka": {
       "attempts": 1,
       "last_tried_at": "2026-08-18T14:38:17Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "toulavapipa::Obora::Bez a limetka": {
+      "attempts": 1,
+      "last_tried_at": "2026-08-29T20:45:43Z",
       "reason": "no_candidates_above_threshold"
     },
     "toulavapipa::clock::summer affair": {
