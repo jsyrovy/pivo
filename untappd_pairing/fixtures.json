@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-28T22:58:52Z",
+  "generated_at": "2026-08-29T17:03:35Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -8841,6 +8841,42 @@
         "score": 1.0
       }
     },
+    "toulavapipa::Berquell Brauerei::Jahodový lužický porter": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Berquell Brauerei",
+        "name": "Jahodový lužický porter",
+        "style": "Tmavý porter ochuc. třešněmi",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-29T17:03:16Z",
+      "candidates": [
+        {
+          "name": "Erdbeer Porter",
+          "brewery": "Bergquell Brauerei Löbau",
+          "url": "/b/bergquell-brauerei-lobau-erdbeer-porter/46157",
+          "rating": 2.9
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Jahodový lužický porter Berquell Brauerei",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Jahodový lužický porter",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/bergquell-brauerei-lobau-erdbeer-porter/46157",
+        "source": "llm"
+      }
+    },
     "toulavapipa::Berquell Brauerei::Jahodový porter": {
       "beer": {
         "source": "toulavapipa",
@@ -9395,6 +9431,128 @@
       "outcome": {
         "matched": "/b/pivovar-hrebec-11-deg-lezak/6340661",
         "score": 0.0
+      }
+    },
+    "toulavapipa::Hřebec::MadCat": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Hřebec",
+        "name": "MadCat",
+        "style": "Světlý ležák",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-29T17:03:01Z",
+      "candidates": [
+        {
+          "name": "Muscat 2021",
+          "brewery": "Beautiful Rebels",
+          "url": "/b/beautiful-rebels-muscat-2021/4960097",
+          "rating": null
+        },
+        {
+          "name": "Muscat But Not Too Much",
+          "brewery": "Draco's Cave",
+          "url": "/b/draco-s-cave-muscat-but-not-too-much/5020013",
+          "rating": null
+        },
+        {
+          "name": "Madam X Reece’s Puffs",
+          "brewery": "Fringe Beerworks",
+          "url": "/b/fringe-beerworks-madam-x-reece-s-puffs/4646105",
+          "rating": null
+        },
+        {
+          "name": "Světlý ležák 11°",
+          "brewery": "Fenek Craft Beer",
+          "url": "/b/fenek-craft-beer-svetly-lezak-11-deg/3322596",
+          "rating": 3.42
+        },
+        {
+          "name": "Podzimní Ležák 11°",
+          "brewery": "MadCat",
+          "url": "/b/madcat-podzimni-lezak-11-deg/3955921",
+          "rating": 3.15
+        },
+        {
+          "name": "MadCat Ležák / Kamenický světlý ležák ",
+          "brewery": "MadCat",
+          "url": "/b/madcat-madcat-lezak-kamenicky-svetly-lezak/3619166",
+          "rating": 3.47
+        },
+        {
+          "name": "Kamenický zabiják",
+          "brewery": "MadCat",
+          "url": "/b/madcat-kamenicky-zabijak/3658818",
+          "rating": 3.52
+        },
+        {
+          "name": "Besídka / Kamenické šenkovní",
+          "brewery": "MadCat",
+          "url": "/b/madcat-besidka-kamenicke-senkovni/3658805",
+          "rating": 3.45
+        },
+        {
+          "name": "Mango-Piña-Coco",
+          "brewery": "MadCat",
+          "url": "/b/madcat-mango-pina-coco/2990679",
+          "rating": 3.8
+        },
+        {
+          "name": "Rosa's Thai-PA",
+          "brewery": "Mad Cat Brewery",
+          "url": "/b/mad-cat-brewery-rosa-s-thai-pa/3457688",
+          "rating": 3.2
+        },
+        {
+          "name": "Misty Skywalker",
+          "brewery": "MadCat",
+          "url": "/b/madcat-misty-skywalker/4468663",
+          "rating": 3.78
+        },
+        {
+          "name": "Goosourus",
+          "brewery": "MadCat",
+          "url": "/b/madcat-goosourus/3294580",
+          "rating": 3.73
+        }
+      ],
+      "attempts": [
+        {
+          "query": "MadCat 11° Hřebec",
+          "hits": []
+        },
+        {
+          "query": "MadCat Hřebec",
+          "hits": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "query": "MadCat 11°",
+          "hits": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "query": "MadCat",
+          "hits": [
+            8,
+            9,
+            10,
+            11,
+            5
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "toulavapipa::Kamenice nad Labem::Kamenická": {
@@ -10181,6 +10339,64 @@
       "outcome": {
         "matched": "/b/pivovar-obora-summer-ale/3300598",
         "score": 1.0
+      }
+    },
+    "toulavapipa::Raven::Birthday APA": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Raven",
+        "name": "Birthday APA",
+        "style": "APA",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-29T17:03:06Z",
+      "candidates": [
+        {
+          "name": "Birthday 10 APA (2025)",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-birthday-10-apa-2025/6350974",
+          "rating": 3.79
+        },
+        {
+          "name": "Birthday APA (2026)",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-birthday-apa-2026/6800611",
+          "rating": 3.59
+        },
+        {
+          "name": "Birthday APA 2020",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-birthday-apa-2020/3926933",
+          "rating": 3.53
+        },
+        {
+          "name": "Birthday APA (2019)",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-birthday-apa-2019/3404893",
+          "rating": 3.69
+        },
+        {
+          "name": "Birthday APA (2023)",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-birthday-apa-2023/5441601",
+          "rating": 3.64
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Birthday APA Raven",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-raven-birthday-apa-2019/3404893",
+        "source": "llm"
       }
     },
     "toulavapipa::Raven::Cascadelicous": {
@@ -12196,6 +12412,40 @@
         "reason": "no_candidates_above_threshold"
       }
     },
+    "uzamastilu::Pioneer Beer::Dočesná 2026": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Pioneer Beer",
+        "name": "Dočesná 2026",
+        "style": "Ležák",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-08-29T17:03:21Z",
+      "candidates": [
+        {
+          "name": "DOČESNÁ 2026",
+          "brewery": "Pioneer Beer",
+          "url": "/b/pioneer-beer-docesna-2026/6844586",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Dočesná 2026 12° Pioneer Beer",
+          "hits": []
+        },
+        {
+          "query": "Dočesná 2026 Pioneer Beer",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pioneer-beer-docesna-2026/6844586",
+        "score": 1.0
+      }
+    },
     "uzamastilu::Pioneer Beer::Summer Citra+Motueka": {
       "beer": {
         "source": "uzamastilu",
@@ -12555,6 +12805,43 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-trautenberk-trautenberk-14-apa/1446943",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Trilobit::Summer": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Trilobit",
+        "name": "Summer",
+        "style": "APA",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-29T17:03:19Z",
+      "candidates": [
+        {
+          "name": "Nachmelený Woříšek 10°",
+          "brewery": "Pivovar Trilobit",
+          "url": "/b/pivovar-trilobit-nachmeleny-worisek-10-deg/2685267",
+          "rating": 3.35
+        },
+        {
+          "name": "Summer APA 11",
+          "brewery": "Pivovar Trilobit",
+          "url": "/b/pivovar-trilobit-summer-apa-11/6822482",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Summer 11° Trilobit",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-trilobit-summer-apa-11/6822482",
         "score": 1.0
       }
     },

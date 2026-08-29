@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-28T22:58:52Z",
+  "generated_at": "2026-08-29T17:03:35Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -2589,6 +2589,16 @@
       "query_used": "Satyr 12° Švabín",
       "description": "Svěžákově sladové aroma s mírnou chmelovou hořkostí a lehkým ovocným tónem, středně plné tělo typické pro světlé ležáky stupně 12 %."
     },
+    "toulavapipa::Berquell Brauerei::Jahodový lužický porter": {
+      "untappd_url": "https://untappd.com/b/bergquell-brauerei-lobau-erdbeer-porter/46157",
+      "untappd_name": "Erdbeer Porter",
+      "untappd_brewery": "Bergquell Brauerei Löbau",
+      "rating": 2.9,
+      "match_score": 0.5,
+      "matched_at": "2026-08-29T17:03:16Z",
+      "query_used": "<llm>",
+      "description": "Porter s tmavou sladovou základnou, typicky s tóny praženého sladu, kávy a čokolády, ochucený jahodami, které přidávají sladký ovocný charakter a jemnou kyselinku. Hodnocení na Untappd je podprůměrné."
+    },
     "toulavapipa::Berquell Brauerei::Kirsch porter": {
       "untappd_url": "https://untappd.com/b/bergquell-brauerei-lobau-kirsch-porter/60818",
       "untappd_name": "Kirsch Porter",
@@ -2849,6 +2859,16 @@
       "query_used": "Summer ale Obora",
       "description": "Summer ale s mírnou sladkostí a ovocným aroma, lehkou hořkostí a středně plným tělem, typické pro letní styl."
     },
+    "toulavapipa::Raven::Birthday APA": {
+      "untappd_url": "https://untappd.com/b/pivovar-raven-birthday-apa-2019/3404893",
+      "untappd_name": "Birthday APA (2019)",
+      "untappd_brewery": "Pivovar Raven",
+      "rating": 3.69,
+      "match_score": 1.0,
+      "matched_at": "2026-08-29T17:03:06Z",
+      "query_used": "<llm>",
+      "description": "Klasická americká pale ale s vyváženým sladovým základem a střední chmelovou hořkostí, typicky s citrusovými a květinovými tóny chmele, středně plné tělo a čistý, pitelný charakter svrchně kvašeného piva. Hodnocení 3,69 naznačuje nadprůměrné přijetí mezi pivaři."
+    },
     "toulavapipa::Raven::Cascadelicous": {
       "untappd_url": "https://untappd.com/b/pivovar-raven-cascadelicious/6792361",
       "untappd_name": "Cascadelicious",
@@ -2867,7 +2887,7 @@
       "match_score": 1.0,
       "matched_at": "2026-08-12T14:21:59Z",
       "query_used": "Gunslinger Raven",
-      "description_failed_at": "2026-08-12T14:21:59Z"
+      "description": "West coast IPA s výraznou chmelovou hořkostí, citrusovým a pryskyřičným aroma a suchým závěrem. Nadprůměrně hodnocené na Untappd."
     },
     "toulavapipa::Raven::Krush lager": {
       "untappd_url": "https://untappd.com/b/pivovar-raven-krush-lager/6781333",
@@ -3228,6 +3248,16 @@
       "query_used": "Ležák 12° Permon",
       "description": "Světlý ležák 12° od Pivovaru Permon je středně silný, osvěžující ležák s mírnou sladkostí a vyváženou hořkostí, vhodný na letní posezení nebo neformální setkání. Je to klasický český ležák, který potěší příznivce mírných, pitelněých piv."
     },
+    "uzamastilu::Pioneer Beer::Dočesná 2026": {
+      "untappd_url": "https://untappd.com/b/pioneer-beer-docesna-2026/6844586",
+      "untappd_name": "DOČESNÁ 2026",
+      "untappd_brewery": "Pioneer Beer",
+      "rating": null,
+      "match_score": 1.0,
+      "matched_at": "2026-08-29T17:03:21Z",
+      "query_used": "Dočesná 2026 Pioneer Beer",
+      "description": "Klasický český ležák: plnější sladový základ s jemnou chmelovou hořkostí, středně plné tělo a čistý, vyvážený charakter spodního kvašení."
+    },
     "uzamastilu::Pioneer Beer::Summer Citra+Motueka": {
       "untappd_url": "https://untappd.com/b/pioneer-beer-summer-citra-motueka/6818184",
       "untappd_name": "Summer - Citra + Motueka",
@@ -3297,6 +3327,16 @@
       "matched_at": "2026-07-23T19:06:13Z",
       "query_used": "APA 14° Trautenberk",
       "description": "Trautenberk 14 APA je středně silné pivo s 14° stupňovitostí a mírnou hořkostí, vhodné na osvěžení po práci nebo při neformální schůzce."
+    },
+    "uzamastilu::Trilobit::Summer": {
+      "untappd_url": "https://untappd.com/b/pivovar-trilobit-summer-apa-11/6822482",
+      "untappd_name": "Summer APA 11",
+      "untappd_brewery": "Pivovar Trilobit",
+      "rating": null,
+      "match_score": 1.0,
+      "matched_at": "2026-08-29T17:03:19Z",
+      "query_used": "Summer 11° Trilobit",
+      "description": "Klasická americká pale ale se střední sladovou základnou, střední chmelovou hořkostí a citrusovo-květinovým aroma typickým pro americké chmely, středně plné tělo a vyvážený profil."
     },
     "uzamastilu::Twinberg::Hoppy Whale 7": {
       "untappd_url": "https://untappd.com/b/twinberg-hoppy-whale-7/6809119",
@@ -3468,6 +3508,11 @@
     "toulavapipa::Clock::Summer affair": {
       "attempts": 1,
       "last_tried_at": "2026-08-22T13:35:38Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "toulavapipa::Hřebec::MadCat": {
+      "attempts": 1,
+      "last_tried_at": "2026-08-29T17:03:01Z",
       "reason": "no_candidates_above_threshold"
     },
     "toulavapipa::Madcat::Desítka": {
