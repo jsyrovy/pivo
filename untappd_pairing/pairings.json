@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-29T20:45:47Z",
+  "generated_at": "2026-08-29T23:09:46Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -858,6 +858,16 @@
       "matched_at": "2026-05-12T20:28:23Z",
       "query_used": "Liquid Luck Sibeeria",
       "description": "Silně chmelený American pale ale s citrusovým a tropickým aroma, mírnou sladkostí a lehkou hořkostí, středně plné tělo s čistým, osvěžujícím závěrem."
+    },
+    "ambasada::Sibeeria, Praha::Lollihop": {
+      "untappd_url": "https://untappd.com/b/sibeeria-lollihop/1911036",
+      "untappd_name": "Lollihop",
+      "untappd_brewery": "Sibeeria Brewery",
+      "rating": 3.76,
+      "match_score": 1.0,
+      "matched_at": "2026-08-29T23:09:43Z",
+      "query_used": "Lollihop Sibeeria",
+      "description": "Silně chmelená západní IPA s výraznou hořkostí, citrusovým a pryskyřičným aroma a plnějším tělem díky vyšší stupňovitosti. Suchý závěr a středně vysoká alkoholová přítomnost umocňují její intenzitu."
     },
     "ambasada::Sibeeria, Praha::Léto 2026": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-leto-2026/6757175",

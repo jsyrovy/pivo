@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-29T20:45:47Z",
+  "generated_at": "2026-08-29T23:09:46Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -2888,6 +2888,68 @@
       ],
       "outcome": {
         "matched": "/b/sibeeria-brewery-italian-pilsner/5748767",
+        "score": 1.0
+      }
+    },
+    "ambasada::Sibeeria, Praha::Lollihop": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Sibeeria, Praha",
+        "name": "Lollihop",
+        "style": "West coast IPA",
+        "degree_plato": 15.0
+      },
+      "captured_at": "2026-08-29T23:09:43Z",
+      "candidates": [
+        {
+          "name": "Lollihop",
+          "brewery": "Sibeeria Brewery",
+          "url": "/b/sibeeria-lollihop/1911036",
+          "rating": 3.76
+        },
+        {
+          "name": "Grapefruit Lollihop",
+          "brewery": "Sibeeria Brewery",
+          "url": "/b/sibeeria-grapefruit-lollihop/2620360",
+          "rating": 3.74
+        },
+        {
+          "name": "Double Lollihop",
+          "brewery": "Sibeeria Brewery",
+          "url": "/b/sibeeria-brewery-double-lollihop/4353980",
+          "rating": 3.92
+        },
+        {
+          "name": "Black Lollihop",
+          "brewery": "Sibeeria Brewery",
+          "url": "/b/sibeeria-brewery-black-lollihop/6214763",
+          "rating": 3.66
+        },
+        {
+          "name": "Cyklo Lollihop",
+          "brewery": "Sibeeria Brewery",
+          "url": "/b/sibeeria-brewery-cyklo-lollihop/6730142",
+          "rating": 3.75
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Lollihop 15° Sibeeria",
+          "hits": []
+        },
+        {
+          "query": "Lollihop Sibeeria",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/sibeeria-lollihop/1911036",
         "score": 1.0
       }
     },
