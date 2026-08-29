@@ -9,6 +9,7 @@ import {
 } from "./fixtures";
 
 const ALLOWED_ORIGIN = "https://pivo.jsyrovy.cz";
+const LOCAL_ORIGIN = "http://localhost:8000";
 const TOULAVA_PIPA_SHEET_PATH =
   "/spreadsheets/d/e/2PACX-1vSgPAMETGHHgIC7ND6p79_D5WVCtrU6UBCwEm32LFZfK5eOKoXQYtuklEfAfvixIuHHiYjUBnhYG2PH/pub";
 
@@ -26,7 +27,7 @@ function call(path: string, init: RequestInit = {}): Promise<Response> {
 }
 
 describe("router", () => {
-  it("returns BeerStreet menu with CORS headers", async () => {
+  it.each([ALLOWED_ORIGIN, LOCAL_ORIGIN])("returns BeerStreet menu with CORS headers for %s", async (origin) => {
     fetchMock
       .get("https://beerstreet.cz")
       .intercept({ path: "/data/beers.json" })
@@ -35,11 +36,11 @@ describe("router", () => {
       });
 
     const res = await call("/beerstreet", {
-      headers: { Origin: ALLOWED_ORIGIN },
+      headers: { Origin: origin },
     });
 
     expect(res.status).toBe(200);
-    expect(res.headers.get("Access-Control-Allow-Origin")).toBe(ALLOWED_ORIGIN);
+    expect(res.headers.get("Access-Control-Allow-Origin")).toBe(origin);
     expect(res.headers.get("Content-Type")).toContain("application/json");
 
     const body = (await res.json()) as {

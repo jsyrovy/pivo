@@ -43,6 +43,12 @@ npm run dev     # wrangler dev
 (`.github/workflows/deploy-tap-api.yml`), and that workflow does **not** run the
 tests -- run `make test-tap-api` before pushing.
 
+The deployed Worker allows CORS requests from `localhost`, `127.0.0.1` and `[::1]`
+on any port, so `make publish-all` plus any static server over `dist/` (e.g.
+`cd dist && python -m http.server 8000`) hits production tap data without running
+`wrangler dev` or editing `API_BASE`. Open the page over `http://localhost:...`,
+**not** `file://` -- those pages send `Origin: null`, which the Worker rejects.
+
 ### Running a Single Test
 
 ```sh
