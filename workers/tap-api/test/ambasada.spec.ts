@@ -94,6 +94,25 @@ describe("parseDescription", () => {
     });
   });
 
+  it("extracts abv when the abbreviation dot is missing (Jackpot case)", () => {
+    // Without the ABV stripped, its decimal comma splits off a bare "4" as the first part -- and
+    // the brewery is read from the front, so the whole pairing loses its strongest disambiguator.
+    expect(
+      parseDescription("4,2% alc piv. Clock, Potštejn, Tangerine Infused Pale Ale, 0,5l"),
+    ).toEqual({
+      abv: 4.2,
+      brewery: "Clock, Potštejn",
+      style: "Tangerine Infused Pale Ale",
+    });
+  });
+
+  it("does not bite 'alc' out of a longer word", () => {
+    expect(parseDescription("5% alcohol free, Pivovar ABC")).toMatchObject({
+      abv: null,
+      brewery: "5% alcohol free",
+    });
+  });
+
   it("handles description without style heuristic", () => {
     expect(parseDescription("piv. Just brewery")).toEqual({
       abv: null,

@@ -114,7 +114,11 @@ export function parseDescription(raw: string): {
   if (!desc) return { abv: null, brewery: "", style: "" };
 
   let abv: number | null = null;
-  const abvMatch = desc.match(/^([\d,.]+)\s*%\s*alc\.\s*/i);
+  // The abbreviation dot is optional -- the menu sometimes omits it ("4,2% alc piv. Clock"), and an
+  // unstripped ABV is worse here than a leftover volume: its decimal comma splits off a bare "4" as
+  // the first part, which is what the brewery is read from. The word boundary before the optional
+  // dot keeps "alc" from being bitten out of a longer word ("5% alcohol free").
+  const abvMatch = desc.match(/^([\d,.]+)\s*%\s*alc\b\.?\s*/i);
   if (abvMatch) {
     const n = Number.parseFloat(abvMatch[1].replace(",", "."));
     abv = Number.isFinite(n) ? n : null;
