@@ -521,7 +521,8 @@
 
         // `labels` overrides button texts (the style row appends live counts); `hidden` lists
         // options with nothing to show -- the active one stays put so it can still be switched off.
-        return function update(active, {labels = {}, hidden = new Set()} = {}) {
+        // `show: false` takes the whole row off the page.
+        return function update(active, {labels = {}, hidden = new Set(), show = true} = {}) {
             let visibleOptions = 0;
             buttons.forEach((btn, key) => {
                 btn.classList.toggle('active', key === active);
@@ -532,7 +533,7 @@
                 if (!hide) visibleOptions++;
             });
             // A lone "Vše" filters nothing -- hide the whole row instead.
-            $root.classList.toggle('hidden', visibleOptions === 0);
+            $root.classList.toggle('hidden', !show || visibleOptions === 0);
         };
     }
 
@@ -575,6 +576,9 @@
         window.location.hash = tokens.join('+');
 
         const isDebug = document.documentElement.classList.contains('debug-mode');
+        // The style filter is still being tuned, so it is debug-only for now -- outside debug mode
+        // the row is gone and no style narrows the list, not even one carried in the hash.
+        if (!isDebug) activeStyle = 'all';
         const cards = $container.children;
         const styleCounts = {};
         let visibleCount = 0;
@@ -603,7 +607,7 @@
             styleLabels[key] = `${label} · ${count}`;
             if (count === 0 || (debugOnly && !isDebug)) hiddenStyles.add(key);
         });
-        updateStyleRow(activeStyle, {labels: styleLabels, hidden: hiddenStyles});
+        updateStyleRow(activeStyle, {labels: styleLabels, hidden: hiddenStyles, show: isDebug});
 
         $beerCount.textContent = `· ${visibleCount} piv na čepu`;
     }
