@@ -1,5 +1,12 @@
 import type { PricingInfo } from "./schema";
 
+// Two readings of the same serving size at the end of a description, kept adjacent because they
+// have to stay in step. The first only reads a number, so it takes the volume however it is
+// written. The second deletes text, so it insists on a separator in front: without one there is no
+// safe cut point, and a description that is nothing but a volume would be erased whole.
+const TRAILING_VOLUME = /([\d,.]+)\s*l\s*$/;
+const SEPARATED_TRAILING_VOLUME = /[,\s]+[\d.,]+\s*l\s*$/;
+
 export function halfLiterFrom(priceCzk: number, volumeLiters: number): number {
   return Math.round((priceCzk / volumeLiters) * 0.5);
 }
@@ -61,11 +68,15 @@ export function ambasadaPricing(
 
 export function extractTrailingVolume(description: string | null): number | null {
   if (!description) return null;
-  const match = description.match(/([\d,.]+)\s*l\s*$/);
+  const match = description.match(TRAILING_VOLUME);
   if (!match) return null;
   const volume = Number.parseFloat(match[1].replace(",", "."));
   if (!Number.isFinite(volume) || volume <= 0) return null;
   return volume;
+}
+
+export function stripTrailingVolume(description: string): string {
+  return description.replace(SEPARATED_TRAILING_VOLUME, "").trim();
 }
 
 export function uzamastiluPricing(

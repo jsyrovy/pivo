@@ -72,6 +72,13 @@ describe("parseAmbasadaHtml", () => {
     expect(beers[0].style).toBe("Pale ale with various adjuncts");
   });
 
+  it("keeps the serving size out of the style", async () => {
+    // Same fixture as the pricing tests above, which still read 0,5 l / 0,3 l off the untouched
+    // description -- the two readings of the volume are independent.
+    const beers = await parseAmbasadaHtml(htmlResponse(AMBASADA_FIXTURE));
+    expect(beers.map((b) => b.style)).toEqual(["India pale ale", "Dry stout", ""]);
+  });
+
   it("tags source as ambasada", async () => {
     const beers = await parseAmbasadaHtml(htmlResponse(AMBASADA_FIXTURE));
     expect(beers.every((b) => b.source === "ambasada")).toBe(true);
@@ -122,17 +129,43 @@ describe("parseDescription", () => {
     });
   });
 
-  it("detects style keyword as second word (Dry Stout)", () => {
-    expect(parseDescription("Pivovar ABC, Dry Stout")).toMatchObject({
-      brewery: "Pivovar ABC",
-      style: "Dry Stout",
-    });
-  });
-
   it("detects Czech style keyword (světlý ležák)", () => {
     expect(parseDescription("Pivovar XYZ, světlý ležák")).toMatchObject({
       brewery: "Pivovar XYZ",
       style: "světlý ležák",
+    });
+  });
+
+  it("cuts the serving size before splitting on commas (Pavillon case)", () => {
+    // "0,25l" used to split into "0" and "25l", making "25l" the style and swallowing the real
+    // one into the brewery.
+    expect(
+      parseDescription(
+        "5,9% alc. piv. Fenetra, Potštejn, Rustical Wild Sour Ale, 0,25l",
+      ),
+    ).toEqual({
+      abv: 5.9,
+      brewery: "Fenetra, Potštejn",
+      style: "Rustical Wild Sour Ale",
+    });
+  });
+
+  it("detects a style keyword past the second word", () => {
+    // The length-capped last-part fallback refuses styles this long, so only the keyword scan
+    // can find them.
+    expect(
+      parseDescription("Pivovar ABC, Praha, Rustical Wild Sour Ale s malinami a vanilkou"),
+    ).toMatchObject({
+      brewery: "Pivovar ABC, Praha",
+      style: "Rustical Wild Sour Ale s malinami a vanilkou",
+    });
+  });
+
+  it("leaves no style when the description is only a brewery and a volume", () => {
+    expect(parseDescription("jablkohruškový 0,33l")).toEqual({
+      abv: null,
+      brewery: "jablkohruškový",
+      style: "",
     });
   });
 });

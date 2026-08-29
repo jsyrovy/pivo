@@ -49,6 +49,9 @@ def test_brewery_matches_subset_with_brewery_suffix():
 def test_brewery_matches_strips_city_suffix_before_comparison():
     assert matcher.brewery_matches("JungBerg, Hořice", "Pivovar JungBerg") is True
     assert matcher.brewery_matches("Maisel, Bayreuth, Bavorsko", "Brauerei Gebr. Maisel") is True
+    # The same truncation absorbs whatever a source parser appends behind the brewery -- which is
+    # why a tap-api bug that pushed the style and the volume in there still paired correctly.
+    assert matcher.brewery_matches("Fenetra, Potštejn, Rustical Wild Sour Ale, 0", "Fenetra") is True
 
 
 def test_brewery_matches_tolerates_czech_case_declension():

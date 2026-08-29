@@ -41,7 +41,9 @@ describe("style corpus", () => {
     const beers = Object.values(buckets).reduce((sum, bucket) => sum + bucket.beers, 0);
     const styles = Object.values(buckets).reduce((sum, bucket) => sum + Object.keys(bucket.styles).length, 0);
 
-    expect(beers).toBe(279);
-    expect(styles).toBe(102);
+    // Derived from the corpus, not hardcoded: the claim under test is that the rules partition it,
+    // which stays true -- and stays worth asserting -- whatever size the corpus grows to.
+    expect(beers).toBe(Object.values(STYLE_CORPUS).reduce((sum, count) => sum + count, 0));
+    expect(styles).toBe(Object.keys(STYLE_CORPUS).length);
   });
 });

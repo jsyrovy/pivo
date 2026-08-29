@@ -4,6 +4,7 @@ import {
   beerStreetPricing,
   extractTrailingVolume,
   halfLiterFrom,
+  stripTrailingVolume,
 } from "../src/pricing";
 
 describe("halfLiterFrom", () => {
@@ -103,5 +104,35 @@ describe("extractTrailingVolume", () => {
   it("returns null when no trailing volume", () => {
     expect(extractTrailingVolume("no volume")).toBeNull();
     expect(extractTrailingVolume(null)).toBeNull();
+  });
+});
+
+describe("stripTrailingVolume", () => {
+  it("cuts a comma-separated volume together with its separator", () => {
+    expect(
+      stripTrailingVolume("Fenetra, Potštejn, Rustical Wild Sour Ale, 0,25l"),
+    ).toBe("Fenetra, Potštejn, Rustical Wild Sour Ale");
+  });
+
+  it("cuts a space-separated dot decimal volume", () => {
+    expect(stripTrailingVolume("Maisel, Bayreuth, Hefeweizen 0.5 l")).toBe(
+      "Maisel, Bayreuth, Hefeweizen",
+    );
+  });
+
+  it("does not bite into a word that merely ends in l", () => {
+    expect(stripTrailingVolume("De Koningshoeven, Belgian Tripel")).toBe(
+      "De Koningshoeven, Belgian Tripel",
+    );
+  });
+
+  it("needs a separator, so a bare volume is left as the whole description", () => {
+    expect(stripTrailingVolume("1l")).toBe("1l");
+  });
+
+  it("erases a description that is nothing but a separator and a volume", () => {
+    // parseDescription's empty-parts guard turns this into a blank brewery and style, which beats
+    // keeping the text and letting the comma-split make "0" the brewery all over again.
+    expect(stripTrailingVolume(", 0,5l")).toBe("");
   });
 });

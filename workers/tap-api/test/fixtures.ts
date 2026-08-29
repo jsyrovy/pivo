@@ -128,10 +128,13 @@ export const AMBASADA_EMPTY_FIXTURE = `<!doctype html>
 </table>
 </body></html>`;
 
-// Every distinct style string from the 279 tap-list beers captured in
+// Every distinct style string from the 278 tap-list beers captured in
 // `untappd_pairing/fixtures.json` (extracted 2026-08-27), mapped to how many beers carried it.
 // Inlined instead of read from that JSON because these tests run inside workerd, which has no
-// filesystem. It is the real thing -- typos ("Ležák světiý"), leftovers ("25l") and all.
+// filesystem. It is the real thing, typos ("Ležák světiý") and all -- with two hand edits where
+// the capture held a parser artifact rather than a style a pub ever wrote: "25l" became "Tropical
+// fruit ale", what the fixed parser reads from that same beer, and "malinami a vanilkou" was
+// dropped as a stale second copy of "Stout s laktozou, malinami a vanilkou", already counted below.
 export const STYLE_CORPUS: Record<string, number> = {
   "Ležák světlý": 26,
   "APA": 16,
@@ -170,7 +173,6 @@ export const STYLE_CORPUS: Record<string, number> = {
   "Smash ale": 2,
   "Světlé výčepní": 2,
   "světlý ležák": 2,
-  "25l": 1,
   "Bohemian Pilsner": 1,
   "Brut IPA": 1,
   "Cold IPA": 1,
@@ -226,6 +228,7 @@ export const STYLE_CORPUS: Record<string, number> = {
   "Summer Ale": 1,
   "Sv. ležák": 1,
   "Tmavý porter ochuc. třešněmi": 1,
+  "Tropical fruit ale": 1,
   "Výroční ležák 6 let": 1,
   "Weizen": 1,
   "Weizenbier": 1,
@@ -234,7 +237,6 @@ export const STYLE_CORPUS: Record<string, number> = {
   "White IPA": 1,
   "White session IPA": 1,
   "Witbier": 1,
-  "malinami a vanilkou": 1,
 };
 
 export const AMBASADA_LONG_DESC_FIXTURE = `<!doctype html>

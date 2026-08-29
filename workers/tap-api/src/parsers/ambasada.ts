@@ -1,5 +1,5 @@
 import type { ParsedBeer } from "../schema";
-import { ambasadaPricing } from "../pricing";
+import { ambasadaPricing, stripTrailingVolume } from "../pricing";
 import { STYLE_KEYWORDS, formatStyle } from "../style";
 
 interface PendingRow {
@@ -97,8 +97,11 @@ function buildBeer(row: PendingRow, order: number): ParsedBeer | null {
   };
 }
 
-function startsWithStyleKeyword(part: string): boolean {
-  const words = part.toLocaleLowerCase("cs-CZ").split(/\s+/).slice(0, 2);
+// The whole part is searched, not just its opening words: a style can carry any number of
+// qualifiers before its core noun ("Rustical Wild Sour Ale"), and the length-capped fallback below
+// refuses exactly those longer styles, so a narrow window loses them entirely.
+function containsStyleKeyword(part: string): boolean {
+  const words = part.toLocaleLowerCase("cs-CZ").split(/\s+/);
   return words.some((w) => STYLE_KEYWORDS.has(w));
 }
 
@@ -120,11 +123,16 @@ export function parseDescription(raw: string): {
 
   if (desc.startsWith("piv. ")) desc = desc.slice(5);
 
+  // Before any comma-splitting: the serving size ends in a decimal comma, so leaving it in splits
+  // "0,25l" into "0" and "25l" and pushes the real style into the brewery. The pricing side reads
+  // the volume off the untouched description, so cutting it here cannot affect the price.
+  desc = stripTrailingVolume(desc);
+
   const parts = desc.split(",").map((p) => p.trim()).filter((p) => p.length > 0);
   if (parts.length === 0) return { abv, brewery: "", style: "" };
 
   for (let i = 1; i < parts.length; i++) {
-    if (startsWithStyleKeyword(parts[i])) {
+    if (containsStyleKeyword(parts[i])) {
       return {
         abv,
         brewery: parts.slice(0, i).join(", "),

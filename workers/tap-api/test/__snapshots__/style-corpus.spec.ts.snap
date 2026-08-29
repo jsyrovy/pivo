@@ -79,15 +79,13 @@ exports[`style corpus > splits every real style string into categories 1`] = `
     "styles": {},
   },
   "other": {
-    "beers": 10,
+    "beers": 8,
     "styles": {
       "(bez stylu)": 8,
-      "25l": 1,
-      "malinami a vanilkou": 1,
     },
   },
   "paleale": {
-    "beers": 65,
+    "beers": 66,
     "styles": {
       "APA": 16,
       "Ale": 8,
@@ -109,6 +107,7 @@ exports[`style corpus > splits every real style string into categories 1`] = `
       "Smash ale": 2,
       "Summer Ale": 1,
       "Summer ale": 10,
+      "Tropical fruit ale": 1,
     },
   },
   "sour": {
