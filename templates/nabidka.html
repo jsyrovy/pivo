@@ -34,18 +34,61 @@
         0%, 80%, 100% { transform: scale(0); }
         40% { transform: scale(1); }
     }
+    /* Filter buttons are coloured here rather than with Tailwind classes: a `dark:text-…` utility
+       ties with `.filter-btn.active` on specificity and wins on order, so the active state would
+       never get to colour its own text. The active hue is a variable -- amber by default, and each
+       pub button overrides it inline with its own colour, the one its badge carries on every card,
+       so a filter and the cards it produced are visibly the same thing. One rule per theme means
+       there is no second active rule whose order could silently decide the outcome. */
     .filter-btn {
-        transition: all 0.2s ease;
+        transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
+        --accent: #b8892e;
+        --accent-dark: #e8c97a;
+        color: #71717a;
+        border-color: #d4d4d8;
     }
-    .filter-btn.active {
-        background-color: rgba(212, 168, 84, 0.15);
-        border-color: rgba(212, 168, 84, 0.5);
-        color: #e8c97a;
+    html.dark .filter-btn {
+        color: rgba(245, 240, 232, 0.6);
+        border-color: rgba(245, 240, 232, 0.1);
     }
-    :not(.dark) .filter-btn.active {
-        background-color: rgba(212, 168, 84, 0.1);
-        border-color: rgba(212, 168, 84, 0.6);
-        color: #b8892e;
+    html:not(.dark) .filter-btn.active {
+        background-color: color-mix(in srgb, var(--accent) 10%, transparent);
+        border-color: color-mix(in srgb, var(--accent) 55%, transparent);
+        color: var(--accent);
+    }
+    html.dark .filter-btn.active {
+        background-color: color-mix(in srgb, var(--accent-dark) 15%, transparent);
+        border-color: color-mix(in srgb, var(--accent-dark) 50%, transparent);
+        color: var(--accent-dark);
+    }
+    /* A filter row never wraps -- what does not fit scrolls sideways. Each edge fades only while
+       there is still something behind it, so the fade means "more this way" and nothing else, and
+       a row with nothing hidden carries no mask at all. */
+    .rail {
+        display: flex;
+        gap: 0.5rem;
+        padding-block: 2px;
+        overflow-x: auto;
+        scrollbar-width: none;
+        scroll-snap-type: x proximity;
+        --fade-l: 0px;
+        --fade-r: 0px;
+    }
+    .rail.is-faded {
+        -webkit-mask-image: linear-gradient(to right, transparent 0, #000 var(--fade-l), #000 calc(100% - var(--fade-r)), transparent 100%);
+        mask-image: linear-gradient(to right, transparent 0, #000 var(--fade-l), #000 calc(100% - var(--fade-r)), transparent 100%);
+    }
+    .rail::-webkit-scrollbar {
+        display: none;
+    }
+    .rail > * {
+        scroll-snap-align: start;
+    }
+    .eyebrow {
+        font-size: 10px;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        font-weight: 600;
     }
     #copy-toast {
         position: fixed;
@@ -169,35 +212,54 @@
     </style>
 {% endblock head %}
 {% block content %}
+    <!-- Refresh sits next to the timestamp it changes, and the reset next to the count it resets,
+         so neither has to stand in a filter row and eat its width. -->
     <header class="pt-6 pb-2 px-6 text-center">
         <h1 class="font-display text-3xl md:text-4xl text-amber tracking-tight">Nabídka na čepu</h1>
-        <div class="mt-1 flex items-center justify-center gap-2 text-zinc-400 dark:text-chalk/30 text-xs">
-            <span id="update-time"></span>
-            <span id="beer-count" class="text-zinc-500 dark:text-chalk/40"></span>
+        <div class="mt-1 flex flex-wrap items-center justify-center gap-2 text-zinc-400 dark:text-chalk/30 text-xs">
+            <span id="update-time" class="whitespace-nowrap"></span>
+            <span id="beer-count"
+                  class="text-zinc-500 dark:text-chalk/40 whitespace-nowrap"></span>
+            <span id="reset-wrap" class="hidden items-center gap-2">
+                <span class="text-zinc-400 dark:text-chalk/25">·</span>
+                <button id="reset-filters"
+                        class="text-amber hover:text-amber-light hover:underline underline-offset-2 transition-colors whitespace-nowrap"
+                        onclick="clearFilters()"></button>
+            </span>
+            <button id="refresh-btn"
+                    class="w-7 h-7 -my-1 rounded-full flex items-center justify-center shrink-0 text-zinc-400 dark:text-chalk/30 hover:text-amber hover:bg-amber/10"
+                    onclick="loadAll()"
+                    title="Obnovit nabídku"
+                    aria-label="Obnovit nabídku">
+                <svg class="w-3.5 h-3.5"
+                     fill="none"
+                     viewBox="0 0 24 24"
+                     stroke-width="1.6"
+                     stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 1 1-3-6.7L21 8" />
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 3v5h-5" />
+                </svg>
+            </button>
         </div>
     </header>
     <!-- Both rows are built by JS from the same createFilterRow() component, so pubs and styles
-         behave identically: "Vše" comes first and is the only way to clear the selection. -->
-    <nav class="flex flex-wrap justify-center gap-2 px-6 pb-2">
-        <span id="source-filters" class="contents"></span>
-        <button id="refresh-btn"
-                class="text-xs border border-zinc-300 dark:border-chalk/10 text-zinc-500 dark:text-chalk/60 rounded-full w-8 h-8 flex items-center justify-center ml-1 shrink-0"
-                onclick="loadAll()"
-                title="Obnovit nabídku"
-                aria-label="Obnovit nabídku">
-            <svg class="w-4 h-4"
-                 fill="none"
-                 viewBox="0 0 24 24"
-                 stroke-width="1.5"
-                 stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 1 1-3-6.7L21 8" />
-                <path stroke-linecap="round" stroke-linejoin="round" d="M21 3v5h-5" />
-            </svg>
-        </button>
-    </nav>
-    <nav id="style-filters"
-         class="hidden flex flex-wrap justify-center gap-2 px-6 pb-3">
-    </nav>
+         behave identically: every button is a toggle and the one that is on carries a ×.
+         Below `sm` the block loses its sides and reads as a band across the screen, which is where
+         the scrolling rows need every pixel they can get. -->
+    <div class="max-w-7xl mx-auto px-0 sm:px-4 pb-3">
+        <div class="border-y sm:border sm:rounded-xl border-zinc-200 dark:border-slate-mid/70 divide-y divide-zinc-200 dark:divide-slate-mid/70 bg-white/40 dark:bg-slate-light/30">
+            <div id="source-row" class="flex items-center gap-3 px-4 py-2">
+                <span class="eyebrow text-zinc-400 dark:text-chalk/35 w-[52px] shrink-0 text-right">Podnik</span>
+                <span class="w-px self-stretch bg-zinc-200 dark:bg-slate-mid/70 shrink-0"></span>
+                <div id="source-filters" class="rail flex-1 min-w-0"></div>
+            </div>
+            <div id="style-row" class="hidden flex items-center gap-3 px-4 py-2">
+                <span class="eyebrow text-zinc-400 dark:text-chalk/35 w-[52px] shrink-0 text-right">Styl</span>
+                <span class="w-px self-stretch bg-zinc-200 dark:bg-slate-mid/70 shrink-0"></span>
+                <div id="style-filters" class="rail flex-1 min-w-0"></div>
+            </div>
+        </div>
+    </div>
     <div id="warning" class="hidden max-w-6xl mx-auto px-6 pb-3">
         <p class="text-yellow-500/70 text-xs text-center" id="warning-text"></p>
     </div>
@@ -220,6 +282,18 @@
     <main id="beer-grid" class="hidden max-w-7xl mx-auto px-4 pb-6">
         <div id="beer-container"
              class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2.5"></div>
+        <!-- Two filters combined can rule everything out, so say which combination did it. The way
+             out is only offered when a style is what narrowed the list; otherwise it would do
+             nothing. Same button as the one the error state offers. -->
+        <div id="empty-state" class="hidden py-20 text-center">
+            <p id="empty-text"
+               class="font-display text-xl text-zinc-500 dark:text-chalk/50"></p>
+            <button id="empty-reset"
+                    onclick="clearStyleFilter()"
+                    class="hidden mt-6 px-6 py-2 border border-amber/30 text-amber text-sm rounded hover:bg-amber/10 transition-colors">
+                Zobrazit všechny styly
+            </button>
+        </div>
     </main>
     <div id="copy-toast"
          class="bg-slate-light border border-amber/30 text-amber text-xs rounded px-4 py-2 shadow-lg"></div>
@@ -256,19 +330,21 @@
         return _escEl.innerHTML;
     }
 
+    // `accent` / `accentLight` are the same hues as `color`, as plain values the active filter
+    // button can be tinted with (Tailwind's class-based opacities cannot be read from JS).
     const SOURCES = {
-        beerstreet: {name: 'Beer Street', label: 'BS', color: 'bg-emerald-500/15 text-emerald-400 border-emerald-500/25'},
-        ambasada: {name: 'Pivní Ambasáda', label: 'PA', color: 'bg-violet-500/15 text-violet-400 border-violet-500/25'},
-        toulavapipa: {name: 'U Toulavé Pípy', label: 'TP', color: 'bg-rose-500/15 text-rose-400 border-rose-500/25'},
-        lodotava: {name: 'Loď Otava', label: 'LO', color: 'bg-teal-500/15 text-teal-400 border-teal-500/25'},
-        uzamastilu: {name: 'U Zamastilů', label: 'UZ', color: 'bg-sky-500/15 text-sky-400 border-sky-500/25'},
+        beerstreet: {name: 'Beer Street', label: 'BS', color: 'bg-emerald-500/15 text-emerald-400 border-emerald-500/25', accent: '#34d399', accentLight: '#047857'},
+        ambasada: {name: 'Pivní Ambasáda', label: 'PA', color: 'bg-violet-500/15 text-violet-400 border-violet-500/25', accent: '#a78bfa', accentLight: '#6d28d9'},
+        toulavapipa: {name: 'U Toulavé Pípy', label: 'TP', color: 'bg-rose-500/15 text-rose-400 border-rose-500/25', accent: '#fb7185', accentLight: '#be123c'},
+        lodotava: {name: 'Loď Otava', label: 'LO', color: 'bg-teal-500/15 text-teal-400 border-teal-500/25', accent: '#2dd4bf', accentLight: '#0f766e'},
+        uzamastilu: {name: 'U Zamastilů', label: 'UZ', color: 'bg-sky-500/15 text-sky-400 border-sky-500/25', accent: '#38bdf8', accentLight: '#0369a1'},
     };
     const SOURCE_KEYS = Object.keys(SOURCES);
 
     // Category keys come from the worker (`beer.styleCategory`); the Czech labels and the button
     // order live here, so the API carries no UI copy. Normally `other` has no button -- its beers
-    // stay visible under "Vše" so nothing falls off the page -- but in debug mode it gets one, to
-    // show what the categorization failed to place.
+    // stay visible as long as no style is selected, so nothing falls off the page -- but in debug
+    // mode it gets one, to show what the categorization failed to place.
     const STYLE_CATEGORIES = [
         {key: 'lezak', label: 'Ležáky'},
         {key: 'ipa', label: 'IPA'},
@@ -279,7 +355,7 @@
         {key: 'nealko', label: 'Nealko'},
         {key: 'other', label: 'Ostatní', debugOnly: true},
     ];
-    const STYLE_KEYS = new Set(STYLE_CATEGORIES.map(category => category.key));
+    const STYLE_BY_KEY = Object.fromEntries(STYLE_CATEGORIES.map(category => [category.key, category]));
 
     const API_BASE = 'https://tap-api.jiri-syrovy.workers.dev';
     const PAIRINGS_URL = 'pairings.json';
@@ -295,6 +371,13 @@
     const $refreshBtn = document.getElementById('refresh-btn');
     const $sourceFilters = document.getElementById('source-filters');
     const $styleFilters = document.getElementById('style-filters');
+    const $sourceRow = document.getElementById('source-row');
+    const $styleRow = document.getElementById('style-row');
+    const $resetBtn = document.getElementById('reset-filters');
+    const $resetWrap = document.getElementById('reset-wrap');
+    const $emptyState = document.getElementById('empty-state');
+    const $emptyText = document.getElementById('empty-text');
+    const $emptyReset = document.getElementById('empty-reset');
 
     function formatVolume(liters) {
         return String(liters).replace('.', ',') + ' l';
@@ -501,39 +584,123 @@
         $container.appendChild(fragment);
     }
 
-    const FILTER_BTN_CLASS = 'filter-btn text-xs border border-zinc-300 dark:border-chalk/10 text-zinc-500 dark:text-chalk/60 rounded-full px-3 py-1.5 whitespace-nowrap';
+    // Deliberately carries no colour utilities -- .filter-btn owns its colours, see the stylesheet.
+    const FILTER_BTN_CLASS = 'filter-btn text-xs border rounded-full px-3 py-1.5 whitespace-nowrap inline-flex items-center gap-1.5';
+    const RAIL_FADE = 28; // px of the row that fades out on a side that can still be scrolled
+    const REDUCED_MOTION = window.matchMedia('(prefers-reduced-motion: reduce)');
 
-    // One filter row: a "Vše" button followed by one button per option. Selection is exclusive and
-    // clicking the active option does nothing -- "Vše" is the only way back to an unfiltered list.
+    // Anything that measures a filter row has to wait: Tailwind's runtime CDN styles freshly built
+    // elements asynchronously, so the same tick still reads a row that overflows, and the widths
+    // shift once more when the webfont lands. Measuring in a frame covers the first, repeating it
+    // until the fonts arrive covers the second -- and once they have, a single frame is enough.
+    let fontsReady = false;
+    document.fonts.ready.then(() => { fontsReady = true; });
+
+    function afterLayout(measure) {
+        requestAnimationFrame(measure);
+        if (!fontsReady) document.fonts.ready.then(measure);
+    }
+
+    function watchRail($rail) {
+        let shown = '';
+        const sync = () => {
+            const remaining = $rail.scrollWidth - $rail.clientWidth - $rail.scrollLeft;
+            const left = $rail.scrollLeft > 2 ? `${RAIL_FADE}px` : '0px';
+            const right = remaining > 2 ? `${RAIL_FADE}px` : '0px';
+            // Custom properties inherit, so writing them unconditionally would invalidate every
+            // button below on every scroll frame. They only change at the two ends of the row.
+            if (`${left}|${right}` === shown) return;
+            shown = `${left}|${right}`;
+            $rail.style.setProperty('--fade-l', left);
+            $rail.style.setProperty('--fade-r', right);
+            $rail.classList.toggle('is-faded', left !== '0px' || right !== '0px');
+        };
+        $rail.addEventListener('scroll', sync, {passive: true});
+        window.addEventListener('resize', sync);
+        afterLayout(sync);
+        return sync;
+    }
+
+    // The only way to switch a filter off is its own button, so that button must never sit past the
+    // edge of the row. Scrolls the row itself: scrollIntoView would drag the whole page with it.
+    function revealInRail($rail, $btn) {
+        if (!$btn) return;
+        afterLayout(() => {
+            const button = $btn.getBoundingClientRect();
+            const view = $rail.getBoundingClientRect();
+            const behavior = REDUCED_MOTION.matches ? 'auto' : 'smooth';
+            if (button.left < view.left + RAIL_FADE) {
+                $rail.scrollBy({left: button.left - view.left - RAIL_FADE, behavior});
+            } else if (button.right > view.right - RAIL_FADE) {
+                $rail.scrollBy({left: button.right - view.right + RAIL_FADE, behavior});
+            }
+        });
+    }
+
+    // One filter row: one button per option, no "Vše". Every button is a toggle -- clicking the
+    // active one switches the filter off -- and the active one carries a × so that way back is
+    // visible, because "click it again" on its own is a thing nobody discovers.
     // Both the pub row and the style row are instances of this, so they cannot drift apart.
-    function createFilterRow($root, options, onSelect) {
+    function createFilterRow($root, $row, options, onSelect) {
         const buttons = new Map();
+        let lastActive = null;
 
-        [{key: 'all', label: 'Vše'}, ...options].forEach(({key, label}) => {
+        options.forEach(({key, label, accent, accentLight}) => {
             const btn = document.createElement('button');
             btn.className = FILTER_BTN_CLASS;
+            // An option with a colour of its own tints its active state with it instead of amber.
+            if (accent) {
+                btn.style.setProperty('--accent-dark', accent);
+                btn.style.setProperty('--accent', accentLight);
+            }
             btn.dataset.filter = key;
-            btn.textContent = label;
+            const $label = document.createElement('span');
+            $label.textContent = label;
+            const $count = document.createElement('span');
+            $count.className = 'hidden opacity-60 tabular-nums';
+            const $cross = document.createElement('span');
+            $cross.className = 'hidden text-[13px] leading-none opacity-60';
+            $cross.textContent = '×';
+            $cross.setAttribute('aria-hidden', 'true');
+            btn.append($label, $count, $cross);
             btn.onclick = () => onSelect(key);
-            buttons.set(key, btn);
+            buttons.set(key, {btn, label, $count, $cross});
             $root.appendChild(btn);
         });
 
-        // `labels` overrides button texts (the style row appends live counts); `hidden` lists
-        // options with nothing to show -- the active one stays put so it can still be switched off.
-        // `show: false` takes the whole row off the page.
-        return function update(active, {labels = {}, hidden = new Set(), show = true} = {}) {
+        const syncFade = watchRail($root);
+
+        // `counts` appends a live count to every button (the style row); `hidden` lists options with
+        // nothing to show -- the active one stays put so it can still be switched off.
+        return function update(active, {counts = null, hidden = new Set()} = {}) {
             let visibleOptions = 0;
-            buttons.forEach((btn, key) => {
-                btn.classList.toggle('active', key === active);
-                if (key === 'all') return;
-                if (labels[key] != null) btn.textContent = labels[key];
-                const hide = hidden.has(key) && key !== active;
+            buttons.forEach(({btn, label, $count, $cross}, key) => {
+                const on = key === active;
+                btn.classList.toggle('active', on);
+                btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+                $cross.classList.toggle('hidden', !on);
+                if (on) btn.title = `Zrušit filtr ${label}`;
+                else btn.removeAttribute('title');
+                if (counts) {
+                    // Guarded: every filter click runs this twice (the hash write re-enters), and
+                    // textContent has no equality check of its own, so it would dirty layout again.
+                    const count = String(counts[key] || 0);
+                    if ($count.textContent !== count) $count.textContent = count;
+                    $count.classList.remove('hidden');
+                }
+                const hide = hidden.has(key) && !on;
                 btn.classList.toggle('hidden', hide);
                 if (!hide) visibleOptions++;
             });
-            // A lone "Vše" filters nothing -- hide the whole row instead.
-            $root.classList.toggle('hidden', !show || visibleOptions === 0);
+            // A single option filters nothing -- hide the whole row instead.
+            $row.classList.toggle('hidden', visibleOptions < 2);
+            // Showing the row or hiding a button changes what overflows, and neither fires a scroll
+            // or resize event -- so the fades are refreshed from here, where the change happens.
+            afterLayout(syncFade);
+            if (active !== lastActive) {
+                lastActive = active;
+                revealInRail($root, buttons.get(active)?.btn);
+            }
         };
     }
 
@@ -543,11 +710,13 @@
     let activeStyle = 'all';
     const updateSourceRow = createFilterRow(
         $sourceFilters,
-        SOURCE_KEYS.map(key => ({key, label: SOURCES[key].name})),
+        $sourceRow,
+        SOURCE_KEYS.map(key => ({key, label: SOURCES[key].name, accent: SOURCES[key].accent, accentLight: SOURCES[key].accentLight})),
         (key) => setFilter('source', key),
     );
     const updateStyleRow = createFilterRow(
         $styleFilters,
+        $styleRow,
         STYLE_CATEGORIES.map(({key, label}) => ({key, label})),
         (key) => setFilter('style', key),
     );
@@ -558,14 +727,26 @@
         const filters = {source: 'all', style: 'all'};
         window.location.hash.slice(1).split('+').forEach(token => {
             if (token in SOURCES) filters.source = token;
-            else if (STYLE_KEYS.has(token)) filters.style = token;
+            else if (token in STYLE_BY_KEY) filters.style = token;
         });
         return filters;
     }
 
+    // Clicking the active option switches it off; there is no separate "Vše" to switch it off with.
     function setFilter(row, key) {
-        if (row === 'source') activeSource = key;
-        else activeStyle = key;
+        if (row === 'source') activeSource = activeSource === key ? 'all' : key;
+        else activeStyle = activeStyle === key ? 'all' : key;
+        applyFilters();
+    }
+
+    function clearFilters() {
+        activeSource = 'all';
+        activeStyle = 'all';
+        applyFilters();
+    }
+
+    function clearStyleFilter() {
+        activeStyle = 'all';
         applyFilters();
     }
 
@@ -576,23 +757,25 @@
         window.location.hash = tokens.join('+');
 
         const isDebug = document.documentElement.classList.contains('debug-mode');
-        // The style filter is still being tuned, so it is debug-only for now -- outside debug mode
-        // the row is gone and no style narrows the list, not even one carried in the hash.
-        if (!isDebug) activeStyle = 'all';
         const cards = $container.children;
         const styleCounts = {};
         let visibleCount = 0;
+        let totalCount = 0;
         for (const card of cards) {
             const sourceMatch = activeSource === 'all' || card.dataset.source === activeSource;
             const category = card.dataset.styleCategory;
             const unavailable = card.dataset.unavailable === 'true';
+            const listed = !unavailable || isDebug;
+            // The total the filtered count compares against is always real beers, so the debug-only
+            // placeholders never inflate it.
+            if (!unavailable) totalCount++;
             // Counted per category ignoring the style filter, so every button says how many beers
             // it would show under the currently selected pub.
             if (sourceMatch && !unavailable) {
                 styleCounts[category] = (styleCounts[category] || 0) + 1;
             }
             const styleMatch = activeStyle === 'all' || category === activeStyle;
-            const visible = sourceMatch && styleMatch && (!unavailable || isDebug);
+            const visible = sourceMatch && styleMatch && listed;
             card.classList.toggle('hidden', !visible);
             if (visible && !unavailable) visibleCount++;
         }
@@ -600,16 +783,33 @@
         updateSourceRow(activeSource);
 
         // Nothing on tap (or a debug-only category outside debug mode) means no button.
-        const styleLabels = {};
         const hiddenStyles = new Set();
-        STYLE_CATEGORIES.forEach(({key, label, debugOnly}) => {
+        STYLE_CATEGORIES.forEach(({key, debugOnly}) => {
             const count = styleCounts[key] || 0;
-            styleLabels[key] = `${label} · ${count}`;
             if (count === 0 || (debugOnly && !isDebug)) hiddenStyles.add(key);
         });
-        updateStyleRow(activeStyle, {labels: styleLabels, hidden: hiddenStyles, show: isDebug});
+        updateStyleRow(activeStyle, {counts: styleCounts, hidden: hiddenStyles});
 
-        $beerCount.textContent = `· ${visibleCount} piv na čepu`;
+        // Filtered, the count says what the result is a part of -- and hands over the way back.
+        const activeFilters = (activeSource !== 'all' ? 1 : 0) + (activeStyle !== 'all' ? 1 : 0);
+        $beerCount.textContent = activeFilters === 0
+            ? `· ${visibleCount} piv na čepu`
+            : `· ${visibleCount} z ${totalCount} piv`;
+        $resetBtn.textContent = activeFilters === 1 ? 'zrušit filtr' : 'zrušit filtry';
+        $resetWrap.classList.toggle('hidden', activeFilters === 0);
+        $resetWrap.classList.toggle('flex', activeFilters > 0);
+
+        // Two filters combined can rule everything out; an empty grid alone would not say why.
+        const ruledOut = visibleCount === 0 && cards.length > 0;
+        $emptyState.classList.toggle('hidden', !ruledOut);
+        if (ruledOut) {
+            const pub = activeSource === 'all' ? 'Žádný z podniků' : SOURCES[activeSource].name;
+            const style = STYLE_BY_KEY[activeStyle];
+            $emptyText.textContent = style
+                ? `${pub} nemá na čepu nic z kategorie „${style.label}“.`
+                : `${pub} teď nemá na čepu nic.`;
+            $emptyReset.classList.toggle('hidden', !style);
+        }
     }
 
     function applyFiltersFromHash() {
@@ -717,8 +917,8 @@
         }
     });
 
-    // Highlights "Vše" while the menu is still loading; the style row stays hidden until there is
-    // something to categorize.
+    // Nothing is highlighted while the menu is still loading; the style row stays hidden until
+    // there is something to categorize.
     updateSourceRow(activeSource);
     loadAll();
     </script>
