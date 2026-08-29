@@ -342,9 +342,9 @@
     const SOURCE_KEYS = Object.keys(SOURCES);
 
     // Category keys come from the worker (`beer.styleCategory`); the Czech labels and the button
-    // order live here, so the API carries no UI copy. Normally `other` has no button -- its beers
-    // stay visible as long as no style is selected, so nothing falls off the page -- but in debug
-    // mode it gets one, to show what the categorization failed to place.
+    // order live here, so the API carries no UI copy. `other` is the catch-all for style text the
+    // categorization could not place, and it gets a button like any other category whenever
+    // something lands in it.
     const STYLE_CATEGORIES = [
         {key: 'lezak', label: 'Ležáky'},
         {key: 'ipa', label: 'IPA'},
@@ -353,7 +353,7 @@
         {key: 'dark', label: 'Tmavá'},
         {key: 'special', label: 'Pšeničné a speciály'},
         {key: 'nealko', label: 'Nealko'},
-        {key: 'other', label: 'Ostatní', debugOnly: true},
+        {key: 'other', label: 'Ostatní'},
     ];
     const STYLE_BY_KEY = Object.fromEntries(STYLE_CATEGORIES.map(category => [category.key, category]));
 
@@ -670,9 +670,9 @@
 
         const syncFade = watchRail($root);
 
-        // `counts` appends a live count to every button (the style row); `hidden` lists options with
-        // nothing to show -- the active one stays put so it can still be switched off.
-        return function update(active, {counts = null, hidden = new Set()} = {}) {
+        // `counts` appends a live count to every button and hides the ones it counts out (the style
+        // row) -- the active one stays put so it can still be switched off.
+        return function update(active, {counts = null} = {}) {
             let visibleOptions = 0;
             buttons.forEach(({btn, label, $count, $cross}, key) => {
                 const on = key === active;
@@ -688,7 +688,7 @@
                     if ($count.textContent !== count) $count.textContent = count;
                     $count.classList.remove('hidden');
                 }
-                const hide = hidden.has(key) && !on;
+                const hide = Boolean(counts) && !counts[key] && !on;
                 btn.classList.toggle('hidden', hide);
                 if (!hide) visibleOptions++;
             });
@@ -781,14 +781,7 @@
         }
 
         updateSourceRow(activeSource);
-
-        // Nothing on tap (or a debug-only category outside debug mode) means no button.
-        const hiddenStyles = new Set();
-        STYLE_CATEGORIES.forEach(({key, debugOnly}) => {
-            const count = styleCounts[key] || 0;
-            if (count === 0 || (debugOnly && !isDebug)) hiddenStyles.add(key);
-        });
-        updateStyleRow(activeStyle, {counts: styleCounts, hidden: hiddenStyles});
+        updateStyleRow(activeStyle, {counts: styleCounts});
 
         // Filtered, the count says what the result is a part of -- and hands over the way back.
         const activeFilters = (activeSource !== 'all' ? 1 : 0) + (activeStyle !== 'all' ? 1 : 0);

@@ -52,7 +52,7 @@ const NAME_STYLE_KEYWORDS = new Set([
 
 // Broad, flat buckets for the tap-list style filter. Deliberately few and wide: "ipa" holds every
 // IPA sub-style, "special" holds wheat and Belgian beers together. "other" is the fallback for
-// unclassifiable style text ("25l", empty) and has no filter button of its own.
+// unclassifiable style text ("25l", empty).
 export type StyleCategory =
   | "nealko"
   | "sour"
