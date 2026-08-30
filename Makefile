@@ -65,7 +65,14 @@ test:
 	uv run --dev -m pytest
 
 test-tap-api:
+	@cd workers/tap-api && ./node_modules/.bin/workerd --version >/dev/null 2>&1 || \
+		echo ">> workerd cannot start here (arm64 with a 39-bit VA space aborts tcmalloc). Try: make test-tap-api-node"
 	cd workers/tap-api && npm test
+
+# Same specs without workerd, using the shims in workers/tap-api/test/node-fallback/.
+# Weaker evidence than test-tap-api -- only for machines where workerd aborts on startup.
+test-tap-api-node:
+	cd workers/tap-api && npm run test:node
 
 coverage:
 	uv run --dev -m coverage run -m pytest

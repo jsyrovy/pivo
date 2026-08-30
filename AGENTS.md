@@ -35,6 +35,7 @@ with `@cloudflare/vitest-pool-workers`). Commands run from that directory:
 
 ```sh
 npm test        # vitest run (or `make test-tap-api` from the repo root)
+npm run test:node  # same specs without workerd (or `make test-tap-api-node`)
 npm run typecheck  # tsc --noEmit
 npm run dev     # wrangler dev
 ```
@@ -44,6 +45,24 @@ npm run dev     # wrangler dev
 suite first and stops on red, and `tests.yml` runs it on every push regardless of
 branch -- but the gate lives in the deploy job itself, so keep it there: a suite
 that only runs in `tests.yml` cannot stop a deploy.
+
+#### When workerd will not start
+
+`workerd` links against a tcmalloc that assumes a 48-bit virtual address space. On
+arm64 kernels built with `CONFIG_ARM64_VA_BITS=39` -- which is what Raspberry Pi OS
+ships -- it aborts during startup, before any spec loads, so `make test-tap-api`
+never gets as far as running a test. There is no flag or vitest option that avoids
+this; the binary cannot even print `--version`.
+
+`make test-tap-api-node` runs the same specs in a plain Node pool instead, with the
+worker runtime replaced by the shims in `workers/tap-api/test/node-fallback/`:
+`HTMLRewriter` (a small non-streaming stand-in, enough for the Ambasáda selectors),
+`cloudflare:sockets` (throws -- nothing in the suite needs a real socket) and
+`cloudflare:test` (`SELF` calls the worker's `fetch()` directly, `fetchMock` stubs
+the global `fetch`). The whole suite passes there, but it is weaker evidence: no
+isolate, no real HTML5 parsing, no Cloudflare-side request handling. Treat a green
+`test-tap-api-node` as "the logic is fine", not as "the Worker is fine", and get a
+real `make test-tap-api` run elsewhere before pushing anything runtime-shaped.
 
 The deployed Worker allows CORS requests from `localhost`, `127.0.0.1` and `[::1]`
 on any port, so `make publish-all` plus any static server over `dist/` (e.g.
