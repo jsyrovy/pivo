@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-29T23:09:46Z",
+  "generated_at": "2026-08-30T17:16:23Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -2251,6 +2251,16 @@
       "matched_at": "2026-04-25T19:41:44Z",
       "query_used": "Ow Much Thrills Brewing"
     },
+    "beerstreet::Thrills::About Your Thyme": {
+      "untappd_url": "https://untappd.com/b/pivovar-thrills-brewing-about-your-thyme/6681800",
+      "untappd_name": "About Your Thyme",
+      "untappd_brewery": "Pivovar Thrills Brewing",
+      "rating": 3.62,
+      "match_score": 1.0,
+      "matched_at": "2026-08-30T17:16:18Z",
+      "query_used": "About Your Thyme Thrills",
+      "description": "Farmhouse ale s kořenitým a ovocným charakterem, střední plnosti a suchým závěrem; tymián v názvu přidává bylinný, lehce pikantní tón. Střední hořkost a sladový základ vyvažují kořenitou složku."
+    },
     "beerstreet::Thrills::Pomgo - pomeranč + mango + limeta": {
       "untappd_url": "https://untappd.com/b/pivovar-thrills-brewing-pomgo/6615878",
       "untappd_name": "Pomgo",
@@ -3458,6 +3468,16 @@
       "matched_at": "2026-08-12T15:49:45Z",
       "query_used": "<override>",
       "description": "Smash APA s názvem Vera od Pivovaru Čestmír, 12° stupňovitosti, typicky ovocně chmelené aroma s citrusovými tóny a mírnou hořkostí, středně plné tělo, suchý závěr."
+    },
+    "uzamastilu::Čierny Kámeň::Lazarus": {
+      "untappd_url": "https://untappd.com/b/pivovar-cierny-kamen-lazarus/6772256",
+      "untappd_name": "Lazarus",
+      "untappd_brewery": "Pivovar Čierny Kameň",
+      "rating": 3.65,
+      "match_score": 1.0,
+      "matched_at": "2026-08-30T17:16:20Z",
+      "query_used": "Lazarus Čierny Kámeň",
+      "description": "Silně chmelená západní IPA s výraznou hořkostí, citrusovým a pryskyřičným aroma a suchým závěrem. Střední až plnější tělo odpovídá stupňovitosti 13°."
     },
     "uzamastilu::Římská::Breezy": {
       "untappd_url": "https://untappd.com/b/pivovar-rimska-breezy-xi-deg/6810175",

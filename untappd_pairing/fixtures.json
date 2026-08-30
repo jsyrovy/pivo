@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-29T23:09:46Z",
+  "generated_at": "2026-08-30T17:16:23Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -7861,6 +7861,40 @@
         "score": 0.9167
       }
     },
+    "beerstreet::Thrills::About Your Thyme": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Thrills",
+        "name": "About Your Thyme",
+        "style": "Farmhouse ale",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-08-30T17:16:18Z",
+      "candidates": [
+        {
+          "name": "About Your Thyme",
+          "brewery": "Pivovar Thrills Brewing",
+          "url": "/b/pivovar-thrills-brewing-about-your-thyme/6681800",
+          "rating": 3.62
+        }
+      ],
+      "attempts": [
+        {
+          "query": "About Your Thyme 12° Thrills",
+          "hits": []
+        },
+        {
+          "query": "About Your Thyme Thrills",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-thrills-brewing-about-your-thyme/6681800",
+        "score": 1.0
+      }
+    },
     "beerstreet::Tvarg::Ležák": {
       "beer": {
         "source": "beerstreet",
@@ -13450,6 +13484,40 @@
       "outcome": {
         "matched": null,
         "reason": "no_candidates_above_threshold"
+      }
+    },
+    "uzamastilu::Čierny Kámeň::Lazarus": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Čierny Kámeň",
+        "name": "Lazarus",
+        "style": "West coast IPA",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-08-30T17:16:20Z",
+      "candidates": [
+        {
+          "name": "Lazarus",
+          "brewery": "Pivovar Čierny Kameň",
+          "url": "/b/pivovar-cierny-kamen-lazarus/6772256",
+          "rating": 3.65
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Lazarus 13° Čierny Kámeň",
+          "hits": []
+        },
+        {
+          "query": "Lazarus Čierny Kámeň",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-cierny-kamen-lazarus/6772256",
+        "score": 1.0
       }
     },
     "uzamastilu::Římská::Breezy": {
