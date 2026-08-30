@@ -36,10 +36,10 @@
     }
     /* Filter buttons are coloured here rather than with Tailwind classes: a `dark:text-…` utility
        ties with `.filter-btn.active` on specificity and wins on order, so the active state would
-       never get to colour its own text. The active hue is a variable -- amber by default, and each
-       pub button overrides it inline with its own colour, the one its badge carries on every card,
-       so a filter and the cards it produced are visibly the same thing. One rule per theme means
-       there is no second active rule whose order could silently decide the outcome. */
+       never get to colour its own text. The active hue is a variable -- amber by default, and every
+       button overrides it inline with its option's own colour, the one that option's badge carries
+       on each card, so a filter and the cards it produced are visibly the same thing. One rule per
+       theme means there is no second active rule whose order could silently decide the outcome. */
     .filter-btn {
         transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
         --accent: #b8892e;
@@ -60,6 +60,18 @@
         background-color: color-mix(in srgb, var(--accent-dark) 15%, transparent);
         border-color: color-mix(in srgb, var(--accent-dark) 50%, transparent);
         color: var(--accent-dark);
+    }
+    /* A style chip is tinted from the same pair of values as its category's filter button, set
+       inline from the one table that holds them. All the theme decides is which of the pair is in
+       play, so that is all the dark rule says and the tint itself is written once. */
+    .style-chip {
+        --tint: var(--accent);
+        background-color: color-mix(in srgb, var(--tint) 11%, transparent);
+        border-color: color-mix(in srgb, var(--tint) 33%, transparent);
+        color: var(--tint);
+    }
+    html.dark .style-chip {
+        --tint: var(--accent-dark);
     }
     /* A filter row never wraps -- what does not fit scrolls sideways. Each edge fades only while
        there is still something behind it, so the fade means "more this way" and nothing else, and
@@ -341,17 +353,21 @@
     };
     const SOURCE_KEYS = Object.keys(SOURCES);
 
-    // Category keys come from the worker (`beer.styleCategory`); the Czech labels and the button
-    // order live here, so the API carries no UI copy. `other` is the catch-all for style text the
-    // categorization could not place, and it gets a button like any other category whenever
-    // something lands in it.
+    // Category keys come from the worker (`beer.styleCategory`); the Czech labels, the button order
+    // and the colours live here, so the API carries no UI copy. `other` is the catch-all for style
+    // text the categorization could not place, and it gets a button like any other category
+    // whenever something lands in it.
+    // The colours name the beer in the glass. They are all warm or neutral because the pubs hold the
+    // cool half of the wheel (emerald, violet, rose, teal, sky), so a card's two badges never repeat
+    // a hue and the two filter rows stay tellable apart at a glance. Ležák takes the page's own
+    // amber: it is the biggest category and straw gold is what that amber already was.
     const STYLE_CATEGORIES = [
-        {key: 'lezak', label: 'Ležák'},
-        {key: 'ale', label: 'Ale'},
-        {key: 'sour', label: 'Kyseláč'},
-        {key: 'dark', label: 'Tmavé'},
-        {key: 'nealko', label: 'Nealko'},
-        {key: 'other', label: 'Ostatní'},
+        {key: 'lezak', label: 'Ležák', accent: '#e8c97a', accentLight: '#b8892e'},
+        {key: 'ale', label: 'Ale', accent: '#fb923c', accentLight: '#c2410c'},
+        {key: 'sour', label: 'Kyseláč', accent: '#bef264', accentLight: '#4d7c0f'},
+        {key: 'dark', label: 'Tmavé', accent: '#c2705a', accentLight: '#7c2d12'},
+        {key: 'nealko', label: 'Nealko', accent: '#67e8f9', accentLight: '#0e7490'},
+        {key: 'other', label: 'Ostatní', accent: '#a1a1aa', accentLight: '#52525b'},
     ];
     const STYLE_BY_KEY = Object.fromEntries(STYLE_CATEGORIES.map(category => [category.key, category]));
 
@@ -376,6 +392,12 @@
     const $emptyState = document.getElementById('empty-state');
     const $emptyText = document.getElementById('empty-text');
     const $emptyReset = document.getElementById('empty-reset');
+
+    // The two hues an option is tinted with, under the names the stylesheet reads them by. The light
+    // theme gets the darker of the pair -- the only one of the two readable on a white card.
+    function accentVars({accent, accentLight}) {
+        return `--accent: ${accentLight}; --accent-dark: ${accent}`;
+    }
 
     function formatVolume(liters) {
         return String(liters).replace('.', ',') + ' l';
@@ -547,12 +569,16 @@
             const ratingHtml = renderRatingHtml(pairing);
             const descriptionHtml = renderDescriptionHtml(pairing);
 
+            // The worker and this page deploy separately, so the worker can already be sending a
+            // category key the page has never heard of. Without this the chip would come out
+            // uncoloured and no button in the style row would own the beer.
+            const category = STYLE_BY_KEY[beer.styleCategory] || STYLE_BY_KEY.other;
+
             const card = document.createElement('div');
             const isUnavailable = beer.name === '-';
             card.className = 'beer-card bg-white dark:bg-slate-light border border-zinc-200 dark:border-slate-mid rounded-lg p-3 flex flex-col' + (isUnavailable ? ' beer-unavailable' : '');
             card.dataset.source = beer.source;
-            // A response cached before the worker started categorizing has no styleCategory.
-            card.dataset.styleCategory = beer.styleCategory || 'other';
+            card.dataset.styleCategory = category.key;
             card.dataset.pairingKey = pairingKey(beer);
             if (isUnavailable) card.dataset.unavailable = 'true';
 
@@ -569,7 +595,7 @@
                 </div>
                 ${brewery ? `<p class="text-zinc-500 dark:text-chalk/50 text-xs truncate mb-1.5">${brewery}</p>` : ''}
                 <div class="flex flex-wrap gap-1 mb-2">
-                    ${style ? `<span class="text-[10px] bg-amber/10 text-amber-light border border-amber/20 rounded-full px-2 py-px">${style}</span>` : ''}
+                    ${style ? `<span class="style-chip text-[10px] border rounded-full px-2 py-px" style="${accentVars(category)}">${style}</span>` : ''}
                     ${abvText ? `<span class="text-[10px] bg-zinc-100 dark:bg-chalk/5 text-zinc-500 dark:text-chalk/60 border border-zinc-200 dark:border-slate-mid rounded-full px-2 py-px">${abvText}%</span>` : ''}
                 </div>
                 ${pricingHtml ? `<div class="mt-auto pt-2 border-t border-zinc-200 dark:border-slate-mid/50">${pricingHtml}</div>` : ''}
@@ -643,14 +669,12 @@
         const buttons = new Map();
         let lastActive = null;
 
-        options.forEach(({key, label, accent, accentLight}) => {
+        options.forEach(option => {
+            const {key, label} = option;
             const btn = document.createElement('button');
             btn.className = FILTER_BTN_CLASS;
             // An option with a colour of its own tints its active state with it instead of amber.
-            if (accent) {
-                btn.style.setProperty('--accent-dark', accent);
-                btn.style.setProperty('--accent', accentLight);
-            }
+            if (option.accent) btn.style.cssText = accentVars(option);
             btn.dataset.filter = key;
             const $label = document.createElement('span');
             $label.textContent = label;
