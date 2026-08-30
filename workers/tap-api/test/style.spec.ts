@@ -101,10 +101,9 @@ describe("categorizeStyle", () => {
     expect(categorizeStyle("Ležák světlý")).toBe("lezak");
     expect(categorizeStyle("Italian pilsner")).toBe("lezak");
     expect(categorizeStyle("Světlé výčepní")).toBe("lezak");
-    expect(categorizeStyle("Session IPA")).toBe("ipa");
-    expect(categorizeStyle("Pale ale")).toBe("paleale");
+    expect(categorizeStyle("Session IPA")).toBe("ale");
+    expect(categorizeStyle("Pale ale")).toBe("ale");
     expect(categorizeStyle("Pastry sour")).toBe("sour");
-    expect(categorizeStyle("Weizenbier")).toBe("special");
     expect(categorizeStyle("Nealko")).toBe("nealko");
   });
 
@@ -124,37 +123,41 @@ describe("categorizeStyle", () => {
   });
 
   it("keeps red out of dark", () => {
-    expect(categorizeStyle("Red APA")).toBe("paleale");
+    expect(categorizeStyle("Red APA")).toBe("ale");
   });
 
-  it("reads a bare hazy as an IPA", () => {
-    expect(categorizeStyle("Hazy ale")).toBe("ipa");
-    expect(categorizeStyle("Session hazy")).toBe("ipa");
+  it("reads a bare hazy as an ale", () => {
+    expect(categorizeStyle("Hazy ale")).toBe("ale");
+    expect(categorizeStyle("Session hazy")).toBe("ale");
   });
 
-  it("puts hop-forward lagers in IPA", () => {
-    expect(categorizeStyle("India pale lager")).toBe("ipa");
-    expect(categorizeStyle("IPL")).toBe("ipa");
+  it("puts hop-forward lagers in ale", () => {
+    expect(categorizeStyle("India pale lager")).toBe("ale");
+    expect(categorizeStyle("IPL")).toBe("ale");
   });
 
   it("keeps a hopless pale lager in ležáky", () => {
     expect(categorizeStyle("New zealand pale lager")).toBe("lezak");
   });
 
-  it("prefers a special over pale ale", () => {
-    expect(categorizeStyle("Hoppy saison ale")).toBe("special");
+  it("keeps wheat and Belgian specials out of ale", () => {
+    expect(categorizeStyle("Weizenbier")).toBe("other");
+    expect(categorizeStyle("German hefeweizen")).toBe("other");
+    expect(categorizeStyle("Witbier")).toBe("other");
+    expect(categorizeStyle("Hoppy saison ale")).toBe("other");
+    expect(categorizeStyle("Farmhouse ale")).toBe("other");
   });
 
   it("survives typos in the qualifier", () => {
     expect(categorizeStyle("Ležák světiý")).toBe("lezak");
-    expect(categorizeStyle("Sessiin NEIPA")).toBe("ipa");
-    expect(categorizeStyle("Singl hop ale")).toBe("paleale");
+    expect(categorizeStyle("Sessiin NEIPA")).toBe("ale");
+    expect(categorizeStyle("Singl hop ale")).toBe("ale");
   });
 
   it("splits on punctuation, not just spaces", () => {
-    expect(categorizeStyle("Ipa/dipa")).toBe("ipa");
+    expect(categorizeStyle("Ipa/dipa")).toBe("ale");
     expect(categorizeStyle("Gose sour - ibišek+koriandr+limeta+yuzu")).toBe("sour");
-    expect(categorizeStyle("Gluten-free session IPA")).toBe("ipa");
+    expect(categorizeStyle("Gluten-free session IPA")).toBe("ale");
   });
 
   it("falls back to other for style text that says nothing about the beer", () => {

@@ -5,7 +5,7 @@ import { STYLE_CORPUS } from "./fixtures";
 const EMPTY_STYLE_LABEL = "(bez stylu)";
 
 const CATEGORY_ORDER: readonly StyleCategory[] = [
-  "nealko", "sour", "dark", "ipa", "special", "lezak", "paleale", "other",
+  "nealko", "sour", "dark", "ale", "lezak", "other",
 ];
 
 interface Bucket {

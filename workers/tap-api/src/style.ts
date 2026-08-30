@@ -50,24 +50,22 @@ const NAME_STYLE_KEYWORDS = new Set([
   "nealko", "nealkoholické", "nealkoholický",
 ]);
 
-// Broad, flat buckets for the tap-list style filter. Deliberately few and wide: "ipa" holds every
-// IPA sub-style, "special" holds wheat and Belgian beers together. "other" is the fallback for
-// unclassifiable style text ("25l", empty).
+// Broad, flat buckets for the tap-list style filter. Deliberately few and wide: "ale" holds every
+// top-fermented style, from Summer ale to NEIPA. "other" takes both the wheat and Belgian specials
+// and unclassifiable style text ("25l", empty).
 export type StyleCategory =
   | "nealko"
   | "sour"
   | "dark"
-  | "ipa"
-  | "special"
+  | "ale"
   | "lezak"
-  | "paleale"
   | "other";
 
 // First row whose keyword appears in the style text wins, so row order is priority. That is what
-// settles the collisions the real corpus is full of: "Fruit sour ale" is sour rather than pale ale,
-// "India pale lager" is an IPA rather than a lager, "Hoppy saison ale" is a special rather than a
-// pale ale. Category boundaries are therefore configuration -- reclassifying a style means moving a
-// word from one row to another, not changing code.
+// settles the collisions the real corpus is full of: "Fruit sour ale" is sour rather than ale,
+// "Hoppy saison ale" is a special rather than an ale. Category boundaries are therefore
+// configuration -- reclassifying a style means moving a word from one row to another, not changing
+// code. A key may appear on more than one row when it has to win some collisions and lose others.
 const STYLE_CATEGORY_RULES: readonly { key: StyleCategory; keywords: readonly string[] }[] = [
   {
     key: "nealko",
@@ -82,27 +80,32 @@ const STYLE_CATEGORY_RULES: readonly { key: StyleCategory; keywords: readonly st
   {
     key: "dark",
     // Doubles as a colour filter -- amber lagers and Rotbier land here rather than in "lezak",
-    // which is what someone clicking "Tmavá" is after. "red" is left out: "Red APA" is a pale ale.
+    // which is what someone clicking "Tmavé" is after. "red" is left out: "Red APA" is an ale.
     keywords: [
       "stout", "porter", "dunkel", "schwarzbier", "rotbier", "amber", "barleywine",
       "tmavý", "tmavé", "tmavá", "tm", "polotmavý", "polotmavé", "polotmavá",
     ],
   },
   {
-    key: "ipa",
-    // "hazy" alone means an IPA on Czech tap lists ("Session hazy"), and IPL is decided by the hop
-    // profile, not the fermentation.
-    keywords: [
-      "ipa", "neipa", "dipa", "iipa", "tipa", "nedipa", "wipa", "bipa",
-      "ipl", "india", "hazy",
-    ],
-  },
-  {
-    key: "special",
+    // Wheat and Belgian specials are kept out of "ale" on purpose: too few to earn a button of their
+    // own, too far from an IPA to sit in the same one. The fallback bucket has a button, so they
+    // stay reachable.
+    key: "other",
     keywords: [
       "weizen", "weizenbier", "hefeweizen", "weissbier", "witbier", "wheat",
       "pšeničné", "pšeničný", "pšenice", "saison", "farmhouse",
       "tripel", "dubbel", "quadrupel", "bock", "rauchbier", "kölsch", "altbier",
+    ],
+  },
+  {
+    // "ale" straddles "lezak" because "pale" and "lager" collide in both directions: "India pale
+    // lager" is an ale, "New zealand pale lager" is a lager. The IPA words therefore win over
+    // lager, the pale-ale words lose to it. "hazy" alone means an IPA on Czech tap lists ("Session
+    // hazy"), and IPL is decided by the hop profile, not the fermentation.
+    key: "ale",
+    keywords: [
+      "ipa", "neipa", "dipa", "iipa", "tipa", "nedipa", "wipa", "bipa",
+      "ipl", "india", "hazy",
     ],
   },
   {
@@ -113,7 +116,7 @@ const STYLE_CATEGORY_RULES: readonly { key: StyleCategory; keywords: readonly st
     ],
   },
   {
-    key: "paleale",
+    key: "ale",
     keywords: ["apa", "nepa", "pale", "ale", "summer", "smash"],
   },
 ];

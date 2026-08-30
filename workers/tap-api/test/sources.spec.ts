@@ -103,7 +103,7 @@ describe("fetchMenu socket fallback", () => {
       socketFetch: vi.fn(),
     });
 
-    expect(menu.beers.map((b) => b.styleCategory)).toEqual(["lezak", "ipa", "dark"]);
+    expect(menu.beers.map((b) => b.styleCategory)).toEqual(["lezak", "ale", "dark"]);
   });
 
   it("categorizes styles on the socket fallback path too", async () => {
@@ -112,7 +112,7 @@ describe("fetchMenu socket fallback", () => {
       socketFetch: vi.fn(() => Promise.resolve(jsonResponse(200))),
     });
 
-    expect(menu.beers.map((b) => b.styleCategory)).toEqual(["lezak", "ipa", "dark"]);
+    expect(menu.beers.map((b) => b.styleCategory)).toEqual(["lezak", "ale", "dark"]);
   });
 
   it("surfaces a non-ok status returned by the socket fallback", async () => {
