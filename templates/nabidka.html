@@ -715,12 +715,13 @@
     const updateStyleRow = createFilterRow(
         $styleFilters,
         $styleRow,
-        STYLE_CATEGORIES.map(({key, label}) => ({key, label})),
+        STYLE_CATEGORIES,
         (key) => setFilter('style', key),
     );
 
-    // Two tokens joined by '+' ('#beerstreet+ipa'), each recognized by the set its key belongs to.
-    // A single token is therefore still read the way it always was, so old links keep working.
+    // Two tokens joined by '+' ('#beerstreet+ale'), each recognized by the set its key belongs to.
+    // A single token is therefore still read the way it always was, so old pub links keep working.
+    // An unknown token is dropped, which is what retires a renamed category key.
     function filtersFromHash() {
         const filters = {source: 'all', style: 'all'};
         window.location.hash.slice(1).split('+').forEach(token => {

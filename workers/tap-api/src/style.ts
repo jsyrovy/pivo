@@ -50,9 +50,11 @@ const NAME_STYLE_KEYWORDS = new Set([
   "nealko", "nealkoholické", "nealkoholický",
 ]);
 
-// Broad, flat buckets for the tap-list style filter. Deliberately few and wide: "ale" holds every
-// top-fermented style, from Summer ale to NEIPA. "other" takes both the wheat and Belgian specials
-// and unclassifiable style text ("25l", empty).
+// Broad, flat buckets for the tap-list style filter. Deliberately few and wide. The rules below are
+// a priority list over mixed axes -- alcohol, then taste, then colour, then specials, then
+// fermentation -- so "ale" is not every top-fermented beer, only the ones the earlier rows left:
+// a stout and a saison ferment warm too and land in "dark" and "other". "other" is both the specials
+// row and the fallback for unclassifiable style text ("25l", empty).
 export type StyleCategory =
   | "nealko"
   | "sour"
@@ -65,7 +67,8 @@ export type StyleCategory =
 // settles the collisions the real corpus is full of: "Fruit sour ale" is sour rather than ale,
 // "Hoppy saison ale" is a special rather than an ale. Category boundaries are therefore
 // configuration -- reclassifying a style means moving a word from one row to another, not changing
-// code.
+// code. Renaming a key is not that cheap, though: it is also the URL hash token, so old links stop
+// resolving.
 const STYLE_CATEGORY_RULES: readonly { key: StyleCategory; keywords: readonly string[] }[] = [
   {
     key: "nealko",
@@ -87,9 +90,10 @@ const STYLE_CATEGORY_RULES: readonly { key: StyleCategory; keywords: readonly st
     ],
   },
   {
-    // Wheat and Belgian specials are kept out of "ale" on purpose: too few to earn a button of their
-    // own, too far from an IPA to sit in the same one. The fallback bucket has a button, so they
-    // stay reachable.
+    // Wheat and Belgian specials share the fallback bucket rather than getting one of their own.
+    // The row exists only to outrank "lezak" and "ale": most of these words would reach "other" via
+    // the fallback anyway, and are listed to stop a qualifier from stealing the beer -- "Hoppy
+    // saison ale" and "Farmhouse ale" would otherwise land in "ale", "Pšeničné světlé" in "lezak".
     key: "other",
     keywords: [
       "weizen", "weizenbier", "hefeweizen", "weissbier", "witbier", "wheat",
@@ -99,8 +103,9 @@ const STYLE_CATEGORY_RULES: readonly { key: StyleCategory; keywords: readonly st
   },
   {
     // Ahead of "ale" so that a lager word beats a pale one: "India pale lager" and "New zealand pale
-    // lager" are both lagers. "ipl" is listed for the same reason -- on this axis an India pale
-    // lager is decided by its fermentation, not by its hop profile.
+    // lager" are both lagers. "ipl" spells out the same beer as an acronym, where no lager word is
+    // left to match -- on this axis an India pale lager is decided by its fermentation, not by its
+    // hop profile.
     key: "lezak",
     keywords: [
       "ležák", "lager", "pilsner", "pilsener", "pils", "helles", "märzen", "ipl",
@@ -108,7 +113,8 @@ const STYLE_CATEGORY_RULES: readonly { key: StyleCategory; keywords: readonly st
     ],
   },
   {
-    // "hazy" alone means an IPA on Czech tap lists ("Session hazy", "Hazy ale").
+    // "hazy" alone means an IPA on Czech tap lists -- without it "Session hazy" names no style at
+    // all and would fall through to "other".
     key: "ale",
     keywords: [
       "ipa", "neipa", "dipa", "iipa", "tipa", "nedipa", "wipa", "bipa", "hazy",
@@ -187,8 +193,8 @@ export function categorizeStyle(style: string): StyleCategory {
       .filter(Boolean),
   );
 
-  for (const rule of STYLE_CATEGORY_RULES) {
-    if (rule.keywords.some((keyword) => tokens.has(keyword))) return rule.key;
-  }
-  return "other";
+  return (
+    STYLE_CATEGORY_RULES.find((rule) => rule.keywords.some((keyword) => tokens.has(keyword)))?.key ??
+    "other"
+  );
 }

@@ -104,6 +104,7 @@ describe("categorizeStyle", () => {
     expect(categorizeStyle("Session IPA")).toBe("ale");
     expect(categorizeStyle("Pale ale")).toBe("ale");
     expect(categorizeStyle("Pastry sour")).toBe("sour");
+    expect(categorizeStyle("Weizenbier")).toBe("other");
     expect(categorizeStyle("Nealko")).toBe("nealko");
   });
 
@@ -127,7 +128,6 @@ describe("categorizeStyle", () => {
   });
 
   it("reads a bare hazy as an ale", () => {
-    expect(categorizeStyle("Hazy ale")).toBe("ale");
     expect(categorizeStyle("Session hazy")).toBe("ale");
   });
 
@@ -137,12 +137,12 @@ describe("categorizeStyle", () => {
     expect(categorizeStyle("New zealand pale lager")).toBe("lezak");
   });
 
-  it("keeps wheat and Belgian specials out of ale", () => {
-    expect(categorizeStyle("Weizenbier")).toBe("other");
-    expect(categorizeStyle("German hefeweizen")).toBe("other");
-    expect(categorizeStyle("Witbier")).toBe("other");
+  // A special named by itself would reach "other" through the fallback. These are the ones carrying
+  // a qualifier that another row claims, so they only pass because the specials row outranks it.
+  it("keeps a special out of ale and lezak when a qualifier collides", () => {
     expect(categorizeStyle("Hoppy saison ale")).toBe("other");
     expect(categorizeStyle("Farmhouse ale")).toBe("other");
+    expect(categorizeStyle("Pšeničné světlé")).toBe("other");
   });
 
   it("survives typos in the qualifier", () => {
