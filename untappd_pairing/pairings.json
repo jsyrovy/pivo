@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-30T17:16:23Z",
+  "generated_at": "2026-08-30T20:50:32Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -3468,6 +3468,16 @@
       "matched_at": "2026-08-12T15:49:45Z",
       "query_used": "<override>",
       "description": "Smash APA s názvem Vera od Pivovaru Čestmír, 12° stupňovitosti, typicky ovocně chmelené aroma s citrusovými tóny a mírnou hořkostí, středně plné tělo, suchý závěr."
+    },
+    "uzamastilu::Čestmír::Zahradní": {
+      "untappd_url": "https://untappd.com/b/pivovar-cestmir-zahradni-lezak/6267110",
+      "untappd_name": "Zahradní Ležák",
+      "untappd_brewery": "Pivovar Čestmír",
+      "rating": 3.55,
+      "match_score": 1.0,
+      "matched_at": "2026-08-30T20:50:30Z",
+      "query_used": "Zahradní Čestmír",
+      "description": "Klasický český ležák: sladový základ s jemnou chmelovou hořkostí, středně plné tělo a čistá, vyvážená chuť typická pro spodně kvašená piva. Zahradní název neimplikuje konkrétní surovinu nebo postup, takže se popis omezuje na styl a stupňovitost."
     },
     "uzamastilu::Čierny Kámeň::Lazarus": {
       "untappd_url": "https://untappd.com/b/pivovar-cierny-kamen-lazarus/6772256",

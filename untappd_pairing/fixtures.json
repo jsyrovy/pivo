@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-30T17:16:23Z",
+  "generated_at": "2026-08-30T20:50:32Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -13484,6 +13484,40 @@
       "outcome": {
         "matched": null,
         "reason": "no_candidates_above_threshold"
+      }
+    },
+    "uzamastilu::Čestmír::Zahradní": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Čestmír",
+        "name": "Zahradní",
+        "style": "Ležák",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-08-30T20:50:30Z",
+      "candidates": [
+        {
+          "name": "Zahradní Ležák",
+          "brewery": "Pivovar Čestmír",
+          "url": "/b/pivovar-cestmir-zahradni-lezak/6267110",
+          "rating": 3.55
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Zahradní 12° Čestmír",
+          "hits": []
+        },
+        {
+          "query": "Zahradní Čestmír",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-cestmir-zahradni-lezak/6267110",
+        "score": 1.0
       }
     },
     "uzamastilu::Čierny Kámeň::Lazarus": {
