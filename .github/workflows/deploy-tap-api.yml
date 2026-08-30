@@ -2,6 +2,9 @@ name: Deploy Tap API Worker
 
 on:
   push:
+    # Without the branch filter every branch deployed straight to production.
+    branches:
+      - main
     paths:
       - "workers/tap-api/**"
   workflow_dispatch:
@@ -21,6 +24,16 @@ jobs:
       - name: Install dependencies
         working-directory: workers/tap-api
         run: npm ci
+
+      # Cross-workflow `needs:` does not exist, so the gate has to live in this job:
+      # a red suite must stop the deploy, not just fail a parallel run.
+      - name: Typecheck
+        working-directory: workers/tap-api
+        run: npm run typecheck
+
+      - name: Test
+        working-directory: workers/tap-api
+        run: npm test
 
       - uses: cloudflare/wrangler-action@v3
         with:

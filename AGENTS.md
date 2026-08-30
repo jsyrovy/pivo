@@ -39,9 +39,11 @@ npm run typecheck  # tsc --noEmit
 npm run dev     # wrangler dev
 ```
 
-⚠️ Any push touching `workers/tap-api/**` deploys the Worker
-(`.github/workflows/deploy-tap-api.yml`), and that workflow does **not** run the
-tests -- run `make test-tap-api` before pushing.
+⚠️ A push to `main` touching `workers/tap-api/**` deploys the Worker
+(`.github/workflows/deploy-tap-api.yml`). That workflow typechecks and runs the
+suite first and stops on red, and `tests.yml` runs it on every push regardless of
+branch -- but the gate lives in the deploy job itself, so keep it there: a suite
+that only runs in `tests.yml` cannot stop a deploy.
 
 The deployed Worker allows CORS requests from `localhost`, `127.0.0.1` and `[::1]`
 on any port, so `make publish-all` plus any static server over `dist/` (e.g.
