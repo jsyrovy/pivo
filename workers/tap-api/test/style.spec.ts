@@ -131,12 +131,9 @@ describe("categorizeStyle", () => {
     expect(categorizeStyle("Session hazy")).toBe("ale");
   });
 
-  it("puts hop-forward lagers in ale", () => {
-    expect(categorizeStyle("India pale lager")).toBe("ale");
-    expect(categorizeStyle("IPL")).toBe("ale");
-  });
-
-  it("keeps a hopless pale lager in ležáky", () => {
+  it("keeps every pale lager in ležáky, hopped or not", () => {
+    expect(categorizeStyle("India pale lager")).toBe("lezak");
+    expect(categorizeStyle("IPL")).toBe("lezak");
     expect(categorizeStyle("New zealand pale lager")).toBe("lezak");
   });
 

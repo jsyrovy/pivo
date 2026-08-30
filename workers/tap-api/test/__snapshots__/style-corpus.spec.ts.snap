@@ -3,7 +3,7 @@
 exports[`style corpus > splits every real style string into categories 1`] = `
 {
   "ale": {
-    "beers": 148,
+    "beers": 142,
     "styles": {
       "APA": 16,
       "Ale": 8,
@@ -22,8 +22,6 @@ exports[`style corpus > splits every real style string into categories 1`] = `
       "Hazy IPA": 5,
       "Hazy ale": 2,
       "IPA": 10,
-      "IPL": 4,
-      "India pale lager": 2,
       "Ipa/dipa": 1,
       "Istrian pale ale": 1,
       "Juicy pale ale": 2,
@@ -71,11 +69,13 @@ exports[`style corpus > splits every real style string into categories 1`] = `
     },
   },
   "lezak": {
-    "beers": 69,
+    "beers": 75,
     "styles": {
       "Bohemian Pilsner": 1,
       "Czech pilsner": 1,
       "Helles lager": 1,
+      "IPL": 4,
+      "India pale lager": 2,
       "Italian pilsner": 1,
       "Ležák": 16,
       "Ležák světiý": 2,

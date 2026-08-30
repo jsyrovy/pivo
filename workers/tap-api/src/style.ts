@@ -65,7 +65,7 @@ export type StyleCategory =
 // settles the collisions the real corpus is full of: "Fruit sour ale" is sour rather than ale,
 // "Hoppy saison ale" is a special rather than an ale. Category boundaries are therefore
 // configuration -- reclassifying a style means moving a word from one row to another, not changing
-// code. A key may appear on more than one row when it has to win some collisions and lose others.
+// code.
 const STYLE_CATEGORY_RULES: readonly { key: StyleCategory; keywords: readonly string[] }[] = [
   {
     key: "nealko",
@@ -98,26 +98,22 @@ const STYLE_CATEGORY_RULES: readonly { key: StyleCategory; keywords: readonly st
     ],
   },
   {
-    // "ale" straddles "lezak" because "pale" and "lager" collide in both directions: "India pale
-    // lager" is an ale, "New zealand pale lager" is a lager. The IPA words therefore win over
-    // lager, the pale-ale words lose to it. "hazy" alone means an IPA on Czech tap lists ("Session
-    // hazy"), and IPL is decided by the hop profile, not the fermentation.
-    key: "ale",
-    keywords: [
-      "ipa", "neipa", "dipa", "iipa", "tipa", "nedipa", "wipa", "bipa",
-      "ipl", "india", "hazy",
-    ],
-  },
-  {
+    // Ahead of "ale" so that a lager word beats a pale one: "India pale lager" and "New zealand pale
+    // lager" are both lagers. "ipl" is listed for the same reason -- on this axis an India pale
+    // lager is decided by its fermentation, not by its hop profile.
     key: "lezak",
     keywords: [
-      "ležák", "lager", "pilsner", "pilsener", "pils", "helles", "märzen",
+      "ležák", "lager", "pilsner", "pilsener", "pils", "helles", "märzen", "ipl",
       "výčepní", "světlý", "světlé", "světlá",
     ],
   },
   {
+    // "hazy" alone means an IPA on Czech tap lists ("Session hazy", "Hazy ale").
     key: "ale",
-    keywords: ["apa", "nepa", "pale", "ale", "summer", "smash"],
+    keywords: [
+      "ipa", "neipa", "dipa", "iipa", "tipa", "nedipa", "wipa", "bipa", "hazy",
+      "apa", "nepa", "pale", "ale", "summer", "smash",
+    ],
   },
 ];
 
