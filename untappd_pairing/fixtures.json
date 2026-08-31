@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-30T23:19:03Z",
+  "generated_at": "2026-08-31T19:28:26Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -499,6 +499,36 @@
       "outcome": {
         "matched": "/b/pivovar-clock-stastnejsi-12deg/5624411",
         "score": 0.0
+      }
+    },
+    "ambasada::Clock, Potštejn::Goldie": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Clock, Potštejn",
+        "name": "Goldie",
+        "style": "Weizen",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-31T19:27:20Z",
+      "candidates": [
+        {
+          "name": "Goldie",
+          "brewery": "Pivovar Clock",
+          "url": "/b/pivovar-clock-goldie/778831",
+          "rating": 3.49
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Goldie 11° Clock",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-clock-goldie/778831",
+        "score": 1.0
       }
     },
     "ambasada::Clock, Potštejn::HEX": {
@@ -9930,6 +9960,124 @@
         "score": 1.0
       }
     },
+    "toulavapipa::Kynšperk nad Ohří::Zajíc": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Kynšperk nad Ohří",
+        "name": "Zajíc",
+        "style": "Světlý ležák",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-31T19:28:00Z",
+      "candidates": [
+        {
+          "name": "Kynšperský Zajíc 11° medový ležák",
+          "brewery": "Kynšperský pivovar",
+          "url": "/b/kynspersky-pivovar-kynspersky-zajic-11-deg-medovy-lezak/890985",
+          "rating": 3.29
+        },
+        {
+          "name": "Kynšperský Zajíc 11° světlý ležák",
+          "brewery": "Kynšperský pivovar",
+          "url": "/b/kynspersky-pivovar-kynspersky-zajic-11-deg-svetly-lezak/1936006",
+          "rating": 3.42
+        },
+        {
+          "name": "Císařský speciál 11°",
+          "brewery": "Kynšperský pivovar",
+          "url": "/b/kynspersky-pivovar-cisarsky-special-11-deg/3205213",
+          "rating": 3.5
+        },
+        {
+          "name": "Red Ipl 11°",
+          "brewery": "Kynšperský pivovar",
+          "url": "/b/kynspersky-pivovar-red-ipl-11-deg/4882805",
+          "rating": null
+        },
+        {
+          "name": "Dejvický šakal 11°",
+          "brewery": "Kynšperský pivovar",
+          "url": "/b/kynspersky-pivovar-dejvicky-sakal-11-deg/923796",
+          "rating": null
+        },
+        {
+          "name": "Kynšperský Zajíc 12° světlý ležák",
+          "brewery": "Kynšperský pivovar",
+          "url": "/b/kynspersky-pivovar-kynspersky-zajic-12-deg-svetly-lezak/850661",
+          "rating": 3.31
+        },
+        {
+          "name": "Kynšperský Zajíc 12° polotmavý ležák",
+          "brewery": "Kynšperský pivovar",
+          "url": "/b/kynspersky-pivovar-kynspersky-zajic-12-deg-polotmavy-lezak/813826",
+          "rating": 3.21
+        },
+        {
+          "name": "Kynšperský Zajíc 10° světlé výčepní",
+          "brewery": "Kynšperský pivovar",
+          "url": "/b/kynspersky-pivovar-kynspersky-zajic-10-deg-svetle-vycepni/815388",
+          "rating": 3.2
+        },
+        {
+          "name": "Kynšperský Zajíc 12° tmavý ležák",
+          "brewery": "Kynšperský pivovar",
+          "url": "/b/kynspersky-pivovar-kynspersky-zajic-12-deg-tmavy-lezak/1113111",
+          "rating": 3.3
+        },
+        {
+          "name": "Kynšperský Zajíc 12° zelený ležák s kopřivou",
+          "brewery": "Kynšperský pivovar",
+          "url": "/b/kynspersky-pivovar-kynspersky-zajic-12-deg-zeleny-lezak-s-koprivou/1036772",
+          "rating": 2.83
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Zajíc 11° Kynšperk nad Ohří",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "query": "Zajíc Kynšperk nad Ohří",
+          "hits": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "query": "Zajíc 11°",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "query": "Zajíc",
+          "hits": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/kynspersky-pivovar-kynspersky-zajic-11-deg-svetly-lezak/1936006",
+        "source": "llm"
+      }
+    },
     "toulavapipa::Kynšperský pivovar::Kynšperský Zajíc": {
       "beer": {
         "source": "toulavapipa",
@@ -11553,6 +11701,57 @@
         "score": 1.0
       }
     },
+    "toulavapipa::Čestmír::Session NEIPA": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Čestmír",
+        "name": "Session NEIPA",
+        "style": "",
+        "degree_plato": null
+      },
+      "captured_at": "2026-08-31T19:28:00Z",
+      "candidates": [
+        {
+          "name": "Session NEIPA 12° (Talus - Galaxy - Azaca)",
+          "brewery": "Pivovar Čestmír",
+          "url": "/b/pivovar-cestmir-session-neipa-12-deg-talus-galaxy-azaca/4375544",
+          "rating": 3.79
+        },
+        {
+          "name": "Session NEIPA (Superdelic - Mosaic - Galaxy)",
+          "brewery": "Pivovar Čestmír",
+          "url": "/b/pivovar-cestmir-session-neipa-superdelic-mosaic-galaxy/5690948",
+          "rating": 3.9
+        },
+        {
+          "name": "Session NEIPA 12 – (Cryo Pop - Idaho 7 - Talus)",
+          "brewery": "Pivovar Čestmír",
+          "url": "/b/pivovar-cestmir-session-neipa-12-cryo-pop-idaho-7-talus/4989313",
+          "rating": 3.82
+        },
+        {
+          "name": "Blood Cherry Rybíz Magic – Session NEIPA 12",
+          "brewery": "Pivovar Čestmír",
+          "url": "/b/pivovar-cestmir-blood-cherry-rybiz-magic-session-neipa-12/4018942",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Session NEIPA Čestmír",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-cestmir-session-neipa-superdelic-mosaic-galaxy/5690948",
+        "score": 1.0
+      }
+    },
     "uzamastilu::4.3% alc Loutkář::Marioneta sv.výčepní": {
       "beer": {
         "source": "uzamastilu",
@@ -11915,6 +12114,39 @@
       "outcome": {
         "matched": "/b/hradecky-klenot-kazbek-11/2344577",
         "score": 1.0
+      }
+    },
+    "uzamastilu::Klenot::Session Brut IPA 5,3%": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Klenot",
+        "name": "Session Brut IPA 5,3%",
+        "style": "",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-08-31T19:28:13Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Session Brut IPA 5,3% 10° Klenot",
+          "hits": []
+        },
+        {
+          "query": "Session Brut IPA 5,3% Klenot",
+          "hits": []
+        },
+        {
+          "query": "Session Brut IPA 5,3% 10°",
+          "hits": []
+        },
+        {
+          "query": "Session Brut IPA 5,3%",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "uzamastilu::Kujebák::Ležák": {
@@ -13517,6 +13749,40 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-cestmir-zahradni-lezak/6267110",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Čierny Kameň::Lazarus": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Čierny Kameň",
+        "name": "Lazarus",
+        "style": "West coast IPA",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-08-31T19:28:03Z",
+      "candidates": [
+        {
+          "name": "Lazarus",
+          "brewery": "Pivovar Čierny Kameň",
+          "url": "/b/pivovar-cierny-kamen-lazarus/6772256",
+          "rating": 3.65
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Lazarus 13° Čierny Kameň",
+          "hits": []
+        },
+        {
+          "query": "Lazarus Čierny Kameň",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-cierny-kamen-lazarus/6772256",
         "score": 1.0
       }
     },
