@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-31T23:40:48Z",
+  "generated_at": "2026-09-01T17:15:42Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -2500,6 +2500,16 @@
       "matched_at": "2026-05-15T20:14:33Z",
       "query_used": "Česká jedenáctka Záhora"
     },
+    "beerstreet::Únětický pivovar::Únětice": {
+      "untappd_url": "https://untappd.com/b/uneticky-pivovar-uneticke-pivo-10-deg-nefiltrovane/202474",
+      "untappd_name": "Únětické pivo 10° nefiltrované",
+      "untappd_brewery": "Únětický pivovar",
+      "rating": 3.39,
+      "match_score": 0.8333,
+      "matched_at": "2026-09-01T17:15:25Z",
+      "query_used": "Únětice 10° Únětický",
+      "description": "Klasický světlý ležák: sladový základ, jemná chmelová hořkost a lehčí tělo, spodně kvašený a čistý v chuti. Nefiltrované provedení může přinést jemnější kal a plnější dojem v ústech. Hodnocení na Untappd podprůměrné."
+    },
     "beerstreet::Černý potoka::Carina": {
       "untappd_url": "https://untappd.com/b/cerny-potoka-carina/6780973",
       "untappd_name": "Carina",
@@ -2619,6 +2629,16 @@
       "matched_at": "2026-06-17T22:06:03Z",
       "query_used": "Bard Švabín",
       "description": "Sladové aroma s mírnou chmelovou hořkostí, lehké tělo a čistý závěr typický pro světlý ležák."
+    },
+    "beerstreet::Švabín::PUK - Granátové jablko - Malina": {
+      "untappd_url": "https://untappd.com/b/svabin-brewery-puk-maliny-a-granatove-jablko/6715958",
+      "untappd_name": "PUK: Maliny A Granátove Jablko",
+      "untappd_brewery": "Švabín Brewery",
+      "rating": 3.89,
+      "match_score": 0.9091,
+      "matched_at": "2026-09-01T17:15:30Z",
+      "query_used": "PUK - Granátové jablko - Malina Švabín",
+      "description_failed_at": "2026-09-01T17:15:39Z"
     },
     "beerstreet::Švabín::Satyr": {
       "untappd_url": "https://untappd.com/b/svabin-brewery-satyr-12-deg/5850087",
@@ -3368,6 +3388,16 @@
       "matched_at": "2026-07-24T13:25:28Z",
       "query_used": "Záviš 12° Polička",
       "description": "Záviš 12° nefiltrované je pivo s mírnou plností a lehkou kvasnou charakteristikou, vhodné pro odpočinek po práci nebo setkání s přáteli, s hodnocením 3.42/5 na Untappd."
+    },
+    "uzamastilu::Rampušák::Dobrušská Nefiltr": {
+      "untappd_url": "https://untappd.com/b/rodinny-pivovar-rampusak-dobrusska-11-nefiltrovana/5987923",
+      "untappd_name": "Dobrušská 11 Nefiltrovaná",
+      "untappd_brewery": "Rodinný pivovar Rampušák",
+      "rating": 3.59,
+      "match_score": 1.0,
+      "matched_at": "2026-09-01T17:15:39Z",
+      "query_used": "Dobrušská Nefiltr",
+      "description": "Klasický český nefiltrovaný ležák: plnější sladové tělo s jemnou chmelovou hořkostí, zakalený vzhled a bohatší pivní charakter díky přítomnosti kvasnic. Spodně kvašený, svěží a vyvážený s mírně nasládlým dozvukem."
     },
     "uzamastilu::Raven::ColdFest Cold": {
       "untappd_url": "https://untappd.com/b/pivovar-raven-coldfest-2026/6800289",
