@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-01T17:15:42Z",
+  "generated_at": "2026-09-01T20:53:03Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -2510,6 +2510,16 @@
       "query_used": "Únětice 10° Únětický",
       "description": "Klasický světlý ležák: sladový základ, jemná chmelová hořkost a lehčí tělo, spodně kvašený a čistý v chuti. Nefiltrované provedení může přinést jemnější kal a plnější dojem v ústech. Hodnocení na Untappd podprůměrné."
     },
+    "beerstreet::Únětický pivovar::Únětické pivo": {
+      "untappd_url": "https://untappd.com/b/uneticky-pivovar-uneticke-pivo-10-deg-nefiltrovane/202474",
+      "untappd_name": "Únětické pivo 10° nefiltrované",
+      "untappd_brewery": "Únětický pivovar",
+      "rating": 3.39,
+      "match_score": 1.0,
+      "matched_at": "2026-09-01T20:51:56Z",
+      "query_used": "Únětické pivo 10° Únětický",
+      "description": "Klasický světlý ležák: sladový základ, jemná chmelová hořkost a lehčí tělo, nefiltrovaný a spodně kvašený s přirozeným kalem a plnější ústní dojem. Hodnocení na Untappd podprůměrné."
+    },
     "beerstreet::Černý potoka::Carina": {
       "untappd_url": "https://untappd.com/b/cerny-potoka-carina/6780973",
       "untappd_name": "Carina",
@@ -2555,6 +2565,16 @@
       "match_score": 1.0,
       "matched_at": "2026-04-17T11:20:55Z",
       "query_used": "Elektronik 743 Černý potoka"
+    },
+    "beerstreet::Černý potoka::Monoceros": {
+      "untappd_url": "https://untappd.com/b/cerny-potoka-monoceros/6825435",
+      "untappd_name": "Monoceros",
+      "untappd_brewery": "černý potoka",
+      "rating": 3.83,
+      "match_score": 1.0,
+      "matched_at": "2026-09-01T20:52:00Z",
+      "query_used": "Monoceros Černý potoka",
+      "description": "Session hazy IPA s nižší stupňovitostí a alkoholem nabízí jemnější tělo a méně intenzivní chmelový profil než klasické IPA – jemné ovoce, tropické tóny a jemná kalnost charakterizují styl, s nižší hořkostí a hladkým pitím. Hodnocení 3,83 naznačuje nadprůměrné přijetí."
     },
     "beerstreet::Černý potoka::Orion μ": {
       "untappd_url": "https://untappd.com/b/cerny-potoka-orion-m/6655806",
@@ -2880,6 +2900,16 @@
       "query_used": "Mango-pina-coco MadCat",
       "description": "Mango-pina-coco je ovocně kyselé sour ale s dominantními tropickými mango, ananasem a kokosem, doplněné sladkým ovocným aroma a lehkou kyselinkou, má lehké tělo a osvěžující kyselou kyselost, hodnocení 3.80 nadprůměrně."
     },
+    "toulavapipa::Madcat::Citra for B-DAY": {
+      "untappd_url": "https://untappd.com/b/madcat-citra-for-a-b-day/6834766",
+      "untappd_name": "Citra For A B:Day",
+      "untappd_brewery": "MadCat",
+      "rating": 3.9,
+      "match_score": 0.9091,
+      "matched_at": "2026-09-01T20:52:20Z",
+      "query_used": "Citra for B-DAY Madcat",
+      "description": "Silně chmelená americká IPA s výraznou hořkostí, citrusovým a tropickým ovocným aroma. Citra chmel přidává intenzivní tóny grepu, manga a marakuji. Nadprůměrně hodnocené."
+    },
     "toulavapipa::Madcat::Jiskra": {
       "untappd_url": "https://untappd.com/b/madcat-jiskra/5509844",
       "untappd_name": "Jiskra",
@@ -3069,6 +3099,16 @@
       "matched_at": "2026-08-10T14:22:33Z",
       "query_used": "Exotic Orchard Sibeeria",
       "description": "Exotic Orchard od Sibeeria Brewery je double IPA s průměrným až vysokým tělesem a mírně hořkým profilem, který potěší příznivce aromatických, ovocných hopů; oceněný 3,85 hvězdičkou na Untappd, vhodný na letní večery nebo k osvěžení po práci."
+    },
+    "toulavapipa::Sibeeria::Pepper punch": {
+      "untappd_url": "https://untappd.com/b/sibeeria-brewery-pepperup-punch/6834644",
+      "untappd_name": "Pepperup Punch",
+      "untappd_brewery": "Sibeeria Brewery",
+      "rating": 3.67,
+      "match_score": 0.8889,
+      "matched_at": "2026-09-01T20:52:16Z",
+      "query_used": "Pepper punch Sibeeria",
+      "description": "Kveik pale ale je svrchně kvašené pivo s ovocným, často tropickým aroma a střední hořkostí, lehčím až středním tělem a suchým, osvěžujícím závěrem typickým pro kmeny kveik kvasinek. Název Pepperup Punch naznačuje přítomnost pepře, který přidává jemně štiplavý, kořenitý tón doplňující ovocný profil."
     },
     "toulavapipa::U Vojtěchů::Artur": {
       "untappd_url": "https://untappd.com/b/pivovar-u-vojtechu-artur/6303126",
@@ -3288,6 +3328,16 @@
       "matched_at": "2026-08-12T19:14:48Z",
       "query_used": "Kurtizána 13° Mordýř",
       "description": "Klasická IPA s bohatým chmelným aroma citrusu a pryskyřice, střední hořkosti a plného těla díky 13° stupňovitosti."
+    },
+    "uzamastilu::NZ Hazy Ale Klenot::Rhapsody Of Fog": {
+      "untappd_url": "https://untappd.com/b/hradecky-klenot-rhapsony-od-fog/6822491",
+      "untappd_name": "Rhapsody of Fog 12",
+      "untappd_brewery": "Hradecký Klenot",
+      "rating": 3.83,
+      "match_score": 1.0,
+      "matched_at": "2026-09-01T20:52:46Z",
+      "query_used": "<llm>",
+      "description_failed_at": "2026-09-01T20:52:46Z"
     },
     "uzamastilu::NZ Hazy IPA Klenot::Rhapsody Of Fog": {
       "untappd_url": "https://untappd.com/b/hradecky-klenot-rhapsony-od-fog/6822491",
@@ -3572,8 +3622,8 @@
   },
   "unmatched": {
     "ambasada::JungBerg, Hořice::Hasta la Vista": {
-      "attempts": 1,
-      "last_tried_at": "2026-07-23T21:10:38Z",
+      "attempts": 2,
+      "last_tried_at": "2026-09-01T20:52:12Z",
       "reason": "no_candidates_above_threshold"
     },
     "ambasada::Maisel & Friends, Bayreuth, Bavorsko::13,7° Artbeer #8": {

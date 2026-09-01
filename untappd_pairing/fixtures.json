@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-01T17:15:42Z",
+  "generated_at": "2026-09-01T20:53:03Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -1105,7 +1105,7 @@
         "style": "Single hop ale",
         "degree_plato": 12.0
       },
-      "captured_at": "2026-07-23T21:10:38Z",
+      "captured_at": "2026-09-01T20:52:12Z",
       "candidates": [
         {
           "name": "Hasta La Vista Summer NEIPA 12%",
@@ -8763,6 +8763,64 @@
         "score": 0.8333
       }
     },
+    "beerstreet::Únětický pivovar::Únětické pivo": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Únětický pivovar",
+        "name": "Únětické pivo",
+        "style": "Ležák světlý",
+        "degree_plato": 10.7
+      },
+      "captured_at": "2026-09-01T20:51:56Z",
+      "candidates": [
+        {
+          "name": "Únětické pivo 10° nefiltrované",
+          "brewery": "Únětický pivovar",
+          "url": "/b/uneticky-pivovar-uneticke-pivo-10-deg-nefiltrovane/202474",
+          "rating": 3.39
+        },
+        {
+          "name": "Únětické pivo 12° nefiltrované",
+          "brewery": "Únětický pivovar",
+          "url": "/b/uneticky-pivovar-uneticke-pivo-12-deg-nefiltrovane/103923",
+          "rating": 3.43
+        },
+        {
+          "name": "Únětické pivo 10,7° filtrované",
+          "brewery": "Únětický pivovar",
+          "url": "/b/uneticky-pivovar-uneticke-pivo-10-7-deg-filtrovane/1556893",
+          "rating": 3.47
+        },
+        {
+          "name": "Únětické pivo 12° Filtrované",
+          "brewery": "Únětický pivovar",
+          "url": "/b/uneticky-pivovar-uneticke-pivo-12-deg-filtrovane/4770623",
+          "rating": 3.14
+        },
+        {
+          "name": "Únětické pivo 10,7° Nefiltrované",
+          "brewery": "Únětický pivovar",
+          "url": "/b/uneticky-pivovar-uneticke-pivo-10-7-deg-nefiltrovane/4993405",
+          "rating": 3.66
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Únětické pivo 10° Únětický",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/uneticky-pivovar-uneticke-pivo-10-deg-nefiltrovane/202474",
+        "score": 1.0
+      }
+    },
     "beerstreet::Černý Potoka::Cold Fish Mosaic dry hopped": {
       "beer": {
         "source": "beerstreet",
@@ -8920,6 +8978,40 @@
       ],
       "outcome": {
         "matched": "/b/cerny-potoka-cold-fish-mosaic-dry-hop/6699043",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Černý potoka::Monoceros": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Černý potoka",
+        "name": "Monoceros",
+        "style": "Session hazy IPA",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-09-01T20:52:00Z",
+      "candidates": [
+        {
+          "name": "Monoceros",
+          "brewery": "černý potoka",
+          "url": "/b/cerny-potoka-monoceros/6825435",
+          "rating": 3.83
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Monoceros 11° Černý potoka",
+          "hits": []
+        },
+        {
+          "query": "Monoceros Černý potoka",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/cerny-potoka-monoceros/6825435",
         "score": 1.0
       }
     },
@@ -10501,6 +10593,36 @@
         "score": 1.0
       }
     },
+    "toulavapipa::Madcat::Citra for B-DAY": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Madcat",
+        "name": "Citra for B-DAY",
+        "style": "American IPA",
+        "degree_plato": null
+      },
+      "captured_at": "2026-09-01T20:52:20Z",
+      "candidates": [
+        {
+          "name": "Citra For A B:Day",
+          "brewery": "MadCat",
+          "url": "/b/madcat-citra-for-a-b-day/6834766",
+          "rating": 3.9
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Citra for B-DAY Madcat",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/madcat-citra-for-a-b-day/6834766",
+        "score": 0.9091
+      }
+    },
     "toulavapipa::Madcat::Desítka": {
       "beer": {
         "source": "toulavapipa",
@@ -11359,6 +11481,36 @@
       "outcome": {
         "matched": "/b/sibeeria-exotic-orchard/5953178",
         "score": 1.0
+      }
+    },
+    "toulavapipa::Sibeeria::Pepper punch": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Sibeeria",
+        "name": "Pepper punch",
+        "style": "Kveik pale ale",
+        "degree_plato": null
+      },
+      "captured_at": "2026-09-01T20:52:16Z",
+      "candidates": [
+        {
+          "name": "Pepperup Punch",
+          "brewery": "Sibeeria Brewery",
+          "url": "/b/sibeeria-brewery-pepperup-punch/6834644",
+          "rating": 3.67
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Pepper punch Sibeeria",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/sibeeria-brewery-pepperup-punch/6834644",
+        "score": 0.8889
       }
     },
     "toulavapipa::U Vojtěchů::Artur": {
@@ -12654,6 +12806,50 @@
       "outcome": {
         "matched": "/b/pivovar-mordyr-kurtizana/704889",
         "score": 1.0
+      }
+    },
+    "uzamastilu::NZ Hazy Ale Klenot::Rhapsody Of Fog": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "NZ Hazy Ale Klenot",
+        "name": "Rhapsody Of Fog",
+        "style": "",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-09-01T20:52:46Z",
+      "candidates": [
+        {
+          "name": "Rhapsody of Fog 12",
+          "brewery": "Hradecký Klenot",
+          "url": "/b/hradecky-klenot-rhapsony-od-fog/6822491",
+          "rating": 3.83
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Rhapsody Of Fog 12° NZ Hazy Ale Klenot",
+          "hits": []
+        },
+        {
+          "query": "Rhapsody Of Fog NZ Hazy Ale Klenot",
+          "hits": []
+        },
+        {
+          "query": "Rhapsody Of Fog 12°",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Rhapsody Of Fog",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/hradecky-klenot-rhapsony-od-fog/6822491",
+        "source": "llm"
       }
     },
     "uzamastilu::NZ Hazy IPA Klenot::Rhapsody Of Fog": {
