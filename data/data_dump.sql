@@ -2080,6 +2080,12 @@ INSERT INTO "archive" VALUES(1596877670,'2026-08-26 16:05:53.000000','sejrik','H
 INSERT INTO "archive" VALUES(1597735771,'2026-08-29 16:53:23.000000','sejrik','Těhotná 12','Pivovar Permon','Untappd at Home');
 INSERT INTO "archive" VALUES(1597784321,'2026-08-29 18:11:06.000000','sejrik','Spitfire Amber Kentish Ale','Shepherd Neame','Untappd at Home');
 INSERT INTO "archive" VALUES(1597821120,'2026-08-29 19:06:08.000000','sejrik','Indie - India Pale Ale','Birra Flea','Untappd at Home');
+INSERT INTO "archive" VALUES(1598422574,'2026-09-01 16:29:20.000000','sejrik','Léto','Pivovar Agent','Beer Street');
+INSERT INTO "archive" VALUES(1598426302,'2026-09-01 16:51:09.000000','sejrik','Pivorožec','Brewnicorn','Beer Street');
+INSERT INTO "archive" VALUES(1598436644,'2026-09-01 17:44:47.000000','sejrik','Nectaron Hazy Pale Ale 13','Nachmelená Opice','Beer Street');
+INSERT INTO "archive" VALUES(1598441315,'2026-09-01 18:08:04.000000','sejrik','PUK: Maliny A Granátove Jablko','Švabín Brewery','Beer Street');
+INSERT INTO "archive" VALUES(1598458679,'2026-09-01 19:31:44.000000','sejrik','Monoceros','černý potoka','Beer Street');
+INSERT INTO "archive" VALUES(1598521205,'2026-09-02 07:18:43.000000','sejrik','Bavaria 0.0% Wit','Royal Swinkels','Untappd at Home');
 CREATE TABLE [pivni_valka] (
 	[id] integer PRIMARY KEY,
 	[date] text,
