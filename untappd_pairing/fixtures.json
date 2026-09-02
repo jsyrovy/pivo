@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-01T23:11:31Z",
+  "generated_at": "2026-09-02T17:05:02Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -12208,6 +12208,57 @@
         "score": 1.0
       }
     },
+    "uzamastilu::Fenek::Ležák": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Fenek",
+        "name": "Ležák",
+        "style": "Ležák",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-09-02T17:04:59Z",
+      "candidates": [
+        {
+          "name": "Světlý Ležák Premium 12°",
+          "brewery": "Fenek Craft Beer",
+          "url": "/b/fenek-craft-beer-svetly-lezak-premium-12-deg/5130464",
+          "rating": 3.53
+        },
+        {
+          "name": "Tmavý Ležák 12°",
+          "brewery": "Fenek Craft Beer",
+          "url": "/b/fenek-craft-beer-tmavy-lezak-12-deg/6458763",
+          "rating": 3.49
+        },
+        {
+          "name": "Světlý ležák 11°",
+          "brewery": "Fenek Craft Beer",
+          "url": "/b/fenek-craft-beer-svetly-lezak-11-deg/3322596",
+          "rating": 3.41
+        },
+        {
+          "name": "Žitto 10°",
+          "brewery": "Fenek Craft Beer",
+          "url": "/b/fenek-craft-beer-zitny-lezak/6259561",
+          "rating": 3.49
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Ležák 12° Fenek",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/fenek-craft-beer-tmavy-lezak-12-deg/6458763",
+        "score": 1.0
+      }
+    },
     "uzamastilu::Jungberg::PP": {
       "beer": {
         "source": "uzamastilu",
@@ -12805,6 +12856,43 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-mordyr-kurtizana/704889",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Mordýř::West Coast Ipa": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Mordýř",
+        "name": "West Coast Ipa",
+        "style": "West coast IPA",
+        "degree_plato": 14.0
+      },
+      "captured_at": "2026-09-02T17:04:57Z",
+      "candidates": [
+        {
+          "name": "Jistota 14° West Coast IPA",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-jistota-14-deg-west-coast-ipa/6636997",
+          "rating": 3.55
+        },
+        {
+          "name": "West Coast IPA 14",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-west-coast-ipa-14/6584762",
+          "rating": 3.68
+        }
+      ],
+      "attempts": [
+        {
+          "query": "West Coast Ipa 14° Mordýř",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mordyr-west-coast-ipa-14/6584762",
         "score": 1.0
       }
     },
