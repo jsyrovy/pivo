@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-02T17:05:02Z",
+  "generated_at": "2026-09-02T20:51:41Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -150,6 +150,16 @@
       "matched_at": "2026-06-16T16:37:52Z",
       "query_used": "Clock 12° Clock",
       "description": "Jistota Ale 12° od Pivovaru Clock je středně silné APA s 5,2 % alkoholu a mírně hořkým profilem, který osvěží po práci nebo při neformální schůzce."
+    },
+    "ambasada::Clock, Potštejn::Emily": {
+      "untappd_url": "https://untappd.com/b/pivovar-clock-emily/6013032",
+      "untappd_name": "Emily",
+      "untappd_brewery": "Pivovar Clock",
+      "rating": 3.56,
+      "match_score": 1.0,
+      "matched_at": "2026-09-02T20:51:38Z",
+      "query_used": "Emily Clock",
+      "description": "Gluten reduced sour cherry gose je lehké, osvěžující pivo s výraznou kyselinkou typickou pro styl gose, doplněnou slaným charakterem a lehkým tělem díky 11° stupňovitosti a 4,7 % alkoholu; přídavek kyselé třešně přináší ovoce s jemnou sladkostí a ovocnou kyselinkou, která harmonizuje s základní kyselostí piva. Hodnoce…"
     },
     "ambasada::Clock, Potštejn::Glee": {
       "untappd_url": "https://untappd.com/b/pivovar-clock-glee/3101033",

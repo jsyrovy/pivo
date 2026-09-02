@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-02T17:05:02Z",
+  "generated_at": "2026-09-02T20:51:41Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -499,6 +499,40 @@
       "outcome": {
         "matched": "/b/pivovar-clock-stastnejsi-12deg/5624411",
         "score": 0.0
+      }
+    },
+    "ambasada::Clock, Potštejn::Emily": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Clock, Potštejn",
+        "name": "Emily",
+        "style": "Gluten reduced sour cherry gose",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-09-02T20:51:38Z",
+      "candidates": [
+        {
+          "name": "Emily",
+          "brewery": "Pivovar Clock",
+          "url": "/b/pivovar-clock-emily/6013032",
+          "rating": 3.56
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Emily 11° Clock",
+          "hits": []
+        },
+        {
+          "query": "Emily Clock",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-clock-emily/6013032",
+        "score": 1.0
       }
     },
     "ambasada::Clock, Potštejn::Goldie": {
