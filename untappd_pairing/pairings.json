@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-02T23:11:15Z",
+  "generated_at": "2026-09-03T16:59:20Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -1930,6 +1930,16 @@
       "matched_at": "2026-04-17T11:20:46Z",
       "query_used": "Velikonoční Loutkář"
     },
+    "beerstreet::Loutkář::Výroční ležák": {
+      "untappd_url": "https://untappd.com/b/pivovar-loutkar-vyrocni-lezak-12/4480456",
+      "untappd_name": "Výroční ležák 12",
+      "untappd_brewery": "Pivovar Loutkář",
+      "rating": 3.54,
+      "match_score": 1.0,
+      "matched_at": "2026-09-03T16:59:03Z",
+      "query_used": "Výroční ležák 12° Loutkář",
+      "description": "Klasický světlý ležák: sladový základ s jemnou chmelovou hořkostí, středně plné tělo a čistá, vyvážená chuť typická pro spodně kvašená piva."
+    },
     "beerstreet::Loutkář::Šlapák": {
       "untappd_url": "https://untappd.com/b/pivovar-loutkar-spalak-ale-9/6791607",
       "untappd_name": "Špalák Ale 9",
@@ -3409,6 +3419,16 @@
       "query_used": "Vývar 11° Old Cock",
       "description": "Ležák s mírnou sladkostí a jemnou chmelovou hořkostí, středně plné tělo, lehký až suchý závěr, hodnocení podprůměrné."
     },
+    "uzamastilu::Ovipistán::Premiér": {
+      "untappd_url": "https://untappd.com/b/pivovar-ovipistan-premier/3843314",
+      "untappd_name": "Premiér",
+      "untappd_brewery": "Pivovar Ovipistán",
+      "rating": 3.48,
+      "match_score": 1.0,
+      "matched_at": "2026-09-03T16:59:14Z",
+      "query_used": "Premiér Ovipistán",
+      "description": "Klasický český ležák: sladový základ s jemnou chmelovou hořkostí, středněstí, střední plnost a čistý, vyvážený charakter spodního kvašení."
+    },
     "uzamastilu::Pastry Sour Twinberg::Brew Berrymore": {
       "untappd_url": "https://untappd.com/b/twinberg-brew-berry-more-12-deg/6809079",
       "untappd_name": "Brew Berry More 12°",
@@ -3488,6 +3508,16 @@
       "matched_at": "2026-08-10T09:33:28Z",
       "query_used": "ColdFest Cold",
       "description": "ColdFest 2026 od Pivovaru Raven je osvěžující IPA s mírnou až střední silou, která potěší příznivce aromatických chmílových vůní a dobře se hodí na letní osvěžení nebo neformální setkání s přáteli."
+    },
+    "uzamastilu::Raven::Tropic Edge": {
+      "untappd_url": "https://untappd.com/b/pivovar-raven-tropic-edge/3495180",
+      "untappd_name": "Tropic Edge",
+      "untappd_brewery": "Pivovar Raven",
+      "rating": 3.67,
+      "match_score": 1.0,
+      "matched_at": "2026-09-03T16:59:11Z",
+      "query_used": "Tropic Edge Raven",
+      "description": "Klasická americká pale ale se střední sladovou základnou, vyváženou chmelovou hořkostí a aroma citrusů a tropického ovoce, středně plné tělo a čistý, osvěžující závěr."
     },
     "uzamastilu::Rotor::Tryskáč": {
       "untappd_url": "https://untappd.com/b/pivovar-rotor-tryskac/3873512",

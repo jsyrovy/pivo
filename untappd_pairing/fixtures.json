@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-02T23:11:15Z",
+  "generated_at": "2026-09-03T16:59:20Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -6990,6 +6990,36 @@
         "reason": "no_candidates_above_threshold"
       }
     },
+    "beerstreet::Loutkář::Výroční ležák": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Loutkář",
+        "name": "Výroční ležák",
+        "style": "Ležák světlý",
+        "degree_plato": 12.6
+      },
+      "captured_at": "2026-09-03T16:59:03Z",
+      "candidates": [
+        {
+          "name": "Výroční ležák 12",
+          "brewery": "Pivovar Loutkář",
+          "url": "/b/pivovar-loutkar-vyrocni-lezak-12/4480456",
+          "rating": 3.54
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Výroční ležák 12° Loutkář",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-loutkar-vyrocni-lezak-12/4480456",
+        "score": 1.0
+      }
+    },
     "beerstreet::Loutkář::Šlapák": {
       "beer": {
         "source": "beerstreet",
@@ -13122,6 +13152,40 @@
         "score": 1.0
       }
     },
+    "uzamastilu::Ovipistán::Premiér": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Ovipistán",
+        "name": "Premiér",
+        "style": "Ležák",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-09-03T16:59:14Z",
+      "candidates": [
+        {
+          "name": "Premiér",
+          "brewery": "Pivovar Ovipistán",
+          "url": "/b/pivovar-ovipistan-premier/3843314",
+          "rating": 3.48
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Premiér 11° Ovipistán",
+          "hits": []
+        },
+        {
+          "query": "Premiér Ovipistán",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-ovipistan-premier/3843314",
+        "score": 1.0
+      }
+    },
     "uzamastilu::Pastry Sour Twinberg::Brew Berrymode": {
       "beer": {
         "source": "uzamastilu",
@@ -13628,6 +13692,40 @@
       "outcome": {
         "matched": "/b/pivovar-raven-coldfest-2026/6800289",
         "score": 0.875
+      }
+    },
+    "uzamastilu::Raven::Tropic Edge": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Raven",
+        "name": "Tropic Edge",
+        "style": "APA",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-09-03T16:59:11Z",
+      "candidates": [
+        {
+          "name": "Tropic Edge",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-tropic-edge/3495180",
+          "rating": 3.67
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Tropic Edge 11° Raven",
+          "hits": []
+        },
+        {
+          "query": "Tropic Edge Raven",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-raven-tropic-edge/3495180",
+        "score": 1.0
       }
     },
     "uzamastilu::Rhap-Nectaron Čestmír::Stereo Lab": {
