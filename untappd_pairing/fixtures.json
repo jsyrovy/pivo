@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-03T16:59:20Z",
+  "generated_at": "2026-09-03T19:44:43Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -3082,6 +3082,40 @@
       ],
       "outcome": {
         "matched": "/b/sibeeria-brewery-one-burning/6774633",
+        "score": 1.0
+      }
+    },
+    "ambasada::Sibeeria, Praha::Pepperup Punch": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Sibeeria, Praha",
+        "name": "Pepperup Punch",
+        "style": "Kveik pale ale",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-09-03T19:44:41Z",
+      "candidates": [
+        {
+          "name": "Pepperup Punch",
+          "brewery": "Sibeeria Brewery",
+          "url": "/b/sibeeria-brewery-pepperup-punch/6834644",
+          "rating": 3.66
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Pepperup Punch 11° Sibeeria",
+          "hits": []
+        },
+        {
+          "query": "Pepperup Punch Sibeeria",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/sibeeria-brewery-pepperup-punch/6834644",
         "score": 1.0
       }
     },

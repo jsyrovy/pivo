@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-03T16:59:20Z",
+  "generated_at": "2026-09-03T19:44:43Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -916,6 +916,16 @@
       "matched_at": "2026-07-24T13:24:37Z",
       "query_used": "One Burning Sibeeria",
       "description": "One Burning je svěží Session NEIPA s mírnou hořkostí a ovocným aroma, 4,2 % alkoholu, vhodná na letní posezení u přátel nebo u sportovního zápasu."
+    },
+    "ambasada::Sibeeria, Praha::Pepperup Punch": {
+      "untappd_url": "https://untappd.com/b/sibeeria-brewery-pepperup-punch/6834644",
+      "untappd_name": "Pepperup Punch",
+      "untappd_brewery": "Sibeeria Brewery",
+      "rating": 3.66,
+      "match_score": 1.0,
+      "matched_at": "2026-09-03T19:44:41Z",
+      "query_used": "Pepperup Punch Sibeeria",
+      "description": "Kveik pale ale s ovocným a kořenitým profilem díky kmenům kveik kvasinek, které přinášejí tropické ovoce a lehkou kořenitost; střední tělo a vyvážená hořkost doplňují sladový základ. Název naznačuje přítomnost pepře, který přidává jemně štiplavý, zahřívající tón do finišu."
     },
     "ambasada::Sibeeria, Praha::Timeless": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-timeless/4299412",
