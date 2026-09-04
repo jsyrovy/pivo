@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-03T22:26:53Z",
+  "generated_at": "2026-09-04T16:48:07Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -1270,6 +1270,16 @@
       "matched_at": "2026-06-13T17:27:49Z",
       "query_used": "Pale Lager 11° Agent",
       "description": "Pale Lager 11 od Pivovaru Agent je světlý ležák s 11° stupňovitostí a 4,9 % alkoholu, který potěší příznivce mírně hořkého, osvěžujícího stylu s průměrným hodnocením 3,46 na Untappd."
+    },
+    "beerstreet::Albert Michler::Altvater": {
+      "untappd_url": "https://untappd.com/b/albert-michler-akciovy-pivovar-altvater-11-svetly-lezak/5403893",
+      "untappd_name": "Altvater 11 světlý ležák",
+      "untappd_brewery": "Albert Michler akciový pivovar",
+      "rating": 3.31,
+      "match_score": 1.0,
+      "matched_at": "2026-09-04T16:48:04Z",
+      "query_used": "Altvater 11° Albert Michler",
+      "description": "Klasický světlý ležák: sladový základ, jemná chmelová hořkost a lehčí tělo, spodně kvašený a čistý v chuti. Podprůměrně hodnocené na Untappd."
     },
     "beerstreet::Avar::The FiRsT": {
       "untappd_url": "https://untappd.com/b/avar-brewing-co-the-first-11-deg/5218056",
@@ -3438,6 +3448,16 @@
       "matched_at": "2026-09-03T16:59:14Z",
       "query_used": "Premiér Ovipistán",
       "description": "Klasický český ležák: sladový základ s jemnou chmelovou hořkostí, středněstí, střední plnost a čistý, vyvážený charakter spodního kvašení."
+    },
+    "uzamastilu::Ovipistán::President": {
+      "untappd_url": "https://untappd.com/b/pivovar-ovipistan-president/1573643",
+      "untappd_name": "President ",
+      "untappd_brewery": "Pivovar Ovipistán",
+      "rating": 3.4,
+      "match_score": 1.0,
+      "matched_at": "2026-09-04T16:48:04Z",
+      "query_used": "President 12° Ovipistán",
+      "description": "Klasický český ležák: plnější sladový základ, vyvážená chmelová hořkost a střední až plnější tělo, spodně kvašený s čistým, harmonickým profilem."
     },
     "uzamastilu::Pastry Sour Twinberg::Brew Berrymore": {
       "untappd_url": "https://untappd.com/b/twinberg-brew-berry-more-12-deg/6809079",
