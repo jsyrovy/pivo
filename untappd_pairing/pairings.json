@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-04T16:48:07Z",
+  "generated_at": "2026-09-04T19:22:05Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -581,7 +581,8 @@
       "rating": 3.91,
       "match_score": 1.0,
       "matched_at": "2026-04-18T19:39:27Z",
-      "query_used": "California Matuška"
+      "query_used": "California Matuška",
+      "description": "Barrel Aged Cherry California je APA s plnějším tělem a vyšší alkoholem, kde sudové zrání přináší tóny vanilky, dubu a lehké oxidace, zatímco přidaná třešeň dodává sladkokyselý ovocný charakter s jemnou tříslovinkou. Hořkost je střední, vyvážená sladem a ovocnou složkou, s jemně sušším závěrem díky působení sudu. Hodn…"
     },
     "ambasada::Mazák, Dolní Bojanovice::Letní Den": {
       "untappd_url": "https://untappd.com/b/pivovar-mazak-letni-den/2666945",
@@ -3289,6 +3290,16 @@
       "query_used": "Ležák 12° Fenek",
       "description": "Klasický český tmavý ležák: sladový základ s tóny karamelu a sušeného ovoce, jemná chmelová hořkost a plnější tělo, spodně kvašený a vyvážený v chuti."
     },
+    "uzamastilu::Haksna::Step By Step": {
+      "untappd_url": "https://untappd.com/b/haksna-brewery-step-by-step/6853283",
+      "untappd_name": "Step By Step",
+      "untappd_brewery": "Haksna Brewery",
+      "rating": null,
+      "match_score": 1.0,
+      "matched_at": "2026-09-04T19:21:42Z",
+      "query_used": "Step By Step Haksna",
+      "description": "Klasická americká pale ale: středně sladový základ s jemnou chmelovou hořkostí, citrusovým a květinovým aroma a lehčím tělem, svrchně kvašená a vyvážená v chuti."
+    },
     "uzamastilu::Jungberg::PP": {
       "untappd_url": "https://untappd.com/b/pivovar-jungberg-pp-12/1774180",
       "untappd_name": "PP 12%",
@@ -3329,6 +3340,16 @@
       "query_used": "Kazbek 11° Klenot",
       "description": "Ležák s mírnou sladkostí a jemnou chmelovou hořkostí, středně plné tělo, čistá kvasná profilace, lehce ovocný podtón, dobře vyvážený poměr sladiny a hořkosti, hodnocení podprůměrné."
     },
+    "uzamastilu::Kynšperk::Ležák": {
+      "untappd_url": "https://untappd.com/b/kynspersky-pivovar-kynspersky-zajic-12-deg-svetly-lezak/850661",
+      "untappd_name": "Kynšperský Zajíc 12° světlý ležák",
+      "untappd_brewery": "Kynšperský pivovar",
+      "rating": 3.31,
+      "match_score": 1.0,
+      "matched_at": "2026-09-04T19:21:54Z",
+      "query_used": "<llm>",
+      "description": "Klasický český světlý ležák: plnější sladový základ s jemnou chmelovou hořkostí, střední až plnější tělo a čistá, vyvážená chuť typická pro spodně kvašená piva. Hodnocení na Untappd podprůměrné."
+    },
     "uzamastilu::Loutkář::Kašpárek": {
       "untappd_url": "https://untappd.com/b/pivovar-loutkar-kasparek-11-svetly-lezak/3940222",
       "untappd_name": "Kašpárek 11 světlý ležák",
@@ -3358,6 +3379,16 @@
       "matched_at": "2026-08-21T15:38:28Z",
       "query_used": "Cryo Riwaka 12° Mazák",
       "description": "Silně chmelený APA s aromatem tropického ovoce a jemnou hořkostí, středně plné tělo a suchý závěr."
+    },
+    "uzamastilu::Mazák::Taiheke IPL": {
+      "untappd_url": "https://untappd.com/b/pivovar-mazak-taiheke-ipl-11/6849701",
+      "untappd_name": "Taiheke IPL 11",
+      "untappd_brewery": "Pivovar Mazák",
+      "rating": null,
+      "match_score": 1.0,
+      "matched_at": "2026-09-04T19:21:58Z",
+      "query_used": "Taiheke IPL 11° Mazák",
+      "description_failed_at": "2026-09-04T19:21:58Z"
     },
     "uzamastilu::Mazák::Wai-Wai": {
       "untappd_url": "https://untappd.com/b/pivovar-mazak-wai-wai/6776198",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-04T16:48:07Z",
+  "generated_at": "2026-09-04T19:22:05Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -12387,6 +12387,40 @@
         "score": 1.0
       }
     },
+    "uzamastilu::Haksna::Step By Step": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Haksna",
+        "name": "Step By Step",
+        "style": "APA",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-09-04T19:21:42Z",
+      "candidates": [
+        {
+          "name": "Step By Step",
+          "brewery": "Haksna Brewery",
+          "url": "/b/haksna-brewery-step-by-step/6853283",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Step By Step 10° Haksna",
+          "hits": []
+        },
+        {
+          "query": "Step By Step Haksna",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/haksna-brewery-step-by-step/6853283",
+        "score": 1.0
+      }
+    },
     "uzamastilu::Jungberg::PP": {
       "beer": {
         "source": "uzamastilu",
@@ -12718,6 +12752,154 @@
         "reason": "no_candidates_above_threshold"
       }
     },
+    "uzamastilu::Kynšperk::Ležák": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Kynšperk",
+        "name": "Ležák",
+        "style": "Ležák",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-09-04T19:21:54Z",
+      "candidates": [
+        {
+          "name": "Kynšperský Zajíc 12° světlý ležák",
+          "brewery": "Kynšperský pivovar",
+          "url": "/b/kynspersky-pivovar-kynspersky-zajic-12-deg-svetly-lezak/850661",
+          "rating": 3.31
+        },
+        {
+          "name": "Kynšperský Zajíc 12° polotmavý ležák",
+          "brewery": "Kynšperský pivovar",
+          "url": "/b/kynspersky-pivovar-kynspersky-zajic-12-deg-polotmavy-lezak/813826",
+          "rating": 3.21
+        },
+        {
+          "name": "Kynšperský Zajíc 12° tmavý ležák",
+          "brewery": "Kynšperský pivovar",
+          "url": "/b/kynspersky-pivovar-kynspersky-zajic-12-deg-tmavy-lezak/1113111",
+          "rating": 3.3
+        },
+        {
+          "name": "Kynšperský Zajíc 12° zelený ležák s kopřivou",
+          "brewery": "Kynšperský pivovar",
+          "url": "/b/kynspersky-pivovar-kynspersky-zajic-12-deg-zeleny-lezak-s-koprivou/1036772",
+          "rating": 2.83
+        },
+        {
+          "name": "Kynšperský Zajíc 12° medový speciál",
+          "brewery": "Kynšperský pivovar",
+          "url": "/b/kynspersky-pivovar-kynspersky-zajic-12-deg-medovy-special/1715224",
+          "rating": 3.18
+        },
+        {
+          "name": "Dačický",
+          "brewery": "Heineken Česká Republika",
+          "url": "/b/heineken-ceska-republika-dacicky/110959",
+          "rating": 2.82
+        },
+        {
+          "name": "Konrad 12°",
+          "brewery": "Pivovar Vratislavice nad Nisou",
+          "url": "/b/pivovar-vratislavice-nad-nisou-konrad-12-deg/158057",
+          "rating": 3.1
+        },
+        {
+          "name": "Světlý ležák 12°",
+          "brewery": "Krakonoš",
+          "url": "/b/krakonos-svetly-lezak-12-deg/167392",
+          "rating": 3.18
+        },
+        {
+          "name": "Světlý ležák Premium 12°",
+          "brewery": "Hubertus",
+          "url": "/b/hubertus-svetly-lezak-premium-12-deg/21022",
+          "rating": 3.15
+        },
+        {
+          "name": "Unfiltered Lager (Nefiltrovaná 12)",
+          "brewery": "Bernard Family Brewery",
+          "url": "/b/bernard-family-brewery-unfiltered-lager-nefiltrovana-12/177007",
+          "rating": 3.36
+        },
+        {
+          "name": "Pilsner Urquell",
+          "brewery": "Plzeňský Prazdroj",
+          "url": "/b/plzensky-prazdroj-pilsner-urquell/37936",
+          "rating": 3.38
+        },
+        {
+          "name": "Budweiser Budvar / Czechvar Original",
+          "brewery": "Budějovický Budvar",
+          "url": "/b/budejovicky-budvar-budweiser-budvar-czechvar-original/5385",
+          "rating": 3.31
+        },
+        {
+          "name": "Staropramen Premium / Ležák 12",
+          "brewery": "Pivovary Staropramen",
+          "url": "/b/pivovary-staropramen-staropramen-premium-lezak-12/38700",
+          "rating": 3.26
+        },
+        {
+          "name": "Kozel Premium Lager / Kozel 11",
+          "brewery": "Pivovar Velké Popovice",
+          "url": "/b/pivovar-velke-popovice-kozel-premium-lager-kozel-11/30101",
+          "rating": 3.19
+        },
+        {
+          "name": "Budweiser Budvar / Czechvar DARK",
+          "brewery": "Budějovický Budvar",
+          "url": "/b/budejovicky-budvar-budweiser-budvar-czechvar-dark/39819",
+          "rating": 3.3
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Ležák 12° Kynšperk",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "query": "Ležák Kynšperk",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "query": "Ležák 12°",
+          "hits": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "query": "Ležák",
+          "hits": [
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/kynspersky-pivovar-kynspersky-zajic-12-deg-svetly-lezak/850661",
+        "source": "llm"
+      }
+    },
     "uzamastilu::Loutkář::Kašpárek": {
       "beer": {
         "source": "uzamastilu",
@@ -12870,6 +13052,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-mazak-cryo-riwaka-12/6832732",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Mazák::Taiheke IPL": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Mazák",
+        "name": "Taiheke IPL",
+        "style": "",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-09-04T19:21:58Z",
+      "candidates": [
+        {
+          "name": "Taiheke IPL 11",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-taiheke-ipl-11/6849701",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Taiheke IPL 11° Mazák",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mazak-taiheke-ipl-11/6849701",
         "score": 1.0
       }
     },
