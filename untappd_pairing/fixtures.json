@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-04T19:22:05Z",
+  "generated_at": "2026-09-04T22:16:07Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -9279,6 +9279,40 @@
         "score": 0.9091
       }
     },
+    "beerstreet::Švabín::Pathfinder": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Švabín",
+        "name": "Pathfinder",
+        "style": "NEIPA",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-09-04T22:15:54Z",
+      "candidates": [
+        {
+          "name": "Pathfinder",
+          "brewery": "Švabín Brewery",
+          "url": "/b/svabin-brewery-pathfinder/6807375",
+          "rating": 3.94
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Pathfinder 12° Švabín",
+          "hits": []
+        },
+        {
+          "query": "Pathfinder Švabín",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/svabin-brewery-pathfinder/6807375",
+        "score": 1.0
+      }
+    },
     "beerstreet::Švabín::Satyr": {
       "beer": {
         "source": "beerstreet",
@@ -13322,6 +13356,40 @@
       "outcome": {
         "matched": null,
         "reason": "no_candidates_above_threshold"
+      }
+    },
+    "uzamastilu::Nozib::Kamon#2 W.Coast": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Nozib",
+        "name": "Kamon#2 W.Coast",
+        "style": "IPA",
+        "degree_plato": 14.0
+      },
+      "captured_at": "2026-09-04T22:15:58Z",
+      "candidates": [
+        {
+          "name": "KAMØN #2 West Coast IPA Nectaron + Breeze",
+          "brewery": "NOZIB Special Brews",
+          "url": "/b/nozib-special-brews-kamon-2-west-coast-ipa-nectaron-breeze/6845776",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Kamon#2 W.Coast 14° Nozib",
+          "hits": []
+        },
+        {
+          "query": "Kamon#2 W.Coast Nozib",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/nozib-special-brews-kamon-2-west-coast-ipa-nectaron-breeze/6845776",
+        "score": 0.8182
       }
     },
     "uzamastilu::Obora::Ježibaba": {
