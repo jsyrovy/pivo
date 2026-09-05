@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-05T15:53:06Z",
+  "generated_at": "2026-09-05T18:02:10Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -4854,6 +4854,47 @@
         "score": 1.0
       }
     },
+    "beerstreet::Falkon::Ostružina": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Falkon",
+        "name": "Ostružina",
+        "style": "Sour",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-09-05T18:02:06Z",
+      "candidates": [
+        {
+          "name": "OSTRUŽINA",
+          "brewery": "FALKON",
+          "url": "/b/falkon-ostruzina/6769389",
+          "rating": 3.74
+        },
+        {
+          "name": "Sourberry #4 Blackberry Gose",
+          "brewery": "FALKON",
+          "url": "/b/falkon-sourberry-4-blackberry-gose/2697231",
+          "rating": 3.51
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Ostružina 11° Falkon",
+          "hits": []
+        },
+        {
+          "query": "Ostružina Falkon",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/falkon-ostruzina/6769389",
+        "score": 1.0
+      }
+    },
     "beerstreet::Fenek::Hoppy Lager": {
       "beer": {
         "source": "beerstreet",
@@ -7405,6 +7446,40 @@
         "reason": "no_candidates_above_threshold"
       }
     },
+    "beerstreet::Nozib::Lager - Saaz + Premiant": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Nozib",
+        "name": "Lager - Saaz + Premiant",
+        "style": "Ležák světlý",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-09-05T18:02:01Z",
+      "candidates": [
+        {
+          "name": "LAGER RESEARCH #2 Czech Lager Saaz + Premiant",
+          "brewery": "NOZIB Special Brews",
+          "url": "/b/nozib-special-brews-lager-research-2-czech-lager-saaz-premiant/6845781",
+          "rating": 3.85
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Lager - Saaz + Premiant 12° Nozib",
+          "hits": []
+        },
+        {
+          "query": "Lager - Saaz + Premiant Nozib",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/nozib-special-brews-lager-research-2-czech-lager-saaz-premiant/6845781",
+        "score": 1.0
+      }
+    },
     "beerstreet::Obora::Sunny APA": {
       "beer": {
         "source": "beerstreet",
@@ -8404,6 +8479,36 @@
       ],
       "outcome": {
         "matched": "/b/vinohradsky-pivovar-vinohradska-11/916918",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Volt::Amper": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Volt",
+        "name": "Amper",
+        "style": "Ležák světlý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-09-05T18:01:58Z",
+      "candidates": [
+        {
+          "name": "Ampér 11°",
+          "brewery": "Pivovar Volt",
+          "url": "/b/pivovar-volt-amper-agnus/5209185",
+          "rating": 3.53
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Amper 11° Volt",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-volt-amper-agnus/5209185",
         "score": 1.0
       }
     },
