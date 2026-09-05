@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-04T22:16:07Z",
+  "generated_at": "2026-09-05T15:53:06Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -9174,6 +9174,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-cestmir-sour-pink-guava-maracuja/6534373",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Čestmír::Vera": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Čestmír",
+        "name": "Vera",
+        "style": "Smash  APA",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-09-05T15:52:29Z",
+      "candidates": [
+        {
+          "name": "Smash APA 12 - Vera",
+          "brewery": "Pivovar Čestmír",
+          "url": "/b/pivovar-cestmir-vera-12/6821227",
+          "rating": 3.76
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Vera 12° Čestmír",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-cestmir-vera-12/6821227",
         "score": 1.0
       }
     },

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-04T22:16:07Z",
+  "generated_at": "2026-09-05T15:53:06Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -2661,6 +2661,16 @@
       "match_score": 1.0,
       "matched_at": "2026-04-17T11:20:59Z",
       "query_used": "Tropical Sour Čestmír"
+    },
+    "beerstreet::Čestmír::Vera": {
+      "untappd_url": "https://untappd.com/b/pivovar-cestmir-vera-12/6821227",
+      "untappd_name": "Smash APA 12 - Vera",
+      "untappd_brewery": "Pivovar Čestmír",
+      "rating": 3.76,
+      "match_score": 1.0,
+      "matched_at": "2026-09-05T15:52:29Z",
+      "query_used": "Vera 12° Čestmír",
+      "description": "Smash APA s jedním chmelem Vera nabízí středně plné tělo a vyvážený profil americké pálky – sladový základ s jemnou karamelovou stopou a střední hořkostí, doplněný typickými tóny Vera: tropické ovoce, citrus a lehká bylinnost. Střední až vyšší hořkost a čistý, středně suchý závěr odpovídají stylu APA při 12° a 5,2 % A…"
     },
     "beerstreet::Čestmír::malina & borůvka": {
       "untappd_url": "https://untappd.com/b/pivovar-cestmir-malina-and-boruvka/6701639",
