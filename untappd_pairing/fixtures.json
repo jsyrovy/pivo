@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-05T18:02:10Z",
+  "generated_at": "2026-09-05T21:02:46Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -4667,6 +4667,40 @@
       ],
       "outcome": {
         "matched": "/b/chroust-extra-extra/6656532",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Duck  & Dog::Sunrise": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Duck  & Dog",
+        "name": "Sunrise",
+        "style": "Summer ale",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-09-05T21:02:42Z",
+      "candidates": [
+        {
+          "name": "Sunrise",
+          "brewery": "Pivovar Duck&Dog",
+          "url": "/b/pivovar-duck-and-dog-sunrise/6259468",
+          "rating": 3.51
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Sunrise 11° Duck & Dog",
+          "hits": []
+        },
+        {
+          "query": "Sunrise Duck & Dog",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-duck-and-dog-sunrise/6259468",
         "score": 1.0
       }
     },

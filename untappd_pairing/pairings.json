@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-05T18:02:10Z",
+  "generated_at": "2026-09-05T21:02:46Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -600,7 +600,8 @@
       "rating": 3.608,
       "match_score": 1.0,
       "matched_at": "2026-05-12T20:28:28Z",
-      "query_used": "Intergalactic Medvěd"
+      "query_used": "Intergalactic Medvěd",
+      "description": "IPA s vyšší stupňovitostí a obsahem alkoholu nabízí plnější tělo a výraznější chmelový profil s citrusovými, pryskyřičnými a tropickými tóny, vyváženou střední až vyšší hořkostí a sladovým základem, který podporuje plnost bez přebytečné sladkosti. Spodně i svrchně kvašené charakteristiky nejsou u stylu IPA typické, pr…"
     },
     "ambasada::Mikkeller, Copenhagen, Dánsko::Hop Shop": {
       "untappd_url": "https://untappd.com/b/mikkeller-hop-shop/5205020",
@@ -1377,6 +1378,16 @@
       "match_score": 1.0,
       "matched_at": "2026-05-06T20:19:40Z",
       "query_used": "Pineapple Chroust"
+    },
+    "beerstreet::Duck  & Dog::Sunrise": {
+      "untappd_url": "https://untappd.com/b/pivovar-duck-and-dog-sunrise/6259468",
+      "untappd_name": "Sunrise",
+      "untappd_brewery": "Pivovar Duck&Dog",
+      "rating": 3.51,
+      "match_score": 1.0,
+      "matched_at": "2026-09-05T21:02:42Z",
+      "query_used": "Sunrise Duck & Dog",
+      "description": "Letní ale s lehkým tělem a osvěžujícím charakterem, typicky s jemnou sladovou základnou a jemnou chmelovou hořkostí, vhodné pro teplé počasí díky své pitelnosti a střední plnosti. Hodnocení 3,51 není dostatečně vysoké ani nízké na zmínku."
     },
     "beerstreet::Duck & Dog::Fiškus": {
       "untappd_url": "https://untappd.com/b/pivovar-duck-dog-duck-dog-fiskus-svetly-lezak-11-deg/4367516",
