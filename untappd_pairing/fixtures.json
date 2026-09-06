@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-06T18:58:08Z",
+  "generated_at": "2026-09-06T21:13:22Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -14138,6 +14138,40 @@
       ],
       "outcome": {
         "matched": "/b/mestansky-pivovar-v-policce-zavis-12-nefiltrovane/188796",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Potmehúd::Smash The Dolcita": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Potmehúd",
+        "name": "Smash The Dolcita",
+        "style": "APA",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-09-06T21:13:15Z",
+      "candidates": [
+        {
+          "name": "SMaSH the Dolcita",
+          "brewery": "Pivovar Potmehúd",
+          "url": "/b/pivovar-potmehud-smash-the-dolcita/6816247",
+          "rating": 3.85
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Smash The Dolcita 12° Potmehúd",
+          "hits": []
+        },
+        {
+          "query": "Smash The Dolcita Potmehúd",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-potmehud-smash-the-dolcita/6816247",
         "score": 1.0
       }
     },

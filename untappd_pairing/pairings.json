@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-06T18:58:08Z",
+  "generated_at": "2026-09-06T21:13:22Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -3630,6 +3630,16 @@
       "matched_at": "2026-07-24T13:25:28Z",
       "query_used": "Záviš 12° Polička",
       "description": "Záviš 12° nefiltrované je pivo s mírnou plností a lehkou kvasnou charakteristikou, vhodné pro odpočinek po práci nebo setkání s přáteli, s hodnocením 3.42/5 na Untappd."
+    },
+    "uzamastilu::Potmehúd::Smash The Dolcita": {
+      "untappd_url": "https://untappd.com/b/pivovar-potmehud-smash-the-dolcita/6816247",
+      "untappd_name": "SMaSH the Dolcita",
+      "untappd_brewery": "Pivovar Potmehúd",
+      "rating": 3.85,
+      "match_score": 1.0,
+      "matched_at": "2026-09-06T21:13:15Z",
+      "query_used": "Smash The Dolcita Potmehúd",
+      "description_failed_at": "2026-09-06T21:13:15Z"
     },
     "uzamastilu::Rampušák::Dobrušská Nefiltr": {
       "untappd_url": "https://untappd.com/b/rodinny-pivovar-rampusak-dobrusska-11-nefiltrovana/5987923",
