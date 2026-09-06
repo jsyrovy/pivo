@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-06T16:05:27Z",
+  "generated_at": "2026-09-06T18:58:08Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -3421,6 +3421,16 @@
       "query_used": "Kašpárek 11° Loutkář",
       "description": "Kašpárek 11 světlý ležák od Pivovaru Loutkář je středně silný ležák, vhodný na běžné posezení i odpolední setkání."
     },
+    "uzamastilu::Madcat::Ležák": {
+      "untappd_url": "https://untappd.com/b/madcat-podzimni-lezak-11-deg/3955921",
+      "untappd_name": "Podzimní Ležák 11°",
+      "untappd_brewery": "MadCat",
+      "rating": 3.15,
+      "match_score": 1.0,
+      "matched_at": "2026-09-06T18:58:02Z",
+      "query_used": "Ležák 12° Madcat",
+      "description": "Klasický český ležák: sladový základ s jemnou chmelovou hořkostí, středně plné tělo a čistá, vyvážená chuť typická pro spodně kvašená piva. Hodnocení na Untappd podprůměrné."
+    },
     "uzamastilu::Mazák::Aurora Cold": {
       "untappd_url": "https://untappd.com/b/pivovar-mazak-aurora-cold-ipa/6810130",
       "untappd_name": "Aurora Cold IPA",
@@ -3760,6 +3770,16 @@
       "matched_at": "2026-08-22T17:25:12Z",
       "query_used": "Cloud Scanner Černý Potoka",
       "description": "Silně aromatické NEIPA s tropickým a ovocným profilem Sabro chmele, intenzivní vůně manga a grapefruitu doplněná lehkou sladkostí a měkkou hořkostí, středně plné tělo s hladkým závěrem, hodnocení nadprůměrné."
+    },
+    "uzamastilu::Čestmír::NZ NEIPA Koru": {
+      "untappd_url": "https://untappd.com/b/pivovar-cestmir-nz-neipa-koru-riwaka-nelson-sauvin-motueka/6857928",
+      "untappd_name": "NZ NEIPA  – KORU (Riwaka / Nelson Sauvin / Motueka)",
+      "untappd_brewery": "Pivovar Čestmír",
+      "rating": null,
+      "match_score": 1.0,
+      "matched_at": "2026-09-06T18:58:06Z",
+      "query_used": "NZ NEIPA Koru Čestmír",
+      "description_failed_at": "2026-09-06T18:58:06Z"
     },
     "uzamastilu::Čestmír::Vera Smash": {
       "untappd_url": "https://untappd.com/b/pivovar-cestmir-smash-apa-vera/6827149",

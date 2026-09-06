@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-06T16:05:27Z",
+  "generated_at": "2026-09-06T18:58:08Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -13194,6 +13194,50 @@
         "reason": "no_candidates_above_threshold"
       }
     },
+    "uzamastilu::Madcat::Ležák": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Madcat",
+        "name": "Ležák",
+        "style": "Ležák",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-09-06T18:58:02Z",
+      "candidates": [
+        {
+          "name": "MadCat Ležák / Kamenický světlý ležák ",
+          "brewery": "MadCat",
+          "url": "/b/madcat-madcat-lezak-kamenicky-svetly-lezak/3619166",
+          "rating": 3.47
+        },
+        {
+          "name": "Světlý ležák 11°",
+          "brewery": "Fenek Craft Beer",
+          "url": "/b/fenek-craft-beer-svetly-lezak-11-deg/3322596",
+          "rating": 3.42
+        },
+        {
+          "name": "Podzimní Ležák 11°",
+          "brewery": "MadCat",
+          "url": "/b/madcat-podzimni-lezak-11-deg/3955921",
+          "rating": 3.15
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Ležák 12° Madcat",
+          "hits": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/madcat-podzimni-lezak-11-deg/3955921",
+        "score": 1.0
+      }
+    },
     "uzamastilu::Mazák::Aurora Cold": {
       "beer": {
         "source": "uzamastilu",
@@ -14758,6 +14802,40 @@
       ],
       "outcome": {
         "matched": "/b/cerny-potoka-cloud-scanner-sabro/3279424",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Čestmír::NZ NEIPA Koru": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Čestmír",
+        "name": "NZ NEIPA Koru",
+        "style": "",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-09-06T18:58:06Z",
+      "candidates": [
+        {
+          "name": "NZ NEIPA  – KORU (Riwaka / Nelson Sauvin / Motueka)",
+          "brewery": "Pivovar Čestmír",
+          "url": "/b/pivovar-cestmir-nz-neipa-koru-riwaka-nelson-sauvin-motueka/6857928",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "NZ NEIPA Koru 11° Čestmír",
+          "hits": []
+        },
+        {
+          "query": "NZ NEIPA Koru Čestmír",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-cestmir-nz-neipa-koru-riwaka-nelson-sauvin-motueka/6857928",
         "score": 1.0
       }
     },
