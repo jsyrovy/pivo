@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-07T18:11:51Z",
+  "generated_at": "2026-09-07T21:56:46Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -877,6 +877,40 @@
       ],
       "outcome": {
         "matched": "/b/haksna-brewery-lett/6822982",
+        "score": 1.0
+      }
+    },
+    "ambasada::Haksna, Ostrava::Step by Step": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Haksna, Ostrava",
+        "name": "Step by Step",
+        "style": "Pale ale",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-09-07T21:56:22Z",
+      "candidates": [
+        {
+          "name": "Step By Step",
+          "brewery": "Haksna Brewery",
+          "url": "/b/haksna-brewery-step-by-step/6853283",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Step by Step 10° Haksna",
+          "hits": []
+        },
+        {
+          "query": "Step by Step Haksna",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/haksna-brewery-step-by-step/6853283",
         "score": 1.0
       }
     },
