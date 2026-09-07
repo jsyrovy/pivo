@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-06T23:39:59Z",
+  "generated_at": "2026-09-07T18:11:51Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -2852,6 +2852,16 @@
       "query_used": "Goldie Clock",
       "description": "Weizenbier s typickým ovocným a banánovým aroma, lehkou sladkostí a mírnou hořkostí, středně plné tělo, dobře vyvážené a osvěžující."
     },
+    "toulavapipa::Clock::HEKTOR": {
+      "untappd_url": "https://untappd.com/b/pivovar-clock-hektor/740151",
+      "untappd_name": "Hektor",
+      "untappd_brewery": "Pivovar Clock",
+      "rating": 3.49,
+      "match_score": 1.0,
+      "matched_at": "2026-09-07T18:10:45Z",
+      "query_used": "HEKTOR Clock",
+      "description": "Klasické české výčepní pivo: sladový základ, jemná chmelová hořkost a lehčí tělo, spodně kvašené a čisté v chuti."
+    },
     "toulavapipa::Clock::Hektor": {
       "untappd_url": "https://untappd.com/b/pivovar-clock-hektor/740151",
       "untappd_name": "Hektor",
@@ -2872,6 +2882,16 @@
       "query_used": "Original ležák Fracek",
       "description": "Sladký sladový základ s mírnou chmelovou hořkostí, lehké tělo a čistý závěr typický pro klasické české ležáky."
     },
+    "toulavapipa::Hřebec::HOPPY LAGER": {
+      "untappd_url": "https://untappd.com/b/pivovar-hrebec-10-deg-hoppy-lager/6684488",
+      "untappd_name": "10° Hoppy Lager",
+      "untappd_brewery": "Pivovar Hřebec",
+      "rating": 3.66,
+      "match_score": 1.0,
+      "matched_at": "2026-09-07T18:10:44Z",
+      "query_used": "HOPPY LAGER Hřebec",
+      "description": "IPL s názvem „Hoppy Lager“ naznačuje chmelený charakter na bázi ležáku. Styl IPL (India Pale Lager) znamená spodně kvašené pivo s výraznou chmelovou hořkostí a intenzivním chmelovým aroma, často s citrusovými, květinovými nebo pryskyřičnými tóny. I když jsou stupňovitost a alkohol neznámé, typický IPL má středně plné…"
+    },
     "toulavapipa::Hřebec::Hoppy lager": {
       "untappd_url": "https://untappd.com/b/pivovar-hrebec-10-deg-hoppy-lager/6684488",
       "untappd_name": "10° Hoppy Lager",
@@ -2882,6 +2902,16 @@
       "query_used": "Hoppy lager 10° Hřebec",
       "description": "10° Hoppy Lager od Pivovaru Hřebec je osvěžující IPL s mírnou hořkostí a lehkou pěnivostí, vhodný na letní posezení u grilu nebo při přátelském setkání. S průměrnou sílou 10° se hodí i k delším večerům."
     },
+    "toulavapipa::Hřebec::HŘEBEC": {
+      "untappd_url": "https://untappd.com/b/pivovar-hrebec-11-deg-lezak/6340661",
+      "untappd_name": "11° Ležák",
+      "untappd_brewery": "Pivovar Hřebec",
+      "rating": 3.59,
+      "match_score": 0.0,
+      "matched_at": "2026-09-07T18:10:46Z",
+      "query_used": "HŘEBEC 11° Hřebec",
+      "description": "Klasický světlý ležák: sladový základ, jemná chmelová hořkost a lehčí tělo, spodně kvašený a čistý v chuti."
+    },
     "toulavapipa::Hřebec::Hřebec": {
       "untappd_url": "https://untappd.com/b/pivovar-hrebec-11-deg-lezak/6340661",
       "untappd_name": "11° Ležák",
@@ -2891,6 +2921,16 @@
       "matched_at": "2026-08-10T14:21:39Z",
       "query_used": "Hřebec 11° Hřebec",
       "description": "11° Ležák od Pivovaru Hřebec je středně silný ležák s průměrnou pitelností. Hodí se na běžné posezení i mírnější oslavu."
+    },
+    "toulavapipa::Hřebec::NEW ZEALAND PALE ALE": {
+      "untappd_url": "https://untappd.com/b/pivovar-hrebec-11-deg-new-zealand-pale-ale/6850395",
+      "untappd_name": "11° New Zealand Pale Ale",
+      "untappd_brewery": "Pivovar Hřebec",
+      "rating": null,
+      "match_score": 1.0,
+      "matched_at": "2026-09-07T18:10:47Z",
+      "query_used": "NEW ZEALAND PALE ALE Hřebec",
+      "description_failed_at": "2026-09-07T18:11:19Z"
     },
     "toulavapipa::Kamenice nad Labem::Kamenická": {
       "untappd_url": "https://untappd.com/b/pivovar-kamenice-nad-lipou-kamenicka-12/2146941",
@@ -3022,6 +3062,16 @@
       "query_used": "Jiskra Madcat",
       "description": "Jiskra je typické sessionní IPA s lehkým tělem a mírnou hořkostí, doplněná citrusovým a tropickým aroma, které přináší svěží chmelové tóny. Pivo má střední plnost a je vhodné pro časté konzumování. POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE P…"
     },
+    "toulavapipa::Mazák::RAINBOW OF DEATH": {
+      "untappd_url": "https://untappd.com/b/pivovar-mazak-rainbow-of-death/2852216",
+      "untappd_name": "Rainbow of Death",
+      "untappd_brewery": "Pivovar Mazák",
+      "rating": 3.81,
+      "match_score": 1.0,
+      "matched_at": "2026-09-07T18:10:47Z",
+      "query_used": "RAINBOW OF DEATH Mazák",
+      "description": "IPA s výraznou chmelovou hořkostí, citrusovým a tropickým ovocným aroma a středně plným tělem. Hodnocení na Untappd je nadprůměrné."
+    },
     "toulavapipa::Mordýř::Kurtizána": {
       "untappd_url": "https://untappd.com/b/pivovar-mordyr-kurtizana/704889",
       "untappd_name": "Kurtizána",
@@ -3142,6 +3192,16 @@
       "query_used": "Raven 12° Raven",
       "description": "Světlý ležák s mírnou sladkostí sladu, jemnou chmelovou hořkostí a čistým, osvěžujícím tělem, podpořený lehkým chmelením a možným ovocným podtónem z názvu."
     },
+    "toulavapipa::Raven::SUMMER CITRA": {
+      "untappd_url": "https://untappd.com/b/pivovar-raven-summer-citra/2191517",
+      "untappd_name": "Summer Citra",
+      "untappd_brewery": "Pivovar Raven",
+      "rating": 3.66,
+      "match_score": 1.0,
+      "matched_at": "2026-09-07T18:10:46Z",
+      "query_used": "SUMMER CITRA Raven",
+      "description": "Single hop ale s výrazným použitím chmele Citra, který přináší intenzivní tropické a citrusové aroma – zejména mango, marakuya a grepfruit – s jemnou sladovou základnou a střední hořkostí. Tělo je lehčí až střední, typické pro svrchně kvašená ale piva s důrazem na chmelový profil."
+    },
     "toulavapipa::Raven::Summer Citra": {
       "untappd_url": "https://untappd.com/b/pivovar-raven-summer-citra/2191517",
       "untappd_name": "Summer Citra",
@@ -3202,6 +3262,16 @@
       "query_used": "Exotic Orchard Sibeeria",
       "description": "Exotic Orchard od Sibeeria Brewery je double IPA s průměrným až vysokým tělesem a mírně hořkým profilem, který potěší příznivce aromatických, ovocných hopů; oceněný 3,85 hvězdičkou na Untappd, vhodný na letní večery nebo k osvěžení po práci."
     },
+    "toulavapipa::Sibeeria::FRIENDLY FACES": {
+      "untappd_url": "https://untappd.com/b/sibeeria-brewery-friendly-faces/6799267",
+      "untappd_name": "Friendly Faces",
+      "untappd_brewery": "Sibeeria Brewery",
+      "rating": 3.85,
+      "match_score": 1.0,
+      "matched_at": "2026-09-07T18:11:18Z",
+      "query_used": "FRIENDLY FACES Sibeeria",
+      "description": "Imperial sour ale s vysokou plností a silnou kyselou chutí, výraznou hořkostí a komplexním ovocným aroma, hodnoceno nadprůměrně."
+    },
     "toulavapipa::Sibeeria::Pepper punch": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-pepperup-punch/6834644",
       "untappd_name": "Pepperup Punch",
@@ -3261,6 +3331,16 @@
       "matched_at": "2026-08-28T22:58:22Z",
       "query_used": "Mosaic Ale Zichovec",
       "description": "APA s výrazným chmelovým profilem odrůdy Mosaic – tropické ovoce, citrus a lehká pryskyřice ve vůni i chuti, střední hořkost a plnější tělo typické pro svrchně kvašené ale. Hodnocení 3,65 naznačuje nadprůměrné přijetí."
+    },
+    "toulavapipa::Zichovec::NECTAR OF HAPPINESS": {
+      "untappd_url": "https://untappd.com/b/pivovar-zichovec-nectar-of-happiness-oranzova/6160051",
+      "untappd_name": "Nectar of Happiness: Oranžová",
+      "untappd_brewery": "Pivovar ZICHOVEC",
+      "rating": 4.07,
+      "match_score": 1.0,
+      "matched_at": "2026-09-07T18:11:16Z",
+      "query_used": "NECTAR OF HAPPINESS Zichovec",
+      "description": "Ovocně chmelená New England IPA s jemným zákalem, nízkou hořkostí a bohatým aroma tropického ovoce a citrusů; pomeranč v názvu naznačuje výraznější citrusový profil, který doplňuje sladové tělo a jemnou krémovost. Nadprůměrně hodnocené."
     },
     "toulavapipa::Zichovec::Robin na grepu": {
       "untappd_url": "https://untappd.com/b/pivovar-zichovec-robin-na-grepu-12/5411257",
@@ -3510,6 +3590,16 @@
       "matched_at": "2026-08-12T15:52:12Z",
       "query_used": "<override>",
       "description": "Rhapsody Of Fog je svrchně kvašené pivo s vyšší sladovostí a mírnou hořkostí, charakteristické svým ovocným a květinovým aroma, pravděpodobně ovlivněným použitím rybízů nebo jiných ovocných přídavků, což mu dodává lehkou plnost a jemnou kyselost, vhodné pro milovníky jemně aromatických piv."
+    },
+    "uzamastilu::Nozib::KAMØN#2 W.Coast": {
+      "untappd_url": "https://untappd.com/b/nozib-special-brews-kamon-2-west-coast-ipa-nectaron-breeze/6845776",
+      "untappd_name": "KAMØN #2 West Coast IPA Nectaron + Breeze",
+      "untappd_brewery": "NOZIB Special Brews",
+      "rating": 3.92,
+      "match_score": 0.9,
+      "matched_at": "2026-09-07T18:11:19Z",
+      "query_used": "KAMØN#2 W.Coast Nozib",
+      "description": "West Coast IPA s výraznou chmelovou hořkostí, citrusovým a pryskyřičným aroma a suchým závěrem; vyšší stupňovitost naznačuje plnější tělo a větší intenzitu chmelového projevu. Nectaron přináší tropické ovoce (marakuja, ananas), Breeze přidává jemné květinové a citrusové tóly. Hodnocení 3,92 naznačuje nadprůměrně přija…"
     },
     "uzamastilu::Nozib::Kamon#2 W.Coast": {
       "untappd_url": "https://untappd.com/b/nozib-special-brews-kamon-2-west-coast-ipa-nectaron-breeze/6845776",

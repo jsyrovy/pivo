@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-06T23:39:59Z",
+  "generated_at": "2026-09-07T18:11:51Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -9929,6 +9929,43 @@
         "score": 1.0
       }
     },
+    "toulavapipa::Clock::HEKTOR": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Clock",
+        "name": "HEKTOR",
+        "style": "Výčepní spodně kvašené",
+        "degree_plato": null
+      },
+      "captured_at": "2026-09-07T18:10:45Z",
+      "candidates": [
+        {
+          "name": "Hektor",
+          "brewery": "Pivovar Clock",
+          "url": "/b/pivovar-clock-hektor/740151",
+          "rating": 3.49
+        },
+        {
+          "name": "Hektor+ 16°",
+          "brewery": "Pivovar Clock",
+          "url": "/b/pivovar-clock-hektor-16-deg/915392",
+          "rating": 3.35
+        }
+      ],
+      "attempts": [
+        {
+          "query": "HEKTOR Clock",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-clock-hektor/740151",
+        "score": 1.0
+      }
+    },
     "toulavapipa::Clock::Hektor": {
       "beer": {
         "source": "toulavapipa",
@@ -10122,6 +10159,36 @@
         "score": 1.0
       }
     },
+    "toulavapipa::Hřebec::HOPPY LAGER": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Hřebec",
+        "name": "HOPPY LAGER",
+        "style": "IPL",
+        "degree_plato": null
+      },
+      "captured_at": "2026-09-07T18:10:44Z",
+      "candidates": [
+        {
+          "name": "10° Hoppy Lager",
+          "brewery": "Pivovar Hřebec",
+          "url": "/b/pivovar-hrebec-10-deg-hoppy-lager/6684488",
+          "rating": 3.66
+        }
+      ],
+      "attempts": [
+        {
+          "query": "HOPPY LAGER Hřebec",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-hrebec-10-deg-hoppy-lager/6684488",
+        "score": 1.0
+      }
+    },
     "toulavapipa::Hřebec::Hoppy lager": {
       "beer": {
         "source": "toulavapipa",
@@ -10150,6 +10217,64 @@
       "outcome": {
         "matched": "/b/pivovar-hrebec-10-deg-hoppy-lager/6684488",
         "score": 1.0
+      }
+    },
+    "toulavapipa::Hřebec::HŘEBEC": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Hřebec",
+        "name": "HŘEBEC",
+        "style": "Světlý ležák",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-09-07T18:10:46Z",
+      "candidates": [
+        {
+          "name": "11° Ležák",
+          "brewery": "Pivovar Hřebec",
+          "url": "/b/pivovar-hrebec-11-deg-lezak/6340661",
+          "rating": 3.59
+        },
+        {
+          "name": "11° American Pale Ale",
+          "brewery": "Pivovar Hřebec",
+          "url": "/b/pivovar-hrebec-11-deg-american-pale-ale/6340678",
+          "rating": 3.47
+        },
+        {
+          "name": "11° Ležák Polotmavý",
+          "brewery": "Pivovar Hřebec",
+          "url": "/b/pivovar-hrebec-11-deg-lezak-polotmavy/6340675",
+          "rating": 3.34
+        },
+        {
+          "name": "11° New Zealand Pale Ale",
+          "brewery": "Pivovar Hřebec",
+          "url": "/b/pivovar-hrebec-11-deg-new-zealand-pale-ale/6850395",
+          "rating": null
+        },
+        {
+          "name": "11° Svatováclavský Speciál",
+          "brewery": "Pivovar Hřebec",
+          "url": "/b/pivovar-hrebec-11-deg-svatovaclavsky-special/6856415",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "HŘEBEC 11° Hřebec",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-hrebec-11-deg-lezak/6340661",
+        "score": 0.0
       }
     },
     "toulavapipa::Hřebec::Hřebec": {
@@ -10330,6 +10455,36 @@
       "outcome": {
         "matched": null,
         "reason": "no_candidates_above_threshold"
+      }
+    },
+    "toulavapipa::Hřebec::NEW ZEALAND PALE ALE": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Hřebec",
+        "name": "NEW ZEALAND PALE ALE",
+        "style": "Pale ale",
+        "degree_plato": null
+      },
+      "captured_at": "2026-09-07T18:10:47Z",
+      "candidates": [
+        {
+          "name": "11° New Zealand Pale Ale",
+          "brewery": "Pivovar Hřebec",
+          "url": "/b/pivovar-hrebec-11-deg-new-zealand-pale-ale/6850395",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "NEW ZEALAND PALE ALE Hřebec",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-hrebec-11-deg-new-zealand-pale-ale/6850395",
+        "score": 1.0
       }
     },
     "toulavapipa::Kamenice nad Labem::Kamenická": {
@@ -11046,6 +11201,36 @@
         "score": 1.0
       }
     },
+    "toulavapipa::Mazák::RAINBOW OF DEATH": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Mazák",
+        "name": "RAINBOW OF DEATH",
+        "style": "IPA",
+        "degree_plato": null
+      },
+      "captured_at": "2026-09-07T18:10:47Z",
+      "candidates": [
+        {
+          "name": "Rainbow of Death",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-rainbow-of-death/2852216",
+          "rating": 3.81
+        }
+      ],
+      "attempts": [
+        {
+          "query": "RAINBOW OF DEATH Mazák",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mazak-rainbow-of-death/2852216",
+        "score": 1.0
+      }
+    },
     "toulavapipa::Mordýř::Kurtizána": {
       "beer": {
         "source": "toulavapipa",
@@ -11606,6 +11791,36 @@
         "score": 1.0
       }
     },
+    "toulavapipa::Raven::SUMMER CITRA": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Raven",
+        "name": "SUMMER CITRA",
+        "style": "Single hop ale",
+        "degree_plato": null
+      },
+      "captured_at": "2026-09-07T18:10:46Z",
+      "candidates": [
+        {
+          "name": "Summer Citra",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-summer-citra/2191517",
+          "rating": 3.66
+        }
+      ],
+      "attempts": [
+        {
+          "query": "SUMMER CITRA Raven",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-raven-summer-citra/2191517",
+        "score": 1.0
+      }
+    },
     "toulavapipa::Raven::Summer Citra": {
       "beer": {
         "source": "toulavapipa",
@@ -11814,6 +12029,36 @@
         "score": 1.0
       }
     },
+    "toulavapipa::Sibeeria::FRIENDLY FACES": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Sibeeria",
+        "name": "FRIENDLY FACES",
+        "style": "Imperial sour ale",
+        "degree_plato": null
+      },
+      "captured_at": "2026-09-07T18:11:18Z",
+      "candidates": [
+        {
+          "name": "Friendly Faces",
+          "brewery": "Sibeeria Brewery",
+          "url": "/b/sibeeria-brewery-friendly-faces/6799267",
+          "rating": 3.85
+        }
+      ],
+      "attempts": [
+        {
+          "query": "FRIENDLY FACES Sibeeria",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/sibeeria-brewery-friendly-faces/6799267",
+        "score": 1.0
+      }
+    },
     "toulavapipa::Sibeeria::Pepper punch": {
       "beer": {
         "source": "toulavapipa",
@@ -12009,6 +12254,64 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-zichovec-mosaic-ale-12/1737004",
+        "score": 1.0
+      }
+    },
+    "toulavapipa::Zichovec::NECTAR OF HAPPINESS": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Zichovec",
+        "name": "NECTAR OF HAPPINESS",
+        "style": "New england IPA",
+        "degree_plato": null
+      },
+      "captured_at": "2026-09-07T18:11:16Z",
+      "candidates": [
+        {
+          "name": "Nectar of Happiness 17",
+          "brewery": "Pivovar ZICHOVEC",
+          "url": "/b/pivovar-zichovec-nectar-of-happiness-17/3079153",
+          "rating": 3.99
+        },
+        {
+          "name": "Nectar of Happiness 17 Nelson Sauvin Dry Hopped",
+          "brewery": "Pivovar ZICHOVEC",
+          "url": "/b/pivovar-zichovec-nectar-of-happiness-17-nelson-sauvin-dry-hopped/4576290",
+          "rating": 3.99
+        },
+        {
+          "name": "Nectar of Happiness Strata 17",
+          "brewery": "Pivovar ZICHOVEC",
+          "url": "/b/pivovar-zichovec-nectar-of-happiness-strata-17/5746320",
+          "rating": 4.04
+        },
+        {
+          "name": "Nectar of Happiness Sabro 17",
+          "brewery": "Pivovar ZICHOVEC",
+          "url": "/b/pivovar-zichovec-nectar-of-happiness-sabro-17/3862861",
+          "rating": 4.08
+        },
+        {
+          "name": "Nectar of Happiness: Oranžová",
+          "brewery": "Pivovar ZICHOVEC",
+          "url": "/b/pivovar-zichovec-nectar-of-happiness-oranzova/6160051",
+          "rating": 4.07
+        }
+      ],
+      "attempts": [
+        {
+          "query": "NECTAR OF HAPPINESS Zichovec",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-zichovec-nectar-of-happiness-oranzova/6160051",
         "score": 1.0
       }
     },
@@ -13569,6 +13872,40 @@
       "outcome": {
         "matched": null,
         "reason": "no_candidates_above_threshold"
+      }
+    },
+    "uzamastilu::Nozib::KAMØN#2 W.Coast": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Nozib",
+        "name": "KAMØN#2 W.Coast",
+        "style": "IPA",
+        "degree_plato": 14.0
+      },
+      "captured_at": "2026-09-07T18:11:19Z",
+      "candidates": [
+        {
+          "name": "KAMØN #2 West Coast IPA Nectaron + Breeze",
+          "brewery": "NOZIB Special Brews",
+          "url": "/b/nozib-special-brews-kamon-2-west-coast-ipa-nectaron-breeze/6845776",
+          "rating": 3.92
+        }
+      ],
+      "attempts": [
+        {
+          "query": "KAMØN#2 W.Coast 14° Nozib",
+          "hits": []
+        },
+        {
+          "query": "KAMØN#2 W.Coast Nozib",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/nozib-special-brews-kamon-2-west-coast-ipa-nectaron-breeze/6845776",
+        "score": 0.9
       }
     },
     "uzamastilu::Nozib::Kamon#2 W.Coast": {
