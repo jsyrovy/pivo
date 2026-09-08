@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-08T00:09:22Z",
+  "generated_at": "2026-09-08T17:10:54Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -10840,6 +10840,64 @@
         "score": 1.0
       }
     },
+    "toulavapipa::Kynšperský pivovar::ZAJÍC": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Kynšperský pivovar",
+        "name": "ZAJÍC",
+        "style": "Světlý ležák",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-09-08T17:10:44Z",
+      "candidates": [
+        {
+          "name": "Kynšperský Zajíc 12° světlý ležák",
+          "brewery": "Kynšperský pivovar",
+          "url": "/b/kynspersky-pivovar-kynspersky-zajic-12-deg-svetly-lezak/850661",
+          "rating": 3.31
+        },
+        {
+          "name": "Kynšperský Zajíc 12° polotmavý ležák",
+          "brewery": "Kynšperský pivovar",
+          "url": "/b/kynspersky-pivovar-kynspersky-zajic-12-deg-polotmavy-lezak/813826",
+          "rating": 3.21
+        },
+        {
+          "name": "Kynšperský Zajíc 12° tmavý ležák",
+          "brewery": "Kynšperský pivovar",
+          "url": "/b/kynspersky-pivovar-kynspersky-zajic-12-deg-tmavy-lezak/1113111",
+          "rating": 3.3
+        },
+        {
+          "name": "Kynšperský Zajíc 12° zelený ležák s kopřivou",
+          "brewery": "Kynšperský pivovar",
+          "url": "/b/kynspersky-pivovar-kynspersky-zajic-12-deg-zeleny-lezak-s-koprivou/1036772",
+          "rating": 2.83
+        },
+        {
+          "name": "Kynšperský Zajíc 12° medový speciál",
+          "brewery": "Kynšperský pivovar",
+          "url": "/b/kynspersky-pivovar-kynspersky-zajic-12-deg-medovy-special/1715224",
+          "rating": 3.18
+        }
+      ],
+      "attempts": [
+        {
+          "query": "ZAJÍC 12° Kynšperský",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/kynspersky-pivovar-kynspersky-zajic-12-deg-svetly-lezak/850661",
+        "score": 1.0
+      }
+    },
     "toulavapipa::Kynšperský pivovar::Zajíc": {
       "beer": {
         "source": "toulavapipa",
@@ -11262,6 +11320,64 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-mazak-rainbow-of-death/2852216",
+        "score": 1.0
+      }
+    },
+    "toulavapipa::Mordýř::KURTIZÁNA": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Mordýř",
+        "name": "KURTIZÁNA",
+        "style": "Lehká IPA",
+        "degree_plato": null
+      },
+      "captured_at": "2026-09-08T17:10:46Z",
+      "candidates": [
+        {
+          "name": "Kurtizána",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-kurtizana/704889",
+          "rating": 3.57
+        },
+        {
+          "name": "Zelená Kurtizána",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-zelena-kurtizana/2041473",
+          "rating": 3.39
+        },
+        {
+          "name": "Mango Ale",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-mango-ale/4500799",
+          "rating": 3.5
+        },
+        {
+          "name": "Kurtizána Maracuja",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-kurtizana-maracuja/4480229",
+          "rating": 3.7
+        },
+        {
+          "name": "Kurtizána Borůvka",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-kurtizana-boruvka/5014849",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "KURTIZÁNA Mordýř",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mordyr-kurtizana/704889",
         "score": 1.0
       }
     },
@@ -13438,6 +13554,50 @@
       "outcome": {
         "matched": "/b/kynspersky-pivovar-kynspersky-zajic-12-deg-svetly-lezak/850661",
         "source": "llm"
+      }
+    },
+    "uzamastilu::Křikloun::Ležák": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Křikloun",
+        "name": "Ležák",
+        "style": "Ležák",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-09-08T17:10:50Z",
+      "candidates": [
+        {
+          "name": "Ležák 11°",
+          "brewery": "Křikloun",
+          "url": "/b/krikloun-lezak-11-deg/5439321",
+          "rating": 3.29
+        },
+        {
+          "name": "Zelená 11 ležák",
+          "brewery": "Křikloun",
+          "url": "/b/krikloun-zeleny-lezak-11/6192619",
+          "rating": 3.32
+        },
+        {
+          "name": "Vídeňský ležák 12° extra chmel",
+          "brewery": "Křikloun",
+          "url": "/b/krikloun-vidensky-lezak-12-deg-extra-chmel/2109534",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Ležák 11° Křikloun",
+          "hits": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/krikloun-lezak-11-deg/5439321",
+        "score": 1.0
       }
     },
     "uzamastilu::Loutkář::Kašpárek": {

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-08T00:09:22Z",
+  "generated_at": "2026-09-08T17:10:54Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -2982,6 +2982,16 @@
       "query_used": "Kynšperský Zajíc 11° Kynšperský",
       "description": "Kynšperský Zajíc 11° světlý ležák od Kynšperského pivovaru je středně silný ležák s mírnou sladkostí a čistým koncem, vhodný na běžné posezení i letní osvěžení."
     },
+    "toulavapipa::Kynšperský pivovar::ZAJÍC": {
+      "untappd_url": "https://untappd.com/b/kynspersky-pivovar-kynspersky-zajic-12-deg-svetly-lezak/850661",
+      "untappd_name": "Kynšperský Zajíc 12° světlý ležák",
+      "untappd_brewery": "Kynšperský pivovar",
+      "rating": 3.31,
+      "match_score": 1.0,
+      "matched_at": "2026-09-08T17:10:44Z",
+      "query_used": "ZAJÍC 12° Kynšperský",
+      "description": "Světlý ležák: sladový, mírně chmelový základ s jemnou hořkostí a středním tělem, spodně kvašený a čistý. Hodnocení podprůměrné."
+    },
     "toulavapipa::Kynšperský pivovar::Zajíc": {
       "untappd_url": "https://untappd.com/b/kynspersky-pivovar-kynspersky-zajic-11-deg-svetly-lezak/1936006",
       "untappd_name": "Kynšperský Zajíc 11° světlý ležák",
@@ -3081,6 +3091,16 @@
       "matched_at": "2026-09-07T18:10:47Z",
       "query_used": "RAINBOW OF DEATH Mazák",
       "description": "IPA s výraznou chmelovou hořkostí, citrusovým a tropickým ovocným aroma a středně plným tělem. Hodnocení na Untappd je nadprůměrné."
+    },
+    "toulavapipa::Mordýř::KURTIZÁNA": {
+      "untappd_url": "https://untappd.com/b/pivovar-mordyr-kurtizana/704889",
+      "untappd_name": "Kurtizána",
+      "untappd_brewery": "Pivovar Mordýř",
+      "rating": 3.57,
+      "match_score": 1.0,
+      "matched_at": "2026-09-08T17:10:46Z",
+      "query_used": "KURTIZÁNA Mordýř",
+      "description": "Lehká IPA od Mordýře: typicky chmelová, s mírnou hořkostí a citrusovými, květinovými tóny, lehké tělo a čistý suchý závěr. Hodnocení 3,57 je nadprůměrné."
     },
     "toulavapipa::Mordýř::Kurtizána": {
       "untappd_url": "https://untappd.com/b/pivovar-mordyr-kurtizana/704889",
@@ -3500,6 +3520,16 @@
       "matched_at": "2026-09-04T19:21:54Z",
       "query_used": "<llm>",
       "description": "Klasický český světlý ležák: plnější sladový základ s jemnou chmelovou hořkostí, střední až plnější tělo a čistá, vyvážená chuť typická pro spodně kvašená piva. Hodnocení na Untappd podprůměrné."
+    },
+    "uzamastilu::Křikloun::Ležák": {
+      "untappd_url": "https://untappd.com/b/krikloun-lezak-11-deg/5439321",
+      "untappd_name": "Ležák 11°",
+      "untappd_brewery": "Křikloun",
+      "rating": 3.29,
+      "match_score": 1.0,
+      "matched_at": "2026-09-08T17:10:50Z",
+      "query_used": "Ležák 11° Křikloun",
+      "description": "Klasický český ležák: sladový základ s jemnou chmelovou hořkostí, střední plností a čistým, vyváženým profilem typickým pro spodně kvašená piva. Podprůměrně hodnocené na Untappd."
     },
     "uzamastilu::Loutkář::Kašpárek": {
       "untappd_url": "https://untappd.com/b/pivovar-loutkar-kasparek-11-svetly-lezak/3940222",
