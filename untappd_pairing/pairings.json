@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-08T23:18:59Z",
+  "generated_at": "2026-09-09T17:06:03Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -1466,6 +1466,16 @@
       "query_used": "Hoppy Lager 11° Fenek",
       "description": "IPA styl lageru s lehkou hořkostí, citrusovým a tropickým aroma a mírně plným tělem, jemně sladkým podkladem a suchým závěrem."
     },
+    "beerstreet::Fenek::Sun & Sol": {
+      "untappd_url": "https://untappd.com/b/fenek-craft-beer-sun-and-soil-12-deg-nz-farmhouse-ale/6822355",
+      "untappd_name": "SUN & SOIL 12° NZ Farmhouse Ale",
+      "untappd_brewery": "Fenek Craft Beer",
+      "rating": 3.55,
+      "match_score": 0.8,
+      "matched_at": "2026-09-09T17:05:43Z",
+      "query_used": "Sun & Sol 12° Fenek",
+      "description": "Farmhouse ale je svrchně kvašené pivo s komplexním, často kořenitě-ovocným profilem díky specifickým kmenům kvasinek, které přinášejí tóny pomerančové kůry, bílého pepře a seno; 12° stupňovitost a 5,5 % ABV naznačují středně plné tělo a vyváženou sladovou oporu s jemnou suchostí v závěru. Název nenaznačuje konkrétní p…"
+    },
     "beerstreet::Fracek::Guamansi": {
       "untappd_url": "https://untappd.com/b/fracek-guamansi/6729422",
       "untappd_name": "GUAMANSI",
@@ -2220,6 +2230,16 @@
       "matched_at": "2026-05-22T20:41:22Z",
       "query_used": "Cruel River Pioneer"
     },
+    "beerstreet::Pioneer::Dočesná": {
+      "untappd_url": "https://untappd.com/b/pioneer-beer-docesna-2024/5961118",
+      "untappd_name": "DOČESNÁ 2024",
+      "untappd_brewery": "Pioneer Beer",
+      "rating": 3.81,
+      "match_score": 1.0,
+      "matched_at": "2026-09-09T17:05:40Z",
+      "query_used": "Dočesná Pioneer",
+      "description": "Klasický světlý ležák: sladový základ s jemnou chmelovou hořkostí, středně plné tělo a čistá, vyvážená chuť spodně kvašeného piva. Nadprůměrně hodnocené."
+    },
     "beerstreet::Pioneer::Modern Pale Ale": {
       "untappd_url": "https://untappd.com/b/pioneer-beer-citralizer-modern-12-deg/6661626",
       "untappd_name": "Citralizer Modern 12°",
@@ -2941,6 +2961,16 @@
       "matched_at": "2026-09-07T18:10:47Z",
       "query_used": "NEW ZEALAND PALE ALE Hřebec",
       "description_failed_at": "2026-09-07T18:11:19Z"
+    },
+    "toulavapipa::Hřebec::SUMMER ALE": {
+      "untappd_url": "https://untappd.com/b/pivovar-hrebec-10-deg-summer-ale/6376217",
+      "untappd_name": "10° Summer Ale",
+      "untappd_brewery": "Pivovar Hřebec",
+      "rating": 3.75,
+      "match_score": 1.0,
+      "matched_at": "2026-09-09T17:05:47Z",
+      "query_used": "SUMMER ALE Hřebec",
+      "description": "Klasický svrchně kvašený pale ale se sladovým základem, jemnou chmelovou hořkostí a středně plným tělem, typický pro letní pití. Hodnocení 3,75 naznačuje nadprůměrně přijaté pivo."
     },
     "toulavapipa::Kamenice nad Labem::Kamenická": {
       "untappd_url": "https://untappd.com/b/pivovar-kamenice-nad-lipou-kamenicka-12/2146941",
@@ -3830,6 +3860,16 @@
       "matched_at": "2026-07-23T19:06:13Z",
       "query_used": "APA 14° Trautenberk",
       "description": "Trautenberk 14 APA je středně silné pivo s 14° stupňovitostí a mírnou hořkostí, vhodné na osvěžení po práci nebo při neformální schůzce."
+    },
+    "uzamastilu::Trautenberk::Ležák": {
+      "untappd_url": "https://untappd.com/b/pivovar-trautenberk-trautenberk-tmavy-lezak/1825642",
+      "untappd_name": "Trautenberk Tmavý ležák",
+      "untappd_brewery": "Pivovar Trautenberk",
+      "rating": 3.46,
+      "match_score": 1.0,
+      "matched_at": "2026-09-09T17:05:53Z",
+      "query_used": "Ležák Trautenberk",
+      "description": "Klasický českému tmavému ležáku patří karamelové a sladové tóny s jemnou chmelovou hořkostí a plnější tělo, spodně kvašený a vyvážený v chuti."
     },
     "uzamastilu::Trilobit::Summer": {
       "untappd_url": "https://untappd.com/b/pivovar-trilobit-summer-apa-11/6822482",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-08T23:18:59Z",
+  "generated_at": "2026-09-09T17:06:03Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -5007,6 +5007,36 @@
         "score": 1.0
       }
     },
+    "beerstreet::Fenek::Sun & Sol": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Fenek",
+        "name": "Sun & Sol",
+        "style": "Farmhouse ale",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-09-09T17:05:43Z",
+      "candidates": [
+        {
+          "name": "SUN & SOIL 12° NZ Farmhouse Ale",
+          "brewery": "Fenek Craft Beer",
+          "url": "/b/fenek-craft-beer-sun-and-soil-12-deg-nz-farmhouse-ale/6822355",
+          "rating": 3.55
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Sun & Sol 12° Fenek",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/fenek-craft-beer-sun-and-soil-12-deg-nz-farmhouse-ale/6822355",
+        "score": 0.8
+      }
+    },
     "beerstreet::Fracek::Guamansi": {
       "beer": {
         "source": "beerstreet",
@@ -7806,6 +7836,54 @@
         "score": 1.0
       }
     },
+    "beerstreet::Pioneer::Dočesná": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Pioneer",
+        "name": "Dočesná",
+        "style": "Ležák světlý",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-09-09T17:05:40Z",
+      "candidates": [
+        {
+          "name": "Dočesná 2025",
+          "brewery": "Pioneer Beer",
+          "url": "/b/pioneer-beer-docesna-2025/6398428",
+          "rating": 3.66
+        },
+        {
+          "name": "DOČESNÁ 2026",
+          "brewery": "Pioneer Beer",
+          "url": "/b/pioneer-beer-docesna-2026/6844586",
+          "rating": 3.69
+        },
+        {
+          "name": "DOČESNÁ 2024",
+          "brewery": "Pioneer Beer",
+          "url": "/b/pioneer-beer-docesna-2024/5961118",
+          "rating": 3.81
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Dočesná 12° Pioneer",
+          "hits": []
+        },
+        {
+          "query": "Dočesná Pioneer",
+          "hits": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pioneer-beer-docesna-2024/5961118",
+        "score": 1.0
+      }
+    },
     "beerstreet::Pioneer::Modern Pale Ale": {
       "beer": {
         "source": "beerstreet",
@@ -10518,6 +10596,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-hrebec-11-deg-new-zealand-pale-ale/6850395",
+        "score": 1.0
+      }
+    },
+    "toulavapipa::Hřebec::SUMMER ALE": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Hřebec",
+        "name": "SUMMER ALE",
+        "style": "Pale ale",
+        "degree_plato": null
+      },
+      "captured_at": "2026-09-09T17:05:47Z",
+      "candidates": [
+        {
+          "name": "10° Summer Ale",
+          "brewery": "Pivovar Hřebec",
+          "url": "/b/pivovar-hrebec-10-deg-summer-ale/6376217",
+          "rating": 3.75
+        }
+      ],
+      "attempts": [
+        {
+          "query": "SUMMER ALE Hřebec",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-hrebec-10-deg-summer-ale/6376217",
         "score": 1.0
       }
     },
@@ -15054,6 +15162,49 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-trautenberk-trautenberk-14-apa/1446943",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Trautenberk::Ležák": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Trautenberk",
+        "name": "Ležák",
+        "style": "Ležák",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-09-09T17:05:53Z",
+      "candidates": [
+        {
+          "name": "Trautenberk Kančí Ležák 12°",
+          "brewery": "Pivovar Permon",
+          "url": "/b/pivovar-permon-trautenberk-kanci-lezak-12-deg/5846270",
+          "rating": 3.55
+        },
+        {
+          "name": "Trautenberk Tmavý ležák",
+          "brewery": "Pivovar Trautenberk",
+          "url": "/b/pivovar-trautenberk-trautenberk-tmavy-lezak/1825642",
+          "rating": 3.46
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Ležák 11° Trautenberk",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Ležák Trautenberk",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-trautenberk-trautenberk-tmavy-lezak/1825642",
         "score": 1.0
       }
     },
