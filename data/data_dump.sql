@@ -2089,6 +2089,7 @@ INSERT INTO "archive" VALUES(1598521205,'2026-09-02 07:18:43.000000','sejrik','B
 INSERT INTO "archive" VALUES(1598868914,'2026-09-04 11:39:42.000000','sejrik','Bohdaneč 13°','Pivovar Bohdaneč','Restaurace a Hotel Agnes');
 INSERT INTO "archive" VALUES(1598885806,'2026-09-04 14:01:25.000000','sejrik','Oranžový expres','Pivovar Chříč','Kemp Staré Časy');
 INSERT INTO "archive" VALUES(1599222092,'2026-09-05 11:36:57.000000','sejrik','Bohemian Lager (Světlý ležák 11)','Bernard Family Brewery','Restaurace Pod Hradem');
+INSERT INTO "archive" VALUES(1600163882,'2026-09-08 19:29:24.000000','sejrik','Tchyně / Mother In Law','Primátor','Untappd at Home');
 CREATE TABLE [pivni_valka] (
 	[id] integer PRIMARY KEY,
 	[date] text,
