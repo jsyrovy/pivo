@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-09T17:06:03Z",
+  "generated_at": "2026-09-09T20:45:56Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -2372,6 +2372,16 @@
       "matched_at": "2026-08-30T17:16:18Z",
       "query_used": "About Your Thyme Thrills",
       "description": "Farmhouse ale s kořenitým a ovocným charakterem, střední plnosti a suchým závěrem; tymián v názvu přidává bylinný, lehce pikantní tón. Střední hořkost a sladový základ vyvažují kořenitou složku."
+    },
+    "beerstreet::Thrills::House": {
+      "untappd_url": "https://untappd.com/b/pivovar-thrills-brewing-house-ipa/4866277",
+      "untappd_name": "House IPA",
+      "untappd_brewery": "Pivovar Thrills Brewing",
+      "rating": 3.76,
+      "match_score": 1.0,
+      "matched_at": "2026-09-09T20:45:54Z",
+      "query_used": "House Thrills",
+      "description": "Hazy IPA s nižší stupňovitostí a středním alkoholem nabízí jemnější sladový základ, nižší hořkost a zakalený vzhled s tropickým a ovocným chmelovým aroma, typickým pro tento styl – mírné tělo a hladký, šťavnatý charakter s dozvukem zralého ovoce. Hodnocení na Untappd 3,76 naznačuje nadprůměrné přijetí mezi pivaři."
     },
     "beerstreet::Thrills::Pomgo - pomeranč + mango + limeta": {
       "untappd_url": "https://untappd.com/b/pivovar-thrills-brewing-pomgo/6615878",

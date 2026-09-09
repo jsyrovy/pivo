@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-09T17:06:03Z",
+  "generated_at": "2026-09-09T20:45:56Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -8271,6 +8271,61 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-thrills-brewing-about-your-thyme/6681800",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Thrills::House": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Thrills",
+        "name": "House",
+        "style": "Hazy IPA",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-09-09T20:45:54Z",
+      "candidates": [
+        {
+          "name": "House IPA",
+          "brewery": "Pivovar Thrills Brewing",
+          "url": "/b/pivovar-thrills-brewing-house-ipa/4866277",
+          "rating": 3.76
+        },
+        {
+          "name": "Thrills For Pils",
+          "brewery": "Monty's Ale House",
+          "url": "/b/monty-s-ale-house-thrills-for-pils/2696480",
+          "rating": null
+        },
+        {
+          "name": "Pils & Thrills",
+          "brewery": "Pleasant House Brewing Company",
+          "url": "/b/pleasant-house-brewing-company-pils-and-thrills/786756",
+          "rating": 3.67
+        },
+        {
+          "name": "Thrill Pickle",
+          "brewery": "The Grove Brewing Co",
+          "url": "/b/the-grove-brewing-co-thrill-pickle/5298323",
+          "rating": 3.45
+        }
+      ],
+      "attempts": [
+        {
+          "query": "House 12° Thrills",
+          "hits": []
+        },
+        {
+          "query": "House Thrills",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-thrills-brewing-house-ipa/4866277",
         "score": 1.0
       }
     },
