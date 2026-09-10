@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-10T16:56:46Z",
+  "generated_at": "2026-09-10T19:31:54Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -473,6 +473,16 @@
       "matched_at": "2026-07-02T08:54:06Z",
       "query_used": "Apač Louka"
     },
+    "ambasada::Louka::Australian": {
+      "untappd_url": "https://untappd.com/b/pivovar-louka-australian-ipa-14/4194092",
+      "untappd_name": "Australian IPA 14",
+      "untappd_brewery": "Pivovar Louka",
+      "rating": 3.53,
+      "match_score": 1.0,
+      "matched_at": "2026-09-10T19:31:39Z",
+      "query_used": "Australian 14° Louka",
+      "description": "Klasická svrchně kvašená IPA s plnějším tělem díky vyšší stupňovitosti, vyvážená sladová základna a střední až vyšší hořkost s typickým chmelovým aroma citrusů a tropického ovoce. Hodnocení na Untappd je průměrné, proto není zmíněno."
+    },
     "ambasada::Louka::Fresh Breakfast": {
       "untappd_url": "https://untappd.com/b/pivovar-louka-fresh-breakfast-002/5404372",
       "untappd_name": "Fresh Breakfast #002",
@@ -938,6 +948,16 @@
       "matched_at": "2026-07-24T13:24:37Z",
       "query_used": "One Burning Sibeeria",
       "description": "One Burning je svěží Session NEIPA s mírnou hořkostí a ovocným aroma, 4,2 % alkoholu, vhodná na letní posezení u přátel nebo u sportovního zápasu."
+    },
+    "ambasada::Sibeeria, Praha::One Teacher": {
+      "untappd_url": "https://untappd.com/b/sibeeria-brewery-one-teacher/6835426",
+      "untappd_name": "One Teacher",
+      "untappd_brewery": "Sibeeria Brewery",
+      "rating": 3.91,
+      "match_score": 1.0,
+      "matched_at": "2026-09-10T19:31:37Z",
+      "query_used": "One Teacher Sibeeria",
+      "description": "Jemně zakalená New England IPA s plným tělem a nižší hořkostí, dominuje jí tropické ovoce a jemný sladový základ. Hodnocení 3,91 naznačuje nadprůměrné přijetí pivem."
     },
     "ambasada::Sibeeria, Praha::Pepperup Punch": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-pepperup-punch/6834644",
@@ -4196,6 +4216,11 @@
     "uzamastilu::Rhap-Nectaron Čestmír::Stereo Lab": {
       "attempts": 1,
       "last_tried_at": "2026-08-27T22:53:52Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "uzamastilu::Volt::Hromosvod Gose Malina": {
+      "attempts": 1,
+      "last_tried_at": "2026-09-10T19:31:45Z",
       "reason": "no_candidates_above_threshold"
     }
   }

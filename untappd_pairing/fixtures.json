@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-10T16:56:46Z",
+  "generated_at": "2026-09-10T19:31:54Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -1747,6 +1747,36 @@
         "score": 1.0
       }
     },
+    "ambasada::Louka::Australian": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Louka",
+        "name": "Australian",
+        "style": "IPA",
+        "degree_plato": 14.0
+      },
+      "captured_at": "2026-09-10T19:31:39Z",
+      "candidates": [
+        {
+          "name": "Australian IPA 14",
+          "brewery": "Pivovar Louka",
+          "url": "/b/pivovar-louka-australian-ipa-14/4194092",
+          "rating": 3.53
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Australian 14° Louka",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-louka-australian-ipa-14/4194092",
+        "score": 1.0
+      }
+    },
     "ambasada::MadCat, Kamenice::Brut IPA": {
       "beer": {
         "source": "ambasada",
@@ -3150,6 +3180,40 @@
       ],
       "outcome": {
         "matched": "/b/sibeeria-brewery-one-burning/6774633",
+        "score": 1.0
+      }
+    },
+    "ambasada::Sibeeria, Praha::One Teacher": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Sibeeria, Praha",
+        "name": "One Teacher",
+        "style": "New england IPA",
+        "degree_plato": 15.0
+      },
+      "captured_at": "2026-09-10T19:31:37Z",
+      "candidates": [
+        {
+          "name": "One Teacher",
+          "brewery": "Sibeeria Brewery",
+          "url": "/b/sibeeria-brewery-one-teacher/6835426",
+          "rating": 3.91
+        }
+      ],
+      "attempts": [
+        {
+          "query": "One Teacher 15° Sibeeria",
+          "hits": []
+        },
+        {
+          "query": "One Teacher Sibeeria",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/sibeeria-brewery-one-teacher/6835426",
         "score": 1.0
       }
     },
@@ -15508,6 +15572,39 @@
       "outcome": {
         "matched": "/b/pivovar-vik-beach-club/6822681",
         "score": 1.0
+      }
+    },
+    "uzamastilu::Volt::Hromosvod Gose Malina": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Volt",
+        "name": "Hromosvod Gose Malina",
+        "style": "",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-09-10T19:31:45Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Hromosvod Gose Malina 12° Volt",
+          "hits": []
+        },
+        {
+          "query": "Hromosvod Gose Malina Volt",
+          "hits": []
+        },
+        {
+          "query": "Hromosvod Gose Malina 12°",
+          "hits": []
+        },
+        {
+          "query": "Hromosvod Gose Malina",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "uzamastilu::Zichovec::Krahulík": {
