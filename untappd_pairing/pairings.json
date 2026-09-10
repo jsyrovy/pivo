@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-09T23:06:07Z",
+  "generated_at": "2026-09-10T16:56:46Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -19,6 +19,16 @@
       "match_score": 1.0,
       "matched_at": "2026-06-12T19:11:01Z",
       "query_used": "Moves 11° Agent"
+    },
+    "ambasada::Agent, Olešnice::Moves Exotic": {
+      "untappd_url": "https://untappd.com/b/pivovar-agent-moves-exotic/4961829",
+      "untappd_name": "Moves – Exotic",
+      "untappd_brewery": "Pivovar Agent",
+      "rating": 3.77,
+      "match_score": 1.0,
+      "matched_at": "2026-09-10T16:56:27Z",
+      "query_used": "Moves Exotic Agent",
+      "description": "Ovocně kyselé svrchně kvašené pivo s lehkým tělem a jemnou sladkostí; název Exotic naznačuje použití tropického ovoce, které přidává výrazné ovocné aroma a chuť, doplňující kyselý základ. Hodnocení 3,77 naznačuje nadprůměrné přijetí."
     },
     "ambasada::Agent, Olešnice::Moves Peach and Lychee": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-moves-peach-and-lychee/6352309",
@@ -3152,6 +3162,16 @@
       "query_used": "Kurtizána Mordýř",
       "description": "Kurtizána je typická IPA s intenzivním chmelovým aroma, citrusovými a tropickými tóny a výraznou hořkostí, doplněná středně plným tělem a suchým závěrem."
     },
+    "toulavapipa::Mordýř::LÍNÝ ČERT": {
+      "untappd_url": "https://untappd.com/b/pivovar-mordyr-liny-cert-12/557097",
+      "untappd_name": "Líný čert 12",
+      "untappd_brewery": "Pivovar Mordýř",
+      "rating": 3.43,
+      "match_score": 1.0,
+      "matched_at": "2026-09-10T16:56:34Z",
+      "query_used": "<llm>",
+      "description": "Tmavý ležák s průměrným hodnocením nabízí sladový základ s náznaky sušeného ovoce a karamelu, jemnou kořennou hořkost a středně plné tělo."
+    },
     "toulavapipa::Mordýř::Red eagle": {
       "untappd_url": "https://untappd.com/b/pivovar-mordyr-red-eagle/1625534",
       "untappd_name": "Red Eagle",
@@ -3610,6 +3630,16 @@
       "matched_at": "2026-08-21T15:38:28Z",
       "query_used": "Cryo Riwaka 12° Mazák",
       "description": "Silně chmelený APA s aromatem tropického ovoce a jemnou hořkostí, středně plné tělo a suchý závěr."
+    },
+    "uzamastilu::Mazák::Milford Sound": {
+      "untappd_url": "https://untappd.com/b/pivovar-mazak-milford-sound-15/6849698",
+      "untappd_name": "Milford Sound 15",
+      "untappd_brewery": "Pivovar Mazák",
+      "rating": 3.94,
+      "match_score": 1.0,
+      "matched_at": "2026-09-10T16:56:39Z",
+      "query_used": "Milford Sound 15° Mazák",
+      "description": "Svrchně kvašená New England IPA s výraznou plností těla a mazlavým, bavlněným charakterem, typickým pro tento styl, s jemně ovocným a tropickým aroma a nižší hořkostí. S 15° stupňovitostí přináší výraznější sladový základ a vyšší tělesnost, přičemž nadprůměrné hodnocení 3,94 nasvědčuje kvalitní konzistenci."
     },
     "uzamastilu::Mazák::Taiheke IPL": {
       "untappd_url": "https://untappd.com/b/pivovar-mazak-taiheke-ipl-11/6849701",
