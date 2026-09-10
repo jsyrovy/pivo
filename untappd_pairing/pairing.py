@@ -63,21 +63,13 @@ class UntappdPairing(BaseRobot):
         pending = store.select_pending(beers, overrides=overrides)
         logger.info("Pairing %d pending beers (rest already paired or in cooldown)", len(pending))
 
-        newly_matched: list[tap_api.TapBeer] = []
         unmatched: list[tuple[tap_api.TapBeer, str]] = []
         for beer in pending:
             reason = self._pair_one(beer, store, fixtures_store, overrides)
-            if reason is None:
-                newly_matched.append(beer)
-            else:
+            if reason is not None:
                 unmatched.append((beer, reason))
 
         self._describe_beers(beers, store)
-
-        matched: list[tuple[tap_api.TapBeer, str, str | None]] = []
-        for beer in newly_matched:
-            key = beer_key(beer.source, beer.brewery, beer.name)
-            matched.append((beer, store.get_url(key), store.get_description(key)))
 
         store.save(PAIRINGS_PATH)
         fixtures_store.save(FIXTURES_PATH)
@@ -89,8 +81,8 @@ class UntappdPairing(BaseRobot):
             len(fixtures_store.records),
         )
 
-        if matched or unmatched:
-            self._notify_run(matched, unmatched)
+        if unmatched:
+            self._notify_run(unmatched)
 
     @staticmethod
     def _describe_beers(beers: list[tap_api.TapBeer], store: PairingsStore) -> None:
@@ -107,30 +99,14 @@ class UntappdPairing(BaseRobot):
             described += 1
         logger.info("Generated descriptions for %d beers", described)
 
-    def _notify_run(
-        self,
-        matched: list[tuple[tap_api.TapBeer, str, str | None]],
-        unmatched: list[tuple[tap_api.TapBeer, str]],
-    ) -> None:
-        sections: list[str] = []
-        if matched:
-            header = f"<b>Naparováno {len(matched)} {_pluralize_pivo(len(matched))}:</b>"
-            lines = [
-                f"• {html_escape(beer.venue_short)} :: {html_escape(beer.brewery)} :: {html_escape(beer.name)}\n"
-                f'  <a href="{html_escape(url, quote=True)}">{html_escape(url)}</a>'
-                + (f"\n  <i>{html_escape(description)}</i>" if description else "")
-                for beer, url, description in matched
-            ]
-            sections.append(header + "\n" + "\n".join(lines))
-        if unmatched:
-            header = f"<b>Nepodařilo se naparovat {len(unmatched)} {_pluralize_pivo(len(unmatched))}:</b>"
-            lines = [
-                f"• {html_escape(beer.venue_short)} :: {html_escape(beer.brewery)}"
-                f" :: {html_escape(beer.name)} <i>({html_escape(reason)})</i>"
-                for beer, reason in unmatched
-            ]
-            sections.append(header + "\n" + "\n".join(lines))
-        message = "\n\n".join(sections)
+    def _notify_run(self, unmatched: list[tuple[tap_api.TapBeer, str]]) -> None:
+        header = f"<b>Nepodařilo se naparovat {len(unmatched)} {_pluralize_pivo(len(unmatched))}:</b>"
+        lines = [
+            f"• {html_escape(beer.venue_short)} :: {html_escape(beer.brewery)}"
+            f" :: {html_escape(beer.name)} <i>({html_escape(reason)})</i>"
+            for beer, reason in unmatched
+        ]
+        message = header + "\n" + "\n".join(lines)
 
         if self._args.notificationless:
             logger.info(message)

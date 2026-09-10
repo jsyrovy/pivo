@@ -273,7 +273,7 @@ def test_pairing_sends_pushover_notification_when_beer_unmatched(tmp_path, monke
     assert "1 pivo" in message
 
 
-def test_pairing_sends_pushover_notification_when_beer_matched(tmp_path, monkeypatch, mock_pushover):
+def test_pairing_skips_pushover_when_beer_matched(tmp_path, monkeypatch, mock_pushover):
     pairings_path = tmp_path / "pairings.json"
     monkeypatch.setattr(pairing, "PAIRINGS_PATH", pairings_path)
 
@@ -292,38 +292,7 @@ def test_pairing_sends_pushover_notification_when_beer_matched(tmp_path, monkeyp
     ):
         UntappdPairing(args=Args()).run()
 
-    mock_pushover.assert_called_once()
-    message = mock_pushover.call_args.args[0]
-    assert mock_pushover.call_args.kwargs.get("html") is True
-    assert "<b>Naparováno 1 pivo:</b>" in message
-    assert 'href="https://untappd.com/b/wild-creatures-tears/1"' in message
-    assert ">https://untappd.com/b/wild-creatures-tears/1</a>" in message
-    assert "BS :: Wild Creatures :: Tears of St Laurent (2020)\n" in message
-    assert "Tears of St Laurent" in message
-
-
-def test_pairing_pushover_message_includes_ai_description(tmp_path, monkeypatch, mock_pushover, mock_describe):
-    pairings_path = tmp_path / "pairings.json"
-    monkeypatch.setattr(pairing, "PAIRINGS_PATH", pairings_path)
-
-    mock_describe.return_value = "Svěží americká IPA s výraznou hořkostí."
-    beer = _beer("Tears of St Laurent (2020)", "Wild Creatures")
-    candidates = [
-        _candidate(
-            "Tears of St Laurent (2020)",
-            brewery="Wild Creatures",
-            url="https://untappd.com/b/wild-creatures-tears/1",
-        ),
-    ]
-
-    with (
-        mock.patch.object(pairing.tap_api, "fetch_all_beers", return_value=[beer]),
-        mock.patch.object(pairing.untappd_search, "search_beer", return_value=candidates),
-    ):
-        UntappdPairing(args=Args()).run()
-
-    message = mock_pushover.call_args.args[0]
-    assert "<i>Svěží americká IPA s výraznou hořkostí.</i>" in message
+    mock_pushover.assert_not_called()
 
 
 def test_pairing_skips_pushover_when_nothing_pending(tmp_path, monkeypatch, mock_pushover):
@@ -349,11 +318,10 @@ def test_pairing_escapes_html_special_chars_in_beer_names(tmp_path, monkeypatch,
     monkeypatch.setattr(pairing, "PAIRINGS_PATH", pairings_path)
 
     beer = _beer("Urban IPA", brewery="Maisel & Friends")
-    candidates = [_candidate("Urban IPA", brewery="Maisel & Friends", url="https://untappd.com/b/maisel/1")]
 
     with (
         mock.patch.object(pairing.tap_api, "fetch_all_beers", return_value=[beer]),
-        mock.patch.object(pairing.untappd_search, "search_beer", return_value=candidates),
+        mock.patch.object(pairing.untappd_search, "search_beer", return_value=[]),
     ):
         UntappdPairing(args=Args()).run()
 
@@ -362,7 +330,7 @@ def test_pairing_escapes_html_special_chars_in_beer_names(tmp_path, monkeypatch,
     assert "Maisel & Friends" not in message
 
 
-def test_pairing_pushover_message_includes_both_matched_and_unmatched(tmp_path, monkeypatch, mock_pushover):
+def test_pairing_pushover_message_lists_only_unmatched(tmp_path, monkeypatch, mock_pushover):
     pairings_path = tmp_path / "pairings.json"
     monkeypatch.setattr(pairing, "PAIRINGS_PATH", pairings_path)
 
@@ -381,11 +349,11 @@ def test_pairing_pushover_message_includes_both_matched_and_unmatched(tmp_path, 
         UntappdPairing(args=Args()).run()
 
     message = mock_pushover.call_args.args[0]
-    assert "<b>Naparováno 1 pivo:</b>" in message
     assert "<b>Nepodařilo se naparovat 1 pivo:</b>" in message
-    assert "Tears of St Laurent" in message
     assert "Mystery Brew" in message
     assert "<i>(no_candidates_above_threshold)</i>" in message
+    assert "Tears of St Laurent" not in message
+    assert "Naparováno" not in message
 
 
 def test_pairing_notificationless_logs_instead_of_pushing(tmp_path, monkeypatch, mock_pushover, caplog):
