@@ -17,7 +17,8 @@ dependencies = [
 profile = "jinja"
 indent = 4
 max_line_length = 120
-ignore = "H030,H031,J018"
+# H021: the tile background is a per-user colour from the template context, so it has to be inline.
+ignore = "H021,H030,H031,J018"
 
 [tool.coverage.report]
 # The entry-point guard only runs when the module is executed as a script, never under pytest.
