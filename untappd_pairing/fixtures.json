@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-10T19:31:54Z",
+  "generated_at": "2026-09-10T22:23:01Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -15435,6 +15435,50 @@
         "score": 1.0
       }
     },
+    "uzamastilu::Trilobit::Ležák": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Trilobit",
+        "name": "Ležák",
+        "style": "Ležák",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-09-10T22:22:56Z",
+      "candidates": [
+        {
+          "name": "Ležák Trilobit",
+          "brewery": "Pivovar Trilobit",
+          "url": "/b/pivovar-trilobit-lezak-trilobit/2056438",
+          "rating": 3.51
+        },
+        {
+          "name": "Svatováclavský ležák 12",
+          "brewery": "Pivovar Trilobit",
+          "url": "/b/pivovar-trilobit-svatovaclavsky-lezak-12/2339332",
+          "rating": 3.24
+        },
+        {
+          "name": "Vídeňský ležák 12",
+          "brewery": "Pivovar Trilobit",
+          "url": "/b/pivovar-trilobit-vidensky-lezak-12/2928072",
+          "rating": 3.35
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Ležák 12° Trilobit",
+          "hits": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-trilobit-vidensky-lezak-12/2928072",
+        "score": 1.0
+      }
+    },
     "uzamastilu::Trilobit::Summer": {
       "beer": {
         "source": "uzamastilu",
@@ -15641,6 +15685,43 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-zichovec-krahulik-11/2483912",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Zlatá Kráva::Farm": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Zlatá Kráva",
+        "name": "Farm",
+        "style": "APA",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-09-10T22:22:48Z",
+      "candidates": [
+        {
+          "name": "11 Farm APA",
+          "brewery": "Zlatá kráva",
+          "url": "/b/zlata-krava-11-farm-apa/2984687",
+          "rating": 3.53
+        },
+        {
+          "name": "11 Farm APA + Mango",
+          "brewery": "Zlatá kráva",
+          "url": "/b/zlata-krava-11-farm-apa-mango/5606775",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Farm 11° Zlatá Kráva",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/zlata-krava-11-farm-apa/2984687",
         "score": 1.0
       }
     },

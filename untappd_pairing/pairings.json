@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-10T19:31:54Z",
+  "generated_at": "2026-09-10T22:23:01Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -3931,6 +3931,16 @@
       "query_used": "Ležák Trautenberk",
       "description": "Klasický českému tmavému ležáku patří karamelové a sladové tóny s jemnou chmelovou hořkostí a plnější tělo, spodně kvašený a vyvážený v chuti."
     },
+    "uzamastilu::Trilobit::Ležák": {
+      "untappd_url": "https://untappd.com/b/pivovar-trilobit-vidensky-lezak-12/2928072",
+      "untappd_name": "Vídeňský ležák 12",
+      "untappd_brewery": "Pivovar Trilobit",
+      "rating": 3.35,
+      "match_score": 1.0,
+      "matched_at": "2026-09-10T22:22:56Z",
+      "query_used": "Ležák 12° Trilobit",
+      "description": "Klasický vídeňský ležák: sladový základ s jemnou karamelovou sladostí, střední hořkost a plnější tělo, spodně kvašený a vyvážený v chuti."
+    },
     "uzamastilu::Trilobit::Summer": {
       "untappd_url": "https://untappd.com/b/pivovar-trilobit-summer-apa-11/6822482",
       "untappd_name": "Summer APA 11",
@@ -3980,6 +3990,16 @@
       "matched_at": "2026-08-23T16:31:51Z",
       "query_used": "Krahulík 11° Zichovec",
       "description": "Ležák s mírnou sladkostí a jemnou chmelovou hořkostí, středně plné tělo, čistá kvasná profilace, podprůměrně hodnocený."
+    },
+    "uzamastilu::Zlatá Kráva::Farm": {
+      "untappd_url": "https://untappd.com/b/zlata-krava-11-farm-apa/2984687",
+      "untappd_name": "11 Farm APA",
+      "untappd_brewery": "Zlatá kráva",
+      "rating": 3.53,
+      "match_score": 1.0,
+      "matched_at": "2026-09-10T22:22:48Z",
+      "query_used": "Farm 11° Zlatá Kráva",
+      "description": "Klasická americká pale ale se sladovým základem, střední hořkostí a citrusovo-květinovým chmelovým aroma, středně plné tělo a vyvážený profil. Hodnocení na Untappd je průměrné."
     },
     "uzamastilu::Záhora::New Zealand": {
       "untappd_url": "https://untappd.com/b/pivovar-zahora-new-zeland-hazy-ipa/6817258",
