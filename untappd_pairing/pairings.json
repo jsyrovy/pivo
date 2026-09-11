@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-11T16:57:56Z",
+  "generated_at": "2026-09-11T19:34:05Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -762,6 +762,16 @@
       "match_score": 1.0,
       "matched_at": "2026-07-02T08:54:01Z",
       "query_used": "Konspirátor Ovipistán"
+    },
+    "ambasada::Ovipistán, Ledce::Vyslanec": {
+      "untappd_url": "https://untappd.com/b/pivovar-ovipistan-vyslanec/3857740",
+      "untappd_name": "Vyslanec",
+      "untappd_brewery": "Pivovar Ovipistán",
+      "rating": 3.38,
+      "match_score": 1.0,
+      "matched_at": "2026-09-11T19:33:59Z",
+      "query_used": "Vyslanec Ovipistán",
+      "description": "Klasická americká pale ale se sladovým základem, střední hořkostí a citrusovo-pryskyřičným chmelovým aroma, středně plné tělo a vyvážený profil. Hodnocení na Untappd podprůměrné."
     },
     "ambasada::Pivečka, Rousínov::Cherry & Hibiscus": {
       "untappd_url": "https://untappd.com/b/pivovar-pivecka-sour-cherry-and-hibiscus/4987929",
@@ -3520,6 +3530,16 @@
       "matched_at": "2026-07-24T13:25:03Z",
       "query_used": "Hex Clock",
       "description": "HEX od Pivovaru Clock je moderní pale ale s mírnou hořkostí a ovocným aroma, který osvěží při letním posezení nebo u neformálního setkání s přáteli. S vyváženou silou a lehkou pitelností se hodí na odpolední relaxaci."
+    },
+    "uzamastilu::Cobolis::Praotec": {
+      "untappd_url": "https://untappd.com/b/cobolis-praotec-lezak-12/2709544",
+      "untappd_name": "Praotec ležák 12",
+      "untappd_brewery": "Cobolis",
+      "rating": 3.52,
+      "match_score": 1.0,
+      "matched_at": "2026-09-11T19:34:03Z",
+      "query_used": "Praotec 12° Cobolis",
+      "description": "Klasický český ležák: plnější sladový základ s jemnou chmelovou hořkostí, střední tělo a čistý, vyvážený charakter spodního kvašení. Hodnocení 3,52 naznačuje solidní, průměrně přijaté pivo bez výrazných odchylek."
     },
     "uzamastilu::Dalešice::Hořká 12": {
       "untappd_url": "https://untappd.com/b/akciovy-pivovar-dalesice-horka-12/4071489",

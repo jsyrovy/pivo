@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-11T16:57:56Z",
+  "generated_at": "2026-09-11T19:34:05Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -2639,6 +2639,47 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-ovipistan-konspirator/5369782",
+        "score": 1.0
+      }
+    },
+    "ambasada::Ovipistán, Ledce::Vyslanec": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Ovipistán, Ledce",
+        "name": "Vyslanec",
+        "style": "APA",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-09-11T19:33:59Z",
+      "candidates": [
+        {
+          "name": "Vyslanec",
+          "brewery": "Pivovar Ovipistán",
+          "url": "/b/pivovar-ovipistan-vyslanec/3857740",
+          "rating": 3.38
+        },
+        {
+          "name": "Vyslanec Republiky Mango",
+          "brewery": "Pivovar Ovipistán",
+          "url": "/b/pivovar-ovipistan-vyslanec-republiky-mango/6848068",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Vyslanec 12° Ovipistán",
+          "hits": []
+        },
+        {
+          "query": "Vyslanec Ovipistán",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-ovipistan-vyslanec/3857740",
         "score": 1.0
       }
     },
@@ -13213,6 +13254,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-clock-hex/6717949",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Cobolis::Praotec": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Cobolis",
+        "name": "Praotec",
+        "style": "Ležák",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-09-11T19:34:03Z",
+      "candidates": [
+        {
+          "name": "Praotec ležák 12",
+          "brewery": "Cobolis",
+          "url": "/b/cobolis-praotec-lezak-12/2709544",
+          "rating": 3.52
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Praotec 12° Cobolis",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/cobolis-praotec-lezak-12/2709544",
         "score": 1.0
       }
     },
