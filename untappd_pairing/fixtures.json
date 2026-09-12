@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-11T22:22:35Z",
+  "generated_at": "2026-09-12T16:08:07Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -8300,6 +8300,36 @@
       ],
       "outcome": {
         "matched": "/b/stadioner-indianhead-12-deg/6704326",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Stern::Svratecká": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Stern",
+        "name": "Svratecká",
+        "style": "Ležák světlý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-09-12T16:08:04Z",
+      "candidates": [
+        {
+          "name": "Svratecká 11",
+          "brewery": "Pivovar Stern",
+          "url": "/b/pivovar-stern-svratecka-11/4804238",
+          "rating": 3.47
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Svratecká 11° Stern",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-stern-svratecka-11/4804238",
         "score": 1.0
       }
     },

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-11T22:22:35Z",
+  "generated_at": "2026-09-12T16:08:07Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -2366,6 +2366,16 @@
       "matched_at": "2026-08-19T16:36:42Z",
       "query_used": "Indianhead 11° Stadioner",
       "description": "NEIPA s ovocným a aromatickým profilem, měkkou hořkostí a plným tělem, doplněná jemnou sladkostí sladu a lehkým alkoholem, který přináší sílu a vyváženou plnost. Hodnocení na Untappd je nadprůměrné."
+    },
+    "beerstreet::Stern::Svratecká": {
+      "untappd_url": "https://untappd.com/b/pivovar-stern-svratecka-11/4804238",
+      "untappd_name": "Svratecká 11",
+      "untappd_brewery": "Pivovar Stern",
+      "rating": 3.47,
+      "match_score": 1.0,
+      "matched_at": "2026-09-12T16:08:04Z",
+      "query_used": "Svratecká 11° Stern",
+      "description": "Klasický světlý ležák: sladový základ, jemná chmelová hořkost a lehčí tělo, spodně kvašený a čistý v chuti."
     },
     "beerstreet::TAMTAM::Raise your horns": {
       "untappd_url": "https://untappd.com/b/tamtam-brewing-co-raise-your-horns/6694650",
