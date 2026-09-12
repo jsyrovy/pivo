@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-12T16:08:07Z",
+  "generated_at": "2026-09-12T19:05:27Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -8236,6 +8236,68 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-raven-citravaganza/4979026",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Raven::Raspberry": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Raven",
+        "name": "Raspberry",
+        "style": "Sour",
+        "degree_plato": 9.0
+      },
+      "captured_at": "2026-09-12T19:05:24Z",
+      "candidates": [
+        {
+          "name": "The Raven",
+          "brewery": "Fat Orange Cat Brew Co.",
+          "url": "/b/fat-orange-cat-brew-co-the-raven/2792973",
+          "rating": 3.49
+        },
+        {
+          "name": "Raspberry",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-raspberry/2621727",
+          "rating": 3.72
+        },
+        {
+          "name": "Raspberry Raven's Roost",
+          "brewery": "Parkway Brewing Company",
+          "url": "/b/parkway-brewing-company-raspberry-raven-s-roost/2477297",
+          "rating": 3.81
+        },
+        {
+          "name": "Raspberry Lemonade Creamsicle",
+          "brewery": "3 Ravens Brewery",
+          "url": "/b/3-ravens-brewery-raspberry-lemonade-creamsicle/3944261",
+          "rating": 3.7
+        },
+        {
+          "name": "Raspberry Fields Forever",
+          "brewery": "Ravens Brewing Company",
+          "url": "/b/ravens-brewing-company-raspberry-fields-forever/1179062",
+          "rating": 3.63
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Raspberry 9° Raven",
+          "hits": []
+        },
+        {
+          "query": "Raspberry Raven",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-raven-raspberry/2621727",
         "score": 1.0
       }
     },
