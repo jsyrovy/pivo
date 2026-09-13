@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-13T19:14:53Z",
+  "generated_at": "2026-09-13T22:15:44Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -14294,6 +14294,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-mazak-milford-sound-15/6849698",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Mazák::Rhapsody": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Mazák",
+        "name": "Rhapsody",
+        "style": "Modern IPA",
+        "degree_plato": 14.0
+      },
+      "captured_at": "2026-09-13T22:15:42Z",
+      "candidates": [
+        {
+          "name": "Rhapsody Modern IPA 14",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-rhapsody-modern-ipa-14/6856690",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Rhapsody 14° Mazák",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mazak-rhapsody-modern-ipa-14/6856690",
         "score": 1.0
       }
     },

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-13T19:14:53Z",
+  "generated_at": "2026-09-13T22:15:44Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -3700,6 +3700,16 @@
       "matched_at": "2026-09-10T16:56:39Z",
       "query_used": "Milford Sound 15° Mazák",
       "description": "Svrchně kvašená New England IPA s výraznou plností těla a mazlavým, bavlněným charakterem, typickým pro tento styl, s jemně ovocným a tropickým aroma a nižší hořkostí. S 15° stupňovitostí přináší výraznější sladový základ a vyšší tělesnost, přičemž nadprůměrné hodnocení 3,94 nasvědčuje kvalitní konzistenci."
+    },
+    "uzamastilu::Mazák::Rhapsody": {
+      "untappd_url": "https://untappd.com/b/pivovar-mazak-rhapsody-modern-ipa-14/6856690",
+      "untappd_name": "Rhapsody Modern IPA 14",
+      "untappd_brewery": "Pivovar Mazák",
+      "rating": null,
+      "match_score": 1.0,
+      "matched_at": "2026-09-13T22:15:42Z",
+      "query_used": "Rhapsody 14° Mazák",
+      "description": "Moderní IPA s vyšší stupňovitostí nabízí intenzivní chmelové aroma s tóny tropického ovoce, citrusů a pryskyřice, podpořené sladovým základem střední až plnější těla. Hořkost je patrná, vyvážená sladovou složkou, typická pro moderní pojetí stylu."
     },
     "uzamastilu::Mazák::Taiheke IPL": {
       "untappd_url": "https://untappd.com/b/pivovar-mazak-taiheke-ipl-11/6849701",
