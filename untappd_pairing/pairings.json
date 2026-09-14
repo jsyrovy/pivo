@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-13T22:15:44Z",
+  "generated_at": "2026-09-14T18:28:28Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -3062,6 +3062,16 @@
       "query_used": "Canbera Klín",
       "description": "12 Canbeera od Pivovaru Klín je klasický český ležák s průměrnou až plnou tělesností, mírně hořkým profilem a příjemným koncem, který ocení milovníci pilsnerů a hodí se na běžné posezení i letní osvěžení, s hodnocením 3.6 na Untappd."
     },
+    "toulavapipa::Krkonošský Medvěd::HOPBIT": {
+      "untappd_url": "https://untappd.com/b/krkonossky-medved-hopbit-13/1161272",
+      "untappd_name": "HopBit 13",
+      "untappd_brewery": "Krkonošský medvěd",
+      "rating": 3.58,
+      "match_score": 1.0,
+      "matched_at": "2026-09-14T18:27:54Z",
+      "query_used": "HOPBIT Krkonošský Medvěd",
+      "description": "IPL kombinuje chmelovou aromatičnost a hořkost typickou pro IPA s čistým, lehce sladovým tělem spodně kvašeného ležáku. Očekávejte střední až vyšší hořkost, citrusové a pryskyřičné tóny v aroma a suchý, osvěžující závěr."
+    },
     "toulavapipa::Kynšperk nad Ohří::Zajíc": {
       "untappd_url": "https://untappd.com/b/kynspersky-pivovar-kynspersky-zajic-11-deg-svetly-lezak/1936006",
       "untappd_name": "Kynšperský Zajíc 11° světlý ležák",
@@ -3182,6 +3192,16 @@
       "query_used": "Jiskra Madcat",
       "description": "Jiskra je typické sessionní IPA s lehkým tělem a mírnou hořkostí, doplněná citrusovým a tropickým aroma, které přináší svěží chmelové tóny. Pivo má střední plnost a je vhodné pro časté konzumování. POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE P…"
     },
+    "toulavapipa::Madcat::MANGO PIÑA COCO sourus": {
+      "untappd_url": "https://untappd.com/b/madcat-mango-pina-coco/2990679",
+      "untappd_name": "Mango-Piña-Coco",
+      "untappd_brewery": "MadCat",
+      "rating": 3.8,
+      "match_score": 1.0,
+      "matched_at": "2026-09-14T18:28:02Z",
+      "query_used": "MANGO PIÑA COCO sourus Madcat",
+      "description": "Kyselé svrchně kvašené pivo s ovocným charakterem manga, ananasu a kokosu, které přidává sladší tropický tón a změkčuje kyselost. Sour ale s výraznou ovocností a osvěžujícím závěrem."
+    },
     "toulavapipa::Mazák::RAINBOW OF DEATH": {
       "untappd_url": "https://untappd.com/b/pivovar-mazak-rainbow-of-death/2852216",
       "untappd_name": "Rainbow of Death",
@@ -3191,6 +3211,16 @@
       "matched_at": "2026-09-07T18:10:47Z",
       "query_used": "RAINBOW OF DEATH Mazák",
       "description": "IPA s výraznou chmelovou hořkostí, citrusovým a tropickým ovocným aroma a středně plným tělem. Hodnocení na Untappd je nadprůměrné."
+    },
+    "toulavapipa::Mordýř::JEŽIBABA": {
+      "untappd_url": "https://untappd.com/b/pivovar-mordyr-jezibaba/2811246",
+      "untappd_name": "Ježibaba",
+      "untappd_brewery": "Pivovar Mordýř",
+      "rating": 3.54,
+      "match_score": 1.0,
+      "matched_at": "2026-09-14T18:27:58Z",
+      "query_used": "JEŽIBABA Mordýř",
+      "description": "NEIPA je typicky silně chmelená piva s výraznou hořkostí, citrusovou a pryskyřičnou aromatikou a masitým tělem. Stupňovitost i alkohol neznámé, takže přes plnost a sílu nelze soudit."
     },
     "toulavapipa::Mordýř::KURTIZÁNA": {
       "untappd_url": "https://untappd.com/b/pivovar-mordyr-kurtizana/704889",
@@ -3231,6 +3261,16 @@
       "matched_at": "2026-08-22T13:35:41Z",
       "query_used": "Red eagle Mordýř",
       "description": "Red Eagle, 3.51 / 5 -> Ovocné aroma s tóny grapefruitu a tropického ovoce doplněné mírnou karamelovou sladkostí, střední hořkost a lehké tělo charakteristické pro moderní American Pale Ale."
+    },
+    "toulavapipa::Mordýř::SVATOVÁCLAVSKÝ LEŽÁK": {
+      "untappd_url": "https://untappd.com/b/pivovar-mordyr-svatovaclavsky-lezak-2023-blues-hop/5544071",
+      "untappd_name": "Svatováclavský Ležák 2023 (blues Hop)",
+      "untappd_brewery": "Pivovar Mordýř",
+      "rating": null,
+      "match_score": 1.0,
+      "matched_at": "2026-09-14T18:27:50Z",
+      "query_used": "SVATOVÁCLAVSKÝ LEŽÁK Mordýř",
+      "description": "Světlý ležák s žitem: sladový základ s jemnou chmelovou hořkostí, doplněný o obilnou plnost a lehce kořenitý charakter ze žita, spodně kvašený a vyvážený v chuti. Blues Hop přidává jemné květinové a bylinné tóny s nádechem tmavého ovoce."
     },
     "toulavapipa::Mordýř::kurtizána": {
       "untappd_url": "https://untappd.com/b/pivovar-mordyr-kurtizana/704889",
@@ -3481,6 +3521,16 @@
       "matched_at": "2026-09-07T18:11:16Z",
       "query_used": "NECTAR OF HAPPINESS Zichovec",
       "description": "Ovocně chmelená New England IPA s jemným zákalem, nízkou hořkostí a bohatým aroma tropického ovoce a citrusů; pomeranč v názvu naznačuje výraznější citrusový profil, který doplňuje sladové tělo a jemnou krémovost. Nadprůměrně hodnocené."
+    },
+    "toulavapipa::Zichovec::ROBIN": {
+      "untappd_url": "https://untappd.com/b/pivovar-zichovec-robin-12/2642145",
+      "untappd_name": "Robin 12",
+      "untappd_brewery": "Pivovar ZICHOVEC",
+      "rating": 3.62,
+      "match_score": 1.0,
+      "matched_at": "2026-09-14T18:27:56Z",
+      "query_used": "ROBIN Zichovec",
+      "description": "APA s typickou chmelovou hořkostí a citrusovým, květovým aroma, střední plností a hladkým závěrem. Mírně podprůměrné hodnocení."
     },
     "toulavapipa::Zichovec::Robin na grepu": {
       "untappd_url": "https://untappd.com/b/pivovar-zichovec-robin-na-grepu-12/5411257",
@@ -3870,6 +3920,16 @@
       "matched_at": "2026-08-29T17:03:21Z",
       "query_used": "Dočesná 2026 Pioneer Beer",
       "description": "Klasický český ležák: plnější sladový základ s jemnou chmelovou hořkostí, středně plné tělo a čistý, vyvážený charakter spodního kvašení."
+    },
+    "uzamastilu::Pioneer Beer::Malina-Ostružina": {
+      "untappd_url": "https://untappd.com/b/pioneer-beer-sour-pop-3-malina-and-ostruzina/6837804",
+      "untappd_name": "Sour Pop #3 MALINA & OSTRUŽINA",
+      "untappd_brewery": "Pioneer Beer",
+      "rating": 3.72,
+      "match_score": 1.0,
+      "matched_at": "2026-09-14T18:28:13Z",
+      "query_used": "Malina-Ostružina Pioneer Beer",
+      "description": "Kyselé svrchně kvašené pivo s výraznou ovocnou kyselinkou a lehkým tělem; malina a ostružina přidávají sladkokyselé bobulové tóny, které doplňují přirozenou kyselost. Stupňovitost 12° naznačuje střední plnost a jemnou sladovou oporu."
     },
     "uzamastilu::Pioneer Beer::Summer Citra+Motueka": {
       "untappd_url": "https://untappd.com/b/pioneer-beer-summer-citra-motueka/6818184",
@@ -4286,6 +4346,11 @@
     "uzamastilu::Rhap-Nectaron Čestmír::Stereo Lab": {
       "attempts": 1,
       "last_tried_at": "2026-08-27T22:53:52Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "uzamastilu::Thrills::Samosebou W.Coast": {
+      "attempts": 1,
+      "last_tried_at": "2026-09-14T18:28:07Z",
       "reason": "no_candidates_above_threshold"
     },
     "uzamastilu::Volt::Hromosvod Gose Malina": {

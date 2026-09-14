@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-13T22:15:44Z",
+  "generated_at": "2026-09-14T18:28:28Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -11058,6 +11058,36 @@
         "score": 1.0
       }
     },
+    "toulavapipa::Krkonošský Medvěd::HOPBIT": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Krkonošský Medvěd",
+        "name": "HOPBIT",
+        "style": "IPL",
+        "degree_plato": null
+      },
+      "captured_at": "2026-09-14T18:27:54Z",
+      "candidates": [
+        {
+          "name": "HopBit 13",
+          "brewery": "Krkonošský medvěd",
+          "url": "/b/krkonossky-medved-hopbit-13/1161272",
+          "rating": 3.58
+        }
+      ],
+      "attempts": [
+        {
+          "query": "HOPBIT Krkonošský Medvěd",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/krkonossky-medved-hopbit-13/1161272",
+        "score": 1.0
+      }
+    },
     "toulavapipa::Kynšperk nad Ohří::Zajíc": {
       "beer": {
         "source": "toulavapipa",
@@ -11687,6 +11717,36 @@
         "score": 1.0
       }
     },
+    "toulavapipa::Madcat::MANGO PIÑA COCO sourus": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Madcat",
+        "name": "MANGO PIÑA COCO sourus",
+        "style": "Sour ale",
+        "degree_plato": null
+      },
+      "captured_at": "2026-09-14T18:28:02Z",
+      "candidates": [
+        {
+          "name": "Mango-Piña-Coco",
+          "brewery": "MadCat",
+          "url": "/b/madcat-mango-pina-coco/2990679",
+          "rating": 3.8
+        }
+      ],
+      "attempts": [
+        {
+          "query": "MANGO PIÑA COCO sourus Madcat",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/madcat-mango-pina-coco/2990679",
+        "score": 1.0
+      }
+    },
     "toulavapipa::Mazák::RAINBOW OF DEATH": {
       "beer": {
         "source": "toulavapipa",
@@ -11714,6 +11774,43 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-mazak-rainbow-of-death/2852216",
+        "score": 1.0
+      }
+    },
+    "toulavapipa::Mordýř::JEŽIBABA": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Mordýř",
+        "name": "JEŽIBABA",
+        "style": "NEIPA",
+        "degree_plato": null
+      },
+      "captured_at": "2026-09-14T18:27:58Z",
+      "candidates": [
+        {
+          "name": "Ježibaba",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-jezibaba/2811246",
+          "rating": 3.54
+        },
+        {
+          "name": "Zelená Ježibaba",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-zelena-jezibaba/6230913",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "JEŽIBABA Mordýř",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mordyr-jezibaba/2811246",
         "score": 1.0
       }
     },
@@ -11904,6 +12001,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-mordyr-red-eagle/1625534",
+        "score": 1.0
+      }
+    },
+    "toulavapipa::Mordýř::SVATOVÁCLAVSKÝ LEŽÁK": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Mordýř",
+        "name": "SVATOVÁCLAVSKÝ LEŽÁK",
+        "style": "Světlý ležák s žitem",
+        "degree_plato": null
+      },
+      "captured_at": "2026-09-14T18:27:50Z",
+      "candidates": [
+        {
+          "name": "Svatováclavský Ležák 2023 (blues Hop)",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-svatovaclavsky-lezak-2023-blues-hop/5544071",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "SVATOVÁCLAVSKÝ LEŽÁK Mordýř",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mordyr-svatovaclavsky-lezak-2023-blues-hop/5544071",
         "score": 1.0
       }
     },
@@ -12900,6 +13027,57 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-zichovec-nectar-of-happiness-oranzova/6160051",
+        "score": 1.0
+      }
+    },
+    "toulavapipa::Zichovec::ROBIN": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Zichovec",
+        "name": "ROBIN",
+        "style": "APA",
+        "degree_plato": null
+      },
+      "captured_at": "2026-09-14T18:27:56Z",
+      "candidates": [
+        {
+          "name": "Robin 12",
+          "brewery": "Pivovar ZICHOVEC",
+          "url": "/b/pivovar-zichovec-robin-12/2642145",
+          "rating": 3.62
+        },
+        {
+          "name": "Robin na Grepu 12",
+          "brewery": "Pivovar ZICHOVEC",
+          "url": "/b/pivovar-zichovec-robin-na-grepu-12/5411257",
+          "rating": 3.7
+        },
+        {
+          "name": "Hazy Robin 12",
+          "brewery": "Pivovar ZICHOVEC",
+          "url": "/b/pivovar-zichovec-hazy-robin-12/6517568",
+          "rating": 3.79
+        },
+        {
+          "name": "Fresh Hop 2017 – Harmonie & Rubín Edition",
+          "brewery": "Rodinný pivovar Zichovec",
+          "url": "/b/rodinny-pivovar-zichovec-fresh-hop-2017-harmonie-and-rubin-edition/2332560",
+          "rating": 3.7
+        }
+      ],
+      "attempts": [
+        {
+          "query": "ROBIN Zichovec",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-zichovec-robin-12/2642145",
         "score": 1.0
       }
     },
@@ -15085,6 +15263,40 @@
         "score": 1.0
       }
     },
+    "uzamastilu::Pioneer Beer::Malina-Ostružina": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Pioneer Beer",
+        "name": "Malina-Ostružina",
+        "style": "Sour",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-09-14T18:28:13Z",
+      "candidates": [
+        {
+          "name": "Sour Pop #3 MALINA & OSTRUŽINA",
+          "brewery": "Pioneer Beer",
+          "url": "/b/pioneer-beer-sour-pop-3-malina-and-ostruzina/6837804",
+          "rating": 3.72
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Malina-Ostružina 12° Pioneer Beer",
+          "hits": []
+        },
+        {
+          "query": "Malina-Ostružina Pioneer Beer",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pioneer-beer-sour-pop-3-malina-and-ostruzina/6837804",
+        "score": 1.0
+      }
+    },
     "uzamastilu::Pioneer Beer::Summer Citra+Motueka": {
       "beer": {
         "source": "uzamastilu",
@@ -15553,6 +15765,39 @@
       "outcome": {
         "matched": "/b/madcat-cherry-n-apricot/6820586",
         "source": "llm"
+      }
+    },
+    "uzamastilu::Thrills::Samosebou W.Coast": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Thrills",
+        "name": "Samosebou W.Coast",
+        "style": "IPA",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-09-14T18:28:07Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Samosebou W.Coast 12° Thrills",
+          "hits": []
+        },
+        {
+          "query": "Samosebou W.Coast Thrills",
+          "hits": []
+        },
+        {
+          "query": "Samosebou W.Coast 12°",
+          "hits": []
+        },
+        {
+          "query": "Samosebou W.Coast",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "uzamastilu::Trautenberk::APA": {
