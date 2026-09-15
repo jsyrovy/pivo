@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-14T22:22:22Z",
+  "generated_at": "2026-09-15T17:35:28Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -3486,6 +3486,78 @@
         "source": "llm"
       }
     },
+    "ambasada::Sibeeria/Namachan::Smoke Lady": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Sibeeria/Namachan",
+        "name": "Smoke Lady",
+        "style": "Rauchbier",
+        "degree_plato": 14.0
+      },
+      "captured_at": "2026-09-15T17:35:13Z",
+      "candidates": [
+        {
+          "name": "Smoke Lady",
+          "brewery": "Sibeeria Brewery",
+          "url": "/b/sibeeria-brewery-smoke-lady/6620632",
+          "rating": 3.74
+        },
+        {
+          "name": "Up In Smoke",
+          "brewery": "Our Lady of Perpetual Hops",
+          "url": "/b/our-lady-of-perpetual-hops-up-in-smoke/3830264",
+          "rating": 3.49
+        },
+        {
+          "name": "Lady of the Smoke",
+          "brewery": "Pivovar Červený vlk",
+          "url": "/b/pivovar-cerveny-vlk-lady-of-the-smoke/5305757",
+          "rating": null
+        },
+        {
+          "name": "Smoke On the Prairie",
+          "brewery": "The Brewing Bird Lady",
+          "url": "/b/the-brewing-bird-lady-smoke-on-the-prairie/6595755",
+          "rating": null
+        },
+        {
+          "name": "Smoked Imperial Stout Barrel Aged x Lady of the Glen (11.5% ABV version)",
+          "brewery": "Vocation Brewery",
+          "url": "/b/vocation-brewery-smoked-imperial-stout-barrel-aged-x-lady-of-the-glen-11-5-abv-version/4981744",
+          "rating": 3.94
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Smoke Lady 14° Sibeeria/Namachan",
+          "hits": []
+        },
+        {
+          "query": "Smoke Lady Sibeeria/Namachan",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Smoke Lady 14°",
+          "hits": []
+        },
+        {
+          "query": "Smoke Lady",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/sibeeria-brewery-smoke-lady/6620632",
+        "source": "llm"
+      }
+    },
     "ambasada::Vik, Praha::Lost in C-Hops": {
       "beer": {
         "source": "ambasada",
@@ -5931,6 +6003,36 @@
         "score": 0.6667
       }
     },
+    "beerstreet::Hřebec::New Zealand": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Hřebec",
+        "name": "New Zealand",
+        "style": "Pale ale",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-09-15T17:35:07Z",
+      "candidates": [
+        {
+          "name": "11° New Zealand Pale Ale",
+          "brewery": "Pivovar Hřebec",
+          "url": "/b/pivovar-hrebec-11-deg-new-zealand-pale-ale/6850395",
+          "rating": 3.66
+        }
+      ],
+      "attempts": [
+        {
+          "query": "New Zealand 11° Hřebec",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-hrebec-11-deg-new-zealand-pale-ale/6850395",
+        "score": 1.0
+      }
+    },
     "beerstreet::Klenot & Zmajska::Dragon Gem": {
       "beer": {
         "source": "beerstreet",
@@ -8143,6 +8245,57 @@
       "outcome": {
         "matched": "/b/pioneer-beer-summer-citra-motueka/6818184",
         "source": "llm"
+      }
+    },
+    "beerstreet::Poupě::Summer Ale": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Poupě",
+        "name": "Summer Ale",
+        "style": "Summer ale",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-09-15T17:35:07Z",
+      "candidates": [
+        {
+          "name": "Summer Ale 10° (Kohatu, Ekuanot)",
+          "brewery": "Pivovarský dům Poupě",
+          "url": "/b/pivovarsky-dum-poupe-summer-ale/5853620",
+          "rating": 3.52
+        },
+        {
+          "name": "Summer Ale 10° (Sabro, Vital, Krush, Mosaic)",
+          "brewery": "Pivovarský dům Poupě",
+          "url": "/b/pivovarsky-dum-poupe-summer-ale-10/6722957",
+          "rating": null
+        },
+        {
+          "name": "Summer Ale",
+          "brewery": "Lomnické pivo",
+          "url": "/b/lomnicke-pivo-summer-ale/3294056",
+          "rating": 3.64
+        },
+        {
+          "name": "Summer Ale 10 Talus+Krush + Mosaic",
+          "brewery": "Pivovarský dům Poupě",
+          "url": "/b/pivovarsky-dum-poupe-summer-ale-10-talus-krush-mosaic/6819852",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Summer Ale 10° Poupě",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovarsky-dum-poupe-summer-ale/5853620",
+        "score": 1.0
       }
     },
     "beerstreet::Rampušák::Malinový kyseláč": {
@@ -13720,6 +13873,57 @@
       ],
       "outcome": {
         "matched": "/b/haksna-brewery-step-by-step/6853283",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Hřebec::Ležák": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Hřebec",
+        "name": "Ležák",
+        "style": "Ležák",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-09-15T17:35:15Z",
+      "candidates": [
+        {
+          "name": "11° Ležák",
+          "brewery": "Pivovar Hřebec",
+          "url": "/b/pivovar-hrebec-11-deg-lezak/6340661",
+          "rating": 3.61
+        },
+        {
+          "name": "11° Ležák Polotmavý",
+          "brewery": "Pivovar Hřebec",
+          "url": "/b/pivovar-hrebec-11-deg-lezak-polotmavy/6340675",
+          "rating": 3.34
+        },
+        {
+          "name": "11° Svatováclavský žitný ležák ",
+          "brewery": "Pivovar Hřebec",
+          "url": "/b/pivovar-hrebec-11-deg-svatovaclavsky-zitny-lezak/6856415",
+          "rating": 3.61
+        },
+        {
+          "name": "12° Ležák",
+          "brewery": "Pivovar Hřebec",
+          "url": "/b/pivovar-hrebec-12-deg-lezak/6516216",
+          "rating": 3.55
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Ležák 11° Hřebec",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-hrebec-11-deg-lezak/6340661",
         "score": 1.0
       }
     },

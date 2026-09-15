@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-14T22:22:22Z",
+  "generated_at": "2026-09-15T17:35:28Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -697,7 +697,8 @@
       "rating": 3.621,
       "match_score": 1.0,
       "matched_at": "2026-05-30T21:05:17Z",
-      "query_used": "Sun APA 12° Nachmelená Opice"
+      "query_used": "Sun APA 12° Nachmelená Opice",
+      "description": "Středně plné amberové pivo s výrazným chmelovým aroma a střední hořkostí. Sladovinu podpůrně doplňuje, nabízí čistou, dobře vyváženou chuť s příjemným závěrem."
     },
     "ambasada::Obora, Malšice::IPA": {
       "untappd_url": "https://untappd.com/b/pivovar-obora-brut-ipa-15/3242671",
@@ -1052,6 +1053,16 @@
       "match_score": 1.0,
       "matched_at": "2026-04-23T20:04:43Z",
       "query_used": "Forest Spirit Sibeeria/Herrenwald"
+    },
+    "ambasada::Sibeeria/Namachan::Smoke Lady": {
+      "untappd_url": "https://untappd.com/b/sibeeria-brewery-smoke-lady/6620632",
+      "untappd_name": "Smoke Lady",
+      "untappd_brewery": "Sibeeria Brewery",
+      "rating": 3.74,
+      "match_score": 1.0,
+      "matched_at": "2026-09-15T17:35:13Z",
+      "query_used": "<llm>",
+      "description": "Kouřové svrchně kvašené pivo s výrazným aroma uzeného sladu, středně plným tělem a vyváženou sladovou sladkostí doplněnou jemnou hořkostí. 5,5 % ABV a 14° stupňovitost zaručují plnější charakter s hřejivým závěrem."
     },
     "ambasada::Van Honsebrouck, Ingelmunster, Západní Flandry, višňový Belgian Dark Strong ALE, 0::Kasteel Rouge": {
       "untappd_url": "https://untappd.com/b/kasteel-brouwerij-vanhonsebrouck-kasteel-rouge/6890",
@@ -1615,6 +1626,16 @@
       "match_score": 0.6667,
       "matched_at": "2026-06-10T12:02:13Z",
       "query_used": "Ležák 11° Hřebec"
+    },
+    "beerstreet::Hřebec::New Zealand": {
+      "untappd_url": "https://untappd.com/b/pivovar-hrebec-11-deg-new-zealand-pale-ale/6850395",
+      "untappd_name": "11° New Zealand Pale Ale",
+      "untappd_brewery": "Pivovar Hřebec",
+      "rating": 3.66,
+      "match_score": 1.0,
+      "matched_at": "2026-09-15T17:35:07Z",
+      "query_used": "New Zealand 11° Hřebec",
+      "description": "Svrchně kvašené světlé pivo se sladovým základem, střední hořkostí a ovocně-květinovým chmelovým aroma typickým pro novozélandské odrůdy, lehčí tělo a osvěžující charakter."
     },
     "beerstreet::Hřebec::Summer Ale": {
       "untappd_url": "https://untappd.com/b/pivovar-hrebec-10deg-summer-ale/6376217",
@@ -2298,6 +2319,16 @@
       "matched_at": "2026-08-10T09:30:21Z",
       "query_used": "<llm>",
       "description": "Letní ale s mírnou silou 3,9 % ABV a příjemnou pitelností, ideální pro osvěžující víkendové posezení."
+    },
+    "beerstreet::Poupě::Summer Ale": {
+      "untappd_url": "https://untappd.com/b/pivovarsky-dum-poupe-summer-ale/5853620",
+      "untappd_name": "Summer Ale 10° (Kohatu, Ekuanot)",
+      "untappd_brewery": "Pivovarský dům Poupě",
+      "rating": 3.52,
+      "match_score": 1.0,
+      "matched_at": "2026-09-15T17:35:07Z",
+      "query_used": "Summer Ale 10° Poupě",
+      "description": "Lehký letní ale s jemným sladovým základem, jemnou chmelovou hořkostí a svěžím tělem, spodně kvašený a čistý v chuti.Lehký letní ale s jemným sladovým základem, jemnou chmelovou hořkostí a svěžím tělem, spodně kvašený a čistý v chuti."
     },
     "beerstreet::Rampušák::Malinový kyseláč": {
       "untappd_url": "https://untappd.com/b/rodinny-pivovar-rampusak-malinovy-kyselac-9-deg/6821559",
@@ -3640,6 +3671,16 @@
       "matched_at": "2026-09-04T19:21:42Z",
       "query_used": "Step By Step Haksna",
       "description": "Klasická americká pale ale: středně sladový základ s jemnou chmelovou hořkostí, citrusovým a květinovým aroma a lehčím tělem, svrchně kvašená a vyvážená v chuti."
+    },
+    "uzamastilu::Hřebec::Ležák": {
+      "untappd_url": "https://untappd.com/b/pivovar-hrebec-11-deg-lezak/6340661",
+      "untappd_name": "11° Ležák",
+      "untappd_brewery": "Pivovar Hřebec",
+      "rating": 3.61,
+      "match_score": 1.0,
+      "matched_at": "2026-09-15T17:35:15Z",
+      "query_used": "Ležák 11° Hřebec",
+      "description": "Klasický český ležák: sladový základ s jemnou chmelovou hořkostí, středně plné tělo a čistá, vyvážená chuť typická pro spodně kvašené pivo."
     },
     "uzamastilu::Jungberg::PP": {
       "untappd_url": "https://untappd.com/b/pivovar-jungberg-pp-12/1774180",
