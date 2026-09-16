@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-16T00:04:07Z",
+  "generated_at": "2026-09-16T17:34:41Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -76,6 +76,16 @@
       "matched_at": "2026-08-18T18:44:53Z",
       "query_used": "Beskydská 12° Beskydský pivovárek",
       "description": "Beskydská 12 je středně plné amber ale s mírně sladkým těstem, jemnou chmelovou hořkostí a ovocným aroma typickým pro české amber ale. Hodnocení na Untappd je průměrné."
+    },
+    "ambasada::Beskydský pivovárek, Ostravice::Idaho": {
+      "untappd_url": "https://untappd.com/b/beskydsky-pivovarek-single-hop-ipa-idaho/1948451",
+      "untappd_name": "Single hop IPA Idaho",
+      "untappd_brewery": "Beskydský pivovárek",
+      "rating": 3.66,
+      "match_score": 1.0,
+      "matched_at": "2026-09-16T17:34:10Z",
+      "query_used": "Idaho Beskydský pivovárek",
+      "description": "Středně plná IPA s vyšší hořkostí a středním tělem, typická pro americký chmel – citrusové, pryskyřičné a borovicové aroma s suchým závěrem. Odrůda Idaho (často označovaná jako chmel s profil podobným Amarillo nebo Centennial) přináší výrazné tóny grepu, borovice a lehce květinového charakteru. Hodnocení 3,66 naznačuj…"
     },
     "ambasada::Beskydský, Ostravice::Ginger & Lime": {
       "untappd_url": "https://untappd.com/b/beskydsky-pivovarek-ginger-lime-ale/6345697",
@@ -217,6 +227,16 @@
       "match_score": 0.9412,
       "matched_at": "2026-05-07T20:23:43Z",
       "query_used": "No Idols! American IPA Clock"
+    },
+    "ambasada::Clock, Potštejn::Pineapple": {
+      "untappd_url": "https://untappd.com/b/pivovar-clock-pineapple-session-ipa/2133656",
+      "untappd_name": "Pineapple Session IPA",
+      "untappd_brewery": "Pivovar Clock",
+      "rating": 3.57,
+      "match_score": 1.0,
+      "matched_at": "2026-09-16T17:34:10Z",
+      "query_used": "Pineapple 11° Clock",
+      "description": "Session IPA s nižší hořkostí a lehčím tělem, typicky s citrusovým a tropickým aroma chmele. Ananas v názvu naznačuje přidání tohoto ovoce, které přináší sladkou, šťavnatou ovocnou nota doplňující chmelový profil."
     },
     "ambasada::Fenetra, Potštejn, Rustical Wild Sour Ale, 0::Pavillon 2025": {
       "untappd_url": "https://untappd.com/b/fenetra-pavillon-2025/6342507",
@@ -1266,7 +1286,8 @@
       "rating": null,
       "match_score": 1.0,
       "matched_at": "2026-05-13T20:29:26Z",
-      "query_used": "Puk Malina/Granátové Jablko Švabín"
+      "query_used": "Puk Malina/Granátové Jablko Švabín",
+      "description": "Kyselé svrchně kvašené pivo s výraznou ovocnou kyselinkou a lehkým tělem; malina a granátové jablko přidávají sladkokyselé ovocné tóny, které doplňují přirozenou kyselost stylu. Spodně kvašený základ je zde nahrazen svrchným kvašením typickým pro fruit sour ale, což podporuje svěží a živý charakter."
     },
     "beerstreet::Agent::Essence of Summer": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-essence-of-summer/5435243",
@@ -1506,6 +1527,16 @@
       "matched_at": "2026-09-05T18:02:06Z",
       "query_used": "Ostružina Falkon",
       "description": "Kyselé svrchně kvašené pivo s ostrou ovocnou kyselinkou a lehkým tělem; ostružina přidává tmavě bobulový, sladkokyselý tón, který doplňuje přirozenou kyselost základního souru. Střední plnost odpovídá 11° stupňovitosti a 4,8 % alkoholu."
+    },
+    "beerstreet::Fenek::Hazelet": {
+      "untappd_url": "https://untappd.com/b/fenek-craft-beer-hazelet-12/6343811",
+      "untappd_name": "Hazelet 12°",
+      "untappd_brewery": "Fenek Craft Beer",
+      "rating": 3.75,
+      "match_score": 1.0,
+      "matched_at": "2026-09-16T17:34:04Z",
+      "query_used": "Hazelet 12° Fenek",
+      "description": "Hazy pale ale s střední plností a jemnou sladovou základnou, nižší hořkostí a zakaleným vzhledem typickým pro styl; aroma i chuť nesou tropické a citrusové tómy z chmelů používaných za studena. Hodnocení 3,75 naznačuje nadprůměrné přijetí."
     },
     "beerstreet::Fenek::Hoppy Lager": {
       "untappd_url": "https://untappd.com/b/fenek-craft-beer-hoppy-lager-11-deg-ipl/5986366",
@@ -2501,6 +2532,16 @@
       "matched_at": "2026-05-09T19:56:18Z",
       "query_used": "Stammtisch Hugo Thrills"
     },
+    "beerstreet::Trojan::Lékárníkova": {
+      "untappd_url": "https://untappd.com/b/pivovar-trojan-telc-lekarnikova-jedenactka-na-stojaka/2471922",
+      "untappd_name": "Lékárníkova jedenáctka Na stojáka",
+      "untappd_brewery": "Pivovar Trojan Telč",
+      "rating": 3.45,
+      "match_score": 1.0,
+      "matched_at": "2026-09-16T17:34:02Z",
+      "query_used": "Lékárníkova 11° Trojan",
+      "description": "Klasický světlý ležák: sladový základ, jemná chmelová hořkost a lehčí tělo, spodně kvašený a čistý v chuti."
+    },
     "beerstreet::Tvarg::Ležák": {
       "untappd_url": "https://untappd.com/b/tvarg-lezak-11/4088691",
       "untappd_name": "Ležák 11",
@@ -3102,6 +3143,16 @@
       "matched_at": "2026-09-14T18:27:54Z",
       "query_used": "HOPBIT Krkonošský Medvěd",
       "description": "IPL kombinuje chmelovou aromatičnost a hořkost typickou pro IPA s čistým, lehce sladovým tělem spodně kvašeného ležáku. Očekávejte střední až vyšší hořkost, citrusové a pryskyřičné tóny v aroma a suchý, osvěžující závěr."
+    },
+    "toulavapipa::Krkonošský medvěd::Česká šiška": {
+      "untappd_url": "https://untappd.com/b/krkonossky-medved-ceska-siska/5439587",
+      "untappd_name": "Česká Šiška",
+      "untappd_brewery": "Krkonošský medvěd",
+      "rating": 3.21,
+      "match_score": 1.0,
+      "matched_at": "2026-09-16T17:34:20Z",
+      "query_used": "Česká šiška Krkonošský medvěd",
+      "description": "Světlá výčepní pivo s jemnou sladkostí, nízkou hořkostí a lehkým, osvěžujícím tělem, bez výrazných aromatických prvků; hodnocení POUŽITELNÉ."
     },
     "toulavapipa::Kynšperk nad Ohří::Zajíc": {
       "untappd_url": "https://untappd.com/b/kynspersky-pivovar-kynspersky-zajic-11-deg-svetly-lezak/1936006",
@@ -4337,6 +4388,11 @@
     "toulavapipa::Madcat::Desítka": {
       "attempts": 1,
       "last_tried_at": "2026-08-18T14:38:17Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "toulavapipa::Mordýř::SVATOVÁCLAVSKÝ SPECIÁL": {
+      "attempts": 1,
+      "last_tried_at": "2026-09-16T17:34:16Z",
       "reason": "no_candidates_above_threshold"
     },
     "toulavapipa::Obora::Bez a limetka": {

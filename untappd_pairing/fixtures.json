@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-16T00:04:07Z",
+  "generated_at": "2026-09-16T17:34:41Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -241,6 +241,47 @@
       ],
       "outcome": {
         "matched": "/b/beskydsky-pivovarek-beskydska-12/763041",
+        "score": 1.0
+      }
+    },
+    "ambasada::Beskydský pivovárek, Ostravice::Idaho": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Beskydský pivovárek, Ostravice",
+        "name": "Idaho",
+        "style": "IPA",
+        "degree_plato": 14.0
+      },
+      "captured_at": "2026-09-16T17:34:10Z",
+      "candidates": [
+        {
+          "name": "Idaho",
+          "brewery": "Beskydský pivovárek",
+          "url": "/b/beskydsky-pivovarek-idaho/3672151",
+          "rating": 3.61
+        },
+        {
+          "name": "Single hop IPA Idaho",
+          "brewery": "Beskydský pivovárek",
+          "url": "/b/beskydsky-pivovarek-single-hop-ipa-idaho/1948451",
+          "rating": 3.66
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Idaho 14° Beskydský pivovárek",
+          "hits": []
+        },
+        {
+          "query": "Idaho Beskydský pivovárek",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/beskydsky-pivovarek-single-hop-ipa-idaho/1948451",
         "score": 1.0
       }
     },
@@ -678,6 +719,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-clock-maracuja-elderflower/6270248",
+        "score": 1.0
+      }
+    },
+    "ambasada::Clock, Potštejn::Pineapple": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Clock, Potštejn",
+        "name": "Pineapple",
+        "style": "Pineapple session IPA",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-09-16T17:34:10Z",
+      "candidates": [
+        {
+          "name": "Pineapple Session IPA",
+          "brewery": "Pivovar Clock",
+          "url": "/b/pivovar-clock-pineapple-session-ipa/2133656",
+          "rating": 3.57
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Pineapple 11° Clock",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-clock-pineapple-session-ipa/2133656",
         "score": 1.0
       }
     },
@@ -5174,6 +5245,36 @@
         "score": 1.0
       }
     },
+    "beerstreet::Fenek::Hazelet": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Fenek",
+        "name": "Hazelet",
+        "style": "Hazy pale ale",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-09-16T17:34:04Z",
+      "candidates": [
+        {
+          "name": "Hazelet 12°",
+          "brewery": "Fenek Craft Beer",
+          "url": "/b/fenek-craft-beer-hazelet-12/6343811",
+          "rating": 3.75
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Hazelet 12° Fenek",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/fenek-craft-beer-hazelet-12/6343811",
+        "score": 1.0
+      }
+    },
     "beerstreet::Fenek::Hoppy Lager": {
       "beer": {
         "source": "beerstreet",
@@ -8713,6 +8814,36 @@
         "score": 1.0
       }
     },
+    "beerstreet::Trojan::Lékárníkova": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Trojan",
+        "name": "Lékárníkova",
+        "style": "Ležák světlý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-09-16T17:34:02Z",
+      "candidates": [
+        {
+          "name": "Lékárníkova jedenáctka Na stojáka",
+          "brewery": "Pivovar Trojan Telč",
+          "url": "/b/pivovar-trojan-telc-lekarnikova-jedenactka-na-stojaka/2471922",
+          "rating": 3.45
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Lékárníkova 11° Trojan",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-trojan-telc-lekarnikova-jedenactka-na-stojaka/2471922",
+        "score": 1.0
+      }
+    },
     "beerstreet::Tvarg::Ležák": {
       "beer": {
         "source": "beerstreet",
@@ -11241,6 +11372,36 @@
         "score": 1.0
       }
     },
+    "toulavapipa::Krkonošský medvěd::Česká šiška": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Krkonošský medvěd",
+        "name": "Česká šiška",
+        "style": "Sv. výčepní",
+        "degree_plato": null
+      },
+      "captured_at": "2026-09-16T17:34:20Z",
+      "candidates": [
+        {
+          "name": "Česká Šiška",
+          "brewery": "Krkonošský medvěd",
+          "url": "/b/krkonossky-medved-ceska-siska/5439587",
+          "rating": 3.21
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Česká šiška Krkonošský medvěd",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/krkonossky-medved-ceska-siska/5439587",
+        "score": 1.0
+      }
+    },
     "toulavapipa::Kynšperk nad Ohří::Zajíc": {
       "beer": {
         "source": "toulavapipa",
@@ -12185,6 +12346,61 @@
       "outcome": {
         "matched": "/b/pivovar-mordyr-svatovaclavsky-lezak-2023-blues-hop/5544071",
         "score": 1.0
+      }
+    },
+    "toulavapipa::Mordýř::SVATOVÁCLAVSKÝ SPECIÁL": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Mordýř",
+        "name": "SVATOVÁCLAVSKÝ SPECIÁL",
+        "style": "Světlý ležák s žitem",
+        "degree_plato": null
+      },
+      "captured_at": "2026-09-16T17:34:16Z",
+      "candidates": [
+        {
+          "name": "Svatováclavský Speciál 13°",
+          "brewery": "naïlo brewing co.",
+          "url": "/b/nailo-brewing-co-svatovaclavsky-special-13-deg/6443305",
+          "rating": 3.74
+        },
+        {
+          "name": "Svatováclavský speciál",
+          "brewery": "Beskydský pivovárek",
+          "url": "/b/beskydsky-pivovarek-svatovaclavsky-special/821338",
+          "rating": 3.46
+        },
+        {
+          "name": "Vorkloster Svatováclavský Speciál",
+          "brewery": "Klášterní pivovar Porta Coeli",
+          "url": "/b/klasterni-pivovar-porta-coeli-vorkloster-klasterni-svatovaclavsky-special/3985313",
+          "rating": 3.55
+        },
+        {
+          "name": "Pšeničný speciál knížete Václava",
+          "brewery": "Pivovar Černá Hora",
+          "url": "/b/pivovar-cerna-hora-psenicny-special-knizete-vaclava/508303",
+          "rating": 3.47
+        }
+      ],
+      "attempts": [
+        {
+          "query": "SVATOVÁCLAVSKÝ SPECIÁL Mordýř",
+          "hits": []
+        },
+        {
+          "query": "SVATOVÁCLAVSKÝ SPECIÁL",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "toulavapipa::Mordýř::kurtizána": {
