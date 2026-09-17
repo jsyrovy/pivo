@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-17T00:14:32Z",
+  "generated_at": "2026-09-17T17:34:28Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -5451,6 +5451,76 @@
         "score": 0.8333
       }
     },
+    "beerstreet::Hacker-Pschorr - Mnichov::Hacker-Pschorr": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Hacker-Pschorr - Mnichov",
+        "name": "Hacker-Pschorr",
+        "style": "Festbier märzen",
+        "degree_plato": 13.7
+      },
+      "captured_at": "2026-09-17T17:34:04Z",
+      "candidates": [
+        {
+          "name": "Oktoberfest Märzen",
+          "brewery": "Hacker-Pschorr",
+          "url": "/b/hacker-pschorr-oktoberfest-marzen/1827",
+          "rating": 3.69
+        },
+        {
+          "name": "Weissbier",
+          "brewery": "Hacker-Pschorr",
+          "url": "/b/hacker-pschorr-weissbier/5975",
+          "rating": 3.67
+        },
+        {
+          "name": "Münchner Hell",
+          "brewery": "Hacker-Pschorr",
+          "url": "/b/hacker-pschorr-munchner-hell/16238",
+          "rating": 3.43
+        },
+        {
+          "name": "Kellerbier",
+          "brewery": "Hacker-Pschorr",
+          "url": "/b/hacker-pschorr-kellerbier/24095",
+          "rating": 3.5
+        },
+        {
+          "name": "Münchner (Munich) Gold",
+          "brewery": "Hacker-Pschorr",
+          "url": "/b/hacker-pschorr-munchner-munich-gold/16313",
+          "rating": 3.52
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Hacker-Pschorr 13° Hacker-Pschorr - Mnichov",
+          "hits": []
+        },
+        {
+          "query": "Hacker-Pschorr Hacker-Pschorr - Mnichov",
+          "hits": []
+        },
+        {
+          "query": "Hacker-Pschorr 13°",
+          "hits": []
+        },
+        {
+          "query": "Hacker-Pschorr",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/hacker-pschorr-oktoberfest-marzen/1827",
+        "source": "llm"
+      }
+    },
     "beerstreet::Haksna::BRU - 1ng Galaxy": {
       "beer": {
         "source": "beerstreet",
@@ -5631,6 +5701,98 @@
       "outcome": {
         "matched": null,
         "reason": "no_candidates_above_threshold"
+      }
+    },
+    "beerstreet::Hofbräu - Mnichov::Hofbräu": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Hofbräu - Mnichov",
+        "name": "Hofbräu",
+        "style": "Festbier helles",
+        "degree_plato": 13.7
+      },
+      "captured_at": "2026-09-17T17:34:21Z",
+      "candidates": [
+        {
+          "name": "Urtrunk 1356",
+          "brewery": "Schulzens Brauerei",
+          "url": "/b/schulzens-brauerei-urtrunk-1356/3698215",
+          "rating": 3.43
+        },
+        {
+          "name": "1300 Jubiläumsbier (704 - 2004) Premium Dunkel",
+          "brewery": "Würzburger Hofbräu",
+          "url": "/b/wurzburger-hofbrau-1300-jubilaumsbier-704-2004-premium-dunkel/6678654",
+          "rating": null
+        },
+        {
+          "name": "39+13",
+          "brewery": "Hofbräu Oberle",
+          "url": "/b/hofbrau-oberle-39-13/5376964",
+          "rating": null
+        },
+        {
+          "name": "Hofbräu Original",
+          "brewery": "Staatliches Hofbräuhaus München",
+          "url": "/b/staatliches-hofbrauhaus-munchen-hofbrau-original/38001",
+          "rating": 3.55
+        },
+        {
+          "name": "Hofbräu Oktoberfestbier",
+          "brewery": "Staatliches Hofbräuhaus München",
+          "url": "/b/staatliches-hofbrauhaus-munchen-hofbrau-oktoberfestbier/40139",
+          "rating": 3.61
+        },
+        {
+          "name": "Früh Kölsch",
+          "brewery": "Cölner Hofbräu Früh",
+          "url": "/b/colner-hofbrau-fruh-fruh-kolsch/1639",
+          "rating": 3.32
+        },
+        {
+          "name": "Hofbräu Dunkel / Dunkel Gold",
+          "brewery": "Staatliches Hofbräuhaus München",
+          "url": "/b/staatliches-hofbrauhaus-munchen-hofbrau-dunkel-dunkel-gold/8314",
+          "rating": 3.7
+        },
+        {
+          "name": "Münchner Weisse",
+          "brewery": "Staatliches Hofbräuhaus München",
+          "url": "/b/staatliches-hofbrauhaus-munchen-hofbrau-munchner-weisse-munchner-kindl-hefe-weizen/7834",
+          "rating": 3.7
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Hofbräu 13° Hofbräu - Mnichov",
+          "hits": []
+        },
+        {
+          "query": "Hofbräu Hofbräu - Mnichov",
+          "hits": []
+        },
+        {
+          "query": "Hofbräu 13°",
+          "hits": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "query": "Hofbräu",
+          "hits": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/staatliches-hofbrauhaus-munchen-hofbrau-oktoberfestbier/40139",
+        "source": "llm"
       }
     },
     "beerstreet::Hoppy Dog::Lassie": {
@@ -7629,6 +7791,76 @@
         "score": 1.0
       }
     },
+    "beerstreet::Löwenbräu - Mnichov::Löwenbräu": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Löwenbräu - Mnichov",
+        "name": "Löwenbräu",
+        "style": "Festbier helles",
+        "degree_plato": 13.7
+      },
+      "captured_at": "2026-09-17T17:33:52Z",
+      "candidates": [
+        {
+          "name": "Franziskaner Premium Weissbier Naturtrüb",
+          "brewery": "Spaten-Franziskaner-Löwenbräu-Gruppe",
+          "url": "/b/spaten-franziskaner-lowenbrau-gruppe-franziskaner-premium-weissbier/14564",
+          "rating": 3.69
+        },
+        {
+          "name": "Spaten Münchner Hell / Premium Lager",
+          "brewery": "Spaten-Franziskaner-Löwenbräu-Gruppe",
+          "url": "/b/spaten-franziskaner-lowenbrau-gruppe-spaten-munchner-hell-premium-lager/1633",
+          "rating": 3.39
+        },
+        {
+          "name": "Spaten Oktoberfest Ur-Märzen / Winter",
+          "brewery": "Spaten-Franziskaner-Löwenbräu-Gruppe",
+          "url": "/b/spaten-franziskaner-lowenbrau-gruppe-spaten-oktoberfest-ur-marzen-winter/1547",
+          "rating": 3.66
+        },
+        {
+          "name": "Löwenbräu Original",
+          "brewery": "Spaten-Franziskaner-Löwenbräu-Gruppe",
+          "url": "/b/spaten-franziskaner-lowenbrau-gruppe-lowenbrau-original/25914",
+          "rating": 3.19
+        },
+        {
+          "name": "Franziskaner Premium Weissbier Dunkel",
+          "brewery": "Spaten-Franziskaner-Löwenbräu-Gruppe",
+          "url": "/b/spaten-franziskaner-lowenbrau-gruppe-franziskaner-premium-weissbier-dunkel/4519",
+          "rating": 3.58
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Löwenbräu 13° Löwenbräu - Mnichov",
+          "hits": []
+        },
+        {
+          "query": "Löwenbräu Löwenbräu - Mnichov",
+          "hits": []
+        },
+        {
+          "query": "Löwenbräu 13°",
+          "hits": []
+        },
+        {
+          "query": "Löwenbräu",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/spaten-franziskaner-lowenbrau-gruppe-lowenbrau-original/25914",
+        "source": "llm"
+      }
+    },
     "beerstreet::Mazák::Bojanowitz": {
       "beer": {
         "source": "beerstreet",
@@ -8080,6 +8312,112 @@
       "outcome": {
         "matched": "/b/pivovar-ovipistan-diplomat/4422840",
         "score": 1.0
+      }
+    },
+    "beerstreet::Paulaner - Mnichov::Paulaner": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Paulaner - Mnichov",
+        "name": "Paulaner",
+        "style": "Festbier helles",
+        "degree_plato": 13.7
+      },
+      "captured_at": "2026-09-17T17:33:39Z",
+      "candidates": [
+        {
+          "name": "Lucky 13 Beer",
+          "brewery": "Brouwerij De Leckere",
+          "url": "/b/brouwerij-de-leckere-lucky-13-beer/3845246",
+          "rating": 3.38
+        },
+        {
+          "name": "Lucky 13 Post Ride Beer",
+          "brewery": "Brouwerij De Leckere",
+          "url": "/b/brouwerij-de-leckere-lucky-13-post-ride-beer/4228336",
+          "rating": 3.27
+        },
+        {
+          "name": "Lucky 13 Primavera Lente Bock",
+          "brewery": "Brouwerij De Leckere",
+          "url": "/b/brouwerij-de-leckere-lucky-13-primavera-lente-bock/4215659",
+          "rating": 3.21
+        },
+        {
+          "name": "Lucky 13 Beer Weizen IPA",
+          "brewery": "Brouwerij De Leckere",
+          "url": "/b/brouwerij-de-leckere-lucky-13-beer-weizen-ipa/4104827",
+          "rating": 3.51
+        },
+        {
+          "name": "Lucky 13 En Danseuse Weizen",
+          "brewery": "Brouwerij De Leckere",
+          "url": "/b/brouwerij-de-leckere-lucky-13-en-danseuse-weizen/4338856",
+          "rating": 3.25
+        },
+        {
+          "name": "Hefe-Weißbier / Hefe-Weizen / Weissbier",
+          "brewery": "Paulaner Brauerei",
+          "url": "/b/paulaner-brauerei-paulaner-hefe-weissbier-hefe-weizen-weissbier/15677",
+          "rating": 3.67
+        },
+        {
+          "name": "Münchner Hell / Münchner Lager / Original Munich Lager",
+          "brewery": "Paulaner Brauerei",
+          "url": "/b/paulaner-brauerei-munchner-hell-munchner-lager-original-munich-lager/3235",
+          "rating": 3.46
+        },
+        {
+          "name": "Paulaner Oktoberfest Märzen / Original Münchner Märzen",
+          "brewery": "Paulaner Brauerei",
+          "url": "/b/paulaner-brauerei-paulaner-oktoberfest-marzen-original-munchner-marzen/15180",
+          "rating": 3.69
+        },
+        {
+          "name": "Paulaner Oktoberfest Bier",
+          "brewery": "Paulaner Brauerei",
+          "url": "/b/paulaner-brauerei-paulaner-oktoberfest-bier/78539",
+          "rating": 3.56
+        },
+        {
+          "name": "Paulaner Salvator",
+          "brewery": "Paulaner Brauerei",
+          "url": "/b/paulaner-brauerei-paulaner-salvator/4469",
+          "rating": 3.6
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Paulaner 13° Paulaner - Mnichov",
+          "hits": []
+        },
+        {
+          "query": "Paulaner Paulaner - Mnichov",
+          "hits": []
+        },
+        {
+          "query": "Paulaner 13°",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "query": "Paulaner",
+          "hits": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/paulaner-brauerei-munchner-hell-munchner-lager-original-munich-lager/3235",
+        "source": "llm"
       }
     },
     "beerstreet::Permon::Summer Ale": {

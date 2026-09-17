@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-17T00:14:32Z",
+  "generated_at": "2026-09-17T17:34:28Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -1585,6 +1585,16 @@
       "matched_at": "2026-06-24T15:35:43Z",
       "query_used": "Lazy Charboney Fracek"
     },
+    "beerstreet::Hacker-Pschorr - Mnichov::Hacker-Pschorr": {
+      "untappd_url": "https://untappd.com/b/hacker-pschorr-oktoberfest-marzen/1827",
+      "untappd_name": "Oktoberfest Märzen",
+      "untappd_brewery": "Hacker-Pschorr",
+      "rating": 3.69,
+      "match_score": 0.08333333333333333,
+      "matched_at": "2026-09-17T17:34:04Z",
+      "query_used": "<llm>",
+      "description": "Tradiční mnichovský ležák typu Märzen s plným sladovým tělem, jemnou karamelovou sladostí a vyváženou, mírně zemitou chmelovou hořkostí, spodně kvašený a dobře vyzrálý. 5,8 % alkoholu dodává dostatečnou sílu a zahřívající dojem bez přebytečné těžkosti."
+    },
     "beerstreet::Haksna/Podřevnický::Sky Serpent": {
       "untappd_url": "https://untappd.com/b/haksna-brewery-sky-serpent/6682921",
       "untappd_name": "Sky Serpent",
@@ -1611,6 +1621,16 @@
       "match_score": 1.0,
       "matched_at": "2026-04-28T20:13:51Z",
       "query_used": "Citra Session Haksna"
+    },
+    "beerstreet::Hofbräu - Mnichov::Hofbräu": {
+      "untappd_url": "https://untappd.com/b/staatliches-hofbrauhaus-munchen-hofbrau-oktoberfestbier/40139",
+      "untappd_name": "Hofbräu Oktoberfestbier",
+      "untappd_brewery": "Staatliches Hofbräuhaus München",
+      "rating": 3.61,
+      "match_score": 1.0,
+      "matched_at": "2026-09-17T17:34:21Z",
+      "query_used": "<llm>",
+      "description": "Světlý festbier s plným tělem a vyšší plností díky 13,7° a 6,3 % alkoholu. Čistý sladový základ s jemným chmelem, lehce kořenitým aroma a přirozeně hořkým dozvukem, typický pro bavorské oslavovací pivo."
     },
     "beerstreet::Hoppy Dog::Lassie": {
       "untappd_url": "https://untappd.com/b/pivovar-hoppydog-lassie/3829752",
@@ -2113,6 +2133,16 @@
       "matched_at": "2026-05-22T09:08:58Z",
       "query_used": "Švihák 11° Loutkář"
     },
+    "beerstreet::Löwenbräu - Mnichov::Löwenbräu": {
+      "untappd_url": "https://untappd.com/b/spaten-franziskaner-lowenbrau-gruppe-lowenbrau-original/25914",
+      "untappd_name": "Löwenbräu Original",
+      "untappd_brewery": "Spaten-Franziskaner-Löwenbräu-Gruppe",
+      "rating": 3.19,
+      "match_score": 1.0,
+      "matched_at": "2026-09-17T17:33:52Z",
+      "query_used": "<llm>",
+      "description": "Festbier helles je sladově vyvážené spodně kvašené pivo s plnějším tělem a jemnou chmelovou hořkostí, typické pro mnichovské slavnostní ležáky. Při 13,7° a 6,1 % ABV nabízí intenzivnější sladový charakter s medovými a chlebovými tóny, doplněný čistým, lehce kořenitým dozvukem. Hodnocení 3,19 naznačuje podprůměrné přij…"
+    },
     "beerstreet::Mazák::Bojanowitz": {
       "untappd_url": "https://untappd.com/b/pivovar-mazak-bojanowitz/2028526",
       "untappd_name": "Bojanowitz",
@@ -2302,6 +2332,16 @@
       "match_score": 1.0,
       "matched_at": "2026-04-17T19:07:45Z",
       "query_used": "Premiér Ovipistán"
+    },
+    "beerstreet::Paulaner - Mnichov::Paulaner": {
+      "untappd_url": "https://untappd.com/b/paulaner-brauerei-munchner-hell-munchner-lager-original-munich-lager/3235",
+      "untappd_name": "Münchner Hell / Münchner Lager / Original Munich Lager",
+      "untappd_brewery": "Paulaner Brauerei",
+      "rating": 3.46,
+      "match_score": 0.42857142857142855,
+      "matched_at": "2026-09-17T17:33:39Z",
+      "query_used": "<llm>",
+      "description": "Klasické mnichovské festbier helles: sladový profil s jemnou medovou sladostí, nízká chmelová hořkost a středně plné tělo, spodně kvašené s čistým, vyváženým charakterem. 6 % ABV a 13,7° dodávají větší plnost a sílu oproti běžnému ležáku."
     },
     "beerstreet::Permon::Summer Ale": {
       "untappd_url": "https://untappd.com/b/pivovar-permon-pivni-jistota-summer-ale-10-deg/3830056",
