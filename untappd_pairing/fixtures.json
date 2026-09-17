@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-17T17:34:28Z",
+  "generated_at": "2026-09-17T21:10:07Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -14511,6 +14511,64 @@
         "score": 1.0
       }
     },
+    "uzamastilu::Kamenice nad Lipou::Kamenická": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Kamenice nad Lipou",
+        "name": "Kamenická",
+        "style": "Ležák",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-09-17T21:09:57Z",
+      "candidates": [
+        {
+          "name": "Velikonoční Kamenická 12°",
+          "brewery": "Pivovar Kamenice nad Lipou",
+          "url": "/b/pivovar-kamenice-nad-lipou-zelena-12-velikonocni/4794479",
+          "rating": 3.21
+        },
+        {
+          "name": "Výroční Kamenická 12°",
+          "brewery": "Pivovar Kamenice nad Lipou",
+          "url": "/b/pivovar-kamenice-nad-lipou-vyrocni-kamenicka-12/4490872",
+          "rating": 3.26
+        },
+        {
+          "name": "Kamenická 12° Svatováclavská",
+          "brewery": "Pivovar Kamenice nad Lipou",
+          "url": "/b/pivovar-kamenice-nad-lipou-kamenicka-12-deg-svatovaclavska/6009156",
+          "rating": null
+        },
+        {
+          "name": "Kamenická 12",
+          "brewery": "Pivovar Kamenice nad Lipou",
+          "url": "/b/pivovar-kamenice-nad-lipou-kamenicka-12/2146941",
+          "rating": 3.45
+        },
+        {
+          "name": "Kamenická 12 Tmavá",
+          "brewery": "Pivovar Kamenice nad Lipou",
+          "url": "/b/pivovar-kamenice-nad-lipou-kamenicka-12-tmava/2583806",
+          "rating": 3.58
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Kamenická 12° Kamenice nad Lipou",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-kamenice-nad-lipou-kamenicka-12/2146941",
+        "score": 1.0
+      }
+    },
     "uzamastilu::Kamenice nad Lipou::Ležák": {
       "beer": {
         "source": "uzamastilu",
@@ -15354,6 +15412,39 @@
       "outcome": {
         "matched": "/b/pivovar-mazak-wai-wai/6776198",
         "score": 1.0
+      }
+    },
+    "uzamastilu::Modern Lager Zichovec::14 Years Of Tradition": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Modern Lager Zichovec",
+        "name": "14 Years Of Tradition",
+        "style": "",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-09-17T21:10:05Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "14 Years Of Tradition 12° Modern Lager Zichovec",
+          "hits": []
+        },
+        {
+          "query": "14 Years Of Tradition Modern Lager Zichovec",
+          "hits": []
+        },
+        {
+          "query": "14 Years Of Tradition 12°",
+          "hits": []
+        },
+        {
+          "query": "14 Years Of Tradition",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "uzamastilu::Mordýř::Kurtizána": {
