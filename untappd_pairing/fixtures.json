@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-18T00:00:44Z",
+  "generated_at": "2026-09-18T17:01:10Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -5795,6 +5795,76 @@
         "source": "llm"
       }
     },
+    "beerstreet::Hofbräu - Mnichov::Original Hofbräu": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Hofbräu - Mnichov",
+        "name": "Original Hofbräu",
+        "style": "Helles",
+        "degree_plato": 11.7
+      },
+      "captured_at": "2026-09-18T17:00:26Z",
+      "candidates": [
+        {
+          "name": "Hofbräu Original",
+          "brewery": "Staatliches Hofbräuhaus München",
+          "url": "/b/staatliches-hofbrauhaus-munchen-hofbrau-original/38001",
+          "rating": 3.55
+        },
+        {
+          "name": "Ur-Dunkel Naturtrüb / Original Münchner Dunkel",
+          "brewery": "Paulaner Brauerei",
+          "url": "/b/paulaner-brauerei-paulaner-ur-dunkel-naturtrub-original-munchner-dunkel/76304",
+          "rating": 3.54
+        },
+        {
+          "name": "Huber Weisses Original",
+          "brewery": "Hofbrauhaus Freising",
+          "url": "/b/hofbrauhaus-freising-huber-weisses-original/61385",
+          "rating": 3.52
+        },
+        {
+          "name": "Sternla Helles",
+          "brewery": "Würzburger Hofbräu",
+          "url": "/b/wurzburger-hofbrau-sternla-helles/372957",
+          "rating": 3.29
+        },
+        {
+          "name": "Kaltenhauser Original",
+          "brewery": "Hofbräu Kaltenhausen",
+          "url": "/b/hofbrau-kaltenhausen-spezialitatenmanufaktur-hofbrau-kaltenhausen-original/371077",
+          "rating": 3.42
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Original Hofbräu 11° Hofbräu - Mnichov",
+          "hits": []
+        },
+        {
+          "query": "Original Hofbräu Hofbräu - Mnichov",
+          "hits": []
+        },
+        {
+          "query": "Original Hofbräu 11°",
+          "hits": []
+        },
+        {
+          "query": "Original Hofbräu",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/staatliches-hofbrauhaus-munchen-hofbrau-original/38001",
+        "source": "llm"
+      }
+    },
     "beerstreet::Hoppy Dog::Lassie": {
       "beer": {
         "source": "beerstreet",
@@ -6547,6 +6617,40 @@
       ],
       "outcome": {
         "matched": "/b/hradecky-klenot-sour-ale-orange-cinnamon/5361488",
+        "score": 0.2143
+      }
+    },
+    "beerstreet::Klenot::Pomeranč - skořice": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Klenot",
+        "name": "Pomeranč - skořice",
+        "style": "Sour",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-09-18T17:00:28Z",
+      "candidates": [
+        {
+          "name": "Sour ALE– Orange & Cinnamon",
+          "brewery": "Hradecký Klenot",
+          "url": "/b/hradecky-klenot-sour-ale-orange-and-cinnamon/5361488",
+          "rating": 3.89
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Pomeranč - skořice 10° Klenot",
+          "hits": []
+        },
+        {
+          "query": "Pomeranč - skořice Klenot",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/hradecky-klenot-sour-ale-orange-and-cinnamon/5361488",
         "score": 0.2143
       }
     },
@@ -8925,6 +9029,112 @@
       "outcome": {
         "matched": "/b/sibeeria-brewery-modus/6659994",
         "score": 1.0
+      }
+    },
+    "beerstreet::Späten - Mnichov::Späten": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Späten - Mnichov",
+        "name": "Späten",
+        "style": "Festbier helles",
+        "degree_plato": 13.7
+      },
+      "captured_at": "2026-09-18T17:00:11Z",
+      "candidates": [
+        {
+          "name": "Space Ale 11°",
+          "brewery": "Pivovar Bizon",
+          "url": "/b/pivovar-bizon-space-ale-11-deg/2862321",
+          "rating": 3.44
+        },
+        {
+          "name": "12° Below Quad",
+          "brewery": "49th State Brewing",
+          "url": "/b/49th-state-brewing-12-deg-below-quad/669726",
+          "rating": 4.03
+        },
+        {
+          "name": "Jubiläumsbier - 1300 Jahre Korbinian In Freising",
+          "brewery": "Bayerische Staatsbrauerei Weihenstephan",
+          "url": "/b/bayerische-staatsbrauerei-weihenstephan-jubilaumsbier-1300-jahre-korbinian-in-freising/5608840",
+          "rating": 3.71
+        },
+        {
+          "name": "LÄCTOBÄC: 13",
+          "brewery": "Fair State Brewing Cooperative",
+          "url": "/b/fair-state-brewing-cooperative-lactobac-13/1675310",
+          "rating": 3.99
+        },
+        {
+          "name": "Space Wolf",
+          "brewery": "Structures Brewing",
+          "url": "/b/structures-brewing-space-wolf/5600062",
+          "rating": 4.19
+        },
+        {
+          "name": "Franziskaner Premium Weissbier Naturtrüb",
+          "brewery": "Spaten-Franziskaner-Löwenbräu-Gruppe",
+          "url": "/b/spaten-franziskaner-lowenbrau-gruppe-franziskaner-premium-weissbier/14564",
+          "rating": 3.69
+        },
+        {
+          "name": "Spaten Münchner Hell / Premium Lager",
+          "brewery": "Spaten-Franziskaner-Löwenbräu-Gruppe",
+          "url": "/b/spaten-franziskaner-lowenbrau-gruppe-spaten-munchner-hell-premium-lager/1633",
+          "rating": 3.39
+        },
+        {
+          "name": "Spaten Oktoberfest Ur-Märzen / Winter",
+          "brewery": "Spaten-Franziskaner-Löwenbräu-Gruppe",
+          "url": "/b/spaten-franziskaner-lowenbrau-gruppe-spaten-oktoberfest-ur-marzen-winter/1547",
+          "rating": 3.66
+        },
+        {
+          "name": "Löwenbräu Original",
+          "brewery": "Spaten-Franziskaner-Löwenbräu-Gruppe",
+          "url": "/b/spaten-franziskaner-lowenbrau-gruppe-lowenbrau-original/25914",
+          "rating": 3.19
+        },
+        {
+          "name": "Franziskaner Premium Weissbier Dunkel",
+          "brewery": "Spaten-Franziskaner-Löwenbräu-Gruppe",
+          "url": "/b/spaten-franziskaner-lowenbrau-gruppe-franziskaner-premium-weissbier-dunkel/4519",
+          "rating": 3.58
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Späten 13° Späten - Mnichov",
+          "hits": []
+        },
+        {
+          "query": "Späten Späten - Mnichov",
+          "hits": []
+        },
+        {
+          "query": "Späten 13°",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "query": "Späten",
+          "hits": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/spaten-franziskaner-lowenbrau-gruppe-spaten-munchner-hell-premium-lager/1633",
+        "source": "llm"
       }
     },
     "beerstreet::Stadioner::Indianhead": {
@@ -12741,6 +12951,101 @@
         "reason": "no_candidates_above_threshold"
       }
     },
+    "toulavapipa::Mordýř::Summer ALE": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Mordýř",
+        "name": "Summer ALE",
+        "style": "Lehčí ale",
+        "degree_plato": null
+      },
+      "captured_at": "2026-09-18T17:00:33Z",
+      "candidates": [
+        {
+          "name": "Summer Ale",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-summer-ale/2146925",
+          "rating": 3.42
+        },
+        {
+          "name": "Bzučoun",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-bzucoun/3914139",
+          "rating": 3.38
+        },
+        {
+          "name": "Zelený Summer Ale",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-zeleny-summer-ale/6656908",
+          "rating": null
+        },
+        {
+          "name": "Summer Ale Chilli",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-summer-ale-chilli/3932496",
+          "rating": null
+        },
+        {
+          "name": "Mordy Bayside Summer Ale",
+          "brewery": "Albatross Brewing Company",
+          "url": "/b/albatross-brewing-company-mordy-bayside-summer-ale/1562629",
+          "rating": 3.03
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Summer ALE Mordýř",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mordyr-summer-ale/2146925",
+        "score": 1.0
+      }
+    },
+    "toulavapipa::Mordýř::West coast IPA": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Mordýř",
+        "name": "West coast IPA",
+        "style": "IPA",
+        "degree_plato": null
+      },
+      "captured_at": "2026-09-18T17:00:33Z",
+      "candidates": [
+        {
+          "name": "Jistota 14° West Coast IPA",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-jistota-14-deg-west-coast-ipa/6636997",
+          "rating": 3.57
+        },
+        {
+          "name": "West Coast IPA 14",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-west-coast-ipa-14/6584762",
+          "rating": 3.71
+        }
+      ],
+      "attempts": [
+        {
+          "query": "West coast IPA Mordýř",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mordyr-west-coast-ipa-14/6584762",
+        "score": 1.0
+      }
+    },
     "toulavapipa::Mordýř::kurtizána": {
       "beer": {
         "source": "toulavapipa",
@@ -16112,6 +16417,76 @@
         "score": 1.0
       }
     },
+    "uzamastilu::Pioneer Beer::Hopline N.Zealand": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Pioneer Beer",
+        "name": "Hopline N.Zealand",
+        "style": "Ale",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-09-18T17:00:53Z",
+      "candidates": [
+        {
+          "name": "New Zealand Wheelie",
+          "brewery": "Hampline Brewing Company",
+          "url": "/b/hampline-brewing-company-new-zealand-wheelie/4355223",
+          "rating": 3.83
+        },
+        {
+          "name": "Wai-Iti - New Zealand Series",
+          "brewery": "HopSin Craft Beer",
+          "url": "/b/hopsin-craft-beer-wai-iti-new-zealand-series/6691673",
+          "rating": 4.0
+        },
+        {
+          "name": "Motueka New Zealand Series",
+          "brewery": "HopSin Craft Beer",
+          "url": "/b/hopsin-craft-beer-motueka-new-zealand-series/6691670",
+          "rating": 3.92
+        },
+        {
+          "name": "Nectaron - New Zealand Séries",
+          "brewery": "HopSin Craft Beer",
+          "url": "/b/hopsin-craft-beer-nectaron-new-zealand-series/6657511",
+          "rating": 3.85
+        },
+        {
+          "name": "JAFA New Zealand Lager",
+          "brewery": "Rail Hop'n Brewing Company",
+          "url": "/b/rail-hop-n-brewing-company-jafa-new-zealand-lager/5465589",
+          "rating": 3.69
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Hopline N.Zealand 12° Pioneer Beer",
+          "hits": []
+        },
+        {
+          "query": "Hopline N.Zealand Pioneer Beer",
+          "hits": []
+        },
+        {
+          "query": "Hopline N.Zealand 12°",
+          "hits": []
+        },
+        {
+          "query": "Hopline N.Zealand",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
     "uzamastilu::Pioneer Beer::Malina-Ostružina": {
       "beer": {
         "source": "uzamastilu",
@@ -17010,6 +17385,39 @@
       "outcome": {
         "matched": "/b/zlata-krava-11-farm-apa/2984687",
         "score": 1.0
+      }
+    },
+    "uzamastilu::Zlatá Kráva::Voodoo #7 Cryo": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Zlatá Kráva",
+        "name": "Voodoo #7 Cryo",
+        "style": "NEIPA",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-09-18T17:00:42Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Voodoo #7 Cryo 13° Zlatá Kráva",
+          "hits": []
+        },
+        {
+          "query": "Voodoo #7 Cryo Zlatá Kráva",
+          "hits": []
+        },
+        {
+          "query": "Voodoo #7 Cryo 13°",
+          "hits": []
+        },
+        {
+          "query": "Voodoo #7 Cryo",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "uzamastilu::Záhora::New Zealand": {

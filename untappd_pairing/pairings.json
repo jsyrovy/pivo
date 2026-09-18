@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-18T00:00:44Z",
+  "generated_at": "2026-09-18T17:01:10Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -1632,6 +1632,16 @@
       "query_used": "<llm>",
       "description": "Světlý festbier s plným tělem a vyšší plností díky 13,7° a 6,3 % alkoholu. Čistý sladový základ s jemným chmelem, lehce kořenitým aroma a přirozeně hořkým dozvukem, typický pro bavorské oslavovací pivo."
     },
+    "beerstreet::Hofbräu - Mnichov::Original Hofbräu": {
+      "untappd_url": "https://untappd.com/b/staatliches-hofbrauhaus-munchen-hofbrau-original/38001",
+      "untappd_name": "Hofbräu Original",
+      "untappd_brewery": "Staatliches Hofbräuhaus München",
+      "rating": 3.55,
+      "match_score": 0.9285714285714286,
+      "matched_at": "2026-09-18T17:00:26Z",
+      "query_used": "<llm>",
+      "description": "Klasický mnichovský Helles: sladový základ s jemnou chmelovou hořkostí, středně plné tělo a čisté, vyvážené chuti spodně kvašeného ležáku."
+    },
     "beerstreet::Hoppy Dog::Lassie": {
       "untappd_url": "https://untappd.com/b/pivovar-hoppydog-lassie/3829752",
       "untappd_name": "Lassie",
@@ -1778,6 +1788,16 @@
       "match_score": 0.2143,
       "matched_at": "2026-05-27T07:22:53Z",
       "query_used": "Pomeranč + skořice Klenot"
+    },
+    "beerstreet::Klenot::Pomeranč - skořice": {
+      "untappd_url": "https://untappd.com/b/hradecky-klenot-sour-ale-orange-and-cinnamon/5361488",
+      "untappd_name": "Sour ALE– Orange & Cinnamon",
+      "untappd_brewery": "Hradecký Klenot",
+      "rating": 3.89,
+      "match_score": 0.2143,
+      "matched_at": "2026-09-18T17:00:28Z",
+      "query_used": "Pomeranč - skořice Klenot",
+      "description": "Kyselé svrchně kvašené pivo s lehkým tělem a nižším obsahem alkoholu; pomeranč přidává citrusovou sladkost a skořice teplé kořenité tóny, které doplňují ovocnou kyselost. Nadprůměrně hodnocené."
     },
     "beerstreet::Klenot::Rhapsody of fog": {
       "untappd_url": "https://untappd.com/b/hradecky-klenot-rhapsony-od-fog/6822491",
@@ -2450,6 +2470,16 @@
       "matched_at": "2026-08-20T17:34:41Z",
       "query_used": "Modus Sibeeria",
       "description": "Modus je klasický český ležák s mírně sladkým tělem, jemnou chmelovou hořkostí a čistým, mírně ovocným aroma typickým pro pilsner. Hodnocení na Untappd je nadprůměrné."
+    },
+    "beerstreet::Späten - Mnichov::Späten": {
+      "untappd_url": "https://untappd.com/b/spaten-franziskaner-lowenbrau-gruppe-spaten-munchner-hell-premium-lager/1633",
+      "untappd_name": "Spaten Münchner Hell / Premium Lager",
+      "untappd_brewery": "Spaten-Franziskaner-Löwenbräu-Gruppe",
+      "rating": 3.39,
+      "match_score": 1.0,
+      "matched_at": "2026-09-18T17:00:11Z",
+      "query_used": "<llm>",
+      "description": "Světlý spodně kvašený ležák ve stylu Festbier s plnějším, sladovějším tělem a jemnou chmelovou hořkostí, která je vyvážená a čistá."
     },
     "beerstreet::Sqbru::Sůl12 - Chilliout": {
       "untappd_url": "https://untappd.com/b/sqbru-skju-bru-sul12-chilliout/6607628",
@@ -3393,6 +3423,26 @@
       "matched_at": "2026-09-14T18:27:50Z",
       "query_used": "SVATOVÁCLAVSKÝ LEŽÁK Mordýř",
       "description": "Světlý ležák s žitem: sladový základ s jemnou chmelovou hořkostí, doplněný o obilnou plnost a lehce kořenitý charakter ze žita, spodně kvašený a vyvážený v chuti. Blues Hop přidává jemné květinové a bylinné tóny s nádechem tmavého ovoce."
+    },
+    "toulavapipa::Mordýř::Summer ALE": {
+      "untappd_url": "https://untappd.com/b/pivovar-mordyr-summer-ale/2146925",
+      "untappd_name": "Summer Ale",
+      "untappd_brewery": "Pivovar Mordýř",
+      "rating": 3.42,
+      "match_score": 1.0,
+      "matched_at": "2026-09-18T17:00:33Z",
+      "query_used": "Summer ALE Mordýř",
+      "description": "Lehké svrchně kvašené pivo s jemnou sladovou základnou a jemnou chmelovou hořkostí, osvěžující a pitelné."
+    },
+    "toulavapipa::Mordýř::West coast IPA": {
+      "untappd_url": "https://untappd.com/b/pivovar-mordyr-west-coast-ipa-14/6584762",
+      "untappd_name": "West Coast IPA 14",
+      "untappd_brewery": "Pivovar Mordýř",
+      "rating": 3.71,
+      "match_score": 1.0,
+      "matched_at": "2026-09-18T17:00:33Z",
+      "query_used": "West coast IPA Mordýř",
+      "description": "West coast IPA s výraznou chmelovou hořkostí, citrusovým a pryskyřičným aroma a suchým závěrem typickým pro západní pobřeží USA. Středně plné tělo s důrazem na chmelovou charakteristiku nad sladovou základnou."
     },
     "toulavapipa::Mordýř::kurtizána": {
       "untappd_url": "https://untappd.com/b/pivovar-mordyr-kurtizana/704889",
@@ -4495,6 +4545,11 @@
       "last_tried_at": "2026-08-28T22:58:35Z",
       "reason": "no_candidates_above_threshold"
     },
+    "uzamastilu::Pioneer Beer::Hopline N.Zealand": {
+      "attempts": 1,
+      "last_tried_at": "2026-09-18T17:00:53Z",
+      "reason": "no_candidates_above_threshold"
+    },
     "uzamastilu::Rhap-Nectaron Čestmír::Stereo Lab": {
       "attempts": 1,
       "last_tried_at": "2026-08-27T22:53:52Z",
@@ -4508,6 +4563,11 @@
     "uzamastilu::Volt::Hromosvod Gose Malina": {
       "attempts": 1,
       "last_tried_at": "2026-09-10T19:31:45Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "uzamastilu::Zlatá Kráva::Voodoo #7 Cryo": {
+      "attempts": 1,
+      "last_tried_at": "2026-09-18T17:00:42Z",
       "reason": "no_candidates_above_threshold"
     }
   }
