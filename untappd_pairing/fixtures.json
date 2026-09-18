@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-18T17:01:10Z",
+  "generated_at": "2026-09-18T19:32:53Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -1134,6 +1134,40 @@
       "outcome": {
         "matched": "/b/pivovar-hoppydog-rafan/2658169",
         "source": "llm"
+      }
+    },
+    "ambasada::HoppyDog, Ostrava::Karelian": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "HoppyDog, Ostrava",
+        "name": "Karelian",
+        "style": "Cold IPA",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-09-18T19:32:29Z",
+      "candidates": [
+        {
+          "name": "Karelian",
+          "brewery": "Pivovar HoppyDog",
+          "url": "/b/pivovar-hoppydog-karelian/6852210",
+          "rating": 3.77
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Karelian 13° HoppyDog",
+          "hits": []
+        },
+        {
+          "query": "Karelian HoppyDog",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-hoppydog-karelian/6852210",
+        "score": 1.0
       }
     },
     "ambasada::HoppyDog, Ostrava::Mallinois Double Red": {
@@ -4684,6 +4718,40 @@
       "outcome": {
         "matched": null,
         "reason": "no_candidates_above_threshold"
+      }
+    },
+    "beerstreet::Ayinger::Ayinger Pils": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Ayinger",
+        "name": "Ayinger Pils",
+        "style": "Bairisch pils",
+        "degree_plato": 11.8
+      },
+      "captured_at": "2026-09-18T19:32:27Z",
+      "candidates": [
+        {
+          "name": "Bairisch / Bavarian Pils",
+          "brewery": "Ayinger Privatbrauerei",
+          "url": "/b/ayinger-privatbrauerei-ayinger-bairisch-bavarian-pils/87339",
+          "rating": 3.59
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Ayinger Pils 11° Ayinger",
+          "hits": []
+        },
+        {
+          "query": "Ayinger Pils Ayinger",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/ayinger-privatbrauerei-ayinger-bairisch-bavarian-pils/87339",
+        "score": 0.3
       }
     },
     "beerstreet::Brewnicorn::Cryomotion": {
@@ -15623,6 +15691,40 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-mazak-rhapsody-modern-ipa-14/6856690",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Mazák::Saaz Shine": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Mazák",
+        "name": "Saaz Shine",
+        "style": "Ležák",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-09-18T19:32:29Z",
+      "candidates": [
+        {
+          "name": "Saaz Shine",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-saaz-shine/5681778",
+          "rating": 3.62
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Saaz Shine 12° Mazák",
+          "hits": []
+        },
+        {
+          "query": "Saaz Shine Mazák",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mazak-saaz-shine/5681778",
         "score": 1.0
       }
     },

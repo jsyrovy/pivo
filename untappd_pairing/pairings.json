@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-18T17:01:10Z",
+  "generated_at": "2026-09-18T19:32:53Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -340,6 +340,16 @@
       "match_score": 1.0,
       "matched_at": "2026-06-11T22:06:13Z",
       "query_used": "<llm>"
+    },
+    "ambasada::HoppyDog, Ostrava::Karelian": {
+      "untappd_url": "https://untappd.com/b/pivovar-hoppydog-karelian/6852210",
+      "untappd_name": "Karelian",
+      "untappd_brewery": "Pivovar HoppyDog",
+      "rating": 3.77,
+      "match_score": 1.0,
+      "matched_at": "2026-09-18T19:32:29Z",
+      "query_used": "Karelian HoppyDog",
+      "description": "Cold IPA s vyšší stupňovitostí a středním alkoholem nabízí výraznou chmelovou hořkost, čisté a suché tělo díky kvašení při nižších teplotách, s aromatem typickým pro americké chmely — citrusové, pryskyřičné a tropické tóny. Spodní kvašení přináší větší čistotu a pitelnost oproti klasické IPA."
     },
     "ambasada::HoppyDog, Ostrava::Mallinois Double Red": {
       "untappd_url": "https://untappd.com/b/pivovar-hoppydog-malinois-double-red/6821310",
@@ -1373,6 +1383,16 @@
       "match_score": 1.0,
       "matched_at": "2026-07-15T14:57:14Z",
       "query_used": "The FiRsT 11° Avar"
+    },
+    "beerstreet::Ayinger::Ayinger Pils": {
+      "untappd_url": "https://untappd.com/b/ayinger-privatbrauerei-ayinger-bairisch-bavarian-pils/87339",
+      "untappd_name": "Bairisch / Bavarian Pils",
+      "untappd_brewery": "Ayinger Privatbrauerei",
+      "rating": 3.59,
+      "match_score": 0.3,
+      "matched_at": "2026-09-18T19:32:27Z",
+      "query_used": "Ayinger Pils Ayinger",
+      "description": "Klasický bavorský pils: sladový základ s jemnou chmelovou hořkostí, středně plné tělo a čistý, suchý závěr typický pro spodně kvašený ležák. 5,3 % alkoholu dodává plnější charakter než u standardních ležáků, zatímco hodnocení 3,59 zůstává v průměrném rozmezí a není dále zmiňováno."
     },
     "beerstreet::Brewnicorn::Cryomotion": {
       "untappd_url": "https://untappd.com/b/brewnicorn-cryomotion/6734149",
@@ -3952,6 +3972,16 @@
       "matched_at": "2026-09-13T22:15:42Z",
       "query_used": "Rhapsody 14° Mazák",
       "description": "Moderní IPA s vyšší stupňovitostí nabízí intenzivní chmelové aroma s tóny tropického ovoce, citrusů a pryskyřice, podpořené sladovým základem střední až plnější těla. Hořkost je patrná, vyvážená sladovou složkou, typická pro moderní pojetí stylu."
+    },
+    "uzamastilu::Mazák::Saaz Shine": {
+      "untappd_url": "https://untappd.com/b/pivovar-mazak-saaz-shine/5681778",
+      "untappd_name": "Saaz Shine",
+      "untappd_brewery": "Pivovar Mazák",
+      "rating": 3.62,
+      "match_score": 1.0,
+      "matched_at": "2026-09-18T19:32:29Z",
+      "query_used": "Saaz Shine Mazák",
+      "description": "Klasický ležák s jasným chmelem a jemnou hořkostí, sladovým základem a čistým, osvěžujícím chutní profilem."
     },
     "uzamastilu::Mazák::Taiheke IPL": {
       "untappd_url": "https://untappd.com/b/pivovar-mazak-taiheke-ipl-11/6849701",
