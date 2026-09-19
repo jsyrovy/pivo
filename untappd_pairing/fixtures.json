@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-18T22:25:10Z",
+  "generated_at": "2026-09-19T16:19:52Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -7535,6 +7535,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-louka-session-cryo-11/5478053",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Loutkař::Amarilka": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Loutkař",
+        "name": "Amarilka",
+        "style": "Smash ale",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-09-19T16:19:40Z",
+      "candidates": [
+        {
+          "name": "Amarilka 11 Single Hop Ale",
+          "brewery": "Pivovar Loutkář",
+          "url": "/b/pivovar-loutkar-amarilka-11-single-hop-ale/4446698",
+          "rating": 3.41
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Amarilka 11° Loutkař",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-loutkar-amarilka-11-single-hop-ale/4446698",
         "score": 1.0
       }
     },
