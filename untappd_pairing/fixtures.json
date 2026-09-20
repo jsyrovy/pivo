@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-20T16:43:50Z",
+  "generated_at": "2026-09-20T19:19:02Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -14674,6 +14674,40 @@
         "score": 1.0
       }
     },
+    "uzamastilu::Chroust::Kiwi v mlze": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Chroust",
+        "name": "Kiwi v mlze",
+        "style": "NEIPA",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-09-20T19:19:00Z",
+      "candidates": [
+        {
+          "name": "Kiwi V Mlze",
+          "brewery": "Chroust",
+          "url": "/b/chroust-kiwi-v-mlze/6854098",
+          "rating": 3.8
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Kiwi v mlze 12° Chroust",
+          "hits": []
+        },
+        {
+          "query": "Kiwi v mlze Chroust",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/chroust-kiwi-v-mlze/6854098",
+        "score": 1.0
+      }
+    },
     "uzamastilu::Clock::Hex": {
       "beer": {
         "source": "uzamastilu",
@@ -14902,6 +14936,55 @@
       "outcome": {
         "matched": "/b/haksna-brewery-step-by-step/6853283",
         "score": 1.0
+      }
+    },
+    "uzamastilu::Hoppydog::Karelian Cold": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Hoppydog",
+        "name": "Karelian Cold",
+        "style": "IPA",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-09-20T19:18:53Z",
+      "candidates": [
+        {
+          "name": "Cold IPA",
+          "brewery": "Pivo Karlín",
+          "url": "/b/pivo-karlin-cold-ipa/5688716",
+          "rating": 3.49
+        },
+        {
+          "name": "Karenina Karaiba",
+          "brewery": "Colfax Ale Cellar",
+          "url": "/b/colfax-ale-cellar-karenina-karaiba/2730813",
+          "rating": 3.72
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Karelian Cold 13° Hoppydog",
+          "hits": []
+        },
+        {
+          "query": "Karelian Cold Hoppydog",
+          "hits": []
+        },
+        {
+          "query": "Karelian Cold 13°",
+          "hits": []
+        },
+        {
+          "query": "Karelian Cold",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "uzamastilu::Hřebec::Ležák": {
