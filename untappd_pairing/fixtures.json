@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-19T22:15:33Z",
+  "generated_at": "2026-09-20T16:43:50Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -2544,6 +2544,47 @@
       ],
       "outcome": {
         "matched": "/b/nachmelena-opice-sun-apa-12/1558059",
+        "score": 1.0
+      }
+    },
+    "ambasada::Obora, Malšice::California": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Obora, Malšice",
+        "name": "California",
+        "style": "Session IPA",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-09-20T16:43:48Z",
+      "candidates": [
+        {
+          "name": "California Session IPA",
+          "brewery": "Pivovar Obora",
+          "url": "/b/pivovar-obora-california-session-ipa/5767894",
+          "rating": 3.65
+        },
+        {
+          "name": "Mighty California IPA",
+          "brewery": "Pivovar Obora",
+          "url": "/b/pivovar-obora-mighty-california-ipa/5895451",
+          "rating": 3.68
+        }
+      ],
+      "attempts": [
+        {
+          "query": "California 12° Obora",
+          "hits": []
+        },
+        {
+          "query": "California Obora",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-obora-california-session-ipa/5767894",
         "score": 1.0
       }
     },
