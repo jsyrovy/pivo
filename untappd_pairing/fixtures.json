@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-20T22:18:31Z",
+  "generated_at": "2026-09-21T18:34:12Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -15815,6 +15815,43 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-mazak-cryo-riwaka-12/6832732",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Mazák::Extra Hořká": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Mazák",
+        "name": "Extra Hořká",
+        "style": "Ležák",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-09-21T18:34:10Z",
+      "candidates": [
+        {
+          "name": "Extra hořká 11°",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-extra-horka-11-deg/792388",
+          "rating": 3.52
+        },
+        {
+          "name": "Extra hořká 11 za studena chmelená",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-eho-11-deg-chmelena-za-studena/6616906",
+          "rating": 3.7
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Extra Hořká 11° Mazák",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mazak-extra-horka-11-deg/792388",
         "score": 1.0
       }
     },

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-20T22:18:31Z",
+  "generated_at": "2026-09-21T18:34:12Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -3992,6 +3992,16 @@
       "matched_at": "2026-08-21T15:38:28Z",
       "query_used": "Cryo Riwaka 12° Mazák",
       "description": "Silně chmelený APA s aromatem tropického ovoce a jemnou hořkostí, středně plné tělo a suchý závěr."
+    },
+    "uzamastilu::Mazák::Extra Hořká": {
+      "untappd_url": "https://untappd.com/b/pivovar-mazak-extra-horka-11-deg/792388",
+      "untappd_name": "Extra hořká 11°",
+      "untappd_brewery": "Pivovar Mazák",
+      "rating": 3.52,
+      "match_score": 1.0,
+      "matched_at": "2026-09-21T18:34:10Z",
+      "query_used": "Extra Hořká 11° Mazák",
+      "description": "Klasický český ležák s plnějším tělem díky 11° stupňovitosti, výraznější chmelovou hořkostí a sladovým základem, spodně kvašený a vyvážený v chuti. Hodnocení 3,52 naznačuje nadprůměrnou kvalitu."
     },
     "uzamastilu::Mazák::Milford Sound": {
       "untappd_url": "https://untappd.com/b/pivovar-mazak-milford-sound-15/6849698",
