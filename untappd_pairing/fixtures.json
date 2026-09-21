@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-21T18:34:12Z",
+  "generated_at": "2026-09-21T22:32:00Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -3701,6 +3701,104 @@
       ],
       "outcome": {
         "matched": "/b/sibeeria-brewery-smoke-lady/6620632",
+        "source": "llm"
+      }
+    },
+    "ambasada::Van Honsebrouck, Ingelmunster, Západní Flandry::Kasteel Rouge": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Van Honsebrouck, Ingelmunster, Západní Flandry",
+        "name": "Kasteel Rouge",
+        "style": "Višňový belgian dark strong ale",
+        "degree_plato": 18.0
+      },
+      "captured_at": "2026-09-21T22:31:56Z",
+      "candidates": [
+        {
+          "name": "Kasteel Rouge",
+          "brewery": "Kasteel Brouwerij Vanhonsebrouck",
+          "url": "/b/kasteel-brouwerij-vanhonsebrouck-kasteel-rouge/6890",
+          "rating": 3.59
+        },
+        {
+          "name": "Kasteel Rouge 0.0",
+          "brewery": "Kasteel Brouwerij Vanhonsebrouck",
+          "url": "/b/kasteel-brouwerij-vanhonsebrouck-kasteel-rouge-0-0/5773823",
+          "rating": 3.37
+        },
+        {
+          "name": "Kasteel Nitro Rouge",
+          "brewery": "Kasteel Brouwerij Vanhonsebrouck",
+          "url": "/b/kasteel-brouwerij-vanhonsebrouck-kasteel-nitro-rouge/4157840",
+          "rating": 3.39
+        },
+        {
+          "name": "Rouge 7",
+          "brewery": "Kasteel Brouwerij Vanhonsebrouck",
+          "url": "/b/kasteel-brouwerij-vanhonsebrouck-rouge-7/6070759",
+          "rating": 3.91
+        },
+        {
+          "name": "Kasteel Rouge (2016)",
+          "brewery": "Kasteel Brouwerij Vanhonsebrouck",
+          "url": "/b/kasteel-brouwerij-vanhonsebrouck-kasteel-rouge-2016/6640541",
+          "rating": 3.79
+        },
+        {
+          "name": "KASTEEL VAN BEERSEL ROUGE",
+          "brewery": "Vasileostrovskaya Brewery (Василеостровская Пивоварня)",
+          "url": "/b/vasileostrovskaya-brewery-vasileostrovskaya-pivovarnya-kasteel-van-beersel-rouge/6282736",
+          "rating": 3.45
+        },
+        {
+          "name": "Imperial Stout 20 – Port Wine Barrel Aged + Brett + Sour Cherries + Oak Aged Kasteel Rouge",
+          "brewery": "Rodinný pivovar Zichovec",
+          "url": "/b/rodinny-pivovar-zichovec-imperial-stout-20-port-wine-barrel-aged-brett-sour-cherries-oak-aged-kasteel-rouge/3348636",
+          "rating": 4.08
+        },
+        {
+          "name": "Kasteel Rouge",
+          "brewery": "Marz Community Brewing Co.",
+          "url": "/b/marz-community-brewing-co-kasteel-rouge/6296046",
+          "rating": 3.95
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Kasteel Rouge 18° Van Honsebrouck",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Kasteel Rouge Van Honsebrouck",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "query": "Kasteel Rouge 18°",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Kasteel Rouge",
+          "hits": [
+            0,
+            1,
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/kasteel-brouwerij-vanhonsebrouck-kasteel-rouge/6890",
         "source": "llm"
       }
     },
