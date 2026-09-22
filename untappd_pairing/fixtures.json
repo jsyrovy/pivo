@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-22T17:35:52Z",
+  "generated_at": "2026-09-22T21:06:24Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -3863,6 +3863,40 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-vik-lost-in-c-hops/6827322",
+        "score": 1.0
+      }
+    },
+    "ambasada::Volt, Jablonec nad Nisou::Adaptér": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Volt, Jablonec nad Nisou",
+        "name": "Adaptér",
+        "style": "APA",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-09-22T21:06:23Z",
+      "candidates": [
+        {
+          "name": "Adaptér",
+          "brewery": "Pivovar Volt",
+          "url": "/b/pivovar-volt-adapter/3760260",
+          "rating": 3.53
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Adaptér 11° Volt",
+          "hits": []
+        },
+        {
+          "query": "Adaptér Volt",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-volt-adapter/3760260",
         "score": 1.0
       }
     },

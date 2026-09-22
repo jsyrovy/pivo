@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-22T17:35:52Z",
+  "generated_at": "2026-09-22T21:06:24Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -1152,6 +1152,16 @@
       "match_score": 1.0,
       "matched_at": "2026-05-06T20:19:48Z",
       "query_used": "Confluence Vik/Fauve"
+    },
+    "ambasada::Volt, Jablonec nad Nisou::Adaptér": {
+      "untappd_url": "https://untappd.com/b/pivovar-volt-adapter/3760260",
+      "untappd_name": "Adaptér",
+      "untappd_brewery": "Pivovar Volt",
+      "rating": 3.53,
+      "match_score": 1.0,
+      "matched_at": "2026-09-22T21:06:23Z",
+      "query_used": "Adaptér Volt",
+      "description": "Klasická americká pale ale se sladovým základem, střední hořkostí a citrusovo-květinovým chmelovým aroma, středně plné tělo a vyvážený profil. Hodnocení 3,53 naznačuje průměrnou až mírně nadprůměrnou přijatelnost."
     },
     "ambasada::Volt, Jablonec nad Nisou::Ampér": {
       "untappd_url": "https://untappd.com/b/pivovar-volt-amper-agnus/5209185",
