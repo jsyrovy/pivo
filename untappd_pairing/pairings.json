@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-21T22:32:00Z",
+  "generated_at": "2026-09-22T17:35:52Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -720,6 +720,16 @@
       "matched_at": "2026-04-18T19:39:21Z",
       "query_used": "Sametová Mordýř"
     },
+    "ambasada::Mordýř, Dolní Ředice::Svatováclavská": {
+      "untappd_url": "https://untappd.com/b/pivovar-mordyr-svatovaclavska-12/2864744",
+      "untappd_name": "Svatováclavská 12",
+      "untappd_brewery": "Pivovar Mordýř",
+      "rating": 3.6,
+      "match_score": 1.0,
+      "matched_at": "2026-09-22T17:35:19Z",
+      "query_used": "Svatováclavská 12° Mordýř",
+      "description": "Světlý ležák s plnějším tělem a vyšší stupňovitostí nabízí vyvážený sladový základ s jemnou chmelovou hořkostí a čistým, dobře pitelným profilem typickým pro českou tradici. Spodní kvašení zajišťuje hladkou a osvěžující chuť s mírně nasládlým dozníváním."
+    },
     "ambasada::Nachmelená Opice, Krnov::Sun APA": {
       "untappd_url": "https://untappd.com/b/nachmelena-opice-sun-apa-12/1558059",
       "untappd_name": "Sun APA 12%",
@@ -1171,6 +1181,16 @@
       "query_used": "Krvavý Pomeranč Volt",
       "description": "Krvavý Pomeranč Gose od Pivovaru Volt je ovocný gose s 5 % alkoholu a 12° stupňovitosti, který nabízí osvěžující kyselou rovnováhu a lehkou ovocnou charakteristiku."
     },
+    "ambasada::Volt, Jablonec nad Nisou::Reaktor": {
+      "untappd_url": "https://untappd.com/b/pivovar-volt-reaktor/5625605",
+      "untappd_name": "Reaktor",
+      "untappd_brewery": "Pivovar Volt",
+      "rating": 3.73,
+      "match_score": 1.0,
+      "matched_at": "2026-09-22T17:35:22Z",
+      "query_used": "Reaktor Volt",
+      "description": "Silně chmelená brut IPA s výraznou hořkostí, suchým a čistým závěrem a plným, ale přesto lehkým tělem. Vysoká stupňovitost a alkohol dávají pivo silnou základnu, přičemž dvojité suché luštění (DDH) přináší intenzivní, multi-dimenzionální chmelové aroma a chuť."
+    },
     "ambasada::Wagner, Merkendorf::Wagner Weisse": {
       "untappd_url": "https://untappd.com/b/brauerei-wagner-merkendorf-wagner-weisse/170390",
       "untappd_name": "Wagner Weisse",
@@ -1492,6 +1512,16 @@
       "matched_at": "2026-05-29T20:32:53Z",
       "query_used": "Extra Extra Chroust"
     },
+    "beerstreet::Chroust::Ostružinový kompot": {
+      "untappd_url": "https://untappd.com/b/chroust-ostruzinovy-kompot/6847743",
+      "untappd_name": "Ostružinový Kompot",
+      "untappd_brewery": "Chroust",
+      "rating": 3.66,
+      "match_score": 1.0,
+      "matched_at": "2026-09-22T17:35:15Z",
+      "query_used": "Ostružinový kompot Chroust",
+      "description": "Kyselé svrchně kvašené pivo s ostrou ovocnou kyselinkou a lehkým tělem; ostružiny přidávají tmavě bobulový, sladkokyselý tón, který doplňuje přirozenou kyselost základny. Střední plnost odpovídá 11° stupňovitosti a 4,7 % alkoholu."
+    },
     "beerstreet::Chroust::Pineapple": {
       "untappd_url": "https://untappd.com/b/chroust-pineapple-milkshake-ipa/6675190",
       "untappd_name": "Pineapple Milkshake IPA",
@@ -1810,6 +1840,16 @@
       "match_score": 0.3636,
       "matched_at": "2026-06-02T21:52:33Z",
       "query_used": "Mango + broskev Klenot"
+    },
+    "beerstreet::Klenot::Nefiltrovaný ležák": {
+      "untappd_url": "https://untappd.com/b/hradecky-klenot-klenot-12-nefiltrovany/2344572",
+      "untappd_name": "Klenot 12 nefiltrovaný",
+      "untappd_brewery": "Hradecký Klenot",
+      "rating": 3.32,
+      "match_score": 0.75,
+      "matched_at": "2026-09-22T17:34:51Z",
+      "query_used": "Nefiltrovaný ležák 12° Klenot",
+      "description": "Nefiltrovaný světlý ležák: plnější tělo díky vyšší stupňovitosti, sladový základ s jemnou chmelovou hořkostí a jemným zákalem od kvasnic, typický pro nefiltrovanou verzi spodně kvašeného piva. Hodnocení na Untappd podprůměrné."
     },
     "beerstreet::Klenot::Orange & cinnamon": {
       "untappd_url": "https://untappd.com/b/hradecky-klenot-sour-ale-orange-cinnamon/5361488",
@@ -2212,6 +2252,16 @@
       "matched_at": "2026-09-17T17:33:52Z",
       "query_used": "<llm>",
       "description": "Festbier helles je sladově vyvážené spodně kvašené pivo s plnějším tělem a jemnou chmelovou hořkostí, typické pro mnichovské slavnostní ležáky. Při 13,7° a 6,1 % ABV nabízí intenzivnější sladový charakter s medovými a chlebovými tóny, doplněný čistým, lehce kořenitým dozvukem. Hodnocení 3,19 naznačuje podprůměrné přij…"
+    },
+    "beerstreet::Matuška::Matuška": {
+      "untappd_url": "https://untappd.com/b/pivovar-matuska-california-12-deg/201399",
+      "untappd_name": "California 12°",
+      "untappd_brewery": "Pivovar Matuška",
+      "rating": 3.63,
+      "match_score": 0.0,
+      "matched_at": "2026-09-22T17:35:11Z",
+      "query_used": "Matuška 12° Matuška",
+      "description": "Klasický světlý ležák: sladový základ s jemnou chmelovou hořkostí, středně plné tělo a čistá, vyvážená chuť typická pro spodně kvašené pivo. Stupňovitost 12° a 5,1 % ABV naznačují plnější profil než u desítky, ale stále pitný a osvěžující charakter."
     },
     "beerstreet::Mazák::Bojanowitz": {
       "untappd_url": "https://untappd.com/b/pivovar-mazak-bojanowitz/2028526",
@@ -2651,6 +2701,16 @@
       "match_score": 1.0,
       "matched_at": "2026-05-09T19:56:18Z",
       "query_used": "Stammtisch Hugo Thrills"
+    },
+    "beerstreet::Trojan::Lekárníkova": {
+      "untappd_url": "https://untappd.com/b/pivovar-trojan-telc-lekarnikova-jedenactka-na-stojaka/2471922",
+      "untappd_name": "Lékárníkova jedenáctka Na stojáka",
+      "untappd_brewery": "Pivovar Trojan Telč",
+      "rating": 3.45,
+      "match_score": 1.0,
+      "matched_at": "2026-09-22T17:34:53Z",
+      "query_used": "Lekárníkova 11° Trojan",
+      "description": "Klasický světlý ležák: středně plný sladový základ, čistá sladová chuť, vyvážená chmelová hořkost a suchý závěr."
     },
     "beerstreet::Trojan::Lékárníkova": {
       "untappd_url": "https://untappd.com/b/pivovar-trojan-telc-lekarnikova-jedenactka-na-stojaka/2471922",

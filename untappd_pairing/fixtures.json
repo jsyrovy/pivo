@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-21T22:32:00Z",
+  "generated_at": "2026-09-22T17:35:52Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -2517,6 +2517,36 @@
         "score": 1.0
       }
     },
+    "ambasada::Mordýř, Dolní Ředice::Svatováclavská": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Mordýř, Dolní Ředice",
+        "name": "Svatováclavská",
+        "style": "Světlý ležák",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-09-22T17:35:19Z",
+      "candidates": [
+        {
+          "name": "Svatováclavská 12",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-svatovaclavska-12/2864744",
+          "rating": 3.6
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Svatováclavská 12° Mordýř",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mordyr-svatovaclavska-12/2864744",
+        "score": 1.0
+      }
+    },
     "ambasada::Nachmelená Opice, Krnov::Sun APA": {
       "beer": {
         "source": "ambasada",
@@ -3930,6 +3960,40 @@
         "score": 1.0
       }
     },
+    "ambasada::Volt, Jablonec nad Nisou::Reaktor": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Volt, Jablonec nad Nisou",
+        "name": "Reaktor",
+        "style": "DDH brut IPA",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-09-22T17:35:22Z",
+      "candidates": [
+        {
+          "name": "Reaktor",
+          "brewery": "Pivovar Volt",
+          "url": "/b/pivovar-volt-reaktor/5625605",
+          "rating": 3.73
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Reaktor 13° Volt",
+          "hits": []
+        },
+        {
+          "query": "Reaktor Volt",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-volt-reaktor/5625605",
+        "score": 1.0
+      }
+    },
     "ambasada::Zichovec::Session Juicy Lucy": {
       "beer": {
         "source": "ambasada",
@@ -5190,6 +5254,40 @@
       ],
       "outcome": {
         "matched": "/b/chroust-extra-extra/6656532",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Chroust::Ostružinový kompot": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Chroust",
+        "name": "Ostružinový kompot",
+        "style": "Sour",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-09-22T17:35:15Z",
+      "candidates": [
+        {
+          "name": "Ostružinový Kompot",
+          "brewery": "Chroust",
+          "url": "/b/chroust-ostruzinovy-kompot/6847743",
+          "rating": 3.66
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Ostružinový kompot 11° Chroust",
+          "hits": []
+        },
+        {
+          "query": "Ostružinový kompot Chroust",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/chroust-ostruzinovy-kompot/6847743",
         "score": 1.0
       }
     },
@@ -6789,6 +6887,43 @@
         "score": 0.3636
       }
     },
+    "beerstreet::Klenot::Nefiltrovaný ležák": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Klenot",
+        "name": "Nefiltrovaný ležák",
+        "style": "Ležák světiý",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-09-22T17:34:51Z",
+      "candidates": [
+        {
+          "name": "Chilli 12",
+          "brewery": "Hradecký Klenot",
+          "url": "/b/hradecky-klenot-chilli-12/4953336",
+          "rating": 3.3
+        },
+        {
+          "name": "Klenot 12 nefiltrovaný",
+          "brewery": "Hradecký Klenot",
+          "url": "/b/hradecky-klenot-klenot-12-nefiltrovany/2344572",
+          "rating": 3.32
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Nefiltrovaný ležák 12° Klenot",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/hradecky-klenot-klenot-12-nefiltrovany/2344572",
+        "score": 0.75
+      }
+    },
     "beerstreet::Klenot::Pomeranč + skořice": {
       "beer": {
         "source": "beerstreet",
@@ -8202,6 +8337,64 @@
         "source": "llm"
       }
     },
+    "beerstreet::Matuška::Matuška": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Matuška",
+        "name": "Matuška",
+        "style": "Ležák světlý",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-09-22T17:35:11Z",
+      "candidates": [
+        {
+          "name": "California 12°",
+          "brewery": "Pivovar Matuška",
+          "url": "/b/pivovar-matuska-california-12-deg/201399",
+          "rating": 3.63
+        },
+        {
+          "name": "Dvanáctka",
+          "brewery": "Pivovar Matuška",
+          "url": "/b/pivovar-matuska-dvanactka/2440433",
+          "rating": 3.61
+        },
+        {
+          "name": "Summer Ale 12°",
+          "brewery": "Pivovar Matuška",
+          "url": "/b/pivovar-matuska-summer-ale-12-deg/716052",
+          "rating": 3.72
+        },
+        {
+          "name": "Broumy 12°",
+          "brewery": "Pivovar Matuška",
+          "url": "/b/pivovar-matuska-broumy-12-deg/3364768",
+          "rating": 3.61
+        },
+        {
+          "name": "Witbier 12°",
+          "brewery": "Pivovar Matuška",
+          "url": "/b/pivovar-matuska-witbier-12-deg/2224983",
+          "rating": 3.58
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Matuška 12° Matuška",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-matuska-california-12-deg/201399",
+        "score": 0.0
+      }
+    },
     "beerstreet::Mazák::Bojanowitz": {
       "beer": {
         "source": "beerstreet",
@@ -9596,6 +9789,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-thrills-brewing-house-ipa/4866277",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Trojan::Lekárníkova": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Trojan",
+        "name": "Lekárníkova",
+        "style": "Ležák světlý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-09-22T17:34:53Z",
+      "candidates": [
+        {
+          "name": "Lékárníkova jedenáctka Na stojáka",
+          "brewery": "Pivovar Trojan Telč",
+          "url": "/b/pivovar-trojan-telc-lekarnikova-jedenactka-na-stojaka/2471922",
+          "rating": 3.45
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Lekárníkova 11° Trojan",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-trojan-telc-lekarnikova-jedenactka-na-stojaka/2471922",
         "score": 1.0
       }
     },
