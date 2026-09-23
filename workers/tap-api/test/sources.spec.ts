@@ -115,6 +115,22 @@ describe("fetchMenu socket fallback", () => {
     expect(menu.beers.map((b) => b.styleCategory)).toEqual(["lezak", "ale", "dark"]);
   });
 
+  it("normalizes breweries on both fetch paths", async () => {
+    const direct = await fetchBeerStreetMenu({
+      fetchImpl: vi.fn(() => Promise.resolve(jsonResponse(200))),
+      socketFetch: vi.fn(),
+    });
+    const viaSocket = await fetchBeerStreetMenu({
+      fetchImpl: vi.fn(() => Promise.resolve(jsonResponse(403))),
+      socketFetch: vi.fn(() => Promise.resolve(jsonResponse(200))),
+    });
+
+    const expected = [[{ key: "pu", name: "PU" }], [{ key: "craft", name: "Craft" }], [{ key: "dark", name: "Dark" }]];
+    expect(direct.beers.map((b) => b.breweries)).toEqual(expected);
+    expect(viaSocket.beers.map((b) => b.breweries)).toEqual(expected);
+    expect(direct.beers.map((b) => b.brewery)).toEqual(["PU", "Craft", "Dark"]);
+  });
+
   it("surfaces a non-ok status returned by the socket fallback", async () => {
     const deps: FetchMenuDeps = {
       fetchImpl: vi.fn(() => Promise.resolve(jsonResponse(401))),

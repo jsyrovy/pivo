@@ -1,3 +1,4 @@
+import type { BreweryRef } from "./brewery";
 import type { StyleCategory } from "./style";
 
 export type Source = "beerstreet" | "ambasada" | "toulavapipa" | "lodotava" | "uzamastilu";
@@ -16,6 +17,8 @@ export interface PricingInfo {
 export interface Beer {
   name: string;
   brewery: string;
+  // Normalized from `brewery`, which stays raw: pairing keys are built from it.
+  breweries: BreweryRef[];
   style: string;
   styleCategory: StyleCategory;
   abv: number | null;
@@ -25,9 +28,9 @@ export interface Beer {
   pricing: PricingInfo | null;
 }
 
-// What a per-source parser produces. Categorizing the style is not the parsers' job -- `fetchMenu`
-// does it once for every source, so the style vocabulary stays in a single place.
-export type ParsedBeer = Omit<Beer, "styleCategory">;
+// What a per-source parser produces. Categorizing the style and normalizing the brewery is not the
+// parsers' job -- `fetchMenu` does it once for every source, so each vocabulary stays in one place.
+export type ParsedBeer = Omit<Beer, "styleCategory" | "breweries">;
 
 export interface MenuResponse {
   source: Source;
