@@ -1,15 +1,16 @@
+import { NON_ALPHANUMERIC } from "./style";
+
 export interface BreweryRef {
   key: string;
   name: string;
 }
 
-// Words that say "this is a brewery" rather than which one, so "Thrills Brewing" and "Kynšperský
-// pivovar" key the same as "Thrills" and "Kynšperský". Spelled without diacritics, because they are
-// matched after the key has lost them.
-const GENERIC_WORDS = new Set(["pivovar", "pivovarek", "brewery", "brewing", "brauerei", "piv"]);
+// Words that say "this is a brewery" rather than which one, so "Thrills Brewing", "Pioneer Beer" and
+// "Kynšperský pivovar" key the same as "Thrills", "Pioneer" and "Kynšperský". Spelled without
+// diacritics, because they are matched after the key has lost them.
+const GENERIC_WORDS = new Set(["pivovar", "pivovarek", "brewery", "brewing", "brauerei", "beer", "co", "piv"]);
 
 const DIACRITICS = /\p{M}+/gu;
-const NON_ALPHANUMERIC = /[^\p{L}\p{N}]+/gu;
 const PARENTHESIZED = /\([^)]*\)/g;
 const WHITESPACE = /\s+/g;
 const EMPTY_TAP = "-";
@@ -25,10 +26,8 @@ export const BREWERY_ALIASES: Record<string, BreweryRef[]> = {
   kynsperk: [ref("kynspersky", "Kynšperský")],
   kynsperknadohri: [ref("kynspersky", "Kynšperský")],
   kynsperskyzajic: [ref("kynspersky", "Kynšperský")],
-  pioneerbeer: [ref("pioneer", "Pioneer")],
   pionner: [ref("pioneer", "Pioneer")],
   rhapnectaroncestmir: [ref("cestmir", "Čestmír")],
-  salamaco: [ref("salama", "Salama")],
   unetice: [ref("uneticky", "Únětický")],
 };
 

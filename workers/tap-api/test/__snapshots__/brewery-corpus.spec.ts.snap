@@ -398,8 +398,10 @@ exports[`brewery corpus > groups every real brewery string by key 1`] = `
   "pioneer": {
     "Pioneer": [
       "Pioneer",
-      "Pioneer Beer",
       "Pionner",
+    ],
+    "Pioneer Beer": [
+      "Pioneer Beer",
     ],
   },
   "pivecka": {
@@ -454,7 +456,7 @@ exports[`brewery corpus > groups every real brewery string by key 1`] = `
     ],
   },
   "salama": {
-    "Salama": [
+    "Salama Brewing co.": [
       "Salama Brewing co., Finsko",
     ],
   },
