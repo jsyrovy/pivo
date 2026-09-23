@@ -180,6 +180,43 @@ describe("parseDescription", () => {
     });
   });
 
+  it("reads an ABV with a space after its decimal comma and no 'alc' (Juniper Dryad case)", () => {
+    // Left in, "6, 2%" split into "6" and "2% Sibeeria/..." and the brewery came out as
+    // "6, 2% Sibeeria/Čierny Kameň".
+    expect(parseDescription("6, 2% Sibeeria/Čierny Kameň, West coast IPA w/ juniper")).toEqual({
+      abv: 6.2,
+      brewery: "Sibeeria/Čierny Kameň",
+      style: "West coast IPA w/ juniper",
+    });
+  });
+
+  it("keeps the style out of the brewery when its keyword is not the first word (Kasteel case)", () => {
+    expect(
+      parseDescription(
+        "8% alc. piv. Van Honsebrouck, Ingelmunster, Západní Flandry, višňový Belgian Dark Strong ALE, 0,33l",
+      ),
+    ).toEqual({
+      abv: 8,
+      brewery: "Van Honsebrouck, Ingelmunster, Západní Flandry",
+      style: "višňový Belgian Dark Strong ALE",
+    });
+    expect(
+      parseDescription("7% alc piv. Van Honsebrouck, Ingelmunster, Západní Flandry, Tropical Fruit Ale, 0,25l"),
+    ).toEqual({
+      abv: 7,
+      brewery: "Van Honsebrouck, Ingelmunster, Západní Flandry",
+      style: "Tropical Fruit Ale",
+    });
+  });
+
+  it("drops the lone zero a volume with a spaced comma leaves behind (Ename case)", () => {
+    expect(parseDescription("5,5% alc. piv. Roman, Východní Flandry, Belgian Fruit Ale, 0, 33l")).toEqual({
+      abv: 5.5,
+      brewery: "Roman, Východní Flandry",
+      style: "Belgian Fruit Ale",
+    });
+  });
+
   it("leaves no style when the description is only a brewery and a volume", () => {
     expect(parseDescription("jablkohruškový 0,33l")).toEqual({
       abv: null,
