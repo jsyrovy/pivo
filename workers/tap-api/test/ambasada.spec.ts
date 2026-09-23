@@ -209,7 +209,7 @@ describe("parseDescription", () => {
     });
   });
 
-  it("drops the lone zero a volume with a spaced comma leaves behind (Ename case)", () => {
+  it("cuts a volume with a space after its decimal comma (Ename case)", () => {
     expect(parseDescription("5,5% alc. piv. Roman, Východní Flandry, Belgian Fruit Ale, 0, 33l")).toEqual({
       abv: 5.5,
       brewery: "Roman, Východní Flandry",

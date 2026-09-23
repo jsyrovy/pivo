@@ -1,9 +1,7 @@
 import type { ParsedBeer } from "../schema";
-import { uzamastiluPricing } from "../pricing";
+import { stripAbvPrefix, uzamastiluPricing } from "../pricing";
 import { extractStyleFromName, formatStyle, inferStyleFromDegree, splitLeadingStyle } from "../style";
 import { isObject, parseNumber, trimString } from "./json-utils";
-
-const ABV_PREFIX = /^\d+(?:[,.]\d+)?\s*%\s*(?:alc\b\.?\s*)?/i;
 
 interface RawBeer {
   order?: unknown;
@@ -46,7 +44,7 @@ function cleanName(value: unknown): string {
 
 // The upstream occasionally leaks the ABV into the brewery field too ("4.3% alc Loutkář").
 function cleanBrewery(value: unknown): string {
-  return trimString(value).replace(ABV_PREFIX, "");
+  return stripAbvPrefix(trimString(value)).rest;
 }
 
 function parseDegree(value: unknown): number | null {

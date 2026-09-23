@@ -1,5 +1,5 @@
 import type { ParsedBeer } from "../schema";
-import { ambasadaPricing, stripTrailingVolume } from "../pricing";
+import { ambasadaPricing, stripAbvPrefix, stripTrailingVolume } from "../pricing";
 import { STYLE_KEYWORDS, formatStyle } from "../style";
 
 interface PendingRow {
@@ -97,9 +97,6 @@ function buildBeer(row: PendingRow, order: number): ParsedBeer | null {
   };
 }
 
-const ABV_PREFIX = /^(\d+(?:[,.]\s*\d+)?)\s*%(?:\s*alc\b\.?)?(?!\s*alc)\s*/i;
-const TRAILING_ZERO = /,\s*0$/;
-
 // The whole part is searched, not just its opening words: a style can carry any number of
 // qualifiers before its core noun ("Rustical Wild Sour Ale"), and the length-capped fallback below
 // refuses exactly those longer styles, so a narrow window loses them entirely.
@@ -116,18 +113,10 @@ export function parseDescription(raw: string): {
   let desc = raw.trim();
   if (!desc) return { abv: null, brewery: "", style: "" };
 
-  let abv: number | null = null;
-  // Neither the abbreviation dot nor "alc" itself is reliable -- the menu has both "4,2% alc piv.
-  // Clock" and "6, 2% Sibeeria/...", with a space after the decimal comma. An unstripped ABV is worse
-  // here than a leftover volume: its decimal comma splits off a bare "4" as the first part, which is
-  // what the brewery is read from. The lookahead keeps "5% alcohol free" whole rather than reading it
-  // as an ABV followed by an "alcohol free" brewery.
-  const abvMatch = desc.match(ABV_PREFIX);
-  if (abvMatch) {
-    const n = Number.parseFloat(abvMatch[1].replace(/\s+/g, "").replace(",", "."));
-    abv = Number.isFinite(n) ? n : null;
-    desc = desc.slice(abvMatch[0].length);
-  }
+  // An unstripped ABV is worse here than a leftover volume: its decimal comma splits off a bare "4"
+  // as the first part, which is what the brewery is read from.
+  const { abv, rest } = stripAbvPrefix(desc);
+  desc = rest;
 
   if (desc.startsWith("piv. ")) desc = desc.slice(5);
 
@@ -135,9 +124,6 @@ export function parseDescription(raw: string): {
   // "0,25l" into "0" and "25l" and pushes the real style into the brewery. The pricing side reads
   // the volume off the untouched description, so cutting it here cannot affect the price.
   desc = stripTrailingVolume(desc);
-  // A volume typed with a space after its comma ("0, 33l") loses only the "33l" above and leaves a
-  // lone "0" behind, which would otherwise pass for a short style.
-  desc = desc.replace(TRAILING_ZERO, "");
 
   const parts = desc.split(",").map((p) => p.trim()).filter((p) => p.length > 0);
   if (parts.length === 0) return { abv, brewery: "", style: "" };

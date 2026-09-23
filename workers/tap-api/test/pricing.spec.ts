@@ -101,6 +101,10 @@ describe("extractTrailingVolume", () => {
     expect(extractTrailingVolume("foo 0.5 l")).toBe(0.5);
   });
 
+  it("reads a volume with a space after its decimal comma", () => {
+    expect(extractTrailingVolume("Belgian Fruit Ale, 0, 33l")).toBe(0.33);
+  });
+
   it("returns null when no trailing volume", () => {
     expect(extractTrailingVolume("no volume")).toBeNull();
     expect(extractTrailingVolume(null)).toBeNull();
@@ -117,6 +121,12 @@ describe("stripTrailingVolume", () => {
   it("cuts a space-separated dot decimal volume", () => {
     expect(stripTrailingVolume("Maisel, Bayreuth, Hefeweizen 0.5 l")).toBe(
       "Maisel, Bayreuth, Hefeweizen",
+    );
+  });
+
+  it("cuts a volume with a space after its decimal comma whole", () => {
+    expect(stripTrailingVolume("Roman, Východní Flandry, Belgian Fruit Ale, 0, 33l")).toBe(
+      "Roman, Východní Flandry, Belgian Fruit Ale",
     );
   });
 

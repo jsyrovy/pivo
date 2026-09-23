@@ -3,9 +3,16 @@ import type { PricingInfo } from "./schema";
 // Two readings of the same serving size at the end of a description, kept adjacent because they
 // have to stay in step. The first only reads a number, so it takes the volume however it is
 // written. The second deletes text, so it insists on a separator in front: without one there is no
-// safe cut point, and a description that is nothing but a volume would be erased whole.
-const TRAILING_VOLUME = /([\d,.]+)\s*l\s*$/;
-const SEPARATED_TRAILING_VOLUME = /[,\s]+[\d.,]+\s*l\s*$/;
+// safe cut point, and a description that is nothing but a volume would be erased whole. Both allow
+// a space after the decimal comma ("0, 33l"), which the menu sometimes has.
+const TRAILING_VOLUME = /(\d+(?:[,.]\s*\d+)?)\s*l\s*$/;
+const SEPARATED_TRAILING_VOLUME = /[,\s]+\d+(?:[,.]\s*\d+)?\s*l\s*$/;
+
+// Neither the abbreviation dot nor "alc" itself is reliable -- menus have "4,2% alc piv. Clock",
+// "6, 2% Sibeeria/..." with a space after the decimal comma, and "4.3% alc Loutkář" leaked into a
+// brewery field. The lookahead keeps "5% alcohol free" whole rather than reading it as an ABV
+// followed by "alcohol free".
+const ABV_PREFIX = /^(\d+(?:[,.]\s*\d+)?)\s*%(?:\s*alc\b\.?)?(?!\s*alc)\s*/i;
 
 export function halfLiterFrom(priceCzk: number, volumeLiters: number): number {
   return Math.round((priceCzk / volumeLiters) * 0.5);
@@ -70,7 +77,7 @@ export function extractTrailingVolume(description: string | null): number | null
   if (!description) return null;
   const match = description.match(TRAILING_VOLUME);
   if (!match) return null;
-  const volume = Number.parseFloat(match[1].replace(",", "."));
+  const volume = Number.parseFloat(match[1].replace(/\s+/g, "").replace(",", "."));
   if (!Number.isFinite(volume) || volume <= 0) return null;
   return volume;
 }
@@ -112,4 +119,11 @@ function toPositiveNumber(value: unknown): number | null {
     return Number.isFinite(n) && n > 0 ? n : null;
   }
   return null;
+}
+
+export function stripAbvPrefix(text: string): { abv: number | null; rest: string } {
+  const match = text.match(ABV_PREFIX);
+  if (!match) return { abv: null, rest: text };
+  const abv = Number.parseFloat(match[1].replace(/\s+/g, "").replace(",", "."));
+  return { abv, rest: text.slice(match[0].length) };
 }
