@@ -257,21 +257,26 @@
             </button>
         </div>
     </header>
-    <!-- Both rows are built by JS from the same createFilterRow() component, so pubs and styles
-         behave identically: every button is a toggle and the one that is on carries a ×.
+    <!-- All three rows are built by JS from the same createFilterRow() component, so pubs, styles
+         and breweries behave identically: every button is a toggle and the one that is on carries a ×.
          Below `sm` the block loses its sides and reads as a band across the screen, which is where
          the scrolling rows need every pixel they can get. -->
     <div class="max-w-7xl mx-auto px-0 sm:px-4 pb-3">
         <div class="border-y sm:border sm:rounded-xl border-zinc-200 dark:border-slate-mid/70 divide-y divide-zinc-200 dark:divide-slate-mid/70 bg-white/40 dark:bg-slate-light/30">
             <div id="source-row" class="flex items-center gap-3 px-4 py-2">
-                <span class="eyebrow text-zinc-400 dark:text-chalk/35 w-[52px] shrink-0 text-right">Podnik</span>
+                <span class="eyebrow text-zinc-400 dark:text-chalk/35 w-[60px] shrink-0 text-right">Podnik</span>
                 <span class="w-px self-stretch bg-zinc-200 dark:bg-slate-mid/70 shrink-0"></span>
                 <div id="source-filters" class="rail flex-1 min-w-0"></div>
             </div>
             <div id="style-row" class="hidden flex items-center gap-3 px-4 py-2">
-                <span class="eyebrow text-zinc-400 dark:text-chalk/35 w-[52px] shrink-0 text-right">Styl</span>
+                <span class="eyebrow text-zinc-400 dark:text-chalk/35 w-[60px] shrink-0 text-right">Styl</span>
                 <span class="w-px self-stretch bg-zinc-200 dark:bg-slate-mid/70 shrink-0"></span>
                 <div id="style-filters" class="rail flex-1 min-w-0"></div>
+            </div>
+            <div id="brewery-row" class="hidden flex items-center gap-3 px-4 py-2">
+                <span class="eyebrow text-zinc-400 dark:text-chalk/35 w-[60px] shrink-0 text-right">Pivovar</span>
+                <span class="w-px self-stretch bg-zinc-200 dark:bg-slate-mid/70 shrink-0"></span>
+                <div id="brewery-filters" class="rail flex-1 min-w-0"></div>
             </div>
         </div>
     </div>
@@ -298,15 +303,15 @@
     <main id="beer-grid" class="hidden max-w-7xl mx-auto px-4 pb-6">
         <div id="beer-container"
              class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2.5"></div>
-        <!-- Two filters combined can rule everything out, so say which combination did it. The way
-             out is only offered when a style is what narrowed the list; otherwise it would do
-             nothing. Same button as the one the error state offers. -->
+        <!-- Filters combined can rule everything out, so say which combination did it. The way
+             out is only offered when a style or a brewery is what narrowed the list -- it keeps the
+             pub, so otherwise it would do nothing. Same button as the one the error state offers. -->
         <div id="empty-state" class="hidden py-20 text-center">
             <p id="empty-text"
                class="font-display text-xl text-zinc-500 dark:text-chalk/50"></p>
             <button id="empty-reset"
                     type="button"
-                    onclick="clearStyleFilter()"
+                    onclick="clearStyleAndBreweryFilters()"
                     class="hidden mt-6 px-6 py-2 border border-amber/30 text-amber text-sm rounded hover:bg-amber/10 transition-colors">
                 Zobrazit všechny styly
             </button>
@@ -392,8 +397,10 @@
     const $refreshBtn = document.getElementById('refresh-btn');
     const $sourceFilters = document.getElementById('source-filters');
     const $styleFilters = document.getElementById('style-filters');
+    const $breweryFilters = document.getElementById('brewery-filters');
     const $sourceRow = document.getElementById('source-row');
     const $styleRow = document.getElementById('style-row');
+    const $breweryRow = document.getElementById('brewery-row');
     const $resetBtn = document.getElementById('reset-filters');
     const $resetWrap = document.getElementById('reset-wrap');
     const $emptyState = document.getElementById('empty-state');
@@ -560,6 +567,13 @@
         return html;
     }
 
+    // Normalized by the worker. A response from before it did (an old deploy, a cached answer) has no
+    // `breweries`, and such a beer simply belongs to no brewery -- no button counts it and the
+    // brewery filter never shows it.
+    function beerBreweries(beer) {
+        return Array.isArray(beer.breweries) ? beer.breweries : [];
+    }
+
     function renderBeers(beers, pairings) {
         $container.innerHTML = '';
         const fragment = document.createDocumentFragment();
@@ -586,6 +600,7 @@
             card.className = 'beer-card bg-white dark:bg-slate-light border border-zinc-200 dark:border-slate-mid rounded-lg p-3 flex flex-col' + (isUnavailable ? ' beer-unavailable' : '');
             card.dataset.source = beer.source;
             card.dataset.styleCategory = category.key;
+            card.dataset.breweries = beerBreweries(beer).map(brewery => brewery.key).join(' ');
             card.dataset.pairingKey = pairingKey(beer);
             if (isUnavailable) card.dataset.unavailable = 'true';
 
@@ -671,12 +686,21 @@
     // One filter row: one button per option, no "Vše". Every button is a toggle -- clicking the
     // active one switches the filter off -- and the active one carries a × so that way back is
     // visible, because "click it again" on its own is a thing nobody discovers.
-    // Both the pub row and the style row are instances of this, so they cannot drift apart.
-    function createFilterRow($root, $row, options, onSelect) {
+    // The pub, style and brewery rows are all instances of this, so they cannot drift apart.
+    function createFilterRow($root, $row, onSelect) {
         const buttons = new Map();
         let lastActive = null;
 
-        options.forEach(option => {
+        // The brewery row gets new options with every refresh of the menu; the other two set theirs
+        // once. Either way the buttons are rebuilt from scratch.
+        const setOptions = (options) => {
+            buttons.clear();
+            $root.replaceChildren();
+            lastActive = null;
+            options.forEach(addButton);
+        };
+
+        const addButton = (option) => {
             const {key, label} = option;
             const btn = document.createElement('button');
             btn.className = FILTER_BTN_CLASS;
@@ -695,13 +719,23 @@
             btn.onclick = () => onSelect(key);
             buttons.set(key, {btn, label, $count, $cross});
             $root.appendChild(btn);
-        });
+        };
 
         const syncFade = watchRail($root);
 
+        // Moves the buttons into `order` (a list of keys), but only when it differs from what is
+        // already there: every filter click runs update twice (the hash write re-enters), and
+        // re-appending an unchanged row would still throw its layout away each time.
+        const reorder = (order) => {
+            const current = Array.from($root.children, btn => btn.dataset.filter);
+            if (order.length === current.length && order.every((key, i) => key === current[i])) return;
+            order.forEach(key => $root.appendChild(buttons.get(key).btn));
+        };
+
         // `counts` appends a live count to every button and hides the ones it counts out (the style
-        // row) -- the active one stays put so it can still be switched off.
-        return function update(active, {counts = null} = {}) {
+        // and brewery rows) -- the active one stays put so it can still be switched off.
+        const update = (active, {counts = null, order = null} = {}) => {
+            if (order) reorder(order);
             let visibleOptions = 0;
             buttons.forEach(({btn, label, $count, $cross}, key) => {
                 const on = key === active;
@@ -731,34 +765,60 @@
                 revealInRail($root, buttons.get(active)?.btn);
             }
         };
+
+        return {update, setOptions};
     }
 
     let allBeers = [];
     let pairings = {};
     let activeSource = 'all';
     let activeStyle = 'all';
-    const updateSourceRow = createFilterRow(
-        $sourceFilters,
-        $sourceRow,
-        // A pub's button says the full name; only its badge has room for the two-letter one.
-        SOURCE_KEYS.map(key => ({...SOURCES[key], key, label: SOURCES[key].name})),
-        (key) => setFilter('source', key),
-    );
-    const updateStyleRow = createFilterRow(
-        $styleFilters,
-        $styleRow,
-        STYLE_CATEGORIES,
-        (key) => setFilter('style', key),
-    );
+    let activeBrewery = 'all';
+    // key -> label of every brewery on the current menu, rebuilt on every load.
+    let breweryLabels = new Map();
+    const BREWERY_TOKEN_PREFIX = 'p-';
 
-    // Two tokens joined by '+' ('#beerstreet+ale'), each recognized by the set its key belongs to.
-    // A single token is therefore still read the way it always was, so old pub links keep working.
-    // An unknown token is dropped, which is what retires a renamed category key.
+    const sourceRow = createFilterRow($sourceFilters, $sourceRow, (key) => setFilter('source', key));
+    // A pub's button says the full name; only its badge has room for the two-letter one.
+    sourceRow.setOptions(SOURCE_KEYS.map(key => ({...SOURCES[key], key, label: SOURCES[key].name})));
+    const styleRow = createFilterRow($styleFilters, $styleRow, (key) => setFilter('style', key));
+    styleRow.setOptions(STYLE_CATEGORIES);
+    const breweryRow = createFilterRow($breweryFilters, $breweryRow, (key) => setFilter('brewery', key));
+
+    // The same brewery key can arrive under several spellings ("Madcat", "MadCat"); its button takes
+    // the one most beers carry, the first one met on a tie. Breweries carry no colour of their own --
+    // pubs and styles already use up the palette, and twenty-odd breweries would not fit in it.
+    function updateBreweryOptions() {
+        const names = new Map();
+        for (const beer of allBeers) {
+            if (beer.name === '-') continue;
+            for (const {key, name} of beerBreweries(beer)) {
+                if (!names.has(key)) names.set(key, new Map());
+                const counts = names.get(key);
+                counts.set(name, (counts.get(name) || 0) + 1);
+            }
+        }
+        breweryLabels = new Map(Array.from(names, ([key, counts]) => {
+            let best = null;
+            counts.forEach((count, name) => {
+                if (best === null || count > counts.get(best)) best = name;
+            });
+            return [key, best];
+        }));
+        breweryRow.setOptions(Array.from(breweryLabels, ([key, label]) => ({key, label})));
+    }
+
+    // Up to three tokens joined by '+' ('#beerstreet+ale+p-mordyr'). Pubs and styles are recognized
+    // by the set their key belongs to, so a single token is still read the way it always was and old
+    // pub links keep working; an unknown one is dropped, which is what retires a renamed category
+    // key. Brewery keys are open-ended, so they carry a prefix instead -- that keeps them from ever
+    // colliding with the other two, and lets them be told apart before the menu has loaded.
     function filtersFromHash() {
-        const filters = {source: 'all', style: 'all'};
+        const filters = {source: 'all', style: 'all', brewery: 'all'};
         window.location.hash.slice(1).split('+').forEach(token => {
             if (token in SOURCES) filters.source = token;
             else if (token in STYLE_BY_KEY) filters.style = token;
+            else if (token.startsWith(BREWERY_TOKEN_PREFIX)) filters.brewery = token.slice(BREWERY_TOKEN_PREFIX.length);
         });
         return filters;
     }
@@ -766,56 +826,75 @@
     // Clicking the active option switches it off; there is no separate "Vše" to switch it off with.
     function setFilter(row, key) {
         if (row === 'source') activeSource = activeSource === key ? 'all' : key;
-        else activeStyle = activeStyle === key ? 'all' : key;
+        else if (row === 'style') activeStyle = activeStyle === key ? 'all' : key;
+        else activeBrewery = activeBrewery === key ? 'all' : key;
         applyFilters();
     }
 
     function clearFilters() {
         activeSource = 'all';
         activeStyle = 'all';
+        activeBrewery = 'all';
         applyFilters();
     }
 
-    function clearStyleFilter() {
+    function clearStyleAndBreweryFilters() {
         activeStyle = 'all';
+        activeBrewery = 'all';
         applyFilters();
+    }
+
+    // Most beers first, so what the rest of the selection leaves on tap is at the left; ties go
+    // alphabetically so the order does not shuffle between identical counts.
+    function breweryOrder(counts) {
+        return Array.from(breweryLabels.keys()).sort((a, b) =>
+            (counts[b] || 0) - (counts[a] || 0) || breweryLabels.get(a).localeCompare(breweryLabels.get(b), 'cs'));
     }
 
     function applyFilters() {
         const tokens = [];
         if (activeSource !== 'all') tokens.push(activeSource);
         if (activeStyle !== 'all') tokens.push(activeStyle);
+        if (activeBrewery !== 'all') tokens.push(BREWERY_TOKEN_PREFIX + activeBrewery);
         window.location.hash = tokens.join('+');
 
         const isDebug = document.documentElement.classList.contains('debug-mode');
         const cards = $container.children;
         const styleCounts = {};
+        const breweryCounts = {};
         let visibleCount = 0;
         let totalCount = 0;
         for (const card of cards) {
             const sourceMatch = activeSource === 'all' || card.dataset.source === activeSource;
             const category = card.dataset.styleCategory;
+            const breweries = card.dataset.breweries.split(' ').filter(Boolean);
             const unavailable = card.dataset.unavailable === 'true';
             const listed = !unavailable || isDebug;
+            const styleMatch = activeStyle === 'all' || category === activeStyle;
+            const breweryMatch = activeBrewery === 'all' || breweries.includes(activeBrewery);
             // The total the filtered count compares against is always real beers, so the debug-only
             // placeholders never inflate it.
             if (!unavailable) totalCount++;
-            // Counted per category ignoring the style filter, so every button says how many beers
-            // it would show under the currently selected pub.
-            if (sourceMatch && !unavailable) {
+            // Each row is counted ignoring its own filter but honouring the other two, so every
+            // button says how many beers it would show on top of the rest of the selection. A
+            // collaboration counts towards each of its breweries.
+            if (sourceMatch && breweryMatch && !unavailable) {
                 styleCounts[category] = (styleCounts[category] || 0) + 1;
             }
-            const styleMatch = activeStyle === 'all' || category === activeStyle;
-            const visible = sourceMatch && styleMatch && listed;
+            if (sourceMatch && styleMatch && !unavailable) {
+                breweries.forEach(key => { breweryCounts[key] = (breweryCounts[key] || 0) + 1; });
+            }
+            const visible = sourceMatch && styleMatch && breweryMatch && listed;
             card.classList.toggle('hidden', !visible);
             if (visible && !unavailable) visibleCount++;
         }
 
-        updateSourceRow(activeSource);
-        updateStyleRow(activeStyle, {counts: styleCounts});
+        sourceRow.update(activeSource);
+        styleRow.update(activeStyle, {counts: styleCounts});
+        breweryRow.update(activeBrewery, {counts: breweryCounts, order: breweryOrder(breweryCounts)});
 
         // Filtered, the count says what the result is a part of -- and hands over the way back.
-        const activeFilters = (activeSource !== 'all' ? 1 : 0) + (activeStyle !== 'all' ? 1 : 0);
+        const activeFilters = [activeSource, activeStyle, activeBrewery].filter(key => key !== 'all').length;
         $beerCount.textContent = activeFilters === 0
             ? `· ${visibleCount} piv na čepu`
             : `· ${visibleCount} z ${totalCount} piv`;
@@ -823,23 +902,34 @@
         $resetWrap.classList.toggle('hidden', activeFilters === 0);
         $resetWrap.classList.toggle('flex', activeFilters > 0);
 
-        // Two filters combined can rule everything out; an empty grid alone would not say why.
+        // Filters combined can rule everything out; an empty grid alone would not say why. The live
+        // counts keep clicks from getting here -- a link can, and so can switching the pub while a
+        // brewery is selected.
         const ruledOut = visibleCount === 0 && cards.length > 0;
         $emptyState.classList.toggle('hidden', !ruledOut);
         if (ruledOut) {
             const pub = activeSource === 'all' ? 'Žádný z podniků' : SOURCES[activeSource].name;
             const style = STYLE_BY_KEY[activeStyle];
-            $emptyText.textContent = style
-                ? `${pub} nemá na čepu nic z kategorie „${style.label}“.`
+            const brewery = breweryLabels.get(activeBrewery);
+            const fromBrewery = brewery ? ` od pivovaru ${brewery}` : '';
+            const fromStyle = style ? ` z kategorie „${style.label}“` : '';
+            $emptyText.textContent = style || brewery
+                ? `${pub} nemá na čepu nic${fromBrewery}${fromStyle}.`
                 : `${pub} teď nemá na čepu nic.`;
-            $emptyReset.classList.toggle('hidden', !style);
+            $emptyReset.classList.toggle('hidden', !style && !brewery);
+            $emptyReset.textContent = style && brewery
+                ? 'Zrušit filtry stylu a pivovaru'
+                : (style ? 'Zobrazit všechny styly' : 'Zobrazit všechny pivovary');
         }
     }
 
     function applyFiltersFromHash() {
-        const {source, style} = filtersFromHash();
+        const {source, style, brewery} = filtersFromHash();
         activeSource = source;
         activeStyle = style;
+        // A link to a brewery that is no longer on tap is dropped quietly, like an unknown style --
+        // but only once the menu is there to tell.
+        activeBrewery = allBeers.length > 0 && !breweryLabels.has(brewery) ? 'all' : brewery;
         applyFilters();
     }
 
@@ -906,6 +996,7 @@
             $grid.classList.remove('hidden');
 
             renderBeers(allBeers, pairings);
+            updateBreweryOptions();
             applyFiltersFromHash();
 
             const now = new Date();
@@ -941,9 +1032,9 @@
         }
     });
 
-    // Nothing is highlighted while the menu is still loading; the style row stays hidden until
-    // there is something to categorize.
-    updateSourceRow(activeSource);
+    // Nothing is highlighted while the menu is still loading; the style and brewery rows stay hidden
+    // until there is something to categorize.
+    sourceRow.update(activeSource);
     loadAll();
     </script>
 {% endblock scripts %}
