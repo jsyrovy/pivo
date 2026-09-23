@@ -14,6 +14,7 @@ const ACRONYMS = new Set([
   "IBU",
   "DDH",
   "TDH",
+  "NZ",
 ]);
 
 const NON_ALPHANUMERIC = /[^\p{L}\p{N}]+/gu;
@@ -155,6 +156,35 @@ export function extractStyleFromName(name: string): {
     name: start === 0 ? name : words.slice(0, start).join(" "),
     style: styleWords.join(" "),
   };
+}
+
+// Qualifiers that only ever show up in a style leaked into U Zámastilů's brewery field ("NZ Hazy IPA
+// Klenot", "Pastry Sour Twinberg"). Kept apart from STYLE_MODIFIERS so they cannot start matching
+// trailing name words in extractStyleFromName.
+const LEAKED_STYLE_MODIFIERS = new Set(["nz", "pastry", "fruit"]);
+
+// U Zámastilů's upstream sometimes prepends the style to the brewery ("Sour Madcat"). Cut the
+// leading run of style words off -- only a run with a core keyword in it, so a brewery that merely
+// opens with a qualifier ("Modern Times") stays whole, and never the whole field, so a brewery
+// named after a style is not lost.
+export function splitLeadingStyle(brewery: string): {
+  brewery: string;
+  style: string;
+} {
+  const words = brewery.split(/\s+/).filter(Boolean);
+  const isKeyword = (w: string) => STYLE_KEYWORDS.has(styleToken(w));
+  const isStyleWord = (w: string) =>
+    isKeyword(w) || STYLE_MODIFIERS.has(styleToken(w)) || LEAKED_STYLE_MODIFIERS.has(styleToken(w));
+
+  let end = 0;
+  while (end < words.length && isStyleWord(words[end])) end++;
+
+  const styleWords = words.slice(0, end);
+  if (end === words.length || !styleWords.some(isKeyword)) {
+    return { brewery, style: "" };
+  }
+
+  return { brewery: words.slice(end).join(" "), style: styleWords.join(" ") };
 }
 
 // 0° degree Plato is the standard Czech labeling convention for a non-alcoholic beer. Used as a

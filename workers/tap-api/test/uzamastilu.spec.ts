@@ -86,6 +86,41 @@ describe("parseUzamastiluJson", () => {
     expect(beers[0]).toMatchObject({ name: "Birgo Mango-Limetka", style: "Nealko", degreePlato: 0 });
   });
 
+  it("moves a style leaked into the brewery field to the style", () => {
+    const beers = parseUzamastiluJson([
+      { order: 1, name: "Rhapsody Of Fog", brewery: "NZ Hazy IPA Klenot" },
+      { order: 2, name: "Brew Berrymore", brewery: "Pastry Sour Twinberg" },
+      { order: 3, name: "Cherry n' Apricot", brewery: "Sour Madcat" },
+      { order: 4, name: "Hoppla! Continental", brewery: "Pale Ale Brewnicorn" },
+    ]);
+    expect(beers.map((b) => [b.brewery, b.style])).toEqual([
+      ["Klenot", "NZ hazy IPA"],
+      ["Twinberg", "Pastry sour"],
+      ["Madcat", "Sour"],
+      ["Brewnicorn", "Pale ale"],
+    ]);
+  });
+
+  it("prefers the style from the name over the one leaked into the brewery", () => {
+    const beers = parseUzamastiluJson([{ order: 1, name: "Wai-Wai Hazy IPA", brewery: "Sour Zichovec" }]);
+    expect(beers[0]).toMatchObject({ name: "Wai-Wai", brewery: "Zichovec", style: "Hazy IPA" });
+  });
+
+  it("keeps a brewery that only opens with a qualifier", () => {
+    const beers = parseUzamastiluJson([{ order: 1, name: "X", brewery: "Modern Times" }]);
+    expect(beers[0]).toMatchObject({ brewery: "Modern Times", style: "" });
+  });
+
+  it("keeps a brewery named entirely after a style", () => {
+    const beers = parseUzamastiluJson([{ order: 1, name: "X", brewery: "Pale Ale" }]);
+    expect(beers[0]).toMatchObject({ brewery: "Pale Ale", style: "" });
+  });
+
+  it("strips an ABV leaked into the brewery field", () => {
+    const beers = parseUzamastiluJson([{ order: 1, name: "Marioneta", brewery: "4.3% alc Loutkář" }]);
+    expect(beers[0].brewery).toBe("Loutkář");
+  });
+
   it("throws on invalid payload", () => {
     expect(() => parseUzamastiluJson(null)).toThrow(TypeError);
     expect(() => parseUzamastiluJson({})).toThrow(TypeError);
