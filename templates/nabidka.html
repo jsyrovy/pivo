@@ -603,6 +603,11 @@
         setFilter('brewery', btn.dataset.brewery);
     };
 
+    // An empty tap comes through as a beer named '-'.
+    function isUnavailable(beer) {
+        return beer.name === '-';
+    }
+
     function renderBeers(beers, pairings) {
         $container.innerHTML = '';
         const fragment = document.createDocumentFragment();
@@ -625,13 +630,13 @@
             const category = STYLE_BY_KEY[beer.styleCategory] || STYLE_BY_KEY.other;
 
             const card = document.createElement('div');
-            const isUnavailable = beer.name === '-';
-            card.className = 'beer-card bg-white dark:bg-slate-light border border-zinc-200 dark:border-slate-mid rounded-lg p-3 flex flex-col' + (isUnavailable ? ' beer-unavailable' : '');
+            const unavailable = isUnavailable(beer);
+            card.className = 'beer-card bg-white dark:bg-slate-light border border-zinc-200 dark:border-slate-mid rounded-lg p-3 flex flex-col' + (unavailable ? ' beer-unavailable' : '');
             card.dataset.source = beer.source;
             card.dataset.styleCategory = category.key;
             card.dataset.breweries = beerBreweries(beer).map(brewery => brewery.key).join(' ');
             card.dataset.pairingKey = pairingKey(beer);
-            if (isUnavailable) card.dataset.unavailable = 'true';
+            if (unavailable) card.dataset.unavailable = 'true';
 
             card.innerHTML = `
                 <div class="flex items-start justify-between gap-2 mb-1">
@@ -800,9 +805,8 @@
 
     let allBeers = [];
     let pairings = {};
-    let activeSource = 'all';
-    let activeStyle = 'all';
-    let activeBrewery = 'all';
+    // One entry per filter row, keyed by the row name setFilter() is called with.
+    const active = {source: 'all', style: 'all', brewery: 'all'};
     // key -> label of every brewery on the current menu, rebuilt on every load.
     let breweryLabels = new Map();
     const BREWERY_TOKEN_PREFIX = 'p-';
@@ -820,7 +824,7 @@
     function updateBreweryOptions() {
         const names = new Map();
         for (const beer of allBeers) {
-            if (beer.name === '-') continue;
+            if (isUnavailable(beer)) continue;
             for (const {key, name} of beerBreweries(beer)) {
                 if (!names.has(key)) names.set(key, new Map());
                 const counts = names.get(key);
@@ -854,22 +858,17 @@
 
     // Clicking the active option switches it off; there is no separate "Vše" to switch it off with.
     function setFilter(row, key) {
-        if (row === 'source') activeSource = activeSource === key ? 'all' : key;
-        else if (row === 'style') activeStyle = activeStyle === key ? 'all' : key;
-        else activeBrewery = activeBrewery === key ? 'all' : key;
+        active[row] = active[row] === key ? 'all' : key;
         applyFilters();
     }
 
     function clearFilters() {
-        activeSource = 'all';
-        activeStyle = 'all';
-        activeBrewery = 'all';
+        Object.assign(active, {source: 'all', style: 'all', brewery: 'all'});
         applyFilters();
     }
 
     function clearStyleAndBreweryFilters() {
-        activeStyle = 'all';
-        activeBrewery = 'all';
+        Object.assign(active, {style: 'all', brewery: 'all'});
         applyFilters();
     }
 
@@ -882,9 +881,9 @@
 
     function applyFilters() {
         const tokens = [];
-        if (activeSource !== 'all') tokens.push(activeSource);
-        if (activeStyle !== 'all') tokens.push(activeStyle);
-        if (activeBrewery !== 'all') tokens.push(BREWERY_TOKEN_PREFIX + activeBrewery);
+        if (active.source !== 'all') tokens.push(active.source);
+        if (active.style !== 'all') tokens.push(active.style);
+        if (active.brewery !== 'all') tokens.push(BREWERY_TOKEN_PREFIX + active.brewery);
         window.location.hash = tokens.join('+');
 
         const isDebug = document.documentElement.classList.contains('debug-mode');
@@ -894,13 +893,13 @@
         let visibleCount = 0;
         let totalCount = 0;
         for (const card of cards) {
-            const sourceMatch = activeSource === 'all' || card.dataset.source === activeSource;
+            const sourceMatch = active.source === 'all' || card.dataset.source === active.source;
             const category = card.dataset.styleCategory;
             const breweries = card.dataset.breweries.split(' ').filter(Boolean);
             const unavailable = card.dataset.unavailable === 'true';
             const listed = !unavailable || isDebug;
-            const styleMatch = activeStyle === 'all' || category === activeStyle;
-            const breweryMatch = activeBrewery === 'all' || breweries.includes(activeBrewery);
+            const styleMatch = active.style === 'all' || category === active.style;
+            const breweryMatch = active.brewery === 'all' || breweries.includes(active.brewery);
             // The total the filtered count compares against is always real beers, so the debug-only
             // placeholders never inflate it.
             if (!unavailable) totalCount++;
@@ -920,15 +919,15 @@
 
         // The brewery a card names is also a way into the filter, so the one that is on says so.
         $container.querySelectorAll('.brewery-link').forEach(link => {
-            link.classList.toggle('text-amber', link.dataset.brewery === activeBrewery);
+            link.classList.toggle('text-amber', link.dataset.brewery === active.brewery);
         });
 
-        sourceRow.update(activeSource);
-        styleRow.update(activeStyle, {counts: styleCounts});
-        breweryRow.update(activeBrewery, {counts: breweryCounts, order: breweryOrder(breweryCounts)});
+        sourceRow.update(active.source);
+        styleRow.update(active.style, {counts: styleCounts});
+        breweryRow.update(active.brewery, {counts: breweryCounts, order: breweryOrder(breweryCounts)});
 
         // Filtered, the count says what the result is a part of -- and hands over the way back.
-        const activeFilters = [activeSource, activeStyle, activeBrewery].filter(key => key !== 'all').length;
+        const activeFilters = Object.values(active).filter(key => key !== 'all').length;
         $beerCount.textContent = activeFilters === 0
             ? `· ${visibleCount} piv na čepu`
             : `· ${visibleCount} z ${totalCount} piv`;
@@ -942,9 +941,9 @@
         const ruledOut = visibleCount === 0 && cards.length > 0;
         $emptyState.classList.toggle('hidden', !ruledOut);
         if (ruledOut) {
-            const pub = activeSource === 'all' ? 'Žádný z podniků' : SOURCES[activeSource].name;
-            const style = STYLE_BY_KEY[activeStyle];
-            const brewery = breweryLabels.get(activeBrewery);
+            const pub = active.source === 'all' ? 'Žádný z podniků' : SOURCES[active.source].name;
+            const style = STYLE_BY_KEY[active.style];
+            const brewery = breweryLabels.get(active.brewery);
             const fromBrewery = brewery ? ` od pivovaru ${brewery}` : '';
             const fromStyle = style ? ` z kategorie „${style.label}“` : '';
             $emptyText.textContent = style || brewery
@@ -959,11 +958,11 @@
 
     function applyFiltersFromHash() {
         const {source, style, brewery} = filtersFromHash();
-        activeSource = source;
-        activeStyle = style;
+        active.source = source;
+        active.style = style;
         // A link to a brewery that is no longer on tap is dropped quietly, like an unknown style --
         // but only once the menu is there to tell.
-        activeBrewery = allBeers.length > 0 && !breweryLabels.has(brewery) ? 'all' : brewery;
+        active.brewery = allBeers.length > 0 && !breweryLabels.has(brewery) ? 'all' : brewery;
         applyFilters();
     }
 
@@ -1068,7 +1067,7 @@
 
     // Nothing is highlighted while the menu is still loading; the style and brewery rows stay hidden
     // until there is something to categorize.
-    sourceRow.update(activeSource);
+    sourceRow.update(active.source);
     loadAll();
     </script>
 {% endblock scripts %}
