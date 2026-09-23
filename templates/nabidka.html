@@ -519,6 +519,19 @@
         if (!beer.styleCategory) html += ' <span class="missing">(chybí v odpovědi API)</span>';
         html += '</div></div>';
 
+        // What the pub wrote vs. which breweries it was normalized to
+        html += '<div class="debug-panel-section">';
+        html += '<div class="debug-panel-section-header">🏭 PIVOVAR</div>';
+        html += '<div class="debug-panel-section-value">';
+        html += `raw: ${esc(beer.brewery || '–')}`;
+        if (Array.isArray(beer.breweries)) {
+            beer.breweries.forEach(({key, name}) => { html += `\n${esc(key)} → ${esc(name)}`; });
+            if (beer.breweries.length === 0) html += '\n(žádný pivovar)';
+        } else {
+            html += '\n<span class="missing">breweries chybí v odpovědi API</span>';
+        }
+        html += '</div></div>';
+
         // Pricing breakdown
         if (beer.pricing) {
             html += '<div class="debug-panel-section">';
@@ -574,6 +587,22 @@
         return Array.isArray(beer.breweries) ? beer.breweries : [];
     }
 
+    // Only the cleaned-up names -- the town the pub appends ("Volt, Jablonec nad Nisou") stays in the
+    // debug panel. Each brewery of a collaboration is its own button and switches the filter for it;
+    // a beer from an old response without `breweries` keeps the raw text and nothing to click.
+    function renderBreweryHtml(beer) {
+        const breweries = beerBreweries(beer);
+        if (breweries.length === 0) return esc(beer.brewery);
+        return breweries.map(({key, name}) =>
+            `<button type="button" class="brewery-link hover:text-amber hover:underline underline-offset-2 transition-colors" data-brewery="${esc(key)}" title="Filtrovat pivovar ${esc(name)}" onclick="filterByBrewery(event, this)">${esc(name)}</button>`,
+        ).join(' / ');
+    }
+
+    window.filterByBrewery = function(event, btn) {
+        event.stopPropagation();
+        setFilter('brewery', btn.dataset.brewery);
+    };
+
     function renderBeers(beers, pairings) {
         $container.innerHTML = '';
         const fragment = document.createDocumentFragment();
@@ -581,7 +610,7 @@
         beers.forEach(beer => {
             const src = SOURCES[beer.source];
             const name = esc(beer.name);
-            const brewery = esc(beer.brewery);
+            const brewery = renderBreweryHtml(beer);
             const style = esc(beer.style);
             const abvText = beer.abv != null ? esc(formatAbv(beer.abv)) : '';
             const degreeText = beer.degreePlato != null ? esc(String(beer.degreePlato)) : '';
@@ -888,6 +917,11 @@
             card.classList.toggle('hidden', !visible);
             if (visible && !unavailable) visibleCount++;
         }
+
+        // The brewery a card names is also a way into the filter, so the one that is on says so.
+        $container.querySelectorAll('.brewery-link').forEach(link => {
+            link.classList.toggle('text-amber', link.dataset.brewery === activeBrewery);
+        });
 
         sourceRow.update(activeSource);
         styleRow.update(activeStyle, {counts: styleCounts});
