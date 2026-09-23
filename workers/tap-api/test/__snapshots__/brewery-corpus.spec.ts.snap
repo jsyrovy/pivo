@@ -1,0 +1,598 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`brewery corpus > groups every real brewery string by key 1`] = `
+{
+  "43alcloutkar": {
+    "4.3% alc Loutkář": [
+      "4.3% alc Loutkář",
+    ],
+  },
+  "agent": {
+    "Agent": [
+      "Agent",
+      "Agent, Olešnice",
+    ],
+  },
+  "albertmichler": {
+    "Albert Michler": [
+      "Albert Michler",
+    ],
+  },
+  "alefarm": {
+    "Alefarm": [
+      "Sibeeria/Alefarm",
+    ],
+  },
+  "avar": {
+    "Avar": [
+      "Avar",
+    ],
+  },
+  "berquell": {
+    "Berquell Brauerei": [
+      "Berquell Brauerei",
+    ],
+  },
+  "beskydsky": {
+    "Beskydský": [
+      "Beskdydský pivovárek, Ostravice",
+      "Beskydský, Ostravice",
+    ],
+    "Beskydský Pivovárek": [
+      "Beskydský Pivovárek, Ostravice",
+    ],
+    "Beskydský pivovárek": [
+      "Beskydský pivovárek",
+      "Beskydský pivovárek, Ostravice",
+    ],
+  },
+  "bevog": {
+    "Bevog": [
+      "Bevog, Bad Radkersburg, Rakousko",
+    ],
+  },
+  "bratrivpivu": {
+    "Bratři v pivu": [
+      "Bratři v pivu",
+    ],
+  },
+  "brewnicorn": {
+    "Brewnicorn": [
+      "Brewnicorn",
+      "Brewnicorn, Kročehlavy",
+    ],
+  },
+  "budvar": {
+    "Budvar": [
+      "Budvar",
+    ],
+  },
+  "burabrew": {
+    "Bura Brew": [
+      "Bura Brew, Chorvatsko",
+    ],
+  },
+  "cernypotoka": {
+    "Černý Potoka": [
+      "Černý Potoka",
+      "Černý Potoka, Hořice",
+      "Černý Potoka, Potštejn",
+    ],
+    "Černý potoka": [
+      "Černý potoka",
+    ],
+  },
+  "cestmir": {
+    "Čestmír": [
+      "Rhap-Nectaron Čestmír",
+      "Čestmír",
+      "Čestmír, Brandýs nad Labem",
+    ],
+  },
+  "chroust": {
+    "Chroust": [
+      "Chroust",
+      "Chroust, Potštejn",
+    ],
+  },
+  "ciernykamen": {
+    "Čierny Kameň": [
+      "Sibeeria/Čierny Kameň",
+      "Čierny Kameň",
+    ],
+    "Čierny Kámeň": [
+      "Čierny Kámeň",
+    ],
+  },
+  "clock": {
+    "Clock": [
+      "Clock",
+      "Clock, Potštejn",
+    ],
+    "clock": [
+      "clock",
+    ],
+  },
+  "dalesice": {
+    "Dalešice": [
+      "Dalešice",
+    ],
+  },
+  "duckdog": {
+    "Duck & Dog": [
+      "Duck  & Dog",
+      "Duck & Dog",
+    ],
+    "Duck &.Dog": [
+      "Duck &.Dog",
+    ],
+    "Duck&Dog": [
+      "Duck&Dog",
+    ],
+  },
+  "falkon": {
+    "Falkon": [
+      "Falkon",
+    ],
+  },
+  "fauve": {
+    "Fauve": [
+      "Sibeeria/Fauve",
+      "Vik/Fauve",
+    ],
+  },
+  "fenek": {
+    "Fenek": [
+      "Fenek",
+    ],
+  },
+  "fenetra": {
+    "Fenetra": [
+      "Fenetra, Potštejn",
+      "Fenetra, Potštejn, Rustical Wild Sour Ale, 0",
+    ],
+  },
+  "fracek": {
+    "Fracek": [
+      "Fracek",
+      "Fracek, Praha",
+    ],
+  },
+  "haksna": {
+    "Haksna": [
+      "Haksna",
+      "Haksna, Ostrava",
+      "Haksna/Podřevnický",
+    ],
+  },
+  "harpagan": {
+    "Harpagan": [
+      "Harpagan, Polsko",
+    ],
+  },
+  "hauskrecht": {
+    "Hauskrecht": [
+      "Hauskrecht",
+    ],
+  },
+  "herrenwald": {
+    "Herrenwald": [
+      "Sibeeria/Herrenwald",
+    ],
+  },
+  "hoppydog": {
+    "Hoppy Dog": [
+      "Hoppy Dog",
+      "Hoppy Dog, Ostrava",
+    ],
+    "HoppyDog": [
+      "HoppyDog, Ostrava",
+    ],
+    "Hoppydog": [
+      "Hoppydog, Ostrava",
+    ],
+  },
+  "hrebec": {
+    "Hřebec": [
+      "Hřebec",
+    ],
+  },
+  "hulvat": {
+    "Hulvát": [
+      "MadCat/Hulvát",
+    ],
+  },
+  "hummel": {
+    "Hummel": [
+      "Hummel, Merkendorf",
+    ],
+  },
+  "jungberg": {
+    "JungBerg": [
+      "JungBerg, Hořice",
+    ],
+    "Jungberg": [
+      "Jungberg",
+    ],
+  },
+  "kamenicenadlabem": {
+    "Kamenice nad Labem": [
+      "Kamenice nad Labem",
+    ],
+  },
+  "kamenicenadlipou": {
+    "Kamenice nad Lipou": [
+      "Kamenice nad Lipou",
+    ],
+  },
+  "klenot": {
+    "Klenot": [
+      "Klenot",
+      "Klenot & Zmajska",
+      "Klenot, HK",
+      "Klenot, Hradec Králové",
+    ],
+  },
+  "klin": {
+    "Klín": [
+      "Klín",
+    ],
+  },
+  "kocour": {
+    "Kocour": [
+      "Kocour",
+    ],
+  },
+  "kojetin": {
+    "Kojetín": [
+      "Kojetín",
+    ],
+  },
+  "krikloun": {
+    "Křikloun": [
+      "Křikloun",
+    ],
+  },
+  "krocehlavy": {
+    "Kročehlavy": [
+      "Kročehlavy",
+    ],
+  },
+  "kujebak": {
+    "Kujebák": [
+      "Kujebák",
+    ],
+  },
+  "kynspersky": {
+    "Kynšperský": [
+      "Kynšperk",
+      "Kynšperk nad Ohří",
+      "Kynšperský",
+      "Kynšperský Zajíc, Kynšperk",
+      "Kynšperský zajíc",
+    ],
+    "Kynšperský pivovar": [
+      "Kynšperský pivovar",
+    ],
+  },
+  "lancut": {
+    "Lancut": [
+      "Lancut, Polsko",
+    ],
+  },
+  "louka": {
+    "Louka": [
+      "Louka",
+    ],
+  },
+  "loutkar": {
+    "Loutkář": [
+      "Loutkář",
+      "Loutkář, Chrudim",
+    ],
+  },
+  "madcat": {
+    "MadCat": [
+      "MadCat",
+      "MadCat, Kamenice",
+      "MadCat/Hulvát",
+    ],
+    "Madcat": [
+      "Madcat",
+    ],
+  },
+  "magicroad": {
+    "Magic Road": [
+      "Magic Road, Polsko",
+    ],
+  },
+  "maisel": {
+    "Maisel": [
+      "Maisel, Bayreuth, Bavorsko",
+    ],
+  },
+  "maiselfriends": {
+    "Maisel & Friends": [
+      "Maisel & Friends, Bayreuth",
+      "Maisel & Friends, Bayreuth, Bavorsko",
+    ],
+  },
+  "malesov": {
+    "Malešov": [
+      "Malešov",
+    ],
+  },
+  "matuska": {
+    "Matuška": [
+      "Matuška, Broumy",
+    ],
+  },
+  "mazak": {
+    "Mazák": [
+      "Mazák",
+      "Mazák, Dolní Bojanovice",
+    ],
+  },
+  "medved": {
+    "Medvěd": [
+      "Medvěd, Vrchlabí",
+    ],
+  },
+  "mikkeller": {
+    "Mikkeller": [
+      "Mikkeller, Copenhagen, Dánsko",
+    ],
+  },
+  "moravia": {
+    "Moravia": [
+      "Moravia",
+    ],
+  },
+  "mordyr": {
+    "Mordýř": [
+      "Mordýř",
+      "Mordýř, Dolní Ředice",
+    ],
+  },
+  "nachmelenaopice": {
+    "Nachmelená Opice": [
+      "Nachmelená Opice",
+      "Nachmelená Opice, Krnov",
+    ],
+    "Nachmelená opice": [
+      "Nachmelená opice",
+    ],
+  },
+  "nozib": {
+    "Nozib": [
+      "Nozib",
+    ],
+  },
+  "nzhazyipaklenot": {
+    "NZ Hazy IPA Klenot": [
+      "NZ Hazy IPA Klenot",
+    ],
+  },
+  "obora": {
+    "Obora": [
+      "Obora",
+      "Obora, Malšice",
+    ],
+  },
+  "oldcock": {
+    "Old Cock": [
+      "Old Cock",
+    ],
+  },
+  "ovipistan": {
+    "Ovipistán": [
+      "Ovipistán",
+      "Ovipistán, Ledce",
+    ],
+  },
+  "permon": {
+    "Permon": [
+      "Permon",
+    ],
+  },
+  "pioneer": {
+    "Pioneer": [
+      "Pioneer",
+      "Pioneer Beer",
+      "Pionner",
+    ],
+  },
+  "pivecka": {
+    "Pivečka": [
+      "Pivečka, Rousínov",
+    ],
+  },
+  "podrevnicky": {
+    "Podřevnický": [
+      "Haksna/Podřevnický",
+    ],
+  },
+  "policka": {
+    "Polička": [
+      "Polička",
+    ],
+  },
+  "potmehud": {
+    "Potmehúd": [
+      "Potmehúd",
+    ],
+  },
+  "rampusak": {
+    "Rampušák": [
+      "Rampušák",
+      "Rampušák, Dobruška",
+    ],
+  },
+  "raven": {
+    "Raven": [
+      "Raven",
+    ],
+  },
+  "rimska": {
+    "Římská": [
+      "Římská",
+    ],
+  },
+  "rittmayer": {
+    "Rittmayer": [
+      "Rittmayer, Hallerndorf",
+    ],
+  },
+  "roman": {
+    "Roman": [
+      "Roman, Východní Flandry",
+    ],
+  },
+  "rotor": {
+    "Rotor": [
+      "Rotor",
+    ],
+  },
+  "salama": {
+    "Salama": [
+      "Salama Brewing co., Finsko",
+    ],
+  },
+  "sibeeria": {
+    "Sibeeria": [
+      "Sibeeria",
+      "Sibeeria, Praha",
+      "Sibeeria/Alefarm",
+      "Sibeeria/Fauve",
+      "Sibeeria/Herrenwald",
+      "Sibeeria/Čierny Kameň",
+    ],
+  },
+  "sqbru": {
+    "Sqbru": [
+      "Sqbru",
+    ],
+  },
+  "stadioner": {
+    "Stadioner": [
+      "Stadioner",
+    ],
+  },
+  "svabin": {
+    "Švabín": [
+      "Švabín",
+    ],
+  },
+  "tamtam": {
+    "TAMTAM": [
+      "TAMTAM",
+    ],
+  },
+  "thrills": {
+    "Thrills": [
+      "Thrills",
+    ],
+    "Thrills Brewing": [
+      "Thrills  Brewing",
+      "Thrills Brewing",
+    ],
+  },
+  "trautenberk": {
+    "Trautenberk": [
+      "Trautenberk",
+    ],
+  },
+  "trilobit": {
+    "Trilobit": [
+      "Trilobit",
+    ],
+  },
+  "tvarg": {
+    "Tvarg": [
+      "Tvarg",
+    ],
+  },
+  "twinberg": {
+    "Twinberg": [
+      "Twinberg",
+    ],
+  },
+  "uneticky": {
+    "Únětický": [
+      "Únětice",
+    ],
+    "Únětický pivovar": [
+      "Únětický pivovar",
+    ],
+  },
+  "uvojtechu": {
+    "U Vojtěchů": [
+      "U Vojtěchů",
+    ],
+  },
+  "vanhonsebrouck": {
+    "Van Honsebrouck": [
+      "Van Honsebrouck, Ingelmunster, Západní Flandry",
+    ],
+  },
+  "vargabrothers": {
+    "Varga Brothers": [
+      "Varga Brothers",
+    ],
+  },
+  "vik": {
+    "Vik": [
+      "Vik",
+      "Vik, Praha",
+      "Vik/Fauve",
+    ],
+  },
+  "vinohradsky": {
+    "Vinohradský pivovar": [
+      "Vinohradský pivovar",
+    ],
+  },
+  "volt": {
+    "Volt": [
+      "Volt",
+      "Volt, Jablonec nad Nisou",
+    ],
+  },
+  "vorkloster": {
+    "Vorkloster": [
+      "Vorkloster",
+    ],
+  },
+  "wagner": {
+    "Wagner": [
+      "Wagner, Merkendorf",
+    ],
+  },
+  "weissenohe": {
+    "Weissenohe": [
+      "Weissenohe (Bavorsko)",
+    ],
+  },
+  "wildcreatures": {
+    "Wild Creatures": [
+      "Wild Creatures, Mikulov",
+    ],
+  },
+  "zahora": {
+    "Záhora": [
+      "Záhora",
+      "Záhora, Kněžičky",
+    ],
+  },
+  "zichovec": {
+    "Zichovec": [
+      "Zichovec",
+    ],
+  },
+  "zmajska": {
+    "Zmajska": [
+      "Klenot & Zmajska",
+    ],
+  },
+}
+`;
