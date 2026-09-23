@@ -2,55 +2,6 @@
   "version": 1,
   "generated_at": "2026-09-24T00:20:19Z",
   "fixtures": {
-    "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
-      "beer": {
-        "source": "ambasada",
-        "brewery": "6, 2% Sibeeria/Čierny Kameň",
-        "name": "Juniper Dryad",
-        "style": "West coast IPA w/ juniper",
-        "degree_plato": 13.0
-      },
-      "captured_at": "2026-06-08T17:25:46Z",
-      "candidates": [
-        {
-          "name": "Juniper Dryad",
-          "brewery": "Sibeeria Brewery",
-          "url": "/b/sibeeria-brewery-juniper-dryad/6208875",
-          "rating": 3.834
-        },
-        {
-          "name": "Juniper Berry Sour Apricot",
-          "brewery": "Dry Dock Brewing Company",
-          "url": "/b/dry-dock-brewing-company-juniper-berry-sour-apricot/2173191",
-          "rating": null
-        }
-      ],
-      "attempts": [
-        {
-          "query": "Juniper Dryad 13° 6",
-          "hits": []
-        },
-        {
-          "query": "Juniper Dryad 6",
-          "hits": []
-        },
-        {
-          "query": "Juniper Dryad 13°",
-          "hits": []
-        },
-        {
-          "query": "Juniper Dryad",
-          "hits": [
-            0,
-            1
-          ]
-        }
-      ],
-      "outcome": {
-        "matched": "/b/sibeeria-brewery-juniper-dryad/6208875",
-        "source": "llm"
-      }
-    },
     "ambasada::Agent, Olešnice::Moves": {
       "beer": {
         "source": "ambasada",
@@ -3734,6 +3685,55 @@
         "source": "llm"
       }
     },
+    "ambasada::Sibeeria/Čierny Kameň::Juniper Dryad": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Sibeeria/Čierny Kameň",
+        "name": "Juniper Dryad",
+        "style": "West coast IPA w/ juniper",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-06-08T17:25:46Z",
+      "candidates": [
+        {
+          "name": "Juniper Dryad",
+          "brewery": "Sibeeria Brewery",
+          "url": "/b/sibeeria-brewery-juniper-dryad/6208875",
+          "rating": 3.834
+        },
+        {
+          "name": "Juniper Berry Sour Apricot",
+          "brewery": "Dry Dock Brewing Company",
+          "url": "/b/dry-dock-brewing-company-juniper-berry-sour-apricot/2173191",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Juniper Dryad 13° 6",
+          "hits": []
+        },
+        {
+          "query": "Juniper Dryad 6",
+          "hits": []
+        },
+        {
+          "query": "Juniper Dryad 13°",
+          "hits": []
+        },
+        {
+          "query": "Juniper Dryad",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/sibeeria-brewery-juniper-dryad/6208875",
+        "source": "llm"
+      }
+    },
     "ambasada::Van Honsebrouck, Ingelmunster, Západní Flandry::Kasteel Rouge": {
       "beer": {
         "source": "ambasada",
@@ -3829,6 +3829,62 @@
       ],
       "outcome": {
         "matched": "/b/kasteel-brouwerij-vanhonsebrouck-kasteel-rouge/6890",
+        "source": "llm"
+      }
+    },
+    "ambasada::Van Honsebrouck, Ingelmunster, Západní Flandry::Kasteel Tropical": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Van Honsebrouck, Ingelmunster, Západní Flandry",
+        "name": "Kasteel Tropical",
+        "style": "25l",
+        "degree_plato": 14.0
+      },
+      "captured_at": "2026-07-06T18:59:38Z",
+      "candidates": [
+        {
+          "name": "Kasteel Tropical",
+          "brewery": "Kasteel Brouwerij Vanhonsebrouck",
+          "url": "/b/kasteel-brouwerij-vanhonsebrouck-kasteel-tropical/6215549",
+          "rating": 3.52
+        },
+        {
+          "name": "Kasteel Tropical 0.0",
+          "brewery": "Kasteel Brouwerij Vanhonsebrouck",
+          "url": "/b/kasteel-brouwerij-vanhonsebrouck-kasteel-tropical-0-0/6249320",
+          "rating": 3.33
+        },
+        {
+          "name": "Kasteel Tropical Twist",
+          "brewery": "Kasteel Brouwerij Vanhonsebrouck",
+          "url": "/b/kasteel-brouwerij-vanhonsebrouck-kasteel-tropical-twist/6733348",
+          "rating": 3.58
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Kasteel Tropical 14° piv. Van Honsebrouck",
+          "hits": []
+        },
+        {
+          "query": "Kasteel Tropical piv. Van Honsebrouck",
+          "hits": []
+        },
+        {
+          "query": "Kasteel Tropical 14°",
+          "hits": []
+        },
+        {
+          "query": "Kasteel Tropical",
+          "hits": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/kasteel-brouwerij-vanhonsebrouck-kasteel-tropical/6215549",
         "source": "llm"
       }
     },
@@ -4063,62 +4119,6 @@
       "outcome": {
         "matched": "/b/pivovar-zichovec-session-juicy-lucy-13/3660932",
         "score": 1.0
-      }
-    },
-    "ambasada::piv. Van Honsebrouck, Ingelmunster, Západní Flandry, Tropical Fruit Ale, 0::Kasteel Tropical": {
-      "beer": {
-        "source": "ambasada",
-        "brewery": "piv. Van Honsebrouck, Ingelmunster, Západní Flandry, Tropical Fruit Ale, 0",
-        "name": "Kasteel Tropical",
-        "style": "25l",
-        "degree_plato": 14.0
-      },
-      "captured_at": "2026-07-06T18:59:38Z",
-      "candidates": [
-        {
-          "name": "Kasteel Tropical",
-          "brewery": "Kasteel Brouwerij Vanhonsebrouck",
-          "url": "/b/kasteel-brouwerij-vanhonsebrouck-kasteel-tropical/6215549",
-          "rating": 3.52
-        },
-        {
-          "name": "Kasteel Tropical 0.0",
-          "brewery": "Kasteel Brouwerij Vanhonsebrouck",
-          "url": "/b/kasteel-brouwerij-vanhonsebrouck-kasteel-tropical-0-0/6249320",
-          "rating": 3.33
-        },
-        {
-          "name": "Kasteel Tropical Twist",
-          "brewery": "Kasteel Brouwerij Vanhonsebrouck",
-          "url": "/b/kasteel-brouwerij-vanhonsebrouck-kasteel-tropical-twist/6733348",
-          "rating": 3.58
-        }
-      ],
-      "attempts": [
-        {
-          "query": "Kasteel Tropical 14° piv. Van Honsebrouck",
-          "hits": []
-        },
-        {
-          "query": "Kasteel Tropical piv. Van Honsebrouck",
-          "hits": []
-        },
-        {
-          "query": "Kasteel Tropical 14°",
-          "hits": []
-        },
-        {
-          "query": "Kasteel Tropical",
-          "hits": [
-            0,
-            1,
-            2
-          ]
-        }
-      ],
-      "outcome": {
-        "matched": "/b/kasteel-brouwerij-vanhonsebrouck-kasteel-tropical/6215549",
-        "source": "llm"
       }
     },
     "ambasada::Černý Potoka, Hořice::Cloud Scanner": {
@@ -15854,6 +15854,50 @@
         "score": 1.0
       }
     },
+    "uzamastilu::Klenot::Rhapsody Of Fog": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Klenot",
+        "name": "Rhapsody Of Fog",
+        "style": "",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-09-01T20:52:46Z",
+      "candidates": [
+        {
+          "name": "Rhapsody of Fog 12",
+          "brewery": "Hradecký Klenot",
+          "url": "/b/hradecky-klenot-rhapsony-od-fog/6822491",
+          "rating": 3.83
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Rhapsody Of Fog 12° NZ Hazy Ale Klenot",
+          "hits": []
+        },
+        {
+          "query": "Rhapsody Of Fog NZ Hazy Ale Klenot",
+          "hits": []
+        },
+        {
+          "query": "Rhapsody Of Fog 12°",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Rhapsody Of Fog",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/hradecky-klenot-rhapsony-od-fog/6822491",
+        "source": "llm"
+      }
+    },
     "uzamastilu::Klenot::Session Brut IPA 5,3%": {
       "beer": {
         "source": "uzamastilu",
@@ -16314,6 +16358,55 @@
       "outcome": {
         "matched": null,
         "reason": "no_candidates_above_threshold"
+      }
+    },
+    "uzamastilu::Madcat::Cherry n' Apricot": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Madcat",
+        "name": "Cherry n' Apricot",
+        "style": "",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-13T16:02:08Z",
+      "candidates": [
+        {
+          "name": "Slip N' Slush Sweet Cherry Apricot",
+          "brewery": "Scorched Earth Brewing Company",
+          "url": "/b/scorched-earth-brewing-company-slip-n-slush-sweet-cherry-apricot/3899460",
+          "rating": 3.7
+        },
+        {
+          "name": "Cherry N' Apricot",
+          "brewery": "MadCat",
+          "url": "/b/madcat-cherry-n-apricot/6820586",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Cherry n' Apricot 11° Sour Madcat",
+          "hits": []
+        },
+        {
+          "query": "Cherry n' Apricot Sour Madcat",
+          "hits": []
+        },
+        {
+          "query": "Cherry n' Apricot 11°",
+          "hits": []
+        },
+        {
+          "query": "Cherry n' Apricot",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/madcat-cherry-n-apricot/6820586",
+        "source": "llm"
       }
     },
     "uzamastilu::Madcat::Ležák": {
@@ -16833,50 +16926,6 @@
         "score": 1.0
       }
     },
-    "uzamastilu::NZ Hazy Ale Klenot::Rhapsody Of Fog": {
-      "beer": {
-        "source": "uzamastilu",
-        "brewery": "NZ Hazy Ale Klenot",
-        "name": "Rhapsody Of Fog",
-        "style": "",
-        "degree_plato": 12.0
-      },
-      "captured_at": "2026-09-01T20:52:46Z",
-      "candidates": [
-        {
-          "name": "Rhapsody of Fog 12",
-          "brewery": "Hradecký Klenot",
-          "url": "/b/hradecky-klenot-rhapsony-od-fog/6822491",
-          "rating": 3.83
-        }
-      ],
-      "attempts": [
-        {
-          "query": "Rhapsody Of Fog 12° NZ Hazy Ale Klenot",
-          "hits": []
-        },
-        {
-          "query": "Rhapsody Of Fog NZ Hazy Ale Klenot",
-          "hits": []
-        },
-        {
-          "query": "Rhapsody Of Fog 12°",
-          "hits": [
-            0
-          ]
-        },
-        {
-          "query": "Rhapsody Of Fog",
-          "hits": [
-            0
-          ]
-        }
-      ],
-      "outcome": {
-        "matched": "/b/hradecky-klenot-rhapsony-od-fog/6822491",
-        "source": "llm"
-      }
-    },
     "uzamastilu::NZ Hazy IPA Klenot::Rhapsody Of Fog": {
       "beer": {
         "source": "uzamastilu",
@@ -17155,148 +17204,6 @@
       "outcome": {
         "matched": "/b/pivovar-ovipistan-president/1573643",
         "score": 1.0
-      }
-    },
-    "uzamastilu::Pastry Sour Twinberg::Brew Berrymode": {
-      "beer": {
-        "source": "uzamastilu",
-        "brewery": "Pastry Sour Twinberg",
-        "name": "Brew Berrymode",
-        "style": "",
-        "degree_plato": 11.0
-      },
-      "captured_at": "2026-08-21T17:33:47Z",
-      "candidates": [
-        {
-          "name": "Brew Berrymore ",
-          "brewery": "Muttermilch Vienna Brewery",
-          "url": "/b/muttermilch-vienna-brewery-brew-berrymore/5452928",
-          "rating": 3.88
-        },
-        {
-          "name": "Pink Boots Brew: Brew Berrymore Strawberry Hefeweizen",
-          "brewery": "Last Best Brewing & Distilling",
-          "url": "/b/last-best-brewing-and-distilling-pink-boots-brew-brew-berrymore-strawberry-hefeweizen/5268304",
-          "rating": 3.65
-        },
-        {
-          "name": "Brew Berrymore (Blueberry Hefeweizen)",
-          "brewery": "SOB Brewing",
-          "url": "/b/sob-brewing-brew-berrymore-blueberry-hefeweizen/6376287",
-          "rating": 3.82
-        },
-        {
-          "name": "Brew Berrymore",
-          "brewery": "Rustic Brew",
-          "url": "/b/rustic-brew-brew-berrymore/2692757",
-          "rating": 3.62
-        },
-        {
-          "name": "Brew Berrymore Nitro",
-          "brewery": "Fountain Hill Brewery",
-          "url": "/b/fountain-hill-brewery-brew-berrymore-nitro/3508780",
-          "rating": 3.71
-        }
-      ],
-      "attempts": [
-        {
-          "query": "Brew Berrymode 11° Pastry Sour Twinberg",
-          "hits": []
-        },
-        {
-          "query": "Brew Berrymode Pastry Sour Twinberg",
-          "hits": []
-        },
-        {
-          "query": "Brew Berrymode 11°",
-          "hits": []
-        },
-        {
-          "query": "Brew Berrymode",
-          "hits": [
-            0,
-            1,
-            2,
-            3,
-            4
-          ]
-        }
-      ],
-      "outcome": {
-        "matched": null,
-        "reason": "no_candidates_above_threshold"
-      }
-    },
-    "uzamastilu::Pastry Sour Twinberg::Brew Berrymore": {
-      "beer": {
-        "source": "uzamastilu",
-        "brewery": "Pastry Sour Twinberg",
-        "name": "Brew Berrymore",
-        "style": "",
-        "degree_plato": 11.0
-      },
-      "captured_at": "2026-08-22T13:35:51Z",
-      "candidates": [
-        {
-          "name": "Brew Berry More 12°",
-          "brewery": "Twinberg",
-          "url": "/b/twinberg-brew-berry-more-12-deg/6809079",
-          "rating": 3.8
-        },
-        {
-          "name": "Brew Berrymore ",
-          "brewery": "Muttermilch Vienna Brewery",
-          "url": "/b/muttermilch-vienna-brewery-brew-berrymore/5452928",
-          "rating": 3.88
-        },
-        {
-          "name": "Pink Boots Brew: Brew Berrymore Strawberry Hefeweizen",
-          "brewery": "Last Best Brewing & Distilling",
-          "url": "/b/last-best-brewing-and-distilling-pink-boots-brew-brew-berrymore-strawberry-hefeweizen/5268304",
-          "rating": 3.65
-        },
-        {
-          "name": "Brew Berrymore (Blueberry Hefeweizen)",
-          "brewery": "SOB Brewing",
-          "url": "/b/sob-brewing-brew-berrymore-blueberry-hefeweizen/6376287",
-          "rating": 3.82
-        },
-        {
-          "name": "Brew Berry More",
-          "brewery": "Stillmank Brewing Company",
-          "url": "/b/stillmank-brewing-company-brew-berry-more/6677722",
-          "rating": 3.92
-        }
-      ],
-      "attempts": [
-        {
-          "query": "Brew Berrymore 11° Pastry Sour Twinberg",
-          "hits": []
-        },
-        {
-          "query": "Brew Berrymore Pastry Sour Twinberg",
-          "hits": []
-        },
-        {
-          "query": "Brew Berrymore 11°",
-          "hits": [
-            0
-          ]
-        },
-        {
-          "query": "Brew Berrymore",
-          "hits": [
-            1,
-            0,
-            2,
-            3,
-            4
-          ]
-        }
-      ],
-      "outcome": {
-        "matched": "/b/twinberg-brew-berry-more-12-deg/6809079",
-        "source": "llm"
       }
     },
     "uzamastilu::Permon::Ležák": {
@@ -17935,55 +17842,6 @@
         "score": 1.0
       }
     },
-    "uzamastilu::Sour Madcat::Cherry n' Apricot": {
-      "beer": {
-        "source": "uzamastilu",
-        "brewery": "Sour Madcat",
-        "name": "Cherry n' Apricot",
-        "style": "",
-        "degree_plato": 11.0
-      },
-      "captured_at": "2026-08-13T16:02:08Z",
-      "candidates": [
-        {
-          "name": "Slip N' Slush Sweet Cherry Apricot",
-          "brewery": "Scorched Earth Brewing Company",
-          "url": "/b/scorched-earth-brewing-company-slip-n-slush-sweet-cherry-apricot/3899460",
-          "rating": 3.7
-        },
-        {
-          "name": "Cherry N' Apricot",
-          "brewery": "MadCat",
-          "url": "/b/madcat-cherry-n-apricot/6820586",
-          "rating": null
-        }
-      ],
-      "attempts": [
-        {
-          "query": "Cherry n' Apricot 11° Sour Madcat",
-          "hits": []
-        },
-        {
-          "query": "Cherry n' Apricot Sour Madcat",
-          "hits": []
-        },
-        {
-          "query": "Cherry n' Apricot 11°",
-          "hits": []
-        },
-        {
-          "query": "Cherry n' Apricot",
-          "hits": [
-            0,
-            1
-          ]
-        }
-      ],
-      "outcome": {
-        "matched": "/b/madcat-cherry-n-apricot/6820586",
-        "source": "llm"
-      }
-    },
     "uzamastilu::Thrills::Samosebou W.Coast": {
       "beer": {
         "source": "uzamastilu",
@@ -18169,6 +18027,148 @@
       "outcome": {
         "matched": "/b/pivovar-trilobit-summer-apa-11/6822482",
         "score": 1.0
+      }
+    },
+    "uzamastilu::Twinberg::Brew Berrymode": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Twinberg",
+        "name": "Brew Berrymode",
+        "style": "",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-21T17:33:47Z",
+      "candidates": [
+        {
+          "name": "Brew Berrymore ",
+          "brewery": "Muttermilch Vienna Brewery",
+          "url": "/b/muttermilch-vienna-brewery-brew-berrymore/5452928",
+          "rating": 3.88
+        },
+        {
+          "name": "Pink Boots Brew: Brew Berrymore Strawberry Hefeweizen",
+          "brewery": "Last Best Brewing & Distilling",
+          "url": "/b/last-best-brewing-and-distilling-pink-boots-brew-brew-berrymore-strawberry-hefeweizen/5268304",
+          "rating": 3.65
+        },
+        {
+          "name": "Brew Berrymore (Blueberry Hefeweizen)",
+          "brewery": "SOB Brewing",
+          "url": "/b/sob-brewing-brew-berrymore-blueberry-hefeweizen/6376287",
+          "rating": 3.82
+        },
+        {
+          "name": "Brew Berrymore",
+          "brewery": "Rustic Brew",
+          "url": "/b/rustic-brew-brew-berrymore/2692757",
+          "rating": 3.62
+        },
+        {
+          "name": "Brew Berrymore Nitro",
+          "brewery": "Fountain Hill Brewery",
+          "url": "/b/fountain-hill-brewery-brew-berrymore-nitro/3508780",
+          "rating": 3.71
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Brew Berrymode 11° Pastry Sour Twinberg",
+          "hits": []
+        },
+        {
+          "query": "Brew Berrymode Pastry Sour Twinberg",
+          "hits": []
+        },
+        {
+          "query": "Brew Berrymode 11°",
+          "hits": []
+        },
+        {
+          "query": "Brew Berrymode",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
+    "uzamastilu::Twinberg::Brew Berrymore": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Twinberg",
+        "name": "Brew Berrymore",
+        "style": "",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-08-22T13:35:51Z",
+      "candidates": [
+        {
+          "name": "Brew Berry More 12°",
+          "brewery": "Twinberg",
+          "url": "/b/twinberg-brew-berry-more-12-deg/6809079",
+          "rating": 3.8
+        },
+        {
+          "name": "Brew Berrymore ",
+          "brewery": "Muttermilch Vienna Brewery",
+          "url": "/b/muttermilch-vienna-brewery-brew-berrymore/5452928",
+          "rating": 3.88
+        },
+        {
+          "name": "Pink Boots Brew: Brew Berrymore Strawberry Hefeweizen",
+          "brewery": "Last Best Brewing & Distilling",
+          "url": "/b/last-best-brewing-and-distilling-pink-boots-brew-brew-berrymore-strawberry-hefeweizen/5268304",
+          "rating": 3.65
+        },
+        {
+          "name": "Brew Berrymore (Blueberry Hefeweizen)",
+          "brewery": "SOB Brewing",
+          "url": "/b/sob-brewing-brew-berrymore-blueberry-hefeweizen/6376287",
+          "rating": 3.82
+        },
+        {
+          "name": "Brew Berry More",
+          "brewery": "Stillmank Brewing Company",
+          "url": "/b/stillmank-brewing-company-brew-berry-more/6677722",
+          "rating": 3.92
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Brew Berrymore 11° Pastry Sour Twinberg",
+          "hits": []
+        },
+        {
+          "query": "Brew Berrymore Pastry Sour Twinberg",
+          "hits": []
+        },
+        {
+          "query": "Brew Berrymore 11°",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Brew Berrymore",
+          "hits": [
+            1,
+            0,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/twinberg-brew-berry-more-12-deg/6809079",
+        "source": "llm"
       }
     },
     "uzamastilu::Twinberg::Hoppy Whale 7": {

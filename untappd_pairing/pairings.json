@@ -2,15 +2,6 @@
   "version": 1,
   "generated_at": "2026-09-24T00:20:19Z",
   "pairings": {
-    "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
-      "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
-      "untappd_name": "Juniper Dryad",
-      "untappd_brewery": "Sibeeria Brewery",
-      "rating": 3.834,
-      "match_score": 1.0,
-      "matched_at": "2026-06-08T17:25:46Z",
-      "query_used": "<llm>"
-    },
     "ambasada::Agent, Olešnice::Moves": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-moves-white-grapes-and-strawberries/4836340",
       "untappd_name": "Moves – White Grapes and Strawberries",
@@ -880,7 +871,7 @@
       "query_used": "<llm>",
       "description": "Klasický německý pšeničný svrchně kvašený styl s jemnou sladovou základnou, nízkou chmelovou hořkostí a charakterovými estery banánu a hřebíčku, středně plné tělo a osvěžující zákal. Hodnocení 3,49 je v průměrném rozmezí, takže se nezmiňuje."
     },
-    "ambasada::Roman, Východní Flandry, Belgian Fruit Ale, 0::Ename Rouge": {
+    "ambasada::Roman, Východní Flandry::Ename Rouge": {
       "untappd_url": "https://untappd.com/b/brouwerij-roman-ename-rouge/3065897",
       "untappd_name": "Ename Rouge",
       "untappd_brewery": "Brouwerij Roman",
@@ -1095,7 +1086,7 @@
       "query_used": "<llm>",
       "description": "On the Planet Ygam je český jantarový ležák s mírnou sladkostí a vyváženou hořkostí, 5,3 % alkoholu a 13° stupňovitosti, který potěší příznivce klasických stylů a hodí se na odpolední setkání s přáteli."
     },
-    "ambasada::Sibeeria/Herrenwald, Sour Ale w/ Raspberry::Forest Spirit": {
+    "ambasada::Sibeeria/Herrenwald::Forest Spirit": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-forest-spirit/5913749",
       "untappd_name": "Forest Spirit",
       "untappd_brewery": "Sibeeria Brewery",
@@ -1113,6 +1104,15 @@
       "matched_at": "2026-09-15T17:35:13Z",
       "query_used": "<llm>",
       "description": "Kouřové svrchně kvašené pivo s výrazným aroma uzeného sladu, středně plným tělem a vyváženou sladovou sladkostí doplněnou jemnou hořkostí. 5,5 % ABV a 14° stupňovitost zaručují plnější charakter s hřejivým závěrem."
+    },
+    "ambasada::Sibeeria/Čierny Kameň::Juniper Dryad": {
+      "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
+      "untappd_name": "Juniper Dryad",
+      "untappd_brewery": "Sibeeria Brewery",
+      "rating": 3.834,
+      "match_score": 1.0,
+      "matched_at": "2026-06-08T17:25:46Z",
+      "query_used": "<llm>"
     },
     "ambasada::Van Honsebrouck, Ingelmunster, Západní Flandry, višňový Belgian Dark Strong ALE, 0::Kasteel Rouge": {
       "untappd_url": "https://untappd.com/b/kasteel-brouwerij-vanhonsebrouck-kasteel-rouge/6890",
@@ -1133,6 +1133,15 @@
       "matched_at": "2026-09-21T22:31:56Z",
       "query_used": "<llm>",
       "description": "Belgický dark strong ale s výraznou sladovostí, mírnou složitostí a teplými, kořeněnými tóny od tradičního belgického kvašení; višně dodávají jemnou ovocnost a lehkou kyselost, která rovnováží sílu a plnost těla."
+    },
+    "ambasada::Van Honsebrouck, Ingelmunster, Západní Flandry::Kasteel Tropical": {
+      "untappd_url": "https://untappd.com/b/kasteel-brouwerij-vanhonsebrouck-kasteel-tropical/6215549",
+      "untappd_name": "Kasteel Tropical",
+      "untappd_brewery": "Kasteel Brouwerij Vanhonsebrouck",
+      "rating": 3.52,
+      "match_score": 1.0,
+      "matched_at": "2026-07-06T18:59:38Z",
+      "query_used": "<llm>"
     },
     "ambasada::Vik, Praha::Lost in C-Hops": {
       "untappd_url": "https://untappd.com/b/pivovar-vik-lost-in-c-hops/6827322",
@@ -1254,15 +1263,6 @@
       "match_score": 1.0,
       "matched_at": "2026-05-10T19:57:34Z",
       "query_used": "<override>"
-    },
-    "ambasada::piv. Van Honsebrouck, Ingelmunster, Západní Flandry, Tropical Fruit Ale, 0::Kasteel Tropical": {
-      "untappd_url": "https://untappd.com/b/kasteel-brouwerij-vanhonsebrouck-kasteel-tropical/6215549",
-      "untappd_name": "Kasteel Tropical",
-      "untappd_brewery": "Kasteel Brouwerij Vanhonsebrouck",
-      "rating": 3.52,
-      "match_score": 1.0,
-      "matched_at": "2026-07-06T18:59:38Z",
-      "query_used": "<llm>"
     },
     "ambasada::Černý Potoka, Hořice::Cloud Scanner": {
       "untappd_url": "https://untappd.com/b/cerny-potoka-cloud-scanner-sabro/3279424",
@@ -4093,6 +4093,16 @@
       "query_used": "Kazbek 11° Klenot",
       "description": "Ležák s mírnou sladkostí a jemnou chmelovou hořkostí, středně plné tělo, čistá kvasná profilace, lehce ovocný podtón, dobře vyvážený poměr sladiny a hořkosti, hodnocení podprůměrné."
     },
+    "uzamastilu::Klenot::Rhapsody Of Fog": {
+      "untappd_url": "https://untappd.com/b/hradecky-klenot-rhapsony-od-fog/6822491",
+      "untappd_name": "Rhapsody of Fog 12",
+      "untappd_brewery": "Hradecký Klenot",
+      "rating": 3.83,
+      "match_score": 1.0,
+      "matched_at": "2026-09-01T20:52:46Z",
+      "query_used": "<llm>",
+      "description_failed_at": "2026-09-01T20:52:46Z"
+    },
     "uzamastilu::Kynšperk::Ležák": {
       "untappd_url": "https://untappd.com/b/kynspersky-pivovar-kynspersky-zajic-12-deg-svetly-lezak/850661",
       "untappd_name": "Kynšperský Zajíc 12° světlý ležák",
@@ -4122,6 +4132,16 @@
       "matched_at": "2026-07-24T13:25:15Z",
       "query_used": "Kašpárek 11° Loutkář",
       "description": "Kašpárek 11 světlý ležák od Pivovaru Loutkář je středně silný ležák, vhodný na běžné posezení i odpolední setkání."
+    },
+    "uzamastilu::Madcat::Cherry n' Apricot": {
+      "untappd_url": "https://untappd.com/b/madcat-cherry-n-apricot/6820586",
+      "untappd_name": "Cherry N' Apricot",
+      "untappd_brewery": "MadCat",
+      "rating": null,
+      "match_score": 1.0,
+      "matched_at": "2026-08-13T16:02:08Z",
+      "query_used": "<llm>",
+      "description": "Kyselé svrchně kvašené pivo s ovocným aroma třešní a broskví, lehkou sladkostí a mírnou kyselinkou, střední plnost těla a svěží hořkost."
     },
     "uzamastilu::Madcat::Ležák": {
       "untappd_url": "https://untappd.com/b/madcat-podzimni-lezak-11-deg/3955921",
@@ -4233,16 +4253,6 @@
       "query_used": "West Coast Ipa 14° Mordýř",
       "description": "Silně chmelená západní IPA s výraznou hořkostí, citrusovým a pryskyřičným aroma a středně plným tělem. Spodně kvašený základ s vyšší stupňovitostí přidává sladovou oporu a delší dochuť."
     },
-    "uzamastilu::NZ Hazy Ale Klenot::Rhapsody Of Fog": {
-      "untappd_url": "https://untappd.com/b/hradecky-klenot-rhapsony-od-fog/6822491",
-      "untappd_name": "Rhapsody of Fog 12",
-      "untappd_brewery": "Hradecký Klenot",
-      "rating": 3.83,
-      "match_score": 1.0,
-      "matched_at": "2026-09-01T20:52:46Z",
-      "query_used": "<llm>",
-      "description_failed_at": "2026-09-01T20:52:46Z"
-    },
     "uzamastilu::NZ Hazy IPA Klenot::Rhapsody Of Fog": {
       "untappd_url": "https://untappd.com/b/hradecky-klenot-rhapsony-od-fog/6822491",
       "untappd_name": "Rhapsony Of Fog 12",
@@ -4322,16 +4332,6 @@
       "matched_at": "2026-09-04T16:48:04Z",
       "query_used": "President 12° Ovipistán",
       "description": "Klasický český ležák: plnější sladový základ, vyvážená chmelová hořkost a střední až plnější tělo, spodně kvašený s čistým, harmonickým profilem."
-    },
-    "uzamastilu::Pastry Sour Twinberg::Brew Berrymore": {
-      "untappd_url": "https://untappd.com/b/twinberg-brew-berry-more-12-deg/6809079",
-      "untappd_name": "Brew Berry More 12°",
-      "untappd_brewery": "Twinberg",
-      "rating": 3.8,
-      "match_score": 1.0,
-      "matched_at": "2026-08-22T13:35:51Z",
-      "query_used": "<llm>",
-      "description": "Brew Berry More je ovocně sladové pivo s dominantním černým rybízem a malinami, doplněné jemnou vanilkou a lehkou kyselinkou, má plné tělo a mírně kyselou, ovocnou chuť s dlouhým, ovocně sladkým závěrem. POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE P…"
     },
     "uzamastilu::Permon::Ležák": {
       "untappd_url": "https://untappd.com/b/pivovar-permon-svetly-lezak-12-deg/413456",
@@ -4443,16 +4443,6 @@
       "query_used": "Tryskáč 12° Rotor",
       "description": "Tryskáč je typický American Pale Ale s mírně hořkým profilem, citrusovým a tropickým aroma z chmele a lehkým sladovým těstem, středně plné až plné tělo odpovídá 12° stupňovitosti, hodnocení je průměrné."
     },
-    "uzamastilu::Sour Madcat::Cherry n' Apricot": {
-      "untappd_url": "https://untappd.com/b/madcat-cherry-n-apricot/6820586",
-      "untappd_name": "Cherry N' Apricot",
-      "untappd_brewery": "MadCat",
-      "rating": null,
-      "match_score": 1.0,
-      "matched_at": "2026-08-13T16:02:08Z",
-      "query_used": "<llm>",
-      "description": "Kyselé svrchně kvašené pivo s ovocným aroma třešní a broskví, lehkou sladkostí a mírnou kyselinkou, střední plnost těla a svěží hořkost."
-    },
     "uzamastilu::Trautenberk::APA": {
       "untappd_url": "https://untappd.com/b/pivovar-trautenberk-trautenberk-14-apa/1446943",
       "untappd_name": "Trautenberk 14 APA",
@@ -4492,6 +4482,16 @@
       "matched_at": "2026-08-29T17:03:19Z",
       "query_used": "Summer 11° Trilobit",
       "description": "Klasická americká pale ale se střední sladovou základnou, střední chmelovou hořkostí a citrusovo-květinovým aroma typickým pro americké chmely, středně plné tělo a vyvážený profil."
+    },
+    "uzamastilu::Twinberg::Brew Berrymore": {
+      "untappd_url": "https://untappd.com/b/twinberg-brew-berry-more-12-deg/6809079",
+      "untappd_name": "Brew Berry More 12°",
+      "untappd_brewery": "Twinberg",
+      "rating": 3.8,
+      "match_score": 1.0,
+      "matched_at": "2026-08-22T13:35:51Z",
+      "query_used": "<llm>",
+      "description": "Brew Berry More je ovocně sladové pivo s dominantním černým rybízem a malinami, doplněné jemnou vanilkou a lehkou kyselinkou, má plné tělo a mírně kyselou, ovocnou chuť s dlouhým, ovocně sladkým závěrem. POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE P…"
     },
     "uzamastilu::Twinberg::Hoppy Whale 7": {
       "untappd_url": "https://untappd.com/b/twinberg-hoppy-whale-7/6809119",
@@ -4785,11 +4785,6 @@
       "last_tried_at": "2026-09-17T21:10:05Z",
       "reason": "no_candidates_above_threshold"
     },
-    "uzamastilu::Pastry Sour Twinberg::Brew Berrymode": {
-      "attempts": 1,
-      "last_tried_at": "2026-08-21T17:33:47Z",
-      "reason": "no_candidates_above_threshold"
-    },
     "uzamastilu::Pioneer Beer::Dočesná 2025": {
       "attempts": 1,
       "last_tried_at": "2026-08-28T22:58:35Z",
@@ -4808,6 +4803,11 @@
     "uzamastilu::Thrills::Samosebou W.Coast": {
       "attempts": 1,
       "last_tried_at": "2026-09-14T18:28:07Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "uzamastilu::Twinberg::Brew Berrymode": {
+      "attempts": 1,
+      "last_tried_at": "2026-08-21T17:33:47Z",
       "reason": "no_candidates_above_threshold"
     },
     "uzamastilu::Volt::Hromosvod Gose Malina": {
