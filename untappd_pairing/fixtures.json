@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-23T00:11:59Z",
+  "generated_at": "2026-09-23T17:47:27Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -13428,7 +13428,7 @@
         "style": "Světlý ležák s žitem",
         "degree_plato": null
       },
-      "captured_at": "2026-09-16T17:34:16Z",
+      "captured_at": "2026-09-23T17:46:59Z",
       "candidates": [
         {
           "name": "Svatováclavský Speciál 13°",
@@ -14995,6 +14995,40 @@
         "score": 1.0
       }
     },
+    "uzamastilu::Axiom::Dispatcher": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Axiom",
+        "name": "Dispatcher",
+        "style": "Ležák",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-09-23T17:47:25Z",
+      "candidates": [
+        {
+          "name": "Dispatcher",
+          "brewery": "Axiom Brewery",
+          "url": "/b/axiom-brewery-dispatcher/4811356",
+          "rating": 3.5
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Dispatcher 11° Axiom",
+          "hits": []
+        },
+        {
+          "query": "Dispatcher Axiom",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/axiom-brewery-dispatcher/4811356",
+        "score": 1.0
+      }
+    },
     "uzamastilu::Budvar::Birgo Mango-Limetka": {
       "beer": {
         "source": "uzamastilu",
@@ -16238,6 +16272,70 @@
       "outcome": {
         "matched": "/b/pivovar-mazak-milford-sound-15/6849698",
         "score": 1.0
+      }
+    },
+    "uzamastilu::Mazák::Nectaron SH": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Mazák",
+        "name": "Nectaron SH",
+        "style": "Ale",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-09-23T17:47:20Z",
+      "candidates": [
+        {
+          "name": "SH Nectaron 13°",
+          "brewery": "Pivovar Muflon",
+          "url": "/b/pivovar-muflon-sh-nectaron-13-deg/6548424",
+          "rating": null
+        },
+        {
+          "name": "The Shapeshifter: Nectaron, Amarillo, Simcoe",
+          "brewery": "Turning Point Brew Co.",
+          "url": "/b/turning-point-brew-co-the-shapeshifter-nectaron-amarillo-simcoe/5822578",
+          "rating": 3.83
+        },
+        {
+          "name": "Single No Need To Mingle: Nectaron",
+          "brewery": "Shelton Brewing",
+          "url": "/b/shelton-brewing-single-no-need-to-mingle-nectaron/6420064",
+          "rating": 4.5
+        },
+        {
+          "name": "Dr. Nectaron",
+          "brewery": "Shred Beer Company",
+          "url": "/b/shred-beer-company-dr-nectaron/5608746",
+          "rating": 4.14
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Nectaron SH 13° Mazák",
+          "hits": []
+        },
+        {
+          "query": "Nectaron SH Mazák",
+          "hits": []
+        },
+        {
+          "query": "Nectaron SH 13°",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Nectaron SH",
+          "hits": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "uzamastilu::Mazák::Rhapsody": {
