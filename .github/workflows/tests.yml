@@ -10,8 +10,8 @@ jobs:
         uses: astral-sh/setup-uv@v4
         with:
           enable-cache: true
-      - name: Test
-        run: make test
+      - name: Test with coverage
+        run: make coverage
   mypy:
     runs-on: ubuntu-latest
     steps:

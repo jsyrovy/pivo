@@ -99,7 +99,7 @@ make run-archivist                   # Run RSS archiver
 ## CI Pipeline
 
 On every push (`.github/workflows/tests.yml`), CI runs in parallel:
-- `make test` (pytest)
+- `make coverage` (pytest, fails under 100% coverage)
 - `make mypy` (type checking)
 - `make lint` (ruff)
 - Smoke test for the pivni-valka pipeline
