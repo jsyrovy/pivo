@@ -767,10 +767,11 @@
         };
 
         // `counts` appends a live count to every button and hides the ones it counts out (the style
-        // and brewery rows) -- the active one stays put so it can still be switched off.
-        const update = (active, {counts = null, order = null} = {}) => {
+        // and brewery rows) -- the active one stays put so it can still be switched off. `available`
+        // counts the whole menu, ignoring every filter, and decides whether the row shows at all.
+        const update = (active, {counts = null, available = null, order = null} = {}) => {
             if (order) reorder(order);
-            let visibleOptions = 0;
+            let menuOptions = 0;
             buttons.forEach(({btn, label, $count, $cross}, key) => {
                 const on = key === active;
                 btn.classList.toggle('active', on);
@@ -787,10 +788,12 @@
                 }
                 const hide = Boolean(counts) && !counts[key] && !on;
                 btn.classList.toggle('hidden', hide);
-                if (!hide) visibleOptions++;
+                if (available ? available[key] : !hide) menuOptions++;
             });
-            // A single option filters nothing -- hide the whole row instead.
-            $row.classList.toggle('hidden', visibleOptions < 2);
+            // A menu with a single option has nothing to filter -- hide the whole row instead. What
+            // the other filters leave over does not count: a brewery with one beer on tap would take
+            // the style row away, and with it the one button saying what that beer is.
+            $row.classList.toggle('hidden', menuOptions < 2);
             // Showing the row or hiding a button changes what overflows, and neither fires a scroll
             // or resize event -- so the fades are refreshed from here, where the change happens.
             afterLayout(syncFade);
@@ -890,6 +893,8 @@
         const cards = $container.children;
         const styleCounts = {};
         const breweryCounts = {};
+        const menuStyles = {};
+        const menuBreweries = {};
         let visibleCount = 0;
         let totalCount = 0;
         for (const card of cards) {
@@ -902,7 +907,11 @@
             const breweryMatch = active.brewery === 'all' || breweries.includes(active.brewery);
             // The total the filtered count compares against is always real beers, so the debug-only
             // placeholders never inflate it.
-            if (!unavailable) totalCount++;
+            if (!unavailable) {
+                totalCount++;
+                menuStyles[category] = true;
+                breweries.forEach(key => { menuBreweries[key] = true; });
+            }
             // Each row is counted ignoring its own filter but honouring the other two, so every
             // button says how many beers it would show on top of the rest of the selection. A
             // collaboration counts towards each of its breweries.
@@ -923,8 +932,10 @@
         });
 
         sourceRow.update(active.source);
-        styleRow.update(active.style, {counts: styleCounts});
-        breweryRow.update(active.brewery, {counts: breweryCounts, order: breweryOrder(breweryCounts)});
+        styleRow.update(active.style, {counts: styleCounts, available: menuStyles});
+        breweryRow.update(active.brewery, {
+            counts: breweryCounts, available: menuBreweries, order: breweryOrder(breweryCounts),
+        });
 
         // Filtered, the count says what the result is a part of -- and hands over the way back.
         const activeFilters = Object.values(active).filter(key => key !== 'all').length;
