@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-24T17:48:59Z",
+  "generated_at": "2026-09-24T21:21:57Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Moves": {
       "beer": {
@@ -8373,6 +8373,39 @@
         "reason": "no_candidates_above_threshold"
       }
     },
+    "beerstreet::Loutkář::Svatováclavský Kašpárek": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Loutkář",
+        "name": "Svatováclavský Kašpárek",
+        "style": "Ležák světlý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-09-24T21:21:48Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Svatováclavský Kašpárek 11° Loutkář",
+          "hits": []
+        },
+        {
+          "query": "Svatováclavský Kašpárek Loutkář",
+          "hits": []
+        },
+        {
+          "query": "Svatováclavský Kašpárek 11°",
+          "hits": []
+        },
+        {
+          "query": "Svatováclavský Kašpárek",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
     "beerstreet::Loutkář::Výroční ležák": {
       "beer": {
         "source": "beerstreet",
@@ -15440,6 +15473,39 @@
       "outcome": {
         "matched": "/b/axiom-brewery-dispatcher/4811356",
         "score": 1.0
+      }
+    },
+    "uzamastilu::Brewnicorn::Predátor W.Coast": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Brewnicorn",
+        "name": "Predátor W.Coast",
+        "style": "IPA",
+        "degree_plato": 15.0
+      },
+      "captured_at": "2026-09-24T21:21:57Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Predátor W.Coast 15° Brewnicorn",
+          "hits": []
+        },
+        {
+          "query": "Predátor W.Coast Brewnicorn",
+          "hits": []
+        },
+        {
+          "query": "Predátor W.Coast 15°",
+          "hits": []
+        },
+        {
+          "query": "Predátor W.Coast",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "uzamastilu::Budvar::Birgo Mango-Limetka": {
