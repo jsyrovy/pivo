@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-24T00:20:19Z",
+  "generated_at": "2026-09-24T17:48:59Z",
   "pairings": {
     "ambasada::Agent, Olešnice::Moves": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-moves-white-grapes-and-strawberries/4836340",
@@ -1153,6 +1153,16 @@
       "query_used": "Lost in C-Hops Vik",
       "description": "Silně chmelená West Coast IPA s intenzivním tropickým a citrusovým aroma, ostrou hořkostí a suchým závěrem, plné tělo a vysoká síla z 14° stupňovitosti a 6,6 % alkoholu."
     },
+    "ambasada::Vik/7° Stupňů::7VIKend With The Hunters": {
+      "untappd_url": "https://untappd.com/b/pivovar-vik-7vikend-with-the-hunters-fruited-sour-ostruziny-and-fiky-and-jalovec-and-rozmaryn/6859085",
+      "untappd_name": "7VIKend With the Hunters / Fruited Sour Ostružiny & Fíky & Jalovec & Rozmarýn",
+      "untappd_brewery": "Pivovar Vik",
+      "rating": 3.81,
+      "match_score": 1.0,
+      "matched_at": "2026-09-24T17:48:47Z",
+      "query_used": "<llm>",
+      "description": "Fruited sour ale s výraznou kyselinkou a lehkým tělem; ostružiny a fíky přidávají tmavé ovoce s nasládlým, téměř sušeným charakterem, jalovec přináší jehličnatý, pryskyřičný tón a rozmarýn bylinnou, aromatickou složku. Nadprůměrně hodnocené."
+    },
     "ambasada::Vik/Fauve::Confluence": {
       "untappd_url": "https://untappd.com/b/pivovar-vik-confluence-neipa-vik-fauve/6660039",
       "untappd_name": "CONFLUENCE / NEIPA Vik & Fauve",
@@ -1787,6 +1797,16 @@
       "matched_at": "2026-04-24T19:50:41Z",
       "query_used": "Summer Ale Hřebec"
     },
+    "beerstreet::Hřebec::Svatováclavský": {
+      "untappd_url": "https://untappd.com/b/pivovar-hrebec-11-deg-svatovaclavsky-zitny-lezak/6856415",
+      "untappd_name": "11° Svatováclavský žitný ležák ",
+      "untappd_brewery": "Pivovar Hřebec",
+      "rating": 3.6,
+      "match_score": 1.0,
+      "matched_at": "2026-09-24T17:48:32Z",
+      "query_used": "Svatováclavský 11° Hřebec",
+      "description": "Světlý žitný ležák s plnějším tělem díky žitnému sladu, který přináší jemně kořenitou, chlebovou sladovost a lehce pikantní charakter; spodně kvašený, s vyváženou jemnou hořkostí a čistým, pitelným profilem."
+    },
     "beerstreet::Klenot & Zmajska::Dragon Gem": {
       "untappd_url": "https://untappd.com/b/hradecky-klenot-dragon-gem/6752717",
       "untappd_name": "Dragon Gem",
@@ -1899,6 +1919,16 @@
       "query_used": "Rhapsody of fog 12° Klenot",
       "description": "Hazy ale s mírnou sladkostí a ovocným aroma, doplněné jemnou hořkostí a lehkou kyselinkou, má střední až plné tělo a suchý závěr."
     },
+    "beerstreet::Klenot::Sváteční": {
+      "untappd_url": "https://untappd.com/b/hradecky-klenot-svatecni-13-deg/3489847",
+      "untappd_name": "Sváteční 13°",
+      "untappd_brewery": "Hradecký Klenot",
+      "rating": 3.31,
+      "match_score": 1.0,
+      "matched_at": "2026-09-24T17:48:28Z",
+      "query_used": "Sváteční 13° Klenot",
+      "description_failed_at": "2026-09-24T17:48:47Z"
+    },
     "beerstreet::Klenot::Vera & Mosaic": {
       "untappd_url": "https://untappd.com/b/hradecky-klenot-vera-and-mosaic-hazy-ale-12/6709729",
       "untappd_name": "Vera & Mosaic Hazy Ale 12",
@@ -1975,6 +2005,16 @@
       "matched_at": "2026-07-15T14:57:09Z",
       "query_used": "Festivalové Louka"
     },
+    "beerstreet::Louka::Fresh Breakfast # 001": {
+      "untappd_url": "https://untappd.com/b/pivovar-louka-fresh-breakfast-001/5368521",
+      "untappd_name": "Fresh Breakfast #001",
+      "untappd_brewery": "Pivovar Louka",
+      "rating": 3.74,
+      "match_score": 1.0,
+      "matched_at": "2026-09-24T17:48:41Z",
+      "query_used": "Fresh Breakfast # 001 Louka",
+      "description": "Kyselé pivo s příchutí meruňky, maracuji a manga: svěží ovocná kyselost s výraznými tóny sladkého tropického ovoce a lehkou, osvěžující kyselinou, středně plné tělo s jemným perlením."
+    },
     "beerstreet::Louka::Fresh Breakfast #005 dračí ovoce": {
       "untappd_url": "https://untappd.com/b/pivovar-louka-fresh-breakfast-005/5819188",
       "untappd_name": "Fresh Breakfast #005",
@@ -2039,6 +2079,16 @@
       "match_score": 1.0,
       "matched_at": "2026-07-17T18:10:17Z",
       "query_used": "Horňácká 11° Louka"
+    },
+    "beerstreet::Louka::Kníže Václav": {
+      "untappd_url": "https://untappd.com/b/pivovar-louka-knize-vaclav-12/3998564",
+      "untappd_name": "Kníže Václav 12",
+      "untappd_brewery": "Pivovar Louka",
+      "rating": 3.42,
+      "match_score": 1.0,
+      "matched_at": "2026-09-24T17:48:36Z",
+      "query_used": "Kníže Václav 12° Louka",
+      "description": "Světlý ležák typu SMASH s plnějším tělem díky 12° stupňovitosti, vyvážená sladová chuť a jemná chmelová hořkost, spodně kvašený a čistý v profilu."
     },
     "beerstreet::Louka::Kuželka": {
       "untappd_url": "https://untappd.com/b/pivovar-louka-kuzelka/4615473",
@@ -2272,6 +2322,16 @@
       "matched_at": "2026-09-22T17:35:11Z",
       "query_used": "Matuška 12° Matuška",
       "description": "Klasický světlý ležák: sladový základ s jemnou chmelovou hořkostí, středně plné tělo a čistá, vyvážená chuť typická pro spodně kvašené pivo. Stupňovitost 12° a 5,1 % ABV naznačují plnější profil než u desítky, ale stále pitný a osvěžující charakter."
+    },
+    "beerstreet::Mazák::Babi léto": {
+      "untappd_url": "https://untappd.com/b/pivovar-mazak-babi-leto/3955027",
+      "untappd_name": "Babí léto 11",
+      "untappd_brewery": "Pivovar Mazák",
+      "rating": 3.64,
+      "match_score": 1.0,
+      "matched_at": "2026-09-24T17:48:37Z",
+      "query_used": "Babi léto 11° Mazák",
+      "description": "Klasická americká pale ale se sladovým základem, střední hořkostí a ovocně-květinovým chmelovým aroma, středně plné tělo a vyvážený profil typický pro styl. Hodnocení 3,64 naznačuje nadprůměrné přijetí."
     },
     "beerstreet::Mazák::Bojanowitz": {
       "untappd_url": "https://untappd.com/b/pivovar-mazak-bojanowitz/2028526",

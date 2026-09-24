@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-24T00:20:19Z",
+  "generated_at": "2026-09-24T17:48:59Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Moves": {
       "beer": {
@@ -3922,6 +3922,48 @@
         "score": 1.0
       }
     },
+    "ambasada::Vik/7° Stupňů::7VIKend With The Hunters": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Vik/7° Stupňů",
+        "name": "7VIKend With The Hunters",
+        "style": "Ostružiny & fíky & jalovec & rozmarýn sour ale",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-09-24T17:48:47Z",
+      "candidates": [
+        {
+          "name": "7VIKend With the Hunters / Fruited Sour Ostružiny & Fíky & Jalovec & Rozmarýn",
+          "brewery": "Pivovar Vik",
+          "url": "/b/pivovar-vik-7vikend-with-the-hunters-fruited-sour-ostruziny-and-fiky-and-jalovec-and-rozmaryn/6859085",
+          "rating": 3.81
+        }
+      ],
+      "attempts": [
+        {
+          "query": "7VIKend With The Hunters 13° Vik/7° Stupňů",
+          "hits": []
+        },
+        {
+          "query": "7VIKend With The Hunters Vik/7° Stupňů",
+          "hits": []
+        },
+        {
+          "query": "7VIKend With The Hunters 13°",
+          "hits": []
+        },
+        {
+          "query": "7VIKend With The Hunters",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-vik-7vikend-with-the-hunters-fruited-sour-ostruziny-and-fiky-and-jalovec-and-rozmaryn/6859085",
+        "source": "llm"
+      }
+    },
     "ambasada::Volt, Jablonec nad Nisou::Adaptér": {
       "beer": {
         "source": "ambasada",
@@ -6705,6 +6747,36 @@
         "score": 1.0
       }
     },
+    "beerstreet::Hřebec::Svatováclavský": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Hřebec",
+        "name": "Svatováclavský",
+        "style": "Ležák světlý - žitný",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-09-24T17:48:32Z",
+      "candidates": [
+        {
+          "name": "11° Svatováclavský žitný ležák ",
+          "brewery": "Pivovar Hřebec",
+          "url": "/b/pivovar-hrebec-11-deg-svatovaclavsky-zitny-lezak/6856415",
+          "rating": 3.6
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Svatováclavský 11° Hřebec",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-hrebec-11-deg-svatovaclavsky-zitny-lezak/6856415",
+        "score": 1.0
+      }
+    },
     "beerstreet::Klenot & Zmajska::Dragon Gem": {
       "beer": {
         "source": "beerstreet",
@@ -7060,6 +7132,36 @@
         "score": 0.8333
       }
     },
+    "beerstreet::Klenot::Sváteční": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Klenot",
+        "name": "Sváteční",
+        "style": "Ležák  vídeňsky",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-09-24T17:48:28Z",
+      "candidates": [
+        {
+          "name": "Sváteční 13°",
+          "brewery": "Hradecký Klenot",
+          "url": "/b/hradecky-klenot-svatecni-13-deg/3489847",
+          "rating": 3.31
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Sváteční 13° Klenot",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/hradecky-klenot-svatecni-13-deg/3489847",
+        "score": 1.0
+      }
+    },
     "beerstreet::Klenot::Vera & Mosaic": {
       "beer": {
         "source": "beerstreet",
@@ -7346,6 +7448,40 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-louka-festivalove-pivo-straznice/6319061",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Louka::Fresh Breakfast # 001": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Louka",
+        "name": "Fresh Breakfast # 001",
+        "style": "Sour -  meruňka maracuja  mango",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-09-24T17:48:41Z",
+      "candidates": [
+        {
+          "name": "Fresh Breakfast #001",
+          "brewery": "Pivovar Louka",
+          "url": "/b/pivovar-louka-fresh-breakfast-001/5368521",
+          "rating": 3.74
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Fresh Breakfast # 001 11° Louka",
+          "hits": []
+        },
+        {
+          "query": "Fresh Breakfast # 001 Louka",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-louka-fresh-breakfast-001/5368521",
         "score": 1.0
       }
     },
@@ -7659,6 +7795,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-louka-hornacka-11/6079709",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Louka::Kníže Václav": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Louka",
+        "name": "Kníže Václav",
+        "style": "Ležák světlý - smash",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-09-24T17:48:36Z",
+      "candidates": [
+        {
+          "name": "Kníže Václav 12",
+          "brewery": "Pivovar Louka",
+          "url": "/b/pivovar-louka-knize-vaclav-12/3998564",
+          "rating": 3.42
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Kníže Václav 12° Louka",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-louka-knize-vaclav-12/3998564",
         "score": 1.0
       }
     },
@@ -8427,6 +8593,36 @@
       "outcome": {
         "matched": "/b/pivovar-matuska-california-12-deg/201399",
         "score": 0.0
+      }
+    },
+    "beerstreet::Mazák::Babi léto": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Mazák",
+        "name": "Babi léto",
+        "style": "APA",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-09-24T17:48:37Z",
+      "candidates": [
+        {
+          "name": "Babí léto 11",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-babi-leto/3955027",
+          "rating": 3.64
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Babi léto 11° Mazák",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mazak-babi-leto/3955027",
+        "score": 1.0
       }
     },
     "beerstreet::Mazák::Bojanowitz": {
