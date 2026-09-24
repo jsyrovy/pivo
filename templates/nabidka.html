@@ -74,6 +74,15 @@
     html.dark .chip {
         --tint: var(--accent-dark);
     }
+    /* Both chips also switch the filter they are tinted after, so they answer a hover the way the
+       filter button does. */
+    button.chip {
+        transition: background-color 150ms, border-color 150ms;
+    }
+    button.chip:hover {
+        background-color: color-mix(in srgb, var(--tint) 24%, transparent);
+        border-color: color-mix(in srgb, var(--tint) 60%, transparent);
+    }
     /* A filter row never wraps -- what does not fit scrolls sideways. Each edge fades only while
        there is still something behind it, so the fade means "more this way" and nothing else, and
        a row with nothing hidden carries no mask at all. */
@@ -590,18 +599,14 @@
     // Only the cleaned-up names -- the town the pub appends ("Volt, Jablonec nad Nisou") stays in the
     // debug panel. Each brewery of a collaboration is its own button and switches the filter for it;
     // a beer from an old response without `breweries` keeps the raw text and nothing to click.
+    // Every way into a filter from a card says which row and key it switches, see filterFromCard.
     function renderBreweryHtml(beer) {
         const breweries = beerBreweries(beer);
         if (breweries.length === 0) return esc(beer.brewery);
         return breweries.map(({key, name}) =>
-            `<button type="button" class="brewery-link hover:text-amber hover:underline underline-offset-2 transition-colors" data-brewery="${esc(key)}" title="Filtrovat pivovar ${esc(name)}" onclick="filterByBrewery(event, this)">${esc(name)}</button>`,
+            `<button type="button" class="brewery-link hover:text-amber hover:underline underline-offset-2 transition-colors" data-filter-row="brewery" data-filter-key="${esc(key)}" title="Filtrovat pivovar ${esc(name)}">${esc(name)}</button>`,
         ).join(' / ');
     }
-
-    window.filterByBrewery = function(event, btn) {
-        event.stopPropagation();
-        setFilter('brewery', btn.dataset.brewery);
-    };
 
     // An empty tap comes through as a beer named '-'.
     function isUnavailable(beer) {
@@ -646,12 +651,12 @@
                     <div class="shrink-0 flex items-center gap-1 mt-1">
                         ${descriptionHtml}
                         ${ratingHtml}
-                        <span class="chip text-[10px] font-medium border rounded px-1.5 py-px" style="${accentVars(src)}">${src.badge}</span>
+                        <button type="button" class="chip text-[10px] font-medium border rounded px-1.5 py-px" style="${accentVars(src)}" data-filter-row="source" data-filter-key="${esc(beer.source)}" title="Filtrovat podnik ${esc(src.name)}">${src.badge}</button>
                     </div>
                 </div>
                 ${brewery ? `<p class="text-zinc-500 dark:text-chalk/50 text-xs truncate mb-1.5">${brewery}</p>` : ''}
                 <div class="flex flex-wrap gap-1 mb-2">
-                    ${style ? `<span class="chip text-[10px] border rounded-full px-2 py-px" style="${accentVars(category)}">${style}</span>` : ''}
+                    ${style ? `<button type="button" class="chip text-[10px] border rounded-full px-2 py-px" style="${accentVars(category)}" data-filter-row="style" data-filter-key="${category.key}" title="Filtrovat kategorii ${esc(category.label)}">${style}</button>` : ''}
                     ${abvText ? `<span class="text-[10px] bg-zinc-100 dark:bg-chalk/5 text-zinc-500 dark:text-chalk/60 border border-zinc-200 dark:border-slate-mid rounded-full px-2 py-px">${abvText}%</span>` : ''}
                 </div>
                 ${pricingHtml ? `<div class="mt-auto pt-2 border-t border-zinc-200 dark:border-slate-mid/50">${pricingHtml}</div>` : ''}
@@ -928,7 +933,7 @@
 
         // The brewery a card names is also a way into the filter, so the one that is on says so.
         $container.querySelectorAll('.brewery-link').forEach(link => {
-            link.classList.toggle('text-amber', link.dataset.brewery === active.brewery);
+            link.classList.toggle('text-amber', link.dataset.filterKey === active.brewery);
         });
 
         sourceRow.update(active.source);
@@ -1061,6 +1066,14 @@
         if (toastTimer) clearTimeout(toastTimer);
         toastTimer = setTimeout(() => $toast.classList.remove('visible'), 1500);
     }
+
+    // The pub badge, the style chip and each brewery on a card switch their filter like the button in
+    // its row would. Alt+click stays the copy shortcut below, wherever on the card it lands.
+    $container.addEventListener('click', (e) => {
+        if (e.altKey) return;
+        const link = e.target.closest('[data-filter-row]');
+        if (link) setFilter(link.dataset.filterRow, link.dataset.filterKey);
+    });
 
     $container.addEventListener('click', async (e) => {
         if (!e.altKey) return;
