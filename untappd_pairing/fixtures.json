@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-23T21:20:22Z",
+  "generated_at": "2026-09-24T00:20:19Z",
   "fixtures": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
@@ -12444,6 +12444,73 @@
         "score": 1.0
       }
     },
+    "toulavapipa::Krkonošský medvěd::SUMMER ALE": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Krkonošský medvěd",
+        "name": "SUMMER ALE",
+        "style": "Summer ale",
+        "degree_plato": null
+      },
+      "captured_at": "2026-09-24T00:20:01Z",
+      "candidates": [
+        {
+          "name": "Summer Sunset Ale",
+          "brewery": "Krkonošský medvěd",
+          "url": "/b/krkonossky-medved-summer-sunset-ale/1567870",
+          "rating": 3.53
+        },
+        {
+          "name": "African Summer Ale",
+          "brewery": "Krkonošský medvěd",
+          "url": "/b/krkonossky-medved-african-summer-ale/3277713",
+          "rating": 3.4
+        }
+      ],
+      "attempts": [
+        {
+          "query": "SUMMER ALE Krkonošský medvěd",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/krkonossky-medved-african-summer-ale/3277713",
+        "score": 1.0
+      }
+    },
+    "toulavapipa::Krkonošský medvěd::ZCESTOVALÝ MEDVĚD": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Krkonošský medvěd",
+        "name": "ZCESTOVALÝ MEDVĚD",
+        "style": "IPL",
+        "degree_plato": null
+      },
+      "captured_at": "2026-09-24T00:19:58Z",
+      "candidates": [
+        {
+          "name": "Zcestovalý medvěd",
+          "brewery": "Krkonošský medvěd",
+          "url": "/b/krkonossky-medved-zcestovaly-medved/6708489",
+          "rating": 3.5
+        }
+      ],
+      "attempts": [
+        {
+          "query": "ZCESTOVALÝ MEDVĚD Krkonošský medvěd",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/krkonossky-medved-zcestovaly-medved/6708489",
+        "score": 1.0
+      }
+    },
     "toulavapipa::Krkonošský medvěd::Česká šiška": {
       "beer": {
         "source": "toulavapipa",
@@ -12590,6 +12657,36 @@
       "outcome": {
         "matched": "/b/kynspersky-pivovar-kynspersky-zajic-11-deg-svetly-lezak/1936006",
         "source": "llm"
+      }
+    },
+    "toulavapipa::Kynšperský pivovar::DESÍTKA": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Kynšperský pivovar",
+        "name": "DESÍTKA",
+        "style": "Sv. výčepní",
+        "degree_plato": null
+      },
+      "captured_at": "2026-09-24T00:19:55Z",
+      "candidates": [
+        {
+          "name": "Kynšperský Zajíc 10° světlé výčepní",
+          "brewery": "Kynšperský pivovar",
+          "url": "/b/kynspersky-pivovar-kynspersky-zajic-10-deg-svetle-vycepni/815388",
+          "rating": 3.2
+        }
+      ],
+      "attempts": [
+        {
+          "query": "DESÍTKA Kynšperský",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/kynspersky-pivovar-kynspersky-zajic-10-deg-svetle-vycepni/815388",
+        "score": 0.0
       }
     },
     "toulavapipa::Kynšperský pivovar::Kynšperský Zajíc": {
@@ -12981,6 +13078,36 @@
         "score": 1.0
       }
     },
+    "toulavapipa::Madcat::CYBER CAT": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Madcat",
+        "name": "CYBER CAT",
+        "style": "APA",
+        "degree_plato": null
+      },
+      "captured_at": "2026-09-24T00:20:04Z",
+      "candidates": [
+        {
+          "name": "Cyber Cat",
+          "brewery": "MadCat",
+          "url": "/b/madcat-cyber-cat/6441688",
+          "rating": 3.59
+        }
+      ],
+      "attempts": [
+        {
+          "query": "CYBER CAT Madcat",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/madcat-cyber-cat/6441688",
+        "score": 1.0
+      }
+    },
     "toulavapipa::Madcat::Citra for B-DAY": {
       "beer": {
         "source": "toulavapipa",
@@ -13071,6 +13198,36 @@
       "outcome": {
         "matched": null,
         "reason": "no_candidates_above_threshold"
+      }
+    },
+    "toulavapipa::Madcat::JEDENÁCTKA": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Madcat",
+        "name": "JEDENÁCTKA",
+        "style": "Sv. ležák",
+        "degree_plato": null
+      },
+      "captured_at": "2026-09-24T00:19:58Z",
+      "candidates": [
+        {
+          "name": "Jedenáctka",
+          "brewery": "MadCat",
+          "url": "/b/madcat-jedenactka/5604401",
+          "rating": 3.5
+        }
+      ],
+      "attempts": [
+        {
+          "query": "JEDENÁCTKA Madcat",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/madcat-jedenactka/5604401",
+        "score": 1.0
       }
     },
     "toulavapipa::Madcat::Jiskra": {
@@ -13313,6 +13470,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-mordyr-kurtizana/704889",
+        "score": 1.0
+      }
+    },
+    "toulavapipa::Mordýř::LAZY CAT": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Mordýř",
+        "name": "LAZY CAT",
+        "style": "Žitná IPA",
+        "degree_plato": null
+      },
+      "captured_at": "2026-09-24T00:20:06Z",
+      "candidates": [
+        {
+          "name": "Lazy Cat",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-lazy-cat/689687",
+          "rating": 3.57
+        }
+      ],
+      "attempts": [
+        {
+          "query": "LAZY CAT Mordýř",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mordyr-lazy-cat/689687",
         "score": 1.0
       }
     },
@@ -13783,6 +13970,36 @@
       "outcome": {
         "matched": "/b/pivovar-raven-birthday-apa-2019/3404893",
         "source": "llm"
+      }
+    },
+    "toulavapipa::Raven::CITRAVAZANZA": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Raven",
+        "name": "CITRAVAZANZA",
+        "style": "Session NEIPA",
+        "degree_plato": null
+      },
+      "captured_at": "2026-09-24T00:20:03Z",
+      "candidates": [
+        {
+          "name": "Citravaganza",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-citravaganza/4979026",
+          "rating": 3.8
+        }
+      ],
+      "attempts": [
+        {
+          "query": "CITRAVAZANZA Raven",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-raven-citravaganza/4979026",
+        "score": 0.9
       }
     },
     "toulavapipa::Raven::Cascadelicous": {

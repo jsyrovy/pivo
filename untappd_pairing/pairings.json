@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-23T21:20:22Z",
+  "generated_at": "2026-09-24T00:20:19Z",
   "pairings": {
     "ambasada::6, 2% Sibeeria/Čierny Kameň::Juniper Dryad": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-juniper-dryad/6208875",
@@ -3344,6 +3344,26 @@
       "query_used": "HOPBIT Krkonošský Medvěd",
       "description": "IPL kombinuje chmelovou aromatičnost a hořkost typickou pro IPA s čistým, lehce sladovým tělem spodně kvašeného ležáku. Očekávejte střední až vyšší hořkost, citrusové a pryskyřičné tóny v aroma a suchý, osvěžující závěr."
     },
+    "toulavapipa::Krkonošský medvěd::SUMMER ALE": {
+      "untappd_url": "https://untappd.com/b/krkonossky-medved-african-summer-ale/3277713",
+      "untappd_name": "African Summer Ale",
+      "untappd_brewery": "Krkonošský medvěd",
+      "rating": 3.4,
+      "match_score": 1.0,
+      "matched_at": "2026-09-24T00:20:01Z",
+      "query_used": "SUMMER ALE Krkonošský medvěd",
+      "description": "Letní svrchně kvašené pivo s lehkým tělem, jemnou sladovou základnou a jemnou chmelovou hořkostí, osvěžující a pitelné."
+    },
+    "toulavapipa::Krkonošský medvěd::ZCESTOVALÝ MEDVĚD": {
+      "untappd_url": "https://untappd.com/b/krkonossky-medved-zcestovaly-medved/6708489",
+      "untappd_name": "Zcestovalý medvěd",
+      "untappd_brewery": "Krkonošský medvěd",
+      "rating": 3.5,
+      "match_score": 1.0,
+      "matched_at": "2026-09-24T00:19:58Z",
+      "query_used": "ZCESTOVALÝ MEDVĚD Krkonošský medvěd",
+      "description": "IPL kombinuje chmelový profil IPA s čistotou spodně kvašeného ležáku – střední až vyšší hořkost, citrusové a pryskyřičné aroma, sladový základ a plnější tělo než u klasického ležáku, ale s suchým, pivně svěžím závěrem typickým pro kvašení při nižších teplotách. Hodnocení 3,50 není dostatečně extrémní na zmínku."
+    },
     "toulavapipa::Krkonošský medvěd::Česká šiška": {
       "untappd_url": "https://untappd.com/b/krkonossky-medved-ceska-siska/5439587",
       "untappd_name": "Česká Šiška",
@@ -3363,6 +3383,16 @@
       "matched_at": "2026-08-31T19:28:00Z",
       "query_used": "<llm>",
       "description": "Klasický výčepní světlý ležák: sladový základ, jemná chmelová hořkost a lehčí tělo, spodně kvašený a čistý v chuti."
+    },
+    "toulavapipa::Kynšperský pivovar::DESÍTKA": {
+      "untappd_url": "https://untappd.com/b/kynspersky-pivovar-kynspersky-zajic-10-deg-svetle-vycepni/815388",
+      "untappd_name": "Kynšperský Zajíc 10° světlé výčepní",
+      "untappd_brewery": "Kynšperský pivovar",
+      "rating": 3.2,
+      "match_score": 0.0,
+      "matched_at": "2026-09-24T00:19:55Z",
+      "query_used": "DESÍTKA Kynšperský",
+      "description": "Klasické české světlé výčepní pivo: sladový základ s jemnou chmelovou hořkostí, lehké tělo a čistá, osvěžující chuť typická pro spodně kvašený ležák. Podprůměrně hodnocené na Untappd."
     },
     "toulavapipa::Kynšperský pivovar::Kynšperský Zajíc": {
       "untappd_url": "https://untappd.com/b/kynspersky-pivovar-kynspersky-zajic-11-deg-svetly-lezak/1936006",
@@ -3454,6 +3484,16 @@
       "query_used": "Mango-pina-coco MadCat",
       "description": "Mango-pina-coco je ovocně kyselé sour ale s dominantními tropickými mango, ananasem a kokosem, doplněné sladkým ovocným aroma a lehkou kyselinkou, má lehké tělo a osvěžující kyselou kyselost, hodnocení 3.80 nadprůměrně."
     },
+    "toulavapipa::Madcat::CYBER CAT": {
+      "untappd_url": "https://untappd.com/b/madcat-cyber-cat/6441688",
+      "untappd_name": "Cyber Cat",
+      "untappd_brewery": "MadCat",
+      "rating": 3.59,
+      "match_score": 1.0,
+      "matched_at": "2026-09-24T00:20:04Z",
+      "query_used": "CYBER CAT Madcat",
+      "description": "Klasická americká pale ale s vyváženým sladovým základem, střední hořkostí a aroma citrusů a tropického ovoce po amerických chmelech. Středně plné tělo, čisté a dobře pitelné svrchně kvašené pivo."
+    },
     "toulavapipa::Madcat::Citra for B-DAY": {
       "untappd_url": "https://untappd.com/b/madcat-citra-for-a-b-day/6834766",
       "untappd_name": "Citra For A B:Day",
@@ -3463,6 +3503,16 @@
       "matched_at": "2026-09-01T20:52:20Z",
       "query_used": "Citra for B-DAY Madcat",
       "description": "Silně chmelená americká IPA s výraznou hořkostí, citrusovým a tropickým ovocným aroma. Citra chmel přidává intenzivní tóny grepu, manga a marakuji. Nadprůměrně hodnocené."
+    },
+    "toulavapipa::Madcat::JEDENÁCTKA": {
+      "untappd_url": "https://untappd.com/b/madcat-jedenactka/5604401",
+      "untappd_name": "Jedenáctka",
+      "untappd_brewery": "MadCat",
+      "rating": 3.5,
+      "match_score": 1.0,
+      "matched_at": "2026-09-24T00:19:58Z",
+      "query_used": "JEDENÁCTKA Madcat",
+      "description": "Klasický světlý ležák: sladový základ, jemná chmelová hořkost a lehčí tělo, spodně kvašený a čistý v chuti."
     },
     "toulavapipa::Madcat::Jiskra": {
       "untappd_url": "https://untappd.com/b/madcat-jiskra/5509844",
@@ -3523,6 +3573,16 @@
       "matched_at": "2026-08-14T14:17:11Z",
       "query_used": "Kurtizána Mordýř",
       "description": "Kurtizána je typická IPA s intenzivním chmelovým aroma, citrusovými a tropickými tóny a výraznou hořkostí, doplněná středně plným tělem a suchým závěrem."
+    },
+    "toulavapipa::Mordýř::LAZY CAT": {
+      "untappd_url": "https://untappd.com/b/pivovar-mordyr-lazy-cat/689687",
+      "untappd_name": "Lazy Cat",
+      "untappd_brewery": "Pivovar Mordýř",
+      "rating": 3.57,
+      "match_score": 1.0,
+      "matched_at": "2026-09-24T00:20:06Z",
+      "query_used": "LAZY CAT Mordýř",
+      "description": "Žitná IPA s výraznou chmelovou hořkostí, citrusovým a pryskyřičným aroma a plnějším tělem díky žitnému sladu, který přidává kořenitý, chlebový nádech. Středně plné, svrchně kvašené pivo s vyváženým sladovým základem a suchým závěrem."
     },
     "toulavapipa::Mordýř::LÍNÝ ČERT": {
       "untappd_url": "https://untappd.com/b/pivovar-mordyr-liny-cert-12/557097",
@@ -3613,6 +3673,16 @@
       "matched_at": "2026-08-29T17:03:06Z",
       "query_used": "<llm>",
       "description": "Klasická americká pale ale s vyváženým sladovým základem a střední chmelovou hořkostí, typicky s citrusovými a květinovými tóny chmele, středně plné tělo a čistý, pitelný charakter svrchně kvašeného piva. Hodnocení 3,69 naznačuje nadprůměrné přijetí mezi pivaři."
+    },
+    "toulavapipa::Raven::CITRAVAZANZA": {
+      "untappd_url": "https://untappd.com/b/pivovar-raven-citravaganza/4979026",
+      "untappd_name": "Citravaganza",
+      "untappd_brewery": "Pivovar Raven",
+      "rating": 3.8,
+      "match_score": 0.9,
+      "matched_at": "2026-09-24T00:20:03Z",
+      "query_used": "CITRAVAZANZA Raven",
+      "description": "Session NEIPA s nízkým obsahem alkoholu a plnější tělo díky jemnému kalu, intenzivní tropické a citrusové aroma po odrůdě Citra, nízká hořkost a hladký, šťavnatý závěr. Nadprůměrně hodnocené."
     },
     "toulavapipa::Raven::Cascadelicous": {
       "untappd_url": "https://untappd.com/b/pivovar-raven-cascadelicious/6792361",
