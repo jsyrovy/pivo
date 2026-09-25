@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-25T17:52:38Z",
+  "generated_at": "2026-09-25T21:21:50Z",
   "pairings": {
     "ambasada::Agent, Olešnice::Moves": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-moves-white-grapes-and-strawberries/4836340",
@@ -388,7 +388,8 @@
       "rating": 3.602,
       "match_score": 1.0,
       "matched_at": "2026-04-25T19:41:47Z",
-      "query_used": "LucIPA JungBerg"
+      "query_used": "LucIPA JungBerg",
+      "description": "Středně plná svrchně kvašená IPA s vyváženým sladovým základem a střední až vyšší chmelovou hořkostí, typická pro anglický nebo střední styl – očekávejte karamelové tóny a bylinné až květinové chmelové aroma. Ocenění 3,60 na Untappd naznačuje nadprůměrné hodnocení."
     },
     "ambasada::JungBerg, Hořice::PP (Pořádné Pivo)": {
       "untappd_url": "https://untappd.com/b/pivovar-jungberg-pp-12/1774180",
@@ -2239,6 +2240,16 @@
       "matched_at": "2026-04-28T20:13:38Z",
       "query_used": "Kašpárek Loutkář"
     },
+    "beerstreet::Loutkář::Lodní Šroub": {
+      "untappd_url": "https://untappd.com/b/pivovar-loutkar-lodni-sroub-12-apa/3940224",
+      "untappd_name": "Lodní šroub 12 APA",
+      "untappd_brewery": "Pivovar Loutkář",
+      "rating": 3.51,
+      "match_score": 1.0,
+      "matched_at": "2026-09-25T21:21:44Z",
+      "query_used": "Lodní Šroub Loutkář",
+      "description": "Klasická americká pale ale se sladovým základem, střední hořkostí a citrusovo-pryskyřičným chmelovým aroma, středně plné tělo a vyvážený charakter svrchně kvašeného piva. Hodnocení na Untappd je průměrné."
+    },
     "beerstreet::Loutkář::Loutkář": {
       "untappd_url": "https://untappd.com/b/pivovar-loutkar-svetly-lezak-12/3940219",
       "untappd_name": "Světlý ležák 12",
@@ -2820,6 +2831,16 @@
       "matched_at": "2026-08-14T20:35:55Z",
       "query_used": "Az Ban Twinberg",
       "description": "NEIPA s mírnou sladkostí a ovocným aroma, lehkou až střední plností a jemnou hořkostí, doplněná jemnou vanilkovou a karamellovou notou z vanilky v názvu."
+    },
+    "beerstreet::Twinberg::Frída": {
+      "untappd_url": "https://untappd.com/b/twinberg-frida-11-deg/4868680",
+      "untappd_name": "Frida 11°",
+      "untappd_brewery": "Twinberg",
+      "rating": 3.7,
+      "match_score": 1.0,
+      "matched_at": "2026-09-25T21:21:46Z",
+      "query_used": "Frída 11° Twinberg",
+      "description": "Hazy pale ale s nižší stupňovitostí nabízí jemný sladový základ, jemnou chmelovou hořkost a střední tělo s typickým zakaleným vzhledem a ovocně-květinovým aroma chmele. Spodní hranice hodnocení naznačuje průměrné přijetí bez výrazných výtek či chvály."
     },
     "beerstreet::Twinberg::Karel": {
       "untappd_url": "https://untappd.com/b/twinberg-karel-11-deg/5632847",

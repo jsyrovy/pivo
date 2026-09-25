@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-25T17:52:38Z",
+  "generated_at": "2026-09-25T21:21:50Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Moves": {
       "beer": {
@@ -8166,6 +8166,40 @@
         "score": 1.0
       }
     },
+    "beerstreet::Loutkář::Lodní Šroub": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Loutkář",
+        "name": "Lodní Šroub",
+        "style": "APA",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-09-25T21:21:44Z",
+      "candidates": [
+        {
+          "name": "Lodní šroub 12 APA",
+          "brewery": "Pivovar Loutkář",
+          "url": "/b/pivovar-loutkar-lodni-sroub-12-apa/3940224",
+          "rating": 3.51
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Lodní Šroub 11° Loutkář",
+          "hits": []
+        },
+        {
+          "query": "Lodní Šroub Loutkář",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-loutkar-lodni-sroub-12-apa/3940224",
+        "score": 1.0
+      }
+    },
     "beerstreet::Loutkář::Loutkář": {
       "beer": {
         "source": "beerstreet",
@@ -10210,6 +10244,36 @@
       ],
       "outcome": {
         "matched": "/b/twinberg-az-ban/6599433",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Twinberg::Frída": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Twinberg",
+        "name": "Frída",
+        "style": "Hazy pale ale",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-09-25T21:21:46Z",
+      "candidates": [
+        {
+          "name": "Frida 11°",
+          "brewery": "Twinberg",
+          "url": "/b/twinberg-frida-11-deg/4868680",
+          "rating": 3.7
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Frída 11° Twinberg",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/twinberg-frida-11-deg/4868680",
         "score": 1.0
       }
     },
