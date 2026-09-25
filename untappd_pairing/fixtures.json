@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-25T00:22:41Z",
+  "generated_at": "2026-09-25T17:52:38Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Moves": {
       "beer": {
@@ -5098,6 +5098,40 @@
       ],
       "outcome": {
         "matched": "/b/brewnicorn-hazy-frenzy-vibe/6734151",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Brewnicorn::Jahůdka": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Brewnicorn",
+        "name": "Jahůdka",
+        "style": "Sour",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-09-25T17:51:38Z",
+      "candidates": [
+        {
+          "name": "Jahůdka",
+          "brewery": "Brewnicorn",
+          "url": "/b/brewnicorn-jahudka/6842817",
+          "rating": 3.65
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Jahůdka 11° Brewnicorn",
+          "hits": []
+        },
+        {
+          "query": "Jahůdka Brewnicorn",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/brewnicorn-jahudka/6842817",
         "score": 1.0
       }
     },
@@ -15475,6 +15509,36 @@
         "score": 1.0
       }
     },
+    "uzamastilu::Beskydský Pivovárek::Ležák": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Beskydský Pivovárek",
+        "name": "Ležák",
+        "style": "Ležák",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-09-25T17:51:41Z",
+      "candidates": [
+        {
+          "name": "Brusinkový ležák",
+          "brewery": "Beskydský pivovárek",
+          "url": "/b/beskydsky-pivovarek-brusinkovy-lezak/2639023",
+          "rating": 3.12
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Ležák 12° Beskydský Pivovárek",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/beskydsky-pivovarek-brusinkovy-lezak/2639023",
+        "score": 1.0
+      }
+    },
     "uzamastilu::Brewnicorn::Predátor W.Coast": {
       "beer": {
         "source": "uzamastilu",
@@ -16908,6 +16972,36 @@
       "outcome": {
         "matched": null,
         "reason": "no_candidates_above_threshold"
+      }
+    },
+    "uzamastilu::Mazák::Pear": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Mazák",
+        "name": "Pear",
+        "style": "Gose",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-09-25T17:51:42Z",
+      "candidates": [
+        {
+          "name": "Pear Gose 11",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-pear-gose-11/6894412",
+          "rating": 3.69
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Pear 11° Mazák",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mazak-pear-gose-11/6894412",
+        "score": 1.0
       }
     },
     "uzamastilu::Mazák::Rhapsody": {
