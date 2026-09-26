@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-26T16:59:10Z",
+  "generated_at": "2026-09-26T19:44:13Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Moves": {
       "beer": {
@@ -1830,6 +1830,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-louka-australian-ipa-14/4194092",
+        "score": 1.0
+      }
+    },
+    "ambasada::Louka::Haka": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Louka",
+        "name": "Haka",
+        "style": "American pale ale",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-09-26T19:44:03Z",
+      "candidates": [
+        {
+          "name": "Haka 12°",
+          "brewery": "Pivovar Louka",
+          "url": "/b/pivovar-louka-haka-12-deg/4422305",
+          "rating": 3.63
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Haka 12° Louka",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-louka-haka-12-deg/4422305",
         "score": 1.0
       }
     },
@@ -16874,6 +16904,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-mazak-aurora-cold-ipa/6810130",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Mazák::Cryo Elani": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Mazák",
+        "name": "Cryo Elani",
+        "style": "APA",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-09-26T19:44:06Z",
+      "candidates": [
+        {
+          "name": "Cryo Elani 12",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-cryo-elani-12/6913197",
+          "rating": 3.64
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Cryo Elani 12° Mazák",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mazak-cryo-elani-12/6913197",
         "score": 1.0
       }
     },

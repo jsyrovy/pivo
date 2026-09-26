@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-26T16:59:10Z",
+  "generated_at": "2026-09-26T19:44:13Z",
   "pairings": {
     "ambasada::Agent, Olešnice::Moves": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-moves-white-grapes-and-strawberries/4836340",
@@ -513,6 +513,16 @@
       "match_score": 1.0,
       "matched_at": "2026-04-17T11:21:18Z",
       "query_used": "Fresh Breakfast Louka"
+    },
+    "ambasada::Louka::Haka": {
+      "untappd_url": "https://untappd.com/b/pivovar-louka-haka-12-deg/4422305",
+      "untappd_name": "Haka 12°",
+      "untappd_brewery": "Pivovar Louka",
+      "rating": 3.63,
+      "match_score": 1.0,
+      "matched_at": "2026-09-26T19:44:03Z",
+      "query_used": "Haka 12° Louka",
+      "description": "American pale ale s střední sladovou základnou, střední až vyšší chmelovou hořkostí a aroma citrusů, tropického ovoce a borovice; středně plné tělo a vyvážený profil typický pro styl."
     },
     "ambasada::Louka::Summer Day": {
       "untappd_url": "https://untappd.com/b/pivovar-louka-summer-day-10/3948423",
@@ -4263,6 +4273,16 @@
       "matched_at": "2026-08-18T17:31:57Z",
       "query_used": "Aurora Cold Mazák",
       "description": "Aurora Cold IPA je silně chmelená, aromatická IPA s citrusovými a tropickými tóny, suchým závěrem a lehkou až střední plností díky vyššímu stupňování, přesto osvěžující a dobře pitelné. POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE P…"
+    },
+    "uzamastilu::Mazák::Cryo Elani": {
+      "untappd_url": "https://untappd.com/b/pivovar-mazak-cryo-elani-12/6913197",
+      "untappd_name": "Cryo Elani 12",
+      "untappd_brewery": "Pivovar Mazák",
+      "rating": 3.64,
+      "match_score": 1.0,
+      "matched_at": "2026-09-26T19:44:06Z",
+      "query_used": "Cryo Elani 12° Mazák",
+      "description": "APA s výraznějším tělem díky 12° stupňovitosti, s typickou chmelovou hořkostí a ovocně-květinovým aroma. Název „Cryo“ naznačuje použití chmele v podobě cryo-hops, což zvyšuje intenzitu chmelových tónů bez navýšení hořkosti."
     },
     "uzamastilu::Mazák::Cryo Riwaka": {
       "untappd_url": "https://untappd.com/b/pivovar-mazak-cryo-riwaka-12/6832732",
