@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-26T22:34:48Z",
+  "generated_at": "2026-09-27T17:37:14Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Moves": {
       "beer": {
@@ -18784,6 +18784,36 @@
       "outcome": {
         "matched": null,
         "reason": "no_candidates_above_threshold"
+      }
+    },
+    "uzamastilu::Volt::Zdroj": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Volt",
+        "name": "Zdroj",
+        "style": "Ležák",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-09-27T17:37:11Z",
+      "candidates": [
+        {
+          "name": "Zdroj 12",
+          "brewery": "Pivovar Volt",
+          "url": "/b/pivovar-volt-zdroj-12/4827716",
+          "rating": 3.5
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Zdroj 12° Volt",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-volt-zdroj-12/4827716",
+        "score": 1.0
       }
     },
     "uzamastilu::Zichovec::Krahulík": {
