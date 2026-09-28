@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-28T00:26:56Z",
+  "generated_at": "2026-09-28T20:03:27Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Moves": {
       "beer": {
@@ -18716,6 +18716,36 @@
       ],
       "outcome": {
         "matched": "/b/twinberg-moustache/6755650",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::U Vojtěchů::Podlipák": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "U Vojtěchů",
+        "name": "Podlipák",
+        "style": "Ležák",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-09-28T20:03:25Z",
+      "candidates": [
+        {
+          "name": "Podlipák 11",
+          "brewery": "Pivovar U Vojtěchů",
+          "url": "/b/pivovar-u-vojtechu-podlipak-11/4081441",
+          "rating": 3.55
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Podlipák 11° U Vojtěchů",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-u-vojtechu-podlipak-11/4081441",
         "score": 1.0
       }
     },

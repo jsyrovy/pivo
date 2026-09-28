@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-28T00:26:56Z",
+  "generated_at": "2026-09-28T20:03:27Z",
   "pairings": {
     "ambasada::Agent, Olešnice::Moves": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-moves-white-grapes-and-strawberries/4836340",
@@ -4643,6 +4643,16 @@
       "matched_at": "2026-08-10T09:33:10Z",
       "query_used": "Moustache Twinberg",
       "description": "Moustache od Twinbergu je svěží NEIPA s mírně až střední silou, která potěší milovníky aromatických, ovocných pivních stylů a hodí se na neformální setkání s přáteli."
+    },
+    "uzamastilu::U Vojtěchů::Podlipák": {
+      "untappd_url": "https://untappd.com/b/pivovar-u-vojtechu-podlipak-11/4081441",
+      "untappd_name": "Podlipák 11",
+      "untappd_brewery": "Pivovar U Vojtěchů",
+      "rating": 3.55,
+      "match_score": 1.0,
+      "matched_at": "2026-09-28T20:03:25Z",
+      "query_used": "Podlipák 11° U Vojtěchů",
+      "description": "Klasický český ležák: sladový základ s jemnou chmelovou hořkostí, středně plné tělo a čistá, vyvážená chuť typická pro spodně kvašená piva."
     },
     "uzamastilu::Vik::Beach Club": {
       "untappd_url": "https://untappd.com/b/pivovar-vik-beach-club/6822681",
