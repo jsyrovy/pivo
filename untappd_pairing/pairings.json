@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-29T00:53:33Z",
+  "generated_at": "2026-09-29T18:31:55Z",
   "pairings": {
     "ambasada::Agent, Olešnice::Moves": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-moves-white-grapes-and-strawberries/4836340",
@@ -1435,6 +1435,16 @@
       "matched_at": "2026-06-13T17:27:49Z",
       "query_used": "Pale Lager 11° Agent",
       "description": "Pale Lager 11 od Pivovaru Agent je světlý ležák s 11° stupňovitostí a 4,9 % alkoholu, který potěší příznivce mírně hořkého, osvěžujícího stylu s průměrným hodnocením 3,46 na Untappd."
+    },
+    "beerstreet::Agent::Premium": {
+      "untappd_url": "https://untappd.com/b/pivovar-agent-bruxx-premium-pale-lager-12-deg/4890963",
+      "untappd_name": "Bruxx: Premium Pale Lager 12°",
+      "untappd_brewery": "Pivovar Agent",
+      "rating": 3.43,
+      "match_score": 1.0,
+      "matched_at": "2026-09-29T18:31:16Z",
+      "query_used": "Premium 12° Agent",
+      "description": "Klasický světlý ležák s plnějším tělem díky vyšší stupňovitosti, vyvážená sladová chuť a jemná chmelová hořkost, spodně kvašený a čistý v profilu."
     },
     "beerstreet::Albert Michler::Altvater": {
       "untappd_url": "https://untappd.com/b/albert-michler-akciovy-pivovar-altvater-11-svetly-lezak/5403893",
@@ -4544,6 +4554,16 @@
       "query_used": "Dobrušská Nefiltr",
       "description": "Klasický český nefiltrovaný ležák: plnější sladové tělo s jemnou chmelovou hořkostí, zakalený vzhled a bohatší pivní charakter díky přítomnosti kvasnic. Spodně kvašený, svěží a vyvážený s mírně nasládlým dozvukem."
     },
+    "uzamastilu::Raven::Cold as Buffalo": {
+      "untappd_url": "https://untappd.com/b/pivovar-raven-cold-as-buffalo/5997707",
+      "untappd_name": "Cold As Buffalo",
+      "untappd_brewery": "Pivovar Raven",
+      "rating": 3.78,
+      "match_score": 1.0,
+      "matched_at": "2026-09-29T18:31:31Z",
+      "query_used": "Cold as Buffalo Raven",
+      "description": "Středně plné svrchně kvašené pivo s vyváženým sladovým základem a jemnou chmelovou hořkostí, typické pro anglické ale. Očekávejte lehce karamelové tóny, střední tělo a čistý, pitelný charakter. Hodnocení 3,78 naznačuje nadprůměrné přijetí."
+    },
     "uzamastilu::Raven::ColdFest Cold": {
       "untappd_url": "https://untappd.com/b/pivovar-raven-coldfest-2026/6800289",
       "untappd_name": "ColdFest 2026",
@@ -4673,6 +4693,16 @@
       "matched_at": "2026-09-27T17:37:11Z",
       "query_used": "Zdroj 12° Volt",
       "description": "Klasický český ležák: plnější sladový základ s jemnou chmelovou hořkostí, střední tělo a čistý, vyvážený charakter spodního kvašení."
+    },
+    "uzamastilu::Vorkloster::India Pale Lager": {
+      "untappd_url": "https://untappd.com/b/klasterni-pivovar-porta-coeli-vorkloster-india-pale-lager/4082895",
+      "untappd_name": "Vorkloster India Pale Lager 12,5°",
+      "untappd_brewery": "Klášterní pivovar Porta Coeli",
+      "rating": 3.57,
+      "match_score": 1.0,
+      "matched_at": "2026-09-29T18:31:49Z",
+      "query_used": "<llm>",
+      "description": "India pale lager kombinuje chmelový profil IPA s čistotou spodně kvašeného ležáku – středně plné tělo, výraznější hořkost a aroma citrusů, pryskyřice a tropického ovoce, typické pro chmelení za studena. Spodné kvašení zajišťuje čistý, suchý závěr bez esterních tónů svrchně kvašených piv."
     },
     "uzamastilu::Zichovec::Krahulík": {
       "untappd_url": "https://untappd.com/b/pivovar-zichovec-krahulik-11/2483912",
@@ -4929,6 +4959,11 @@
     "uzamastilu::Loutkář::Marioneta sv.výčepní": {
       "attempts": 1,
       "last_tried_at": "2026-08-18T19:31:19Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "uzamastilu::Mazák::Cryo Krush SH": {
+      "attempts": 1,
+      "last_tried_at": "2026-09-29T18:31:26Z",
       "reason": "no_candidates_above_threshold"
     },
     "uzamastilu::Mazák::Nectaron SH": {
