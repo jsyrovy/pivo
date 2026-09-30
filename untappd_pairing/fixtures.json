@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-29T22:53:10Z",
+  "generated_at": "2026-09-30T18:20:19Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Moves": {
       "beer": {
@@ -840,6 +840,78 @@
       "outcome": {
         "matched": "/b/fracek-big-sure-west-coast-ipa/5826591",
         "score": 1.0
+      }
+    },
+    "ambasada::Hacker-Pschorr, Mnichov::13,7° Hacker-Pschorr": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Hacker-Pschorr, Mnichov",
+        "name": "13,7° Hacker-Pschorr",
+        "style": "Festbier marzen",
+        "degree_plato": null
+      },
+      "captured_at": "2026-09-30T18:20:13Z",
+      "candidates": [
+        {
+          "name": "Oktoberfest Märzen",
+          "brewery": "Hacker-Pschorr",
+          "url": "/b/hacker-pschorr-oktoberfest-marzen/1827",
+          "rating": 3.69
+        },
+        {
+          "name": "Weissbier",
+          "brewery": "Hacker-Pschorr",
+          "url": "/b/hacker-pschorr-weissbier/5975",
+          "rating": 3.67
+        },
+        {
+          "name": "Münchner Hell",
+          "brewery": "Hacker-Pschorr",
+          "url": "/b/hacker-pschorr-munchner-hell/16238",
+          "rating": 3.43
+        },
+        {
+          "name": "Kellerbier",
+          "brewery": "Hacker-Pschorr",
+          "url": "/b/hacker-pschorr-kellerbier/24095",
+          "rating": 3.5
+        },
+        {
+          "name": "Münchner (Munich) Gold",
+          "brewery": "Hacker-Pschorr",
+          "url": "/b/hacker-pschorr-munchner-munich-gold/16313",
+          "rating": 3.52
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Hacker-Pschorr Hacker-Pschorr",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "query": "13,7° Hacker-Pschorr Hacker-Pschorr",
+          "hits": []
+        },
+        {
+          "query": "Hacker-Pschorr",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/hacker-pschorr-oktoberfest-marzen/1827",
+        "source": "llm"
       }
     },
     "ambasada::Haksna, Ostrava, Stout s laktozou::Batalion": {

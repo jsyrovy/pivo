@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-29T22:53:10Z",
+  "generated_at": "2026-09-30T18:20:19Z",
   "pairings": {
     "ambasada::Agent, Olešnice::Moves": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-moves-white-grapes-and-strawberries/4836340",
@@ -266,6 +266,16 @@
       "match_score": 1.0,
       "matched_at": "2026-04-19T19:39:29Z",
       "query_used": "Gold Digger Fracek"
+    },
+    "ambasada::Hacker-Pschorr, Mnichov::13,7° Hacker-Pschorr": {
+      "untappd_url": "https://untappd.com/b/hacker-pschorr-oktoberfest-marzen/1827",
+      "untappd_name": "Oktoberfest Märzen",
+      "untappd_brewery": "Hacker-Pschorr",
+      "rating": 3.69,
+      "match_score": 0.08333333333333333,
+      "matched_at": "2026-09-30T18:20:13Z",
+      "query_used": "<llm>",
+      "description": "Tmavější, plnější festbier s charakteristickými podzimními tóny: sladový, opečený chlebový základ s nádechem karamelu a lehkým ořechovým stínem, doplněný vyváženou, středně silnou chmelovou hořkostí a suchým závěrem. Styl marzen přináší lehce tmavší barvu a větší tělo než klasický ležák, s nižší hořkostí a jemnější ch…"
     },
     "ambasada::Haksna, Ostrava::Batalion": {
       "untappd_url": "https://untappd.com/b/haksna-brewery-batalion-25-narozeniny/6693539",
