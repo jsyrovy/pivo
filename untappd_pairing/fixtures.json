@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-30T18:20:19Z",
+  "generated_at": "2026-09-30T22:54:31Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Moves": {
       "beer": {
@@ -2912,6 +2912,64 @@
         "score": 1.0
       }
     },
+    "ambasada::Paulaner, Mnichov::13,7° Paulaner": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Paulaner, Mnichov",
+        "name": "13,7° Paulaner",
+        "style": "Festbier marzen",
+        "degree_plato": null
+      },
+      "captured_at": "2026-09-30T22:54:02Z",
+      "candidates": [
+        {
+          "name": "Hefe-Weißbier / Hefe-Weizen / Weissbier",
+          "brewery": "Paulaner Brauerei",
+          "url": "/b/paulaner-brauerei-paulaner-hefe-weissbier-hefe-weizen-weissbier/15677",
+          "rating": 3.67
+        },
+        {
+          "name": "Münchner Hell / Münchner Lager / Original Munich Lager",
+          "brewery": "Paulaner Brauerei",
+          "url": "/b/paulaner-brauerei-munchner-hell-munchner-lager-original-munich-lager/3235",
+          "rating": 3.46
+        },
+        {
+          "name": "Paulaner Oktoberfest Märzen / Original Münchner Märzen",
+          "brewery": "Paulaner Brauerei",
+          "url": "/b/paulaner-brauerei-paulaner-oktoberfest-marzen-original-munchner-marzen/15180",
+          "rating": 3.69
+        },
+        {
+          "name": "Paulaner Oktoberfest Bier",
+          "brewery": "Paulaner Brauerei",
+          "url": "/b/paulaner-brauerei-paulaner-oktoberfest-bier/78539",
+          "rating": 3.56
+        },
+        {
+          "name": "Paulaner Salvator",
+          "brewery": "Paulaner Brauerei",
+          "url": "/b/paulaner-brauerei-paulaner-salvator/4469",
+          "rating": 3.6
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Paulaner Paulaner",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/paulaner-brauerei-paulaner-oktoberfest-marzen-original-munchner-marzen/15180",
+        "score": 1.0
+      }
+    },
     "ambasada::Pivečka, Rousínov::Cherry & Hibiscus": {
       "beer": {
         "source": "ambasada",
@@ -3833,6 +3891,122 @@
       ],
       "outcome": {
         "matched": "/b/sibeeria-brewery-juniper-dryad/6208875",
+        "source": "llm"
+      }
+    },
+    "ambasada::Spaten-Franziskaner-Lowenbrau-Gruppe, Mnichov::13,7° Lowenbrau": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Spaten-Franziskaner-Lowenbrau-Gruppe, Mnichov",
+        "name": "13,7° Lowenbrau",
+        "style": "Festbier hell",
+        "degree_plato": null
+      },
+      "captured_at": "2026-09-30T22:53:31Z",
+      "candidates": [
+        {
+          "name": "Franziskaner Premium Weissbier Naturtrüb",
+          "brewery": "Spaten-Franziskaner-Löwenbräu-Gruppe",
+          "url": "/b/spaten-franziskaner-lowenbrau-gruppe-franziskaner-premium-weissbier/14564",
+          "rating": 3.69
+        },
+        {
+          "name": "Spaten Münchner Hell / Premium Lager",
+          "brewery": "Spaten-Franziskaner-Löwenbräu-Gruppe",
+          "url": "/b/spaten-franziskaner-lowenbrau-gruppe-spaten-munchner-hell-premium-lager/1633",
+          "rating": 3.4
+        },
+        {
+          "name": "Spaten Oktoberfest Ur-Märzen / Winter",
+          "brewery": "Spaten-Franziskaner-Löwenbräu-Gruppe",
+          "url": "/b/spaten-franziskaner-lowenbrau-gruppe-spaten-oktoberfest-ur-marzen-winter/1547",
+          "rating": 3.66
+        },
+        {
+          "name": "Löwenbräu Original",
+          "brewery": "Spaten-Franziskaner-Löwenbräu-Gruppe",
+          "url": "/b/spaten-franziskaner-lowenbrau-gruppe-lowenbrau-original/25914",
+          "rating": 3.19
+        },
+        {
+          "name": "Franziskaner Premium Weissbier Dunkel",
+          "brewery": "Spaten-Franziskaner-Löwenbräu-Gruppe",
+          "url": "/b/spaten-franziskaner-lowenbrau-gruppe-franziskaner-premium-weissbier-dunkel/4519",
+          "rating": 3.58
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Lowenbrau Spaten-Franziskaner-Lowenbrau-Gruppe",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/spaten-franziskaner-lowenbrau-gruppe-lowenbrau-original/25914",
+        "score": 1.0
+      }
+    },
+    "ambasada::Staatliches Hofbrauhaus, Mnichov::13,7° Hofbrau": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Staatliches Hofbrauhaus, Mnichov",
+        "name": "13,7° Hofbrau",
+        "style": "Festbier hell",
+        "degree_plato": null
+      },
+      "captured_at": "2026-09-30T22:54:01Z",
+      "candidates": [
+        {
+          "name": "Hofbräu Original",
+          "brewery": "Staatliches Hofbräuhaus München",
+          "url": "/b/staatliches-hofbrauhaus-munchen-hofbrau-original/38001",
+          "rating": 3.55
+        },
+        {
+          "name": "Hofbräu Oktoberfestbier",
+          "brewery": "Staatliches Hofbräuhaus München",
+          "url": "/b/staatliches-hofbrauhaus-munchen-hofbrau-oktoberfestbier/40139",
+          "rating": 3.61
+        },
+        {
+          "name": "Hofbräu Dunkel / Dunkel Gold",
+          "brewery": "Staatliches Hofbräuhaus München",
+          "url": "/b/staatliches-hofbrauhaus-munchen-hofbrau-dunkel-dunkel-gold/8314",
+          "rating": 3.7
+        },
+        {
+          "name": "Münchner Weisse",
+          "brewery": "Staatliches Hofbräuhaus München",
+          "url": "/b/staatliches-hofbrauhaus-munchen-hofbrau-munchner-weisse-munchner-kindl-hefe-weizen/7834",
+          "rating": 3.7
+        },
+        {
+          "name": "Hofbräu Maibock",
+          "brewery": "Staatliches Hofbräuhaus München",
+          "url": "/b/staatliches-hofbrauhaus-munchen-hofbrau-maibock/20290",
+          "rating": 3.61
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Hofbrau Staatliches Hofbrauhaus",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/staatliches-hofbrauhaus-munchen-hofbrau-oktoberfestbier/40139",
         "source": "llm"
       }
     },
@@ -15978,6 +16152,40 @@
       ],
       "outcome": {
         "matched": "/b/akciovy-pivovar-dalesice-horka-12/4071489",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Elektrárna::Tři Sestry": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Elektrárna",
+        "name": "Tři Sestry",
+        "style": "Ležák",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-09-30T22:54:08Z",
+      "candidates": [
+        {
+          "name": "Tři Sestry Ležák",
+          "brewery": "Elektrárna",
+          "url": "/b/elektrarna-tri-sestry-lezak/6237385",
+          "rating": 3.36
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Tři Sestry 11° Elektrárna",
+          "hits": []
+        },
+        {
+          "query": "Tři Sestry Elektrárna",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/elektrarna-tri-sestry-lezak/6237385",
         "score": 1.0
       }
     },

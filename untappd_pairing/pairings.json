@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-30T18:20:19Z",
+  "generated_at": "2026-09-30T22:54:31Z",
   "pairings": {
     "ambasada::Agent, Olešnice::Moves": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-moves-white-grapes-and-strawberries/4836340",
@@ -836,6 +836,16 @@
       "query_used": "Vyslanec Ovipistán",
       "description": "Klasická americká pale ale se sladovým základem, střední hořkostí a citrusovo-pryskyřičným chmelovým aroma, středně plné tělo a vyvážený profil. Hodnocení na Untappd podprůměrné."
     },
+    "ambasada::Paulaner, Mnichov::13,7° Paulaner": {
+      "untappd_url": "https://untappd.com/b/paulaner-brauerei-paulaner-oktoberfest-marzen-original-munchner-marzen/15180",
+      "untappd_name": "Paulaner Oktoberfest Märzen / Original Münchner Märzen",
+      "untappd_brewery": "Paulaner Brauerei",
+      "rating": 3.69,
+      "match_score": 1.0,
+      "matched_at": "2026-09-30T22:54:02Z",
+      "query_used": "Paulaner Paulaner",
+      "description": "Tradiční mnichovský Märzen s plným sladovým tělem, jemnou karamelovou sladostí a vyváženou chmelovou hořkostí, spodně kvašený a dobře vyzrálý. 6 % alkoholu dodává pivu sílu a hladký závěr bez ostrých hran."
+    },
     "ambasada::Pivečka, Rousínov::Cherry & Hibiscus": {
       "untappd_url": "https://untappd.com/b/pivovar-pivecka-sour-cherry-and-hibiscus/4987929",
       "untappd_name": "Sour Cherry & Hibiscus",
@@ -1134,6 +1144,26 @@
       "match_score": 1.0,
       "matched_at": "2026-06-08T17:25:46Z",
       "query_used": "<llm>"
+    },
+    "ambasada::Spaten-Franziskaner-Lowenbrau-Gruppe, Mnichov::13,7° Lowenbrau": {
+      "untappd_url": "https://untappd.com/b/spaten-franziskaner-lowenbrau-gruppe-lowenbrau-original/25914",
+      "untappd_name": "Löwenbräu Original",
+      "untappd_brewery": "Spaten-Franziskaner-Löwenbräu-Gruppe",
+      "rating": 3.19,
+      "match_score": 1.0,
+      "matched_at": "2026-09-30T22:53:31Z",
+      "query_used": "Lowenbrau Spaten-Franziskaner-Lowenbrau-Gruppe",
+      "description": "Festbier hell je sladově vyvážené spodně kvašené pivo s jemnou chmelovou hořkostí, plnějším tělem a čistým, lehce opečeným sladem v aroma i chuti. Hodnocení na Untappd je podprůměrné."
+    },
+    "ambasada::Staatliches Hofbrauhaus, Mnichov::13,7° Hofbrau": {
+      "untappd_url": "https://untappd.com/b/staatliches-hofbrauhaus-munchen-hofbrau-oktoberfestbier/40139",
+      "untappd_name": "Hofbräu Oktoberfestbier",
+      "untappd_brewery": "Staatliches Hofbräuhaus München",
+      "rating": 3.61,
+      "match_score": 1.0,
+      "matched_at": "2026-09-30T22:54:01Z",
+      "query_used": "<llm>",
+      "description": "Klasické mnichovské festbier: sladový profil s tóny sušeného ovoce a medu, jemná chmelová hořkost a plnější tělo, spodně kvašené s čistým, vyváženým závěrem."
     },
     "ambasada::Van Honsebrouck, Ingelmunster, Západní Flandry, višňový Belgian Dark Strong ALE, 0::Kasteel Rouge": {
       "untappd_url": "https://untappd.com/b/kasteel-brouwerij-vanhonsebrouck-kasteel-rouge/6890",
@@ -4143,6 +4173,16 @@
       "matched_at": "2026-08-22T17:25:25Z",
       "query_used": "Hořká 12",
       "description": "Ležák s vyšší stupňovitostí 12° má plnější tělo a mírně vyšší sladovost, doprovázený střední až vysokou hořkostí z chmele, který zajišťuje čistý, suchý závěr; hodnocení nad 3,40 naznačuje průměrnou kvalitu."
+    },
+    "uzamastilu::Elektrárna::Tři Sestry": {
+      "untappd_url": "https://untappd.com/b/elektrarna-tri-sestry-lezak/6237385",
+      "untappd_name": "Tři Sestry Ležák",
+      "untappd_brewery": "Elektrárna",
+      "rating": 3.36,
+      "match_score": 1.0,
+      "matched_at": "2026-09-30T22:54:08Z",
+      "query_used": "Tři Sestry Elektrárna",
+      "description": "Klasický český ležák: sladový základ s jemnou chmelovou hořkostí, středně plné tělo a čistý, vyvážený charakter spodního kvašení. Hodnocení na Untappd podprůměrné."
     },
     "uzamastilu::Fenek::Ležák": {
       "untappd_url": "https://untappd.com/b/fenek-craft-beer-tmavy-lezak-12-deg/6458763",
