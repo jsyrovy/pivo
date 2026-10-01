@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-30T22:54:31Z",
+  "generated_at": "2026-10-01T18:46:05Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Moves": {
       "beer": {
@@ -896,6 +896,82 @@
         },
         {
           "query": "13,7° Hacker-Pschorr Hacker-Pschorr",
+          "hits": []
+        },
+        {
+          "query": "Hacker-Pschorr",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/hacker-pschorr-oktoberfest-marzen/1827",
+        "source": "llm"
+      }
+    },
+    "ambasada::Hacker-Pschorr, Mnichov::Hacker-Pschorr": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Hacker-Pschorr, Mnichov",
+        "name": "Hacker-Pschorr",
+        "style": "Festbier marzen",
+        "degree_plato": 13.7
+      },
+      "captured_at": "2026-10-01T18:45:36Z",
+      "candidates": [
+        {
+          "name": "Oktoberfest Märzen",
+          "brewery": "Hacker-Pschorr",
+          "url": "/b/hacker-pschorr-oktoberfest-marzen/1827",
+          "rating": 3.69
+        },
+        {
+          "name": "Weissbier",
+          "brewery": "Hacker-Pschorr",
+          "url": "/b/hacker-pschorr-weissbier/5975",
+          "rating": 3.67
+        },
+        {
+          "name": "Münchner Hell",
+          "brewery": "Hacker-Pschorr",
+          "url": "/b/hacker-pschorr-munchner-hell/16238",
+          "rating": 3.43
+        },
+        {
+          "name": "Kellerbier",
+          "brewery": "Hacker-Pschorr",
+          "url": "/b/hacker-pschorr-kellerbier/24095",
+          "rating": 3.5
+        },
+        {
+          "name": "Münchner (Munich) Gold",
+          "brewery": "Hacker-Pschorr",
+          "url": "/b/hacker-pschorr-munchner-munich-gold/16313",
+          "rating": 3.52
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Hacker-Pschorr 13° Hacker-Pschorr",
+          "hits": []
+        },
+        {
+          "query": "Hacker-Pschorr Hacker-Pschorr",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "query": "Hacker-Pschorr 13°",
           "hits": []
         },
         {
@@ -1935,6 +2011,36 @@
         "score": 1.0
       }
     },
+    "ambasada::Loutkář, Chrudim::Lodní Šroub": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Loutkář, Chrudim",
+        "name": "Lodní Šroub",
+        "style": "APA",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-10-01T18:45:44Z",
+      "candidates": [
+        {
+          "name": "Lodní šroub 12 APA",
+          "brewery": "Pivovar Loutkář",
+          "url": "/b/pivovar-loutkar-lodni-sroub-12-apa/3940224",
+          "rating": 3.52
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Lodní Šroub 12° Loutkář",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-loutkar-lodni-sroub-12-apa/3940224",
+        "score": 1.0
+      }
+    },
     "ambasada::MadCat, Kamenice::Brut IPA": {
       "beer": {
         "source": "ambasada",
@@ -2970,6 +3076,152 @@
         "score": 1.0
       }
     },
+    "ambasada::Paulaner, Mnichov::Hefe-Weisbier": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Paulaner, Mnichov",
+        "name": "Hefe-Weisbier",
+        "style": "Weizenbier",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-10-01T18:45:27Z",
+      "candidates": [
+        {
+          "name": "Paulaner Hefe-Weißbier Dunkel / Weissbier Dunkel",
+          "brewery": "Paulaner Brauerei",
+          "url": "/b/paulaner-brauerei-paulaner-hefe-weissbier-dunkel/17458",
+          "rating": 3.55
+        },
+        {
+          "name": "Paulaner Hefe-Weißbier Alkoholfrei / Weissbier Non-Alcoholic",
+          "brewery": "Paulaner Brauerei",
+          "url": "/b/paulaner-brauerei-paulaner-hefe-weissbier-alkoholfrei-weissbier-non-alcoholic/87078",
+          "rating": 2.82
+        },
+        {
+          "name": "Paulaner Hefe-Weißbier Leicht",
+          "brewery": "Paulaner Brauerei",
+          "url": "/b/paulaner-brauerei-paulaner-hefe-weissbier-leicht/87077",
+          "rating": 3.0
+        },
+        {
+          "name": "Hefe-Weißbier",
+          "brewery": "Paulaner Bräuhaus Petrozavodsk",
+          "url": "/b/paulaner-brauhaus-petrozavodsk-hefe-weissbier/4327158",
+          "rating": 3.65
+        },
+        {
+          "name": "Hefe-Weißbier",
+          "brewery": "Paulaner Bräuhaus Chelyabinsk",
+          "url": "/b/paulaner-brauhaus-chelyabinsk-hefe-weissbier/2703557",
+          "rating": 3.91
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Hefe-Weisbier 12° Paulaner",
+          "hits": []
+        },
+        {
+          "query": "Hefe-Weisbier Paulaner",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/paulaner-brauerei-paulaner-hefe-weissbier-dunkel/17458",
+        "score": 1.0
+      }
+    },
+    "ambasada::Paulaner, Mnichov::Paulaner": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Paulaner, Mnichov",
+        "name": "Paulaner",
+        "style": "Festbier marzen",
+        "degree_plato": 13.7
+      },
+      "captured_at": "2026-10-01T18:45:42Z",
+      "candidates": [
+        {
+          "name": "Pauliner 12°",
+          "brewery": "Staňkův rukodělný pivovárek",
+          "url": "/b/stankuv-rukodelny-pivovarek-pauliner-12-deg/2174630",
+          "rating": null
+        },
+        {
+          "name": "Paulán Ale 13°",
+          "brewery": "Pivovar Nová Bystřice",
+          "url": "/b/pivovar-nova-bystrice-paulan-ale-13-deg/2985917",
+          "rating": 3.35
+        },
+        {
+          "name": "Paulán Bock 14°",
+          "brewery": "Pivovar Nová Bystřice",
+          "url": "/b/pivovar-nova-bystrice-paulan-bock-14-deg/4139893",
+          "rating": 3.35
+        },
+        {
+          "name": "Hefe-Weißbier / Hefe-Weizen / Weissbier",
+          "brewery": "Paulaner Brauerei",
+          "url": "/b/paulaner-brauerei-paulaner-hefe-weissbier-hefe-weizen-weissbier/15677",
+          "rating": 3.67
+        },
+        {
+          "name": "Münchner Hell / Münchner Lager / Original Munich Lager",
+          "brewery": "Paulaner Brauerei",
+          "url": "/b/paulaner-brauerei-munchner-hell-munchner-lager-original-munich-lager/3235",
+          "rating": 3.46
+        },
+        {
+          "name": "Paulaner Oktoberfest Märzen / Original Münchner Märzen",
+          "brewery": "Paulaner Brauerei",
+          "url": "/b/paulaner-brauerei-paulaner-oktoberfest-marzen-original-munchner-marzen/15180",
+          "rating": 3.69
+        },
+        {
+          "name": "Paulaner Oktoberfest Bier",
+          "brewery": "Paulaner Brauerei",
+          "url": "/b/paulaner-brauerei-paulaner-oktoberfest-bier/78539",
+          "rating": 3.56
+        },
+        {
+          "name": "Paulaner Salvator",
+          "brewery": "Paulaner Brauerei",
+          "url": "/b/paulaner-brauerei-paulaner-salvator/4469",
+          "rating": 3.6
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Paulaner 13° Paulaner",
+          "hits": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "query": "Paulaner Paulaner",
+          "hits": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/paulaner-brauerei-paulaner-oktoberfest-marzen-original-munchner-marzen/15180",
+        "score": 1.0
+      }
+    },
     "ambasada::Pivečka, Rousínov::Cherry & Hibiscus": {
       "beer": {
         "source": "ambasada",
@@ -3894,6 +4146,31 @@
         "source": "llm"
       }
     },
+    "ambasada::Spaten-Franziskaner-Lowenbrau-Gruppe, Mnichov::13,7 Spaten": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Spaten-Franziskaner-Lowenbrau-Gruppe, Mnichov",
+        "name": "13,7 Spaten",
+        "style": "Festbier hell",
+        "degree_plato": null
+      },
+      "captured_at": "2026-10-01T18:45:22Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "13,7 Spaten Spaten-Franziskaner-Lowenbrau-Gruppe",
+          "hits": []
+        },
+        {
+          "query": "13,7 Spaten",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
     "ambasada::Spaten-Franziskaner-Lowenbrau-Gruppe, Mnichov::13,7° Lowenbrau": {
       "beer": {
         "source": "ambasada",
@@ -3952,6 +4229,68 @@
         "score": 1.0
       }
     },
+    "ambasada::Spaten-Franziskaner-Lowenbrau-Gruppe, Mnichov::Lowenbrau": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Spaten-Franziskaner-Lowenbrau-Gruppe, Mnichov",
+        "name": "Lowenbrau",
+        "style": "Festbier hell",
+        "degree_plato": 13.7
+      },
+      "captured_at": "2026-10-01T18:45:11Z",
+      "candidates": [
+        {
+          "name": "Franziskaner Premium Weissbier Naturtrüb",
+          "brewery": "Spaten-Franziskaner-Löwenbräu-Gruppe",
+          "url": "/b/spaten-franziskaner-lowenbrau-gruppe-franziskaner-premium-weissbier/14564",
+          "rating": 3.69
+        },
+        {
+          "name": "Spaten Münchner Hell / Premium Lager",
+          "brewery": "Spaten-Franziskaner-Löwenbräu-Gruppe",
+          "url": "/b/spaten-franziskaner-lowenbrau-gruppe-spaten-munchner-hell-premium-lager/1633",
+          "rating": 3.4
+        },
+        {
+          "name": "Spaten Oktoberfest Ur-Märzen / Winter",
+          "brewery": "Spaten-Franziskaner-Löwenbräu-Gruppe",
+          "url": "/b/spaten-franziskaner-lowenbrau-gruppe-spaten-oktoberfest-ur-marzen-winter/1547",
+          "rating": 3.66
+        },
+        {
+          "name": "Löwenbräu Original",
+          "brewery": "Spaten-Franziskaner-Löwenbräu-Gruppe",
+          "url": "/b/spaten-franziskaner-lowenbrau-gruppe-lowenbrau-original/25914",
+          "rating": 3.19
+        },
+        {
+          "name": "Franziskaner Premium Weissbier Dunkel",
+          "brewery": "Spaten-Franziskaner-Löwenbräu-Gruppe",
+          "url": "/b/spaten-franziskaner-lowenbrau-gruppe-franziskaner-premium-weissbier-dunkel/4519",
+          "rating": 3.58
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Lowenbrau 13° Spaten-Franziskaner-Lowenbrau-Gruppe",
+          "hits": []
+        },
+        {
+          "query": "Lowenbrau Spaten-Franziskaner-Lowenbrau-Gruppe",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/spaten-franziskaner-lowenbrau-gruppe-lowenbrau-original/25914",
+        "score": 1.0
+      }
+    },
     "ambasada::Staatliches Hofbrauhaus, Mnichov::13,7° Hofbrau": {
       "beer": {
         "source": "ambasada",
@@ -3994,6 +4333,68 @@
         }
       ],
       "attempts": [
+        {
+          "query": "Hofbrau Staatliches Hofbrauhaus",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/staatliches-hofbrauhaus-munchen-hofbrau-oktoberfestbier/40139",
+        "source": "llm"
+      }
+    },
+    "ambasada::Staatliches Hofbrauhaus, Mnichov::Hofbrau": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Staatliches Hofbrauhaus, Mnichov",
+        "name": "Hofbrau",
+        "style": "Festbier hell",
+        "degree_plato": 13.7
+      },
+      "captured_at": "2026-10-01T18:45:17Z",
+      "candidates": [
+        {
+          "name": "Hofbräu Original",
+          "brewery": "Staatliches Hofbräuhaus München",
+          "url": "/b/staatliches-hofbrauhaus-munchen-hofbrau-original/38001",
+          "rating": 3.55
+        },
+        {
+          "name": "Hofbräu Oktoberfestbier",
+          "brewery": "Staatliches Hofbräuhaus München",
+          "url": "/b/staatliches-hofbrauhaus-munchen-hofbrau-oktoberfestbier/40139",
+          "rating": 3.61
+        },
+        {
+          "name": "Hofbräu Dunkel / Dunkel Gold",
+          "brewery": "Staatliches Hofbräuhaus München",
+          "url": "/b/staatliches-hofbrauhaus-munchen-hofbrau-dunkel-dunkel-gold/8314",
+          "rating": 3.7
+        },
+        {
+          "name": "Münchner Weisse",
+          "brewery": "Staatliches Hofbräuhaus München",
+          "url": "/b/staatliches-hofbrauhaus-munchen-hofbrau-munchner-weisse-munchner-kindl-hefe-weizen/7834",
+          "rating": 3.7
+        },
+        {
+          "name": "Hofbräu Maibock",
+          "brewery": "Staatliches Hofbräuhaus München",
+          "url": "/b/staatliches-hofbrauhaus-munchen-hofbrau-maibock/20290",
+          "rating": 3.61
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Hofbrau 13° Staatliches Hofbrauhaus",
+          "hits": []
+        },
         {
           "query": "Hofbrau Staatliches Hofbrauhaus",
           "hits": [
@@ -18461,6 +18862,40 @@
       "outcome": {
         "matched": "/b/rodinny-pivovar-rampusak-dobrusska-11-nefiltrovana/5987923",
         "score": 1.0
+      }
+    },
+    "uzamastilu::Raven::Autumn 2026": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Raven",
+        "name": "Autumn 2026",
+        "style": "APA",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-10-01T18:45:48Z",
+      "candidates": [
+        {
+          "name": "Autumn Pale Ale 2026",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-autumn-pale-ale-2026/6905514",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Autumn 2026 12° Raven",
+          "hits": []
+        },
+        {
+          "query": "Autumn 2026 Raven",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-raven-autumn-pale-ale-2026/6905514",
+        "score": 0.8889
       }
     },
     "uzamastilu::Raven::Cold as Buffalo": {

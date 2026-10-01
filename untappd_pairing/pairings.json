@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-30T22:54:31Z",
+  "generated_at": "2026-10-01T18:46:05Z",
   "pairings": {
     "ambasada::Agent, Olešnice::Moves": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-moves-white-grapes-and-strawberries/4836340",
@@ -277,6 +277,16 @@
       "query_used": "<llm>",
       "description": "Tmavější, plnější festbier s charakteristickými podzimními tóny: sladový, opečený chlebový základ s nádechem karamelu a lehkým ořechovým stínem, doplněný vyváženou, středně silnou chmelovou hořkostí a suchým závěrem. Styl marzen přináší lehce tmavší barvu a větší tělo než klasický ležák, s nižší hořkostí a jemnější ch…"
     },
+    "ambasada::Hacker-Pschorr, Mnichov::Hacker-Pschorr": {
+      "untappd_url": "https://untappd.com/b/hacker-pschorr-oktoberfest-marzen/1827",
+      "untappd_name": "Oktoberfest Märzen",
+      "untappd_brewery": "Hacker-Pschorr",
+      "rating": 3.69,
+      "match_score": 0.08333333333333333,
+      "matched_at": "2026-10-01T18:45:36Z",
+      "query_used": "<llm>",
+      "description": "Klasické bavorské Märzen s plným sladovým tělem, jemnou karamelovou sladostí a vyváženou chmelovou hořkostí, spodně kvašené a čisté v chuti."
+    },
     "ambasada::Haksna, Ostrava::Batalion": {
       "untappd_url": "https://untappd.com/b/haksna-brewery-batalion-25-narozeniny/6693539",
       "untappd_name": "Batalion 25. Narozeniny",
@@ -552,6 +562,16 @@
       "match_score": 0.875,
       "matched_at": "2026-04-30T20:07:58Z",
       "query_used": "13, Mozaika Loutkář"
+    },
+    "ambasada::Loutkář, Chrudim::Lodní Šroub": {
+      "untappd_url": "https://untappd.com/b/pivovar-loutkar-lodni-sroub-12-apa/3940224",
+      "untappd_name": "Lodní šroub 12 APA",
+      "untappd_brewery": "Pivovar Loutkář",
+      "rating": 3.52,
+      "match_score": 1.0,
+      "matched_at": "2026-10-01T18:45:44Z",
+      "query_used": "Lodní Šroub 12° Loutkář",
+      "description": "Klasická americká pale ale se sladovým základem, střední hořkostí a citrusovo-pryskyřičným chmelovým profilem, středně plné tělo a vyvážený charakter. Hodnocení 3,52 odpovídá průměrné úrovni."
     },
     "ambasada::MadCat, Kamenice::12,7° Dragon Fruit IPA": {
       "untappd_url": "https://untappd.com/b/madcat-dragon-fruit-ipa/6700803",
@@ -845,6 +865,26 @@
       "matched_at": "2026-09-30T22:54:02Z",
       "query_used": "Paulaner Paulaner",
       "description": "Tradiční mnichovský Märzen s plným sladovým tělem, jemnou karamelovou sladostí a vyváženou chmelovou hořkostí, spodně kvašený a dobře vyzrálý. 6 % alkoholu dodává pivu sílu a hladký závěr bez ostrých hran."
+    },
+    "ambasada::Paulaner, Mnichov::Hefe-Weisbier": {
+      "untappd_url": "https://untappd.com/b/paulaner-brauerei-paulaner-hefe-weissbier-dunkel/17458",
+      "untappd_name": "Paulaner Hefe-Weißbier Dunkel / Weissbier Dunkel",
+      "untappd_brewery": "Paulaner Brauerei",
+      "rating": 3.55,
+      "match_score": 1.0,
+      "matched_at": "2026-10-01T18:45:27Z",
+      "query_used": "Hefe-Weisbier Paulaner",
+      "description": "Klasický tmavý pšeničný ležák s bohatým sladovým tělem, tóny karamelu, sušeného ovoce a jemného koření z kvasnic, střední hořkostí a hladkým, jemně perlivým závěrem. Spodně kvašený, ale s charakteristickým pšeničným kvasnicovým kalem a aromatem banánu a hřebíčku."
+    },
+    "ambasada::Paulaner, Mnichov::Paulaner": {
+      "untappd_url": "https://untappd.com/b/paulaner-brauerei-paulaner-oktoberfest-marzen-original-munchner-marzen/15180",
+      "untappd_name": "Paulaner Oktoberfest Märzen / Original Münchner Märzen",
+      "untappd_brewery": "Paulaner Brauerei",
+      "rating": 3.69,
+      "match_score": 1.0,
+      "matched_at": "2026-10-01T18:45:42Z",
+      "query_used": "Paulaner Paulaner",
+      "description": "Klasické mnichovské Märzen: plné sladové tělo s tóny sušeného ovoce, karamelu a ořechů, vyvážené jemnou chmelovou hořkostí a čistým, lehce nasládlým závěrem spodně kvašeného piva. Stupňovitost 13,7° a 6 % ABV zaručují vyšší plnost a hřejivý charakter typický pro sváteční ležáky."
     },
     "ambasada::Pivečka, Rousínov::Cherry & Hibiscus": {
       "untappd_url": "https://untappd.com/b/pivovar-pivecka-sour-cherry-and-hibiscus/4987929",
@@ -1155,6 +1195,16 @@
       "query_used": "Lowenbrau Spaten-Franziskaner-Lowenbrau-Gruppe",
       "description": "Festbier hell je sladově vyvážené spodně kvašené pivo s jemnou chmelovou hořkostí, plnějším tělem a čistým, lehce opečeným sladem v aroma i chuti. Hodnocení na Untappd je podprůměrné."
     },
+    "ambasada::Spaten-Franziskaner-Lowenbrau-Gruppe, Mnichov::Lowenbrau": {
+      "untappd_url": "https://untappd.com/b/spaten-franziskaner-lowenbrau-gruppe-lowenbrau-original/25914",
+      "untappd_name": "Löwenbräu Original",
+      "untappd_brewery": "Spaten-Franziskaner-Löwenbräu-Gruppe",
+      "rating": 3.19,
+      "match_score": 1.0,
+      "matched_at": "2026-10-01T18:45:11Z",
+      "query_used": "Lowenbrau Spaten-Franziskaner-Lowenbrau-Gruppe",
+      "description": "Festbier hell je sladově bohaté, spodně kvašené pivo s plným tělem, jemnou chmelovou hořkostí a tóny medu, sušeného ovoce a lehce opečeného sladu. S 13,7° a 6,1 % alkoholu nabízí vyváženou plnost a mírně nasládlý závěr. Hodnocení 3,19 naznačuje podprůměrné přijetí na Untappd."
+    },
     "ambasada::Staatliches Hofbrauhaus, Mnichov::13,7° Hofbrau": {
       "untappd_url": "https://untappd.com/b/staatliches-hofbrauhaus-munchen-hofbrau-oktoberfestbier/40139",
       "untappd_name": "Hofbräu Oktoberfestbier",
@@ -1164,6 +1214,16 @@
       "matched_at": "2026-09-30T22:54:01Z",
       "query_used": "<llm>",
       "description": "Klasické mnichovské festbier: sladový profil s tóny sušeného ovoce a medu, jemná chmelová hořkost a plnější tělo, spodně kvašené s čistým, vyváženým závěrem."
+    },
+    "ambasada::Staatliches Hofbrauhaus, Mnichov::Hofbrau": {
+      "untappd_url": "https://untappd.com/b/staatliches-hofbrauhaus-munchen-hofbrau-oktoberfestbier/40139",
+      "untappd_name": "Hofbräu Oktoberfestbier",
+      "untappd_brewery": "Staatliches Hofbräuhaus München",
+      "rating": 3.61,
+      "match_score": 1.0,
+      "matched_at": "2026-10-01T18:45:17Z",
+      "query_used": "<llm>",
+      "description": "Klasické mnichovské festbier: sladové tělo s jemnou medovou sladkostí, nízká chmelová hořkost a plnější, kulatý profil typický pro spodně kvašené sváteční ležáky. Oceněno nadprůměrným hodnocením na Untappd."
     },
     "ambasada::Van Honsebrouck, Ingelmunster, Západní Flandry, višňový Belgian Dark Strong ALE, 0::Kasteel Rouge": {
       "untappd_url": "https://untappd.com/b/kasteel-brouwerij-vanhonsebrouck-kasteel-rouge/6890",
@@ -3001,7 +3061,8 @@
       "rating": 3.541,
       "match_score": 1.0,
       "matched_at": "2026-06-02T18:07:43Z",
-      "query_used": "Vinohradská 11° Vinohradský"
+      "query_used": "Vinohradská 11° Vinohradský",
+      "description": "Klasický světlý ležák: sladový základ, jemná chmelová hořkost a lehčí tělo, spodně kvašený a čistý v chuti."
     },
     "beerstreet::Volt::Amper": {
       "untappd_url": "https://untappd.com/b/pivovar-volt-amper-agnus/5209185",
@@ -4604,6 +4665,16 @@
       "query_used": "Dobrušská Nefiltr",
       "description": "Klasický český nefiltrovaný ležák: plnější sladové tělo s jemnou chmelovou hořkostí, zakalený vzhled a bohatší pivní charakter díky přítomnosti kvasnic. Spodně kvašený, svěží a vyvážený s mírně nasládlým dozvukem."
     },
+    "uzamastilu::Raven::Autumn 2026": {
+      "untappd_url": "https://untappd.com/b/pivovar-raven-autumn-pale-ale-2026/6905514",
+      "untappd_name": "Autumn Pale Ale 2026",
+      "untappd_brewery": "Pivovar Raven",
+      "rating": null,
+      "match_score": 0.8889,
+      "matched_at": "2026-10-01T18:45:48Z",
+      "query_used": "Autumn 2026 Raven",
+      "description": "Klasická americká pale ale se sladovým základem, střední hořkostí a citrusovo-květinovým chmelovým profilem, středně plné tělo a vyvážený charakter."
+    },
     "uzamastilu::Raven::Cold as Buffalo": {
       "untappd_url": "https://untappd.com/b/pivovar-raven-cold-as-buffalo/5997707",
       "untappd_name": "Cold As Buffalo",
@@ -4879,6 +4950,11 @@
     "ambasada::Mordýř, Dolní Ředice::Hazy Summer": {
       "attempts": 1,
       "last_tried_at": "2026-08-21T19:29:16Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "ambasada::Spaten-Franziskaner-Lowenbrau-Gruppe, Mnichov::13,7 Spaten": {
+      "attempts": 1,
+      "last_tried_at": "2026-10-01T18:45:22Z",
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::Avar::Kazbek": {
