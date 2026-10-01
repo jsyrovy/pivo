@@ -78,8 +78,9 @@ function buildBeer(row: PendingRow, order: number): ParsedBeer | null {
   const rawName = row.name ?? "";
   if (!rawName) return null;
 
-  const degreeMatch = rawName.match(/^(\d+)°\s*/);
-  const degreePlato = degreeMatch ? Number.parseInt(degreeMatch[1], 10) : null;
+  // Decimal degrees come with a comma ("13,7° Paulaner"), so the fraction has to be part of the match.
+  const degreeMatch = rawName.match(/^(\d+(?:[.,]\d+)?)\s*°\s*/);
+  const degreePlato = degreeMatch ? Number.parseFloat(degreeMatch[1].replace(",", ".")) : null;
   const name = degreeMatch ? rawName.slice(degreeMatch[0].length).trim() : rawName;
 
   const { abv, brewery, style } = parseDescription(row.description ?? "");

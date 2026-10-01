@@ -25,6 +25,18 @@ describe("parseAmbasadaHtml", () => {
     expect(beers[1]).toMatchObject({ name: "Stout", degreePlato: null });
   });
 
+  it("extracts a decimal degree written with a comma", async () => {
+    const html = `<table class="listek_tab">
+      <tr><td class="listek_tab_nazev">13,7° Paulaner</td><td class="listek_tab_cena">95</td></tr>
+      <tr><td class="listek_tab_popis">5,8% alc. piv. Paulaner, Oktoberfest Bier 0,5 l</td></tr>
+      <tr><td class="listek_tab_nazev">13.7 ° Hofbrau</td><td class="listek_tab_cena">95</td></tr>
+      <tr><td class="listek_tab_popis">6,3% alc. piv. Hofbräu München, Oktoberfestbier 0,5 l</td></tr>
+    </table>`;
+    const beers = await parseAmbasadaHtml(htmlResponse(html));
+    expect(beers[0]).toMatchObject({ name: "Paulaner", degreePlato: 13.7 });
+    expect(beers[1]).toMatchObject({ name: "Hofbrau", degreePlato: 13.7 });
+  });
+
   it("parses pipe-separated prices with secondary for 0,3 l", async () => {
     const beers = await parseAmbasadaHtml(htmlResponse(AMBASADA_FIXTURE));
     expect(beers[0].pricing).toEqual({
