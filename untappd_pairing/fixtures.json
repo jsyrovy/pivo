@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-01T18:46:05Z",
+  "generated_at": "2026-10-01T23:02:58Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Moves": {
       "beer": {
@@ -5842,6 +5842,40 @@
         "score": 1.0
       }
     },
+    "beerstreet::Brewnicorn::Krushing me softly": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Brewnicorn",
+        "name": "Krushing me softly",
+        "style": "Session NEIPA",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-10-01T23:02:44Z",
+      "candidates": [
+        {
+          "name": "Krushing Me Softly",
+          "brewery": "Brewnicorn",
+          "url": "/b/brewnicorn-krushing-me-softly/6825598",
+          "rating": 3.77
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Krushing me softly 12° Brewnicorn",
+          "hits": []
+        },
+        {
+          "query": "Krushing me softly Brewnicorn",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/brewnicorn-krushing-me-softly/6825598",
+        "score": 1.0
+      }
+    },
     "beerstreet::Brewnicorn::Pivorožec": {
       "beer": {
         "source": "beerstreet",
@@ -7666,6 +7700,39 @@
         "note": "Pivo na Untappd zatim neexistuje"
       }
     },
+    "beerstreet::Klenot::Hruška a skořice": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Klenot",
+        "name": "Hruška a skořice",
+        "style": "Sour",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-10-01T23:02:55Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Hruška a skořice 12° Klenot",
+          "hits": []
+        },
+        {
+          "query": "Hruška a skořice Klenot",
+          "hits": []
+        },
+        {
+          "query": "Hruška a skořice 12°",
+          "hits": []
+        },
+        {
+          "query": "Hruška a skořice",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
     "beerstreet::Klenot::Mango & broskev": {
       "beer": {
         "source": "beerstreet",
@@ -9401,6 +9468,36 @@
       "outcome": {
         "matched": "/b/pivovar-matuska-california-12-deg/201399",
         "score": 0.0
+      }
+    },
+    "beerstreet::Mazák::Agnus": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Mazák",
+        "name": "Agnus",
+        "style": "Smash ale",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-10-01T23:02:40Z",
+      "candidates": [
+        {
+          "name": "Agnus 13 Single Hop Ale ",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-single-hop-ale-agnus-13/6841048",
+          "rating": 3.7
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Agnus 13° Mazák",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mazak-single-hop-ale-agnus-13/6841048",
+        "score": 1.0
       }
     },
     "beerstreet::Mazák::Babi léto": {

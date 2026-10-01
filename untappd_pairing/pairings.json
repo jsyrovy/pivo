@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-01T18:46:05Z",
+  "generated_at": "2026-10-01T23:02:58Z",
   "pairings": {
     "ambasada::Agent, Olešnice::Moves": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-moves-white-grapes-and-strawberries/4836340",
@@ -1605,6 +1605,16 @@
       "query_used": "Jahůdka Brewnicorn",
       "description": "Kyselé svrchně kvašené pivo s nízkým alkoholem a lehkým tělem, kde dominuje ostrost kyseliny a ovocná aroma; jahody přidávají sladší, aromatický ovocný tón, který ostré kyselosti změkčuje."
     },
+    "beerstreet::Brewnicorn::Krushing me softly": {
+      "untappd_url": "https://untappd.com/b/brewnicorn-krushing-me-softly/6825598",
+      "untappd_name": "Krushing Me Softly",
+      "untappd_brewery": "Brewnicorn",
+      "rating": 3.77,
+      "match_score": 1.0,
+      "matched_at": "2026-10-01T23:02:44Z",
+      "query_used": "Krushing me softly Brewnicorn",
+      "description": "Session NEIPA s nižší stupňovitostí a středním alkoholem nabízí jemné sladové tělo, nízkou hořkost a výrazné ovocné aroma po tropickém ovoci a citrusu typické pro New England IPA, s jemným zakalením a hladkým, jemně sladovým závěrem. Hodnocení 3,77 naznačuje nadprůměrné přijetí."
+    },
     "beerstreet::Brewnicorn::Pivorožec": {
       "untappd_url": "https://untappd.com/b/brewnicorn-pivorozec/6706555",
       "untappd_name": "Pivorožec",
@@ -2463,6 +2473,16 @@
       "matched_at": "2026-09-22T17:35:11Z",
       "query_used": "Matuška 12° Matuška",
       "description": "Klasický světlý ležák: sladový základ s jemnou chmelovou hořkostí, středně plné tělo a čistá, vyvážená chuť typická pro spodně kvašené pivo. Stupňovitost 12° a 5,1 % ABV naznačují plnější profil než u desítky, ale stále pitný a osvěžující charakter."
+    },
+    "beerstreet::Mazák::Agnus": {
+      "untappd_url": "https://untappd.com/b/pivovar-mazak-single-hop-ale-agnus-13/6841048",
+      "untappd_name": "Agnus 13 Single Hop Ale ",
+      "untappd_brewery": "Pivovar Mazák",
+      "rating": 3.7,
+      "match_score": 1.0,
+      "matched_at": "2026-10-01T23:02:40Z",
+      "query_used": "Agnus 13° Mazák",
+      "description": "Smash ale s jedním chmelem, středně plné tělo, sladový základ s jemnou karamelovou sladostí a chmelovou hořkostí i aroma podle použité odrůdy, svrchně kvašené a vyvážené v chuti."
     },
     "beerstreet::Mazák::Babi léto": {
       "untappd_url": "https://untappd.com/b/pivovar-mazak-babi-leto/3955027",
@@ -4980,6 +5000,11 @@
     "beerstreet::Klenot::Guava and rosemary": {
       "attempts": 1,
       "last_tried_at": "2026-05-22T09:09:16Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "beerstreet::Klenot::Hruška a skořice": {
+      "attempts": 1,
+      "last_tried_at": "2026-10-01T23:02:55Z",
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::Kynšperský zajíc::Summer Ale": {
