@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-02T18:18:39Z",
+  "generated_at": "2026-10-02T22:52:26Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Moves": {
       "beer": {
@@ -10722,6 +10722,50 @@
         "score": 1.0
       }
     },
+    "beerstreet::Sibeeria::No Signal From Most": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Sibeeria",
+        "name": "No Signal From Most",
+        "style": "Session IPA",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-10-02T22:52:25Z",
+      "candidates": [
+        {
+          "name": "No Signal From Most",
+          "brewery": "SQBRU [skjuːbru]",
+          "url": "/b/sqbru-skju-bru-no-signal-from-most/6903263",
+          "rating": 3.62
+        }
+      ],
+      "attempts": [
+        {
+          "query": "No Signal From Most 12° Sibeeria",
+          "hits": []
+        },
+        {
+          "query": "No Signal From Most Sibeeria",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "No Signal From Most 12°",
+          "hits": []
+        },
+        {
+          "query": "No Signal From Most",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
     "beerstreet::Späten - Mnichov::Späten": {
       "beer": {
         "source": "beerstreet",
@@ -11234,6 +11278,36 @@
       ],
       "outcome": {
         "matched": "/b/twinberg-karel-11-deg/5632847",
+        "score": 1.0
+      }
+    },
+    "beerstreet::U Vojtěchů::Podlipák": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "U Vojtěchů",
+        "name": "Podlipák",
+        "style": "Ležák světlý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-10-02T22:52:16Z",
+      "candidates": [
+        {
+          "name": "Podlipák 11",
+          "brewery": "Pivovar U Vojtěchů",
+          "url": "/b/pivovar-u-vojtechu-podlipak-11/4081441",
+          "rating": 3.55
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Podlipák 11° U Vojtěchů",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-u-vojtechu-podlipak-11/4081441",
         "score": 1.0
       }
     },

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-02T18:18:39Z",
+  "generated_at": "2026-10-02T22:52:26Z",
   "pairings": {
     "ambasada::Agent, Olešnice::Moves": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-moves-white-grapes-and-strawberries/4836340",
@@ -3049,6 +3049,16 @@
       "matched_at": "2026-05-20T09:45:20Z",
       "query_used": "Jan Kašpar"
     },
+    "beerstreet::U Vojtěchů::Podlipák": {
+      "untappd_url": "https://untappd.com/b/pivovar-u-vojtechu-podlipak-11/4081441",
+      "untappd_name": "Podlipák 11",
+      "untappd_brewery": "Pivovar U Vojtěchů",
+      "rating": 3.55,
+      "match_score": 1.0,
+      "matched_at": "2026-10-02T22:52:16Z",
+      "query_used": "Podlipák 11° U Vojtěchů",
+      "description": "Klasický světlý ležák: sladový základ, jemná chmelová hořkost a lehčí tělo, spodně kvašený a čistý v chuti."
+    },
     "beerstreet::U Vojtěchů::Silver A": {
       "untappd_url": "https://untappd.com/b/pivovar-u-vojtechu-silver-a/6751896",
       "untappd_name": "Silver A",
@@ -5070,6 +5080,11 @@
     "beerstreet::Loutkář::Svatováclavský Kašpárek": {
       "attempts": 1,
       "last_tried_at": "2026-09-24T21:21:48Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "beerstreet::Sibeeria::No Signal From Most": {
+      "attempts": 1,
+      "last_tried_at": "2026-10-02T22:52:25Z",
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::Vorkloster::Brillante": {
