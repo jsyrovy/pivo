@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-01T23:02:58Z",
+  "generated_at": "2026-10-02T18:18:39Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Moves": {
       "beer": {
@@ -334,6 +334,40 @@
       ],
       "outcome": {
         "matched": "/b/bevog-brewery-buzz/4510503",
+        "score": 1.0
+      }
+    },
+    "ambasada::Blud, Olomouc::EjPíEj": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Blud, Olomouc",
+        "name": "EjPíEj",
+        "style": "APA",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-10-02T18:17:42Z",
+      "candidates": [
+        {
+          "name": "EjPíEj",
+          "brewery": "BLUD",
+          "url": "/b/blud-ejpiej/6690566",
+          "rating": 3.69
+        }
+      ],
+      "attempts": [
+        {
+          "query": "EjPíEj 12° Blud",
+          "hits": []
+        },
+        {
+          "query": "EjPíEj Blud",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/blud-ejpiej/6690566",
         "score": 1.0
       }
     },
@@ -4288,6 +4322,68 @@
       ],
       "outcome": {
         "matched": "/b/spaten-franziskaner-lowenbrau-gruppe-lowenbrau-original/25914",
+        "score": 1.0
+      }
+    },
+    "ambasada::Spaten-Franziskaner-Lowenbrau-Gruppe, Mnichov::Spaten": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Spaten-Franziskaner-Lowenbrau-Gruppe, Mnichov",
+        "name": "Spaten",
+        "style": "Festbier hell",
+        "degree_plato": 13.7
+      },
+      "captured_at": "2026-10-02T18:17:37Z",
+      "candidates": [
+        {
+          "name": "Franziskaner Premium Weissbier Naturtrüb",
+          "brewery": "Spaten-Franziskaner-Löwenbräu-Gruppe",
+          "url": "/b/spaten-franziskaner-lowenbrau-gruppe-franziskaner-premium-weissbier/14564",
+          "rating": 3.69
+        },
+        {
+          "name": "Spaten Münchner Hell / Premium Lager",
+          "brewery": "Spaten-Franziskaner-Löwenbräu-Gruppe",
+          "url": "/b/spaten-franziskaner-lowenbrau-gruppe-spaten-munchner-hell-premium-lager/1633",
+          "rating": 3.4
+        },
+        {
+          "name": "Spaten Oktoberfest Ur-Märzen / Winter",
+          "brewery": "Spaten-Franziskaner-Löwenbräu-Gruppe",
+          "url": "/b/spaten-franziskaner-lowenbrau-gruppe-spaten-oktoberfest-ur-marzen-winter/1547",
+          "rating": 3.66
+        },
+        {
+          "name": "Löwenbräu Original",
+          "brewery": "Spaten-Franziskaner-Löwenbräu-Gruppe",
+          "url": "/b/spaten-franziskaner-lowenbrau-gruppe-lowenbrau-original/25914",
+          "rating": 3.19
+        },
+        {
+          "name": "Franziskaner Premium Weissbier Dunkel",
+          "brewery": "Spaten-Franziskaner-Löwenbräu-Gruppe",
+          "url": "/b/spaten-franziskaner-lowenbrau-gruppe-franziskaner-premium-weissbier-dunkel/4519",
+          "rating": 3.58
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Spaten 13° Spaten-Franziskaner-Lowenbrau-Gruppe",
+          "hits": []
+        },
+        {
+          "query": "Spaten Spaten-Franziskaner-Lowenbrau-Gruppe",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/spaten-franziskaner-lowenbrau-gruppe-spaten-munchner-hell-premium-lager/1633",
         "score": 1.0
       }
     },
@@ -8633,6 +8729,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-louka-knize-vaclav-12/3998564",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Louka::Kontráš": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Louka",
+        "name": "Kontráš",
+        "style": "Ležák světlý",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-10-02T18:17:33Z",
+      "candidates": [
+        {
+          "name": "Kontráš 12",
+          "brewery": "Pivovar Louka",
+          "url": "/b/pivovar-louka-kontras-12/3903539",
+          "rating": 3.35
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Kontráš 12° Louka",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-louka-kontras-12/3903539",
         "score": 1.0
       }
     },
@@ -16653,6 +16779,65 @@
         "score": 1.0
       }
     },
+    "uzamastilu::Dalešice::Ležák": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Dalešice",
+        "name": "Ležák",
+        "style": "Ležák",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-10-02T18:18:06Z",
+      "candidates": [
+        {
+          "name": "Hořká 12°",
+          "brewery": "Akciový pivovar Dalešice",
+          "url": "/b/akciovy-pivovar-dalesice-horka-12/4071489",
+          "rating": 3.57
+        },
+        {
+          "name": "Anton Dreher 12°",
+          "brewery": "Akciový pivovar Dalešice",
+          "url": "/b/akciovy-pivovar-dalesice-anton-dreher-12/982935",
+          "rating": 3.47
+        },
+        {
+          "name": "Viridus ŽPČ 12°",
+          "brewery": "Akciový pivovar Dalešice",
+          "url": "/b/akciovy-pivovar-dalesice-viridus-12-zpc/1813587",
+          "rating": 3.66
+        },
+        {
+          "name": "Výroční ležák 12%",
+          "brewery": "Akciový pivovar Dalešice",
+          "url": "/b/akciovy-pivovar-dalesice-vyrocni-lezak/3410550",
+          "rating": 3.5
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Ležák 11° Dalešice",
+          "hits": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "query": "Ležák Dalešice",
+          "hits": [
+            0,
+            1,
+            3,
+            2
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/akciovy-pivovar-dalesice-vyrocni-lezak/3410550",
+        "score": 1.0
+      }
+    },
     "uzamastilu::Elektrárna::Tři Sestry": {
       "beer": {
         "source": "uzamastilu",
@@ -16736,6 +16921,78 @@
       "outcome": {
         "matched": "/b/fenek-craft-beer-tmavy-lezak-12-deg/6458763",
         "score": 1.0
+      }
+    },
+    "uzamastilu::Fresh Hop Chroust::Age of Krush": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Fresh Hop Chroust",
+        "name": "Age of Krush",
+        "style": "IPA",
+        "degree_plato": 14.0
+      },
+      "captured_at": "2026-10-02T18:18:01Z",
+      "candidates": [
+        {
+          "name": "Fresh Hop Age of Krush",
+          "brewery": "Chroust",
+          "url": "/b/chroust-fresh-hop-age-of-krush/6911456",
+          "rating": 3.89
+        },
+        {
+          "name": "Age of Krush",
+          "brewery": "Chroust",
+          "url": "/b/chroust-age-of-krush/6254155",
+          "rating": 3.87
+        },
+        {
+          "name": "Hazy IPA: Krush & HBC 630 & Galaxy",
+          "brewery": "AleBrowar",
+          "url": "/b/alebrowar-hazy-ipa-krush-and-hbc-630-and-galaxy/6020947",
+          "rating": 3.69
+        },
+        {
+          "name": "Hazy IPA: Eclipse & Krush",
+          "brewery": "AleBrowar",
+          "url": "/b/alebrowar-hazy-ipa-eclipse-and-krush/6707506",
+          "rating": 3.79
+        },
+        {
+          "name": "Krush On You Pale Ale",
+          "brewery": "Heart of Darkness Brewery",
+          "url": "/b/heart-of-darkness-brewery-krush-on-you-pale-ale/6623677",
+          "rating": 3.79
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Age of Krush 14° Fresh Hop Chroust",
+          "hits": []
+        },
+        {
+          "query": "Age of Krush Fresh Hop Chroust",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Age of Krush 14°",
+          "hits": []
+        },
+        {
+          "query": "Age of Krush",
+          "hits": [
+            1,
+            0,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/chroust-age-of-krush/6254155",
+        "source": "llm"
       }
     },
     "uzamastilu::Haksna::Step By Step": {

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-01T23:02:58Z",
+  "generated_at": "2026-10-02T18:18:39Z",
   "pairings": {
     "ambasada::Agent, Olešnice::Moves": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-moves-white-grapes-and-strawberries/4836340",
@@ -95,6 +95,16 @@
       "match_score": 1.0,
       "matched_at": "2026-05-27T17:24:06Z",
       "query_used": "Buzz Bevog"
+    },
+    "ambasada::Blud, Olomouc::EjPíEj": {
+      "untappd_url": "https://untappd.com/b/blud-ejpiej/6690566",
+      "untappd_name": "EjPíEj",
+      "untappd_brewery": "BLUD",
+      "rating": 3.69,
+      "match_score": 1.0,
+      "matched_at": "2026-10-02T18:17:42Z",
+      "query_used": "EjPíEj Blud",
+      "description": "Americká světlá ale s vyváženým sladovým základem a střední chmelovou hořkostí, typicky s citrusovými a květinovými tóny ze středoamerických chmelů, středně plné tělo a čistý doboj. Hodnocení 3,69 naznačuje nadprůměrné přijetí."
     },
     "ambasada::Brewnicorn, Kročehlavy::Sunny Day": {
       "untappd_url": "https://untappd.com/b/brewnicorn-sunny-day/6689258",
@@ -1205,6 +1215,16 @@
       "query_used": "Lowenbrau Spaten-Franziskaner-Lowenbrau-Gruppe",
       "description": "Festbier hell je sladově bohaté, spodně kvašené pivo s plným tělem, jemnou chmelovou hořkostí a tóny medu, sušeného ovoce a lehce opečeného sladu. S 13,7° a 6,1 % alkoholu nabízí vyváženou plnost a mírně nasládlý závěr. Hodnocení 3,19 naznačuje podprůměrné přijetí na Untappd."
     },
+    "ambasada::Spaten-Franziskaner-Lowenbrau-Gruppe, Mnichov::Spaten": {
+      "untappd_url": "https://untappd.com/b/spaten-franziskaner-lowenbrau-gruppe-spaten-munchner-hell-premium-lager/1633",
+      "untappd_name": "Spaten Münchner Hell / Premium Lager",
+      "untappd_brewery": "Spaten-Franziskaner-Löwenbräu-Gruppe",
+      "rating": 3.4,
+      "match_score": 1.0,
+      "matched_at": "2026-10-02T18:17:37Z",
+      "query_used": "Spaten Spaten-Franziskaner-Lowenbrau-Gruppe",
+      "description": "Klasické mnichovské festbier hell: sladový profil s jemnou chmelovou hořkostí, středně plné tělo a čisté, vyvážené spodně kvašené pivo s lehce nasládlým závěrem. Hodnocení 3,40 odpovídá průměrné úrovni."
+    },
     "ambasada::Staatliches Hofbrauhaus, Mnichov::13,7° Hofbrau": {
       "untappd_url": "https://untappd.com/b/staatliches-hofbrauhaus-munchen-hofbrau-oktoberfestbier/40139",
       "untappd_name": "Hofbräu Oktoberfestbier",
@@ -2230,6 +2250,16 @@
       "matched_at": "2026-09-24T17:48:36Z",
       "query_used": "Kníže Václav 12° Louka",
       "description": "Světlý ležák typu SMASH s plnějším tělem díky 12° stupňovitosti, vyvážená sladová chuť a jemná chmelová hořkost, spodně kvašený a čistý v profilu."
+    },
+    "beerstreet::Louka::Kontráš": {
+      "untappd_url": "https://untappd.com/b/pivovar-louka-kontras-12/3903539",
+      "untappd_name": "Kontráš 12",
+      "untappd_brewery": "Pivovar Louka",
+      "rating": 3.35,
+      "match_score": 1.0,
+      "matched_at": "2026-10-02T18:17:33Z",
+      "query_used": "Kontráš 12° Louka",
+      "description": "Klasický světlý ležák: sladový základ s jemnou chmelovou hořkostí, středně plné tělo a čistý, vyvážený charakter spodního kvašení. Hodnocení na Untappd podprůměrné."
     },
     "beerstreet::Louka::Kuželka": {
       "untappd_url": "https://untappd.com/b/pivovar-louka-kuzelka/4615473",
@@ -4255,6 +4285,16 @@
       "query_used": "Hořká 12",
       "description": "Ležák s vyšší stupňovitostí 12° má plnější tělo a mírně vyšší sladovost, doprovázený střední až vysokou hořkostí z chmele, který zajišťuje čistý, suchý závěr; hodnocení nad 3,40 naznačuje průměrnou kvalitu."
     },
+    "uzamastilu::Dalešice::Ležák": {
+      "untappd_url": "https://untappd.com/b/akciovy-pivovar-dalesice-vyrocni-lezak/3410550",
+      "untappd_name": "Výroční ležák 12%",
+      "untappd_brewery": "Akciový pivovar Dalešice",
+      "rating": 3.5,
+      "match_score": 1.0,
+      "matched_at": "2026-10-02T18:18:06Z",
+      "query_used": "Ležák Dalešice",
+      "description": "Klasický český ležák: sladový základ s jemnou chmelovou hořkostí, středně plné tělo a čistý, vyvážený charakter spodního kvašení. Hodnocení na Untappd je průměrné."
+    },
     "uzamastilu::Elektrárna::Tři Sestry": {
       "untappd_url": "https://untappd.com/b/elektrarna-tri-sestry-lezak/6237385",
       "untappd_name": "Tři Sestry Ležák",
@@ -4274,6 +4314,16 @@
       "matched_at": "2026-09-02T17:04:59Z",
       "query_used": "Ležák 12° Fenek",
       "description": "Klasický český tmavý ležák: sladový základ s tóny karamelu a sušeného ovoce, jemná chmelová hořkost a plnější tělo, spodně kvašený a vyvážený v chuti."
+    },
+    "uzamastilu::Fresh Hop Chroust::Age of Krush": {
+      "untappd_url": "https://untappd.com/b/chroust-age-of-krush/6254155",
+      "untappd_name": "Age of Krush",
+      "untappd_brewery": "Chroust",
+      "rating": 3.87,
+      "match_score": 1.0,
+      "matched_at": "2026-10-02T18:18:01Z",
+      "query_used": "<llm>",
+      "description": "Silně chmelená svrchně kvašená IPA s plnějším tělem díky vyšší stupňovitosti, výraznou hořkostí a aromatem po citrusích, tropickém ovoci a pryskyřici. Hodnocení na Untappd je nadprůměrné."
     },
     "uzamastilu::Haksna::Step By Step": {
       "untappd_url": "https://untappd.com/b/haksna-brewery-step-by-step/6853283",
