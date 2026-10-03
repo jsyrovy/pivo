@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-03T17:08:09Z",
+  "generated_at": "2026-10-03T20:51:39Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Moves": {
       "beer": {
@@ -5057,6 +5057,43 @@
       ],
       "outcome": {
         "matched": "/b/cerny-potoka-hellion/3092309",
+        "score": 1.0
+      }
+    },
+    "ambasada::Čestmír, Brandýs nad Labem::Citra": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Čestmír, Brandýs nad Labem",
+        "name": "Citra",
+        "style": "Single hop NEIPA",
+        "degree_plato": 14.0
+      },
+      "captured_at": "2026-10-03T20:51:35Z",
+      "candidates": [
+        {
+          "name": "IPA 13° Stereo Lab (Sabro, Citra)",
+          "brewery": "Pivovar Čestmír",
+          "url": "/b/pivovar-cestmir-ipa-13-deg-stereo-lab-sabro-citra/4321069",
+          "rating": 3.77
+        },
+        {
+          "name": "IPA 13° Stereo Lab (Strata & Citra)",
+          "brewery": "Pivovar Čestmír",
+          "url": "/b/pivovar-cestmir-ipa-13-deg-stereo-lab-strata-citra/4839345",
+          "rating": 3.77
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Citra 14° Čestmír",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-cestmir-ipa-13-deg-stereo-lab-sabro-citra/4321069",
         "score": 1.0
       }
     },
@@ -18956,6 +18993,40 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-obora-lemongrass-11-deg/6417129",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Old Cock::Sólista Most": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Old Cock",
+        "name": "Sólista Most",
+        "style": "APA",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-10-03T20:51:36Z",
+      "candidates": [
+        {
+          "name": "Sólista / Most",
+          "brewery": "Old Cock Beer",
+          "url": "/b/old-cock-beer-solista-most/6899076",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Sólista Most 11° Old Cock",
+          "hits": []
+        },
+        {
+          "query": "Sólista Most Old Cock",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/old-cock-beer-solista-most/6899076",
         "score": 1.0
       }
     },
