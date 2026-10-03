@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-02T22:52:26Z",
+  "generated_at": "2026-10-03T17:08:09Z",
   "pairings": {
     "ambasada::Agent, Olešnice::Moves": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-moves-white-grapes-and-strawberries/4836340",
@@ -2822,6 +2822,16 @@
       "query_used": "Raspberry Raven",
       "description": "Kyselé svrchně kvašené pivo s ostrou ovocnou kyselinkou a lehkým tělem; malina přidává sladkokyselý ovocný tón, který kyselost doplňuje a zjemňuje. Spodní hranice stupňovitosti a alkoholu naznačují lehkou pitelnost a osvěžující charakter."
     },
+    "beerstreet::Raven::Sky Apa": {
+      "untappd_url": "https://untappd.com/b/pivovar-raven-sky-apa/1283037",
+      "untappd_name": "Sky APA",
+      "untappd_brewery": "Pivovar Raven",
+      "rating": 3.62,
+      "match_score": 1.0,
+      "matched_at": "2026-10-03T17:07:43Z",
+      "query_used": "Sky Apa Raven",
+      "description": "Klasická americká pale ale se střední chmelovou hořkostí, citrusovým a lehce pryskyřičným aroma, sladovým podkladem a středně plným tělem. Spodně kvašený charakter není typický, spíše vyvážené svrchně kvašené pivo s čistým dozvukem."
+    },
     "beerstreet::Sibeeria::Modus": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-modus/6659994",
       "untappd_name": "Modus",
@@ -4245,6 +4255,16 @@
       "query_used": "Ležák 12° Beskydský Pivovárek",
       "description": "Ležák s jemným brusinkovým tónem v aromatu, sladkovážní základ a mírná chmelová hořkost s lehkým tělem; spodně kvašený a čistý v chuti, s nasládlou brusinkovou notečkou. Podprůměrně hodnocené."
     },
+    "uzamastilu::Brána::Kotěra": {
+      "untappd_url": "https://untappd.com/b/pivovar-brana-kotera-12-deg/6695470",
+      "untappd_name": "Kotěra 12°",
+      "untappd_brewery": "Pivovar Brána",
+      "rating": 3.55,
+      "match_score": 1.0,
+      "matched_at": "2026-10-03T17:08:00Z",
+      "query_used": "Kotěra 12° Brána",
+      "description": "Klasický český ležák: plnější sladový základ s jemnou chmelovou hořkostí, středně plné tělo a čistý, vyvážený charakter spodního kvašení."
+    },
     "uzamastilu::Budvar::Birgo Mango-Limetka": {
       "untappd_url": "https://untappd.com/b/budejovicky-budvar-birgo-mango-limetka/4803777",
       "untappd_name": "BirGo Mango - Limetka",
@@ -4254,6 +4274,16 @@
       "matched_at": "2026-07-23T19:07:20Z",
       "query_used": "Birgo Mango-Limetka Budvar",
       "description": "BirGo Mango - Limetka od Budvaru je osvěžující, lehké pivo s nulovou stupňovitostí, ideální pro letní posezení a neformální setkání."
+    },
+    "uzamastilu::Chroust::Age of Krush": {
+      "untappd_url": "https://untappd.com/b/chroust-fresh-hop-age-of-krush/6911456",
+      "untappd_name": "Fresh Hop Age of Krush",
+      "untappd_brewery": "Chroust",
+      "rating": 3.91,
+      "match_score": 1.0,
+      "matched_at": "2026-10-03T17:07:56Z",
+      "query_used": "Age of Krush Chroust",
+      "description": "Fresh hop IPA s intenzivním aroma čerstvého chmele – tóny citrusů, tropického ovoce a pryskyřice, střední až plné tělo a výrazná chmelová hořkost typická pro styl. Neznámý obsah alkoholu nelze přesně odvodit ze stupňovitosti 14°, ale předpokládá se vyšší síla odpovídající kategorii. Hodnocení 3,91 naznačuje nadprůměrn…"
     },
     "uzamastilu::Chroust::Kiwi v mlze": {
       "untappd_url": "https://untappd.com/b/chroust-kiwi-v-mlze/6854098",
@@ -4324,6 +4354,16 @@
       "matched_at": "2026-09-02T17:04:59Z",
       "query_used": "Ležák 12° Fenek",
       "description": "Klasický český tmavý ležák: sladový základ s tóny karamelu a sušeného ovoce, jemná chmelová hořkost a plnější tělo, spodně kvašený a vyvážený v chuti."
+    },
+    "uzamastilu::Fracek::Fina Cerva": {
+      "untappd_url": "https://untappd.com/b/fracek-fina-cerva/6920874",
+      "untappd_name": "FINA CERVA",
+      "untappd_brewery": "FRACEK",
+      "rating": 3.95,
+      "match_score": 1.0,
+      "matched_at": "2026-10-03T17:08:04Z",
+      "query_used": "Fina Cerva Fracek",
+      "description": "Kyselé svrchně kvašené pivo s ostrou ovocnou kyselinkou a lehkým až středním tělem, typické pro styl sour. Hodnocení na Untappd je nadprůměrné."
     },
     "uzamastilu::Fresh Hop Chroust::Age of Krush": {
       "untappd_url": "https://untappd.com/b/chroust-age-of-krush/6254155",
@@ -5060,6 +5100,11 @@
     "beerstreet::Klenot::Guava and rosemary": {
       "attempts": 1,
       "last_tried_at": "2026-05-22T09:09:16Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "beerstreet::Klenot::Hruška a hřebíček": {
+      "attempts": 1,
+      "last_tried_at": "2026-10-03T17:07:50Z",
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::Klenot::Hruška a skořice": {
