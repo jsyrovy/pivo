@@ -163,10 +163,14 @@ export function extractStyleFromName(name: string): {
 // STYLE_MODIFIERS, where they would start matching trailing name words in extractStyleFromName.
 const LEADING_STYLE_WORDS = new Set([...STYLE_KEYWORDS, ...STYLE_MODIFIERS, "nz", "pastry", "fruit"]);
 
+// Harvest-hop labels open the brewery field too ("Fresh Hop Chroust"). They count only as a pair: a
+// bare "Hop" opens real breweries ("Hop Hooligans").
+const LEADING_HOP_PHRASES = new Set(["fresh hop", "wet hop"]);
+
 // U Zámastilů's upstream sometimes prepends the style to the brewery ("Sour Madcat"). Cut the
-// leading run of style words off -- only a run with a core keyword in it, so a brewery that merely
-// opens with a qualifier ("Modern Times") stays whole, and never the whole field, so a brewery
-// named after a style is not lost.
+// leading run of style words off -- only a run with a core keyword or a hop phrase in it, so a
+// brewery that merely opens with a qualifier ("Modern Times") stays whole, and never the whole
+// field, so a brewery named after a style is not lost.
 export function splitLeadingStyle(brewery: string): {
   brewery: string;
   style: string;
@@ -175,13 +179,34 @@ export function splitLeadingStyle(brewery: string): {
   const tokens = words.map(styleToken);
 
   let end = 0;
-  while (end < words.length && LEADING_STYLE_WORDS.has(tokens[end])) end++;
+  let anchored = false;
+  while (end < words.length) {
+    if (end + 1 < words.length && LEADING_HOP_PHRASES.has(`${tokens[end]} ${tokens[end + 1]}`)) {
+      anchored = true;
+      end += 2;
+    } else if (LEADING_STYLE_WORDS.has(tokens[end])) {
+      anchored ||= STYLE_KEYWORDS.has(tokens[end]);
+      end++;
+    } else {
+      break;
+    }
+  }
 
-  if (end === words.length || !tokens.slice(0, end).some((t) => STYLE_KEYWORDS.has(t))) {
+  if (end === words.length || !anchored) {
     return { brewery, style: "" };
   }
 
   return { brewery: words.slice(end).join(" "), style: words.slice(0, end).join(" ") };
+}
+
+// The style in the name wins over one leaked into the brewery, unless the leaked one only qualifies
+// it: "Fresh Hop" + "IPA" is one style, "Sour" + "Hazy IPA" are two competing ones.
+export function mergeLeakedStyle(nameStyle: string, leakedStyle: string): string {
+  if (!nameStyle) return leakedStyle;
+  if (!leakedStyle || leakedStyle.split(/\s+/).some((w) => STYLE_KEYWORDS.has(styleToken(w)))) {
+    return nameStyle;
+  }
+  return `${leakedStyle} ${nameStyle}`;
 }
 
 // 0° degree Plato is the standard Czech labeling convention for a non-alcoholic beer. Used as a

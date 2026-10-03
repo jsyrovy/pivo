@@ -106,6 +106,24 @@ describe("parseUzamastiluJson", () => {
     expect(beers[0]).toMatchObject({ name: "Wai-Wai", brewery: "Zichovec", style: "Hazy IPA" });
   });
 
+  it("prepends a leaked hop qualifier to the style from the name", () => {
+    const beers = parseUzamastiluJson([
+      { order: 1, name: "Age of Krush IPA", brewery: "Fresh Hop Chroust" },
+      { order: 2, name: "Harvest", brewery: "Wet Hop Hazy IPA Chroust" },
+      { order: 3, name: "Harvest", brewery: "Fresh Hop Chroust" },
+    ]);
+    expect(beers.map((b) => [b.name, b.brewery, b.style])).toEqual([
+      ["Age of Krush", "Chroust", "Fresh hop IPA"],
+      ["Harvest", "Chroust", "Wet hop hazy IPA"],
+      ["Harvest", "Chroust", "Fresh hop"],
+    ]);
+  });
+
+  it("keeps a brewery that opens with a bare hop", () => {
+    const beers = parseUzamastiluJson([{ order: 1, name: "X", brewery: "Hop Hooligans" }]);
+    expect(beers[0]).toMatchObject({ brewery: "Hop Hooligans", style: "" });
+  });
+
   it("keeps a brewery that only opens with a qualifier", () => {
     const beers = parseUzamastiluJson([{ order: 1, name: "X", brewery: "Modern Times" }]);
     expect(beers[0]).toMatchObject({ brewery: "Modern Times", style: "" });

@@ -1,6 +1,12 @@
 import type { ParsedBeer } from "../schema";
 import { stripAbvPrefix, uzamastiluPricing } from "../pricing";
-import { extractStyleFromName, formatStyle, inferStyleFromDegree, splitLeadingStyle } from "../style";
+import {
+  extractStyleFromName,
+  formatStyle,
+  inferStyleFromDegree,
+  mergeLeakedStyle,
+  splitLeadingStyle,
+} from "../style";
 import { isObject, parseNumber, trimString } from "./json-utils";
 
 interface RawBeer {
@@ -27,7 +33,7 @@ export function parseUzamastiluJson(raw: unknown): ParsedBeer[] {
       return {
         name,
         brewery,
-        style: formatStyle(style || leakedStyle || inferStyleFromDegree(degreePlato)),
+        style: formatStyle(mergeLeakedStyle(style, leakedStyle) || inferStyleFromDegree(degreePlato)),
         abv: null,
         degreePlato,
         source: "uzamastilu",
