@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-03T23:40:34Z",
+  "generated_at": "2026-10-04T17:23:23Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Moves": {
       "beer": {
@@ -3318,6 +3318,36 @@
       "outcome": {
         "matched": "/b/pivovar-pivecka-brut-ipa-maracuja-12-deg/6839421",
         "score": 0.9286
+      }
+    },
+    "ambasada::Rampušák, Dobruška::Malinový Kyseláč": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Rampušák, Dobruška",
+        "name": "Malinový Kyseláč",
+        "style": "Fruit sour ale",
+        "degree_plato": 9.0
+      },
+      "captured_at": "2026-10-04T17:23:13Z",
+      "candidates": [
+        {
+          "name": "Malinový Kyseláč 9°",
+          "brewery": "Rodinný pivovar Rampušák",
+          "url": "/b/rodinny-pivovar-rampusak-malinovy-kyselac-9-deg/6821559",
+          "rating": 3.64
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Malinový Kyseláč 9° Rampušák",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/rodinny-pivovar-rampusak-malinovy-kyselac-9-deg/6821559",
+        "score": 1.0
       }
     },
     "ambasada::Rampušák, Dobruška::Strawberry Rhubarb Pie": {
@@ -19556,6 +19586,76 @@
       "outcome": {
         "matched": "/b/rodinny-pivovar-rampusak-dobrusska-11-nefiltrovana/5987923",
         "score": 1.0
+      }
+    },
+    "uzamastilu::Raven::Aurora Northern": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Raven",
+        "name": "Aurora Northern",
+        "style": "IPA",
+        "degree_plato": 15.0
+      },
+      "captured_at": "2026-10-04T17:23:22Z",
+      "candidates": [
+        {
+          "name": "Aurora",
+          "brewery": "North Riding Brew Pub",
+          "url": "/b/north-riding-brew-pub-aurora/1280262",
+          "rating": 3.36
+        },
+        {
+          "name": "Aurora Northern Ipa 极光北镜",
+          "brewery": "Beersmiths",
+          "url": "/b/beersmiths-aurora-northern-ipa/6449787",
+          "rating": null
+        },
+        {
+          "name": "Northern Aurora (北境极光)",
+          "brewery": "Lizao Brewing (狸造精酿)",
+          "url": "/b/lizao-brewing-northern-aurora/6580781",
+          "rating": null
+        },
+        {
+          "name": "AURORA // PALE ALE",
+          "brewery": "Northern Monk",
+          "url": "/b/northern-monk-aurora-pale-ale/5746253",
+          "rating": 3.63
+        },
+        {
+          "name": "Aurora - Northern Pale Ale",
+          "brewery": "Gravity Brewing",
+          "url": "/b/gravity-brewing-aurora-northern-pale-ale/2476167",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Aurora Northern 15° Raven",
+          "hits": []
+        },
+        {
+          "query": "Aurora Northern Raven",
+          "hits": []
+        },
+        {
+          "query": "Aurora Northern 15°",
+          "hits": []
+        },
+        {
+          "query": "Aurora Northern",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "uzamastilu::Raven::Autumn 2026": {

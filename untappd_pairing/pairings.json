@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-03T23:40:34Z",
+  "generated_at": "2026-10-04T17:23:23Z",
   "pairings": {
     "ambasada::Agent, Olešnice::Moves": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-moves-white-grapes-and-strawberries/4836340",
@@ -932,6 +932,16 @@
       "match_score": 1.0,
       "matched_at": "2026-04-21T20:01:04Z",
       "query_used": "Jarní Pšenka Rampušák"
+    },
+    "ambasada::Rampušák, Dobruška::Malinový Kyseláč": {
+      "untappd_url": "https://untappd.com/b/rodinny-pivovar-rampusak-malinovy-kyselac-9-deg/6821559",
+      "untappd_name": "Malinový Kyseláč 9°",
+      "untappd_brewery": "Rodinný pivovar Rampušák",
+      "rating": 3.64,
+      "match_score": 1.0,
+      "matched_at": "2026-10-04T17:23:13Z",
+      "query_used": "Malinový Kyseláč 9° Rampušák",
+      "description": "Ovocný kyselý ale s lehkým tělem a nízkým alkoholem; malina přidává sladkokyselý ovocný tón, který doplňuje přirozenou kyselost stylu. Klasický profil fruit sour ale: jemná ovocná sladkost, osvěžující kyselinka a jemná sladová základna."
     },
     "ambasada::Rampušák, Dobruška::Strawberry Rhubarb Pie": {
       "untappd_url": "https://untappd.com/b/rodinny-pivovar-rampusak-strawberry-rhubarb-pie/6721094",
@@ -5270,6 +5280,11 @@
     "uzamastilu::Pioneer Beer::Hopline N.Zealand": {
       "attempts": 1,
       "last_tried_at": "2026-09-18T17:00:53Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "uzamastilu::Raven::Aurora Northern": {
+      "attempts": 1,
+      "last_tried_at": "2026-10-04T17:23:22Z",
       "reason": "no_candidates_above_threshold"
     },
     "uzamastilu::Rhap-Nectaron Čestmír::Stereo Lab": {
