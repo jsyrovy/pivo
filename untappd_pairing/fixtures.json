@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-05T00:37:13Z",
+  "generated_at": "2026-10-05T21:13:12Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Moves": {
       "beer": {
@@ -768,6 +768,43 @@
       "outcome": {
         "matched": null,
         "reason": "no_candidates_above_threshold"
+      }
+    },
+    "ambasada::Clock, Potštejn::Twist": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Clock, Potštejn",
+        "name": "Twist",
+        "style": "American red IPA",
+        "degree_plato": 14.0
+      },
+      "captured_at": "2026-10-05T21:12:41Z",
+      "candidates": [
+        {
+          "name": "Twist",
+          "brewery": "Pivovar Clock",
+          "url": "/b/pivovar-clock-twist/753375",
+          "rating": 3.71
+        },
+        {
+          "name": "Twist Grep",
+          "brewery": "Pivovar Clock",
+          "url": "/b/pivovar-clock-twist-grep/2300528",
+          "rating": 3.53
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Twist 14° Clock",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-clock-twist/753375",
+        "score": 1.0
       }
     },
     "ambasada::Fenetra, Potštejn, Rustical Wild Sour Ale, 0::Pavillon 2025": {
@@ -12747,6 +12784,58 @@
         "score": 1.0
       }
     },
+    "toulavapipa::Beerpoets/Mordýř::Svatováclavský žitný ležák": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Beerpoets/Mordýř",
+        "name": "Svatováclavský žitný ležák",
+        "style": "Sv. ležák s žitným sladem",
+        "degree_plato": null
+      },
+      "captured_at": "2026-10-05T21:12:55Z",
+      "candidates": [
+        {
+          "name": "11° Svatováclavský žitný ležák ",
+          "brewery": "Pivovar Hřebec",
+          "url": "/b/pivovar-hrebec-11-deg-svatovaclavsky-zitny-lezak/6856415",
+          "rating": 3.59
+        },
+        {
+          "name": "Svatováclavský žitný Ležák 11°",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-svatovaclavsky-zitny-lezak-11-deg/6942554",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Svatováclavský žitný ležák Beerpoets/Mordýř",
+          "hits": []
+        },
+        {
+          "query": "Svatováclavský žitný ležák",
+          "hits": [
+            0,
+            1
+          ]
+        },
+        {
+          "query": "Svatováclavský žitný Beerpoets/Mordýř",
+          "hits": []
+        },
+        {
+          "query": "Svatováclavský žitný",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mordyr-svatovaclavsky-zitny-lezak-11-deg/6942554",
+        "source": "llm"
+      }
+    },
     "toulavapipa::Berquell Brauerei::Jahodový lužický porter": {
       "beer": {
         "source": "toulavapipa",
@@ -12909,6 +12998,36 @@
       "outcome": {
         "matched": "/b/bergquell-brauerei-lobau-kirsch-porter/60818",
         "source": "llm"
+      }
+    },
+    "toulavapipa::Beskydský pivovárek::BESKYDSKÉ HOŘKÉ": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Beskydský pivovárek",
+        "name": "BESKYDSKÉ HOŘKÉ",
+        "style": "IPA",
+        "degree_plato": null
+      },
+      "captured_at": "2026-10-05T21:13:01Z",
+      "candidates": [
+        {
+          "name": "Beskydské hořké",
+          "brewery": "Beskydský pivovárek",
+          "url": "/b/beskydsky-pivovarek-beskydske-horke/361652",
+          "rating": 3.55
+        }
+      ],
+      "attempts": [
+        {
+          "query": "BESKYDSKÉ HOŘKÉ Beskydský pivovárek",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/beskydsky-pivovarek-beskydske-horke/361652",
+        "score": 1.0
       }
     },
     "toulavapipa::Beskydský pivovárek::Borůvkový ležák": {
@@ -14344,6 +14463,74 @@
         "score": 1.0
       }
     },
+    "toulavapipa::LOUTKÁŘ::LOUTKÁŘ": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "LOUTKÁŘ",
+        "name": "LOUTKÁŘ",
+        "style": "Sv. ležák",
+        "degree_plato": null
+      },
+      "captured_at": "2026-10-05T21:12:58Z",
+      "candidates": [
+        {
+          "name": "Kašpárek 11 světlý ležák",
+          "brewery": "Pivovar Loutkář",
+          "url": "/b/pivovar-loutkar-kasparek-11-svetly-lezak/3940222",
+          "rating": 3.46
+        },
+        {
+          "name": "Marioneta 10",
+          "brewery": "Pivovar Loutkář",
+          "url": "/b/pivovar-loutkar-marioneta-10/3940223",
+          "rating": 3.46
+        },
+        {
+          "name": "Světlý ležák 12",
+          "brewery": "Pivovar Loutkář",
+          "url": "/b/pivovar-loutkar-svetly-lezak-12/3940219",
+          "rating": 3.33
+        },
+        {
+          "name": "Paragánská 12 Single Beer",
+          "brewery": "Pivovar Loutkář",
+          "url": "/b/pivovar-loutkar-paraganska-12-single-beer/3989429",
+          "rating": 3.58
+        },
+        {
+          "name": "Lodní šroub 12 APA",
+          "brewery": "Pivovar Loutkář",
+          "url": "/b/pivovar-loutkar-lodni-sroub-12-apa/3940224",
+          "rating": 3.51
+        }
+      ],
+      "attempts": [
+        {
+          "query": "LOUTKÁŘ LOUTKÁŘ",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "query": "LOUTKÁŘ",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
     "toulavapipa::Loutkář::Bílá Dáma": {
       "beer": {
         "source": "toulavapipa",
@@ -14556,6 +14743,43 @@
       ],
       "outcome": {
         "matched": "/b/madcat-mango-pina-coco/2990679",
+        "score": 1.0
+      }
+    },
+    "toulavapipa::MadCat::PUMPKIN ALE": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "MadCat",
+        "name": "PUMPKIN ALE",
+        "style": "Dýňové pivo",
+        "degree_plato": null
+      },
+      "captured_at": "2026-10-05T21:13:05Z",
+      "candidates": [
+        {
+          "name": "Pumpkin Ale",
+          "brewery": "MadCat",
+          "url": "/b/madcat-pumpkin-ale/4549126",
+          "rating": 3.33
+        },
+        {
+          "name": "Imperial Pumpkin Ale",
+          "brewery": "MadCat",
+          "url": "/b/madcat-imperial-pumpkin-ale/3605452",
+          "rating": 3.63
+        }
+      ],
+      "attempts": [
+        {
+          "query": "PUMPKIN ALE MadCat",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/madcat-pumpkin-ale/4549126",
         "score": 1.0
       }
     },
@@ -15827,6 +16051,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-raven-summer-galaxy/2688351",
+        "score": 1.0
+      }
+    },
+    "toulavapipa::Raven::UNICORN MIL": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Raven",
+        "name": "UNICORN MIL",
+        "style": "Milkshake IPA",
+        "degree_plato": null
+      },
+      "captured_at": "2026-10-05T21:13:03Z",
+      "candidates": [
+        {
+          "name": "Unicorn Milk",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-unicorn-milk/5247783",
+          "rating": 3.81
+        }
+      ],
+      "attempts": [
+        {
+          "query": "UNICORN MIL Raven",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-raven-unicorn-milk/5247783",
         "score": 1.0
       }
     },

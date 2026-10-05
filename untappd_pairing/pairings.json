@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-05T00:37:13Z",
+  "generated_at": "2026-10-05T21:13:12Z",
   "pairings": {
     "ambasada::Agent, Olešnice::Moves": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-moves-white-grapes-and-strawberries/4836340",
@@ -238,6 +238,16 @@
       "matched_at": "2026-09-16T17:34:10Z",
       "query_used": "Pineapple 11° Clock",
       "description": "Session IPA s nižší hořkostí a lehčím tělem, typicky s citrusovým a tropickým aroma chmele. Ananas v názvu naznačuje přidání tohoto ovoce, které přináší sladkou, šťavnatou ovocnou nota doplňující chmelový profil."
+    },
+    "ambasada::Clock, Potštejn::Twist": {
+      "untappd_url": "https://untappd.com/b/pivovar-clock-twist/753375",
+      "untappd_name": "Twist",
+      "untappd_brewery": "Pivovar Clock",
+      "rating": 3.71,
+      "match_score": 1.0,
+      "matched_at": "2026-10-05T21:12:41Z",
+      "query_used": "Twist 14° Clock",
+      "description": "American red IPA s karamelovým sladovým základem, vyváženou chmelovou hořkostí a středně plným tělem; aroma nese tómy citrusů, lesního ovoce a jemného karamelu. Hodnocení 3,71 naznačuje nadprůměrně přijaté pivo."
     },
     "ambasada::Fenetra, Potštejn, Rustical Wild Sour Ale, 0::Pavillon 2025": {
       "untappd_url": "https://untappd.com/b/fenetra-pavillon-2025/6342507",
@@ -3446,6 +3456,16 @@
       "query_used": "Satyr 12° Švabín",
       "description": "Svěžákově sladové aroma s mírnou chmelovou hořkostí a lehkým ovocným tónem, středně plné tělo typické pro světlé ležáky stupně 12 %."
     },
+    "toulavapipa::Beerpoets/Mordýř::Svatováclavský žitný ležák": {
+      "untappd_url": "https://untappd.com/b/pivovar-mordyr-svatovaclavsky-zitny-lezak-11-deg/6942554",
+      "untappd_name": "Svatováclavský žitný Ležák 11°",
+      "untappd_brewery": "Pivovar Mordýř",
+      "rating": null,
+      "match_score": 1.0,
+      "matched_at": "2026-10-05T21:12:55Z",
+      "query_used": "<llm>",
+      "description": "Svatováclavský žitný ležák je spodně kvašené pivo se sladovým základem obohaceným o žitný slad, který přináší lehce kořenitou, chlebovou až oříškovou chuť a střední až plnější tělo oproti klasickému ležáku. Díky žitnému sladu může mít jemně kořenitý dozvuk a tmavší barvu, zatímco chmelová hořkost zůstává jemná a vyváž…"
+    },
     "toulavapipa::Berquell Brauerei::Jahodový lužický porter": {
       "untappd_url": "https://untappd.com/b/bergquell-brauerei-lobau-erdbeer-porter/46157",
       "untappd_name": "Erdbeer Porter",
@@ -3465,6 +3485,16 @@
       "matched_at": "2026-08-23T18:36:25Z",
       "query_used": "<llm>",
       "description": "Tmavý porter s ovocným aroma třešní a mírnou kyselostí, střední plnost těla a jemnou hořkostí, podprůměrně hodnocený."
+    },
+    "toulavapipa::Beskydský pivovárek::BESKYDSKÉ HOŘKÉ": {
+      "untappd_url": "https://untappd.com/b/beskydsky-pivovarek-beskydske-horke/361652",
+      "untappd_name": "Beskydské hořké",
+      "untappd_brewery": "Beskydský pivovárek",
+      "rating": 3.55,
+      "match_score": 1.0,
+      "matched_at": "2026-10-05T21:13:01Z",
+      "query_used": "BESKYDSKÉ HOŘKÉ Beskydský pivovárek",
+      "description": "Klasická svrchně kvašená IPA s vyváženou chmelovou hořkostí, citrusovým a květinovým aroma a středně plným tělem. Hodnocení 3,55 naznačuje průměrné až mírně nadprůměrné přijetí."
     },
     "toulavapipa::Beskydský pivovárek::Borůvkový ležák": {
       "untappd_url": "https://untappd.com/b/beskydsky-pivovarek-boruvkovy-lezak/497749",
@@ -3604,7 +3634,7 @@
       "match_score": 1.0,
       "matched_at": "2026-09-07T18:10:47Z",
       "query_used": "NEW ZEALAND PALE ALE Hřebec",
-      "description_failed_at": "2026-09-07T18:11:19Z"
+      "description": "Pale ale s typickým sladovým základem a střední chmelovou hořkostí, doplněná novozélandskými chmely přinášejícími tropické a ovocné tóny jako marakuja, citrus nebo lesní plody. Středně plné tělo s vyváženým profilem mezi sladovou sladkostí a chmelovou svěžestí."
     },
     "toulavapipa::Hřebec::SUMMER ALE": {
       "untappd_url": "https://untappd.com/b/pivovar-hrebec-10-deg-summer-ale/6376217",
@@ -3785,6 +3815,16 @@
       "matched_at": "2026-08-14T14:17:23Z",
       "query_used": "Mango-pina-coco MadCat",
       "description": "Mango-pina-coco je ovocně kyselé sour ale s dominantními tropickými mango, ananasem a kokosem, doplněné sladkým ovocným aroma a lehkou kyselinkou, má lehké tělo a osvěžující kyselou kyselost, hodnocení 3.80 nadprůměrně."
+    },
+    "toulavapipa::MadCat::PUMPKIN ALE": {
+      "untappd_url": "https://untappd.com/b/madcat-pumpkin-ale/4549126",
+      "untappd_name": "Pumpkin Ale",
+      "untappd_brewery": "MadCat",
+      "rating": 3.33,
+      "match_score": 1.0,
+      "matched_at": "2026-10-05T21:13:05Z",
+      "query_used": "PUMPKIN ALE MadCat",
+      "description": "Dýňové pivo s typickým kořeněným profilem – aroma a chuť dýně doplněné skořicí, muškátovým oříškem a hřebíčkem, střední sladovost a mírná kořenitá hořkost. Hodnocení na Untappd podprůměrné."
     },
     "toulavapipa::Madcat::CYBER CAT": {
       "untappd_url": "https://untappd.com/b/madcat-cyber-cat/6441688",
@@ -4075,6 +4115,16 @@
       "matched_at": "2026-08-29T20:45:38Z",
       "query_used": "Summer Galaxy Raven",
       "description": "Session IPA s nižším obsahem alkoholu a lehčím tělem, chmelená výhradně jednou odrůdou Galaxy – tropické ovoce, marakuya a citrusy v aroma, střední hořkost a osvěžující, suchý závěr. Hodnocení 3,64 naznačuje nadprůměrné přijetí."
+    },
+    "toulavapipa::Raven::UNICORN MIL": {
+      "untappd_url": "https://untappd.com/b/pivovar-raven-unicorn-milk/5247783",
+      "untappd_name": "Unicorn Milk",
+      "untappd_brewery": "Pivovar Raven",
+      "rating": 3.81,
+      "match_score": 1.0,
+      "matched_at": "2026-10-05T21:13:03Z",
+      "query_used": "UNICORN MIL Raven",
+      "description": "Milkshake IPA s výrazným sladovým tělem a nízkou hořkostí, typicky s aroma vanilky, laktózy a tropického ovoce; laktóza přidává krémovou sladkost a plnější pocit v ústech. Nadprůměrně hodnocené."
     },
     "toulavapipa::Raven::raven": {
       "untappd_url": "https://untappd.com/b/pivovar-raven-raven-12/2531564",
@@ -5200,6 +5250,11 @@
     "toulavapipa::Hřebec::MadCat": {
       "attempts": 1,
       "last_tried_at": "2026-08-29T17:03:01Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "toulavapipa::LOUTKÁŘ::LOUTKÁŘ": {
+      "attempts": 1,
+      "last_tried_at": "2026-10-05T21:12:58Z",
       "reason": "no_candidates_above_threshold"
     },
     "toulavapipa::Madcat::Desítka": {
