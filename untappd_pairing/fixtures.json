@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-06T02:08:25Z",
+  "generated_at": "2026-10-06T18:51:10Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Moves": {
       "beer": {
@@ -5906,6 +5906,40 @@
         "reason": "no_candidates_above_threshold"
       }
     },
+    "beerstreet::Axiom::Dispatcher": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Axiom",
+        "name": "Dispatcher",
+        "style": "Ležák světlý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-10-06T18:51:05Z",
+      "candidates": [
+        {
+          "name": "Dispatcher",
+          "brewery": "Axiom Brewery",
+          "url": "/b/axiom-brewery-dispatcher/4811356",
+          "rating": 3.5
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Dispatcher 11° Axiom",
+          "hits": []
+        },
+        {
+          "query": "Dispatcher Axiom",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/axiom-brewery-dispatcher/4811356",
+        "score": 1.0
+      }
+    },
     "beerstreet::Ayinger::Ayinger Pils": {
       "beer": {
         "source": "beerstreet",
@@ -9966,6 +10000,43 @@
         "score": 1.0
       }
     },
+    "beerstreet::Mordýř::Svatováclavská": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Mordýř",
+        "name": "Svatováclavská",
+        "style": "Ležák světlý",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-10-06T18:51:01Z",
+      "candidates": [
+        {
+          "name": "Svatováclavská 12",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-svatovaclavska-12/2864744",
+          "rating": 3.6
+        },
+        {
+          "name": "Svatováclavský žitný Ležák 11°",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-svatovaclavsky-zitny-lezak-11-deg/6942554",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Svatováclavská 12° Mordýř",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mordyr-svatovaclavska-12/2864744",
+        "score": 1.0
+      }
+    },
     "beerstreet::Nachmelená Opice::Nectaron Hazy": {
       "beer": {
         "source": "beerstreet",
@@ -11281,6 +11352,40 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-thrills-brewing-house-ipa/4866277",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Thrills::Vinařská": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Thrills",
+        "name": "Vinařská",
+        "style": "Farmhouse ale",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-10-06T18:51:07Z",
+      "candidates": [
+        {
+          "name": "Vinařská Jedenáctka",
+          "brewery": "Pivovar Thrills Brewing",
+          "url": "/b/pivovar-thrills-brewing-vinarska-jedenactka/4610006",
+          "rating": 3.63
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Vinařská 11° Thrills",
+          "hits": []
+        },
+        {
+          "query": "Vinařská Thrills",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-thrills-brewing-vinarska-jedenactka/4610006",
         "score": 1.0
       }
     },
