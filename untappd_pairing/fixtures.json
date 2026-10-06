@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-06T18:51:10Z",
+  "generated_at": "2026-10-06T22:57:01Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Moves": {
       "beer": {
@@ -11190,6 +11190,40 @@
         "score": 1.0
       }
     },
+    "beerstreet::Stern::Tiki": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Stern",
+        "name": "Tiki",
+        "style": "New zealand hazy IPA",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-10-06T22:56:59Z",
+      "candidates": [
+        {
+          "name": "Tiki",
+          "brewery": "Pivovar Stern",
+          "url": "/b/pivovar-stern-tiki/6170206",
+          "rating": 3.73
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Tiki 12° Stern",
+          "hits": []
+        },
+        {
+          "query": "Tiki Stern",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-stern-tiki/6170206",
+        "score": 1.0
+      }
+    },
     "beerstreet::TAMTAM::Raise your horns": {
       "beer": {
         "source": "beerstreet",
@@ -17017,6 +17051,22 @@
           "hits": []
         }
       ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
+    "uzamastilu::::": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "",
+        "name": "",
+        "style": "",
+        "degree_plato": null
+      },
+      "captured_at": "2026-10-06T22:56:59Z",
+      "candidates": [],
+      "attempts": [],
       "outcome": {
         "matched": null,
         "reason": "no_candidates_above_threshold"

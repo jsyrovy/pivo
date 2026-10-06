@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-06T18:51:10Z",
+  "generated_at": "2026-10-06T22:57:01Z",
   "pairings": {
     "ambasada::Agent, Olešnice::Moves": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-moves-white-grapes-and-strawberries/4836340",
@@ -2940,6 +2940,16 @@
       "query_used": "Svratecká 11° Stern",
       "description": "Klasický světlý ležák: sladový základ, jemná chmelová hořkost a lehčí tělo, spodně kvašený a čistý v chuti."
     },
+    "beerstreet::Stern::Tiki": {
+      "untappd_url": "https://untappd.com/b/pivovar-stern-tiki/6170206",
+      "untappd_name": "Tiki",
+      "untappd_brewery": "Pivovar Stern",
+      "rating": 3.73,
+      "match_score": 1.0,
+      "matched_at": "2026-10-06T22:56:59Z",
+      "query_used": "Tiki Stern",
+      "description": "Ovocně chmelená New Zealand hazy IPA s jemným zákalem, střední plností a výrazným tropickým aroma po marakuji, guave a citrusových plodech; nižší hořkost a hladký, šťavnatý závěr typický pro styl. Hodnocení 3,73 naznačuje nadprůměrné přijetí pivem mezi uživateli Untappd."
+    },
     "beerstreet::TAMTAM::Raise your horns": {
       "untappd_url": "https://untappd.com/b/tamtam-brewing-co-raise-your-horns/6694650",
       "untappd_name": "Raise Your Horns",
@@ -5310,6 +5320,11 @@
     "uzamastilu::4.3% alc Loutkář::Marioneta sv.výčepní": {
       "attempts": 1,
       "last_tried_at": "2026-08-18T20:29:48Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "uzamastilu::::": {
+      "attempts": 1,
+      "last_tried_at": "2026-10-06T22:56:59Z",
       "reason": "no_candidates_above_threshold"
     },
     "uzamastilu::Brewnicorn::Predátor W.Coast": {
