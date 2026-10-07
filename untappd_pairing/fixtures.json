@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-06T22:57:01Z",
+  "generated_at": "2026-10-07T19:16:32Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Moves": {
       "beer": {
@@ -2480,6 +2480,61 @@
         "score": 1.0
       }
     },
+    "ambasada::Mordýř, Dolní Ředice::Blizard": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Mordýř, Dolní Ředice",
+        "name": "Blizard",
+        "style": "Winter pale ale",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-10-07T19:16:24Z",
+      "candidates": [
+        {
+          "name": "Blizard",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-blizard/2397001",
+          "rating": 3.53
+        },
+        {
+          "name": "Blizard Mango",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-blizard-mango/4561947",
+          "rating": 3.72
+        },
+        {
+          "name": "Blizard Maracuja",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-blizard-maracuja/4534473",
+          "rating": 3.69
+        },
+        {
+          "name": "Blizard  Medový",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-blizard-medovy/3661818",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Blizard 12° Mordýř",
+          "hits": []
+        },
+        {
+          "query": "Blizard Mordýř",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mordyr-blizard/2397001",
+        "score": 1.0
+      }
+    },
     "ambasada::Mordýř, Dolní Ředice::Hazy Summer": {
       "beer": {
         "source": "ambasada",
@@ -4198,6 +4253,78 @@
         "source": "llm"
       }
     },
+    "ambasada::Sibeeria/Orca Brau & Monnik::Friendly Faces": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Sibeeria/Orca Brau & Monnik",
+        "name": "Friendly Faces",
+        "style": "Imperial gose w apricot & yuzu",
+        "degree_plato": 17.0
+      },
+      "captured_at": "2026-10-07T19:16:19Z",
+      "candidates": [
+        {
+          "name": "Friendly Faces",
+          "brewery": "Sibeeria Brewery",
+          "url": "/b/sibeeria-brewery-friendly-faces/6799267",
+          "rating": 3.87
+        },
+        {
+          "name": "Friendly Faces Everywhere",
+          "brewery": "SeaHorse Brewery ",
+          "url": "/b/seahorse-brewery-friendly-faces-everywhere/4310300",
+          "rating": 3.8
+        },
+        {
+          "name": "Friendly Faces Hoppy Lager",
+          "brewery": "Cold Garden Beverage Company",
+          "url": "/b/cold-garden-beverage-company-friendly-faces-hoppy-lager/4625895",
+          "rating": 3.44
+        },
+        {
+          "name": "Friendly Faces",
+          "brewery": "Fifty West Brewing Company",
+          "url": "/b/fifty-west-brewing-company-friendly-facea/6105194",
+          "rating": null
+        },
+        {
+          "name": "Friendly Faces",
+          "brewery": "Common Space Brewery",
+          "url": "/b/common-space-brewery-friendly-faces/4241123",
+          "rating": 3.64
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Friendly Faces 17° Sibeeria/Orca Brau & Monnik",
+          "hits": []
+        },
+        {
+          "query": "Friendly Faces Sibeeria/Orca Brau & Monnik",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Friendly Faces 17°",
+          "hits": []
+        },
+        {
+          "query": "Friendly Faces",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/sibeeria-brewery-friendly-faces/6799267",
+        "source": "llm"
+      }
+    },
     "ambasada::Sibeeria/Čierny Kameň::Juniper Dryad": {
       "beer": {
         "source": "ambasada",
@@ -5001,6 +5128,36 @@
       "outcome": {
         "matched": "/b/pivovar-zichovec-session-juicy-lucy-13/3660932",
         "score": 1.0
+      }
+    },
+    "ambasada::Záhora, Kněžičky::14.SOUR.I1": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Záhora, Kněžičky",
+        "name": "14.SOUR.I1",
+        "style": "Curuba sour ale",
+        "degree_plato": null
+      },
+      "captured_at": "2026-10-07T19:16:24Z",
+      "candidates": [
+        {
+          "name": "Pineapple Sour /// 14.BW.I1",
+          "brewery": "Pivovar Záhora",
+          "url": "/b/pivovar-zahora-pineapple-sour-14-bw-i1/6804599",
+          "rating": 3.87
+        }
+      ],
+      "attempts": [
+        {
+          "query": "14.SOUR.I1 Záhora",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-zahora-pineapple-sour-14-bw-i1/6804599",
+        "score": 0.7143
       }
     },
     "ambasada::Černý Potoka, Hořice::Cloud Scanner": {
@@ -17871,6 +18028,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-hrebec-11-deg-lezak/6340661",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Jungberg::Lucipa": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Jungberg",
+        "name": "Lucipa",
+        "style": "IPA",
+        "degree_plato": 14.0
+      },
+      "captured_at": "2026-10-07T19:16:25Z",
+      "candidates": [
+        {
+          "name": "Lucipa",
+          "brewery": "Pivovar JungBerg",
+          "url": "/b/pivovar-jungberg-lucipa/2199010",
+          "rating": 3.6
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Lucipa 14° Jungberg",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-jungberg-lucipa/2199010",
         "score": 1.0
       }
     },
