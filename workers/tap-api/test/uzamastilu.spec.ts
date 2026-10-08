@@ -8,6 +8,19 @@ describe("parseUzamastiluJson", () => {
     expect(beers.map((b) => b.order)).toEqual([1, 5, 3]);
   });
 
+  it("skips a free tap that comes through with every field empty", () => {
+    const beers = parseUzamastiluJson([
+      { order: 6, degree: "11°", brewery: "Polička", name: "Otakar Ležák", price05: "44", price03: "34" },
+      { order: 7, degree: "", brewery: "", name: "", price05: "", price03: "" },
+    ]);
+    expect(beers.map((b) => b.order)).toEqual([6]);
+  });
+
+  it("skips a tap whose name is nothing but asterisks", () => {
+    const beers = parseUzamastiluJson([{ order: 1, brewery: "Klenot", name: " ** " }]);
+    expect(beers).toEqual([]);
+  });
+
   it("cleans stray asterisks and whitespace from name", () => {
     const beers = parseUzamastiluJson(UZAMASTILU_FIXTURE);
     expect(beers[0].name).toBe("APA");

@@ -41,7 +41,8 @@ export function parseUzamastiluJson(raw: unknown): ParsedBeer[] {
         pricing: uzamastiluPricing(item.price05, item.price03),
       };
     })
-    .filter((beer) => beer.order !== null && beer.order >= 1 && beer.order <= 7);
+    // A free tap still comes through as an entry with every field empty.
+    .filter((beer) => beer.name !== "" && beer.order !== null && beer.order >= 1 && beer.order <= 7);
 }
 
 function cleanName(value: unknown): string {
