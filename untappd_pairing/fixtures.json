@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-08T00:05:26Z",
+  "generated_at": "2026-10-08T19:13:11Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Moves": {
       "beer": {
@@ -2393,6 +2393,64 @@
       "outcome": {
         "matched": "/b/pratelsky-pivovar-malesov-american-pale-ale-11/3551415",
         "score": 1.0
+      }
+    },
+    "ambasada::Malešov::India Pale Ale": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Malešov",
+        "name": "India Pale Ale",
+        "style": "IPA",
+        "degree_plato": 14.0
+      },
+      "captured_at": "2026-10-08T19:12:50Z",
+      "candidates": [
+        {
+          "name": "Indian Pale Ale 14",
+          "brewery": "Přátelský pivovar Malešov",
+          "url": "/b/pratelsky-pivovar-malesov-indian-pale-ale-14/637635",
+          "rating": 3.51
+        },
+        {
+          "name": "Rye IPA 14 ",
+          "brewery": "Přátelský pivovar Malešov",
+          "url": "/b/pratelsky-pivovar-malesov-rye-ipa-14/4133042",
+          "rating": 3.58
+        },
+        {
+          "name": "IPA /// 14.IPA.I1",
+          "brewery": "Pivovar Záhora",
+          "url": "/b/pivovar-zahora-ipa-14-ipa-i1/3054025",
+          "rating": 2.88
+        },
+        {
+          "name": "Zlínský Švec 14 Žitná IPA ",
+          "brewery": "Pivovar Malenovice",
+          "url": "/b/pivovar-malenovice-zlinsky-svec-14-zitna-ipa/3672438",
+          "rating": 3.53
+        },
+        {
+          "name": "Zlínský Švec IPA 13% Eureka",
+          "brewery": "Pivovar Malenovice",
+          "url": "/b/pivovar-malenovice-zlinsky-svec-ipa-13-eureka/3028582",
+          "rating": 3.48
+        }
+      ],
+      "attempts": [
+        {
+          "query": "India Pale Ale 14° Malešov",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pratelsky-pivovar-malesov-rye-ipa-14/4133042",
+        "score": 0.1429
       }
     },
     "ambasada::Mazák, Dolní Bojanovice::Letní Den": {
@@ -11317,6 +11375,78 @@
         "score": 1.0
       }
     },
+    "beerstreet::Stern::Lesní ovoce": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Stern",
+        "name": "Lesní ovoce",
+        "style": "Sour",
+        "degree_plato": 9.0
+      },
+      "captured_at": "2026-10-08T19:12:47Z",
+      "candidates": [
+        {
+          "name": "Funky – Forest Fruit",
+          "brewery": "Pivovar Stern",
+          "url": "/b/pivovar-stern-funky-forest-fruit/4904317",
+          "rating": 3.66
+        },
+        {
+          "name": "Frisco Lesní ovoce",
+          "brewery": "Plzeňský Prazdroj",
+          "url": "/b/plzensky-prazdroj-frisco-lesni-ovoce/2014764",
+          "rating": 3.25
+        },
+        {
+          "name": "Kamenický Sour Lesní ovoce 12°",
+          "brewery": "Pivovar Kamenice nad Lipou",
+          "url": "/b/pivovar-kamenice-nad-lipou-fruit-sour-ale/4972434",
+          "rating": 3.64
+        },
+        {
+          "name": "Philly Sour Lesní Ovoce",
+          "brewery": "Pivovar Bubeneč",
+          "url": "/b/pivovar-bubenec-philly-sour-lesni-plody/6495068",
+          "rating": 3.94
+        },
+        {
+          "name": "Puk - Lesní Ovoce",
+          "brewery": "Švabín Brewery",
+          "url": "/b/svabin-brewery-puk-lesni-ovoce/6375406",
+          "rating": 3.79
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Lesní ovoce 9° Stern",
+          "hits": []
+        },
+        {
+          "query": "Lesní ovoce Stern",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Lesní ovoce 9°",
+          "hits": []
+        },
+        {
+          "query": "Lesní ovoce",
+          "hits": [
+            1,
+            0,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-stern-funky-forest-fruit/4904317",
+        "source": "llm"
+      }
+    },
     "beerstreet::Stern::Svratecká": {
       "beer": {
         "source": "beerstreet",
@@ -14857,6 +14987,36 @@
         "score": 1.0
       }
     },
+    "toulavapipa::Loutkář::Lodní šroub": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Loutkář",
+        "name": "Lodní šroub",
+        "style": "APA",
+        "degree_plato": null
+      },
+      "captured_at": "2026-10-08T19:12:51Z",
+      "candidates": [
+        {
+          "name": "Lodní šroub 12 APA",
+          "brewery": "Pivovar Loutkář",
+          "url": "/b/pivovar-loutkar-lodni-sroub-12-apa/3940224",
+          "rating": 3.52
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Lodní šroub Loutkář",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-loutkar-lodni-sroub-12-apa/3940224",
+        "score": 1.0
+      }
+    },
     "toulavapipa::Loutkář::Výroční ležák": {
       "beer": {
         "source": "toulavapipa",
@@ -17499,6 +17659,40 @@
       ],
       "outcome": {
         "matched": "/b/chroust-kiwi-v-mlze/6854098",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Clock::Fresh Hop Ale Most 2026": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Clock",
+        "name": "Fresh Hop Ale Most 2026",
+        "style": "",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-10-08T19:12:56Z",
+      "candidates": [
+        {
+          "name": "Fresh Hopale MOST 2026",
+          "brewery": "Pivovar Clock",
+          "url": "/b/pivovar-clock-fresh-hopale-most-2026/7080688",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Fresh Hop Ale Most 2026 12° Clock",
+          "hits": []
+        },
+        {
+          "query": "Fresh Hop Ale Most 2026 Clock",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-clock-fresh-hopale-most-2026/7080688",
         "score": 1.0
       }
     },
@@ -21554,6 +21748,43 @@
         "score": 1.0
       }
     },
+    "uzamastilu::Čestmír::Čest": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Čestmír",
+        "name": "Čest",
+        "style": "Ležák",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-10-08T19:13:00Z",
+      "candidates": [
+        {
+          "name": "Světlý Ležák 11° ČEST",
+          "brewery": "Pivovar Čestmír",
+          "url": "/b/pivovar-cestmir-svetly-lezak-11-deg-cest/4892957",
+          "rating": 3.55
+        },
+        {
+          "name": "Světlý ležák 11 (nyní máme Ležák 11 ČEST)",
+          "brewery": "Pivovar Čestmír",
+          "url": "/b/pivovar-cestmir-svetly-lezak-11-nyni-mame-lezak-11-cest/2721866",
+          "rating": 3.44
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Čest 11° Čestmír",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-cestmir-svetly-lezak-11-deg-cest/4892957",
+        "score": 1.0
+      }
+    },
     "uzamastilu::Čierny Kameň::Lazarus": {
       "beer": {
         "source": "uzamastilu",
@@ -21661,6 +21892,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-rimska-breezy-xi-deg/6810175",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Římská::Haka New Zealand Pils": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Římská",
+        "name": "Haka New Zealand Pils",
+        "style": "",
+        "degree_plato": null
+      },
+      "captured_at": "2026-10-08T19:13:03Z",
+      "candidates": [
+        {
+          "name": "THE HAKA - New Zealand Pils X°",
+          "brewery": "Pivovar Římská",
+          "url": "/b/pivovar-rimska-the-haka-new-zealand-pils-x-deg/6836807",
+          "rating": 3.5
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Haka New Zealand Pils Římská",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-rimska-the-haka-new-zealand-pils-x-deg/6836807",
         "score": 1.0
       }
     }

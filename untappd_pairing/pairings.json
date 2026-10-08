@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-08T00:05:26Z",
+  "generated_at": "2026-10-08T19:13:11Z",
   "pairings": {
     "ambasada::Agent, Olešnice::Moves": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-moves-white-grapes-and-strawberries/4836340",
@@ -686,6 +686,16 @@
       "match_score": 1.0,
       "matched_at": "2026-07-13T15:44:50Z",
       "query_used": "American Pale Ale 11° Malešov"
+    },
+    "ambasada::Malešov::India Pale Ale": {
+      "untappd_url": "https://untappd.com/b/pratelsky-pivovar-malesov-rye-ipa-14/4133042",
+      "untappd_name": "Rye IPA 14 ",
+      "untappd_brewery": "Přátelský pivovar Malešov",
+      "rating": 3.58,
+      "match_score": 0.1429,
+      "matched_at": "2026-10-08T19:12:50Z",
+      "query_used": "India Pale Ale 14° Malešov",
+      "description": "Rye IPA je svrchně kvašené pivo s výraznou chmelovou hořkostí, citrusovým a pryskyřičným aroma a středně plným tělem; použití žita přidává kořenitý, lehce chlebový charakter a suchší závěr. Klasický profil IPA s obilnou složkou, který podporuje plnost a strukturu bez sladové těžkopádnosti."
     },
     "ambasada::Matuška, Broumy::California": {
       "untappd_url": "https://untappd.com/b/pivovar-matuska-barrel-aged-cherry-california/4101111",
@@ -2961,6 +2971,16 @@
       "query_used": "Indianhead 11° Stadioner",
       "description": "NEIPA s ovocným a aromatickým profilem, měkkou hořkostí a plným tělem, doplněná jemnou sladkostí sladu a lehkým alkoholem, který přináší sílu a vyváženou plnost. Hodnocení na Untappd je nadprůměrné."
     },
+    "beerstreet::Stern::Lesní ovoce": {
+      "untappd_url": "https://untappd.com/b/pivovar-stern-funky-forest-fruit/4904317",
+      "untappd_name": "Funky – Forest Fruit",
+      "untappd_brewery": "Pivovar Stern",
+      "rating": 3.66,
+      "match_score": 0.1111111111111111,
+      "matched_at": "2026-10-08T19:12:47Z",
+      "query_used": "<llm>",
+      "description": "Kyselé svrchně kvašené pivo s lehkým tělem a jemnou ovocnou kyselinkou; lesní ovoce přidává sladší, tmavě bobulovitý tón, který kyselost vyvažuje."
+    },
     "beerstreet::Stern::Svratecká": {
       "untappd_url": "https://untappd.com/b/pivovar-stern-svratecka-11/4804238",
       "untappd_name": "Svratecká 11",
@@ -3837,6 +3857,16 @@
       "query_used": "Bílá Dáma Loutkář",
       "description": "White session IPA je lehké, svrchně kvašené pivo s jemnou sladovou základnou a střední chmelovou hořkostí, typicky s citrusovými, květinovými nebo tropickými tóny v aroma a suchým, osvěžujícím závěrem. Díky nižší stupňovitosti a alkoholu je pivo pitelné a osvěžující, s lehčím tělem než klasické IPA."
     },
+    "toulavapipa::Loutkář::Lodní šroub": {
+      "untappd_url": "https://untappd.com/b/pivovar-loutkar-lodni-sroub-12-apa/3940224",
+      "untappd_name": "Lodní šroub 12 APA",
+      "untappd_brewery": "Pivovar Loutkář",
+      "rating": 3.52,
+      "match_score": 1.0,
+      "matched_at": "2026-10-08T19:12:51Z",
+      "query_used": "Lodní šroub Loutkář",
+      "description": "Klasická americká pale ale s vyváženým sladovým základem a střední chmelovou hořkostí, typicky s citrusovými a květinovými tóny, středně plné tělo a čistý dojem. Hodnocení 3,52 odpovídá průměrné úrovni."
+    },
     "toulavapipa::Loutkář::Výroční ležák": {
       "untappd_url": "https://untappd.com/b/pivovar-loutkar-vyrocni-lezak-12/4480456",
       "untappd_name": "Výroční ležák 12",
@@ -4435,6 +4465,16 @@
       "matched_at": "2026-09-20T19:19:00Z",
       "query_used": "Kiwi v mlze Chroust",
       "description": "Ovocně chmelená NEIPA s jemným zákalem, střední plností a nižší hořkostí; aroma tropického ovoce a citrusů, kiwi přidává svěží, mírně kyselkavý tón. Nadprůměrně hodnocené."
+    },
+    "uzamastilu::Clock::Fresh Hop Ale Most 2026": {
+      "untappd_url": "https://untappd.com/b/pivovar-clock-fresh-hopale-most-2026/7080688",
+      "untappd_name": "Fresh Hopale MOST 2026",
+      "untappd_brewery": "Pivovar Clock",
+      "rating": null,
+      "match_score": 1.0,
+      "matched_at": "2026-10-08T19:12:56Z",
+      "query_used": "Fresh Hop Ale Most 2026 Clock",
+      "description_failed_at": "2026-10-08T19:13:03Z"
     },
     "uzamastilu::Clock::Hex": {
       "untappd_url": "https://untappd.com/b/pivovar-clock-hex/6717949",
@@ -5186,6 +5226,16 @@
       "query_used": "Zahradní Čestmír",
       "description": "Klasický český ležák: sladový základ s jemnou chmelovou hořkostí, středně plné tělo a čistá, vyvážená chuť typická pro spodně kvašená piva. Zahradní název neimplikuje konkrétní surovinu nebo postup, takže se popis omezuje na styl a stupňovitost."
     },
+    "uzamastilu::Čestmír::Čest": {
+      "untappd_url": "https://untappd.com/b/pivovar-cestmir-svetly-lezak-11-deg-cest/4892957",
+      "untappd_name": "Světlý Ležák 11° ČEST",
+      "untappd_brewery": "Pivovar Čestmír",
+      "rating": 3.55,
+      "match_score": 1.0,
+      "matched_at": "2026-10-08T19:13:00Z",
+      "query_used": "Čest 11° Čestmír",
+      "description": "Klasický světlý ležák: sladový základ, jemná chmelová hořkost a lehčí tělo, spodně kvašený a čistý v chuti."
+    },
     "uzamastilu::Čierny Kameň::Lazarus": {
       "untappd_url": "https://untappd.com/b/pivovar-cierny-kamen-lazarus/6772256",
       "untappd_name": "Lazarus",
@@ -5215,6 +5265,16 @@
       "matched_at": "2026-08-27T22:53:53Z",
       "query_used": "Breezy Římská",
       "description": "Session IPA s lehčím tělem a střední hořkostí, typicky s citrusovým, tropickým a květinovým chmelovým aroma, spodně kvašená nebo svrchně kvašená s důrazem na pitelnost a osvěžující charakter. Hodnocení 3,59 je v průměrném rozmezí, takže se nezmiňuje."
+    },
+    "uzamastilu::Římská::Haka New Zealand Pils": {
+      "untappd_url": "https://untappd.com/b/pivovar-rimska-the-haka-new-zealand-pils-x-deg/6836807",
+      "untappd_name": "THE HAKA - New Zealand Pils X°",
+      "untappd_brewery": "Pivovar Římská",
+      "rating": 3.5,
+      "match_score": 1.0,
+      "matched_at": "2026-10-08T19:13:03Z",
+      "query_used": "Haka New Zealand Pils Římská",
+      "description_failed_at": "2026-10-08T19:13:03Z"
     }
   },
   "unmatched": {
