@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-09T00:12:56Z",
+  "generated_at": "2026-10-09T18:43:07Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Moves": {
       "beer": {
@@ -10279,6 +10279,36 @@
       ],
       "outcome": {
         "matched": "/b/nachmelena-opice-nectaron-hazy-pale-ale-13/6636867",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Nachmelená opice::Eclipse": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Nachmelená opice",
+        "name": "Eclipse",
+        "style": "Smash ale",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-10-09T18:43:05Z",
+      "candidates": [
+        {
+          "name": "Eclipse SMASH Ale 13%",
+          "brewery": "Nachmelená Opice",
+          "url": "/b/nachmelena-opice-eclipse-smash-ale-13/4855689",
+          "rating": 3.74
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Eclipse 13° Nachmelená opice",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/nachmelena-opice-eclipse-smash-ale-13/4855689",
         "score": 1.0
       }
     },

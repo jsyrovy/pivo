@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-09T00:12:56Z",
+  "generated_at": "2026-10-09T18:43:07Z",
   "pairings": {
     "ambasada::Agent, Olešnice::Moves": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-moves-white-grapes-and-strawberries/4836340",
@@ -2709,6 +2709,16 @@
       "matched_at": "2026-08-28T22:58:11Z",
       "query_used": "Nectaron Hazy 13° Nachmelená Opice",
       "description": "Hazy pale ale s výrazným ovocným a tropickým aroma po manga, marakuji a broskvi, střední tělo a jemná kalnost; Nectaron chmel přináší šťavnatou, téměř džusovitou chuť s mírnou hořkostí a hladkým dozníváním. Hodnocení 3,84 naznačuje nadprůměrné přijetí."
+    },
+    "beerstreet::Nachmelená opice::Eclipse": {
+      "untappd_url": "https://untappd.com/b/nachmelena-opice-eclipse-smash-ale-13/4855689",
+      "untappd_name": "Eclipse SMASH Ale 13%",
+      "untappd_brewery": "Nachmelená Opice",
+      "rating": 3.74,
+      "match_score": 1.0,
+      "matched_at": "2026-10-09T18:43:05Z",
+      "query_used": "Eclipse 13° Nachmelená opice",
+      "description": "SMASH ale s jednoduchým sladovým a chmelovým profilem: středně plné tělo, jemná sladová základna a čistá chmelová hořkost s tóny typickými pro použitý chmel, spodně i svrchně kvašený charakter podle použitého kvasnice. 5,6 % ABV přináší mírně zvýšenou plnost a zahřívací dojem. Hodnocení 3,74 naznačuje nadprůměrné přij…"
     },
     "beerstreet::Nachmelená opice::Sun APA": {
       "untappd_url": "https://untappd.com/b/nachmelena-opice-sun-apa-12/1558059",
