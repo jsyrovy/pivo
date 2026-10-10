@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-10T17:44:30Z",
+  "generated_at": "2026-10-10T21:26:26Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Moves": {
       "beer": {
@@ -10943,6 +10943,43 @@
         "source": "llm"
       }
     },
+    "beerstreet::Pivečka::Kazbek": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Pivečka",
+        "name": "Kazbek",
+        "style": "Ležák světlý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-10-10T21:26:20Z",
+      "candidates": [
+        {
+          "name": "Single Hop Lager Kazbek 11°",
+          "brewery": "Pivovar Pivečka",
+          "url": "/b/pivovar-pivecka-single-hop-lager-kazbek-11-deg/6919763",
+          "rating": null
+        },
+        {
+          "name": "Single Hop Kazbek IPA 14°",
+          "brewery": "Pivovar Pivečka",
+          "url": "/b/pivovar-pivecka-single-hop-kazbek-ipa-14-deg/678984",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Kazbek 11° Pivečka",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-pivecka-single-hop-lager-kazbek-11-deg/6919763",
+        "score": 1.0
+      }
+    },
     "beerstreet::Poupě::Summer Ale": {
       "beer": {
         "source": "beerstreet",
@@ -17760,6 +17797,36 @@
         "score": 1.0
       }
     },
+    "uzamastilu::Clock::Pineapple": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Clock",
+        "name": "Pineapple",
+        "style": "Session IPA",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-10-10T21:26:22Z",
+      "candidates": [
+        {
+          "name": "Pineapple Session IPA",
+          "brewery": "Pivovar Clock",
+          "url": "/b/pivovar-clock-pineapple-session-ipa/2133656",
+          "rating": 3.57
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Pineapple 11° Clock",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-clock-pineapple-session-ipa/2133656",
+        "score": 1.0
+      }
+    },
     "uzamastilu::Cobolis::Praotec": {
       "beer": {
         "source": "uzamastilu",
@@ -21206,6 +21273,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-vik-beach-club/6822681",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Volt::Ampér": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Volt",
+        "name": "Ampér",
+        "style": "Ležák",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-10-10T21:26:20Z",
+      "candidates": [
+        {
+          "name": "Ampér 11°",
+          "brewery": "Pivovar Volt",
+          "url": "/b/pivovar-volt-amper-agnus/5209185",
+          "rating": 3.53
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Ampér 11° Volt",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-volt-amper-agnus/5209185",
         "score": 1.0
       }
     },

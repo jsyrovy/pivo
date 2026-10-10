@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-10T17:44:30Z",
+  "generated_at": "2026-10-10T21:26:26Z",
   "pairings": {
     "ambasada::Agent, Olešnice::Moves": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-moves-white-grapes-and-strawberries/4836340",
@@ -2873,6 +2873,16 @@
       "query_used": "<llm>",
       "description": "Letní ale s mírnou silou 3,9 % ABV a příjemnou pitelností, ideální pro osvěžující víkendové posezení."
     },
+    "beerstreet::Pivečka::Kazbek": {
+      "untappd_url": "https://untappd.com/b/pivovar-pivecka-single-hop-lager-kazbek-11-deg/6919763",
+      "untappd_name": "Single Hop Lager Kazbek 11°",
+      "untappd_brewery": "Pivovar Pivečka",
+      "rating": null,
+      "match_score": 1.0,
+      "matched_at": "2026-10-10T21:26:20Z",
+      "query_used": "Kazbek 11° Pivečka",
+      "description": "Klasický světlý ležák: sladový základ, jemná chmelová hořkost a lehčí tělo, spodně kvašený a čistý v chuti. Chmel Kazbek přináší jemně kořenitý, lehce bylinný až květinový tón s jemnou chmelovou přítomností."
+    },
     "beerstreet::Poupě::Summer Ale": {
       "untappd_url": "https://untappd.com/b/pivovarsky-dum-poupe-summer-ale/5853620",
       "untappd_name": "Summer Ale 10° (Kohatu, Ekuanot)",
@@ -4496,6 +4506,16 @@
       "query_used": "Hex Clock",
       "description": "HEX od Pivovaru Clock je moderní pale ale s mírnou hořkostí a ovocným aroma, který osvěží při letním posezení nebo u neformálního setkání s přáteli. S vyváženou silou a lehkou pitelností se hodí na odpolední relaxaci."
     },
+    "uzamastilu::Clock::Pineapple": {
+      "untappd_url": "https://untappd.com/b/pivovar-clock-pineapple-session-ipa/2133656",
+      "untappd_name": "Pineapple Session IPA",
+      "untappd_brewery": "Pivovar Clock",
+      "rating": 3.57,
+      "match_score": 1.0,
+      "matched_at": "2026-10-10T21:26:22Z",
+      "query_used": "Pineapple 11° Clock",
+      "description": "Session IPA s nižší stupňovitostí nabízí lehčí tělo a vyvážený chmelový profil s mírnou hořkostí; název naznačuje přídavek ananasu, který přináší tropické, sladko-kyselé ovocné aroma a chuť, typické pro ovoce v IPA. Hodnocení 3,57 není dostatečně extrémní na zmínku."
+    },
     "uzamastilu::Cobolis::Praotec": {
       "untappd_url": "https://untappd.com/b/cobolis-praotec-lezak-12/2709544",
       "untappd_name": "Praotec ležák 12",
@@ -5135,6 +5155,16 @@
       "matched_at": "2026-08-13T19:15:20Z",
       "query_used": "Beach Club Vik",
       "description": "Pale ale s mírnou sladkostí a jemnou chmelovou hořkostí, lehkým tělem a ovocným aroma, typickým pro anglický pale ale."
+    },
+    "uzamastilu::Volt::Ampér": {
+      "untappd_url": "https://untappd.com/b/pivovar-volt-amper-agnus/5209185",
+      "untappd_name": "Ampér 11°",
+      "untappd_brewery": "Pivovar Volt",
+      "rating": 3.53,
+      "match_score": 1.0,
+      "matched_at": "2026-10-10T21:26:20Z",
+      "query_used": "Ampér 11° Volt",
+      "description": "Klasický český ležák: sladový základ s jemnou chmelovou hořkostí, středně plné tělo a čistý, vyvážený charakter spodního kvašení."
     },
     "uzamastilu::Volt::Zdroj": {
       "untappd_url": "https://untappd.com/b/pivovar-volt-zdroj-12/4827716",
