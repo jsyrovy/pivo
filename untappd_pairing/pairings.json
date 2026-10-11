@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-11T00:46:37Z",
+  "generated_at": "2026-10-11T17:57:56Z",
   "pairings": {
     "ambasada::Agent, Olešnice::Moves": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-moves-white-grapes-and-strawberries/4836340",
@@ -1179,6 +1179,16 @@
       "matched_at": "2026-08-24T17:35:07Z",
       "query_used": "Wakatu Beach Sunset Sibeeria",
       "description": "Lehký novozélandský pale lager s jemnou sladovou základnou a osvěžujícím charakterem; nízká stupňovitost a alkohol zajišťují pitelné, lehké tělo s jemnou chmelovou stopou typickou pro novozélandské odrůdy. Hodnocení 3,54 není dostatečně extrémní pro zmínku."
+    },
+    "ambasada::Sibeeria, Praha::Wondrous Whale": {
+      "untappd_url": "https://untappd.com/b/sibeeria-brewery-wondrous-whale/6919590",
+      "untappd_name": "Wondrous Whale",
+      "untappd_brewery": "Sibeeria Brewery",
+      "rating": 3.95,
+      "match_score": 1.0,
+      "matched_at": "2026-10-11T17:57:55Z",
+      "query_used": "Wondrous Whale Sibeeria",
+      "description": "Silně ovocné a kalné Double NEIPA s intenzivním aroma tropického ovoce a jemnou sladovou plností, středně vysokou hořkostí a sametovým tělem díky vysokému extraktu a alkoholu. Hodnocení na Untappd je nadprůměrné."
     },
     "ambasada::Sibeeria, Praha::Zesty Zebra": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-zesty-zebra/6698766",

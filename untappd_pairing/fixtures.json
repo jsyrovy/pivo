@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-11T00:46:37Z",
+  "generated_at": "2026-10-11T17:57:56Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Moves": {
       "beer": {
@@ -4110,6 +4110,40 @@
       ],
       "outcome": {
         "matched": "/b/sibeeria-brewery-wakatu-beach-sunset/6779808",
+        "score": 1.0
+      }
+    },
+    "ambasada::Sibeeria, Praha::Wondrous Whale": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Sibeeria, Praha",
+        "name": "Wondrous Whale",
+        "style": "Double NEIPA",
+        "degree_plato": 18.0
+      },
+      "captured_at": "2026-10-11T17:57:55Z",
+      "candidates": [
+        {
+          "name": "Wondrous Whale",
+          "brewery": "Sibeeria Brewery",
+          "url": "/b/sibeeria-brewery-wondrous-whale/6919590",
+          "rating": 3.95
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Wondrous Whale 18° Sibeeria",
+          "hits": []
+        },
+        {
+          "query": "Wondrous Whale Sibeeria",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/sibeeria-brewery-wondrous-whale/6919590",
         "score": 1.0
       }
     },
