@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-11T17:57:56Z",
+  "generated_at": "2026-10-11T21:47:40Z",
   "pairings": {
     "ambasada::Agent, Olešnice::Moves": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-moves-white-grapes-and-strawberries/4836340",
@@ -4455,6 +4455,16 @@
       "matched_at": "2026-09-25T17:51:41Z",
       "query_used": "Ležák 12° Beskydský Pivovárek",
       "description": "Ležák s jemným brusinkovým tónem v aromatu, sladkovážní základ a mírná chmelová hořkost s lehkým tělem; spodně kvašený a čistý v chuti, s nasládlou brusinkovou notečkou. Podprůměrně hodnocené."
+    },
+    "uzamastilu::Brewnicorn::Pohodale": {
+      "untappd_url": "https://untappd.com/b/brewnicorn-pohodale/7026599",
+      "untappd_name": "Pohodale",
+      "untappd_brewery": "Brewnicorn",
+      "rating": null,
+      "match_score": 1.0,
+      "matched_at": "2026-10-11T21:47:39Z",
+      "query_used": "Pohodale Brewnicorn",
+      "description": "Americká světlá ale s vyváženým sladovým základem a střední chmelovou hořkostí, typicky s citrusovými a květinovými tóny, středně plné tělo a čistý doboj."
     },
     "uzamastilu::Brána::Kotěra": {
       "untappd_url": "https://untappd.com/b/pivovar-brana-kotera-12-deg/6695470",

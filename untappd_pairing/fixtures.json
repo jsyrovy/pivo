@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-11T17:57:56Z",
+  "generated_at": "2026-10-11T21:47:40Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Moves": {
       "beer": {
@@ -17581,6 +17581,40 @@
       ],
       "outcome": {
         "matched": "/b/beskydsky-pivovarek-brusinkovy-lezak/2639023",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Brewnicorn::Pohodale": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Brewnicorn",
+        "name": "Pohodale",
+        "style": "APA",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-10-11T21:47:39Z",
+      "candidates": [
+        {
+          "name": "Pohodale",
+          "brewery": "Brewnicorn",
+          "url": "/b/brewnicorn-pohodale/7026599",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Pohodale 12° Brewnicorn",
+          "hits": []
+        },
+        {
+          "query": "Pohodale Brewnicorn",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/brewnicorn-pohodale/7026599",
         "score": 1.0
       }
     },
