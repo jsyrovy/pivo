@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-12T01:07:39Z",
+  "generated_at": "2026-10-12T21:41:05Z",
   "pairings": {
     "ambasada::Agent, Olešnice::Moves": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-moves-white-grapes-and-strawberries/4836340",
@@ -5265,6 +5265,16 @@
       "matched_at": "2026-09-06T18:58:06Z",
       "query_used": "NZ NEIPA Koru Čestmír",
       "description_failed_at": "2026-09-06T18:58:06Z"
+    },
+    "uzamastilu::Čestmír::Nine": {
+      "untappd_url": "https://untappd.com/b/pivovar-cestmir-ipa-14-nine/6986064",
+      "untappd_name": "IPA 14 Nine",
+      "untappd_brewery": "Pivovar Čestmír",
+      "rating": 3.66,
+      "match_score": 1.0,
+      "matched_at": "2026-10-12T21:41:04Z",
+      "query_used": "Nine 14° Čestmír",
+      "description": "IPA s vyšší stupňovitostí nabízí plnější sladový základ, střední až vyšší hořkost a aroma s tóny citrusů, tropického ovoce a pryskyřice, typické pro americký chmel. Tělo je středně plné až plnější, s vyváženým sladovým pozadím a suchším závěrem."
     },
     "uzamastilu::Čestmír::Vera Smash": {
       "untappd_url": "https://untappd.com/b/pivovar-cestmir-smash-apa-vera/6827149",

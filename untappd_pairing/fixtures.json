@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-12T01:07:39Z",
+  "generated_at": "2026-10-12T21:41:05Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Moves": {
       "beer": {
@@ -21828,6 +21828,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-cestmir-nz-neipa-koru-riwaka-nelson-sauvin-motueka/6857928",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Čestmír::Nine": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Čestmír",
+        "name": "Nine",
+        "style": "IPA",
+        "degree_plato": 14.0
+      },
+      "captured_at": "2026-10-12T21:41:04Z",
+      "candidates": [
+        {
+          "name": "IPA 14 Nine",
+          "brewery": "Pivovar Čestmír",
+          "url": "/b/pivovar-cestmir-ipa-14-nine/6986064",
+          "rating": 3.66
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Nine 14° Čestmír",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-cestmir-ipa-14-nine/6986064",
         "score": 1.0
       }
     },
