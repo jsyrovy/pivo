@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-13T23:41:17Z",
+  "generated_at": "2026-10-14T17:14:14Z",
   "fixtures": {
     "ambasada::Agent, Olešnice::Moves": {
       "beer": {
@@ -233,6 +233,64 @@
       ],
       "outcome": {
         "matched": "/b/beskydsky-pivovarek-single-hop-ipa-idaho/1948451",
+        "score": 1.0
+      }
+    },
+    "ambasada::Beskydský, Ostravice::Beskydská": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Beskydský, Ostravice",
+        "name": "Beskydská",
+        "style": "Pale ale",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-10-14T17:13:59Z",
+      "candidates": [
+        {
+          "name": "Stojácké poupě 12°",
+          "brewery": "Beskydský pivovárek",
+          "url": "/b/beskydsky-pivovarek-stojacke-poupe-12-deg/974518",
+          "rating": 3.53
+        },
+        {
+          "name": "Beskydská 12",
+          "brewery": "Beskydský pivovárek",
+          "url": "/b/beskydsky-pivovarek-beskydska-12/763041",
+          "rating": 3.46
+        },
+        {
+          "name": "Stračena 12°",
+          "brewery": "Beskydský pivovárek",
+          "url": "/b/beskydsky-pivovarek-stracena-12-deg/3090516",
+          "rating": 3.44
+        },
+        {
+          "name": "Beskydský Yellow Leaf 12°",
+          "brewery": "Beskydský pivovárek",
+          "url": "/b/beskydsky-pivovarek-beskydsky-yellow-leaf-12-deg/874043",
+          "rating": 3.12
+        },
+        {
+          "name": "Beskydský Veterán 12°",
+          "brewery": "Pivovar Veterán Čadečka",
+          "url": "/b/pivovar-veteran-cadecka-beskydsky-veteran-12-deg/5288915",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Beskydská 12° Beskydský",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/beskydsky-pivovarek-beskydska-12/763041",
         "score": 1.0
       }
     },
@@ -500,6 +558,36 @@
       ],
       "outcome": {
         "matched": "/b/chroust-mango-mojito/6762622",
+        "score": 1.0
+      }
+    },
+    "ambasada::Clock, Potštejn::Black Currant": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Clock, Potštejn",
+        "name": "Black Currant",
+        "style": "Fruit sour ale",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-10-14T17:13:56Z",
+      "candidates": [
+        {
+          "name": "Blackcurrant Sour Ale",
+          "brewery": "Pivovar Clock",
+          "url": "/b/pivovar-clock-blackcurrant-sour-ale/3397925",
+          "rating": 3.69
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Black Currant 12° Clock",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-clock-blackcurrant-sour-ale/3397925",
         "score": 1.0
       }
     },
@@ -6155,6 +6243,40 @@
         "reason": "no_candidates_above_threshold"
       }
     },
+    "beerstreet::Axiom::Dispachter": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Axiom",
+        "name": "Dispachter",
+        "style": "Ležák světlý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-10-14T17:13:48Z",
+      "candidates": [
+        {
+          "name": "Dispatcher",
+          "brewery": "Axiom Brewery",
+          "url": "/b/axiom-brewery-dispatcher/4811356",
+          "rating": 3.5
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Dispachter 11° Axiom",
+          "hits": []
+        },
+        {
+          "query": "Dispachter Axiom",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/axiom-brewery-dispatcher/4811356",
+        "score": 0.6667
+      }
+    },
     "beerstreet::Axiom::Dispatcher": {
       "beer": {
         "source": "beerstreet",
@@ -6656,6 +6778,40 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-duck-and-dog-sunrise/6259468",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Duck & Dog::Dogness": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Duck & Dog",
+        "name": "Dogness",
+        "style": "Pale ale",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-10-14T17:13:53Z",
+      "candidates": [
+        {
+          "name": "Duck & Dog Dogness",
+          "brewery": "Pivovar Duck&Dog",
+          "url": "/b/pivovar-beerserker-duck-and-dog-dogness/4831125",
+          "rating": 3.76
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Dogness 11° Duck & Dog",
+          "hits": []
+        },
+        {
+          "query": "Dogness Duck & Dog",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-beerserker-duck-and-dog-dogness/4831125",
         "score": 1.0
       }
     },
@@ -21210,6 +21366,36 @@
       "outcome": {
         "matched": "/b/twinberg-brew-berry-more-12-deg/6809079",
         "source": "llm"
+      }
+    },
+    "uzamastilu::Twinberg::Bugr": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Twinberg",
+        "name": "Bugr",
+        "style": "Ležák",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-10-14T17:14:00Z",
+      "candidates": [
+        {
+          "name": "Bugr 12°",
+          "brewery": "Twinberg",
+          "url": "/b/twinberg-bugr-12-deg/4908024",
+          "rating": 3.44
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Bugr 12° Twinberg",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/twinberg-bugr-12-deg/4908024",
+        "score": 1.0
       }
     },
     "uzamastilu::Twinberg::Hoppy Whale 7": {
