@@ -28,6 +28,15 @@ def test_load_returns_empty_when_file_missing(tmp_path):
     assert store.unmatched == {}
 
 
+def test_save_without_changes_keeps_generated_at(tmp_path):
+    path = tmp_path / "pairings.json"
+    store = PairingsStore()
+    store.record_match(_beer(), MatchResult(candidate=_candidate(), score=0.92), "IPA Falkon")
+    store.save(path, now=datetime(2026, 4, 17, 19, 0, tzinfo=UTC))
+    store.save(path, now=datetime(2026, 4, 18, 19, 0, tzinfo=UTC))
+    assert json.loads(path.read_text())["generated_at"] == "2026-04-17T19:00:00Z"
+
+
 def test_save_and_load_roundtrip(tmp_path):
     path = tmp_path / "pairings.json"
     store = PairingsStore()

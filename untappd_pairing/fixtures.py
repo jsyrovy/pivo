@@ -295,7 +295,7 @@ class FixturesStore:
             "generated_at": common.iso_utc(now or common.now_utc()),
             "fixtures": {key: _serialize_record(self.records[key]) for key in sorted(self.records)},
         }
-        common.atomic_write_json(path, payload)
+        common.write_json_if_changed(path, payload)
 
 
 def _candidates_for_attempt(record: FixtureRecord, hits: tuple[int, ...]) -> list[UntappdCandidate]:

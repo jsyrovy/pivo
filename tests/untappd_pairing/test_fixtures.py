@@ -106,6 +106,20 @@ def test_upsert_preserves_annotation_when_re_capturing():
     assert annotation.expected_url == "/b/right/2"
 
 
+def test_reloaded_store_saved_unchanged_keeps_generated_at(tmp_path):
+    path = tmp_path / "fixtures.json"
+    store = FixturesStore()
+    store.upsert(
+        _beer(degree_plato=11),
+        attempts=[("q1", [_candidate()])],
+        outcome=FixtureOutcome(matched_url="/b/wild-tears/1", score=0.9),
+        now=datetime(2026, 5, 22, 12, 0, tzinfo=UTC),
+    )
+    store.save(path, now=datetime(2026, 5, 22, 12, 0, tzinfo=UTC))
+    FixturesStore.load(path).save(path, now=datetime(2026, 5, 23, 12, 0, tzinfo=UTC))
+    assert json.loads(path.read_text())["generated_at"] == "2026-05-22T12:00:00Z"
+
+
 def test_save_and_load_roundtrip_with_annotation(tmp_path):
     path = tmp_path / "fixtures.json"
     store = FixturesStore()

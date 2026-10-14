@@ -109,3 +109,15 @@ def atomic_write_json(path: Path, payload: object) -> None:
     tmp_path = path.with_suffix(path.suffix + ".tmp")
     tmp_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding=ENCODING)
     tmp_path.replace(path)
+
+
+def write_json_if_changed(path: Path, payload: dict[str, Any], *, volatile_key: str = "generated_at") -> bool:
+    # A run that changes nothing must leave the file untouched; otherwise the fresh timestamp alone
+    # makes a commit and redeploys the site. Round-trip through JSON so tuples compare as lists.
+    current = {k: v for k, v in json.loads(json.dumps(payload)).items() if k != volatile_key}
+    previous = {k: v for k, v in load_json_dict(path).items() if k != volatile_key}
+    if path.exists() and current == previous:
+        logger.debug("%s unchanged; not rewriting", path)
+        return False
+    atomic_write_json(path, payload)
+    return True

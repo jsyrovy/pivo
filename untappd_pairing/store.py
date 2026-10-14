@@ -154,4 +154,4 @@ class PairingsStore:
             "pairings": dict(sorted(self.pairings.items())),
             "unmatched": dict(sorted(self.unmatched.items())),
         }
-        common.atomic_write_json(path, payload)
+        common.write_json_if_changed(path, payload)
