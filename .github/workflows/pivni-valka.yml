@@ -6,13 +6,17 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
-# archivist, pivni-valka and untappd-pairing all commit to main; serialise them so pushes never race.
-concurrency:
-  group: commit-to-main
-  cancel-in-progress: false
 jobs:
   pivni-valka:
     runs-on: ubuntu-latest
+    # archivist, pivni-valka and untappd-pairing all commit to main; serialise them so pushes never race.
+    # Job-level, so the Pages deploy below does not hold up the next commit.
+    concurrency:
+      group: commit-to-main
+      cancel-in-progress: false
+    outputs:
+      changed: ${{ steps.save.outputs.changes_detected }}
+      commit: ${{ steps.save.outputs.commit_hash }}
     env:
       TZ: Europe/Prague
     steps:
@@ -28,6 +32,7 @@ jobs:
           PUSHOVER_TOKEN: ${{ secrets.PUSHOVER_TOKEN }}
         run: make run-pivni-valka
       - name: Save
+        id: save
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
           file_pattern: data/data_dump.sql
@@ -35,3 +40,14 @@ jobs:
           commit_user_email: 41898282+github-actions[bot]@users.noreply.github.com
           commit_author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
           commit_message: Update pivni-valka
+  deploy:
+    needs: pivni-valka
+    # Only when the run committed something; manual runs always redeploy, which also keeps this path testable.
+    if: needs.pivni-valka.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/deploy.yml
+    with:
+      ref: ${{ needs.pivni-valka.outputs.commit }}

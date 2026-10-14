@@ -2,9 +2,13 @@ name: Deploy to GitHub Pages
 
 on:
   workflow_dispatch:
-  workflow_run:
-    workflows: ["pivni-valka", "untappd-pairing"]
-    types: [completed]
+  # Called by pivni-valka and untappd-pairing, only when their run committed new data.
+  workflow_call:
+    inputs:
+      ref:
+        description: Commit to deploy. Without it a caller deploys the commit it started from, not the data it just pushed.
+        type: string
+        default: ""
   push:
     paths:
       - "templates/**"
@@ -22,9 +26,10 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     steps:
       - uses: actions/checkout@v7
+        with:
+          ref: ${{ inputs.ref }}
       - uses: astral-sh/setup-uv@v10.3.0
         with:
           enable-cache: true
