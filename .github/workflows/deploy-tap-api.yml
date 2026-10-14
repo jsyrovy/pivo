@@ -9,6 +9,9 @@ on:
       - "workers/tap-api/**"
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
   deploy:
     runs-on: ubuntu-latest

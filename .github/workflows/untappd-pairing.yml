@@ -3,6 +3,12 @@ on:
   schedule:
     - cron: "0 13-22 * * *"
   workflow_dispatch:
+permissions:
+  contents: write
+# archivist, pivni-valka and untappd-pairing all commit to main; serialise them so pushes never race.
+concurrency:
+  group: commit-to-main
+  cancel-in-progress: false
 jobs:
   pairing:
     runs-on: ubuntu-latest
