@@ -12,6 +12,8 @@ jobs:
         uses: astral-sh/setup-uv@v10.3.0
         with:
           enable-cache: true
+          # Per job: jobs install different things, and a shared key keeps whichever saved first.
+          cache-suffix: ${{ github.job }}
       - name: Test with coverage
         run: make coverage
   mypy:
@@ -23,6 +25,7 @@ jobs:
         uses: astral-sh/setup-uv@v10.3.0
         with:
           enable-cache: true
+          cache-suffix: ${{ github.job }}
       - name: Test
         run: make mypy
   lint:
@@ -34,6 +37,7 @@ jobs:
         uses: astral-sh/setup-uv@v10.3.0
         with:
           enable-cache: true
+          cache-suffix: ${{ github.job }}
       - name: Test
         run: make lint
 #  ty:
@@ -56,6 +60,7 @@ jobs:
         uses: astral-sh/setup-uv@v10.3.0
         with:
           enable-cache: true
+          cache-suffix: ${{ github.job }}
       - name: Lint HTML templates
         run: make lint-html
   format:
@@ -67,6 +72,7 @@ jobs:
         uses: astral-sh/setup-uv@v10.3.0
         with:
           enable-cache: true
+          cache-suffix: ${{ github.job }}
       - name: Check formatting
         run: make format-check
   tap-api:
@@ -97,6 +103,7 @@ jobs:
         uses: astral-sh/setup-uv@v10.3.0
         with:
           enable-cache: true
+          cache-suffix: ${{ github.job }}
       - name: Test pivni-valka
         run: |
           rm -rf dist/

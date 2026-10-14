@@ -20,6 +20,8 @@ jobs:
         uses: astral-sh/setup-uv@v10.3.0
         with:
           enable-cache: true
+          # Per job: jobs install different things, and a shared key keeps whichever saved first.
+          cache-suffix: ${{ github.job }}
       - name: Run
         env:
           FEED_KEY: ${{ secrets.FEED_KEY }}
