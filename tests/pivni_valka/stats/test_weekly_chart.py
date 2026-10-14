@@ -1,4 +1,4 @@
-import datetime
+import datetime as dt
 
 from sqlalchemy import text
 
@@ -8,7 +8,7 @@ from pivni_valka.stats.weekly_chart import get_chart_data
 
 
 def test_get_chart_data():
-    today = datetime.date.today().isoformat()
+    today = dt.date.today().isoformat()
 
     with engine.connect() as conn:
         conn.execute(
@@ -20,7 +20,7 @@ def test_get_chart_data():
         conn.commit()
 
     assert get_chart_data() == ChartData(
-        labels=[datetime.date.today().strftime("%Y-%W")],
+        labels=[dt.date.today().strftime("%Y-%W")],
         datasets=[
             ChartDataset(label="Matěj", data=[3], color="#90be6d"),
             ChartDataset(label="Dan", data=[2], color="#43aa8b"),

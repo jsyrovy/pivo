@@ -1,4 +1,4 @@
-import datetime
+import datetime as dt
 import os
 from time import struct_time
 from unittest import mock
@@ -46,7 +46,7 @@ SOURCES = (
 
 
 def test_get_dt():
-    assert get_dt(struct_time((2020, 1, 1, 0, 0, 0, 0, 0, 0))) == datetime.datetime(2020, 1, 1, 0, 0, 0)
+    assert get_dt(struct_time((2020, 1, 1, 0, 0, 0, 0, 0, 0))) == dt.datetime(2020, 1, 1, 0, 0, 0)
 
 
 def test_get_beer():
@@ -95,7 +95,7 @@ def test_create_record_in_db():
     create_record_in_db(
         Archive(
             id=id_,
-            dt_utc=datetime.datetime.now(),
+            dt_utc=dt.datetime.now(),
             user=user,
             beer=beer,
             brewery=brewery,
@@ -137,7 +137,7 @@ def test_run():
         record = session.execute(stmt).scalar_one()
 
     assert record.id == 666
-    assert record.dt_utc == datetime.datetime(2020, 1, 1, 0, 0, 0)
+    assert record.dt_utc == dt.datetime(2020, 1, 1, 0, 0, 0)
     assert record.user == "sejrik"
     assert record.beer == "Beer"
     assert record.brewery == "Brewery"

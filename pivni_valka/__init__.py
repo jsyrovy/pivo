@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-import datetime
+import datetime as dt
 import random
 from html import escape as html_escape
 from pathlib import Path
@@ -93,7 +93,7 @@ class PivniValka(OrmRobot):
         if not unique_beers_count:
             return users_with_new_beers
 
-        yesterday = datetime.date.today() - datetime.timedelta(days=1)
+        yesterday = dt.date.today() - dt.timedelta(days=1)
 
         for user_name in utils.user.USER_NAMES:
             new_beers = unique_beers_count[user_name] - common.get_unique_beers_before(user_name, before=yesterday)

@@ -1,4 +1,4 @@
-import datetime
+import datetime as dt
 
 from sqlalchemy import func, select
 from sqlalchemy.orm import Session
@@ -32,9 +32,9 @@ def test_get_unique_beers():
 
 
 def test_get_unique_beers_before():
-    assert get_unique_beers_before("sejrik", datetime.date.today()) == 11
-    assert get_unique_beers_before("sejrik", datetime.date(2022, 1, 2)) == 0
-    assert get_unique_beers_before("sejrik", datetime.date(2022, 1, 3)) == 1
+    assert get_unique_beers_before("sejrik", dt.date.today()) == 11
+    assert get_unique_beers_before("sejrik", dt.date(2022, 1, 2)) == 0
+    assert get_unique_beers_before("sejrik", dt.date(2022, 1, 3)) == 1
 
 
 def test_save_daily_stats():
@@ -43,7 +43,7 @@ def test_save_daily_stats():
         with Session(engine) as session:
             return session.execute(stmt).scalar_one()
 
-    date = datetime.date.today()
+    date = dt.date.today()
     user_name = "tester"
 
     save_daily_stats(date, user_name, 1)

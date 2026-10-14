@@ -1,4 +1,4 @@
-import datetime  # noqa: TC003
+import datetime as dt  # noqa: TC003
 from dataclasses import dataclass
 
 from sqlalchemy import func, select
@@ -44,13 +44,13 @@ def get_unique_beers(user_name: str, days: int | None = None, formatted: bool = 
     return str(beers)
 
 
-def get_unique_beers_before(user_name: str, before: datetime.date) -> int:
+def get_unique_beers_before(user_name: str, before: dt.date) -> int:
     stmt = select(func.sum(PivniValka.unique_beers)).where(PivniValka.user == user_name, PivniValka.date < before)
     with Session(engine) as session:
         return session.execute(stmt).scalar_one()
 
 
-def save_daily_stats(date: datetime.date, user_name: str, count: int) -> None:
+def save_daily_stats(date: dt.date, user_name: str, count: int) -> None:
     select_stmt = select(PivniValka).where(PivniValka.date == date, PivniValka.user == user_name)
     with Session(engine) as session:
         record = session.execute(select_stmt).scalar_one_or_none()

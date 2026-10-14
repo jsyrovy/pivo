@@ -1,4 +1,4 @@
-import datetime
+import datetime as dt
 import logging
 import os
 import re
@@ -44,8 +44,8 @@ def get_id(url: str) -> int:
     return int(url.rsplit("/", maxsplit=1)[-1])
 
 
-def get_dt(struct: time.struct_time) -> datetime.datetime:
-    return datetime.datetime.fromtimestamp(time.mktime(struct))
+def get_dt(struct: time.struct_time) -> dt.datetime:
+    return dt.datetime.fromtimestamp(time.mktime(struct))
 
 
 def get_regex_group(regex: str, text: str) -> str:

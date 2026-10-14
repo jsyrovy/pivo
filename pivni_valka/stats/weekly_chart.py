@@ -1,4 +1,4 @@
-import datetime
+import datetime as dt
 from collections import OrderedDict
 
 from sqlalchemy import func, select
@@ -11,7 +11,7 @@ from pivni_valka.stats.common import ChartData, ChartDataset
 
 
 def _get_week_stats() -> dict[str, dict[str, int]]:
-    since = datetime.date.today() - datetime.timedelta(weeks=12)
+    since = dt.date.today() - dt.timedelta(weeks=12)
     result: dict[str, dict[str, int]] = {}
     stmt = (
         select(
