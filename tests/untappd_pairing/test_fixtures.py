@@ -106,18 +106,19 @@ def test_upsert_preserves_annotation_when_re_capturing():
     assert annotation.expected_url == "/b/right/2"
 
 
-def test_reloaded_store_saved_unchanged_keeps_generated_at(tmp_path):
+def test_reloaded_store_saved_unchanged_is_byte_identical(tmp_path):
     path = tmp_path / "fixtures.json"
     store = FixturesStore()
     store.upsert(
-        _beer(degree_plato=11),
+        _beer(degree_plato=11.0),
         attempts=[("q1", [_candidate()])],
         outcome=FixtureOutcome(matched_url="/b/wild-tears/1", score=0.9),
         now=datetime(2026, 5, 22, 12, 0, tzinfo=UTC),
     )
-    store.save(path, now=datetime(2026, 5, 22, 12, 0, tzinfo=UTC))
-    FixturesStore.load(path).save(path, now=datetime(2026, 5, 23, 12, 0, tzinfo=UTC))
-    assert json.loads(path.read_text())["generated_at"] == "2026-05-22T12:00:00Z"
+    store.save(path)
+    before = path.read_text()
+    FixturesStore.load(path).save(path)
+    assert path.read_text() == before
 
 
 def test_save_and_load_roundtrip_with_annotation(tmp_path):
@@ -138,11 +139,11 @@ def test_save_and_load_roundtrip_with_annotation(tmp_path):
         expected_url="/b/right/2",
         note="should pick /b/right/2",
     )
-    store.save(path, now=datetime(2026, 5, 22, 12, 0, tzinfo=UTC))
+    store.save(path)
 
     raw = json.loads(path.read_text())
     assert raw["version"] == SCHEMA_VERSION
-    assert raw["generated_at"] == "2026-05-22T12:00:00Z"
+    assert "generated_at" not in raw
     entry = raw["fixtures"][key]
     assert entry["beer"]["degree_plato"] == 11
     assert entry["candidates"][0]["url"] == "/b/wild-tears/1"

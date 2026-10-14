@@ -1,4 +1,3 @@
-import json
 from unittest import mock
 
 from utils.common import (
@@ -10,7 +9,6 @@ from utils.common import (
     is_test,
     post_json,
     random_sleep,
-    write_json_if_changed,
 )
 
 
@@ -70,30 +68,3 @@ def test_get_profile_url():
 
 def test_is_test():
     assert is_test()
-
-
-def test_write_json_if_changed_creates_missing_file(tmp_path):
-    path = tmp_path / "sub" / "data.json"
-    assert write_json_if_changed(path, {"generated_at": "t1", "items": [1]})
-    assert json.loads(path.read_text()) == {"generated_at": "t1", "items": [1]}
-
-
-def test_write_json_if_changed_keeps_file_when_only_stamp_differs(tmp_path):
-    path = tmp_path / "data.json"
-    write_json_if_changed(path, {"generated_at": "t1", "items": (1, 2)})
-    before = path.read_text()
-    assert not write_json_if_changed(path, {"generated_at": "t2", "items": (1, 2)})
-    assert path.read_text() == before
-
-
-def test_write_json_if_changed_rewrites_when_content_differs(tmp_path):
-    path = tmp_path / "data.json"
-    write_json_if_changed(path, {"generated_at": "t1", "items": [1]})
-    assert write_json_if_changed(path, {"generated_at": "t2", "items": [2]})
-    assert json.loads(path.read_text()) == {"generated_at": "t2", "items": [2]}
-
-
-def test_write_json_if_changed_creates_file_even_when_payload_is_only_the_stamp(tmp_path):
-    path = tmp_path / "data.json"
-    assert write_json_if_changed(path, {"generated_at": "t1"})
-    assert path.exists()

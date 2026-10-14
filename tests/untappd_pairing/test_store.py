@@ -28,13 +28,14 @@ def test_load_returns_empty_when_file_missing(tmp_path):
     assert store.unmatched == {}
 
 
-def test_save_without_changes_keeps_generated_at(tmp_path):
+def test_reloaded_store_saved_unchanged_is_byte_identical(tmp_path):
     path = tmp_path / "pairings.json"
     store = PairingsStore()
     store.record_match(_beer(), MatchResult(candidate=_candidate(), score=0.92), "IPA Falkon")
-    store.save(path, now=datetime(2026, 4, 17, 19, 0, tzinfo=UTC))
-    store.save(path, now=datetime(2026, 4, 18, 19, 0, tzinfo=UTC))
-    assert json.loads(path.read_text())["generated_at"] == "2026-04-17T19:00:00Z"
+    store.save(path)
+    before = path.read_text()
+    PairingsStore.load(path).save(path)
+    assert path.read_text() == before
 
 
 def test_save_and_load_roundtrip(tmp_path):
@@ -42,11 +43,11 @@ def test_save_and_load_roundtrip(tmp_path):
     store = PairingsStore()
     now = datetime(2026, 4, 17, 19, 0, tzinfo=UTC)
     store.record_match(_beer(), MatchResult(candidate=_candidate(), score=0.92), "IPA Falkon", now=now)
-    store.save(path, now=now)
+    store.save(path)
 
     raw = json.loads(path.read_text())
     assert raw["version"] == SCHEMA_VERSION
-    assert raw["generated_at"] == "2026-04-17T19:00:00Z"
+    assert "generated_at" not in raw
     assert "beerstreet::Falkon::IPA" in raw["pairings"]
     assert raw["pairings"]["beerstreet::Falkon::IPA"]["query_used"] == "IPA Falkon"
 
@@ -161,7 +162,7 @@ def test_save_sorts_keys_for_stable_diffs(tmp_path):
     now = datetime(2026, 4, 17, 19, 0, tzinfo=UTC)
     store.record_match(_beer(name="Zeta"), MatchResult(candidate=_candidate(), score=0.9), "q1", now=now)
     store.record_match(_beer(name="Alpha"), MatchResult(candidate=_candidate(), score=0.9), "q2", now=now)
-    store.save(path, now=now)
+    store.save(path)
 
     keys = list(json.loads(path.read_text())["pairings"].keys())
     assert keys == sorted(keys)

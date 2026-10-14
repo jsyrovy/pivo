@@ -175,6 +175,3 @@ the captured candidate pool. An LLM match is recorded in `pairings.json` with `q
 
 - **The `fixtures_store.save` happens even in `--local` mode.** Don't rely on `--local` to avoid touching
   `fixtures.json`.
-
-- **`generated_at` updates on every save** — that's expected noise in diffs.
-

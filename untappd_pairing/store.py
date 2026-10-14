@@ -147,11 +147,12 @@ class PairingsStore:
             "reason": reason,
         }
 
-    def save(self, path: Path, now: datetime | None = None) -> None:
+    def save(self, path: Path) -> None:
+        # No timestamp: sorted, timestamp-free output means a run that changes nothing leaves the file
+        # byte-identical, so git sees no change and nothing gets committed or redeployed.
         payload = {
             "version": SCHEMA_VERSION,
-            "generated_at": common.iso_utc(now or common.now_utc()),
             "pairings": dict(sorted(self.pairings.items())),
             "unmatched": dict(sorted(self.unmatched.items())),
         }
-        common.write_json_if_changed(path, payload)
+        common.atomic_write_json(path, payload)
