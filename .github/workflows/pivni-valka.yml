@@ -1,7 +1,8 @@
 name: pivni-valka
 on:
   schedule:
-    - cron: "0 4 * * *"
+    # Off the top of the hour: that is when GitHub delays and drops scheduled runs the most.
+    - cron: "23 4 * * *"
   workflow_dispatch:
 permissions:
   contents: write

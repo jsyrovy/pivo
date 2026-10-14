@@ -1,7 +1,8 @@
 name: archivist
 on:
   schedule:
-    - cron: "0 3 * * *"
+    # Off the top of the hour: that is when GitHub delays and drops scheduled runs the most.
+    - cron: "41 3 * * *"
   workflow_dispatch:
 permissions:
   contents: write

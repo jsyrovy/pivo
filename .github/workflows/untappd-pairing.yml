@@ -1,7 +1,8 @@
 name: untappd-pairing
 on:
   schedule:
-    - cron: "0 13-22 * * *"
+    # Off the top of the hour: that is when GitHub delays and drops scheduled runs the most.
+    - cron: "17 13-22 * * *"
   workflow_dispatch:
 permissions:
   contents: write
