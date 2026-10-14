@@ -678,6 +678,16 @@
       "matched_at": "2026-05-29T20:32:56Z",
       "query_used": "Artbeer #8 Maisel & Friends"
     },
+    "ambasada::Maisel & Friends, Bayreuth, Bavorsko::Hopfenreiter #11": {
+      "untappd_url": "https://untappd.com/b/brauerei-gebr-maisel-hopfenreiter-11-2026-double-ipa/6816255",
+      "untappd_name": "Hopfenreiter #11 2026 - Double IPA",
+      "untappd_brewery": "Brauerei Gebr. Maisel",
+      "rating": 3.84,
+      "match_score": 1.0,
+      "matched_at": "2026-10-14T21:42:03Z",
+      "query_used": "<llm>",
+      "description": "Silně chmelená Double IPA s vysokou stupňovitostí a alkoholem nabízí intenzivní hořkost, plné tělo a výrazné aroma po citrusích, tropickém ovoci a pryskyřici díky použití výrazných amerických chmelů. Vyšší extrakt a alkohol přinášejí sladový základ s lehkou karamelovou hloubkou, který vyvažuje chmelovou agresivitu. Ho…"
+    },
     "ambasada::Maisel & Friends, Bayreuth::Fusion IPA": {
       "untappd_url": "https://untappd.com/b/brauerei-gebr-maisel-maisel-friends-fusion-ipa-lervig/6590478",
       "untappd_name": "Maisel & Friends Fusion IPA - Lervig",

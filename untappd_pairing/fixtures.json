@@ -2445,6 +2445,48 @@
         "note": "Same as the Urban IPA case: the correct candidate is present but Untappd lists the brewery as 'Brauerei Gebr. Maisel' while the source brand is 'Maisel & Friends', so brewery_matches fails and the matcher returns no match. Resolved via overrides.json."
       }
     },
+    "ambasada::Maisel & Friends, Bayreuth, Bavorsko::Hopfenreiter #11": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Maisel & Friends, Bayreuth, Bavorsko",
+        "name": "Hopfenreiter #11",
+        "style": "Double IPA",
+        "degree_plato": 19.0
+      },
+      "captured_at": "2026-10-14T21:42:03Z",
+      "candidates": [
+        {
+          "name": "Hopfenreiter #11 2026 - Double IPA",
+          "brewery": "Brauerei Gebr. Maisel",
+          "url": "/b/brauerei-gebr-maisel-hopfenreiter-11-2026-double-ipa/6816255",
+          "rating": 3.84
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Hopfenreiter #11 19° Maisel & Friends",
+          "hits": []
+        },
+        {
+          "query": "Hopfenreiter #11 Maisel & Friends",
+          "hits": []
+        },
+        {
+          "query": "Hopfenreiter #11 19°",
+          "hits": []
+        },
+        {
+          "query": "Hopfenreiter #11",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/brauerei-gebr-maisel-hopfenreiter-11-2026-double-ipa/6816255",
+        "source": "llm"
+      }
+    },
     "ambasada::Malešov::American Pale Ale": {
       "beer": {
         "source": "ambasada",
