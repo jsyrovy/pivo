@@ -127,7 +127,6 @@ def complete(messages: list[ChatMessage], *, max_tokens: int, allow_reasoning: b
                 logger.warning("LLM model %s unavailable (%s); skipping it for the rest of the run", model, exc)
             except (*SDK_ERRORS, KeyError, IndexError) as exc:
                 logger.warning("LLM model %s failed (%s: %s); trying next", model, type(exc).__name__, exc)
-                continue
 
     logger.warning("All LLM models failed")
     return None
