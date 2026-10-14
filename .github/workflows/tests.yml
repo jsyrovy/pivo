@@ -67,10 +67,8 @@ jobs:
         uses: astral-sh/setup-uv@v10.3.0
         with:
           enable-cache: true
-      - name: Check Python formatting
-        run: uvx ruff format --check
-      - name: Check HTML formatting
-        run: uvx djlint templates/ --check
+      - name: Check formatting
+        run: make format-check
   tap-api:
     runs-on: ubuntu-latest
     steps:

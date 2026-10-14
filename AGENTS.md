@@ -20,6 +20,7 @@ Package manager: **uv** (Astral). No virtual environment activation needed -- us
 | `make lint-fix`          | Auto-fix lint issues (`uvx ruff check --fix`) |
 | `make format`            | Format Python code (`uvx ruff format`)         |
 | `make format-html`       | Format HTML templates (`uvx djlint --reformat`)|
+| `make format-check`      | Check Python + HTML formatting without changing files (CI) |
 | `make lint-html`         | Lint HTML templates (`uvx djlint --lint`)      |
 | `make mypy`              | Type-check (strict on src, relaxed on tests)  |
 | `make ty`                | Experimental type-check (`uvx ty check`)      |
@@ -119,7 +120,8 @@ All checks must pass before merging.
 
 - **Ruff** with `lint.select = ["ALL"]` -- nearly every rule is enabled
 - **djLint** for HTML/Jinja2 templates (`profile = "jinja"`, config in `pyproject.toml`)
-- **ruff**, **djLint** and **ty** are run via `uvx` (not installed as dev dependencies)
+- **ruff**, **djLint** and **ty** are run via `uvx` (not installed as dev dependencies), pinned to exact
+  versions by the `RUFF` / `DJLINT` / `TY` variables in the `Makefile` -- bump them there deliberately
 - **Line length:** 120 characters
 - **Target version:** py314
 - Run `before-commit` before committing -- **do not commit if it fails**

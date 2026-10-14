@@ -2,6 +2,11 @@
 # In CI `.env` is absent, so this is empty and values come from the environment.
 ENV_FILE := $(if $(wildcard .env),--env-file .env,)
 
+# Pinned so a new release cannot turn CI red on untouched code; bump deliberately.
+RUFF := uvx ruff@0.17.0
+DJLINT := uvx djlint@1.46.4
+TY := uvx ty@0.0.87
+
 .DEFAULT:
 	help
 
@@ -59,7 +64,11 @@ remove-pivni-valka-stats-duplicates:
 	echo "$$(uniq pivni_valka/stats.csv)" > pivni_valka/stats.csv
 
 format:
-	uvx ruff format
+	$(RUFF) format
+
+format-check:
+	$(RUFF) format --check
+	$(DJLINT) templates/ --check
 
 test:
 	uv run --dev -m pytest
@@ -93,16 +102,16 @@ ipython:
 	uv run --dev python -c "import IPython;IPython.terminal.ipapp.launch_new_instance();"
 
 lint:
-	uvx ruff check
+	$(RUFF) check
 
 lint-fix:
-	uvx ruff check --fix
+	$(RUFF) check --fix
 
 lint-html:
-	uvx djlint templates/ --lint
+	$(DJLINT) templates/ --lint
 
 format-html:
-	uvx djlint templates/ --reformat
+	$(DJLINT) templates/ --reformat
 
 ty:
-	uvx ty check
+	$(TY) check
