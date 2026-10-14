@@ -29,12 +29,10 @@ ChatMessage = (
     | ChatAssistantMessageTypedDict
 )
 
-# Ordered by measured quality+availability (see PLAN.md "Empirické ověření"). The first two
-# are confirmed 3/3 and fastest; the rest are fallbacks for when the leading models are
-# rate-limited. OPENROUTER_MODEL (comma-separated) overrides this list entirely.
+# Ordered by measured quality+availability (see PLAN.md "Empirické ověření"). The first one
+# is confirmed 3/3; the rest are fallbacks for when it is rate-limited. OPENROUTER_MODEL
+# (comma-separated) overrides this list entirely.
 DEFAULT_MODELS: tuple[str, ...] = (
-    "nvidia/nemotron-3-nano-30b-a3b:free",
-    "moonshotai/kimi-k2.6:free",
     "nvidia/nemotron-3-super-120b-a12b:free",
     "openrouter/free",
     "z-ai/glm-4.5-air:free",
@@ -49,6 +47,10 @@ RETRY_ERRORS = (errors.TooManyRequestsResponseError, errors.ServiceUnavailableRe
 SDK_ERRORS = (errors.OpenRouterError, errors.NoResponseError)
 MAX_RETRIES = 3
 RETRY_BACKOFF_S = 4.0
+
+# Free variants get withdrawn without notice and then answer 404 for good. Remember them so one
+# run asks once instead of once per beer.
+_unavailable_models: set[str] = set()
 
 
 def models() -> tuple[str, ...]:
@@ -116,8 +118,13 @@ def complete(messages: list[ChatMessage], *, max_tokens: int, allow_reasoning: b
 
     with OpenRouter(api_key=api_key, timeout_ms=int(REQUEST_TIMEOUT_S * 1000)) as client:
         for model in models():
+            if model in _unavailable_models:
+                continue
             try:
                 return _call_model(client, model, messages, max_tokens=max_tokens, allow_reasoning=allow_reasoning)
+            except errors.NotFoundResponseError as exc:
+                _unavailable_models.add(model)
+                logger.warning("LLM model %s unavailable (%s); skipping it for the rest of the run", model, exc)
             except (*SDK_ERRORS, KeyError, IndexError) as exc:
                 logger.warning("LLM model %s failed (%s: %s); trying next", model, type(exc).__name__, exc)
                 continue

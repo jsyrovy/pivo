@@ -10,6 +10,7 @@ from untappd_pairing import openrouter_client
 def _api_key(monkeypatch):
     monkeypatch.setenv("OPENROUTER_API_KEY", "test-key")
     monkeypatch.delenv("OPENROUTER_MODEL", raising=False)
+    monkeypatch.setattr(openrouter_client, "_unavailable_models", set())
 
 
 def _response(content=None, reasoning=None):
@@ -36,6 +37,12 @@ class _FakeRateLimit(openrouter_client.errors.TooManyRequestsResponseError):
         Exception.__init__(self, "rate limited")
         # The SDK's base error renders `str(exc)` from `.message`, which our bypassed __init__ skips.
         self.message = "rate limited"
+
+
+class _FakeNotFound(openrouter_client.errors.NotFoundResponseError):
+    def __init__(self) -> None:
+        Exception.__init__(self, "unavailable for free")
+        self.message = "unavailable for free"
 
 
 _MESSAGES = [{"role": "user", "content": "hi"}]
@@ -178,3 +185,27 @@ def test_permanent_error_is_not_retried(monkeypatch):
     assert result is None
     assert client.chat.send.call_count == 1
     sleep_mock.assert_not_called()
+
+
+def test_not_found_model_is_skipped_on_later_calls(monkeypatch, caplog):
+    monkeypatch.setenv("OPENROUTER_MODEL", "gone-model,live-model")
+    patch_cm, client = _patch_openrouter(
+        _FakeNotFound(),
+        _response(content="first"),
+        _response(content="second"),
+    )
+    with patch_cm, mock.patch.object(openrouter_client.time, "sleep") as sleep_mock, caplog.at_level(logging.WARNING):
+        assert openrouter_client.complete(_MESSAGES, max_tokens=100) == "first"
+        assert openrouter_client.complete(_MESSAGES, max_tokens=100) == "second"
+    assert [c.kwargs["model"] for c in client.chat.send.call_args_list] == ["gone-model", "live-model", "live-model"]
+    sleep_mock.assert_not_called()
+    assert caplog.text.count("gone-model unavailable") == 1
+
+
+def test_all_models_not_found_returns_none_without_calling_again(monkeypatch):
+    monkeypatch.setenv("OPENROUTER_MODEL", "only-model")
+    patch_cm, client = _patch_openrouter(_FakeNotFound())
+    with patch_cm:
+        assert openrouter_client.complete(_MESSAGES, max_tokens=100) is None
+        assert openrouter_client.complete(_MESSAGES, max_tokens=100) is None
+    assert client.chat.send.call_count == 1
