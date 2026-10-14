@@ -2109,6 +2109,8 @@ INSERT INTO "archive" VALUES(1604831373,'2026-09-28 16:43:52.000000','sejrik','M
 INSERT INTO "archive" VALUES(1605105168,'2026-09-30 17:48:34.000000','sejrik','14 Years of NeoTradition 12°','Pivovar ZICHOVEC','Untappd at Home');
 INSERT INTO "archive" VALUES(1605125213,'2026-09-30 19:16:21.000000','sejrik','Red Baron','Pivovar Clock',NULL);
 INSERT INTO "archive" VALUES(1606514444,'2026-10-06 12:30:13.000000','sejrik','Birell Řezaný','Plzeňský Prazdroj','Untappd at Home');
+INSERT INTO "archive" VALUES(1608331699,'2026-10-14 17:14:06.000000','sejrik','Tiki','Pivovar Stern','Beer Street');
+INSERT INTO "archive" VALUES(1608343059,'2026-10-14 18:04:27.000000','sejrik','Funky – Forest Fruit','Pivovar Stern','Beer Street');
 CREATE TABLE [pivni_valka] (
 	[id] integer PRIMARY KEY,
 	[date] text,
