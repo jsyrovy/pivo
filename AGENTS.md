@@ -161,6 +161,7 @@ All checks must pass before merging.
 - Use the `logging` module for all diagnostic output -- never `print` (enforced by ruff `T201`)
 - Each module gets its own logger: `logger = logging.getLogger(__name__)`
 - Logging is configured centrally via `configure_logging()` from `utils/logging.py`
+- SQLAlchemy statement logging is off by default; set `LOG_SQL=1` to see every query
 - Entry point scripts (`run_*.py`) call `configure_logging()` **before** importing robot
   classes (because `database/orm.py` executes at import time)
 - Log level mapping:
