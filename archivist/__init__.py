@@ -2,8 +2,8 @@ import datetime as dt
 import logging
 import os
 import re
-import time
-from typing import Optional
+from http import HTTPStatus
+from typing import TYPE_CHECKING, Optional
 
 import feedparser
 from sqlalchemy import select
@@ -13,6 +13,9 @@ from database.models import Archive
 from database.orm import engine
 from robot.orm import OrmRobot
 
+if TYPE_CHECKING:
+    import time
+
 logger = logging.getLogger(__name__)
 
 
@@ -21,6 +24,7 @@ class Archivist(OrmRobot):
         user = "sejrik"
         key = os.environ["FEED_KEY"]
         feed = feedparser.parse(f"https://untappd.com/rss/user/{user}?key={key}")
+        check_feed(feed)
 
         records = [
             Archive(
@@ -34,10 +38,28 @@ class Archivist(OrmRobot):
             for entry in feed.entries
         ]
 
-        for record in records:
-            if not is_record_in_db(record.id):
-                logger.info("Saved to DB: %s", record)
-                create_record_in_db(record)
+        existing = get_existing_ids([record.id for record in records])
+        new_records = [record for record in records if record.id not in existing]
+        for record in new_records:
+            logger.info("Saved to DB: %s", record)
+        create_records_in_db(new_records)
+        logger.info("Feed has %d check-ins, %d new", len(records), len(new_records))
+
+
+class FeedError(Exception):
+    pass
+
+
+def check_feed(feed: feedparser.FeedParserDict) -> None:
+    # feedparser never raises: a dead key or a network error just yields an empty feed, which would
+    # pass for "no new check-ins" forever. Redirects (3xx) are fine, feedparser reports their code.
+    status = feed.get("status")
+    if status is None or status >= HTTPStatus.BAD_REQUEST:
+        msg = f"Untappd feed failed (HTTP {status}): {feed.get('bozo_exception')}"
+        raise FeedError(msg)
+    if feed.get("bozo") and not feed.entries:
+        msg = f"Untappd feed is malformed: {feed.get('bozo_exception')}"
+        raise FeedError(msg)
 
 
 def get_id(url: str) -> int:
@@ -45,7 +67,8 @@ def get_id(url: str) -> int:
 
 
 def get_dt(struct: time.struct_time) -> dt.datetime:
-    return dt.datetime.fromtimestamp(time.mktime(struct))
+    # The feed's struct is UTC; mktime would read it as local time and skew it by the machine's offset.
+    return dt.datetime(*struct[:6])
 
 
 def get_regex_group(regex: str, text: str) -> str:
@@ -83,13 +106,13 @@ def get_venue(text: str) -> str | None:
     return get_optional_regex_group(r" at (.*)", text)
 
 
-def is_record_in_db(id_: int) -> bool:
-    stmt = select(Archive.id).where(Archive.id == id_)
+def get_existing_ids(ids: list[int]) -> set[int]:
+    stmt = select(Archive.id).where(Archive.id.in_(ids))
     with Session(engine) as session:
-        return bool(session.execute(stmt).first())
+        return set(session.execute(stmt).scalars())
 
 
-def create_record_in_db(record: Archive) -> None:
+def create_records_in_db(records: list[Archive]) -> None:
     with Session(engine) as session:
-        session.add(record)
+        session.add_all(records)
         session.commit()

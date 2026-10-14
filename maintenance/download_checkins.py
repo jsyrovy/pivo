@@ -4,7 +4,7 @@ from random import shuffle
 
 from bs4 import BeautifulSoup
 
-from archivist import create_record_in_db, is_record_in_db
+from archivist import create_records_in_db, get_existing_ids
 from database.models import Archive
 from robot.base import BaseRobot
 from utils import common
@@ -749,13 +749,14 @@ class DownloadCheckins(BaseRobot):
 
     def _main(self) -> None:
         shuffle(CHECK_IN_IDS)
+        existing = get_existing_ids(CHECK_IN_IDS)
 
         for id_ in CHECK_IN_IDS:
             if self.processed == BATCH:
                 logger.info("Batch was processed.")
                 return
 
-            if is_record_in_db(id_):
+            if id_ in existing:
                 logger.info("Check-in %s is already in DB.", id_)
                 continue
 
@@ -775,7 +776,7 @@ class DownloadCheckins(BaseRobot):
             self.errors += 1
             return
 
-        create_record_in_db(record)
+        create_records_in_db([record])
         logger.info("Check-in %s saved to DB.", id_)
         self.processed += 1
 
