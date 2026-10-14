@@ -9,11 +9,7 @@ jobs:
       - name: Check out
         uses: actions/checkout@v7
       - name: Install uv
-        uses: astral-sh/setup-uv@v10.3.0
-        with:
-          enable-cache: true
-          # Per job: jobs install different things, and a shared key keeps whichever saved first.
-          cache-suffix: ${{ github.job }}
+        uses: ./.github/actions/setup-uv
       - name: Test with coverage
         run: make coverage
   mypy:
@@ -22,10 +18,7 @@ jobs:
       - name: Check out
         uses: actions/checkout@v7
       - name: Install uv
-        uses: astral-sh/setup-uv@v10.3.0
-        with:
-          enable-cache: true
-          cache-suffix: ${{ github.job }}
+        uses: ./.github/actions/setup-uv
       - name: Test
         run: make mypy
   lint:
@@ -34,10 +27,7 @@ jobs:
       - name: Check out
         uses: actions/checkout@v7
       - name: Install uv
-        uses: astral-sh/setup-uv@v10.3.0
-        with:
-          enable-cache: true
-          cache-suffix: ${{ github.job }}
+        uses: ./.github/actions/setup-uv
       - name: Test
         run: make lint
 #  ty:
@@ -46,9 +36,7 @@ jobs:
 #      - name: Check out
 #        uses: actions/checkout@v7
 #      - name: Install uv
-#        uses: astral-sh/setup-uv@v10.3.0
-#        with:
-#          enable-cache: true
+#        uses: ./.github/actions/setup-uv
 #      - name: Test
 #        run: make ty
   lint-html:
@@ -57,10 +45,7 @@ jobs:
       - name: Check out
         uses: actions/checkout@v7
       - name: Install uv
-        uses: astral-sh/setup-uv@v10.3.0
-        with:
-          enable-cache: true
-          cache-suffix: ${{ github.job }}
+        uses: ./.github/actions/setup-uv
       - name: Lint HTML templates
         run: make lint-html
   format:
@@ -69,10 +54,7 @@ jobs:
       - name: Check out
         uses: actions/checkout@v7
       - name: Install uv
-        uses: astral-sh/setup-uv@v10.3.0
-        with:
-          enable-cache: true
-          cache-suffix: ${{ github.job }}
+        uses: ./.github/actions/setup-uv
       - name: Check formatting
         run: make format-check
   tap-api:
@@ -100,10 +82,7 @@ jobs:
       - name: Check out
         uses: actions/checkout@v7
       - name: Install uv
-        uses: astral-sh/setup-uv@v10.3.0
-        with:
-          enable-cache: true
-          cache-suffix: ${{ github.job }}
+        uses: ./.github/actions/setup-uv
       - name: Test pivni-valka
         run: |
           rm -rf dist/

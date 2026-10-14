@@ -17,11 +17,7 @@ jobs:
       - name: Check out
         uses: actions/checkout@v7
       - name: Install uv
-        uses: astral-sh/setup-uv@v10.3.0
-        with:
-          enable-cache: true
-          # Per job: jobs install different things, and a shared key keeps whichever saved first.
-          cache-suffix: ${{ github.job }}
+        uses: ./.github/actions/setup-uv
       - name: Run
         env:
           FEED_KEY: ${{ secrets.FEED_KEY }}
