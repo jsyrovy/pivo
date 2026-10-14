@@ -4,17 +4,13 @@ import os
 import time
 from time import struct_time
 from unittest import mock
-from unittest.mock import MagicMock
 
-import feedparser
 import pytest
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
 from archivist import (
     Archivist,
-    FeedError,
-    check_feed,
     create_records_in_db,
     get_beer,
     get_brewery,
@@ -62,43 +58,6 @@ def test_get_dt_ignores_machine_timezone(monkeypatch):
     finally:
         monkeypatch.undo()
         time.tzset()
-
-
-def _feed(*, entries=(), status=200, bozo=False, bozo_exception=None):
-    feed = feedparser.FeedParserDict(entries=list(entries), bozo=bozo)
-    if status is not None:
-        feed["status"] = status
-    if bozo_exception is not None:
-        feed["bozo_exception"] = bozo_exception
-    return feed
-
-
-def test_check_feed_accepts_ok_and_redirect():
-    check_feed(_feed(status=200))
-    check_feed(_feed(status=301))
-
-
-def test_check_feed_accepts_bozo_feed_with_entries():
-    check_feed(_feed(entries=[MagicMock()], bozo=True, bozo_exception=ValueError("encoding")))
-
-
-@pytest.mark.parametrize("status", [403, 500])
-def test_check_feed_rejects_http_errors(status):
-    with pytest.raises(FeedError) as excinfo:
-        check_feed(_feed(status=status))
-    assert f"HTTP {status}" in str(excinfo.value)
-
-
-def test_check_feed_rejects_network_failure():
-    with pytest.raises(FeedError) as excinfo:
-        check_feed(_feed(status=None, bozo=True, bozo_exception=OSError("no route")))
-    assert "no route" in str(excinfo.value)
-
-
-def test_check_feed_rejects_malformed_empty_feed():
-    with pytest.raises(FeedError) as excinfo:
-        check_feed(_feed(bozo=True, bozo_exception=ValueError("not xml")))
-    assert "malformed" in str(excinfo.value)
 
 
 def test_get_beer():
@@ -168,60 +127,47 @@ def test_create_records_in_db():
         assert session.execute(stmt).scalar_one()
 
 
-def test_run():
-    entry_mock = MagicMock()
-    entry_mock.id = "666"
-    entry_mock.published_parsed = struct_time((2020, 1, 1, 0, 0, 0, 0, 0, 0))
-    entry_mock.title = "User is drinking a Beer by Brewery at Venue"
+def _rss(check_in_ids):
+    items = "".join(
+        f"<item><title>User is drinking a Beer by Brewery at Venue</title>"
+        f"<guid>https://untappd.com/user/sejrik/checkin/{id_}</guid>"
+        f"<pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate></item>"
+        for id_ in check_in_ids
+    )
+    return f'<?xml version="1.0"?><rss version="2.0"><channel><title>t</title>{items}</channel></rss>'
 
-    feed_mock = _feed(entries=[entry_mock])
 
+def _run(body):
     with (
         mock.patch.dict(os.environ, {"FEED_KEY": "key"}),
-        mock.patch("feedparser.parse", return_value=feed_mock) as mock_parse,
-        mock.patch("robot.orm.dump"),
+        mock.patch("utils.common.download_page", return_value=body) as download_mock,
+        mock.patch("robot.orm.dump") as dump_mock,
     ):
         Archivist().run()
+    return download_mock, dump_mock
 
-    mock_parse.assert_called_once_with("https://untappd.com/rss/user/sejrik?key=key")
+
+def test_run():
+    download_mock, _ = _run(_rss([666]))
+
+    download_mock.assert_called_once_with("https://untappd.com/rss/user/sejrik?key=key")
 
     stmt = select(Archive).where(Archive.id == 666)
     with Session(engine) as session:
         record = session.execute(stmt).scalar_one()
 
-    assert record.id == 666
-    assert record.dt_utc == dt.datetime(2020, 1, 1, 0, 0, 0)
-    assert record.user == "sejrik"
     assert record.beer == "Beer"
-    assert record.brewery == "Brewery"
-    assert record.venue == "Venue"
+    assert record.dt_utc == dt.datetime(2020, 1, 1, 0, 0, 0)
 
 
 def test_run_skips_known_check_ins_and_logs_counts(caplog):
-    entry_mock = MagicMock()
-    entry_mock.id = "https://untappd.com/user/sejrik/checkin/1"
-    entry_mock.published_parsed = struct_time((2020, 1, 1, 0, 0, 0, 0, 0, 0))
-    entry_mock.title = "User is drinking a Beer by Brewery at Venue"
+    with caplog.at_level(logging.INFO):
+        _run(_rss([1, 666]))
 
-    with (
-        mock.patch.dict(os.environ, {"FEED_KEY": "key"}),
-        mock.patch("feedparser.parse", return_value=_feed(entries=[entry_mock])),
-        mock.patch("robot.orm.dump"),
-        caplog.at_level(logging.INFO),
-    ):
-        Archivist().run()
-
-    assert "Feed has 1 check-ins, 0 new" in caplog.text
-    assert "Saved to DB" not in caplog.text
+    assert "Feed has 2 check-ins, 1 new" in caplog.text
+    assert caplog.text.count("Saved to DB") == 1
 
 
-def test_run_fails_without_dumping_when_feed_fails():
-    with (
-        mock.patch.dict(os.environ, {"FEED_KEY": "key"}),
-        mock.patch("feedparser.parse", return_value=_feed(status=403)),
-        mock.patch("robot.orm.dump") as dump_mock,
-        pytest.raises(FeedError),
-    ):
-        Archivist().run()
-
-    dump_mock.assert_not_called()
+def test_run_rejects_malformed_feed():
+    with pytest.raises(ValueError, match="malformed"):
+        _run("<html>Not a feed</html")

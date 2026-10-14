@@ -2,7 +2,6 @@ import datetime as dt
 import logging
 import os
 import re
-from http import HTTPStatus
 from typing import TYPE_CHECKING, Optional
 
 import feedparser
@@ -12,6 +11,7 @@ from sqlalchemy.orm import Session
 from database.models import Archive
 from database.orm import engine
 from robot.orm import OrmRobot
+from utils import common
 
 if TYPE_CHECKING:
     import time
@@ -23,8 +23,12 @@ class Archivist(OrmRobot):
     def _main(self) -> None:
         user = "sejrik"
         key = os.environ["FEED_KEY"]
-        feed = feedparser.parse(f"https://untappd.com/rss/user/{user}?key={key}")
-        check_feed(feed)
+        # Fetch with httpx rather than letting feedparser do it: feedparser never raises, so a dead key
+        # or an outage would look like a day without check-ins.
+        feed = feedparser.parse(common.download_page(f"https://untappd.com/rss/user/{user}?key={key}"))
+        if feed.bozo and not feed.entries:
+            msg = f"Untappd feed is malformed: {feed.get('bozo_exception')}"
+            raise ValueError(msg)
 
         records = [
             Archive(
@@ -44,22 +48,6 @@ class Archivist(OrmRobot):
             logger.info("Saved to DB: %s", record)
         create_records_in_db(new_records)
         logger.info("Feed has %d check-ins, %d new", len(records), len(new_records))
-
-
-class FeedError(Exception):
-    pass
-
-
-def check_feed(feed: feedparser.FeedParserDict) -> None:
-    # feedparser never raises: a dead key or a network error just yields an empty feed, which would
-    # pass for "no new check-ins" forever. Redirects (3xx) are fine, feedparser reports their code.
-    status = feed.get("status")
-    if status is None or status >= HTTPStatus.BAD_REQUEST:
-        msg = f"Untappd feed failed (HTTP {status}): {feed.get('bozo_exception')}"
-        raise FeedError(msg)
-    if feed.get("bozo") and not feed.entries:
-        msg = f"Untappd feed is malformed: {feed.get('bozo_exception')}"
-        raise FeedError(msg)
 
 
 def get_id(url: str) -> int:
