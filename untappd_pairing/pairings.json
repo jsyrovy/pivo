@@ -3003,6 +3003,16 @@
       "query_used": "Sky Apa Raven",
       "description": "Klasická americká pale ale se střední chmelovou hořkostí, citrusovým a lehce pryskyřičným aroma, sladovým podkladem a středně plným tělem. Spodně kvašený charakter není typický, spíše vyvážené svrchně kvašené pivo s čistým dozvukem."
     },
+    "beerstreet::Rotor::Dvouplošník": {
+      "untappd_url": "https://untappd.com/b/pivovar-rotor-dvouplosnik-11/4155103",
+      "untappd_name": "Dvouplošník 11",
+      "untappd_brewery": "Pivovar Rotor",
+      "rating": 3.36,
+      "match_score": 1.0,
+      "matched_at": "2026-10-15T17:46:54Z",
+      "query_used": "Dvouplošník 11° Rotor",
+      "description": "Klasický světlý ležák: sladový základ, jemná chmelová hořkost a lehčí tělo, spodně kvašený a čistý v chuti."
+    },
     "beerstreet::Sibeeria::Modus": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-modus/6659994",
       "untappd_name": "Modus",

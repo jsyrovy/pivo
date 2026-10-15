@@ -11459,6 +11459,36 @@
         "score": 1.0
       }
     },
+    "beerstreet::Rotor::Dvouplošník": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Rotor",
+        "name": "Dvouplošník",
+        "style": "Ležák světlý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-10-15T17:46:54Z",
+      "candidates": [
+        {
+          "name": "Dvouplošník 11",
+          "brewery": "Pivovar Rotor",
+          "url": "/b/pivovar-rotor-dvouplosnik-11/4155103",
+          "rating": 3.36
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Dvouplošník 11° Rotor",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-rotor-dvouplosnik-11/4155103",
+        "score": 1.0
+      }
+    },
     "beerstreet::Sibeeria::Modus": {
       "beer": {
         "source": "beerstreet",
