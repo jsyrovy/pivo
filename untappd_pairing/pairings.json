@@ -5146,6 +5146,16 @@
       "query_used": "Tryskáč 12° Rotor",
       "description": "Tryskáč je typický American Pale Ale s mírně hořkým profilem, citrusovým a tropickým aroma z chmele a lehkým sladovým těstem, středně plné až plné tělo odpovídá 12° stupňovitosti, hodnocení je průměrné."
     },
+    "uzamastilu::Stern::Tiki": {
+      "untappd_url": "https://untappd.com/b/pivovar-stern-tiki/6170206",
+      "untappd_name": "Tiki",
+      "untappd_brewery": "Pivovar Stern",
+      "rating": 3.73,
+      "match_score": 1.0,
+      "matched_at": "2026-10-15T21:23:51Z",
+      "query_used": "Tiki Stern",
+      "description": "Hazy IPA s střední stupňovitostí nabízí jemné zakalení, tropické a citrusové aroma chmele s mírně sladkým sladovým podkladem a střední hořkostí, typickou pro tento styl. Tělo je plnější než u klasických IPA díky nižší filtraci a vyššímu podílu pšenice nebo ovsa."
+    },
     "uzamastilu::Trautenberk::APA": {
       "untappd_url": "https://untappd.com/b/pivovar-trautenberk-trautenberk-14-apa/1446943",
       "untappd_name": "Trautenberk 14 APA",
@@ -5225,6 +5235,16 @@
       "matched_at": "2026-08-10T09:33:10Z",
       "query_used": "Moustache Twinberg",
       "description": "Moustache od Twinbergu je svěží NEIPA s mírně až střední silou, která potěší milovníky aromatických, ovocných pivních stylů a hodí se na neformální setkání s přáteli."
+    },
+    "uzamastilu::Twinberg::Paloma Inspire": {
+      "untappd_url": "https://untappd.com/b/twinberg-paloma-inspire/6771415",
+      "untappd_name": "Paloma Inspire",
+      "untappd_brewery": "Twinberg",
+      "rating": 3.86,
+      "match_score": 1.0,
+      "matched_at": "2026-10-15T21:23:56Z",
+      "query_used": "Paloma Inspire Twinberg",
+      "description": "Kyslé svrchně kvašené pivo s lehkou slaností a koriandrem v aroma; přídavek grepu a limetky přináší citrusovou svěžest a mírně hořký závěr. Nadprůměrně hodnocené."
     },
     "uzamastilu::U Vojtěchů::Podlipák": {
       "untappd_url": "https://untappd.com/b/pivovar-u-vojtechu-podlipak-11/4081441",

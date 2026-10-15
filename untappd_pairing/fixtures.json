@@ -21110,6 +21110,40 @@
         "score": 1.0
       }
     },
+    "uzamastilu::Stern::Tiki": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Stern",
+        "name": "Tiki",
+        "style": "Hazy IPA",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-10-15T21:23:51Z",
+      "candidates": [
+        {
+          "name": "Tiki",
+          "brewery": "Pivovar Stern",
+          "url": "/b/pivovar-stern-tiki/6170206",
+          "rating": 3.73
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Tiki 12° Stern",
+          "hits": []
+        },
+        {
+          "query": "Tiki Stern",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-stern-tiki/6170206",
+        "score": 1.0
+      }
+    },
     "uzamastilu::Thrills::Samosebou W.Coast": {
       "beer": {
         "source": "uzamastilu",
@@ -21534,6 +21568,40 @@
       ],
       "outcome": {
         "matched": "/b/twinberg-moustache/6755650",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Twinberg::Paloma Inspire": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Twinberg",
+        "name": "Paloma Inspire",
+        "style": "Gose",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-10-15T21:23:56Z",
+      "candidates": [
+        {
+          "name": "Paloma Inspire",
+          "brewery": "Twinberg",
+          "url": "/b/twinberg-paloma-inspire/6771415",
+          "rating": 3.86
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Paloma Inspire 10° Twinberg",
+          "hits": []
+        },
+        {
+          "query": "Paloma Inspire Twinberg",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/twinberg-paloma-inspire/6771415",
         "score": 1.0
       }
     },
