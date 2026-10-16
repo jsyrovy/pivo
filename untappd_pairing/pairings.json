@@ -2973,6 +2973,16 @@
       "query_used": "Summer Ale 10° Rampušák",
       "description": "Letní ale s lehkým tělem a nižším obsahem alkoholu nabízí jemnou sladovou základnu s možným nádechem obilné sladkosti a jemnou chmelovou hořkostí, typickou pro svrchně kvašená letní piva – osvěžující a snadno pitelné."
     },
+    "beerstreet::Raven::Bohemian Pilsner": {
+      "untappd_url": "https://untappd.com/b/pivovar-raven-bohemian-pilsner/1570923",
+      "untappd_name": "Bohemian Pilsner",
+      "untappd_brewery": "Pivovar Raven",
+      "rating": 3.49,
+      "match_score": 1.0,
+      "matched_at": "2026-10-16T17:25:09Z",
+      "query_used": "Bohemian Pilsner Raven",
+      "description": "Klasický světlý ležák typu pilsner se sladovým základem, jemnou chmelovou hořkostí a středně plným tělem, spodně kvašený a vyvážený v chuti."
+    },
     "beerstreet::Raven::Citravaganza": {
       "untappd_url": "https://untappd.com/b/pivovar-raven-citravaganza/4979026",
       "untappd_name": "Citravaganza",
@@ -4606,6 +4616,16 @@
       "query_used": "Praotec 12° Cobolis",
       "description": "Klasický český ležák: plnější sladový základ s jemnou chmelovou hořkostí, střední tělo a čistý, vyvážený charakter spodního kvašení. Hodnocení 3,52 naznačuje solidní, průměrně přijaté pivo bez výrazných odchylek."
     },
+    "uzamastilu::Dalešice::Chmelnice": {
+      "untappd_url": "https://untappd.com/b/akciovy-pivovar-dalesice-chmelnice-12-deg/3508458",
+      "untappd_name": "Chmelnice 12%",
+      "untappd_brewery": "Akciový pivovar Dalešice",
+      "rating": 3.65,
+      "match_score": 1.0,
+      "matched_at": "2026-10-16T17:25:25Z",
+      "query_used": "Chmelnice 12° Dalešice",
+      "description": "Klasický český ležák: plnější sladový základ s jemnou chmelovou hořkostí, středně plné tělo a vyvážený, čistý charakter spodního kvašení."
+    },
     "uzamastilu::Dalešice::Hořká 12": {
       "untappd_url": "https://untappd.com/b/akciovy-pivovar-dalesice-horka-12/4071489",
       "untappd_name": "Hořká 12°",
@@ -5506,6 +5526,11 @@
     "beerstreet::Loutkář::Svatováclavský Kašpárek": {
       "attempts": 1,
       "last_tried_at": "2026-09-24T21:21:48Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "beerstreet::Madcat::Pure Haze 076": {
+      "attempts": 1,
+      "last_tried_at": "2026-10-16T17:25:21Z",
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::Sibeeria::No Signal From Most": {

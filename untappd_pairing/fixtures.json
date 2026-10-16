@@ -10164,6 +10164,39 @@
         "source": "llm"
       }
     },
+    "beerstreet::Madcat::Pure Haze 076": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Madcat",
+        "name": "Pure Haze 076",
+        "style": "Hazy IPA",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-10-16T17:25:21Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Pure Haze 076 12° Madcat",
+          "hits": []
+        },
+        {
+          "query": "Pure Haze 076 Madcat",
+          "hits": []
+        },
+        {
+          "query": "Pure Haze 076 12°",
+          "hits": []
+        },
+        {
+          "query": "Pure Haze 076",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
     "beerstreet::Matuška::Matuška": {
       "beer": {
         "source": "beerstreet",
@@ -11319,6 +11352,54 @@
       ],
       "outcome": {
         "matched": "/b/rodinny-pivovar-rampusak-summer-ale-10-deg/6757698",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Raven::Bohemian Pilsner": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Raven",
+        "name": "Bohemian Pilsner",
+        "style": "Ležák světlý",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-10-16T17:25:09Z",
+      "candidates": [
+        {
+          "name": "Bohemian Pilsner",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-bohemian-pilsner/1570923",
+          "rating": 3.49
+        },
+        {
+          "name": "Bohemian Pilsner",
+          "brewery": "3 Ravens Brewery",
+          "url": "/b/3-ravens-brewery-bohemian-pilsner/2660237",
+          "rating": null
+        },
+        {
+          "name": "Bohemian Pilsner",
+          "brewery": "The Raven's Nest",
+          "url": "/b/the-raven-s-nest-bohemian-pilsner/306946",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Bohemian Pilsner 12° Raven",
+          "hits": []
+        },
+        {
+          "query": "Bohemian Pilsner Raven",
+          "hits": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-raven-bohemian-pilsner/1570923",
         "score": 1.0
       }
     },
@@ -18149,6 +18230,36 @@
       ],
       "outcome": {
         "matched": "/b/cobolis-praotec-lezak-12/2709544",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Dalešice::Chmelnice": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Dalešice",
+        "name": "Chmelnice",
+        "style": "Ležák",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-10-16T17:25:25Z",
+      "candidates": [
+        {
+          "name": "Chmelnice 12%",
+          "brewery": "Akciový pivovar Dalešice",
+          "url": "/b/akciovy-pivovar-dalesice-chmelnice-12-deg/3508458",
+          "rating": 3.65
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Chmelnice 12° Dalešice",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/akciovy-pivovar-dalesice-chmelnice-12-deg/3508458",
         "score": 1.0
       }
     },
