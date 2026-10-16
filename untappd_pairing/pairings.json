@@ -411,6 +411,16 @@
       "query_used": "Mallinois Double Red HoppyDog",
       "description": "Fruit sour ale s kyselým charakterem a lehkým tělem; název naznačuje použití višní, které přidávají tmavé ovoce a jemnou sladkost do kyselého základu."
     },
+    "ambasada::HoppyDog, Ostrava::Rafan": {
+      "untappd_url": "https://untappd.com/b/pivovar-hoppydog-rafan/2658169",
+      "untappd_name": "Rafan",
+      "untappd_brewery": "Pivovar HoppyDog",
+      "rating": 3.66,
+      "match_score": 1.0,
+      "matched_at": "2026-10-16T21:09:59Z",
+      "query_used": "Rafan 12° HoppyDog",
+      "description": "Klasická americká pale ale se sladovým základem, střední hořkostí a citrusovo-pryskyřičným chmelovým profilem, středně plné tělo a vyvážený doznívající charakter. Hodnocení na Untappd je průměrné."
+    },
     "ambasada::Hoppydog, Ostrava::Ginger Paw": {
       "untappd_url": "https://untappd.com/b/pivovar-hoppydog-ginger-paw/6645070",
       "untappd_name": "Ginger Paw",
@@ -2014,6 +2024,16 @@
       "matched_at": "2026-04-28T20:13:51Z",
       "query_used": "Citra Session Haksna"
     },
+    "beerstreet::Hauskrecht::Moravian Ale": {
+      "untappd_url": "https://untappd.com/b/brnenska-pivovarnicka-spolecnost-hauskrecht-moravian-ale/1763126",
+      "untappd_name": "Hauskrecht Moravian Ale",
+      "untappd_brewery": "Brněnská pivovarnická společnost",
+      "rating": 3.13,
+      "match_score": 1.0,
+      "matched_at": "2026-10-16T21:09:59Z",
+      "query_used": "<llm>",
+      "description": "Klasický anglický pale ale: sladový základ s jemnou karamelovou sladostí, vyvážená chmelová hořkost a středně plné tělo, svrchně kvašený s jemně ovocnými estery. Hodnocení na Untappd podprůměrné."
+    },
     "beerstreet::Hofbräu - Mnichov::Hofbräu": {
       "untappd_url": "https://untappd.com/b/staatliches-hofbrauhaus-munchen-hofbrau-oktoberfestbier/40139",
       "untappd_name": "Hofbräu Oktoberfestbier",
@@ -2277,6 +2297,16 @@
       "match_score": 1.0,
       "matched_at": "2026-04-17T19:07:41Z",
       "query_used": "Kladenský ležák Kročehlavy"
+    },
+    "beerstreet::Kynšperský zajíc::Kynšperk": {
+      "untappd_url": "https://untappd.com/b/kynspersky-pivovar-kynspersky-zajic-11-deg-svetly-lezak/1936006",
+      "untappd_name": "Kynšperský Zajíc 11° světlý ležák",
+      "untappd_brewery": "Kynšperský pivovar",
+      "rating": 3.41,
+      "match_score": 0.8571428571428571,
+      "matched_at": "2026-10-16T21:09:29Z",
+      "query_used": "<llm>",
+      "description": "Klasický světlý ležák: sladový základ, jemná chmelová hořkost a lehčí tělo, spodně kvašený a čistý v chuti."
     },
     "beerstreet::Kynšperský::Kynšperský Zajíc": {
       "untappd_url": "https://untappd.com/b/kynspersky-pivovar-kynspersky-zajic-11-deg-svetly-lezak/1936006",
