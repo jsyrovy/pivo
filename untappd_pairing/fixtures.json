@@ -10719,6 +10719,63 @@
         "score": 1.0
       }
     },
+    "beerstreet::Mordýř::Elegán": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Mordýř",
+        "name": "Elegán",
+        "style": "Ležák světlý - IPL",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-10-17T19:24:58Z",
+      "candidates": [
+        {
+          "name": "Brundibár",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-brundibar/1959940",
+          "rating": 3.42
+        },
+        {
+          "name": "Elegán Cascade",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-elegan-cascade/6759302",
+          "rating": 3.48
+        },
+        {
+          "name": "Elegán Waimea",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-elegan-waimea/2766841",
+          "rating": null
+        },
+        {
+          "name": "Elegán Vic Secret",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-elegan-vic-secret/3040893",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Elegán 12° Mordýř",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Elegán Mordýř",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mordyr-elegan-cascade/6759302",
+        "score": 1.0
+      }
+    },
     "beerstreet::Mordýř::Simcoe": {
       "beer": {
         "source": "beerstreet",
@@ -11512,6 +11569,64 @@
       "outcome": {
         "matched": "/b/pivovar-pivecka-single-hop-lager-kazbek-11-deg/6919763",
         "score": 1.0
+      }
+    },
+    "beerstreet::Pivovar Pivečka::Pivečka": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Pivovar Pivečka",
+        "name": "Pivečka",
+        "style": "Session IPA",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-10-17T19:25:01Z",
+      "candidates": [
+        {
+          "name": "Bohemka 11°",
+          "brewery": "Pivovar Pivečka",
+          "url": "/b/pivovar-pivecka-bohemka-11-deg/1257128",
+          "rating": 3.3
+        },
+        {
+          "name": "Stregobor 11°",
+          "brewery": "Pivovar Pivečka",
+          "url": "/b/pivovar-pivecka-stregobor-11-deg/6391755",
+          "rating": 2.98
+        },
+        {
+          "name": "Single Hop Lager Kazbek 11°",
+          "brewery": "Pivovar Pivečka",
+          "url": "/b/pivovar-pivecka-single-hop-lager-kazbek-11-deg/6919763",
+          "rating": null
+        },
+        {
+          "name": "Rousínovská jedenáctka",
+          "brewery": "Pivovar Pivečka",
+          "url": "/b/pivovar-pivecka-rousinovska-jedenactka/2757735",
+          "rating": 3.35
+        },
+        {
+          "name": "Rousínovská dvanáctka",
+          "brewery": "Pivovar Pivečka",
+          "url": "/b/pivovar-pivecka-rousinovska-dvanactka/3553523",
+          "rating": 3.29
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Pivečka 11° Pivečka",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-pivecka-bohemka-11-deg/1257128",
+        "score": 0.1667
       }
     },
     "beerstreet::Poupě::Summer Ale": {
@@ -18792,6 +18907,40 @@
         "score": 1.0
       }
     },
+    "uzamastilu::Frankies::Dfanáctka": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Frankies",
+        "name": "Dfanáctka",
+        "style": "Ležák",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-10-17T19:25:10Z",
+      "candidates": [
+        {
+          "name": "Dfanáctka",
+          "brewery": "Frankies",
+          "url": "/b/frankies-dfanactka/6269442",
+          "rating": 3.56
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Dfanáctka 12° Frankies",
+          "hits": []
+        },
+        {
+          "query": "Dfanáctka Frankies",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/frankies-dfanactka/6269442",
+        "score": 1.0
+      }
+    },
     "uzamastilu::Fresh Hop Chroust::Age of Krush": {
       "beer": {
         "source": "uzamastilu",
@@ -21881,6 +22030,40 @@
       ],
       "outcome": {
         "matched": "/b/twinberg-bugr-12-deg/4908024",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Twinberg::Hoppy Whale #8": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Twinberg",
+        "name": "Hoppy Whale #8",
+        "style": "NEIPA",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-10-17T19:25:05Z",
+      "candidates": [
+        {
+          "name": "Hoppy Whale #8",
+          "brewery": "Twinberg",
+          "url": "/b/twinberg-hoppy-whale-8/6990956",
+          "rating": 3.68
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Hoppy Whale #8 13° Twinberg",
+          "hits": []
+        },
+        {
+          "query": "Hoppy Whale #8 Twinberg",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/twinberg-hoppy-whale-8/6990956",
         "score": 1.0
       }
     },

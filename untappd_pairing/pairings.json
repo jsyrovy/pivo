@@ -2761,6 +2761,16 @@
       "query_used": "Punkevní 11° Moravia",
       "description": "Světlý ležák s mírnou sladkostí a jemnou chmelovou hořkostí, lehkým tělem a čistým profilem, bez nadbytečných aromatických prvků."
     },
+    "beerstreet::Mordýř::Elegán": {
+      "untappd_url": "https://untappd.com/b/pivovar-mordyr-elegan-cascade/6759302",
+      "untappd_name": "Elegán Cascade",
+      "untappd_brewery": "Pivovar Mordýř",
+      "rating": 3.48,
+      "match_score": 1.0,
+      "matched_at": "2026-10-17T19:24:58Z",
+      "query_used": "Elegán Mordýř",
+      "description": "Světlý ležák s chmelovým charakterem IPL: sladový základ, střední plnost a jemná chmelová hořkost s citrusovými a květinovými tóny od chmele Cascade, spodně kvašený a vyvážený v chuti."
+    },
     "beerstreet::Mordýř::Nectaron": {
       "untappd_url": "https://untappd.com/b/pivovar-mordyr-nectaron-smash-ale/6361344",
       "untappd_name": "Nectaron Smash Ale",
@@ -2982,6 +2992,16 @@
       "matched_at": "2026-10-10T21:26:20Z",
       "query_used": "Kazbek 11° Pivečka",
       "description": "Klasický světlý ležák: sladový základ, jemná chmelová hořkost a lehčí tělo, spodně kvašený a čistý v chuti. Chmel Kazbek přináší jemně kořenitý, lehce bylinný až květinový tón s jemnou chmelovou přítomností."
+    },
+    "beerstreet::Pivovar Pivečka::Pivečka": {
+      "untappd_url": "https://untappd.com/b/pivovar-pivecka-bohemka-11-deg/1257128",
+      "untappd_name": "Bohemka 11°",
+      "untappd_brewery": "Pivovar Pivečka",
+      "rating": 3.3,
+      "match_score": 0.1667,
+      "matched_at": "2026-10-17T19:25:01Z",
+      "query_used": "Pivečka 11° Pivečka",
+      "description": "Session IPA s lehčím tělem a střední hořkostí, typicky s citrusovým a tropickým ovocným aroma amerických chmelů. Nižší stupňovitost a alkohol zajišťují dobrou pitelnost, hodnocení na Untappd podprůměrné."
     },
     "beerstreet::Poupě::Summer Ale": {
       "untappd_url": "https://untappd.com/b/pivovarsky-dum-poupe-summer-ale/5853620",
@@ -4716,6 +4736,16 @@
       "query_used": "Fina Cerva Fracek",
       "description": "Kyselé svrchně kvašené pivo s ostrou ovocnou kyselinkou a lehkým až středním tělem, typické pro styl sour. Hodnocení na Untappd je nadprůměrné."
     },
+    "uzamastilu::Frankies::Dfanáctka": {
+      "untappd_url": "https://untappd.com/b/frankies-dfanactka/6269442",
+      "untappd_name": "Dfanáctka",
+      "untappd_brewery": "Frankies",
+      "rating": 3.56,
+      "match_score": 1.0,
+      "matched_at": "2026-10-17T19:25:10Z",
+      "query_used": "Dfanáctka Frankies",
+      "description": "Klasický český ležák: plnější sladový základ s jemnou chmelovou hořkostí a středně plným tělem, spodně kvašený a vyvážený v chuti."
+    },
     "uzamastilu::Fresh Hop Chroust::Age of Krush": {
       "untappd_url": "https://untappd.com/b/chroust-age-of-krush/6254155",
       "untappd_name": "Age of Krush",
@@ -5275,6 +5305,16 @@
       "matched_at": "2026-10-14T17:14:00Z",
       "query_used": "Bugr 12° Twinberg",
       "description": "Klasický český ležák: plnější sladový základ s jemnou chmelovou hořkostí, středně plné tělo a vyvážený, čistý charakter spodního kvašení."
+    },
+    "uzamastilu::Twinberg::Hoppy Whale #8": {
+      "untappd_url": "https://untappd.com/b/twinberg-hoppy-whale-8/6990956",
+      "untappd_name": "Hoppy Whale #8",
+      "untappd_brewery": "Twinberg",
+      "rating": 3.68,
+      "match_score": 1.0,
+      "matched_at": "2026-10-17T19:25:05Z",
+      "query_used": "Hoppy Whale #8 Twinberg",
+      "description": "Jemně zakalená svrchně kvašená NEIPA s nízkou hořkostí, bohatým tropickým a ovocným aroma chmele a středně plným, sametovým tělem. Spodní kvasnice a studené chmelení podporují jemnou sladovost a dlouhý dozvuk."
     },
     "uzamastilu::Twinberg::Hoppy Whale 7": {
       "untappd_url": "https://untappd.com/b/twinberg-hoppy-whale-7/6809119",
