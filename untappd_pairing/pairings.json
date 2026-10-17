@@ -1069,6 +1069,16 @@
       "matched_at": "2026-05-22T09:09:29Z",
       "query_used": "Blackcurrant Sorbet Sibeeria"
     },
+    "ambasada::Sibeeria, Praha::Coffee IPA": {
+      "untappd_url": "https://untappd.com/b/sibeeria-brewery-coffee-ipa-candycane-coffee/6610183",
+      "untappd_name": "Coffee IPA (Candycane Coffee)",
+      "untappd_brewery": "Sibeeria Brewery",
+      "rating": 3.77,
+      "match_score": 1.0,
+      "matched_at": "2026-10-17T16:25:32Z",
+      "query_used": "Coffee IPA Sibeeria",
+      "description": "Kávová IPA s plnějším tělem díky vyšší stupňovitosti, kombinující hořkost a citrusové tóny chmele s praženou, mírně sladkou kávovou chutí a aroma. Název naznačuje přídavek cukrové třtiny, který může přinést jemnou sladkost a karamelový podtón, vyvažující hořkost a kávovou intenzitu. Hodnocení 3,77 naznačuje nadprůměrn…"
+    },
     "ambasada::Sibeeria, Praha::Exotic Orchard": {
       "untappd_url": "https://untappd.com/b/sibeeria-exotic-orchard/5953178",
       "untappd_name": "Exotic Orchard",

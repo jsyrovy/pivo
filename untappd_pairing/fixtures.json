@@ -3863,6 +3863,47 @@
         "score": 1.0
       }
     },
+    "ambasada::Sibeeria, Praha::Coffee IPA": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Sibeeria, Praha",
+        "name": "Coffee IPA",
+        "style": "Coffee IPA",
+        "degree_plato": 14.0
+      },
+      "captured_at": "2026-10-17T16:25:32Z",
+      "candidates": [
+        {
+          "name": "Coffee IPA (Candycane Coffee)",
+          "brewery": "Sibeeria Brewery",
+          "url": "/b/sibeeria-brewery-coffee-ipa-candycane-coffee/6610183",
+          "rating": 3.77
+        },
+        {
+          "name": "Coffee Infused West Coast IPA",
+          "brewery": "Sibeeria Brewery",
+          "url": "/b/sibeeria-brewery-coffee-infused-west-coast-ipa/5404161",
+          "rating": 3.8
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Coffee IPA 14° Sibeeria",
+          "hits": []
+        },
+        {
+          "query": "Coffee IPA Sibeeria",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/sibeeria-brewery-coffee-ipa-candycane-coffee/6610183",
+        "score": 1.0
+      }
+    },
     "ambasada::Sibeeria, Praha::Exotic Orchard": {
       "beer": {
         "source": "ambasada",
