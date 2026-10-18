@@ -201,6 +201,16 @@
       "query_used": "Emily Clock",
       "description": "Gluten reduced sour cherry gose je lehké, osvěžující pivo s výraznou kyselinkou typickou pro styl gose, doplněnou slaným charakterem a lehkým tělem díky 11° stupňovitosti a 4,7 % alkoholu; přídavek kyselé třešně přináší ovoce s jemnou sladkostí a ovocnou kyselinkou, která harmonizuje s základní kyselostí piva. Hodnoce…"
     },
+    "ambasada::Clock, Potštejn::Fresh Hop Ale Most 2026": {
+      "untappd_url": "https://untappd.com/b/pivovar-clock-fresh-hopale-most-2026/7080688",
+      "untappd_name": "Fresh Hop Ale Most 2026",
+      "untappd_brewery": "Pivovar Clock",
+      "rating": 3.78,
+      "match_score": 1.0,
+      "matched_at": "2026-10-18T16:33:26Z",
+      "query_used": "Fresh Hop Ale Most 2026 Clock",
+      "description": "Fresh hop ale APA s intenzivním aroma čerstvého chmele – tóny citrusů, travnatých a květinových nuancí, střední hořkost a plnější tělo díky 12° stupňovitosti, svrchně kvašené a živé v chuti. Hodnocení 3,78 naznačuje nadprůměrné přijetí."
+    },
     "ambasada::Clock, Potštejn::Glee": {
       "untappd_url": "https://untappd.com/b/pivovar-clock-glee/3101033",
       "untappd_name": "Glee",
@@ -1920,6 +1930,16 @@
       "matched_at": "2026-05-15T20:14:37Z",
       "query_used": "Mosaic Duck&Dog"
     },
+    "beerstreet::Falkon::Akira": {
+      "untappd_url": "https://untappd.com/b/falkon-akira/5412908",
+      "untappd_name": "AKIRA",
+      "untappd_brewery": "FALKON",
+      "rating": 3.59,
+      "match_score": 1.0,
+      "matched_at": "2026-10-18T16:32:50Z",
+      "query_used": "Akira Falkon",
+      "description": "Klasický japonský ležák: jemná sladová sladkost, nízká chmelová hořkost a čisté, osvěžující tělo typické pro spodně kvašený styl s rýží nebo kukuřicí v receptuře. Spodné kvašení zajišťuje hladký a neutrální profil bez výrazných esterů nebo fenolů."
+    },
     "beerstreet::Falkon::Krasohled": {
       "untappd_url": "https://untappd.com/b/falkon-krasohled/3795030",
       "untappd_name": "KRASOHLED",
@@ -2139,6 +2159,16 @@
       "query_used": "Svatováclavský 11° Hřebec",
       "description": "Světlý žitný ležák s plnějším tělem díky žitnému sladu, který přináší jemně kořenitou, chlebovou sladovost a lehce pikantní charakter; spodně kvašený, s vyváženou jemnou hořkostí a čistým, pitelným profilem."
     },
+    "beerstreet::Kirin Ichiban::Kirin": {
+      "untappd_url": "https://untappd.com/b/kirin-brewery-company-ichiban-ichiban-shibori/4667",
+      "untappd_name": "Ichiban (Ichiban Shibori) (一番搾り)",
+      "untappd_brewery": "Kirin Brewery Company",
+      "rating": 3.17,
+      "match_score": 0.25,
+      "matched_at": "2026-10-18T16:32:48Z",
+      "query_used": "<llm>",
+      "description": "Klasický japonský ležák: sladový základ s jemnou chmelovou hořkostí, lehké až střední tělo a čistý, osvěžující charakter spodního kvašení. Hodnocení na Untappd podprůměrné."
+    },
     "beerstreet::Klenot & Zmajska::Dragon Gem": {
       "untappd_url": "https://untappd.com/b/hradecky-klenot-dragon-gem/6752717",
       "untappd_name": "Dragon Gem",
@@ -2307,6 +2337,16 @@
       "match_score": 1.0,
       "matched_at": "2026-04-17T19:07:41Z",
       "query_used": "Kladenský ležák Kročehlavy"
+    },
+    "beerstreet::Kynšperský Zajíc::Kynšperk": {
+      "untappd_url": "https://untappd.com/b/kynspersky-pivovar-kynspersky-zajic-12-deg-svetly-lezak/850661",
+      "untappd_name": "Kynšperský Zajíc 12° světlý ležák",
+      "untappd_brewery": "Kynšperský pivovar",
+      "rating": 3.31,
+      "match_score": 0.8571428571428571,
+      "matched_at": "2026-10-18T16:33:07Z",
+      "query_used": "<llm>",
+      "description": "Klasický světlý ležák: sladový základ s jemnou chmelovou hořkostí, středně plné tělo a čistá, vyvážená chuť typická pro spodně kvašená piva. Podprůměrně hodnocené na Untappd."
     },
     "beerstreet::Kynšperský zajíc::Kynšperk": {
       "untappd_url": "https://untappd.com/b/kynspersky-pivovar-kynspersky-zajic-11-deg-svetly-lezak/1936006",
@@ -5613,6 +5653,11 @@
       "last_tried_at": "2026-10-16T17:25:21Z",
       "reason": "no_candidates_above_threshold"
     },
+    "beerstreet::Pivečka::Japanese Style - hop Sorachi Ace": {
+      "attempts": 1,
+      "last_tried_at": "2026-10-18T16:33:25Z",
+      "reason": "no_candidates_above_threshold"
+    },
     "beerstreet::Sibeeria::No Signal From Most": {
       "attempts": 1,
       "last_tried_at": "2026-10-02T22:52:25Z",
@@ -5631,6 +5676,11 @@
     "beerstreet::Záhora::Silk Road - ibišek+koriandr+limeta+yuzu": {
       "attempts": 1,
       "last_tried_at": "2026-06-01T19:22:43Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "beerstreet::Záhora::Sunrice - Sushi pivo": {
+      "attempts": 1,
+      "last_tried_at": "2026-10-18T16:33:17Z",
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::Černý Potoka::Cold Fish Mosaic dry hopped": {
