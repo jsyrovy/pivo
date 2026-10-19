@@ -8459,6 +8459,68 @@
         "score": 1.0
       }
     },
+    "beerstreet::Kirin Brewery::Kirin Ichiban": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Kirin Brewery",
+        "name": "Kirin Ichiban",
+        "style": "Japanese lager",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-10-19T19:20:44Z",
+      "candidates": [
+        {
+          "name": "Ichiban (Ichiban Shibori) (一番搾り)",
+          "brewery": "Kirin Brewery Company",
+          "url": "/b/kirin-brewery-company-ichiban-ichiban-shibori/4667",
+          "rating": 3.17
+        },
+        {
+          "name": "Ichiban Shibori Premium (一番搾りプレミアム)",
+          "brewery": "Kirin Brewery Company",
+          "url": "/b/kirin-brewery-company-ichiban-shibori-premium/686004",
+          "rating": 3.22
+        },
+        {
+          "name": "Ichiban 0.0",
+          "brewery": "Kirin Brewery Company",
+          "url": "/b/kirin-brewery-company-ichiban-0-0/5862038",
+          "rating": 2.6
+        },
+        {
+          "name": "Kirin Megumi",
+          "brewery": "Kirin Brewery Company",
+          "url": "/b/kirin-brewery-company-kirin-megumi/349877",
+          "rating": 3.09
+        },
+        {
+          "name": "Ichiban Shibori Stout (一番搾り スタウト)",
+          "brewery": "Kirin Brewery Company",
+          "url": "/b/kirin-brewery-company-ichiban-shibori-stout/9348",
+          "rating": 3.33
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Kirin Ichiban 12° Kirin Brewery",
+          "hits": []
+        },
+        {
+          "query": "Kirin Ichiban Kirin Brewery",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/kirin-brewery-company-ichiban-0-0/5862038",
+        "score": 0.75
+      }
+    },
     "beerstreet::Kirin Ichiban::Kirin": {
       "beer": {
         "source": "beerstreet",
@@ -14978,6 +15040,64 @@
         "reason": "no_candidates_above_threshold"
       }
     },
+    "toulavapipa::Clock::Twist": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Clock",
+        "name": "Twist",
+        "style": "American red IPA",
+        "degree_plato": null
+      },
+      "captured_at": "2026-10-19T19:20:55Z",
+      "candidates": [
+        {
+          "name": "Twist",
+          "brewery": "Pivovar Clock",
+          "url": "/b/pivovar-clock-twist/753375",
+          "rating": 3.71
+        },
+        {
+          "name": "Twist Grep",
+          "brewery": "Pivovar Clock",
+          "url": "/b/pivovar-clock-twist-grep/2300528",
+          "rating": 3.53
+        },
+        {
+          "name": "Twist Yuzu Léto",
+          "brewery": "Pivovar Clock",
+          "url": "/b/pivovar-clock-twist-yuzu-leto/5922869",
+          "rating": null
+        },
+        {
+          "name": "Blood Orange Twist",
+          "brewery": "Pivovar Clock",
+          "url": "/b/pivovar-clock-blood-orange-twist/5922246",
+          "rating": null
+        },
+        {
+          "name": "Agave Cocktails: Tropical Twist",
+          "brewery": "Sauza",
+          "url": "/b/sauza-agave-cocktails-tropical-twist/4750193",
+          "rating": 3.22
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Twist Clock",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-clock-twist/753375",
+        "score": 1.0
+      }
+    },
     "toulavapipa::Clock::Zajíc": {
       "beer": {
         "source": "toulavapipa",
@@ -15918,6 +16038,68 @@
         "score": 1.0
       }
     },
+    "toulavapipa::Kynšperský pivovar::Winter ale": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Kynšperský pivovar",
+        "name": "Winter ale",
+        "style": "Ale",
+        "degree_plato": null
+      },
+      "captured_at": "2026-10-19T19:20:54Z",
+      "candidates": [
+        {
+          "name": "Celebration",
+          "brewery": "Sierra Nevada Brewing Co.",
+          "url": "/b/sierra-nevada-brewing-co-celebration/16630",
+          "rating": 3.72
+        },
+        {
+          "name": "N'Ice Chouffe",
+          "brewery": "Brasserie d'Achouffe",
+          "url": "/b/brasserie-d-achouffe-n-ice-chouffe/7539",
+          "rating": 3.66
+        },
+        {
+          "name": "Christmas Ale",
+          "brewery": "Brouwerij St.Bernardus",
+          "url": "/b/brouwerij-st-bernardus-christmas-ale/8121",
+          "rating": 3.85
+        },
+        {
+          "name": "Christmas Ale",
+          "brewery": "Breckenridge Brewery",
+          "url": "/b/breckenridge-brewery-christmas-ale/8679",
+          "rating": 3.57
+        },
+        {
+          "name": "Jubelale",
+          "brewery": "Deschutes Brewery",
+          "url": "/b/deschutes-brewery-jubelale/6907",
+          "rating": 3.58
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Winter ale Kynšperský",
+          "hits": []
+        },
+        {
+          "query": "Winter ale",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
     "toulavapipa::Kynšperský pivovar::ZAJÍC": {
       "beer": {
         "source": "toulavapipa",
@@ -16271,6 +16453,68 @@
       "outcome": {
         "matched": "/b/madcat-cherry-n-apricot/6820586",
         "score": 0.9167
+      }
+    },
+    "toulavapipa::MadCat::Desítka": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "MadCat",
+        "name": "Desítka",
+        "style": "Světlé výčepní",
+        "degree_plato": null
+      },
+      "captured_at": "2026-10-19T19:20:49Z",
+      "candidates": [
+        {
+          "name": "Krušovice Originál",
+          "brewery": "Heineken Česká Republika",
+          "url": "/b/heineken-ceska-republika-krusovice-original/23585",
+          "rating": 3.06
+        },
+        {
+          "name": "Staropramen 10 (formerly Smíchov)",
+          "brewery": "Pivovary Staropramen",
+          "url": "/b/pivovary-staropramen-staropramen-10-formerly-smichov/5811750",
+          "rating": 3.12
+        },
+        {
+          "name": "Radegast Rázná 10",
+          "brewery": "Radegast",
+          "url": "/b/radegast-radegast-razna-10/2108664",
+          "rating": 3.11
+        },
+        {
+          "name": "Platan Desítka",
+          "brewery": "Pivovar Protivín",
+          "url": "/b/pivovar-protivin-platan-desitka/1321991",
+          "rating": 3.02
+        },
+        {
+          "name": "Svijanská Desítka",
+          "brewery": "Svijany",
+          "url": "/b/svijany-svijanska-desitka/67965",
+          "rating": 3.17
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Desítka MadCat",
+          "hits": []
+        },
+        {
+          "query": "Desítka",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "toulavapipa::MadCat::Mango pina coco": {
@@ -17891,6 +18135,36 @@
       "outcome": {
         "matched": "/b/sibeeria-brewery-pepperup-punch/6834644",
         "score": 0.8889
+      }
+    },
+    "toulavapipa::Sibeeria::Radiant Noise": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Sibeeria",
+        "name": "Radiant Noise",
+        "style": "NEIPA",
+        "degree_plato": null
+      },
+      "captured_at": "2026-10-19T19:20:57Z",
+      "candidates": [
+        {
+          "name": "Radiant Noise",
+          "brewery": "Sibeeria Brewery",
+          "url": "/b/sibeeria-brewery-radiant-noise/7219303",
+          "rating": 4.06
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Radiant Noise Sibeeria",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/sibeeria-brewery-radiant-noise/7219303",
+        "score": 1.0
       }
     },
     "toulavapipa::U Vojtěchů::Artur": {
@@ -21151,6 +21425,64 @@
       "outcome": {
         "matched": "/b/old-cock-beer-vyvar/5433430",
         "score": 1.0
+      }
+    },
+    "uzamastilu::Opatovický Poklad::Ležák": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Opatovický Poklad",
+        "name": "Ležák",
+        "style": "Ležák",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-10-19T19:21:09Z",
+      "candidates": [
+        {
+          "name": "Světlý ležák 12°",
+          "brewery": "Pivovar Opatovický Poklad",
+          "url": "/b/pivovar-opatovicky-poklad-svetly-lezak-12-deg/4870305",
+          "rating": 3.46
+        },
+        {
+          "name": "Klášterní ležák 12,5°",
+          "brewery": "Pivovar Opatovický Poklad",
+          "url": "/b/pivovar-opatovicky-poklad-klasterni-lezak-12-5-deg/4443485",
+          "rating": 3.38
+        },
+        {
+          "name": "Ležák 12 Calamansi",
+          "brewery": "Pivovar Opatovický Poklad",
+          "url": "/b/pivovar-opatovicky-poklad-lezak-12-calamansi/6475073",
+          "rating": 3.93
+        },
+        {
+          "name": "Opatovický Ležák 12.7 Bitter",
+          "brewery": "Pivovar Opatovický Poklad",
+          "url": "/b/pivovar-opatovicky-poklad-opatovicky-lezak-12-7-bitter/5961763",
+          "rating": null
+        },
+        {
+          "name": "Sváteční Ležák 12",
+          "brewery": "Pivovar Opatovický Poklad",
+          "url": "/b/pivovar-opatovicky-poklad-svatecni-lezak-12/6002543",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Ležák 12° Opatovický Poklad",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-opatovicky-poklad-svetly-lezak-12-deg/4870305",
+        "source": "llm"
       }
     },
     "uzamastilu::Ovipistán::Premiér": {

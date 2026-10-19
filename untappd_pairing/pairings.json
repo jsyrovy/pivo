@@ -2159,6 +2159,16 @@
       "query_used": "Svatováclavský 11° Hřebec",
       "description": "Světlý žitný ležák s plnějším tělem díky žitnému sladu, který přináší jemně kořenitou, chlebovou sladovost a lehce pikantní charakter; spodně kvašený, s vyváženou jemnou hořkostí a čistým, pitelným profilem."
     },
+    "beerstreet::Kirin Brewery::Kirin Ichiban": {
+      "untappd_url": "https://untappd.com/b/kirin-brewery-company-ichiban-0-0/5862038",
+      "untappd_name": "Ichiban 0.0",
+      "untappd_brewery": "Kirin Brewery Company",
+      "rating": 2.6,
+      "match_score": 0.75,
+      "matched_at": "2026-10-19T19:20:44Z",
+      "query_used": "Kirin Ichiban Kirin Brewery",
+      "description": "Klasický japonský ležák: sladový základ s jemnou chmelovou hořkostí, lehké až střední tělo a čistý, osvěžující charakter spodního kvašení. Nízké hodnocení na Untappd odpovídá průměrnému až podprůměrnému projevu stylu."
+    },
     "beerstreet::Kirin Ichiban::Kirin": {
       "untappd_url": "https://untappd.com/b/kirin-brewery-company-ichiban-ichiban-shibori/4667",
       "untappd_name": "Ichiban (Ichiban Shibori) (一番搾り)",
@@ -3867,6 +3877,16 @@
       "query_used": "Hektor Clock",
       "description": "Klasický výčepní světlý ležák: sladový základ, jemná chmelová hořkost a lehčí tělo, spodně kvašený a čistý v chuti."
     },
+    "toulavapipa::Clock::Twist": {
+      "untappd_url": "https://untappd.com/b/pivovar-clock-twist/753375",
+      "untappd_name": "Twist",
+      "untappd_brewery": "Pivovar Clock",
+      "rating": 3.71,
+      "match_score": 1.0,
+      "matched_at": "2026-10-19T19:20:55Z",
+      "query_used": "Twist Clock",
+      "description": "American red IPA kombinuje sladový charakter s karamelovými tóny a výraznou chmelovou hořkostí s citrusovými a pryskyřičnými aromaty, středně plné tělo a vyvážený profil mezi sladovou sladkostí a chmelovou ostrostí. Hodnocení 3,71 naznačuje nadprůměrně přijaté pivo."
+    },
     "toulavapipa::Fracek::Original ležák": {
       "untappd_url": "https://untappd.com/b/fracek-original-lezak-lager-11/5384122",
       "untappd_name": "ORIGINAL Ležák/ Lager 11",
@@ -4486,6 +4506,16 @@
       "matched_at": "2026-09-01T20:52:16Z",
       "query_used": "Pepper punch Sibeeria",
       "description": "Kveik pale ale je svrchně kvašené pivo s ovocným, často tropickým aroma a střední hořkostí, lehčím až středním tělem a suchým, osvěžujícím závěrem typickým pro kmeny kveik kvasinek. Název Pepperup Punch naznačuje přítomnost pepře, který přidává jemně štiplavý, kořenitý tón doplňující ovocný profil."
+    },
+    "toulavapipa::Sibeeria::Radiant Noise": {
+      "untappd_url": "https://untappd.com/b/sibeeria-brewery-radiant-noise/7219303",
+      "untappd_name": "Radiant Noise",
+      "untappd_brewery": "Sibeeria Brewery",
+      "rating": 4.06,
+      "match_score": 1.0,
+      "matched_at": "2026-10-19T19:20:57Z",
+      "query_used": "Radiant Noise Sibeeria",
+      "description": "Jemně zakalená svrchně kvašená NEIPA s nízkou hořkostí, bohatým tropickým a ovocným aroma chmele a plným, sametovým tělem. Hodnocení 4,06 naznačuje nadprůměrné přijetí pivem mezi uživateli Untappd."
     },
     "toulavapipa::U Vojtěchů::Artur": {
       "untappd_url": "https://untappd.com/b/pivovar-u-vojtechu-artur/6303126",
@@ -5126,6 +5156,16 @@
       "query_used": "Vývar 11° Old Cock",
       "description": "Ležák s mírnou sladkostí a jemnou chmelovou hořkostí, středně plné tělo, lehký až suchý závěr, hodnocení podprůměrné."
     },
+    "uzamastilu::Opatovický Poklad::Ležák": {
+      "untappd_url": "https://untappd.com/b/pivovar-opatovicky-poklad-svetly-lezak-12-deg/4870305",
+      "untappd_name": "Světlý ležák 12°",
+      "untappd_brewery": "Pivovar Opatovický Poklad",
+      "rating": 3.46,
+      "match_score": 1.0,
+      "matched_at": "2026-10-19T19:21:09Z",
+      "query_used": "<llm>",
+      "description": "Klasický český ležák: sladový základ s jemnou chmelovou hořkostí, středně plné tělo a čistý, vyvážený charakter spodního kvašení."
+    },
     "uzamastilu::Ovipistán::Premiér": {
       "untappd_url": "https://untappd.com/b/pivovar-ovipistan-premier/3843314",
       "untappd_name": "Premiér",
@@ -5708,9 +5748,19 @@
       "last_tried_at": "2026-08-29T17:03:01Z",
       "reason": "no_candidates_above_threshold"
     },
+    "toulavapipa::Kynšperský pivovar::Winter ale": {
+      "attempts": 1,
+      "last_tried_at": "2026-10-19T19:20:54Z",
+      "reason": "no_candidates_above_threshold"
+    },
     "toulavapipa::LOUTKÁŘ::LOUTKÁŘ": {
       "attempts": 1,
       "last_tried_at": "2026-10-05T21:12:58Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "toulavapipa::MadCat::Desítka": {
+      "attempts": 1,
+      "last_tried_at": "2026-10-19T19:20:49Z",
       "reason": "no_candidates_above_threshold"
     },
     "toulavapipa::Madcat::Desítka": {
