@@ -31,6 +31,39 @@
         "score": 1.0
       }
     },
+    "ambasada::Agent, Olešnice::Moves Cherry nad Banana": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Agent, Olešnice",
+        "name": "Moves Cherry nad Banana",
+        "style": "Pastry fruit sour ale",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-10-20T21:38:01Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Moves Cherry nad Banana 11° Agent",
+          "hits": []
+        },
+        {
+          "query": "Moves Cherry nad Banana Agent",
+          "hits": []
+        },
+        {
+          "query": "Moves Cherry nad Banana 11°",
+          "hits": []
+        },
+        {
+          "query": "Moves Cherry nad Banana",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
     "ambasada::Agent, Olešnice::Moves Exotic": {
       "beer": {
         "source": "ambasada",

@@ -5658,6 +5658,11 @@
     }
   },
   "unmatched": {
+    "ambasada::Agent, Olešnice::Moves Cherry nad Banana": {
+      "attempts": 1,
+      "last_tried_at": "2026-10-20T21:38:01Z",
+      "reason": "no_candidates_above_threshold"
+    },
     "ambasada::JungBerg, Hořice::Hasta la Vista": {
       "attempts": 2,
       "last_tried_at": "2026-09-01T20:52:12Z",
