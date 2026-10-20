@@ -115,6 +115,16 @@
       "query_used": "EjPíEj Blud",
       "description": "Americká světlá ale s vyváženým sladovým základem a střední chmelovou hořkostí, typicky s citrusovými a květinovými tóny ze středoamerických chmelů, středně plné tělo a čistý doboj. Hodnocení 3,69 naznačuje nadprůměrné přijetí."
     },
+    "ambasada::Blud, Olomouc::Hejz": {
+      "untappd_url": "https://untappd.com/b/blud-hejz/6771349",
+      "untappd_name": "Hejz",
+      "untappd_brewery": "BLUD",
+      "rating": 3.77,
+      "match_score": 1.0,
+      "matched_at": "2026-10-20T17:59:10Z",
+      "query_used": "Hejz Blud",
+      "description": "Hazy ale s nižší stupňovitostí: lehčí tělo, jemná sladovost a ovocné aroma s náznaky tropického ovoce, doplněné o jemnou chmelovou hořkost."
+    },
     "ambasada::Brewnicorn, Kročehlavy::Sunny Day": {
       "untappd_url": "https://untappd.com/b/brewnicorn-sunny-day/6689258",
       "untappd_name": "Sunny Day",
@@ -2725,6 +2735,16 @@
       "query_used": "<llm>",
       "description": "Festbier helles je sladově vyvážené spodně kvašené pivo s plnějším tělem a jemnou chmelovou hořkostí, typické pro mnichovské slavnostní ležáky. Při 13,7° a 6,1 % ABV nabízí intenzivnější sladový charakter s medovými a chlebovými tóny, doplněný čistým, lehce kořenitým dozvukem. Hodnocení 3,19 naznačuje podprůměrné přij…"
     },
+    "beerstreet::Matuška::Kyselá Máňa": {
+      "untappd_url": "https://untappd.com/b/pivovar-matuska-kysela-mana/4081210",
+      "untappd_name": "Kyselá Máňa",
+      "untappd_brewery": "Pivovar Matuška",
+      "rating": 3.72,
+      "match_score": 1.0,
+      "matched_at": "2026-10-20T17:59:08Z",
+      "query_used": "Kyselá Máňa 10° Matuška",
+      "description": "Kyselé pivo s výraznou kyselinkou, ostrým citronovým a jahodovým aromem a lehkým tělem."
+    },
     "beerstreet::Matuška::Matuška": {
       "untappd_url": "https://untappd.com/b/pivovar-matuska-california-12-deg/201399",
       "untappd_name": "California 12°",
@@ -3332,6 +3352,16 @@
       "match_score": 1.0,
       "matched_at": "2026-05-28T17:36:28Z",
       "query_used": "Ležák 11° Tvarg"
+    },
+    "beerstreet::Tvarg::Tvarg": {
+      "untappd_url": "https://untappd.com/b/tvarg-lezak-11/4088691",
+      "untappd_name": "Ležák 11",
+      "untappd_brewery": "Tvarg ",
+      "rating": 3.26,
+      "match_score": 0.0,
+      "matched_at": "2026-10-20T17:59:04Z",
+      "query_used": "Tvarg 11° Tvarg",
+      "description": "Světlý ležák s čistým, sladovým základem a jemnou chmelovou hořkostí. Lehké až středně plné tělo, příjemně suchý závěr s nádechem čerstvého chmele. Hodnocení 3.26 je podprůměrné."
     },
     "beerstreet::Twinberg::Az Ban": {
       "untappd_url": "https://untappd.com/b/twinberg-az-ban/6599433",
@@ -4446,6 +4476,16 @@
       "matched_at": "2026-10-05T21:13:03Z",
       "query_used": "UNICORN MIL Raven",
       "description": "Milkshake IPA s výrazným sladovým tělem a nízkou hořkostí, typicky s aroma vanilky, laktózy a tropického ovoce; laktóza přidává krémovou sladkost a plnější pocit v ústech. Nadprůměrně hodnocené."
+    },
+    "toulavapipa::Raven::White IPA": {
+      "untappd_url": "https://untappd.com/b/pivovar-raven-white-ipa/1369454",
+      "untappd_name": "White IPA",
+      "untappd_brewery": "Pivovar Raven",
+      "rating": 3.69,
+      "match_score": 1.0,
+      "matched_at": "2026-10-20T17:59:26Z",
+      "query_used": "White IPA Raven",
+      "description_failed_at": "2026-10-20T17:59:26Z"
     },
     "toulavapipa::Raven::raven": {
       "untappd_url": "https://untappd.com/b/pivovar-raven-raven-12/2531564",
@@ -5726,6 +5766,11 @@
     "beerstreet::Černý Potoka::Cold Fish Mosaic dry hopped": {
       "attempts": 1,
       "last_tried_at": "2026-06-03T18:24:49Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "toulavapipa::BeerPoets + Mordýř::SVATOVÁCLAVSKÝ LEŽÁK": {
+      "attempts": 1,
+      "last_tried_at": "2026-10-20T17:59:23Z",
       "reason": "no_candidates_above_threshold"
     },
     "toulavapipa::Berquell Brauerei::Jahodový porter": {

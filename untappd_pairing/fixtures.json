@@ -428,6 +428,54 @@
         "score": 1.0
       }
     },
+    "ambasada::Blud, Olomouc::Hejz": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Blud, Olomouc",
+        "name": "Hejz",
+        "style": "Hazy ale",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-10-20T17:59:10Z",
+      "candidates": [
+        {
+          "name": "Hejz",
+          "brewery": "BLUD",
+          "url": "/b/blud-hejz/6771349",
+          "rating": 3.77
+        },
+        {
+          "name": "Freš Hejz",
+          "brewery": "BLUD",
+          "url": "/b/blud-fres-hejz/6690525",
+          "rating": 4.09
+        },
+        {
+          "name": "Hejzy Džus",
+          "brewery": "BLUD",
+          "url": "/b/blud-hejzy-dzus/6690585",
+          "rating": 3.9
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Hejz 11° Blud",
+          "hits": []
+        },
+        {
+          "query": "Hejz Blud",
+          "hits": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/blud-hejz/6771349",
+        "score": 1.0
+      }
+    },
     "ambasada::Brewnicorn, Kročehlavy::Sunny Day": {
       "beer": {
         "source": "ambasada",
@@ -10814,6 +10862,36 @@
         "reason": "no_candidates_above_threshold"
       }
     },
+    "beerstreet::Matuška::Kyselá Máňa": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Matuška",
+        "name": "Kyselá Máňa",
+        "style": "Sour",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-10-20T17:59:08Z",
+      "candidates": [
+        {
+          "name": "Kyselá Máňa",
+          "brewery": "Pivovar Matuška",
+          "url": "/b/pivovar-matuska-kysela-mana/4081210",
+          "rating": 3.72
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Kyselá Máňa 10° Matuška",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-matuska-kysela-mana/4081210",
+        "score": 1.0
+      }
+    },
     "beerstreet::Matuška::Matuška": {
       "beer": {
         "source": "beerstreet",
@@ -12974,6 +13052,64 @@
         "score": 1.0
       }
     },
+    "beerstreet::Tvarg::Tvarg": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Tvarg",
+        "name": "Tvarg",
+        "style": "Ležák světlý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-10-20T17:59:04Z",
+      "candidates": [
+        {
+          "name": "Ležák 11",
+          "brewery": "Tvarg ",
+          "url": "/b/tvarg-lezak-11/4088691",
+          "rating": 3.26
+        },
+        {
+          "name": "NEIPA 16°",
+          "brewery": "Tvarg ",
+          "url": "/b/tvarg-neipa/4340973",
+          "rating": 3.6
+        },
+        {
+          "name": "Letňák Ale 10°",
+          "brewery": "Tvarg ",
+          "url": "/b/tvarg-letnak-ale-10/6239577",
+          "rating": 3.34
+        },
+        {
+          "name": "Maracuja Ale 11 °",
+          "brewery": "Tvarg ",
+          "url": "/b/tvarg-maracuja-ale-11-deg/6271581",
+          "rating": 3.24
+        },
+        {
+          "name": "Nachmelený Zajíc 11%",
+          "brewery": "Tvarg ",
+          "url": "/b/tvarg-nachmeleny-zajic-11/5749671",
+          "rating": 3.5
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Tvarg 11° Tvarg",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/tvarg-lezak-11/4088691",
+        "score": 0.0
+      }
+    },
     "beerstreet::Twinberg::Az Ban": {
       "beer": {
         "source": "beerstreet",
@@ -14415,6 +14551,106 @@
       "outcome": {
         "matched": "/b/svabin-brewery-satyr-12-deg/5850087",
         "score": 1.0
+      }
+    },
+    "toulavapipa::BeerPoets + Mordýř::SVATOVÁCLAVSKÝ LEŽÁK": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "BeerPoets + Mordýř",
+        "name": "SVATOVÁCLAVSKÝ LEŽÁK",
+        "style": "Světlý ležák s 10 % žitných sladů",
+        "degree_plato": null
+      },
+      "captured_at": "2026-10-20T17:59:23Z",
+      "candidates": [
+        {
+          "name": "Světlý ležák 13°",
+          "brewery": "Pivovar U Fleků",
+          "url": "/b/pivovar-u-fleku-svetly-lezak-13-deg/3979119",
+          "rating": 3.56
+        },
+        {
+          "name": "Svatováclavský ležák Proskowetz 12°",
+          "brewery": "Břevnovský klášterní pivovar sv. Vojtěcha",
+          "url": "/b/brevnovsky-klasterni-pivovar-sv-vojtecha-svatovaclavsky-lezak-proskowetz-12-deg/1256299",
+          "rating": 3.3
+        },
+        {
+          "name": "Svatováclavský speciál",
+          "brewery": "Pivovar Strakonice",
+          "url": "/b/pivovar-strakonice-svatovaclavsky-special/3457651",
+          "rating": 3.29
+        },
+        {
+          "name": "Svatováclavský ležák 12",
+          "brewery": "Pivovar Trilobit",
+          "url": "/b/pivovar-trilobit-svatovaclavsky-lezak-12/2339332",
+          "rating": 3.24
+        },
+        {
+          "name": "Svatováclavský ležák",
+          "brewery": "Břevnovský klášterní pivovar sv. Vojtěcha",
+          "url": "/b/brevnovsky-klasterni-pivovar-sv-vojtecha-svatovaclavsky-lezak/1767959",
+          "rating": 3.25
+        },
+        {
+          "name": "Svatováclavská 12°",
+          "brewery": "Svatováclavský pivovar",
+          "url": "/b/svatovaclavsky-pivovar-svatovaclavska-12-deg/475464",
+          "rating": 3.44
+        },
+        {
+          "name": "Vašek 10°",
+          "brewery": "Svatováclavský pivovar",
+          "url": "/b/svatovaclavsky-pivovar-vasek-10-deg/200699",
+          "rating": 3.39
+        },
+        {
+          "name": "Tmavé pivo pana Bruna 13°",
+          "brewery": "Svatováclavský pivovar",
+          "url": "/b/svatovaclavsky-pivovar-tmave-pivo-pana-bruna-13-deg/200700",
+          "rating": 3.6
+        },
+        {
+          "name": "Hefe-Weizen 13°",
+          "brewery": "Svatováclavský pivovar",
+          "url": "/b/svatovaclavsky-pivovar-hefe-weizen-13-deg/267749",
+          "rating": 3.11
+        }
+      ],
+      "attempts": [
+        {
+          "query": "SVATOVÁCLAVSKÝ LEŽÁK BeerPoets + Mordýř",
+          "hits": []
+        },
+        {
+          "query": "SVATOVÁCLAVSKÝ LEŽÁK",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "query": "SVATOVÁCLAVSKÝ BeerPoets + Mordýř",
+          "hits": []
+        },
+        {
+          "query": "SVATOVÁCLAVSKÝ",
+          "hits": [
+            0,
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "toulavapipa::Beerpoets/Mordýř::Svatováclavský žitný ležák": {
@@ -17926,6 +18162,64 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-raven-unicorn-milk/5247783",
+        "score": 1.0
+      }
+    },
+    "toulavapipa::Raven::White IPA": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Raven",
+        "name": "White IPA",
+        "style": "Pšeničná IPA",
+        "degree_plato": null
+      },
+      "captured_at": "2026-10-20T17:59:26Z",
+      "candidates": [
+        {
+          "name": "White Raven",
+          "brewery": "Apex Brewing",
+          "url": "/b/apex-brewing-white-raven/1223957",
+          "rating": 3.89
+        },
+        {
+          "name": "White IPA",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-white-ipa/1369454",
+          "rating": 3.69
+        },
+        {
+          "name": "White Hopper Double IPA",
+          "brewery": "Pivovar Permon",
+          "url": "/b/pivovar-permon-white-hopper-double-ipa/1783515",
+          "rating": 3.73
+        },
+        {
+          "name": "White Raven Sabro White IPA",
+          "brewery": "Ravens Brewing Company",
+          "url": "/b/ravens-brewing-company-white-raven-sabro-white-ipa/3889666",
+          "rating": 3.7
+        },
+        {
+          "name": "Elderflower White IPA",
+          "brewery": "Ravens Brewing Company",
+          "url": "/b/ravens-brewing-company-elderflower-white-ipa/1146189",
+          "rating": 3.69
+        }
+      ],
+      "attempts": [
+        {
+          "query": "White IPA Raven",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-raven-white-ipa/1369454",
         "score": 1.0
       }
     },
