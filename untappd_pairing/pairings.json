@@ -4956,6 +4956,16 @@
       "query_used": "<llm>",
       "description_failed_at": "2026-09-01T20:52:46Z"
     },
+    "uzamastilu::Kosmix::Riwakulous": {
+      "untappd_url": "https://untappd.com/b/letajici-pivovar-kosmix-riwakulous/6941832",
+      "untappd_name": "Riwakulous",
+      "untappd_brewery": "Létající pivovar Kosmix",
+      "rating": 3.67,
+      "match_score": 1.0,
+      "matched_at": "2026-10-21T18:03:21Z",
+      "query_used": "Riwakulous Kosmix",
+      "description": "APA s jasným chmeleným profilem, střední hořkostí a čistým, chutným závěrem. Léhké tělo s mírnou plností, typické pro tento styl."
+    },
     "uzamastilu::Kynšperk::Ležák": {
       "untappd_url": "https://untappd.com/b/kynspersky-pivovar-kynspersky-zajic-12-deg-svetly-lezak/850661",
       "untappd_name": "Kynšperský Zajíc 12° světlý ležák",
@@ -5335,6 +5345,16 @@
       "matched_at": "2026-08-10T09:33:28Z",
       "query_used": "ColdFest Cold",
       "description": "ColdFest 2026 od Pivovaru Raven je osvěžující IPA s mírnou až střední silou, která potěší příznivce aromatických chmílových vůní a dobře se hodí na letní osvěžení nebo neformální setkání s přáteli."
+    },
+    "uzamastilu::Raven::Never Again! Vol.6": {
+      "untappd_url": "https://untappd.com/b/pivovar-raven-never-again-vol-1-cryo-hbc630-and-talus/5960912",
+      "untappd_name": "Never Again! Vol. 1 - CRYO HBC630 & Talus",
+      "untappd_brewery": "Pivovar Raven",
+      "rating": 3.91,
+      "match_score": 1.0,
+      "matched_at": "2026-10-21T18:03:17Z",
+      "query_used": "Never Again! Raven",
+      "description": "NEIPA s výrazným chmelem CRYO HBC630 a Talus: intenzivní citrusové aroma s tóny grapefruitu a tropického ovoce, hořkost je výrazná ale hladká, tělo je středně plné s jemnou sladovou podporou. Pivo je nadprůměrně hodnocené (3,91)."
     },
     "uzamastilu::Raven::Tropic Edge": {
       "untappd_url": "https://untappd.com/b/pivovar-raven-tropic-edge/3495180",
@@ -5841,6 +5861,11 @@
     "uzamastilu::::": {
       "attempts": 1,
       "last_tried_at": "2026-10-06T22:56:59Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "uzamastilu::Blud::Vestkoust Lágr IPL": {
+      "attempts": 1,
+      "last_tried_at": "2026-10-21T18:03:27Z",
       "reason": "no_candidates_above_threshold"
     },
     "uzamastilu::Brewnicorn::Predátor W.Coast": {

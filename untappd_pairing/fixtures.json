@@ -19229,6 +19229,39 @@
         "score": 1.0
       }
     },
+    "uzamastilu::Blud::Vestkoust Lágr IPL": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Blud",
+        "name": "Vestkoust Lágr IPL",
+        "style": "",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-10-21T18:03:27Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Vestkoust Lágr IPL 11° Blud",
+          "hits": []
+        },
+        {
+          "query": "Vestkoust Lágr IPL Blud",
+          "hits": []
+        },
+        {
+          "query": "Vestkoust Lágr IPL 11°",
+          "hits": []
+        },
+        {
+          "query": "Vestkoust Lágr IPL",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
     "uzamastilu::Brewnicorn::Pohodale": {
       "beer": {
         "source": "uzamastilu",
@@ -20414,6 +20447,40 @@
       "outcome": {
         "matched": null,
         "reason": "no_candidates_above_threshold"
+      }
+    },
+    "uzamastilu::Kosmix::Riwakulous": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Kosmix",
+        "name": "Riwakulous",
+        "style": "APA",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-10-21T18:03:21Z",
+      "candidates": [
+        {
+          "name": "Riwakulous",
+          "brewery": "Létající pivovar Kosmix",
+          "url": "/b/letajici-pivovar-kosmix-riwakulous/6941832",
+          "rating": 3.67
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Riwakulous 11° Kosmix",
+          "hits": []
+        },
+        {
+          "query": "Riwakulous Kosmix",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/letajici-pivovar-kosmix-riwakulous/6941832",
+        "score": 1.0
       }
     },
     "uzamastilu::Kujebák::Ležák": {
@@ -22516,6 +22583,68 @@
       "outcome": {
         "matched": "/b/pivovar-raven-coldfest-2026/6800289",
         "score": 0.875
+      }
+    },
+    "uzamastilu::Raven::Never Again! Vol.6": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Raven",
+        "name": "Never Again! Vol.6",
+        "style": "NEIPA",
+        "degree_plato": 15.0
+      },
+      "captured_at": "2026-10-21T18:03:17Z",
+      "candidates": [
+        {
+          "name": "Never Again! Vol. 2 - CRYO Krush (HBC 586) & Bru-1",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-never-again-vol-2-cryo-krush-hbc-586-and-bru-1/6117606",
+          "rating": 3.97
+        },
+        {
+          "name": "Never Again! Vol. 3 - CRYO Nelson Sauvin & Superdelic",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-never-again-vol-3-cryo-nelson-sauvin-and-superdelic/6204339",
+          "rating": 3.97
+        },
+        {
+          "name": "Never Again! Vol. 4 - CRYO Idaho 7 & Lotus",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-never-again-vol-4-cryo-idaho-7-and-lotus/6350971",
+          "rating": 3.86
+        },
+        {
+          "name": "Never Again! Vol. 1 - CRYO HBC630 & Talus",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-never-again-vol-1-cryo-hbc630-and-talus/5960912",
+          "rating": 3.91
+        },
+        {
+          "name": "Never Again! Vol. 5 - CRYO Motueka & Alora",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-never-again-vol-5-cryo-motueka-and-alora/6590075",
+          "rating": 3.89
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Never Again! 15° Raven",
+          "hits": []
+        },
+        {
+          "query": "Never Again! Raven",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-raven-never-again-vol-1-cryo-hbc630-and-talus/5960912",
+        "score": 1.0
       }
     },
     "uzamastilu::Raven::Tropic Edge": {
