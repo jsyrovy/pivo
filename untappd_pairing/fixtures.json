@@ -13055,6 +13055,64 @@
         "score": 1.0
       }
     },
+    "beerstreet::Trojan::Měšťanská": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Trojan",
+        "name": "Měšťanská",
+        "style": "Ležák světlý",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-10-21T21:43:33Z",
+      "candidates": [
+        {
+          "name": "Liborova dvanáctka",
+          "brewery": "Pivovar Trojan Telč",
+          "url": "/b/pivovar-trojan-telc-liborova-dvanactka/3403276",
+          "rating": null
+        },
+        {
+          "name": "Trojan Telč IPA 12°",
+          "brewery": "Pivovar Trojan Telč",
+          "url": "/b/pivovar-trojan-telc-trojan-telc-ipa-12-deg/5904566",
+          "rating": null
+        },
+        {
+          "name": "Měšťanský ležák 12",
+          "brewery": "Pivovar Trojan Telč",
+          "url": "/b/pivovar-trojan-telc-mestansky-lezak-12/2210907",
+          "rating": 3.31
+        },
+        {
+          "name": "Weizen Telcz",
+          "brewery": "Pivovar Trojan Telč",
+          "url": "/b/pivovar-trojan-telc-weizen-telcz/2759481",
+          "rating": 3.38
+        },
+        {
+          "name": "Jarní 10°",
+          "brewery": "Pivovar Trojan Telč",
+          "url": "/b/pivovar-trojan-telc-jarni-10-deg/3213222",
+          "rating": 3.46
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Měšťanská 12° Trojan",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-trojan-telc-mestansky-lezak-12/2210907",
+        "score": 0.875
+      }
+    },
     "beerstreet::Tvarg::Ležák": {
       "beer": {
         "source": "beerstreet",

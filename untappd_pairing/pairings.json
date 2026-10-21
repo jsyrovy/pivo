@@ -3344,6 +3344,16 @@
       "query_used": "Lékárníkova 11° Trojan",
       "description": "Klasický světlý ležák: sladový základ, jemná chmelová hořkost a lehčí tělo, spodně kvašený a čistý v chuti."
     },
+    "beerstreet::Trojan::Měšťanská": {
+      "untappd_url": "https://untappd.com/b/pivovar-trojan-telc-mestansky-lezak-12/2210907",
+      "untappd_name": "Měšťanský ležák 12",
+      "untappd_brewery": "Pivovar Trojan Telč",
+      "rating": 3.31,
+      "match_score": 0.875,
+      "matched_at": "2026-10-21T21:43:33Z",
+      "query_used": "Měšťanská 12° Trojan",
+      "description_failed_at": "2026-10-21T21:43:33Z"
+    },
     "beerstreet::Tvarg::Ležák": {
       "untappd_url": "https://untappd.com/b/tvarg-lezak-11/4088691",
       "untappd_name": "Ležák 11",
