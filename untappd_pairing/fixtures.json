@@ -5852,6 +5852,40 @@
         "score": 1.0
       }
     },
+    "ambasada::Švabín::Pixie": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Švabín",
+        "name": "Pixie",
+        "style": "APA",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-10-22T17:58:50Z",
+      "candidates": [
+        {
+          "name": "Pixie",
+          "brewery": "Švabín Brewery",
+          "url": "/b/svabin-brewery-pixie/6223505",
+          "rating": 3.64
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Pixie 11° Švabín",
+          "hits": []
+        },
+        {
+          "query": "Pixie Švabín",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/svabin-brewery-pixie/6223505",
+        "score": 1.0
+      }
+    },
     "beerstreet::Agent::Essence of Summer": {
       "beer": {
         "source": "beerstreet",
@@ -17909,6 +17943,43 @@
         "score": 0.9091
       }
     },
+    "toulavapipa::Raven::Drifter": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Raven",
+        "name": "Drifter",
+        "style": "APA",
+        "degree_plato": null
+      },
+      "captured_at": "2026-10-22T17:58:53Z",
+      "candidates": [
+        {
+          "name": "Drifter",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-drifter/2950687",
+          "rating": 3.7
+        },
+        {
+          "name": "Drifter Pilsner",
+          "brewery": "Ravenna Brewing Company",
+          "url": "/b/ravenna-brewing-company-drifter-pilsner/3385475",
+          "rating": 3.84
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Drifter Raven",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-raven-drifter/2950687",
+        "score": 1.0
+      }
+    },
     "toulavapipa::Raven::Gunslinger": {
       "beer": {
         "source": "toulavapipa",
@@ -23739,6 +23810,62 @@
         {
           "query": "Voodoo #7 Cryo",
           "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
+    "uzamastilu::Záhora::Cucumber Season": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Záhora",
+        "name": "Cucumber Season",
+        "style": "Lager",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-10-22T17:59:04Z",
+      "candidates": [
+        {
+          "name": "Stone Delicious IPA W/Cucumber & Tajin Seasoning",
+          "brewery": "Stone Brewing",
+          "url": "/b/stone-brewing-stone-delicious-ipa-w-cucumber-and-tajin-seasoning/1697375",
+          "rating": 2.78
+        },
+        {
+          "name": "Seasonal Cran-Cucumber",
+          "brewery": "Endless Orchard Hard-Pressed Cider",
+          "url": "/b/endless-orchard-hard-pressed-cider-seasonal-cran-cucumber/6702806",
+          "rating": 3.98
+        },
+        {
+          "name": "Sustainable Seasons Watermelon - Cucumber - Lime Organic Flavored Vodka",
+          "brewery": "Prairie Organic Spirits",
+          "url": "/b/prairie-organic-spirits-sustainable-seasons-watermelon-cucumber-lime-organic-flavored-vodka/7595357",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Cucumber Season 11° Záhora",
+          "hits": []
+        },
+        {
+          "query": "Cucumber Season Záhora",
+          "hits": []
+        },
+        {
+          "query": "Cucumber Season 11°",
+          "hits": []
+        },
+        {
+          "query": "Cucumber Season",
+          "hits": [
+            0,
+            1,
+            2
+          ]
         }
       ],
       "outcome": {

@@ -1631,6 +1631,16 @@
       "query_used": "West of Heaven 14° Čestmír",
       "description": "IPA 14 - WEST OF HEAVEN od Pivovaru Čestmír je typickým west coast IPA s mírně vyšší stupňovitostí 14° a 6,1 % alkoholu, vhodné pro osvěžující osvěžení po práci nebo při společenských setkáních."
     },
+    "ambasada::Švabín::Pixie": {
+      "untappd_url": "https://untappd.com/b/svabin-brewery-pixie/6223505",
+      "untappd_name": "Pixie",
+      "untappd_brewery": "Švabín Brewery",
+      "rating": 3.64,
+      "match_score": 1.0,
+      "matched_at": "2026-10-22T17:58:50Z",
+      "query_used": "Pixie Švabín",
+      "description": "APA s rovnováhou sladkosti a hořkosti, střední plnost a vysoce kvašený charakter; aroma a chuť citrusové a květinové chmelové noty, žádné extrémní chuti nebo suroviny, vysoce hodnocené."
+    },
     "ambasada::Švabín::Puk Malina/Granátové Jablko": {
       "untappd_url": "https://untappd.com/b/svabin-brewery-puk-malina-granatove-jablko/6703830",
       "untappd_name": "PUK Malina, Granátové Jablko",
@@ -4397,6 +4407,16 @@
       "query_used": "Cascadelicous Raven",
       "description": "Cascadelicious je lehké a svěží Session IPA s aromatickými citrusovými a tropickými tóny, mírnou hořkostí a měkkým tělem, vyrobené s kvasinkami Kveik pro intenzivní ovocnou vůni. POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE POUZE PO…"
     },
+    "toulavapipa::Raven::Drifter": {
+      "untappd_url": "https://untappd.com/b/pivovar-raven-drifter/2950687",
+      "untappd_name": "Drifter",
+      "untappd_brewery": "Pivovar Raven",
+      "rating": 3.7,
+      "match_score": 1.0,
+      "matched_at": "2026-10-22T17:58:53Z",
+      "query_used": "Drifter Raven",
+      "description": "APA s vyváženou sladkostí a mírnou hořkostí, aroma chmelu a lehké sladkosti, střední tělo a suchý závěr."
+    },
     "toulavapipa::Raven::Gunslinger": {
       "untappd_url": "https://untappd.com/b/pivovar-raven-gunslinger/1614466",
       "untappd_name": "Gunslinger",
@@ -5961,6 +5981,11 @@
     "uzamastilu::Zlatá Kráva::Voodoo #7 Cryo": {
       "attempts": 1,
       "last_tried_at": "2026-09-18T17:00:42Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "uzamastilu::Záhora::Cucumber Season": {
+      "attempts": 1,
+      "last_tried_at": "2026-10-22T17:59:04Z",
       "reason": "no_candidates_above_threshold"
     }
   }
