@@ -3714,6 +3714,40 @@
         "score": 1.0
       }
     },
+    "ambasada::Pivečka, Rousínov::Grapefruit Infused Extra Brut IPA": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Pivečka, Rousínov",
+        "name": "Grapefruit Infused Extra Brut IPA",
+        "style": "Fruity brut IPA",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-10-22T21:36:23Z",
+      "candidates": [
+        {
+          "name": "Grapefruit Infused Extra Brut IPA",
+          "brewery": "Pivovar Pivečka",
+          "url": "/b/pivovar-pivecka-grapefruit-infused-extra-brut-ipa/4347139",
+          "rating": 3.66
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Grapefruit Infused Extra Brut IPA 13° Pivečka",
+          "hits": []
+        },
+        {
+          "query": "Grapefruit Infused Extra Brut IPA Pivečka",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-pivecka-grapefruit-infused-extra-brut-ipa/4347139",
+        "score": 1.0
+      }
+    },
     "ambasada::Pivečka, Rousínov::Maracuja Brut IPA": {
       "beer": {
         "source": "ambasada",
@@ -12094,6 +12128,64 @@
       "outcome": {
         "matched": "/b/pivovar-pivecka-single-hop-lager-kazbek-11-deg/6919763",
         "score": 1.0
+      }
+    },
+    "beerstreet::Pivečka::Pivečka": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Pivečka",
+        "name": "Pivečka",
+        "style": "Session IPA",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-10-22T21:36:20Z",
+      "candidates": [
+        {
+          "name": "Rousínovská dvanáctka",
+          "brewery": "Pivovar Pivečka",
+          "url": "/b/pivovar-pivecka-rousinovska-dvanactka/3553523",
+          "rating": 3.29
+        },
+        {
+          "name": "Brut IPA Maracuja 12°",
+          "brewery": "Pivovar Pivečka",
+          "url": "/b/pivovar-pivecka-brut-ipa-maracuja-12-deg/6839421",
+          "rating": 3.65
+        },
+        {
+          "name": "Peach Infused Extra Brut IPA 12°",
+          "brewery": "Pivovar Pivečka",
+          "url": "/b/pivovar-pivecka-peach-infused-extra-brut-ipa-12-deg/6841432",
+          "rating": 3.79
+        },
+        {
+          "name": "American Lager Galaxy 12°",
+          "brewery": "Pivovar Pivečka",
+          "url": "/b/pivovar-pivecka-american-lager-galaxy-12-deg/2097528",
+          "rating": 3.18
+        },
+        {
+          "name": "Cloudy",
+          "brewery": "Pivovar Pivečka",
+          "url": "/b/pivovar-pivecka-cloudy/2837318",
+          "rating": 3.53
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Pivečka 12° Pivečka",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-pivecka-brut-ipa-maracuja-12-deg/6839421",
+        "score": 0.0
       }
     },
     "beerstreet::Pivovar Pivečka::Pivečka": {
@@ -22433,6 +22525,40 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-potmehud-smash-the-dolcita/6816247",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Potmehúd::Smash The Rhapzody": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Potmehúd",
+        "name": "Smash The Rhapzody",
+        "style": "APA",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-10-22T21:36:30Z",
+      "candidates": [
+        {
+          "name": "SMaSH the Rhapzody",
+          "brewery": "Pivovar Potmehúd",
+          "url": "/b/pivovar-potmehud-smash-the-rhapzody/6961918",
+          "rating": 3.89
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Smash The Rhapzody 12° Potmehúd",
+          "hits": []
+        },
+        {
+          "query": "Smash The Rhapzody Potmehúd",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-potmehud-smash-the-rhapzody/6961918",
         "score": 1.0
       }
     },

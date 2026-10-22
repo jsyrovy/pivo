@@ -995,6 +995,16 @@
       "matched_at": "2026-07-09T18:52:31Z",
       "query_used": "Cherry & Hibiscus Pivečka"
     },
+    "ambasada::Pivečka, Rousínov::Grapefruit Infused Extra Brut IPA": {
+      "untappd_url": "https://untappd.com/b/pivovar-pivecka-grapefruit-infused-extra-brut-ipa/4347139",
+      "untappd_name": "Grapefruit Infused Extra Brut IPA",
+      "untappd_brewery": "Pivovar Pivečka",
+      "rating": 3.66,
+      "match_score": 1.0,
+      "matched_at": "2026-10-22T21:36:23Z",
+      "query_used": "Grapefruit Infused Extra Brut IPA Pivečka",
+      "description_failed_at": "2026-10-22T21:36:30Z"
+    },
     "ambasada::Pivečka, Rousínov::Lime & Mint": {
       "untappd_url": "https://untappd.com/b/pivovar-pivecka-lime-mint-sour-ale/6384306",
       "untappd_name": "Lime & Mint Sour Ale",
@@ -3072,6 +3082,16 @@
       "matched_at": "2026-10-10T21:26:20Z",
       "query_used": "Kazbek 11° Pivečka",
       "description": "Klasický světlý ležák: sladový základ, jemná chmelová hořkost a lehčí tělo, spodně kvašený a čistý v chuti. Chmel Kazbek přináší jemně kořenitý, lehce bylinný až květinový tón s jemnou chmelovou přítomností."
+    },
+    "beerstreet::Pivečka::Pivečka": {
+      "untappd_url": "https://untappd.com/b/pivovar-pivecka-brut-ipa-maracuja-12-deg/6839421",
+      "untappd_name": "Brut IPA Maracuja 12°",
+      "untappd_brewery": "Pivovar Pivečka",
+      "rating": 3.65,
+      "match_score": 0.0,
+      "matched_at": "2026-10-22T21:36:20Z",
+      "query_used": "Pivečka 12° Pivečka",
+      "description": "Brut IPA Maracuja je výrazně chmelená session IPA s intenzivním tropickým aroma marakujy, citrusovou hořkostí a suchým, lehkým závěrem, kde nízký obsah alkoholu dává piva lehkou, osvěžující plnost."
     },
     "beerstreet::Pivovar Pivečka::Pivečka": {
       "untappd_url": "https://untappd.com/b/pivovar-pivecka-bohemka-11-deg/1257128",
@@ -5335,6 +5355,16 @@
       "matched_at": "2026-09-06T21:13:15Z",
       "query_used": "Smash The Dolcita Potmehúd",
       "description_failed_at": "2026-09-06T21:13:15Z"
+    },
+    "uzamastilu::Potmehúd::Smash The Rhapzody": {
+      "untappd_url": "https://untappd.com/b/pivovar-potmehud-smash-the-rhapzody/6961918",
+      "untappd_name": "SMaSH the Rhapzody",
+      "untappd_brewery": "Pivovar Potmehúd",
+      "rating": 3.89,
+      "match_score": 1.0,
+      "matched_at": "2026-10-22T21:36:30Z",
+      "query_used": "Smash The Rhapzody Potmehúd",
+      "description": "Americká pale ale se sladovým základem, jemnou chmelovou hořkostí a středně plným tělem."
     },
     "uzamastilu::Rampušák::Dobrušská Nefiltr": {
       "untappd_url": "https://untappd.com/b/rodinny-pivovar-rampusak-dobrusska-11-nefiltrovana/5987923",
