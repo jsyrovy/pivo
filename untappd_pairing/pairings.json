@@ -1679,6 +1679,16 @@
       "matched_at": "2026-07-15T20:14:57Z",
       "query_used": "Helenka 11° Agent"
     },
+    "beerstreet::Agent::Ilegal": {
+      "untappd_url": "https://untappd.com/b/pivovar-agent-ilegal/4034196",
+      "untappd_name": "Ilegál",
+      "untappd_brewery": "Pivovar Agent",
+      "rating": 3.49,
+      "match_score": 1.0,
+      "matched_at": "2026-10-23T21:24:58Z",
+      "query_used": "Ilegal 11° Agent",
+      "description": "Klasická americká APA s výrazným chmelovým profilem: citrusová, tropická a pryskyřičná aroma, střední tělo a čistá, sucho končící hořkost."
+    },
     "beerstreet::Agent::Léto": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-leto/5400226",
       "untappd_name": "Léto",
@@ -2708,6 +2718,16 @@
       "matched_at": "2026-06-16T16:49:17Z",
       "query_used": "<override>"
     },
+    "beerstreet::Loutkář::Superdelic": {
+      "untappd_url": "https://untappd.com/b/pivovar-loutkar-superdelic-11/7615759",
+      "untappd_name": "Superdelic 11",
+      "untappd_brewery": "Pivovar Loutkář",
+      "rating": null,
+      "match_score": 1.0,
+      "matched_at": "2026-10-23T21:24:57Z",
+      "query_used": "Superdelic 11° Loutkář",
+      "description": "Svrchně kvašený new zealand pale ležák s lehkým až středně plným tělem, jemnou sladovou chutí a čistým, ovocně květinovým aroma. Chmelení typické pro novozélandské odrůdy (např. Nelson Sauvin nebo Motueka) přináší tóny černého rybízu, grapefruitu a lehkého medu s jemnou hořkostí a suchým závěrem."
+    },
     "beerstreet::Loutkář::Velikonoční": {
       "untappd_url": "https://untappd.com/b/pivovar-loutkar-velikonocni-lezak-12-a-pul/5766556",
       "untappd_name": "Velikonoční Ležák 12 A Půl",
@@ -2832,6 +2852,16 @@
       "match_score": 1.0,
       "matched_at": "2026-05-22T09:08:55Z",
       "query_used": "Extra hořká 11° Mazák"
+    },
+    "beerstreet::Mazák::Saaz Shine": {
+      "untappd_url": "https://untappd.com/b/pivovar-mazak-saaz-shine/5681778",
+      "untappd_name": "Saaz Shine",
+      "untappd_brewery": "Pivovar Mazák",
+      "rating": 3.62,
+      "match_score": 1.0,
+      "matched_at": "2026-10-23T21:24:55Z",
+      "query_used": "Saaz Shine Mazák",
+      "description": "Klasický český světlý ležák 12° se sladovým základem, jemnou chmelovou hořkostí a čistým, suchým závěrem; název naznačuje použití chmele žatec, který přináší jemné bylinné a lehce kořeněné aroma."
     },
     "beerstreet::Mazák::Tropical Wave": {
       "untappd_url": "https://untappd.com/b/pivovar-mazak-tropical-wave-11/6652946",

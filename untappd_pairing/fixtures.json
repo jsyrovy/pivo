@@ -5980,6 +5980,36 @@
         "score": 1.0
       }
     },
+    "beerstreet::Agent::Ilegal": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Agent",
+        "name": "Ilegal",
+        "style": "APA",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-10-23T21:24:58Z",
+      "candidates": [
+        {
+          "name": "Ilegál",
+          "brewery": "Pivovar Agent",
+          "url": "/b/pivovar-agent-ilegal/4034196",
+          "rating": 3.49
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Ilegal 11° Agent",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-agent-ilegal/4034196",
+        "score": 1.0
+      }
+    },
     "beerstreet::Agent::Léto": {
       "beer": {
         "source": "beerstreet",
@@ -10733,6 +10763,36 @@
         "reason": "no_candidates_above_threshold"
       }
     },
+    "beerstreet::Loutkář::Superdelic": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Loutkář",
+        "name": "Superdelic",
+        "style": "New zealand pale ale",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-10-23T21:24:57Z",
+      "candidates": [
+        {
+          "name": "Superdelic 11",
+          "brewery": "Pivovar Loutkář",
+          "url": "/b/pivovar-loutkar-superdelic-11/7615759",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Superdelic 11° Loutkář",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-loutkar-superdelic-11/7615759",
+        "score": 1.0
+      }
+    },
     "beerstreet::Loutkář::Svatováclavský Kašpárek": {
       "beer": {
         "source": "beerstreet",
@@ -11212,6 +11272,40 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-mazak-extra-horka-11deg/792388",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Mazák::Saaz Shine": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Mazák",
+        "name": "Saaz Shine",
+        "style": "Ležák světlý",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-10-23T21:24:55Z",
+      "candidates": [
+        {
+          "name": "Saaz Shine",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-saaz-shine/5681778",
+          "rating": 3.62
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Saaz Shine 12° Mazák",
+          "hits": []
+        },
+        {
+          "query": "Saaz Shine Mazák",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mazak-saaz-shine/5681778",
         "score": 1.0
       }
     },
