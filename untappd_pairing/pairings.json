@@ -2491,7 +2491,8 @@
       "rating": 3.461,
       "match_score": 1.0,
       "matched_at": "2026-05-27T08:34:14Z",
-      "query_used": "Helles Louka"
+      "query_used": "Helles Louka",
+      "description": "Světlý ležák s čistým, sladovým základem a jemnou chmelovou hořkostí. Lehké až středně plné tělo, příjemně svěží aroma s nádechem svělého sladu a bylinného chmele, typické pro spodně kvašený styl."
     },
     "beerstreet::Louka::Horňácká": {
       "untappd_url": "https://untappd.com/b/pivovar-louka-hornacka-11/6079709",
