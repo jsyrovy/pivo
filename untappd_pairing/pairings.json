@@ -1622,6 +1622,16 @@
       "query_used": "Skydancer 11° Čestmír",
       "description": "Americký pale ale s střední hořkostí, citrusovým a květinovým chmelem, sladovým základem a středně plným tělem. Spodně kvašený není, jedná se o svrchně kvašené pivo s vyváženým profilem."
     },
+    "ambasada::Čestmír, Brandýs nad Labem::Sundown": {
+      "untappd_url": "https://untappd.com/b/pivovar-cestmir-session-ipa-sundown/5894419",
+      "untappd_name": "Sundown",
+      "untappd_brewery": "Pivovar Čestmír",
+      "rating": 3.67,
+      "match_score": 1.0,
+      "matched_at": "2026-10-24T16:36:06Z",
+      "query_used": "Sundown Čestmír",
+      "description": "Lehká session IPA s nižším alkoholem a plným chmelovým aromatem citrusů a tropského ovocia, jemná hořkost a suchý, pitelný závěr."
+    },
     "ambasada::Čestmír, Brandýs nad Labem::Tanec Slunce": {
       "untappd_url": "https://untappd.com/b/pivovar-cestmir-summer-ale-10-tanec-slunce/3337676",
       "untappd_name": "Summer Ale 10 – Tanec Slunce",
@@ -1999,6 +2009,16 @@
       "matched_at": "2026-09-05T18:02:06Z",
       "query_used": "Ostružina Falkon",
       "description": "Kyselé svrchně kvašené pivo s ostrou ovocnou kyselinkou a lehkým tělem; ostružina přidává tmavě bobulový, sladkokyselý tón, který doplňuje přirozenou kyselost základního souru. Střední plnost odpovídá 11° stupňovitosti a 4,8 % alkoholu."
+    },
+    "beerstreet::Fenek::Fresh SAAZ": {
+      "untappd_url": "https://untappd.com/b/fenek-craft-beer-fresh-saaz-2025/6438136",
+      "untappd_name": "Fresh SAAZ",
+      "untappd_brewery": "Fenek Craft Beer",
+      "rating": 3.55,
+      "match_score": 1.0,
+      "matched_at": "2026-10-24T16:35:49Z",
+      "query_used": "Fresh SAAZ Fenek",
+      "description": "Světlý ležák s vyváženou sladovou chutí a jemnou chmelovou hořkostí, spodně kvašený s čistým, svěžím tělem a lehkým dozníváním."
     },
     "beerstreet::Fenek::Hazelet": {
       "untappd_url": "https://untappd.com/b/fenek-craft-beer-hazelet-12/6343811",
@@ -2465,6 +2485,16 @@
       "match_score": 1.0,
       "matched_at": "2026-06-10T12:02:24Z",
       "query_used": "Fresh Breakfast 001 Louka"
+    },
+    "beerstreet::Louka::Freshbreakfast #001 - meruňka + mango + maracuja": {
+      "untappd_url": "https://untappd.com/b/pivovar-louka-fresh-breakfast-001/5368521",
+      "untappd_name": "Fresh Breakfast #001",
+      "untappd_brewery": "Pivovar Louka",
+      "rating": 3.73,
+      "match_score": 1.0,
+      "matched_at": "2026-10-24T16:36:00Z",
+      "query_used": "Freshbreakfast #001 Louka",
+      "description": "Sour pivo s lehkým tělem a výraznou kyselostí; ovoce v názvu (meruňka, mango, maracuja) přidává sladké, tropické tóny, které kyselost vyvažují. Nižší stupňovitost a alkohol zajišťují snadnou pitelnost, ovocné aroma je intenzivní a čerstvé."
     },
     "beerstreet::Louka::Freshbreakfast #003": {
       "untappd_url": "https://untappd.com/b/pivovar-louka-fresh-breakfast-003/5429042",
