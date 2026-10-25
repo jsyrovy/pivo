@@ -852,6 +852,16 @@
       "matched_at": "2026-04-18T19:39:21Z",
       "query_used": "Sametová Mordýř"
     },
+    "ambasada::Mordýř, Dolní Ředice::Svatomartinská": {
+      "untappd_url": "https://untappd.com/b/pivovar-mordyr-svatomartinsky-lezak-2025/6500478",
+      "untappd_name": "Svatomartinský Ležák (2025)",
+      "untappd_brewery": "Pivovar Mordýř",
+      "rating": null,
+      "match_score": 0.9231,
+      "matched_at": "2026-10-25T17:04:23Z",
+      "query_used": "Svatomartinská Mordýř",
+      "description_failed_at": "2026-10-25T17:04:56Z"
+    },
     "ambasada::Mordýř, Dolní Ředice::Svatováclavská": {
       "untappd_url": "https://untappd.com/b/pivovar-mordyr-svatovaclavska-12/2864744",
       "untappd_name": "Svatováclavská 12",
@@ -2922,6 +2932,16 @@
       "query_used": "Elegán Mordýř",
       "description": "Světlý ležák s chmelovým charakterem IPL: sladový základ, střední plnost a jemná chmelová hořkost s citrusovými a květinovými tóny od chmele Cascade, spodně kvašený a vyvážený v chuti."
     },
+    "beerstreet::Mordýř::Krush": {
+      "untappd_url": "https://untappd.com/b/pivovar-mordyr-krush-smash-ale/6644094",
+      "untappd_name": "Krush Smash Ale",
+      "untappd_brewery": "Pivovar Mordýř",
+      "rating": 3.64,
+      "match_score": 1.0,
+      "matched_at": "2026-10-25T17:04:18Z",
+      "query_used": "Krush Mordýř",
+      "description": "Jednoduché ale (SMASH) z jednoho sladu a jednoho chmele: čistý sladový základ, jasné chmelové aroma a hořkost podle použité odrůdy, střední tělo a suchý, pitelný závěr."
+    },
     "beerstreet::Mordýř::Nectaron": {
       "untappd_url": "https://untappd.com/b/pivovar-mordyr-nectaron-smash-ale/6361344",
       "untappd_name": "Nectaron Smash Ale",
@@ -3153,6 +3173,16 @@
       "matched_at": "2026-10-22T21:36:20Z",
       "query_used": "Pivečka 12° Pivečka",
       "description": "Brut IPA Maracuja je výrazně chmelená session IPA s intenzivním tropickým aroma marakujy, citrusovou hořkostí a suchým, lehkým závěrem, kde nízký obsah alkoholu dává piva lehkou, osvěžující plnost."
+    },
+    "beerstreet::Pivečka::Rousínovská": {
+      "untappd_url": "https://untappd.com/b/pivovar-pivecka-rousinovska-jedenactka/2757735",
+      "untappd_name": "Rousínovská jedenáctka",
+      "untappd_brewery": "Pivovar Pivečka",
+      "rating": 3.35,
+      "match_score": 1.0,
+      "matched_at": "2026-10-25T17:04:16Z",
+      "query_used": "Rousínovská 11° Pivečka",
+      "description_failed_at": "2026-10-25T17:04:56Z"
     },
     "beerstreet::Pivovar Pivečka::Pivečka": {
       "untappd_url": "https://untappd.com/b/pivovar-pivecka-bohemka-11-deg/1257128",
@@ -4218,6 +4248,16 @@
       "query_used": "Lodní šroub Loutkář",
       "description": "Klasická americká pale ale s vyváženým sladovým základem a střední chmelovou hořkostí, typicky s citrusovými a květinovými tóny, středně plné tělo a čistý dojem. Hodnocení 3,52 odpovídá průměrné úrovni."
     },
+    "toulavapipa::Loutkář::Samotář": {
+      "untappd_url": "https://untappd.com/b/pivovar-loutkar-samotar/4539596",
+      "untappd_name": "Samotář",
+      "untappd_brewery": "Pivovar Loutkář",
+      "rating": 3.5,
+      "match_score": 1.0,
+      "matched_at": "2026-10-25T17:04:26Z",
+      "query_used": "Samotář Loutkář",
+      "description": "Světlý ležák s klasickou sladovinou a jemnou chmelovou hořkostí, spodně kvašený a čistý v chuti."
+    },
     "toulavapipa::Loutkář::Výroční ležák": {
       "untappd_url": "https://untappd.com/b/pivovar-loutkar-vyrocni-lezak-12/4480456",
       "untappd_name": "Výroční ležák 12",
@@ -4528,6 +4568,16 @@
       "query_used": "Midwest IPA Raven",
       "description": "Hazy IPA s mléčným zákalem, intenzivním tropickým a ovocným aroma chmele, střední hořkostí a plnějším, sametovým tělem typickým pro New England styl. Hodnocení 3,81 naznačuje nadprůměrné přijetí na Untappd."
     },
+    "toulavapipa::Raven::Oktoberfest": {
+      "untappd_url": "https://untappd.com/b/pivovar-raven-oktoberfest/5522514",
+      "untappd_name": "Oktoberfest",
+      "untappd_brewery": "Pivovar Raven",
+      "rating": 3.54,
+      "match_score": 1.0,
+      "matched_at": "2026-10-25T17:04:26Z",
+      "query_used": "Oktoberfest Raven",
+      "description": "Klasický marzen s mírně sladkovým chmelem, jasně karamelovými a sladovými tóny v chuti, středně plného těla a jemnou, mírně hořkou dohřátostí."
+    },
     "toulavapipa::Raven::Orange IPA": {
       "untappd_url": "https://untappd.com/b/pivovar-raven-orange-ipa/1676555",
       "untappd_name": "Orange IPA",
@@ -4767,6 +4817,16 @@
       "matched_at": "2026-08-10T09:32:09Z",
       "query_used": "New zealand pilsner Čestmír"
     },
+    "toulavapipa::Čestmír::Nocturno": {
+      "untappd_url": "https://untappd.com/b/pivovar-cestmir-ipa-13-nocturno/3205380",
+      "untappd_name": "IPA 13 – Nocturno",
+      "untappd_brewery": "Pivovar Čestmír",
+      "rating": 3.66,
+      "match_score": 1.0,
+      "matched_at": "2026-10-25T17:04:26Z",
+      "query_used": "Nocturno Čestmír",
+      "description": "IPA s vysokou chmelovou hořkostí, intenzivním citrusovým a tropickým aroma, suchým a ostrým závěrem, středně plné tělo, vysoce kvašené a chmelové."
+    },
     "toulavapipa::Čestmír::Session NEIPA": {
       "untappd_url": "https://untappd.com/b/pivovar-cestmir-session-neipa-superdelic-mosaic-galaxy/5690948",
       "untappd_name": "Session NEIPA (Superdelic - Mosaic - Galaxy)",
@@ -4776,6 +4836,16 @@
       "matched_at": "2026-08-31T19:28:00Z",
       "query_used": "Session NEIPA Čestmír",
       "description_failed_at": "2026-08-31T19:28:13Z"
+    },
+    "toulavapipa::Čestmír::TIWANAKU": {
+      "untappd_url": "https://untappd.com/b/pivovar-cestmir-double-neipa-17-tiwanaku-galaxy-sabro/3969070",
+      "untappd_name": "Double NEIPA 17 – Tiwanaku (Galaxy/Sabro)",
+      "untappd_brewery": "Pivovar Čestmír",
+      "rating": 4.0,
+      "match_score": 1.0,
+      "matched_at": "2026-10-25T17:04:28Z",
+      "query_used": "TIWANAKU Čestmír",
+      "description": "Nadprůměrně hodnocené silné NEIPA s hustým, neprůhledným vzhledem a plným, sladko-ovocným tělem; hopové směsi Galaxy a Sabro dávají intenzivní aroma tropického ovoce, kokosu a citrusů při velmi nízké vnímatelné hořkosti a jemně krémové textuře."
     },
     "uzamastilu::Albert Michler::Malina & Mojito": {
       "untappd_url": "https://untappd.com/b/albert-michler-akciovy-pivovar-12-malina-mojito-sour-ale/6299182",
@@ -5356,6 +5426,16 @@
       "matched_at": "2026-08-10T16:03:28Z",
       "query_used": "Ležák 12° Permon",
       "description": "Světlý ležák 12° od Pivovaru Permon je středně silný, osvěžující ležák s mírnou sladkostí a vyváženou hořkostí, vhodný na letní posezení nebo neformální setkání. Je to klasický český ležák, který potěší příznivce mírných, pitelněých piv."
+    },
+    "uzamastilu::Pioneer Beer::Comfort": {
+      "untappd_url": "https://untappd.com/b/pioneer-beer-comfort/4836536",
+      "untappd_name": "COMFORT",
+      "untappd_brewery": "Pioneer Beer",
+      "rating": 3.64,
+      "match_score": 1.0,
+      "matched_at": "2026-10-25T17:04:56Z",
+      "query_used": "Comfort Pioneer Beer",
+      "description": "Lehký ležák s jemným sladovým základem, jemnou chmelovou hořkostí a plným tělem, spodně kvašený a čistý v chuti."
     },
     "uzamastilu::Pioneer Beer::Dočesná 2026": {
       "untappd_url": "https://untappd.com/b/pioneer-beer-docesna-2026/6844586",
@@ -6062,6 +6142,11 @@
     "uzamastilu::Twinberg::Brew Berrymode": {
       "attempts": 1,
       "last_tried_at": "2026-08-21T17:33:47Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "uzamastilu::Varga Brothers::Rhapzody": {
+      "attempts": 1,
+      "last_tried_at": "2026-10-25T17:04:52Z",
       "reason": "no_candidates_above_threshold"
     },
     "uzamastilu::Volt::Hromosvod Gose Malina": {

@@ -3134,6 +3134,47 @@
         "score": 1.0
       }
     },
+    "ambasada::Mordýř, Dolní Ředice::Svatomartinská": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Mordýř, Dolní Ředice",
+        "name": "Svatomartinská",
+        "style": "Světlý ležák",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-10-25T17:04:23Z",
+      "candidates": [
+        {
+          "name": "Svatomartinský Ležák (2025)",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-svatomartinsky-lezak-2025/6500478",
+          "rating": null
+        },
+        {
+          "name": "Svatomartinský Ležák - Blues (2024)",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-svatomartinsky-lezak-blues-2024/6058137",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Svatomartinská 12° Mordýř",
+          "hits": []
+        },
+        {
+          "query": "Svatomartinská Mordýř",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mordyr-svatomartinsky-lezak-2025/6500478",
+        "score": 0.9231
+      }
+    },
     "ambasada::Mordýř, Dolní Ředice::Svatováclavská": {
       "beer": {
         "source": "ambasada",
@@ -11514,6 +11555,40 @@
         "score": 1.0
       }
     },
+    "beerstreet::Mordýř::Krush": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Mordýř",
+        "name": "Krush",
+        "style": "Smash ale",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-10-25T17:04:18Z",
+      "candidates": [
+        {
+          "name": "Krush Smash Ale",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-krush-smash-ale/6644094",
+          "rating": 3.64
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Krush 12° Mordýř",
+          "hits": []
+        },
+        {
+          "query": "Krush Mordýř",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mordyr-krush-smash-ale/6644094",
+        "score": 1.0
+      }
+    },
     "beerstreet::Mordýř::Simcoe": {
       "beer": {
         "source": "beerstreet",
@@ -12398,6 +12473,43 @@
       "outcome": {
         "matched": "/b/pivovar-pivecka-brut-ipa-maracuja-12-deg/6839421",
         "score": 0.0
+      }
+    },
+    "beerstreet::Pivečka::Rousínovská": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Pivečka",
+        "name": "Rousínovská",
+        "style": "Ležák světlý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-10-25T17:04:16Z",
+      "candidates": [
+        {
+          "name": "Rousínovská jedenáctka",
+          "brewery": "Pivovar Pivečka",
+          "url": "/b/pivovar-pivecka-rousinovska-jedenactka/2757735",
+          "rating": 3.35
+        },
+        {
+          "name": "Rousínovská dvanáctka",
+          "brewery": "Pivovar Pivečka",
+          "url": "/b/pivovar-pivecka-rousinovska-dvanactka/3553523",
+          "rating": 3.28
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Rousínovská 11° Pivečka",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-pivecka-rousinovska-jedenactka/2757735",
+        "score": 1.0
       }
     },
     "beerstreet::Pivovar Pivečka::Pivečka": {
@@ -17009,6 +17121,36 @@
         "score": 1.0
       }
     },
+    "toulavapipa::Loutkář::Samotář": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Loutkář",
+        "name": "Samotář",
+        "style": "Sv. ležák",
+        "degree_plato": null
+      },
+      "captured_at": "2026-10-25T17:04:26Z",
+      "candidates": [
+        {
+          "name": "Samotář",
+          "brewery": "Pivovar Loutkář",
+          "url": "/b/pivovar-loutkar-samotar/4539596",
+          "rating": 3.5
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Samotář Loutkář",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-loutkar-samotar/4539596",
+        "score": 1.0
+      }
+    },
     "toulavapipa::Loutkář::Výroční ležák": {
       "beer": {
         "source": "toulavapipa",
@@ -18402,6 +18544,64 @@
         "score": 1.0
       }
     },
+    "toulavapipa::Raven::Oktoberfest": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Raven",
+        "name": "Oktoberfest",
+        "style": "Marzen",
+        "degree_plato": null
+      },
+      "captured_at": "2026-10-25T17:04:26Z",
+      "candidates": [
+        {
+          "name": "Oktoberfest",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-oktoberfest/5522514",
+          "rating": 3.54
+        },
+        {
+          "name": "Oktoberfest",
+          "brewery": "Raven Flag",
+          "url": "/b/raven-flag-oktoberfest/239797",
+          "rating": null
+        },
+        {
+          "name": "Oktoberfest",
+          "brewery": "Ravens Ring Brewing Company",
+          "url": "/b/ravens-ring-brewing-company-oktoberfest/5036106",
+          "rating": 3.61
+        },
+        {
+          "name": "Oktoberfest",
+          "brewery": "3 Ravens Brewery",
+          "url": "/b/the-3-ravens-brewing-company-oktoberfest/83013",
+          "rating": 3.0
+        },
+        {
+          "name": "Oktoberfest",
+          "brewery": "Two Ravens Brewery",
+          "url": "/b/two-ravens-brewery-oktoberfest/6415539",
+          "rating": 3.96
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Oktoberfest Raven",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-raven-oktoberfest/5522514",
+        "score": 1.0
+      }
+    },
     "toulavapipa::Raven::Orange IPA": {
       "beer": {
         "source": "toulavapipa",
@@ -19468,6 +19668,36 @@
         "score": 1.0
       }
     },
+    "toulavapipa::Čestmír::Nocturno": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Čestmír",
+        "name": "Nocturno",
+        "style": "IPA",
+        "degree_plato": null
+      },
+      "captured_at": "2026-10-25T17:04:26Z",
+      "candidates": [
+        {
+          "name": "IPA 13 – Nocturno",
+          "brewery": "Pivovar Čestmír",
+          "url": "/b/pivovar-cestmir-ipa-13-nocturno/3205380",
+          "rating": 3.66
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Nocturno Čestmír",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-cestmir-ipa-13-nocturno/3205380",
+        "score": 1.0
+      }
+    },
     "toulavapipa::Čestmír::Session NEIPA": {
       "beer": {
         "source": "toulavapipa",
@@ -19516,6 +19746,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-cestmir-session-neipa-superdelic-mosaic-galaxy/5690948",
+        "score": 1.0
+      }
+    },
+    "toulavapipa::Čestmír::TIWANAKU": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Čestmír",
+        "name": "TIWANAKU",
+        "style": "Double NEIPA",
+        "degree_plato": null
+      },
+      "captured_at": "2026-10-25T17:04:28Z",
+      "candidates": [
+        {
+          "name": "Double NEIPA 17 – Tiwanaku (Galaxy/Sabro)",
+          "brewery": "Pivovar Čestmír",
+          "url": "/b/pivovar-cestmir-double-neipa-17-tiwanaku-galaxy-sabro/3969070",
+          "rating": 4.0
+        }
+      ],
+      "attempts": [
+        {
+          "query": "TIWANAKU Čestmír",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-cestmir-double-neipa-17-tiwanaku-galaxy-sabro/3969070",
         "score": 1.0
       }
     },
@@ -22420,6 +22680,54 @@
         "score": 1.0
       }
     },
+    "uzamastilu::Pioneer Beer::Comfort": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Pioneer Beer",
+        "name": "Comfort",
+        "style": "Ležák",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-10-25T17:04:56Z",
+      "candidates": [
+        {
+          "name": "COMFORT",
+          "brewery": "Pioneer Beer",
+          "url": "/b/pioneer-beer-comfort/4836536",
+          "rating": 3.64
+        },
+        {
+          "name": "Red Comfort",
+          "brewery": "Pioneer Beer",
+          "url": "/b/pioneer-beer-red-comfort/6648919",
+          "rating": 3.71
+        },
+        {
+          "name": "SAAZ Comfort 10",
+          "brewery": "Pioneer Beer",
+          "url": "/b/pioneer-beer-saaz-comfort-10/5499229",
+          "rating": 3.65
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Comfort 12° Pioneer Beer",
+          "hits": []
+        },
+        {
+          "query": "Comfort Pioneer Beer",
+          "hits": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pioneer-beer-comfort/4836536",
+        "score": 1.0
+      }
+    },
     "uzamastilu::Pioneer Beer::Dočesná 2025": {
       "beer": {
         "source": "uzamastilu",
@@ -23803,6 +24111,91 @@
       "outcome": {
         "matched": "/b/pivovar-u-vojtechu-podlipak-11/4081441",
         "score": 1.0
+      }
+    },
+    "uzamastilu::Varga Brothers::Rhapzody": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Varga Brothers",
+        "name": "Rhapzody",
+        "style": "IPA",
+        "degree_plato": 15.0
+      },
+      "captured_at": "2026-10-25T17:04:52Z",
+      "candidates": [
+        {
+          "name": "Nebula Aeterna (Rhapzody Edition) 15° NEIPA",
+          "brewery": "Nanopivovárek Špaččí Hnízdo",
+          "url": "/b/nanopivovarek-spacci-hnizdo-nebula-aeterna-rhapzody-edition-15-deg-neipa/6852419",
+          "rating": null
+        },
+        {
+          "name": "IPA 13° Stereo Lab (Rhapzody & Nectaron)",
+          "brewery": "Pivovar Čestmír",
+          "url": "/b/pivovar-cestmir-ipa-13-stereo-lab-rhapsody-and-nectaron/6837010",
+          "rating": 3.87
+        },
+        {
+          "name": "I Love the Smell of Rhapzody in the Morning",
+          "brewery": "Sibeeria Brewery",
+          "url": "/b/sibeeria-brewery-i-love-the-smell-of-rhapzody-in-the-morning/6757515",
+          "rating": 3.98
+        },
+        {
+          "name": "Nelsonian RHAPZODY",
+          "brewery": "Behemoth Brewing Company",
+          "url": "/b/behemoth-brewing-company-nelsonian-rhapzody/6623455",
+          "rating": 3.92
+        },
+        {
+          "name": "Limited Exhibition - Rhapzody™",
+          "brewery": "TankBusters.Co",
+          "url": "/b/tankbusters-co-limited-exhibition-rhapzody/6837978",
+          "rating": 3.78
+        },
+        {
+          "name": "It’s RHAPZODY NELSON",
+          "brewery": "Stigbergets Bryggeri",
+          "url": "/b/stigbergets-bryggeri-it-s-rhapzody-nelson/6905553",
+          "rating": 3.93
+        },
+        {
+          "name": "Brohemian Rhapzody",
+          "brewery": "Benchwarmers Brewing Co.",
+          "url": "/b/benchwarmers-brewing-co-brohemian-rhapzody/6825249",
+          "rating": 3.88
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Rhapzody 15° Varga Brothers",
+          "hits": []
+        },
+        {
+          "query": "Rhapzody Varga Brothers",
+          "hits": []
+        },
+        {
+          "query": "Rhapzody 15°",
+          "hits": [
+            0,
+            1
+          ]
+        },
+        {
+          "query": "Rhapzody",
+          "hits": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "uzamastilu::Vik::Beach Club": {
