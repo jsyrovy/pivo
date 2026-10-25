@@ -5757,6 +5757,16 @@
       "query_used": "Farm 11° Zlatá Kráva",
       "description": "Klasická americká pale ale se sladovým základem, střední hořkostí a citrusovo-květinovým chmelovým aroma, středně plné tělo a vyvážený profil. Hodnocení na Untappd je průměrné."
     },
+    "uzamastilu::Záhora::Curuba": {
+      "untappd_url": "https://untappd.com/b/pivovar-zahora-curuba-sour/7019385",
+      "untappd_name": "Curuba Sour",
+      "untappd_brewery": "Pivovar Záhora",
+      "rating": 3.77,
+      "match_score": 1.0,
+      "matched_at": "2026-10-25T19:37:55Z",
+      "query_used": "Curuba Záhora",
+      "description": "Kyselé pivo Curuba: intenzivní ovocné aroma s tóny tropického ovoce, vyvážená kyselost a středně plné tělo s jemným ovocným závěrem."
+    },
     "uzamastilu::Záhora::New Zealand": {
       "untappd_url": "https://untappd.com/b/pivovar-zahora-new-zeland-hazy-ipa/6817258",
       "untappd_name": "New Zeland Hazy IPA",

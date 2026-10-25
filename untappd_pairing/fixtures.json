@@ -24604,6 +24604,40 @@
         "reason": "no_candidates_above_threshold"
       }
     },
+    "uzamastilu::Záhora::Curuba": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Záhora",
+        "name": "Curuba",
+        "style": "Sour",
+        "degree_plato": 14.0
+      },
+      "captured_at": "2026-10-25T19:37:55Z",
+      "candidates": [
+        {
+          "name": "Curuba Sour",
+          "brewery": "Pivovar Záhora",
+          "url": "/b/pivovar-zahora-curuba-sour/7019385",
+          "rating": 3.77
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Curuba 14° Záhora",
+          "hits": []
+        },
+        {
+          "query": "Curuba Záhora",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-zahora-curuba-sour/7019385",
+        "score": 1.0
+      }
+    },
     "uzamastilu::Záhora::New Zealand": {
       "beer": {
         "source": "uzamastilu",
