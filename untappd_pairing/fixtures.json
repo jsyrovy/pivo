@@ -2415,6 +2415,47 @@
         "score": 1.0
       }
     },
+    "ambasada::MadCat, Kamenice::Pumpkin Ale": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "MadCat, Kamenice",
+        "name": "Pumpkin Ale",
+        "style": "Pumpkin ale",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-10-26T19:20:11Z",
+      "candidates": [
+        {
+          "name": "Pumpkin Ale",
+          "brewery": "MadCat",
+          "url": "/b/madcat-pumpkin-ale/4549126",
+          "rating": 3.33
+        },
+        {
+          "name": "Imperial Pumpkin Ale",
+          "brewery": "MadCat",
+          "url": "/b/madcat-imperial-pumpkin-ale/3605452",
+          "rating": 3.64
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Pumpkin Ale 12° MadCat",
+          "hits": []
+        },
+        {
+          "query": "Pumpkin Ale MadCat",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/madcat-pumpkin-ale/4549126",
+        "score": 1.0
+      }
+    },
     "ambasada::MadCat/Hulvát::Cherry n Apricot": {
       "beer": {
         "source": "ambasada",
@@ -5572,6 +5613,57 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-volt-reaktor/5625605",
+        "score": 1.0
+      }
+    },
+    "ambasada::Zichovec::Nectar of Happiness": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Zichovec",
+        "name": "Nectar of Happiness",
+        "style": "NEIPA",
+        "degree_plato": 17.0
+      },
+      "captured_at": "2026-10-26T19:20:07Z",
+      "candidates": [
+        {
+          "name": "Nectar of Happiness 17",
+          "brewery": "Pivovar ZICHOVEC",
+          "url": "/b/pivovar-zichovec-nectar-of-happiness-17/3079153",
+          "rating": 3.99
+        },
+        {
+          "name": "Nectar of Happiness 17 Nelson Sauvin Dry Hopped",
+          "brewery": "Pivovar ZICHOVEC",
+          "url": "/b/pivovar-zichovec-nectar-of-happiness-17-nelson-sauvin-dry-hopped/4576290",
+          "rating": 3.99
+        },
+        {
+          "name": "Nectar of Happiness Strata 17",
+          "brewery": "Pivovar ZICHOVEC",
+          "url": "/b/pivovar-zichovec-nectar-of-happiness-strata-17/5746320",
+          "rating": 4.04
+        },
+        {
+          "name": "Nectar of Happiness Sabro 17",
+          "brewery": "Pivovar ZICHOVEC",
+          "url": "/b/pivovar-zichovec-nectar-of-happiness-sabro-17/3862861",
+          "rating": 4.08
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Nectar of Happiness 17° Zichovec",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-zichovec-nectar-of-happiness-17/3079153",
         "score": 1.0
       }
     },
@@ -20131,6 +20223,40 @@
       ],
       "outcome": {
         "matched": "/b/chroust-fresh-hop-age-of-krush/6911456",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Chroust::Judo Jellyfish": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Chroust",
+        "name": "Judo Jellyfish",
+        "style": "IPA",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-10-26T19:20:17Z",
+      "candidates": [
+        {
+          "name": "Judo Jellyfish",
+          "brewery": "Chroust",
+          "url": "/b/chroust-judo-jellyfish/7083849",
+          "rating": 3.78
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Judo Jellyfish 12° Chroust",
+          "hits": []
+        },
+        {
+          "query": "Judo Jellyfish Chroust",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/chroust-judo-jellyfish/7083849",
         "score": 1.0
       }
     },

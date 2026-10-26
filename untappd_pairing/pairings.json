@@ -671,6 +671,16 @@
       "matched_at": "2026-05-22T09:09:37Z",
       "query_used": "Mango Pina Coco Sourus 10° MadCat"
     },
+    "ambasada::MadCat, Kamenice::Pumpkin Ale": {
+      "untappd_url": "https://untappd.com/b/madcat-pumpkin-ale/4549126",
+      "untappd_name": "Pumpkin Ale",
+      "untappd_brewery": "MadCat",
+      "rating": 3.33,
+      "match_score": 1.0,
+      "matched_at": "2026-10-26T19:20:11Z",
+      "query_used": "Pumpkin Ale MadCat",
+      "description": "Pumpkin ale s bohatým sladkým těstem, jemnou chmelovou hořkostí a aromatem dýně, skořice a hřebíčku, s lehkou plností a střední délkou."
+    },
     "ambasada::MadCat/Hulvát::Cherry n Apricot": {
       "untappd_url": "https://untappd.com/b/madcat-cherry-n-apricot/6820586",
       "untappd_name": "Cherry N' Apricot",
@@ -1528,6 +1538,16 @@
       "match_score": 1.0,
       "matched_at": "2026-04-26T19:43:33Z",
       "query_used": "Mosaic Ale Zichovec"
+    },
+    "ambasada::Zichovec::Nectar of Happiness": {
+      "untappd_url": "https://untappd.com/b/pivovar-zichovec-nectar-of-happiness-17/3079153",
+      "untappd_name": "Nectar of Happiness 17",
+      "untappd_brewery": "Pivovar ZICHOVEC",
+      "rating": 3.99,
+      "match_score": 1.0,
+      "matched_at": "2026-10-26T19:20:07Z",
+      "query_used": "Nectar of Happiness 17° Zichovec",
+      "description": "Silná NEIPA s hustým, sladovým tělem, výraznou chmelovou hořkostí a pryskyřičným aroma; 17° a 7 % ABV jí dodávají plnost a sílu."
     },
     "ambasada::Zichovec::Robin": {
       "untappd_url": "https://untappd.com/b/rodinny-pivovar-zichovec-hazy-robin-12/6517568",
@@ -4916,6 +4936,16 @@
       "matched_at": "2026-10-03T17:07:56Z",
       "query_used": "Age of Krush Chroust",
       "description": "Fresh hop IPA s intenzivním aroma čerstvého chmele – tóny citrusů, tropického ovoce a pryskyřice, střední až plné tělo a výrazná chmelová hořkost typická pro styl. Neznámý obsah alkoholu nelze přesně odvodit ze stupňovitosti 14°, ale předpokládá se vyšší síla odpovídající kategorii. Hodnocení 3,91 naznačuje nadprůměrn…"
+    },
+    "uzamastilu::Chroust::Judo Jellyfish": {
+      "untappd_url": "https://untappd.com/b/chroust-judo-jellyfish/7083849",
+      "untappd_name": "Judo Jellyfish",
+      "untappd_brewery": "Chroust",
+      "rating": 3.78,
+      "match_score": 1.0,
+      "matched_at": "2026-10-26T19:20:17Z",
+      "query_used": "Judo Jellyfish Chroust",
+      "description": "Moderní IPA s výraznou chmeleností, citrusovým a pryskyřičním aroma, jasnou hořkostí a středně plným tělem; chroustové chmelové profily typicky přinášejí intenzivní chuť a suchý závěr."
     },
     "uzamastilu::Chroust::Kiwi v mlze": {
       "untappd_url": "https://untappd.com/b/chroust-kiwi-v-mlze/6854098",
