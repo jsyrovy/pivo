@@ -5616,6 +5616,96 @@
         "score": 1.0
       }
     },
+    "ambasada::Volt/Malt Worm::Anténa": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Volt/Malt Worm",
+        "name": "Anténa",
+        "style": "Imperial sour ale bílý angrešt",
+        "degree_plato": 17.0
+      },
+      "captured_at": "2026-10-27T22:57:25Z",
+      "candidates": [
+        {
+          "name": "Anténa 17°",
+          "brewery": "Pivovar Volt",
+          "url": "/b/pivovar-volt-antena/5774195",
+          "rating": 3.75
+        },
+        {
+          "name": "Porter 17°",
+          "brewery": "Klubový pivovárek U Antéňáka",
+          "url": "/b/klubovy-pivovarek-u-antenaka-porter-17-deg/2428199",
+          "rating": null
+        },
+        {
+          "name": "Mech Na Střeše 17°",
+          "brewery": "Klubový pivovárek U Antéňáka",
+          "url": "/b/klubovy-pivovarek-u-antenaka-mech-na-strese-17-deg/4724054",
+          "rating": null
+        },
+        {
+          "name": "Alt – 100 let republiky",
+          "brewery": "Pivovar Letohradský Jelen",
+          "url": "/b/pivovar-letohradsky-jelen-alt-100-let-republiky/2932820",
+          "rating": 2.95
+        },
+        {
+          "name": "Green Bock",
+          "brewery": "Klubový pivovárek U Antéňáka",
+          "url": "/b/klubovy-pivovarek-u-antenaka-green-bock/2932890",
+          "rating": null
+        },
+        {
+          "name": "Tmavá 13°",
+          "brewery": "Klubový pivovárek U Antéňáka",
+          "url": "/b/klubovy-pivovarek-u-antenaka-tmava-13-deg/5588501",
+          "rating": null
+        },
+        {
+          "name": "Antéňák  12 Ležák Fresh Hop",
+          "brewery": "Klubový pivovárek U Antéňáka",
+          "url": "/b/klubovy-pivovarek-u-antenaka-antenak-12-lezak-fresh-hop/5058121",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Anténa 17° Volt/Malt Worm",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Anténa Volt/Malt Worm",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Anténa 17°",
+          "hits": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "query": "Anténa",
+          "hits": [
+            0,
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-volt-antena/5774195",
+        "source": "llm"
+      }
+    },
     "ambasada::Zichovec::Nectar of Happiness": {
       "beer": {
         "source": "ambasada",
@@ -21046,6 +21136,76 @@
       "outcome": {
         "matched": "/b/pivovar-hrebec-11-deg-lezak/6340661",
         "score": 1.0
+      }
+    },
+    "uzamastilu::Jungberg::Lotus SH": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Jungberg",
+        "name": "Lotus SH",
+        "style": "Ale",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-10-27T22:57:46Z",
+      "candidates": [
+        {
+          "name": "Lotus",
+          "brewery": "Night Shift Brewing",
+          "url": "/b/night-shift-brewing-lotus/2426540",
+          "rating": 3.77
+        },
+        {
+          "name": "Icy Lotus 冰山雪蓮 (White IPA)",
+          "brewery": "Lion Rock Brewery",
+          "url": "/b/lion-rock-brewery-icy-lotus-white-ipa/1606749",
+          "rating": 3.43
+        },
+        {
+          "name": "Ubuntu",
+          "brewery": "Middle Yeast",
+          "url": "/b/middle-yeast-ubuntu/5683835",
+          "rating": 3.65
+        },
+        {
+          "name": "Hop Cycle (Sabro Vs Lotus)",
+          "brewery": "Short Fuse Brewing Company",
+          "url": "/b/short-fuse-brewing-company-hop-cycle-sabro-vs-lotus/3717791",
+          "rating": 3.93
+        },
+        {
+          "name": "SHOP Series (Lotus & Nugget)",
+          "brewery": "Two Roads Brewing Company",
+          "url": "/b/two-roads-brewing-company-shop-series-lotus-and-nugget/3265845",
+          "rating": 3.6
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Lotus SH 12° Jungberg",
+          "hits": []
+        },
+        {
+          "query": "Lotus SH Jungberg",
+          "hits": []
+        },
+        {
+          "query": "Lotus SH 12°",
+          "hits": []
+        },
+        {
+          "query": "Lotus SH",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "uzamastilu::Jungberg::Lucipa": {

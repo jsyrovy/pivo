@@ -1512,6 +1512,16 @@
       "query_used": "Reaktor Volt",
       "description": "Silně chmelená brut IPA s výraznou hořkostí, suchým a čistým závěrem a plným, ale přesto lehkým tělem. Vysoká stupňovitost a alkohol dávají pivo silnou základnu, přičemž dvojité suché luštění (DDH) přináší intenzivní, multi-dimenzionální chmelové aroma a chuť."
     },
+    "ambasada::Volt/Malt Worm::Anténa": {
+      "untappd_url": "https://untappd.com/b/pivovar-volt-antena/5774195",
+      "untappd_name": "Anténa 17°",
+      "untappd_brewery": "Pivovar Volt",
+      "rating": 3.75,
+      "match_score": 1.0,
+      "matched_at": "2026-10-27T22:57:25Z",
+      "query_used": "<llm>",
+      "description": "Imperial sour ale s bílým angreštem: výrazná ovocná kyselinka, intenzivní aroma a chutě po kyselém angreštu, vyšší alkoholu dodává plné tělo a teplý závěr."
+    },
     "ambasada::Wagner, Merkendorf::Wagner Weisse": {
       "untappd_url": "https://untappd.com/b/brauerei-wagner-merkendorf-wagner-weisse/170390",
       "untappd_name": "Wagner Weisse",
@@ -6142,6 +6152,11 @@
     "uzamastilu::Hoppydog::Karelian Cold": {
       "attempts": 1,
       "last_tried_at": "2026-09-20T19:18:53Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "uzamastilu::Jungberg::Lotus SH": {
+      "attempts": 1,
+      "last_tried_at": "2026-10-27T22:57:46Z",
       "reason": "no_candidates_above_threshold"
     },
     "uzamastilu::Klenot::Session Brut IPA 5,3%": {
