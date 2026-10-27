@@ -3656,6 +3656,16 @@
       "query_used": "Amper 11° Volt",
       "description": "Klasický světlý ležák: sladový základ, jemná chmelová hořkost a lehčí tělo, spodně kvašený a čistý v chuti."
     },
+    "beerstreet::Volt::Elektron": {
+      "untappd_url": "https://untappd.com/b/pivovar-volt-elektra/4804333",
+      "untappd_name": "Elektra 15°",
+      "untappd_brewery": "Pivovar Volt",
+      "rating": 3.67,
+      "match_score": 0.7143,
+      "matched_at": "2026-10-27T18:41:51Z",
+      "query_used": "Elektron 12° Volt",
+      "description": "Novozélandský pale ale s výrazným chmelovým aroma, které nese tóny citrusů a tropického ovoce. Lehké až středně plné tělo s čistou sladovou podložkou a příjemně suchým, chmeleným závěrem."
+    },
     "beerstreet::Zichovec::Everyday Juice": {
       "untappd_url": "https://untappd.com/b/pivovar-zichovec-everyday-juice-12/6619650",
       "untappd_name": "Everyday Juice 12",
@@ -4997,6 +5007,16 @@
       "query_used": "Praotec 12° Cobolis",
       "description": "Klasický český ležák: plnější sladový základ s jemnou chmelovou hořkostí, střední tělo a čistý, vyvážený charakter spodního kvašení. Hodnocení 3,52 naznačuje solidní, průměrně přijaté pivo bez výrazných odchylek."
     },
+    "uzamastilu::Cobolis::Zelená Dimenze": {
+      "untappd_url": "https://untappd.com/b/cobolis-nepropadejte-panice-zelena-dimenze/6938261",
+      "untappd_name": "NEpropadejte ! PAnice - Zelená Dimenze",
+      "untappd_brewery": "Cobolis",
+      "rating": 4.02,
+      "match_score": 1.0,
+      "matched_at": "2026-10-27T18:42:09Z",
+      "query_used": "Zelená Dimenze Cobolis",
+      "description": "Nadprůměrně hodnocená NEIPA s plným, jemně sladkým tělem a intenzivním aroma tropického ovoce, citrusů a jehličnanů; nízká hořkost a hazy charakter dávají plynulý, \"sokový\" zážitek."
+    },
     "uzamastilu::Dalešice::Chmelnice": {
       "untappd_url": "https://untappd.com/b/akciovy-pivovar-dalesice-chmelnice-12-deg/3508458",
       "untappd_name": "Chmelnice 12%",
@@ -5979,6 +5999,11 @@
       "last_tried_at": "2026-10-01T23:02:55Z",
       "reason": "no_candidates_above_threshold"
     },
+    "beerstreet::Klenot::Výroční ze zeleného chmele Art": {
+      "attempts": 1,
+      "last_tried_at": "2026-10-27T18:41:50Z",
+      "reason": "no_candidates_above_threshold"
+    },
     "beerstreet::Kynšperský zajíc::Summer Ale": {
       "attempts": 1,
       "last_tried_at": "2026-05-30T17:14:51Z",
@@ -6035,8 +6060,8 @@
       "reason": "no_candidates_above_threshold"
     },
     "toulavapipa::BeerPoets + Mordýř::SVATOVÁCLAVSKÝ LEŽÁK": {
-      "attempts": 1,
-      "last_tried_at": "2026-10-20T17:59:23Z",
+      "attempts": 2,
+      "last_tried_at": "2026-10-27T18:42:04Z",
       "reason": "no_candidates_above_threshold"
     },
     "toulavapipa::Berquell Brauerei::Jahodový porter": {

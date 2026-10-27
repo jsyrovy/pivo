@@ -9511,6 +9511,39 @@
         "score": 1.0
       }
     },
+    "beerstreet::Klenot::Výroční ze zeleného chmele Art": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Klenot",
+        "name": "Výroční ze zeleného chmele Art",
+        "style": "Ležák světlý",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-10-27T18:41:50Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Výroční ze zeleného chmele Art 12° Klenot",
+          "hits": []
+        },
+        {
+          "query": "Výroční ze zeleného chmele Art Klenot",
+          "hits": []
+        },
+        {
+          "query": "Výroční ze zeleného chmele Art 12°",
+          "hits": []
+        },
+        {
+          "query": "Výroční ze zeleného chmele Art",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
     "beerstreet::Kocour::Summer Ale": {
       "beer": {
         "source": "beerstreet",
@@ -14157,6 +14190,36 @@
         "score": 1.0
       }
     },
+    "beerstreet::Volt::Elektron": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Volt",
+        "name": "Elektron",
+        "style": "New zealand pale ale",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-10-27T18:41:51Z",
+      "candidates": [
+        {
+          "name": "Elektra 15°",
+          "brewery": "Pivovar Volt",
+          "url": "/b/pivovar-volt-elektra/4804333",
+          "rating": 3.67
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Elektron 12° Volt",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-volt-elektra/4804333",
+        "score": 0.7143
+      }
+    },
     "beerstreet::Vorkloster::Brillante": {
       "beer": {
         "source": "beerstreet",
@@ -15194,13 +15257,13 @@
         "style": "Světlý ležák s 10 % žitných sladů",
         "degree_plato": null
       },
-      "captured_at": "2026-10-20T17:59:23Z",
+      "captured_at": "2026-10-27T18:42:04Z",
       "candidates": [
         {
           "name": "Světlý ležák 13°",
           "brewery": "Pivovar U Fleků",
           "url": "/b/pivovar-u-fleku-svetly-lezak-13-deg/3979119",
-          "rating": 3.56
+          "rating": 3.55
         },
         {
           "name": "Svatováclavský ležák Proskowetz 12°",
@@ -20419,6 +20482,40 @@
       ],
       "outcome": {
         "matched": "/b/cobolis-praotec-lezak-12/2709544",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Cobolis::Zelená Dimenze": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Cobolis",
+        "name": "Zelená Dimenze",
+        "style": "NEIPA",
+        "degree_plato": 14.0
+      },
+      "captured_at": "2026-10-27T18:42:09Z",
+      "candidates": [
+        {
+          "name": "NEpropadejte ! PAnice - Zelená Dimenze",
+          "brewery": "Cobolis",
+          "url": "/b/cobolis-nepropadejte-panice-zelena-dimenze/6938261",
+          "rating": 4.02
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Zelená Dimenze 14° Cobolis",
+          "hits": []
+        },
+        {
+          "query": "Zelená Dimenze Cobolis",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/cobolis-nepropadejte-panice-zelena-dimenze/6938261",
         "score": 1.0
       }
     },
