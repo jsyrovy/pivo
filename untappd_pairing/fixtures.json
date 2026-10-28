@@ -24496,6 +24496,47 @@
         "score": 1.0
       }
     },
+    "uzamastilu::Varga Brothers::My Fair": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Varga Brothers",
+        "name": "My Fair",
+        "style": "Ležák",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-10-28T18:51:50Z",
+      "candidates": [
+        {
+          "name": "My Fair Ležák",
+          "brewery": "Varga Brothers Brewing Company ",
+          "url": "/b/varga-brothers-brewing-company-my-fair-lezak/5613947",
+          "rating": 3.53
+        },
+        {
+          "name": "My Fair Dvanáctka",
+          "brewery": "Varga Brothers Brewing Company ",
+          "url": "/b/varga-brothers-brewing-company-my-fair-dvanactka/6649344",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "My Fair 11° Varga Brothers",
+          "hits": []
+        },
+        {
+          "query": "My Fair Varga Brothers",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/varga-brothers-brewing-company-my-fair-lezak/5613947",
+        "score": 1.0
+      }
+    },
     "uzamastilu::Varga Brothers::Rhapzody": {
       "beer": {
         "source": "uzamastilu",

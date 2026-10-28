@@ -1117,7 +1117,8 @@
       "rating": 3.762,
       "match_score": 1.0,
       "matched_at": "2026-05-22T09:09:29Z",
-      "query_used": "Blackcurrant Sorbet Sibeeria"
+      "query_used": "Blackcurrant Sorbet Sibeeria",
+      "description": "Kyselé svrchně kvašené pivo s nízkým alkoholem a lehkým tělem, kde černý rybíz přináší výraznou ovocnou kyselku, jemnou sladkost a typický jemně bylinkový, téměř \"kožuchatý\" ovocný profil."
     },
     "ambasada::Sibeeria, Praha::Coffee IPA": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-coffee-ipa-candycane-coffee/6610183",
@@ -5756,6 +5757,16 @@
       "matched_at": "2026-09-28T20:03:25Z",
       "query_used": "Podlipák 11° U Vojtěchů",
       "description": "Klasický český ležák: sladový základ s jemnou chmelovou hořkostí, středně plné tělo a čistá, vyvážená chuť typická pro spodně kvašená piva."
+    },
+    "uzamastilu::Varga Brothers::My Fair": {
+      "untappd_url": "https://untappd.com/b/varga-brothers-brewing-company-my-fair-lezak/5613947",
+      "untappd_name": "My Fair Ležák",
+      "untappd_brewery": "Varga Brothers Brewing Company ",
+      "rating": 3.53,
+      "match_score": 1.0,
+      "matched_at": "2026-10-28T18:51:50Z",
+      "query_used": "My Fair Varga Brothers",
+      "description": "Klasický světlý ležák se sladovým základem, jemnou chmelovou hořkostí a lehčím tělem, spodně kvašený a čistý v chuti."
     },
     "uzamastilu::Vik::Beach Club": {
       "untappd_url": "https://untappd.com/b/pivovar-vik-beach-club/6822681",
