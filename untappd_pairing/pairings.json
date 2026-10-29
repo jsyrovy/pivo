@@ -1769,6 +1769,16 @@
       "matched_at": "2026-06-24T15:36:08Z",
       "query_used": "<llm>"
     },
+    "beerstreet::Agent::Moves - višeň + banán": {
+      "untappd_url": "https://untappd.com/b/pivovar-agent-moves-cherry-and-banana/4917970",
+      "untappd_name": "Moves – Cherry & Banana",
+      "untappd_brewery": "Pivovar Agent",
+      "rating": 3.83,
+      "match_score": 0.5385,
+      "matched_at": "2026-10-29T18:58:16Z",
+      "query_used": "Moves - višeň + banán Agent",
+      "description": "Kyselé svrchně kvašené pivo s výraznou sladkou chuťí višní a banánu, šťavnatým plným tělem a jemnou hořkostí. Banán přináší cremové ovocné tóny, višně kyselost a ovocnou hloubku."
+    },
     "beerstreet::Agent::Moves-Exotic ananas & kiwi": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-moves-exotic/4961829",
       "untappd_name": "Moves – Exotic",
@@ -3305,6 +3315,16 @@
       "query_used": "Dvouplošník 11° Rotor",
       "description": "Klasický světlý ležák: sladový základ, jemná chmelová hořkost a lehčí tělo, spodně kvašený a čistý v chuti."
     },
+    "beerstreet::Sibeeria::Fresh Hop Czech": {
+      "untappd_url": "https://untappd.com/b/sibeeria-brewery-fresh-hop-czech-pale-ale-2025/6452540",
+      "untappd_name": "Fresh Hop Czech Pale Ale 2025",
+      "untappd_brewery": "Sibeeria Brewery",
+      "rating": 3.66,
+      "match_score": 1.0,
+      "matched_at": "2026-10-29T18:58:08Z",
+      "query_used": "<llm>",
+      "description": "České pale ale s plnějším tělem a střední hořkostí, sladový základ doplněný chmelovým aroma. Fresh hop dodává čerstvou, trávovou a lehce ovocnou chmelovou chuť."
+    },
     "beerstreet::Sibeeria::Modus": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-modus/6659994",
       "untappd_name": "Modus",
@@ -3619,6 +3639,16 @@
       "match_score": 1.0,
       "matched_at": "2026-05-23T20:04:19Z",
       "query_used": "Šlehač 12° U Vojtěchů"
+    },
+    "beerstreet::VIK::Mind the pint": {
+      "untappd_url": "https://untappd.com/b/pivovar-vik-mind-the-pint/6919901",
+      "untappd_name": "Mind the Pint",
+      "untappd_brewery": "Pivovar Vik",
+      "rating": 3.58,
+      "match_score": 1.0,
+      "matched_at": "2026-10-29T18:58:12Z",
+      "query_used": "Mind the pint VIK",
+      "description": "Klasické anglické pale ale s výraznějším sladovým základem, notami karamelu, chleba a suchého ovoce, jemná zemitá chmelová hořkost a středně plné tělo."
     },
     "beerstreet::Varga Brothers::My Fair": {
       "untappd_url": "https://untappd.com/b/varga-brothers-brewing-company-my-fair-lezak/5613947",
@@ -5687,6 +5717,16 @@
       "matched_at": "2026-08-29T17:03:19Z",
       "query_used": "Summer 11° Trilobit",
       "description": "Klasická americká pale ale se střední sladovou základnou, střední chmelovou hořkostí a citrusovo-květinovým aroma typickým pro americké chmely, středně plné tělo a vyvážený profil."
+    },
+    "uzamastilu::Trojan Telč::Chmelová Brigáda": {
+      "untappd_url": "https://untappd.com/b/pivovar-trojan-telc-chmelova-brigada-11-deg/5599772",
+      "untappd_name": "Chmelová Brigáda 11°",
+      "untappd_brewery": "Pivovar Trojan Telč",
+      "rating": 3.47,
+      "match_score": 1.0,
+      "matched_at": "2026-10-29T18:58:17Z",
+      "query_used": "Chmelová Brigáda 11° Trojan Telč",
+      "description": "Klasický český světlý ležák se sladovým základem, jemnou chmelovou hořkostí a čistým, suchým závěrem."
     },
     "uzamastilu::Twinberg::Brew Berrymore": {
       "untappd_url": "https://untappd.com/b/twinberg-brew-berry-more-12-deg/6809079",

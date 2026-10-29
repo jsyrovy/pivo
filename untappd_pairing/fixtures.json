@@ -6517,6 +6517,40 @@
         "source": "llm"
       }
     },
+    "beerstreet::Agent::Moves - višeň + banán": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Agent",
+        "name": "Moves - višeň + banán",
+        "style": "Pastry sour",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-10-29T18:58:16Z",
+      "candidates": [
+        {
+          "name": "Moves – Cherry & Banana",
+          "brewery": "Pivovar Agent",
+          "url": "/b/pivovar-agent-moves-cherry-and-banana/4917970",
+          "rating": 3.83
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Moves - višeň + banán 11° Agent",
+          "hits": []
+        },
+        {
+          "query": "Moves - višeň + banán Agent",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-agent-moves-cherry-and-banana/4917970",
+        "score": 0.5385
+      }
+    },
     "beerstreet::Agent::Moves-Exotic ananas & kiwi": {
       "beer": {
         "source": "beerstreet",
@@ -13111,6 +13145,61 @@
         "score": 1.0
       }
     },
+    "beerstreet::Sibeeria::Fresh Hop Czech": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Sibeeria",
+        "name": "Fresh Hop Czech",
+        "style": "Czech pale ale",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-10-29T18:58:08Z",
+      "candidates": [
+        {
+          "name": "Fresh Hop Czech Pale Ale 2025",
+          "brewery": "Sibeeria Brewery",
+          "url": "/b/sibeeria-brewery-fresh-hop-czech-pale-ale-2025/6452540",
+          "rating": 3.66
+        },
+        {
+          "name": "Fresh Hop Czech Pilsner 2024",
+          "brewery": "Sibeeria Brewery",
+          "url": "/b/sibeeria-brewery-fresh-hop-czech-pilsner-2024/6003770",
+          "rating": 3.67
+        },
+        {
+          "name": "Fresh Hop Czech Pale Ale 2026",
+          "brewery": "Sibeeria Brewery",
+          "url": "/b/sibeeria-brewery-fresh-hop-czech-pale-ale-2026/7609052",
+          "rating": 3.66
+        },
+        {
+          "name": "Fresh Hop Czech Pilsner 2026",
+          "brewery": "Sibeeria Brewery",
+          "url": "/b/sibeeria-brewery-fresh-hop-czech-pilsner-2026/7648658",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Fresh Hop Czech 12° Sibeeria",
+          "hits": []
+        },
+        {
+          "query": "Fresh Hop Czech Sibeeria",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/sibeeria-brewery-fresh-hop-czech-pale-ale-2025/6452540",
+        "source": "llm"
+      }
+    },
     "beerstreet::Sibeeria::Modus": {
       "beer": {
         "source": "beerstreet",
@@ -14081,6 +14170,40 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-u-vojtechu-slehac/4240811",
+        "score": 1.0
+      }
+    },
+    "beerstreet::VIK::Mind the pint": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "VIK",
+        "name": "Mind the pint",
+        "style": "English pale ale",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-10-29T18:58:12Z",
+      "candidates": [
+        {
+          "name": "Mind the Pint",
+          "brewery": "Pivovar Vik",
+          "url": "/b/pivovar-vik-mind-the-pint/6919901",
+          "rating": 3.58
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Mind the pint 12° VIK",
+          "hits": []
+        },
+        {
+          "query": "Mind the pint VIK",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-vik-mind-the-pint/6919901",
         "score": 1.0
       }
     },
@@ -24155,6 +24278,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-trilobit-summer-apa-11/6822482",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Trojan Telč::Chmelová Brigáda": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Trojan Telč",
+        "name": "Chmelová Brigáda",
+        "style": "Ležák",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-10-29T18:58:17Z",
+      "candidates": [
+        {
+          "name": "Chmelová Brigáda 11°",
+          "brewery": "Pivovar Trojan Telč",
+          "url": "/b/pivovar-trojan-telc-chmelova-brigada-11-deg/5599772",
+          "rating": 3.47
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Chmelová Brigáda 11° Trojan Telč",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-trojan-telc-chmelova-brigada-11-deg/5599772",
         "score": 1.0
       }
     },
