@@ -1323,6 +1323,40 @@
         "score": 1.0
       }
     },
+    "ambasada::Haksna, Ostrava::Double Vision": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Haksna, Ostrava",
+        "name": "Double Vision",
+        "style": "Double NEIPA",
+        "degree_plato": 17.0
+      },
+      "captured_at": "2026-10-30T22:58:48Z",
+      "candidates": [
+        {
+          "name": "Double Vision",
+          "brewery": "Haksna Brewery",
+          "url": "/b/haksna-brewery-double-vision/7609496",
+          "rating": 3.99
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Double Vision 17° Haksna",
+          "hits": []
+        },
+        {
+          "query": "Double Vision Haksna",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/haksna-brewery-double-vision/7609496",
+        "score": 1.0
+      }
+    },
     "ambasada::Haksna, Ostrava::Lett": {
       "beer": {
         "source": "ambasada",
@@ -5613,6 +5647,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-volt-reaktor/5625605",
+        "score": 1.0
+      }
+    },
+    "ambasada::Volt, Jablonec nad Nisou::Táta (Vokno)": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Volt, Jablonec nad Nisou",
+        "name": "Táta (Vokno)",
+        "style": "APA",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-10-30T22:58:51Z",
+      "candidates": [
+        {
+          "name": "Táta 12°",
+          "brewery": "Pivovar Volt",
+          "url": "/b/pivovar-volt-tata-12/5743616",
+          "rating": 3.65
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Táta 12° Volt",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-volt-tata-12/5743616",
         "score": 1.0
       }
     },
@@ -14206,6 +14270,40 @@
         "score": 1.0
       }
     },
+    "beerstreet::VIK::Jungle Juice - ananas + guava": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "VIK",
+        "name": "Jungle Juice - ananas + guava",
+        "style": "Sour",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-10-30T22:58:45Z",
+      "candidates": [
+        {
+          "name": "JUNGLE JUICE Ananas & Marakuja & Guava & Pandan",
+          "brewery": "Pivovar Vik",
+          "url": "/b/pivovar-vik-jungle-juice-ananas-and-marakuja-and-guava-and-pandan/6859092",
+          "rating": 3.88
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Jungle Juice - ananas + guava 12° VIK",
+          "hits": []
+        },
+        {
+          "query": "Jungle Juice - ananas + guava VIK",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-vik-jungle-juice-ananas-and-marakuja-and-guava-and-pandan/6859092",
+        "score": 0.9444
+      }
+    },
     "beerstreet::VIK::Mind the pint": {
       "beer": {
         "source": "beerstreet",
@@ -20323,6 +20421,40 @@
         "score": 1.0
       }
     },
+    "uzamastilu::Blud::Bludfog CIP076": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Blud",
+        "name": "Bludfog CIP076",
+        "style": "NEIPA",
+        "degree_plato": 15.0
+      },
+      "captured_at": "2026-10-30T22:58:53Z",
+      "candidates": [
+        {
+          "name": "BLUDFOG CIP076",
+          "brewery": "BLUD",
+          "url": "/b/blud-bludfog-cip076/6726929",
+          "rating": 4.04
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Bludfog CIP076 15° Blud",
+          "hits": []
+        },
+        {
+          "query": "Bludfog CIP076 Blud",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/blud-bludfog-cip076/6726929",
+        "score": 1.0
+      }
+    },
     "uzamastilu::Blud::Vestkoust Lágr IPL": {
       "beer": {
         "source": "uzamastilu",
@@ -22144,6 +22276,78 @@
         "reason": "no_candidates_above_threshold"
       }
     },
+    "uzamastilu::Loutkář::Superdelic NZ": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Loutkář",
+        "name": "Superdelic NZ",
+        "style": "Ale",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-10-30T22:59:11Z",
+      "candidates": [
+        {
+          "name": "Dock 115 - Citra, Superdelic, Manilita & Cascade NZ",
+          "brewery": "Le Ketch",
+          "url": "/b/le-ketch-dock-115-citra-superdelic-manilita-and-cascade-nz/6240981",
+          "rating": 4.13
+        },
+        {
+          "name": "Hops Around the World: New Zealand Marlborough - Superdelic, Nectaron & Motueka",
+          "brewery": "Nepo Brewing",
+          "url": "/b/nepo-brewing-hops-around-the-world-new-zealand-marlborough-superdelic-nectaron-and-motueka/6321740",
+          "rating": 3.84
+        },
+        {
+          "name": "NZ PALE / Motueka, Superdelic, Maui Nelson",
+          "brewery": "The Three Legs Brewing Co.",
+          "url": "/b/the-three-legs-brewing-co-nz-pale-motueka-superdelic-maui-nelson/4981181",
+          "rating": 3.65
+        },
+        {
+          "name": "SUPERDELIC Fragilisticexpialidocious - NZ IPA",
+          "brewery": "Sauce Brewing Co",
+          "url": "/b/sauce-brewing-co-superdelic-fragilisticexpialidocious-nz-ipa/5561594",
+          "rating": 3.73
+        },
+        {
+          "name": "Opacity #10: NZ Hazy IPA w/ Superdelic",
+          "brewery": "Irrational Brewing Company",
+          "url": "/b/irrational-brewing-company-opacity-10/5736754",
+          "rating": 3.96
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Superdelic NZ 11° Loutkář",
+          "hits": []
+        },
+        {
+          "query": "Superdelic NZ Loutkář",
+          "hits": []
+        },
+        {
+          "query": "Superdelic NZ 11°",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Superdelic NZ",
+          "hits": [
+            1,
+            2,
+            0,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
     "uzamastilu::Madcat::Cherry n' Apricot": {
       "beer": {
         "source": "uzamastilu",
@@ -22986,6 +23190,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-obora-lemongrass-11-deg/6417129",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Old Cock::Brko": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Old Cock",
+        "name": "Brko",
+        "style": "Ležák",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-10-30T22:59:11Z",
+      "candidates": [
+        {
+          "name": "Brko 12°",
+          "brewery": "Old Cock Beer",
+          "url": "/b/old-cock-beer-brko/6567105",
+          "rating": 3.32
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Brko 12° Old Cock",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/old-cock-beer-brko/6567105",
         "score": 1.0
       }
     },

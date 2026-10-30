@@ -355,6 +355,16 @@
       "matched_at": "2026-05-25T18:56:51Z",
       "query_used": "Batalion 25° Haksna"
     },
+    "ambasada::Haksna, Ostrava::Double Vision": {
+      "untappd_url": "https://untappd.com/b/haksna-brewery-double-vision/7609496",
+      "untappd_name": "Double Vision",
+      "untappd_brewery": "Haksna Brewery",
+      "rating": 3.99,
+      "match_score": 1.0,
+      "matched_at": "2026-10-30T22:58:48Z",
+      "query_used": "Double Vision Haksna",
+      "description": "Silně chmelená NEIPA s výrazným mlžným aroma tropického ovoce a citrusů, plným, mastným tělem a nízkou, ale trvalou hořkostí. Vysoká stupňovitost a alkohol přinášejí příjemnou tělesnost a teplo. 3.99 / 5."
+    },
     "ambasada::Haksna, Ostrava::Forest IPA": {
       "untappd_url": "https://untappd.com/b/haksna-brewery-forest-ipa/6607940",
       "untappd_name": "Forest IPA",
@@ -1512,6 +1522,16 @@
       "matched_at": "2026-09-22T17:35:22Z",
       "query_used": "Reaktor Volt",
       "description": "Silně chmelená brut IPA s výraznou hořkostí, suchým a čistým závěrem a plným, ale přesto lehkým tělem. Vysoká stupňovitost a alkohol dávají pivo silnou základnu, přičemž dvojité suché luštění (DDH) přináší intenzivní, multi-dimenzionální chmelové aroma a chuť."
+    },
+    "ambasada::Volt, Jablonec nad Nisou::Táta (Vokno)": {
+      "untappd_url": "https://untappd.com/b/pivovar-volt-tata-12/5743616",
+      "untappd_name": "Táta 12°",
+      "untappd_brewery": "Pivovar Volt",
+      "rating": 3.65,
+      "match_score": 1.0,
+      "matched_at": "2026-10-30T22:58:51Z",
+      "query_used": "Táta 12° Volt",
+      "description": "APA s přízemním tělem a střední hořkostí. Citrové a květinové chmelové aroma doplňuje lehká sladovost, což dává pivo příjemný, osvěžující profil."
     },
     "ambasada::Volt/Malt Worm::Anténa": {
       "untappd_url": "https://untappd.com/b/pivovar-volt-antena/5774195",
@@ -3640,6 +3660,16 @@
       "matched_at": "2026-05-23T20:04:19Z",
       "query_used": "Šlehač 12° U Vojtěchů"
     },
+    "beerstreet::VIK::Jungle Juice - ananas + guava": {
+      "untappd_url": "https://untappd.com/b/pivovar-vik-jungle-juice-ananas-and-marakuja-and-guava-and-pandan/6859092",
+      "untappd_name": "JUNGLE JUICE Ananas & Marakuja & Guava & Pandan",
+      "untappd_brewery": "Pivovar Vik",
+      "rating": 3.88,
+      "match_score": 0.9444,
+      "matched_at": "2026-10-30T22:58:45Z",
+      "query_used": "Jungle Juice - ananas + guava VIK",
+      "description": "Jemná kyselina a tropické ovoce: Svrchně kvašené kyselé pivo s výrazným ananasovým, guavovým a marakujovým aroma a nádechem pandanu. Plné tělo s equilibrovanou hořkostí a sladce-kyselou equilibrií. Untappd: nadprůměrné."
+    },
     "beerstreet::VIK::Mind the pint": {
       "untappd_url": "https://untappd.com/b/pivovar-vik-mind-the-pint/6919901",
       "untappd_name": "Mind the Pint",
@@ -3657,7 +3687,8 @@
       "rating": 3.54215,
       "match_score": 1.0,
       "matched_at": "2026-06-26T13:40:22Z",
-      "query_used": "<override>"
+      "query_used": "<override>",
+      "description": "Klasický světlý ležák s mírně sladkým základem a jemnou chmelovou hořkostí. Tělo je lehké a čisté, poddáno kyselému kvasení, které dodává čerstvost a lehkou kyselinu."
     },
     "beerstreet::Varga Brothers::My Fair ležák": {
       "untappd_url": "https://untappd.com/b/varga-brothers-brewing-company-my-fair-lezak/5613947",
@@ -4948,6 +4979,16 @@
       "query_used": "Ležák 12° Beskydský Pivovárek",
       "description": "Ležák s jemným brusinkovým tónem v aromatu, sladkovážní základ a mírná chmelová hořkost s lehkým tělem; spodně kvašený a čistý v chuti, s nasládlou brusinkovou notečkou. Podprůměrně hodnocené."
     },
+    "uzamastilu::Blud::Bludfog CIP076": {
+      "untappd_url": "https://untappd.com/b/blud-bludfog-cip076/6726929",
+      "untappd_name": "BLUDFOG CIP076",
+      "untappd_brewery": "BLUD",
+      "rating": 4.04,
+      "match_score": 1.0,
+      "matched_at": "2026-10-30T22:58:53Z",
+      "query_used": "Bludfog CIP076 Blud",
+      "description": "Hustá a silná NEIPA s výrazným aromatem tropického ovoce a mandlové nasláklosti, přičemž vysoká stupňovitost a nealkoholický obsah alkoholu naznačují plné tělo a sílu. Chmelená a nekvasná metoda typická pro tento styl dodává intenzivní chuť a mírnou, jemně přiléhavou hořkost."
+    },
     "uzamastilu::Brewnicorn::Pohodale": {
       "untappd_url": "https://untappd.com/b/brewnicorn-pohodale/7026599",
       "untappd_name": "Pohodale",
@@ -5457,6 +5498,16 @@
       "matched_at": "2026-08-24T20:36:03Z",
       "query_used": "Lemongrass 12° Obora",
       "description": "Kyselá a lehce slaná gose s osvěžujícím citrusovým aroma a suchým tělem; přídavek citronové trávy přináší intenzivní citronovou trávu a jemnou bylinkovou svěžest. Střední plnost, jemná kyselost a jemná slanost charakterizují typický profil tohoto stylu."
+    },
+    "uzamastilu::Old Cock::Brko": {
+      "untappd_url": "https://untappd.com/b/old-cock-beer-brko/6567105",
+      "untappd_name": "Brko 12°",
+      "untappd_brewery": "Old Cock Beer",
+      "rating": 3.32,
+      "match_score": 1.0,
+      "matched_at": "2026-10-30T22:59:11Z",
+      "query_used": "Brko 12° Old Cock",
+      "description": "Kyselý český ležák s prudkou hořkostí a ostrým závěrem."
     },
     "uzamastilu::Old Cock::Sólista Most": {
       "untappd_url": "https://untappd.com/b/old-cock-beer-solista-most/6899076",
@@ -6228,6 +6279,11 @@
     "uzamastilu::Loutkář::Marioneta sv.výčepní": {
       "attempts": 1,
       "last_tried_at": "2026-08-18T19:31:19Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "uzamastilu::Loutkář::Superdelic NZ": {
+      "attempts": 1,
+      "last_tried_at": "2026-10-30T22:59:11Z",
       "reason": "no_candidates_above_threshold"
     },
     "uzamastilu::Mazák::Cryo Krush SH": {
