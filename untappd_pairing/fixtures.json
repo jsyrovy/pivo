@@ -10896,6 +10896,39 @@
         "score": 1.0
       }
     },
+    "beerstreet::Loutkář::Helloweenský speciál - DÝŇÁK": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Loutkář",
+        "name": "Helloweenský speciál - DÝŇÁK",
+        "style": "Ležák světiý - dýně",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-10-30T18:38:08Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Helloweenský speciál - DÝŇÁK 11° Loutkář",
+          "hits": []
+        },
+        {
+          "query": "Helloweenský speciál - DÝŇÁK Loutkář",
+          "hits": []
+        },
+        {
+          "query": "Helloweenský speciál - DÝŇÁK 11°",
+          "hits": []
+        },
+        {
+          "query": "Helloweenský speciál - DÝŇÁK",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
     "beerstreet::Loutkář::Lodní Šroub": {
       "beer": {
         "source": "beerstreet",

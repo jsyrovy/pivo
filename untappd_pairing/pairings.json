@@ -6070,6 +6070,11 @@
       "last_tried_at": "2026-05-30T17:14:51Z",
       "reason": "no_candidates_above_threshold"
     },
+    "beerstreet::Loutkář::Helloweenský speciál - DÝŇÁK": {
+      "attempts": 1,
+      "last_tried_at": "2026-10-30T18:38:08Z",
+      "reason": "no_candidates_above_threshold"
+    },
     "beerstreet::Loutkář::Paragánská": {
       "attempts": 1,
       "last_tried_at": "2026-08-28T22:58:10Z",
