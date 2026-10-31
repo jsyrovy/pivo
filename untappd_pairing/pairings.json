@@ -2185,6 +2185,16 @@
       "matched_at": "2026-04-28T20:13:51Z",
       "query_used": "Citra Session Haksna"
     },
+    "beerstreet::Hauskrecht::Hauskrecht": {
+      "untappd_url": "https://untappd.com/b/brnenska-pivovarnicka-spolecnost-hauskrecht-brnenska-12/924325",
+      "untappd_name": "Hauskrecht Brněnská 12",
+      "untappd_brewery": "Brněnská pivovarnická společnost",
+      "rating": 3.41,
+      "match_score": 1.0,
+      "matched_at": "2026-10-31T21:35:26Z",
+      "query_used": "<llm>",
+      "description": "Světlý ležák s plnějším sladovým tělem, jemnou chmelovou hořkostí a čistou chutí, spodně kvašený a osvěžující."
+    },
     "beerstreet::Hauskrecht::Moravian Ale": {
       "untappd_url": "https://untappd.com/b/brnenska-pivovarnicka-spolecnost-hauskrecht-moravian-ale/1763126",
       "untappd_name": "Hauskrecht Moravian Ale",

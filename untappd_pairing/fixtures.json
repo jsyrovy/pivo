@@ -8253,6 +8253,118 @@
         "reason": "no_candidates_above_threshold"
       }
     },
+    "beerstreet::Hauskrecht::Hauskrecht": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Hauskrecht",
+        "name": "Hauskrecht",
+        "style": "Ležák světlý",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-10-31T21:35:26Z",
+      "candidates": [
+        {
+          "name": "Cream Ale 12°",
+          "brewery": "Brněnská pivovarnická společnost",
+          "url": "/b/brnenska-pivovarnicka-spolecnost-cream-ale-12-deg/6665187",
+          "rating": 3.66
+        },
+        {
+          "name": "Hadrák nefiltrovaný ležák 12°",
+          "brewery": "Brněnská pivovarnická společnost",
+          "url": "/b/brnenska-pivovarnicka-spolecnost-hadrak-nefiltrovany-lezak-12-deg/2277272",
+          "rating": 3.73
+        },
+        {
+          "name": "Underdog 12°",
+          "brewery": "Brněnská pivovarnická společnost",
+          "url": "/b/brnenska-pivovarnicka-spolecnost-underdog-12-deg/6598474",
+          "rating": 3.63
+        },
+        {
+          "name": "Babeta 12° nefiltrovaná",
+          "brewery": "Brněnská pivovarnická společnost",
+          "url": "/b/brnenska-pivovarnicka-spolecnost-babeta-12-deg-nefiltrovana/2643727",
+          "rating": null
+        },
+        {
+          "name": "Hauskrecht Brněnská 12",
+          "brewery": "Brněnská pivovarnická společnost",
+          "url": "/b/brnenska-pivovarnicka-spolecnost-hauskrecht-brnenska-12/924325",
+          "rating": 3.41
+        },
+        {
+          "name": "Hauskrecht Brněnská 11",
+          "brewery": "Brněnská pivovarnická společnost",
+          "url": "/b/brnenska-pivovarnicka-spolecnost-hauskrecht-brnenska-11/917211",
+          "rating": 3.38
+        },
+        {
+          "name": "Hauskrecht PH 13 Black Flek",
+          "brewery": "Brněnská pivovarnická společnost",
+          "url": "/b/brnenska-pivovarnicka-spolecnost-hauskrecht-ph-13-black-flek/895600",
+          "rating": 3.54
+        },
+        {
+          "name": "Hauskrecht Špilberk 10",
+          "brewery": "Brněnská pivovarnická společnost",
+          "url": "/b/brnenska-pivovarnicka-spolecnost-hauskrecht-spilberk-10/1131395",
+          "rating": 3.35
+        },
+        {
+          "name": "Hauskrecht Brněnský Weiss",
+          "brewery": "Brněnská pivovarnická společnost",
+          "url": "/b/brnenska-pivovarnicka-spolecnost-hauskrecht-brnensky-weiss/3234580",
+          "rating": 3.38
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Hauskrecht 12° Hauskrecht",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "query": "Hauskrecht Hauskrecht",
+          "hits": [
+            5,
+            4,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "query": "Hauskrecht 12°",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "query": "Hauskrecht",
+          "hits": [
+            5,
+            4,
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/brnenska-pivovarnicka-spolecnost-hauskrecht-brnenska-12/924325",
+        "source": "llm"
+      }
+    },
     "beerstreet::Hauskrecht::Moravian Ale": {
       "beer": {
         "source": "beerstreet",
