@@ -14639,6 +14639,95 @@
         "reason": "no_candidates_above_threshold"
       }
     },
+    "beerstreet::Vorkloster::Zwickl": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Vorkloster",
+        "name": "Zwickl",
+        "style": "Ležák světlý - zwickl",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-10-31T17:44:32Z",
+      "candidates": [
+        {
+          "name": "Vorkloster Zwickl",
+          "brewery": "Klášterní pivovar Porta Coeli",
+          "url": "/b/klasterni-pivovar-porta-coeli-vorkloster-klasterni-zwickl/2774417",
+          "rating": 3.52
+        },
+        {
+          "name": "111 Zwickl",
+          "brewery": "Auerbräu Rosenheimer Spezialitätenbrauerei",
+          "url": "/b/auerbrau-rosenheimer-spezialitatenbrauerei-111-zwickl/86588",
+          "rating": 3.38
+        },
+        {
+          "name": "Grevensteiner Original Naturtrübes Landbier",
+          "brewery": "Brauerei VELTINS",
+          "url": "/b/brauerei-veltins-grevensteiner-original-naturtrubes-landbier/540889",
+          "rating": 3.42
+        },
+        {
+          "name": "Aktien Zwick'l Kellerbier",
+          "brewery": "Bayreuther Bierbrauerei",
+          "url": "/b/bayreuther-bierbrauerei-aktien-zwick-l-kellerbier/63263",
+          "rating": 3.49
+        },
+        {
+          "name": "Th. König Zwickl",
+          "brewery": "König Brauerei",
+          "url": "/b/konig-brauerei-th-konig-zwickl/1551454",
+          "rating": 3.36
+        },
+        {
+          "name": "Paulaner Zwickl Naturtrüb",
+          "brewery": "Paulaner Brauerei",
+          "url": "/b/paulaner-brauerei-paulaner-zwickl-naturtrub/1794282",
+          "rating": 3.42
+        },
+        {
+          "name": "Stiegl-Paracelsus Bio-Zwickl",
+          "brewery": "Stieglbrauerei zu Salzburg",
+          "url": "/b/stieglbrauerei-zu-salzburg-stiegl-paracelsus-bio-zwickl/5542",
+          "rating": 3.48
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Zwickl 11° Vorkloster",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Zwickl Vorkloster",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Zwickl 11°",
+          "hits": [
+            1,
+            0
+          ]
+        },
+        {
+          "query": "Zwickl",
+          "hits": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/klasterni-pivovar-porta-coeli-vorkloster-klasterni-zwickl/2774417",
+        "source": "llm"
+      }
+    },
     "beerstreet::Zichovec::Everyday Juice": {
       "beer": {
         "source": "beerstreet",

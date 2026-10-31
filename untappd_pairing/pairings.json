@@ -3738,6 +3738,16 @@
       "query_used": "Elektron 12° Volt",
       "description": "Novozélandský pale ale s výrazným chmelovým aroma, které nese tóny citrusů a tropického ovoce. Lehké až středně plné tělo s čistou sladovou podložkou a příjemně suchým, chmeleným závěrem."
     },
+    "beerstreet::Vorkloster::Zwickl": {
+      "untappd_url": "https://untappd.com/b/klasterni-pivovar-porta-coeli-vorkloster-klasterni-zwickl/2774417",
+      "untappd_name": "Vorkloster Zwickl",
+      "untappd_brewery": "Klášterní pivovar Porta Coeli",
+      "rating": 3.52,
+      "match_score": 1.0,
+      "matched_at": "2026-10-31T17:44:32Z",
+      "query_used": "<llm>",
+      "description_failed_at": "2026-10-31T17:44:32Z"
+    },
     "beerstreet::Zichovec::Everyday Juice": {
       "untappd_url": "https://untappd.com/b/pivovar-zichovec-everyday-juice-12/6619650",
       "untappd_name": "Everyday Juice 12",
