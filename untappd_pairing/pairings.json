@@ -4130,6 +4130,16 @@
       "query_used": "Světlý ležák Bratři v pivu",
       "description_failed_at": "2026-08-29T20:45:43Z"
     },
+    "toulavapipa::Clock::Anežka": {
+      "untappd_url": "https://untappd.com/b/pivovar-clock-anezka/2888047",
+      "untappd_name": "Anežka",
+      "untappd_brewery": "Pivovar Clock",
+      "rating": 3.51,
+      "match_score": 1.0,
+      "matched_at": "2026-11-01T22:50:11Z",
+      "query_used": "Anežka Clock",
+      "description": "Bezlepkový světlý ležák s čistým sladovým základem a jemnou chmelovou hořkostí, lehkým tělem a přirozeně suchým závěrem. Hodnocení 3,51 je průměrné."
+    },
     "toulavapipa::Clock::Clock": {
       "untappd_url": "https://untappd.com/b/clock-clock-apa/730508",
       "untappd_name": "Clock APA",
@@ -4640,6 +4650,16 @@
       "query_used": "Summer ale Obora",
       "description": "Summer ale s mírnou sladkostí a ovocným aroma, lehkou hořkostí a středně plným tělem, typické pro letní styl."
     },
+    "toulavapipa::Raven::AUTUMN PALE ALE 2026": {
+      "untappd_url": "https://untappd.com/b/pivovar-raven-autumn-pale-ale-2026/6905514",
+      "untappd_name": "Autumn Pale Ale 2026",
+      "untappd_brewery": "Pivovar Raven",
+      "rating": 3.43,
+      "match_score": 1.0,
+      "matched_at": "2026-11-01T22:50:13Z",
+      "query_used": "AUTUMN PALE ALE 2026 Raven",
+      "description_failed_at": "2026-11-01T22:50:22Z"
+    },
     "toulavapipa::Raven::Birthday APA": {
       "untappd_url": "https://untappd.com/b/pivovar-raven-birthday-apa-2019/3404893",
       "untappd_name": "Birthday APA (2019)",
@@ -4710,6 +4730,26 @@
       "query_used": "Midwest IPA Raven",
       "description": "Hazy IPA s mléčným zákalem, intenzivním tropickým a ovocným aroma chmele, střední hořkostí a plnějším, sametovým tělem typickým pro New England styl. Hodnocení 3,81 naznačuje nadprůměrné přijetí na Untappd."
     },
+    "toulavapipa::Raven::NEVER AGAIN vol.6": {
+      "untappd_url": "https://untappd.com/b/pivovar-raven-never-again-vol-6-cryo-centennial-and-wakatu/6919456",
+      "untappd_name": "Never Again! Vol. 6 - CRYO Centennial & Wakatu",
+      "untappd_brewery": "Pivovar Raven",
+      "rating": 3.79,
+      "match_score": 1.0,
+      "matched_at": "2026-11-01T22:50:21Z",
+      "query_used": "<llm>",
+      "description": "NEIPA s vysokou plností a výraznou chmelovou aromatickou silou, kde CRYO Centennial a Wakatu přináší intenzivní tropické a citrusové tóny s jemnou, krémovou texturou a nízkou, ale jasnou hořkostí, hodnocení 3,79."
+    },
+    "toulavapipa::Raven::ORANGE IPA": {
+      "untappd_url": "https://untappd.com/b/pivovar-raven-orange-ipa/1676555",
+      "untappd_name": "Orange IPA",
+      "untappd_brewery": "Pivovar Raven",
+      "rating": 3.6,
+      "match_score": 1.0,
+      "matched_at": "2026-11-01T22:50:18Z",
+      "query_used": "ORANGE IPA Raven",
+      "description": "Infuzovaná IPA s výrazným citrusovým aroma a chutí pomeranče, která doplňuje chmelovou hořkost a plnější tělo. Očekávej ovocnou sladkost, která vyvažuje hořkost chmele. Hodnocení 3,60 je mírně podprůměrné."
+    },
     "toulavapipa::Raven::Oktoberfest": {
       "untappd_url": "https://untappd.com/b/pivovar-raven-oktoberfest/5522514",
       "untappd_name": "Oktoberfest",
@@ -4779,6 +4819,16 @@
       "matched_at": "2026-10-05T21:13:03Z",
       "query_used": "UNICORN MIL Raven",
       "description": "Milkshake IPA s výrazným sladovým tělem a nízkou hořkostí, typicky s aroma vanilky, laktózy a tropického ovoce; laktóza přidává krémovou sladkost a plnější pocit v ústech. Nadprůměrně hodnocené."
+    },
+    "toulavapipa::Raven::UPSIDE DOWN CAKE": {
+      "untappd_url": "https://untappd.com/b/pivovar-raven-upside-down-cake/4116844",
+      "untappd_name": "Upside Down Cake",
+      "untappd_brewery": "Pivovar Raven",
+      "rating": 3.77,
+      "match_score": 1.0,
+      "matched_at": "2026-11-01T22:50:22Z",
+      "query_used": "UPSIDE DOWN CAKE Raven",
+      "description": "Kyselé pastry sour ale s výrazným ovocným a sladkým charakterem připomínajícím upřený dort, kde kyselost sladový základ a přidané ovocné/kořeněné suroviny vyváží do plného, dezertního profilu."
     },
     "toulavapipa::Raven::White IPA": {
       "untappd_url": "https://untappd.com/b/pivovar-raven-white-ipa/1369454",

@@ -16382,6 +16382,50 @@
         "score": 1.0
       }
     },
+    "toulavapipa::Clock::Anežka": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Clock",
+        "name": "Anežka",
+        "style": "Bezlepkový sv. ležák",
+        "degree_plato": null
+      },
+      "captured_at": "2026-11-01T22:50:11Z",
+      "candidates": [
+        {
+          "name": "Anežka",
+          "brewery": "Pivovar Clock",
+          "url": "/b/pivovar-clock-anezka/2888047",
+          "rating": 3.51
+        },
+        {
+          "name": "Kmínová Anežka",
+          "brewery": "Pivovar Clock",
+          "url": "/b/pivovar-clock-kminova-anezka/6804312",
+          "rating": null
+        },
+        {
+          "name": "Křenová Anežka",
+          "brewery": "Pivovar Clock",
+          "url": "/b/pivovar-clock-krenova-anezka/6803249",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Anežka Clock",
+          "hits": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-clock-anezka/2888047",
+        "score": 1.0
+      }
+    },
     "toulavapipa::Clock::Clock": {
       "beer": {
         "source": "toulavapipa",
@@ -19123,6 +19167,36 @@
         "score": 1.0
       }
     },
+    "toulavapipa::Raven::AUTUMN PALE ALE 2026": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Raven",
+        "name": "AUTUMN PALE ALE 2026",
+        "style": "APA",
+        "degree_plato": null
+      },
+      "captured_at": "2026-11-01T22:50:13Z",
+      "candidates": [
+        {
+          "name": "Autumn Pale Ale 2026",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-autumn-pale-ale-2026/6905514",
+          "rating": 3.43
+        }
+      ],
+      "attempts": [
+        {
+          "query": "AUTUMN PALE ALE 2026 Raven",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-raven-autumn-pale-ale-2026/6905514",
+        "score": 1.0
+      }
+    },
     "toulavapipa::Raven::Birthday APA": {
       "beer": {
         "source": "toulavapipa",
@@ -19393,6 +19467,115 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-raven-midwest-ipa/6792354",
+        "score": 1.0
+      }
+    },
+    "toulavapipa::Raven::NEVER AGAIN vol.6": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Raven",
+        "name": "NEVER AGAIN vol.6",
+        "style": "NEIPA",
+        "degree_plato": null
+      },
+      "captured_at": "2026-11-01T22:50:21Z",
+      "candidates": [
+        {
+          "name": "Never Again! Vol. 5 - CRYO Motueka & Alora",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-never-again-vol-5-cryo-motueka-and-alora/6590075",
+          "rating": 3.89
+        },
+        {
+          "name": "Never Again! Vol. 6 - CRYO Centennial & Wakatu",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-never-again-vol-6-cryo-centennial-and-wakatu/6919456",
+          "rating": 3.79
+        },
+        {
+          "name": "Never Again! Vol. 2 - CRYO Krush (HBC 586) & Bru-1",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-never-again-vol-2-cryo-krush-hbc-586-and-bru-1/6117606",
+          "rating": 3.96
+        },
+        {
+          "name": "Never Again! Vol. 3 - CRYO Nelson Sauvin & Superdelic",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-never-again-vol-3-cryo-nelson-sauvin-and-superdelic/6204339",
+          "rating": 3.97
+        },
+        {
+          "name": "Never Again! Vol. 4 - CRYO Idaho 7 & Lotus",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-never-again-vol-4-cryo-idaho-7-and-lotus/6350971",
+          "rating": 3.86
+        }
+      ],
+      "attempts": [
+        {
+          "query": "NEVER AGAIN Raven",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-raven-never-again-vol-6-cryo-centennial-and-wakatu/6919456",
+        "source": "llm"
+      }
+    },
+    "toulavapipa::Raven::ORANGE IPA": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Raven",
+        "name": "ORANGE IPA",
+        "style": "Infuzovana IPA",
+        "degree_plato": null
+      },
+      "captured_at": "2026-11-01T22:50:18Z",
+      "candidates": [
+        {
+          "name": "Black Raven IPA",
+          "brewery": "Olde Hickory Brewery",
+          "url": "/b/olde-hickory-brewery-black-raven-ipa/15083",
+          "rating": 3.66
+        },
+        {
+          "name": "Orange IPA",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-orange-ipa/1676555",
+          "rating": 3.6
+        },
+        {
+          "name": "Orange Juicy New England IPA",
+          "brewery": "3 Ravens Brewery",
+          "url": "/b/3-ravens-brewery-orange-juicy-new-england-ipa/2755301",
+          "rating": 3.74
+        },
+        {
+          "name": "Blood Orange Blast IPA",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-blood-orange-blast-ipa/6263913",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "ORANGE IPA Raven",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-raven-orange-ipa/1676555",
         "score": 1.0
       }
     },
@@ -19680,6 +19863,43 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-raven-unicorn-milk/5247783",
+        "score": 1.0
+      }
+    },
+    "toulavapipa::Raven::UPSIDE DOWN CAKE": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Raven",
+        "name": "UPSIDE DOWN CAKE",
+        "style": "Pastry sour ale",
+        "degree_plato": null
+      },
+      "captured_at": "2026-11-01T22:50:22Z",
+      "candidates": [
+        {
+          "name": "Upside Down Cake",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-upside-down-cake/4116844",
+          "rating": 3.77
+        },
+        {
+          "name": "Smoked Pineapple Upside Down Cake",
+          "brewery": "Ravenous Pig Brewing Company",
+          "url": "/b/ravenous-pig-brewing-company-smoked-pineapple-upside-down-cake/4695742",
+          "rating": 3.73
+        }
+      ],
+      "attempts": [
+        {
+          "query": "UPSIDE DOWN CAKE Raven",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-raven-upside-down-cake/4116844",
         "score": 1.0
       }
     },
