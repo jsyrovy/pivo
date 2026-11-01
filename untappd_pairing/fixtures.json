@@ -11607,6 +11607,117 @@
         "source": "llm"
       }
     },
+    "beerstreet::Mad Cat::Mad Cat": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Mad Cat",
+        "name": "Mad Cat",
+        "style": "Ležák světlý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-11-01T18:26:16Z",
+      "candidates": [
+        {
+          "name": "Podzimní Ležák 11°",
+          "brewery": "MadCat",
+          "url": "/b/madcat-podzimni-lezak-11-deg/3955921",
+          "rating": 3.15
+        },
+        {
+          "name": "MadCat Ležák / Kamenický světlý ležák ",
+          "brewery": "MadCat",
+          "url": "/b/madcat-madcat-lezak-kamenicky-svetly-lezak/3619166",
+          "rating": 3.47
+        },
+        {
+          "name": "Kamenický zabiják",
+          "brewery": "MadCat",
+          "url": "/b/madcat-kamenicky-zabijak/3658818",
+          "rating": 3.53
+        },
+        {
+          "name": "Besídka / Kamenické šenkovní",
+          "brewery": "MadCat",
+          "url": "/b/madcat-besidka-kamenicke-senkovni/3658805",
+          "rating": 3.45
+        },
+        {
+          "name": "Mango-Piña-Coco",
+          "brewery": "MadCat",
+          "url": "/b/madcat-mango-pina-coco/2990679",
+          "rating": 3.8
+        },
+        {
+          "name": "Rosa's Thai-PA",
+          "brewery": "Mad Cat Brewery",
+          "url": "/b/mad-cat-brewery-rosa-s-thai-pa/3457688",
+          "rating": 3.2
+        },
+        {
+          "name": "Misty Skywalker",
+          "brewery": "MadCat",
+          "url": "/b/madcat-misty-skywalker/4468663",
+          "rating": 3.78
+        },
+        {
+          "name": "Goosourus",
+          "brewery": "MadCat",
+          "url": "/b/madcat-goosourus/3294580",
+          "rating": 3.73
+        },
+        {
+          "name": "Světlý ležák 11°",
+          "brewery": "Fenek Craft Beer",
+          "url": "/b/fenek-craft-beer-svetly-lezak-11-deg/3322596",
+          "rating": 3.43
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Mad Cat 11° Mad Cat",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "query": "Mad Cat Mad Cat",
+          "hits": [
+            4,
+            5,
+            6,
+            7,
+            1
+          ]
+        },
+        {
+          "query": "Mad Cat 11°",
+          "hits": [
+            8,
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "query": "Mad Cat",
+          "hits": [
+            4,
+            5,
+            6,
+            7,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/madcat-madcat-lezak-kamenicky-svetly-lezak/3619166",
+        "source": "llm"
+      }
+    },
     "beerstreet::Madcat::Pure Haze 076": {
       "beer": {
         "source": "beerstreet",
@@ -15531,6 +15642,47 @@
       ],
       "outcome": {
         "matched": "/b/cerny-potoka-monoceros/6825435",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Čestmír::Koru": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Čestmír",
+        "name": "Koru",
+        "style": "New zealand NEIPA",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-11-01T18:26:22Z",
+      "candidates": [
+        {
+          "name": "NZ NEIPA  – KORU (Riwaka / Nelson Sauvin / Motueka)",
+          "brewery": "Pivovar Čestmír",
+          "url": "/b/pivovar-cestmir-nz-neipa-koru-riwaka-nelson-sauvin-motueka/6857928",
+          "rating": 3.95
+        },
+        {
+          "name": "In Kouř We Trust",
+          "brewery": "Pivovar Čestmír",
+          "url": "/b/pivovar-cestmir-in-kour-we-trust/3907041",
+          "rating": 3.52
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Koru 11° Čestmír",
+          "hits": []
+        },
+        {
+          "query": "Koru Čestmír",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-cestmir-nz-neipa-koru-riwaka-nelson-sauvin-motueka/6857928",
         "score": 1.0
       }
     },
@@ -21527,6 +21679,103 @@
         "score": 1.0
       }
     },
+    "uzamastilu::Hauskrecht::Brněnská 12": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Hauskrecht",
+        "name": "Brněnská 12",
+        "style": "Ležák",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-11-01T18:26:37Z",
+      "candidates": [
+        {
+          "name": "Hauskrecht Brněnská 12",
+          "brewery": "Brněnská pivovarnická společnost",
+          "url": "/b/brnenska-pivovarnicka-spolecnost-hauskrecht-brnenska-12/924325",
+          "rating": 3.41
+        },
+        {
+          "name": "Hauskrecht Brněnská 12 Limitovaná edice čerstvá sklizeň",
+          "brewery": "Brněnská pivovarnická společnost",
+          "url": "/b/brnenska-pivovarnicka-spolecnost-hauskrecht-brnenska-12-limitovana-edice-cerstva-sklizen/1772843",
+          "rating": 3.56
+        },
+        {
+          "name": "Hauskrecht PH 12 Republika",
+          "brewery": "Brněnská pivovarnická společnost",
+          "url": "/b/brnenska-pivovarnicka-spolecnost-hauskrecht-ph-12-republika/2908618",
+          "rating": 3.67
+        },
+        {
+          "name": "Hauskrecht Brněnská 12 LE sklizeň 2022",
+          "brewery": "Brněnská pivovarnická společnost",
+          "url": "/b/brnenska-pivovarnicka-spolecnost-hauskrecht-brnenska-12-le-sklizen-2022/5073292",
+          "rating": 3.61
+        },
+        {
+          "name": "Světák 12",
+          "brewery": "Brněnský minipivovar Richard",
+          "url": "/b/brnensky-minipivovar-richard-svetak-12/346876",
+          "rating": 3.29
+        },
+        {
+          "name": "Proutník 12",
+          "brewery": "Brněnský minipivovar Richard",
+          "url": "/b/brnensky-minipivovar-richard-proutnik-12/746658",
+          "rating": 2.99
+        },
+        {
+          "name": "Cream Ale 12°",
+          "brewery": "Brněnská pivovarnická společnost",
+          "url": "/b/brnenska-pivovarnicka-spolecnost-cream-ale-12-deg/6665187",
+          "rating": 3.66
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Brněnská 12 12° Hauskrecht",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "query": "Brněnská 12 Hauskrecht",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "query": "Brněnská 12 12°",
+          "hits": [
+            0,
+            4,
+            5,
+            1,
+            2
+          ]
+        },
+        {
+          "query": "Brněnská 12",
+          "hits": [
+            0,
+            1,
+            2,
+            6
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/brnenska-pivovarnicka-spolecnost-hauskrecht-brnenska-12/924325",
+        "source": "llm"
+      }
+    },
     "uzamastilu::Hoppydog::Karelian Cold": {
       "beer": {
         "source": "uzamastilu",
@@ -23250,6 +23499,48 @@
       "outcome": {
         "matched": null,
         "reason": "no_candidates_above_threshold"
+      }
+    },
+    "uzamastilu::NZ Pils Chroust::You Shall not Pils 2": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "NZ Pils Chroust",
+        "name": "You Shall not Pils 2",
+        "style": "",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-11-01T18:26:52Z",
+      "candidates": [
+        {
+          "name": "You Shall Not Pils 2",
+          "brewery": "Chroust",
+          "url": "/b/chroust-you-shell-not-pils-2/7646251",
+          "rating": 3.83
+        }
+      ],
+      "attempts": [
+        {
+          "query": "You Shall not Pils 2 12° NZ Pils Chroust",
+          "hits": []
+        },
+        {
+          "query": "You Shall not Pils 2 NZ Pils Chroust",
+          "hits": []
+        },
+        {
+          "query": "You Shall not Pils 2 12°",
+          "hits": []
+        },
+        {
+          "query": "You Shall not Pils 2",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/chroust-you-shell-not-pils-2/7646251",
+        "source": "llm"
       }
     },
     "uzamastilu::Nozib::KAMØN#2 W.Coast": {

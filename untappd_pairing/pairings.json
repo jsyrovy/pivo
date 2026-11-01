@@ -880,7 +880,7 @@
       "match_score": 0.9231,
       "matched_at": "2026-10-25T17:04:23Z",
       "query_used": "Svatomartinská Mordýř",
-      "description_failed_at": "2026-10-25T17:04:56Z"
+      "description": "Světlý ležák s plným sladovým základem a příjemnou hořkostí, spodně kvašený a čistý v chuti. Plné tělo a střední síla."
     },
     "ambasada::Mordýř, Dolní Ředice::Svatováclavská": {
       "untappd_url": "https://untappd.com/b/pivovar-mordyr-svatovaclavska-12/2864744",
@@ -2887,6 +2887,16 @@
       "query_used": "<llm>",
       "description": "Festbier helles je sladově vyvážené spodně kvašené pivo s plnějším tělem a jemnou chmelovou hořkostí, typické pro mnichovské slavnostní ležáky. Při 13,7° a 6,1 % ABV nabízí intenzivnější sladový charakter s medovými a chlebovými tóny, doplněný čistým, lehce kořenitým dozvukem. Hodnocení 3,19 naznačuje podprůměrné přij…"
     },
+    "beerstreet::Mad Cat::Mad Cat": {
+      "untappd_url": "https://untappd.com/b/madcat-madcat-lezak-kamenicky-svetly-lezak/3619166",
+      "untappd_name": "MadCat Ležák / Kamenický světlý ležák ",
+      "untappd_brewery": "MadCat",
+      "rating": 3.47,
+      "match_score": 1.0,
+      "matched_at": "2026-11-01T18:26:16Z",
+      "query_used": "<llm>",
+      "description_failed_at": "2026-11-01T18:26:52Z"
+    },
     "beerstreet::Matuška::Kyselá Máňa": {
       "untappd_url": "https://untappd.com/b/pivovar-matuska-kysela-mana/4081210",
       "untappd_name": "Kyselá Máňa",
@@ -3924,6 +3934,16 @@
       "match_score": 1.0,
       "matched_at": "2026-04-22T17:58:12Z",
       "query_used": "Orion μ Černý potoka"
+    },
+    "beerstreet::Čestmír::Koru": {
+      "untappd_url": "https://untappd.com/b/pivovar-cestmir-nz-neipa-koru-riwaka-nelson-sauvin-motueka/6857928",
+      "untappd_name": "NZ NEIPA  – KORU (Riwaka / Nelson Sauvin / Motueka)",
+      "untappd_brewery": "Pivovar Čestmír",
+      "rating": 3.95,
+      "match_score": 1.0,
+      "matched_at": "2026-11-01T18:26:22Z",
+      "query_used": "Koru Čestmír",
+      "description": "Novozélandská NEIPA s nízkou hořkostí, hladkým tělem a ovocně-květinovým aroma. Chmele Riwaka, Nelson Sauvin a Motueka dodávají tóny čerstvého ovoce, citrusů a jemnějšího koření, zatímco spodní kvašení udržuje čistý a suchý závěr. Pivo je lehké, ale dostatečně plné, s příjemnou svěžestí a nízkou hořkostí, která nezatě…"
     },
     "beerstreet::Čestmír::Pink Guava Maracuja": {
       "untappd_url": "https://untappd.com/b/pivovar-cestmir-sour-pink-guava-maracuja/6534373",
@@ -5209,6 +5229,16 @@
       "query_used": "Step By Step Haksna",
       "description": "Klasická americká pale ale: středně sladový základ s jemnou chmelovou hořkostí, citrusovým a květinovým aroma a lehčím tělem, svrchně kvašená a vyvážená v chuti."
     },
+    "uzamastilu::Hauskrecht::Brněnská 12": {
+      "untappd_url": "https://untappd.com/b/brnenska-pivovarnicka-spolecnost-hauskrecht-brnenska-12/924325",
+      "untappd_name": "Hauskrecht Brněnská 12",
+      "untappd_brewery": "Brněnská pivovarnická společnost",
+      "rating": 3.41,
+      "match_score": 1.0,
+      "matched_at": "2026-11-01T18:26:37Z",
+      "query_used": "<llm>",
+      "description": "Světlý ležák s 12° stupňovitostí: sladový základ s jemnou chmelovou hořkostí, střední tělo a čistá, mírně nasládlá chuť s suchým závěrem. Hodnocení 3,41 je podprůměrné."
+    },
     "uzamastilu::Hřebec::Ležák": {
       "untappd_url": "https://untappd.com/b/pivovar-hrebec-11-deg-lezak/6340661",
       "untappd_name": "11° Ležák",
@@ -5478,6 +5508,16 @@
       "matched_at": "2026-08-12T15:52:12Z",
       "query_used": "<override>",
       "description": "Rhapsody Of Fog je svrchně kvašené pivo s vyšší sladovostí a mírnou hořkostí, charakteristické svým ovocným a květinovým aroma, pravděpodobně ovlivněným použitím rybízů nebo jiných ovocných přídavků, což mu dodává lehkou plnost a jemnou kyselost, vhodné pro milovníky jemně aromatických piv."
+    },
+    "uzamastilu::NZ Pils Chroust::You Shall not Pils 2": {
+      "untappd_url": "https://untappd.com/b/chroust-you-shell-not-pils-2/7646251",
+      "untappd_name": "You Shall Not Pils 2",
+      "untappd_brewery": "Chroust",
+      "rating": 3.83,
+      "match_score": 1.0,
+      "matched_at": "2026-11-01T18:26:52Z",
+      "query_used": "<llm>",
+      "description_failed_at": "2026-11-01T18:26:52Z"
     },
     "uzamastilu::Nozib::KAMØN#2 W.Coast": {
       "untappd_url": "https://untappd.com/b/nozib-special-brews-kamon-2-west-coast-ipa-nectaron-breeze/6845776",
