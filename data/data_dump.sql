@@ -2114,6 +2114,17 @@ INSERT INTO "archive" VALUES(1608343059,'2026-10-14 18:04:27.000000','sejrik','F
 INSERT INTO "archive" VALUES(1608365103,'2026-10-14 19:36:40.000000','sejrik','Wondrous Whale','Sibeeria Brewery','Pivní ambasáda');
 INSERT INTO "archive" VALUES(1608540982,'2026-10-15 19:54:15.000000','sejrik','Perlenbacher Pšeničné Nealko','Lidl Slovakia','Untappd at Home');
 INSERT INTO "archive" VALUES(1608817197,'2026-10-16 19:40:46.000000','sejrik','Five Stars','Al Masria Co.','Floriana Emerald Lagoon');
+INSERT INTO "archive" VALUES(1612208664,'2026-10-31 10:59:52.000000','sejrik','Baltic Express','Chroust','Železniční stanice Kolín');
+INSERT INTO "archive" VALUES(1612222545,'2026-10-31 12:35:52.000000','sejrik','Sv. Norbert Special Amber Beer','Pivovar Strahov','Klášterní pivovar Strahov');
+INSERT INTO "archive" VALUES(1612228299,'2026-10-31 13:05:31.000000','sejrik','Sv. Norbert Special Dark Beer','Pivovar Strahov','Klášterní pivovar Strahov');
+INSERT INTO "archive" VALUES(1612234609,'2026-10-31 13:33:43.000000','sejrik','Sv. Norbert IPA (2026)','Pivovar Strahov','Klášterní pivovar Strahov');
+INSERT INTO "archive" VALUES(1612251730,'2026-10-31 14:39:28.000000','sejrik','Smash APA','U Tří růží','Pivovar U Tří růží');
+INSERT INTO "archive" VALUES(1612273220,'2026-10-31 15:42:14.000000','sejrik','Římská XI° American Red Ale','Pivovar Římská','Pivovar Římská');
+INSERT INTO "archive" VALUES(1612283668,'2026-10-31 16:07:41.000000','sejrik','Hazy Pale Ale XII°','Pivovar Římská','Pivovar Římská');
+INSERT INTO "archive" VALUES(1612306633,'2026-10-31 16:54:53.000000','sejrik','Vinohradská 12','Vinohradský pivovar','Vinohradský pivovar');
+INSERT INTO "archive" VALUES(1612326272,'2026-10-31 17:30:16.000000','sejrik','Fern Enough','Vinohradský pivovar','Vinohradský pivovar');
+INSERT INTO "archive" VALUES(1612355851,'2026-10-31 18:20:32.000000','sejrik','Černá svině','Černokostelecký pivovar','Černá/Black Swine');
+INSERT INTO "archive" VALUES(1612411959,'2026-10-31 19:50:20.000000','sejrik','West Coast IPA','Černokostelecký pivovar','Černá/Black Swine');
 CREATE TABLE [pivni_valka] (
 	[id] integer PRIMARY KEY,
 	[date] text,
