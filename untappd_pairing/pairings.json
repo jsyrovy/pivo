@@ -5139,6 +5139,16 @@
       "query_used": "Kiwi v mlze Chroust",
       "description": "Ovocně chmelená NEIPA s jemným zákalem, střední plností a nižší hořkostí; aroma tropického ovoce a citrusů, kiwi přidává svěží, mírně kyselkavý tón. Nadprůměrně hodnocené."
     },
+    "uzamastilu::Chroust::You Shall not Pils 2": {
+      "untappd_url": "https://untappd.com/b/chroust-you-shell-not-pils-2/7646251",
+      "untappd_name": "You Shall Not Pils 2",
+      "untappd_brewery": "Chroust",
+      "rating": 3.87,
+      "match_score": 1.0,
+      "matched_at": "2026-11-02T22:19:35Z",
+      "query_used": "You Shall not Pils 2 Chroust",
+      "description": "Novozélandský pils s výrazným chmelem, který nabízí citrusové, tropické a lehce květinové aroma. V chuti je suchý, s čistou hořkostí a lehkým sladovým podkladem, který nechává vyniknout charakteristické novozélandské chmele. Pivo je svěží, lehké a dobře pitelné s příjemně ostrým závěrem. Hodnocení na Untappd je nadprů…"
+    },
     "uzamastilu::Clock::Fresh Hop Ale Most 2026": {
       "untappd_url": "https://untappd.com/b/pivovar-clock-fresh-hopale-most-2026/7080688",
       "untappd_name": "Fresh Hopale MOST 2026",
@@ -5368,6 +5378,16 @@
       "matched_at": "2026-09-01T20:52:46Z",
       "query_used": "<llm>",
       "description_failed_at": "2026-09-01T20:52:46Z"
+    },
+    "uzamastilu::Klenot::Session Brut": {
+      "untappd_url": "https://untappd.com/b/hradecky-klenot-10-deg-session-brut-ipa/5995111",
+      "untappd_name": "10° Session Brut IPA",
+      "untappd_brewery": "Hradecký Klenot",
+      "rating": 3.83,
+      "match_score": 1.0,
+      "matched_at": "2026-11-02T22:19:33Z",
+      "query_used": "Session Brut 10° Klenot",
+      "description": "Session Brut IPA s nízkou stupňovitostí nabízí lehké tělo s výraznou chmelovou hořkostí a ovocným aroma typickým pro styl IPA. Název Brut naznačuje suchý závěr s nižší sladovou sladkostí, čímž vzniká čistější a svěžší profil s důrazem na chmel. Hodnocení 3,83 naznačuje nadprůměrné hodnocení."
     },
     "uzamastilu::Kosmix::Riwakulous": {
       "untappd_url": "https://untappd.com/b/letajici-pivovar-kosmix-riwakulous/6941832",

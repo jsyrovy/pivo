@@ -21308,6 +21308,40 @@
         "score": 1.0
       }
     },
+    "uzamastilu::Chroust::You Shall not Pils 2": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Chroust",
+        "name": "You Shall not Pils 2",
+        "style": "NZ pils",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-11-02T22:19:35Z",
+      "candidates": [
+        {
+          "name": "You Shall Not Pils 2",
+          "brewery": "Chroust",
+          "url": "/b/chroust-you-shell-not-pils-2/7646251",
+          "rating": 3.87
+        }
+      ],
+      "attempts": [
+        {
+          "query": "You Shall not Pils 2 12° Chroust",
+          "hits": []
+        },
+        {
+          "query": "You Shall not Pils 2 Chroust",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/chroust-you-shell-not-pils-2/7646251",
+        "score": 1.0
+      }
+    },
     "uzamastilu::Clock::Fresh Hop Ale Most 2026": {
       "beer": {
         "source": "uzamastilu",
@@ -22448,6 +22482,36 @@
       "outcome": {
         "matched": "/b/hradecky-klenot-rhapsony-od-fog/6822491",
         "source": "llm"
+      }
+    },
+    "uzamastilu::Klenot::Session Brut": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Klenot",
+        "name": "Session Brut",
+        "style": "IPA",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-11-02T22:19:33Z",
+      "candidates": [
+        {
+          "name": "10° Session Brut IPA",
+          "brewery": "Hradecký Klenot",
+          "url": "/b/hradecky-klenot-10-deg-session-brut-ipa/5995111",
+          "rating": 3.83
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Session Brut 10° Klenot",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/hradecky-klenot-10-deg-session-brut-ipa/5995111",
+        "score": 1.0
       }
     },
     "uzamastilu::Klenot::Session Brut IPA 5,3%": {
