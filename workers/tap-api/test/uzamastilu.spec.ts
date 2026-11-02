@@ -105,18 +105,31 @@ describe("parseUzamastiluJson", () => {
       { order: 2, name: "Brew Berrymore", brewery: "Pastry Sour Twinberg" },
       { order: 3, name: "Cherry n' Apricot", brewery: "Sour Madcat" },
       { order: 4, name: "Hoppla! Continental", brewery: "Pale Ale Brewnicorn" },
+      { order: 5, name: "You Shall not Pils 2", brewery: "NZ Pils Chroust" },
     ]);
     expect(beers.map((b) => [b.brewery, b.style])).toEqual([
       ["Klenot", "NZ hazy IPA"],
       ["Twinberg", "Pastry sour"],
       ["Madcat", "Sour"],
       ["Brewnicorn", "Pale ale"],
+      ["Chroust", "NZ pils"],
     ]);
   });
 
   it("prefers the style from the name over the one leaked into the brewery", () => {
-    const beers = parseUzamastiluJson([{ order: 1, name: "Wai-Wai Hazy IPA", brewery: "Sour Zichovec" }]);
-    expect(beers[0]).toMatchObject({ name: "Wai-Wai", brewery: "Zichovec", style: "Hazy IPA" });
+    const beers = parseUzamastiluJson([
+      { order: 1, name: "Wai-Wai Hazy IPA", brewery: "Sour Zichovec" },
+      { order: 2, name: "Wai-Wai Hazy IPA", brewery: "NZ Pils Chroust" },
+    ]);
+    expect(beers.map((b) => [b.name, b.brewery, b.style])).toEqual([
+      ["Wai-Wai", "Zichovec", "Hazy IPA"],
+      ["Wai-Wai", "Chroust", "Hazy IPA"],
+    ]);
+  });
+
+  it("keeps a trailing pils in the beer name", () => {
+    const beers = parseUzamastiluJson([{ order: 1, name: "Shift the Pils", brewery: "Chroust" }]);
+    expect(beers[0]).toMatchObject({ name: "Shift the Pils", brewery: "Chroust", style: "" });
   });
 
   it("prepends a leaked hop qualifier to the style from the name", () => {

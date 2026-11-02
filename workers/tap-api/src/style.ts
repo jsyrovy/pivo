@@ -158,10 +158,15 @@ export function extractStyleFromName(name: string): {
   };
 }
 
+// Core styles that anchor a style leaked into U Zámastilů's brewery field. "pils" opens one there
+// ("NZ Pils Chroust") but stays out of STYLE_KEYWORDS, where extractStyleFromName would cut it off
+// pun names ("Shift the Pils" -> "Shift the").
+const LEADING_STYLE_ANCHORS = new Set([...STYLE_KEYWORDS, "pils"]);
+
 // What may open a style leaked into U Zámastilů's brewery field. "nz", "pastry" and "fruit" only
 // ever show up there ("NZ Hazy IPA Klenot", "Pastry Sour Twinberg"), so they stay out of
 // STYLE_MODIFIERS, where they would start matching trailing name words in extractStyleFromName.
-const LEADING_STYLE_WORDS = new Set([...STYLE_KEYWORDS, ...STYLE_MODIFIERS, "nz", "pastry", "fruit"]);
+const LEADING_STYLE_WORDS = new Set([...LEADING_STYLE_ANCHORS, ...STYLE_MODIFIERS, "nz", "pastry", "fruit"]);
 
 // Harvest-hop labels open the brewery field too ("Fresh Hop Chroust"). They count only as a pair: a
 // bare "Hop" opens real breweries ("Hop Hooligans").
@@ -185,7 +190,7 @@ export function splitLeadingStyle(brewery: string): {
       anchored = true;
       end += 2;
     } else if (LEADING_STYLE_WORDS.has(tokens[end])) {
-      anchored ||= STYLE_KEYWORDS.has(tokens[end]);
+      anchored ||= LEADING_STYLE_ANCHORS.has(tokens[end]);
       end++;
     } else {
       break;
@@ -203,7 +208,7 @@ export function splitLeadingStyle(brewery: string): {
 // it: "Fresh Hop" + "IPA" is one style, "Sour" + "Hazy IPA" are two competing ones.
 export function mergeLeakedStyle(nameStyle: string, leakedStyle: string): string {
   if (!nameStyle) return leakedStyle;
-  if (!leakedStyle || leakedStyle.split(/\s+/).some((w) => STYLE_KEYWORDS.has(styleToken(w)))) {
+  if (!leakedStyle || leakedStyle.split(/\s+/).some((w) => LEADING_STYLE_ANCHORS.has(styleToken(w)))) {
     return nameStyle;
   }
   return `${leakedStyle} ${nameStyle}`;
