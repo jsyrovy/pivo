@@ -1804,6 +1804,40 @@
         "reason": "no_candidates_above_threshold"
       }
     },
+    "ambasada::JungBerg, Hořice::Lotus": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "JungBerg, Hořice",
+        "name": "Lotus",
+        "style": "Pale ale",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-11-03T20:06:50Z",
+      "candidates": [
+        {
+          "name": "Lotus",
+          "brewery": "Pivovar JungBerg",
+          "url": "/b/pivovar-jungberg-lotus/7214635",
+          "rating": 3.54
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Lotus 12° JungBerg",
+          "hits": []
+        },
+        {
+          "query": "Lotus JungBerg",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-jungberg-lotus/7214635",
+        "score": 1.0
+      }
+    },
     "ambasada::JungBerg, Hořice::PP (Pořádné Pivo)": {
       "beer": {
         "source": "ambasada",
@@ -7390,6 +7424,40 @@
       ],
       "outcome": {
         "matched": "/b/chroust-extra-extra/6656532",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Chroust::Jet Lag": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Chroust",
+        "name": "Jet Lag",
+        "style": "American pale ale",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-11-03T20:06:45Z",
+      "candidates": [
+        {
+          "name": "Jet Lag",
+          "brewery": "Chroust",
+          "url": "/b/chroust-jet-lag/7617627",
+          "rating": 3.66
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Jet Lag 12° Chroust",
+          "hits": []
+        },
+        {
+          "query": "Jet Lag Chroust",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/chroust-jet-lag/7617627",
         "score": 1.0
       }
     },
@@ -15954,8 +16022,14 @@
         "style": "Světlý ležák s 10 % žitných sladů",
         "degree_plato": null
       },
-      "captured_at": "2026-10-27T18:42:04Z",
+      "captured_at": "2026-11-03T20:07:08Z",
       "candidates": [
+        {
+          "name": "Svatováclavský Ležák 11°",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-svatovaclavsky-lezak-11-deg/6942554",
+          "rating": null
+        },
         {
           "name": "Světlý ležák 13°",
           "brewery": "Pivovar U Fleků",
@@ -16014,36 +16088,40 @@
       "attempts": [
         {
           "query": "SVATOVÁCLAVSKÝ LEŽÁK BeerPoets + Mordýř",
-          "hits": []
+          "hits": [
+            0
+          ]
         },
         {
           "query": "SVATOVÁCLAVSKÝ LEŽÁK",
           "hits": [
-            0,
             1,
             2,
             3,
-            4
+            4,
+            5
           ]
         },
         {
           "query": "SVATOVÁCLAVSKÝ BeerPoets + Mordýř",
-          "hits": []
+          "hits": [
+            0
+          ]
         },
         {
           "query": "SVATOVÁCLAVSKÝ",
           "hits": [
-            0,
-            5,
+            1,
             6,
             7,
-            8
+            8,
+            9
           ]
         }
       ],
       "outcome": {
-        "matched": null,
-        "reason": "no_candidates_above_threshold"
+        "matched": "/b/pivovar-mordyr-svatovaclavsky-lezak-11-deg/6942554",
+        "source": "llm"
       }
     },
     "toulavapipa::Beerpoets/Mordýř::Svatováclavský žitný ležák": {
@@ -22030,6 +22108,40 @@
         "source": "llm"
       }
     },
+    "uzamastilu::HoppyDog::Luna": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "HoppyDog",
+        "name": "Luna",
+        "style": "NEIPA",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-11-03T20:07:13Z",
+      "candidates": [
+        {
+          "name": "New Dog On the Hop Luna",
+          "brewery": "Pivovar HoppyDog",
+          "url": "/b/pivovar-hoppydog-new-dog-on-the-hop-luna/7643907",
+          "rating": 3.86
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Luna 13° HoppyDog",
+          "hits": []
+        },
+        {
+          "query": "Luna HoppyDog",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-hoppydog-new-dog-on-the-hop-luna/7643907",
+        "score": 1.0
+      }
+    },
     "uzamastilu::Hoppydog::Karelian Cold": {
       "beer": {
         "source": "uzamastilu",
@@ -22539,6 +22651,39 @@
         },
         {
           "query": "Session Brut IPA 5,3%",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
+    "uzamastilu::Klenot::Výroční ležák ART": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Klenot",
+        "name": "Výroční ležák ART",
+        "style": "",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-11-03T20:07:20Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Výroční ležák ART 12° Klenot",
+          "hits": []
+        },
+        {
+          "query": "Výroční ležák ART Klenot",
+          "hits": []
+        },
+        {
+          "query": "Výroční ležák ART 12°",
+          "hits": []
+        },
+        {
+          "query": "Výroční ležák ART",
           "hits": []
         }
       ],
