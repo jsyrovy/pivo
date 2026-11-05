@@ -2644,7 +2644,8 @@
       "rating": 3.613,
       "match_score": 1.0,
       "matched_at": "2026-05-22T09:09:08Z",
-      "query_used": "Haka 12° Louka"
+      "query_used": "Haka 12° Louka",
+      "description": "American pale ale s vyváženým poměrem sladu a chmele, střední hořkostí a čistým, lehce ovocnějším aroma. Tělo je středně plné, suché a lehce kořeněné, s příjemným dozvukem chmelu."
     },
     "beerstreet::Louka::Hazy Lazy": {
       "untappd_url": "https://untappd.com/b/pivovar-louka-hazy-lazy/5352539",
@@ -3585,6 +3586,16 @@
       "matched_at": "2026-10-06T18:51:07Z",
       "query_used": "Vinařská Thrills",
       "description": "Farmhouse ale s lehkým sladovým tělem, jemnou kořenitostí a ovocnými estery typickými pro svrchně kvašené farmhouse kvasnice, suchý a osvěžující charakter."
+    },
+    "beerstreet::Trojan::Chmelová brigáda": {
+      "untappd_url": "https://untappd.com/b/pivovar-trojan-telc-chmelova-brigada-11-deg/5599772",
+      "untappd_name": "Chmelová Brigáda 11°",
+      "untappd_brewery": "Pivovar Trojan Telč",
+      "rating": 3.39,
+      "match_score": 1.0,
+      "matched_at": "2026-11-05T20:40:20Z",
+      "query_used": "Chmelová brigáda 11° Trojan",
+      "description": "Světlý ležák s vyváženou sladovou chutí, jemnou chmelovou hořkostí a plným tělem, spodně kvašený a čistý v chuti."
     },
     "beerstreet::Trojan::Lekárníkova": {
       "untappd_url": "https://untappd.com/b/pivovar-trojan-telc-lekarnikova-jedenactka-na-stojaka/2471922",

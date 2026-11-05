@@ -14235,6 +14235,36 @@
         "score": 1.0
       }
     },
+    "beerstreet::Trojan::Chmelová brigáda": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Trojan",
+        "name": "Chmelová brigáda",
+        "style": "Ležák světlý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-11-05T20:40:20Z",
+      "candidates": [
+        {
+          "name": "Chmelová Brigáda 11°",
+          "brewery": "Pivovar Trojan Telč",
+          "url": "/b/pivovar-trojan-telc-chmelova-brigada-11-deg/5599772",
+          "rating": 3.39
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Chmelová brigáda 11° Trojan",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-trojan-telc-chmelova-brigada-11-deg/5599772",
+        "score": 1.0
+      }
+    },
     "beerstreet::Trojan::Lekárníkova": {
       "beer": {
         "source": "beerstreet",
