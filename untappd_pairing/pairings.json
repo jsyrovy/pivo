@@ -238,7 +238,8 @@
       "rating": 3.582,
       "match_score": 1.0,
       "matched_at": "2026-05-06T20:19:51Z",
-      "query_used": "Glee Clock"
+      "query_used": "Glee Clock",
+      "description_failed_at": "2026-11-06T19:57:33Z"
     },
     "ambasada::Clock, Potštejn::Goldie": {
       "untappd_url": "https://untappd.com/b/pivovar-clock-goldie/778831",
@@ -613,7 +614,8 @@
       "rating": 3.697,
       "match_score": 1.0,
       "matched_at": "2026-06-11T16:58:26Z",
-      "query_used": "American IPA 14° Louka"
+      "query_used": "American IPA 14° Louka",
+      "description": "Americká IPA s vyšší stupňovitostí a 6,1 % alkoholu nabízí plnější tělo a silnější projev. Očekávejte chmelové aroma s citrusovými a pryskyřičnými tóny, výraznou hořkost a suchý, chmelově nasycený závěr."
     },
     "ambasada::Louka::Apač": {
       "untappd_url": "https://untappd.com/b/pivovar-louka-apac/3902175",
@@ -2198,6 +2200,16 @@
       "matched_at": "2026-06-24T15:35:43Z",
       "query_used": "Lazy Charboney Fracek"
     },
+    "beerstreet::Fracek::No Compass": {
+      "untappd_url": "https://untappd.com/b/fracek-no-compass/7018815",
+      "untappd_name": "NO COMPASS",
+      "untappd_brewery": "FRACEK",
+      "rating": 3.83,
+      "match_score": 1.0,
+      "matched_at": "2026-11-06T19:57:23Z",
+      "query_used": "No Compass Fracek",
+      "description": "Svrchně kvašený pils s plnějším tělem a jemnou sladovou sladkostí, doplněný chmelovými tóny typickými pro novozélandské odrůdy. Hodnocení 3,83 signalizuje nadprůměrnou kvalitu."
+    },
     "beerstreet::Hacker-Pschorr - Mnichov::Hacker-Pschorr": {
       "untappd_url": "https://untappd.com/b/hacker-pschorr-oktoberfest-marzen/1827",
       "untappd_name": "Oktoberfest Märzen",
@@ -2415,6 +2427,16 @@
       "matched_at": "2026-04-17T11:20:46Z",
       "query_used": "Kazbek Klenot",
       "description": "Klasický světlý ležák: sladový základ, jemná chmelová hořkost a lehčí tělo, spodně kvašený a čistý v chuti. Podprůměrně hodnocené na Untappd."
+    },
+    "beerstreet::Klenot::Malina + Máta": {
+      "untappd_url": "https://untappd.com/b/hradecky-klenot-sour-raspberry-and-mint/5361485",
+      "untappd_name": "Sour – Raspberry & Mint",
+      "untappd_brewery": "Hradecký Klenot",
+      "rating": 3.57,
+      "match_score": 0.125,
+      "matched_at": "2026-11-06T19:57:26Z",
+      "query_used": "Malina + Máta Klenot",
+      "description": "Kyselé pivo s příchutí malin a máty: svěží, svrchně kvašené pivo s výraznou malinovou sladkostí a mátovou svěžestí, středně plné, s jemnou kyselinkou a lehkým bylinným závěrem."
     },
     "beerstreet::Klenot::Mango & broskev": {
       "untappd_url": "https://untappd.com/b/hradecky-klenot-sour-mango-and-peach/4292985",
@@ -5409,6 +5431,16 @@
       "matched_at": "2026-11-01T18:26:37Z",
       "query_used": "<llm>",
       "description": "Světlý ležák s 12° stupňovitostí: sladový základ s jemnou chmelovou hořkostí, střední tělo a čistá, mírně nasládlá chuť s suchým závěrem. Hodnocení 3,41 je podprůměrné."
+    },
+    "uzamastilu::Hendrych::H13 Cold": {
+      "untappd_url": "https://untappd.com/b/hendrych-h13-cold-ipa/6911515",
+      "untappd_name": "H13 Cold IPA",
+      "untappd_brewery": "Hendrych",
+      "rating": 3.62,
+      "match_score": 1.0,
+      "matched_at": "2026-11-06T19:57:33Z",
+      "query_used": "H13 Cold Hendrych",
+      "description": "H13 Cold IPA, 13°, 3.62 / 5 – silně chmelená IPA s intenzivním citrusovým a tropickým aroma, výraznou hořkostí a suchým, ostřejším závěrem, plnější tělo díky nízké teři."
     },
     "uzamastilu::HoppyDog::Luna": {
       "untappd_url": "https://untappd.com/b/pivovar-hoppydog-new-dog-on-the-hop-luna/7643907",

@@ -8167,6 +8167,40 @@
         "score": 0.8333
       }
     },
+    "beerstreet::Fracek::No Compass": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Fracek",
+        "name": "No Compass",
+        "style": "New zealand pils",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-11-06T19:57:23Z",
+      "candidates": [
+        {
+          "name": "NO COMPASS",
+          "brewery": "FRACEK",
+          "url": "/b/fracek-no-compass/7018815",
+          "rating": 3.83
+        }
+      ],
+      "attempts": [
+        {
+          "query": "No Compass 12° Fracek",
+          "hits": []
+        },
+        {
+          "query": "No Compass Fracek",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/fracek-no-compass/7018815",
+        "score": 1.0
+      }
+    },
     "beerstreet::Hacker-Pschorr - Mnichov::Hacker-Pschorr": {
       "beer": {
         "source": "beerstreet",
@@ -9704,6 +9738,40 @@
       "outcome": {
         "matched": null,
         "reason": "no_candidates_above_threshold"
+      }
+    },
+    "beerstreet::Klenot::Malina + Máta": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Klenot",
+        "name": "Malina + Máta",
+        "style": "Sour",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-11-06T19:57:26Z",
+      "candidates": [
+        {
+          "name": "Sour – Raspberry & Mint",
+          "brewery": "Hradecký Klenot",
+          "url": "/b/hradecky-klenot-sour-raspberry-and-mint/5361485",
+          "rating": 3.57
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Malina + Máta 10° Klenot",
+          "hits": []
+        },
+        {
+          "query": "Malina + Máta Klenot",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/hradecky-klenot-sour-raspberry-and-mint/5361485",
+        "score": 0.125
       }
     },
     "beerstreet::Klenot::Mango & broskev": {
@@ -22394,6 +22462,40 @@
       "outcome": {
         "matched": "/b/brnenska-pivovarnicka-spolecnost-hauskrecht-brnenska-12/924325",
         "source": "llm"
+      }
+    },
+    "uzamastilu::Hendrych::H13 Cold": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Hendrych",
+        "name": "H13 Cold",
+        "style": "IPA",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-11-06T19:57:33Z",
+      "candidates": [
+        {
+          "name": "H13 Cold IPA",
+          "brewery": "Hendrych",
+          "url": "/b/hendrych-h13-cold-ipa/6911515",
+          "rating": 3.62
+        }
+      ],
+      "attempts": [
+        {
+          "query": "H13 Cold 13° Hendrych",
+          "hits": []
+        },
+        {
+          "query": "H13 Cold Hendrych",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/hendrych-h13-cold-ipa/6911515",
+        "score": 1.0
       }
     },
     "uzamastilu::HoppyDog::Luna": {
