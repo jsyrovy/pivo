@@ -16700,6 +16700,36 @@
         "reason": "no_candidates_above_threshold"
       }
     },
+    "toulavapipa::Clock::FRESH ALE MOST 2026": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Clock",
+        "name": "FRESH ALE MOST 2026",
+        "style": "Ale z čerstvého chmele",
+        "degree_plato": null
+      },
+      "captured_at": "2026-11-06T01:33:32Z",
+      "candidates": [
+        {
+          "name": "Fresh Hop Ale Most 2026",
+          "brewery": "Pivovar Clock",
+          "url": "/b/pivovar-clock-fresh-hopale-most-2026/7080688",
+          "rating": 3.79
+        }
+      ],
+      "attempts": [
+        {
+          "query": "FRESH ALE MOST 2026 Clock",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-clock-fresh-hopale-most-2026/7080688",
+        "score": 0.9333
+      }
+    },
     "toulavapipa::Clock::Glee": {
       "beer": {
         "source": "toulavapipa",
@@ -18223,6 +18253,36 @@
         "score": 1.0
       }
     },
+    "toulavapipa::Loutkář::SUPERDELIC": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Loutkář",
+        "name": "SUPERDELIC",
+        "style": "New zealand pale ale",
+        "degree_plato": null
+      },
+      "captured_at": "2026-11-06T01:33:32Z",
+      "candidates": [
+        {
+          "name": "Superdelic 11",
+          "brewery": "Pivovar Loutkář",
+          "url": "/b/pivovar-loutkar-superdelic-11/7615759",
+          "rating": 3.65
+        }
+      ],
+      "attempts": [
+        {
+          "query": "SUPERDELIC Loutkář",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-loutkar-superdelic-11/7615759",
+        "score": 1.0
+      }
+    },
     "toulavapipa::Loutkář::Samotář": {
       "beer": {
         "source": "toulavapipa",
@@ -18776,6 +18836,43 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-mazak-rainbow-of-death/2852216",
+        "score": 1.0
+      }
+    },
+    "toulavapipa::Mazák::ZERO HERO": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Mazák",
+        "name": "ZERO HERO",
+        "style": "Nealko IPA",
+        "degree_plato": null
+      },
+      "captured_at": "2026-11-06T01:33:33Z",
+      "candidates": [
+        {
+          "name": "Zero Hero",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-zero-hero/6249467",
+          "rating": 3.53
+        },
+        {
+          "name": "Zero Hero Pomeranč",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-zero-hero-pomeranc/6630834",
+          "rating": 3.47
+        }
+      ],
+      "attempts": [
+        {
+          "query": "ZERO HERO Mazák",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mazak-zero-hero/6249467",
         "score": 1.0
       }
     },
@@ -21131,6 +21228,39 @@
       "captured_at": "2026-10-06T22:56:59Z",
       "candidates": [],
       "attempts": [],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
+    "uzamastilu::Agent::Pětihvězda": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Agent",
+        "name": "Pětihvězda",
+        "style": "Ležák",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-11-06T01:33:44Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Pětihvězda 12° Agent",
+          "hits": []
+        },
+        {
+          "query": "Pětihvězda Agent",
+          "hits": []
+        },
+        {
+          "query": "Pětihvězda 12°",
+          "hits": []
+        },
+        {
+          "query": "Pětihvězda",
+          "hits": []
+        }
+      ],
       "outcome": {
         "matched": null,
         "reason": "no_candidates_above_threshold"
@@ -26362,6 +26492,36 @@
       "outcome": {
         "matched": "/b/klasterni-pivovar-porta-coeli-vorkloster-india-pale-lager/4082895",
         "source": "llm"
+      }
+    },
+    "uzamastilu::Zichovec::Flip Flop Academy": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Zichovec",
+        "name": "Flip Flop Academy",
+        "style": "Gose",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-11-06T01:33:44Z",
+      "candidates": [
+        {
+          "name": "Flip Flop Academy 11",
+          "brewery": "Pivovar ZICHOVEC",
+          "url": "/b/pivovar-zichovec-flip-flop-academy-11/6825451",
+          "rating": 3.72
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Flip Flop Academy 11° Zichovec",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-zichovec-flip-flop-academy-11/6825451",
+        "score": 1.0
       }
     },
     "uzamastilu::Zichovec::Krahulík": {

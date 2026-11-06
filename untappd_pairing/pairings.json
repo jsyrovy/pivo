@@ -4221,6 +4221,16 @@
       "query_used": "<override>",
       "description": "Clock APA od pivovaru Clock je typické americké pale ale s vyváženou hořkostí a ovocnými aromaty chmele, má střední tělo a dobře se hodí k odpočinku po práci nebo k neformálnímu setkání s přáteli."
     },
+    "toulavapipa::Clock::FRESH ALE MOST 2026": {
+      "untappd_url": "https://untappd.com/b/pivovar-clock-fresh-hopale-most-2026/7080688",
+      "untappd_name": "Fresh Hop Ale Most 2026",
+      "untappd_brewery": "Pivovar Clock",
+      "rating": 3.79,
+      "match_score": 0.9333,
+      "matched_at": "2026-11-06T01:33:32Z",
+      "query_used": "FRESH ALE MOST 2026 Clock",
+      "description": "Svrchně kvašené pivo z čerstvého chmele s výrazným, přímým chmelovým aroma a přirozenou hořkostí. Tělo je střední až plné a chuť je ovlivněna čerstvostí chmelu, což přináší živější a komplexnější profil než u klasických piv. Hodnocení 3,79."
+    },
     "toulavapipa::Clock::Glee": {
       "untappd_url": "https://untappd.com/b/pivovar-clock-glee/3101033",
       "untappd_name": "Glee",
@@ -4471,6 +4481,16 @@
       "query_used": "Lodní šroub Loutkář",
       "description": "Klasická americká pale ale s vyváženým sladovým základem a střední chmelovou hořkostí, typicky s citrusovými a květinovými tóny, středně plné tělo a čistý dojem. Hodnocení 3,52 odpovídá průměrné úrovni."
     },
+    "toulavapipa::Loutkář::SUPERDELIC": {
+      "untappd_url": "https://untappd.com/b/pivovar-loutkar-superdelic-11/7615759",
+      "untappd_name": "Superdelic 11",
+      "untappd_brewery": "Pivovar Loutkář",
+      "rating": 3.65,
+      "match_score": 1.0,
+      "matched_at": "2026-11-06T01:33:32Z",
+      "query_used": "SUPERDELIC Loutkář",
+      "description": "New zealand pale ale s vysoce chmelovou sladkostí, vyjimečnou plností a vysoce vyjimečnou hořkostí, s vysoce vyjimečnou chutí a vysoce vyjimečnou plností těla."
+    },
     "toulavapipa::Loutkář::Samotář": {
       "untappd_url": "https://untappd.com/b/pivovar-loutkar-samotar/4539596",
       "untappd_name": "Samotář",
@@ -4600,6 +4620,16 @@
       "matched_at": "2026-09-07T18:10:47Z",
       "query_used": "RAINBOW OF DEATH Mazák",
       "description": "IPA s výraznou chmelovou hořkostí, citrusovým a tropickým ovocným aroma a středně plným tělem. Hodnocení na Untappd je nadprůměrné."
+    },
+    "toulavapipa::Mazák::ZERO HERO": {
+      "untappd_url": "https://untappd.com/b/pivovar-mazak-zero-hero/6249467",
+      "untappd_name": "Zero Hero",
+      "untappd_brewery": "Pivovar Mazák",
+      "rating": 3.53,
+      "match_score": 1.0,
+      "matched_at": "2026-11-06T01:33:33Z",
+      "query_used": "ZERO HERO Mazák",
+      "description_failed_at": "2026-11-06T01:33:44Z"
     },
     "toulavapipa::Mordýř::JEŽIBABA": {
       "untappd_url": "https://untappd.com/b/pivovar-mordyr-jezibaba/2811246",
@@ -6120,6 +6150,16 @@
       "query_used": "<llm>",
       "description": "India pale lager kombinuje chmelový profil IPA s čistotou spodně kvašeného ležáku – středně plné tělo, výraznější hořkost a aroma citrusů, pryskyřice a tropického ovoce, typické pro chmelení za studena. Spodné kvašení zajišťuje čistý, suchý závěr bez esterních tónů svrchně kvašených piv."
     },
+    "uzamastilu::Zichovec::Flip Flop Academy": {
+      "untappd_url": "https://untappd.com/b/pivovar-zichovec-flip-flop-academy-11/6825451",
+      "untappd_name": "Flip Flop Academy 11",
+      "untappd_brewery": "Pivovar ZICHOVEC",
+      "rating": 3.72,
+      "match_score": 1.0,
+      "matched_at": "2026-11-06T01:33:44Z",
+      "query_used": "Flip Flop Academy 11° Zichovec",
+      "description": "Gose s jemnou solou, kyselým chmelem a lehkou plností těla, nasládlá chuť s citrusovou kyselinkou a lehkou hořkostí, POUZE 3,72."
+    },
     "uzamastilu::Zichovec::Krahulík": {
       "untappd_url": "https://untappd.com/b/pivovar-zichovec-krahulik-11/2483912",
       "untappd_name": "Krahulík 11",
@@ -6460,6 +6500,11 @@
     "uzamastilu::::": {
       "attempts": 1,
       "last_tried_at": "2026-10-06T22:56:59Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "uzamastilu::Agent::Pětihvězda": {
+      "attempts": 1,
+      "last_tried_at": "2026-11-06T01:33:44Z",
       "reason": "no_candidates_above_threshold"
     },
     "uzamastilu::Blud::Vestkoust Lágr IPL": {
