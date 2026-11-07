@@ -11062,6 +11062,36 @@
         "score": 1.0
       }
     },
+    "beerstreet::Louka::Lollipop": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Louka",
+        "name": "Lollipop",
+        "style": "Milkshake IPA",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-11-07T21:51:47Z",
+      "candidates": [
+        {
+          "name": "Lollipop 13",
+          "brewery": "Pivovar Louka",
+          "url": "/b/pivovar-louka-lollipop-13/5659964",
+          "rating": 3.68
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Lollipop 13° Louka",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-louka-lollipop-13/5659964",
+        "score": 1.0
+      }
+    },
     "beerstreet::Louka::New Zealand": {
       "beer": {
         "source": "beerstreet",
@@ -14755,6 +14785,113 @@
       "outcome": {
         "matched": "/b/pivovar-u-vojtechu-slehac/4240811",
         "score": 1.0
+      }
+    },
+    "beerstreet::VIK & Kurnik Šopa::Rhapzody": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "VIK & Kurnik Šopa",
+        "name": "Rhapzody",
+        "style": "Hazy ale",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-11-07T21:51:47Z",
+      "candidates": [
+        {
+          "name": "PORN HOP EDITION - RHAPZODY / Hazy Ale Vik & Kurnik Šopa",
+          "brewery": "Pivovar Vik",
+          "url": "/b/pivovar-vik-porn-hop-edition-rhapzody-hazy-ale-vik-and-kurnik-sopa/6859086",
+          "rating": 3.88
+        },
+        {
+          "name": "IPA 13° Stereo Lab (Rhapzody & Nectaron)",
+          "brewery": "Pivovar Čestmír",
+          "url": "/b/pivovar-cestmir-ipa-13-stereo-lab-rhapsody-and-nectaron/6837010",
+          "rating": 3.87
+        },
+        {
+          "name": "Rhapzody IPA 15°",
+          "brewery": "Varga Brothers Brewing Company ",
+          "url": "/b/varga-brothers-brewing-company-rhapzody-ipa-15-deg/7638432",
+          "rating": 3.78
+        },
+        {
+          "name": "Nebula Aeterna (Rhapzody Edition) 15° NEIPA",
+          "brewery": "Nanopivovárek Špaččí Hnízdo",
+          "url": "/b/nanopivovarek-spacci-hnizdo-nebula-aeterna-rhapzody-edition-15-deg-neipa/6852419",
+          "rating": null
+        },
+        {
+          "name": "The Hustle Is Weird 2023",
+          "brewery": "DSSOLVR",
+          "url": "/b/dssolvr-the-hustle-is-weird-2023/5371909",
+          "rating": 3.79
+        },
+        {
+          "name": "I Love the Smell of Rhapzody in the Morning",
+          "brewery": "Sibeeria Brewery",
+          "url": "/b/sibeeria-brewery-i-love-the-smell-of-rhapzody-in-the-morning/6757515",
+          "rating": 3.98
+        },
+        {
+          "name": "It’s RHAPZODY NELSON",
+          "brewery": "Stigbergets Bryggeri",
+          "url": "/b/stigbergets-bryggeri-it-s-rhapzody-nelson/6905553",
+          "rating": 3.91
+        },
+        {
+          "name": "Limited Exhibition - Rhapzody™",
+          "brewery": "TankBusters.Co",
+          "url": "/b/tankbusters-co-limited-exhibition-rhapzody/6837978",
+          "rating": 3.79
+        },
+        {
+          "name": "Nelsonian RHAPZODY",
+          "brewery": "Behemoth Brewing Company",
+          "url": "/b/behemoth-brewing-company-nelsonian-rhapzody/6623455",
+          "rating": 3.92
+        },
+        {
+          "name": "Brohemian Rhapzody",
+          "brewery": "Benchwarmers Brewing Co.",
+          "url": "/b/benchwarmers-brewing-co-brohemian-rhapzody/6825249",
+          "rating": 3.87
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Rhapzody 12° VIK & Kurnik Šopa",
+          "hits": []
+        },
+        {
+          "query": "Rhapzody VIK & Kurnik Šopa",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Rhapzody 12°",
+          "hits": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "query": "Rhapzody",
+          "hits": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-vik-porn-hop-edition-rhapzody-hazy-ale-vik-and-kurnik-sopa/6859086",
+        "source": "llm"
       }
     },
     "beerstreet::VIK::Jungle Juice - ananas + guava": {

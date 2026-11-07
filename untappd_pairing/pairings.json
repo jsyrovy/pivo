@@ -2727,6 +2727,16 @@
       "matched_at": "2026-05-22T20:41:09Z",
       "query_used": "Kuželka Louka"
     },
+    "beerstreet::Louka::Lollipop": {
+      "untappd_url": "https://untappd.com/b/pivovar-louka-lollipop-13/5659964",
+      "untappd_name": "Lollipop 13",
+      "untappd_brewery": "Pivovar Louka",
+      "rating": 3.68,
+      "match_score": 1.0,
+      "matched_at": "2026-11-07T21:51:47Z",
+      "query_used": "Lollipop 13° Louka",
+      "description": "Lollipop 13° je intenzivní milkshake IPA s krémovitým tělem, výraznou sladkostí a nízkou hořkostí, kde dominantní je tropické ovoce a vanilka z použitých chmelových přídavků, s hedvábnou texturou díky nízkému stupňovitosti a 5,7 % alkoholu."
+    },
     "beerstreet::Louka::Most": {
       "untappd_url": "https://untappd.com/b/pivovar-louka-most-11/4559041",
       "untappd_name": "Most 11",
@@ -3763,6 +3773,16 @@
       "match_score": 1.0,
       "matched_at": "2026-05-23T20:04:19Z",
       "query_used": "Šlehač 12° U Vojtěchů"
+    },
+    "beerstreet::VIK & Kurnik Šopa::Rhapzody": {
+      "untappd_url": "https://untappd.com/b/pivovar-vik-porn-hop-edition-rhapzody-hazy-ale-vik-and-kurnik-sopa/6859086",
+      "untappd_name": "PORN HOP EDITION - RHAPZODY / Hazy Ale Vik & Kurnik Šopa",
+      "untappd_brewery": "Pivovar Vik",
+      "rating": 3.88,
+      "match_score": 1.0,
+      "matched_at": "2026-11-07T21:51:47Z",
+      "query_used": "<llm>",
+      "description_failed_at": "2026-11-07T21:51:47Z"
     },
     "beerstreet::VIK::Jungle Juice - ananas + guava": {
       "untappd_url": "https://untappd.com/b/pivovar-vik-jungle-juice-ananas-and-marakuja-and-guava-and-pandan/6859092",
