@@ -21301,6 +21301,57 @@
         "reason": "no_candidates_above_threshold"
       }
     },
+    "uzamastilu::Agent::Ležák": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Agent",
+        "name": "Ležák",
+        "style": "Ležák",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-11-07T00:06:49Z",
+      "candidates": [
+        {
+          "name": "Svatomartinský ležák 12",
+          "brewery": "Pivovar Agent",
+          "url": "/b/pivovar-agent-svatomartinsky-lezak-12/4590212",
+          "rating": 3.44
+        },
+        {
+          "name": "Jaro",
+          "brewery": "Pivovar Agent",
+          "url": "/b/pivovar-agent-jaro/5287522",
+          "rating": 3.42
+        },
+        {
+          "name": "Helenka 11° Výroční Ležák",
+          "brewery": "Pivovar Agent",
+          "url": "/b/pivovar-agent-helenka-11-deg-vyrocni-lezak/6458582",
+          "rating": 3.57
+        },
+        {
+          "name": "Helenka 3",
+          "brewery": "Pivovar Agent",
+          "url": "/b/pivovar-agent-helenka-3/4947943",
+          "rating": 3.5
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Ležák 12° Agent",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-agent-svatomartinsky-lezak-12/4590212",
+        "score": 1.0
+      }
+    },
     "uzamastilu::Agent::Pětihvězda": {
       "beer": {
         "source": "uzamastilu",
