@@ -22244,6 +22244,40 @@
         "score": 1.0
       }
     },
+    "uzamastilu::Fenek::Out Of Office": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Fenek",
+        "name": "Out Of Office",
+        "style": "Ale",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-11-07T18:02:53Z",
+      "candidates": [
+        {
+          "name": "Out of Office",
+          "brewery": "Fenek Craft Beer",
+          "url": "/b/fenek-craft-beer-out-of-office/7664427",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Out Of Office 12° Fenek",
+          "hits": []
+        },
+        {
+          "query": "Out Of Office Fenek",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/fenek-craft-beer-out-of-office/7664427",
+        "score": 1.0
+      }
+    },
     "uzamastilu::Fracek::Fina Cerva": {
       "beer": {
         "source": "uzamastilu",
