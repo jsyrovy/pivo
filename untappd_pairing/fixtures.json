@@ -26672,6 +26672,36 @@
         "reason": "no_candidates_above_threshold"
       }
     },
+    "uzamastilu::Volt::Svatomartinský": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Volt",
+        "name": "Svatomartinský",
+        "style": "Ležák",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-11-08T18:21:21Z",
+      "candidates": [
+        {
+          "name": "Svatomartinský speciál 11°",
+          "brewery": "Pivovar Volt",
+          "url": "/b/pivovar-volt-svatomartinska-11-deg/3547889",
+          "rating": 3.55
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Svatomartinský 11° Volt",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-volt-svatomartinska-11-deg/3547889",
+        "score": 1.0
+      }
+    },
     "uzamastilu::Volt::Zdroj": {
       "beer": {
         "source": "uzamastilu",

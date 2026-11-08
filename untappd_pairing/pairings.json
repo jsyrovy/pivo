@@ -6203,6 +6203,16 @@
       "query_used": "Ampér 11° Volt",
       "description": "Klasický český ležák: sladový základ s jemnou chmelovou hořkostí, středně plné tělo a čistý, vyvážený charakter spodního kvašení."
     },
+    "uzamastilu::Volt::Svatomartinský": {
+      "untappd_url": "https://untappd.com/b/pivovar-volt-svatomartinska-11-deg/3547889",
+      "untappd_name": "Svatomartinský speciál 11°",
+      "untappd_brewery": "Pivovar Volt",
+      "rating": 3.55,
+      "match_score": 1.0,
+      "matched_at": "2026-11-08T18:21:21Z",
+      "query_used": "Svatomartinský 11° Volt",
+      "description": "Svatováclavský ležák s typickou sladovinou a jemnou chmelovou hořkostí, spodně kvašený a čistým závěrem."
+    },
     "uzamastilu::Volt::Zdroj": {
       "untappd_url": "https://untappd.com/b/pivovar-volt-zdroj-12/4827716",
       "untappd_name": "Zdroj 12",
