@@ -1871,6 +1871,16 @@
       "query_used": "Premium 12° Agent",
       "description": "Klasický světlý ležák s plnějším tělem díky vyšší stupňovitosti, vyvážená sladová chuť a jemná chmelová hořkost, spodně kvašený a čistý v profilu."
     },
+    "beerstreet::Agent::Svatomartinský ležák": {
+      "untappd_url": "https://untappd.com/b/pivovar-agent-svatomartinsky-lezak-12/4590212",
+      "untappd_name": "Svatomartinský ležák 12",
+      "untappd_brewery": "Pivovar Agent",
+      "rating": 3.45,
+      "match_score": 1.0,
+      "matched_at": "2026-11-09T22:59:12Z",
+      "query_used": "Svatomartinský ležák 12° Agent",
+      "description": "Světlý ležák s klasickým sladovým základem, jemnou chmelovou hořkostí a středně plným tělem. V aroma i chuti dominuje čistý slad, doplněný lehkým květinovým a kořenitým chmelem."
+    },
     "beerstreet::Albert Michler::Altvater": {
       "untappd_url": "https://untappd.com/b/albert-michler-akciovy-pivovar-altvater-11-svetly-lezak/5403893",
       "untappd_name": "Altvater 11 světlý ležák",
@@ -2810,6 +2820,16 @@
       "match_score": 1.0,
       "matched_at": "2026-04-24T19:50:40Z",
       "query_used": "Verbuňk Louka"
+    },
+    "beerstreet::Louka::sv. Martin": {
+      "untappd_url": "https://untappd.com/b/pivovar-louka-sv-martin-12/4048970",
+      "untappd_name": "Sv. Martin 12",
+      "untappd_brewery": "Pivovar Louka",
+      "rating": 3.34,
+      "match_score": 1.0,
+      "matched_at": "2026-11-09T22:59:12Z",
+      "query_used": "sv. Martin 12° Louka",
+      "description_failed_at": "2026-11-09T22:59:22Z"
     },
     "beerstreet::Loutkař::Amarilka": {
       "untappd_url": "https://untappd.com/b/pivovar-loutkar-amarilka-11-single-hop-ale/4446698",
@@ -6473,6 +6493,11 @@
     "beerstreet::Loutkář::Paragánská": {
       "attempts": 1,
       "last_tried_at": "2026-08-28T22:58:10Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "beerstreet::Loutkář::Svatomartinský Kašpárek": {
+      "attempts": 1,
+      "last_tried_at": "2026-11-09T22:59:22Z",
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::Loutkář::Svatováclavský Kašpárek": {

@@ -6848,6 +6848,36 @@
         "score": 1.0
       }
     },
+    "beerstreet::Agent::Svatomartinský ležák": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Agent",
+        "name": "Svatomartinský ležák",
+        "style": "Ležák světiý",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-11-09T22:59:12Z",
+      "candidates": [
+        {
+          "name": "Svatomartinský ležák 12",
+          "brewery": "Pivovar Agent",
+          "url": "/b/pivovar-agent-svatomartinsky-lezak-12/4590212",
+          "rating": 3.45
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Svatomartinský ležák 12° Agent",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-agent-svatomartinsky-lezak-12/4590212",
+        "score": 1.0
+      }
+    },
     "beerstreet::Albert Michler::Altvater": {
       "beer": {
         "source": "beerstreet",
@@ -11216,6 +11246,36 @@
         "score": 1.0
       }
     },
+    "beerstreet::Louka::sv. Martin": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Louka",
+        "name": "sv. Martin",
+        "style": "Ležák světlý smash - kazbek",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-11-09T22:59:12Z",
+      "candidates": [
+        {
+          "name": "Sv. Martin 12",
+          "brewery": "Pivovar Louka",
+          "url": "/b/pivovar-louka-sv-martin-12/4048970",
+          "rating": 3.34
+        }
+      ],
+      "attempts": [
+        {
+          "query": "sv. Martin 12° Louka",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-louka-sv-martin-12/4048970",
+        "score": 1.0
+      }
+    },
     "beerstreet::Loutkař::Amarilka": {
       "beer": {
         "source": "beerstreet",
@@ -11672,6 +11732,39 @@
       "outcome": {
         "matched": "/b/pivovar-loutkar-superdelic-11/7615759",
         "score": 1.0
+      }
+    },
+    "beerstreet::Loutkář::Svatomartinský Kašpárek": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Loutkář",
+        "name": "Svatomartinský Kašpárek",
+        "style": "Ležák světlý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-11-09T22:59:22Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Svatomartinský Kašpárek 11° Loutkář",
+          "hits": []
+        },
+        {
+          "query": "Svatomartinský Kašpárek Loutkář",
+          "hits": []
+        },
+        {
+          "query": "Svatomartinský Kašpárek 11°",
+          "hits": []
+        },
+        {
+          "query": "Svatomartinský Kašpárek",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "beerstreet::Loutkář::Svatováclavský Kašpárek": {
