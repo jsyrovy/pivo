@@ -58,6 +58,16 @@
       "matched_at": "2026-05-14T20:26:38Z",
       "query_used": "White Magic Beskdydský pivovárek"
     },
+    "ambasada::Beskdydský, Ostravice::Svatomartinský": {
+      "untappd_url": "https://untappd.com/b/beskydsky-pivovarek-svatomartinsky-special/2380628",
+      "untappd_name": "Svatomartinský speciál",
+      "untappd_brewery": "Beskydský pivovárek",
+      "rating": 3.56,
+      "match_score": 1.0,
+      "matched_at": "2026-11-10T20:28:45Z",
+      "query_used": "<llm>",
+      "description": "Svatomartinský speciál je silně chmelená IPA s výraznou hořkostí a intenzivním chmelovým aroma. Díky vyšší stupňovitosti a 6,5 % alkoholu má plnější tělo a teplý alkoholový základ, který dobře vyvažuje chmelovou hořkost. Název „Svatomartinský“ neodvozuje žádnou konkrétní surovinu nebo postup."
+    },
     "ambasada::Beskydský Pivovárek, Ostravice::Denali": {
       "untappd_url": "https://untappd.com/b/beskydsky-pivovarek-denali/6075080",
       "untappd_name": "Denali",
@@ -1556,6 +1566,16 @@
       "query_used": "Krvavý Pomeranč Volt",
       "description": "Krvavý Pomeranč Gose od Pivovaru Volt je ovocný gose s 5 % alkoholu a 12° stupňovitosti, který nabízí osvěžující kyselou rovnováhu a lehkou ovocnou charakteristiku."
     },
+    "ambasada::Volt, Jablonec nad Nisou::Protinožec": {
+      "untappd_url": "https://untappd.com/b/pivovar-volt-protinozec/2566012",
+      "untappd_name": "Protinožec",
+      "untappd_brewery": "Pivovar Volt",
+      "rating": 3.63,
+      "match_score": 1.0,
+      "matched_at": "2026-11-10T20:28:45Z",
+      "query_used": "Protinožec 13° Volt",
+      "description_failed_at": "2026-11-10T20:28:45Z"
+    },
     "ambasada::Volt, Jablonec nad Nisou::Reaktor": {
       "untappd_url": "https://untappd.com/b/pivovar-volt-reaktor/5625605",
       "untappd_name": "Reaktor",
@@ -2485,6 +2505,16 @@
       "match_score": 1.0,
       "matched_at": "2026-05-01T20:02:10Z",
       "query_used": "Orange & cinnamon Klenot"
+    },
+    "beerstreet::Klenot::Pomeranč + Skořice": {
+      "untappd_url": "https://untappd.com/b/hradecky-klenot-sour-ale-orange-and-cinnamon/5361488",
+      "untappd_name": "Sour ALE– Orange & Cinnamon",
+      "untappd_brewery": "Hradecký Klenot",
+      "rating": 3.89,
+      "match_score": 0.2143,
+      "matched_at": "2026-11-10T20:28:24Z",
+      "query_used": "Pomeranč + Skořice Klenot",
+      "description": "Nadprůměrně hodnocené kyselé pivo nízké stupňovitosti a alkoholu s výraznou kyselinkou a lehkým tělem; pomeranč přináší citrusovou ovocnost a skořice teplé kořeněné tóny, které kyselost vyváží."
     },
     "beerstreet::Klenot::Pomeranč + skořice": {
       "untappd_url": "https://untappd.com/b/hradecky-klenot-sour-ale-orange-cinnamon/5361488",

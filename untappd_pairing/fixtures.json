@@ -199,6 +199,97 @@
         "score": 1.0
       }
     },
+    "ambasada::Beskdydský, Ostravice::Svatomartinský": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Beskdydský, Ostravice",
+        "name": "Svatomartinský",
+        "style": "IPA",
+        "degree_plato": 14.0
+      },
+      "captured_at": "2026-11-10T20:28:45Z",
+      "candidates": [
+        {
+          "name": "Svatomartinský speciál",
+          "brewery": "Beskydský pivovárek",
+          "url": "/b/beskydsky-pivovarek-svatomartinsky-special/2380628",
+          "rating": 3.56
+        },
+        {
+          "name": "Svatomartinský Speciál 2023",
+          "brewery": "Beskydský pivovárek",
+          "url": "/b/beskydsky-pivovarek-svatomartinsky-special-2023/5579196",
+          "rating": null
+        },
+        {
+          "name": "Sv. Martin 16° / St. Martin",
+          "brewery": "Pivovar Matuška",
+          "url": "/b/pivovar-matuska-sv-martin-16-deg-st-martin/43423",
+          "rating": 3.52
+        },
+        {
+          "name": "Svatomartinský speciál 11°",
+          "brewery": "Pivovar Volt",
+          "url": "/b/pivovar-volt-svatomartinska-11-deg/3547889",
+          "rating": 3.55
+        },
+        {
+          "name": "Křidýlko nebo stehýnko",
+          "brewery": "Pivovar Antoš  ",
+          "url": "/b/pivovar-antos-svatomartinsky-vidensky-lezak/2385089",
+          "rating": 3.5
+        },
+        {
+          "name": "Svatomartinský speciál za studena chmelený",
+          "brewery": "Pivovary Lobkowicz",
+          "url": "/b/pivovary-lobkowicz-svatomartinsky-special-za-studena-chmeleny/5601571",
+          "rating": 3.18
+        },
+        {
+          "name": "Královský Svatomartinský speciál 13",
+          "brewery": "Heineken Česká Republika",
+          "url": "/b/krusovice-kralovsky-svatomartinsky-special-13/874668",
+          "rating": 3.25
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Svatomartinský 14° Beskdydský",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Svatomartinský Beskdydský",
+          "hits": [
+            0,
+            1
+          ]
+        },
+        {
+          "query": "Svatomartinský 14°",
+          "hits": [
+            2,
+            0,
+            3
+          ]
+        },
+        {
+          "query": "Svatomartinský",
+          "hits": [
+            2,
+            4,
+            5,
+            6,
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/beskydsky-pivovarek-svatomartinsky-special/2380628",
+        "source": "llm"
+      }
+    },
     "ambasada::Beskydský pivovárek, Ostravice::Beskydská": {
       "beer": {
         "source": "ambasada",
@@ -5748,6 +5839,36 @@
         "score": 1.0
       }
     },
+    "ambasada::Volt, Jablonec nad Nisou::Protinožec": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Volt, Jablonec nad Nisou",
+        "name": "Protinožec",
+        "style": "Australian pale ale",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-11-10T20:28:45Z",
+      "candidates": [
+        {
+          "name": "Protinožec",
+          "brewery": "Pivovar Volt",
+          "url": "/b/pivovar-volt-protinozec/2566012",
+          "rating": 3.63
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Protinožec 13° Volt",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-volt-protinozec/2566012",
+        "score": 1.0
+      }
+    },
     "ambasada::Volt, Jablonec nad Nisou::Reaktor": {
       "beer": {
         "source": "ambasada",
@@ -9907,6 +10028,40 @@
       "outcome": {
         "matched": "/b/hradecky-klenot-klenot-12-nefiltrovany/2344572",
         "score": 0.75
+      }
+    },
+    "beerstreet::Klenot::Pomeranč + Skořice": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Klenot",
+        "name": "Pomeranč + Skořice",
+        "style": "Sour",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-11-10T20:28:24Z",
+      "candidates": [
+        {
+          "name": "Sour ALE– Orange & Cinnamon",
+          "brewery": "Hradecký Klenot",
+          "url": "/b/hradecky-klenot-sour-ale-orange-and-cinnamon/5361488",
+          "rating": 3.89
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Pomeranč + Skořice 10° Klenot",
+          "hits": []
+        },
+        {
+          "query": "Pomeranč + Skořice Klenot",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/hradecky-klenot-sour-ale-orange-and-cinnamon/5361488",
+        "score": 0.2143
       }
     },
     "beerstreet::Klenot::Pomeranč + skořice": {
