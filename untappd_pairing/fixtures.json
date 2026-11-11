@@ -25419,6 +25419,40 @@
         "reason": "no_candidates_above_threshold"
       }
     },
+    "uzamastilu::Pioneer Beer::Lunapark": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Pioneer Beer",
+        "name": "Lunapark",
+        "style": "Hazy IPA",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-11-11T01:14:37Z",
+      "candidates": [
+        {
+          "name": "Lunapark",
+          "brewery": "Pioneer Beer",
+          "url": "/b/pioneer-beer-lunapark/7639906",
+          "rating": 3.84
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Lunapark 12° Pioneer Beer",
+          "hits": []
+        },
+        {
+          "query": "Lunapark Pioneer Beer",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pioneer-beer-lunapark/7639906",
+        "score": 1.0
+      }
+    },
     "uzamastilu::Pioneer Beer::Malina-Ostružina": {
       "beer": {
         "source": "uzamastilu",
@@ -26667,6 +26701,36 @@
         "score": 1.0
       }
     },
+    "uzamastilu::Twinberg::Živa": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Twinberg",
+        "name": "Živa",
+        "style": "Ležák",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-11-11T01:14:37Z",
+      "candidates": [
+        {
+          "name": "Živa 12°",
+          "brewery": "Twinberg",
+          "url": "/b/twinberg-ziva-12-deg/5542392",
+          "rating": 3.51
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Živa 12° Twinberg",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/twinberg-ziva-12-deg/5542392",
+        "score": 1.0
+      }
+    },
     "uzamastilu::U Vojtěchů::Podlipák": {
       "beer": {
         "source": "uzamastilu",
@@ -27704,6 +27768,47 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-cierny-kamen-lazarus/6772256",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Čierny Kameň::Ďatel z Marsu": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Čierny Kameň",
+        "name": "Ďatel z Marsu",
+        "style": "",
+        "degree_plato": 14.0
+      },
+      "captured_at": "2026-11-11T01:14:29Z",
+      "candidates": [
+        {
+          "name": "Ďateľ z Marsu",
+          "brewery": "Pivovar Čierny Kameň",
+          "url": "/b/pivovar-cierny-kamen-datel-z-marsu/4210720",
+          "rating": 3.62
+        },
+        {
+          "name": "Ďateľ z Marsu",
+          "brewery": "Divný Les",
+          "url": "/b/divny-les-datel-z-marsu/1873125",
+          "rating": 3.64
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Ďatel z Marsu 14° Čierny Kameň",
+          "hits": []
+        },
+        {
+          "query": "Ďatel z Marsu Čierny Kameň",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-cierny-kamen-datel-z-marsu/4210720",
         "score": 1.0
       }
     },

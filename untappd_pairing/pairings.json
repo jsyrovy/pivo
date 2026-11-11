@@ -5963,6 +5963,16 @@
       "query_used": "Dočesná 2026 Pioneer Beer",
       "description": "Klasický český ležák: plnější sladový základ s jemnou chmelovou hořkostí, středně plné tělo a čistý, vyvážený charakter spodního kvašení."
     },
+    "uzamastilu::Pioneer Beer::Lunapark": {
+      "untappd_url": "https://untappd.com/b/pioneer-beer-lunapark/7639906",
+      "untappd_name": "Lunapark",
+      "untappd_brewery": "Pioneer Beer",
+      "rating": 3.84,
+      "match_score": 1.0,
+      "matched_at": "2026-11-11T01:14:37Z",
+      "query_used": "Lunapark Pioneer Beer",
+      "description_failed_at": "2026-11-11T01:14:37Z"
+    },
     "uzamastilu::Pioneer Beer::Malina-Ostružina": {
       "untappd_url": "https://untappd.com/b/pioneer-beer-sour-pop-3-malina-and-ostruzina/6837804",
       "untappd_name": "Sour Pop #3 MALINA & OSTRUŽINA",
@@ -6213,6 +6223,16 @@
       "query_used": "Paloma Inspire Twinberg",
       "description": "Kyslé svrchně kvašené pivo s lehkou slaností a koriandrem v aroma; přídavek grepu a limetky přináší citrusovou svěžest a mírně hořký závěr. Nadprůměrně hodnocené."
     },
+    "uzamastilu::Twinberg::Živa": {
+      "untappd_url": "https://untappd.com/b/twinberg-ziva-12-deg/5542392",
+      "untappd_name": "Živa 12°",
+      "untappd_brewery": "Twinberg",
+      "rating": 3.51,
+      "match_score": 1.0,
+      "matched_at": "2026-11-11T01:14:37Z",
+      "query_used": "Živa 12° Twinberg",
+      "description_failed_at": "2026-11-11T01:14:37Z"
+    },
     "uzamastilu::U Vojtěchů::Podlipák": {
       "untappd_url": "https://untappd.com/b/pivovar-u-vojtechu-podlipak-11/4081441",
       "untappd_name": "Podlipák 11",
@@ -6412,6 +6432,16 @@
       "matched_at": "2026-08-31T19:28:03Z",
       "query_used": "Lazarus Čierny Kameň",
       "description": "Silně chmelená západní IPA s výraznou hořkostí, citrusovým a pryskyřičným aroma a suchým závěrem. Střední až plnější tělo odpovídá stupňovitosti 13°."
+    },
+    "uzamastilu::Čierny Kameň::Ďatel z Marsu": {
+      "untappd_url": "https://untappd.com/b/pivovar-cierny-kamen-datel-z-marsu/4210720",
+      "untappd_name": "Ďateľ z Marsu",
+      "untappd_brewery": "Pivovar Čierny Kameň",
+      "rating": 3.62,
+      "match_score": 1.0,
+      "matched_at": "2026-11-11T01:14:29Z",
+      "query_used": "Ďatel z Marsu Čierny Kameň",
+      "description_failed_at": "2026-11-11T01:14:37Z"
     },
     "uzamastilu::Čierny Kámeň::Lazarus": {
       "untappd_url": "https://untappd.com/b/pivovar-cierny-kamen-lazarus/6772256",
