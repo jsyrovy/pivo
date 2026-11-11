@@ -17085,6 +17085,64 @@
         "score": 1.0
       }
     },
+    "toulavapipa::Clock::BLACKCURRANT": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Clock",
+        "name": "BLACKCURRANT",
+        "style": "Sour ale černý rybíz",
+        "degree_plato": null
+      },
+      "captured_at": "2026-11-11T20:12:45Z",
+      "candidates": [
+        {
+          "name": "Blackcurrant Sour Ale",
+          "brewery": "Pivovar Clock",
+          "url": "/b/pivovar-clock-blackcurrant-sour-ale/3397925",
+          "rating": 3.7
+        },
+        {
+          "name": "Nina – Blackcurrant Berliner Weisse",
+          "brewery": "Pivovar Clock",
+          "url": "/b/pivovar-clock-nina-blackcurrant-berliner-weisse/2743161",
+          "rating": 3.89
+        },
+        {
+          "name": "Queen of Tarts: Black Currant & Lemon Edition",
+          "brewery": "Broken Clock Brewing Cooperative",
+          "url": "/b/broken-clock-brewing-cooperative-queen-of-tarts-black-currant-and-lemon-edition/3984470",
+          "rating": 3.44
+        },
+        {
+          "name": "Queen of Tarts: Black Currant, Blackberry and Raspberry Edition",
+          "brewery": "Broken Clock Brewing Cooperative",
+          "url": "/b/broken-clock-brewing-cooperative-queen-of-tarts-black-currant-blackberry-and-raspberry-edition/4390110",
+          "rating": 3.9
+        },
+        {
+          "name": "Cocktail Pastry Sour: Blackberry / Blackcurrant / Banana",
+          "brewery": "Brewery Hills",
+          "url": "/b/brewery-hills-cocktail-pastry-sour-blackberry-blackcurrant-banana/3947212",
+          "rating": 3.56
+        }
+      ],
+      "attempts": [
+        {
+          "query": "BLACKCURRANT Clock",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-clock-blackcurrant-sour-ale/3397925",
+        "score": 1.0
+      }
+    },
     "toulavapipa::Clock::Clock": {
       "beer": {
         "source": "toulavapipa",
@@ -17534,6 +17592,66 @@
       "outcome": {
         "matched": null,
         "reason": "no_candidates_above_threshold"
+      }
+    },
+    "toulavapipa::Fenek::SCHRÖDINGERS CAT": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Fenek",
+        "name": "SCHRÖDINGERS CAT",
+        "style": "APA",
+        "degree_plato": null
+      },
+      "captured_at": "2026-11-11T20:12:29Z",
+      "candidates": [
+        {
+          "name": "Schrödinger’s Cat 12",
+          "brewery": "Fenek Craft Beer",
+          "url": "/b/fenek-craft-beer-schrodinger-s-cat-12/6382777",
+          "rating": 3.65
+        }
+      ],
+      "attempts": [
+        {
+          "query": "SCHRÖDINGERS CAT Fenek",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/fenek-craft-beer-schrodinger-s-cat-12/6382777",
+        "score": 1.0
+      }
+    },
+    "toulavapipa::Fenek::THIS FEELING!": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Fenek",
+        "name": "THIS FEELING!",
+        "style": "West coast IPA",
+        "degree_plato": null
+      },
+      "captured_at": "2026-11-11T20:12:39Z",
+      "candidates": [
+        {
+          "name": "This Feeling 14° West Coast IPA",
+          "brewery": "Fenek Craft Beer",
+          "url": "/b/fenek-craft-beer-this-feeling-14-deg-west-coast-ipa/5909544",
+          "rating": 3.73
+        }
+      ],
+      "attempts": [
+        {
+          "query": "THIS FEELING! Fenek",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/fenek-craft-beer-this-feeling-14-deg-west-coast-ipa/5909544",
+        "score": 1.0
       }
     },
     "toulavapipa::Fracek::Original ležák": {
@@ -18706,6 +18824,36 @@
         "score": 1.0
       }
     },
+    "toulavapipa::Loutkář::PLUTO": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Loutkář",
+        "name": "PLUTO",
+        "style": "Sv. ležák",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-11-11T20:12:22Z",
+      "candidates": [
+        {
+          "name": "Pluto 12 IPL",
+          "brewery": "Pivovar Loutkář",
+          "url": "/b/pivovar-loutkar-pluto-12-ipl/5715767",
+          "rating": 3.52
+        }
+      ],
+      "attempts": [
+        {
+          "query": "PLUTO 12° Loutkář",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-loutkar-pluto-12-ipl/5715767",
+        "score": 1.0
+      }
+    },
     "toulavapipa::Loutkář::SUPERDELIC": {
       "beer": {
         "source": "toulavapipa",
@@ -19262,6 +19410,36 @@
         "score": 1.0
       }
     },
+    "toulavapipa::Mazák::BANANA JOY": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Mazák",
+        "name": "BANANA JOY",
+        "style": "Milkshake IPA s banánem a vanilkou",
+        "degree_plato": null
+      },
+      "captured_at": "2026-11-11T20:12:43Z",
+      "candidates": [
+        {
+          "name": "Banana Joy 14",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-banana-joy-14/7130813",
+          "rating": 3.16
+        }
+      ],
+      "attempts": [
+        {
+          "query": "BANANA JOY Mazák",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mazak-banana-joy-14/7130813",
+        "score": 1.0
+      }
+    },
     "toulavapipa::Mazák::RAINBOW OF DEATH": {
       "beer": {
         "source": "toulavapipa",
@@ -19584,6 +19762,64 @@
       "outcome": {
         "matched": "/b/pivovar-mordyr-liny-cert-12/557097",
         "source": "llm"
+      }
+    },
+    "toulavapipa::Mordýř::MORDÝŘ": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Mordýř",
+        "name": "MORDÝŘ",
+        "style": "Sv. ležák",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-11-11T20:12:19Z",
+      "candidates": [
+        {
+          "name": "Svatováclavský Ležák 11°",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-svatovaclavsky-lezak-11-deg/6942554",
+          "rating": null
+        },
+        {
+          "name": "Green Deal 11°",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-green-deal-11-deg/5405738",
+          "rating": null
+        },
+        {
+          "name": "Mordýř 11",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-mordyr-11/609306",
+          "rating": 3.38
+        },
+        {
+          "name": "Brundibár",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-brundibar/1959940",
+          "rating": 3.42
+        },
+        {
+          "name": "Líný čert 12",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-liny-cert-12/557097",
+          "rating": 3.44
+        }
+      ],
+      "attempts": [
+        {
+          "query": "MORDÝŘ 11° Mordýř",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mordyr-svatovaclavsky-lezak-11-deg/6942554",
+        "score": 0.0
       }
     },
     "toulavapipa::Mordýř::Red eagle": {
@@ -19951,6 +20187,76 @@
       "outcome": {
         "matched": "/b/pivovar-obora-summer-ale/3300598",
         "score": 1.0
+      }
+    },
+    "toulavapipa::Pioneerbeer::DORA": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Pioneerbeer",
+        "name": "DORA",
+        "style": "NEIPA",
+        "degree_plato": null
+      },
+      "captured_at": "2026-11-11T20:12:38Z",
+      "candidates": [
+        {
+          "name": "Dora",
+          "brewery": "Pioneer Beer",
+          "url": "/b/pioneer-beer-dora/6658224",
+          "rating": 3.93
+        },
+        {
+          "name": "Stone Delicious IPA",
+          "brewery": "Stone Brewing",
+          "url": "/b/stone-brewing-stone-delicious-ipa/392748",
+          "rating": 3.71
+        },
+        {
+          "name": "Road 2 Ruin Double IPA",
+          "brewery": "Two Roads Brewing Company",
+          "url": "/b/two-roads-brewing-company-road-2-ruin-double-ipa/266065",
+          "rating": 3.81
+        },
+        {
+          "name": "Sea Hag IPA",
+          "brewery": "New England Brewing Co.",
+          "url": "/b/new-england-brewing-co-sea-hag-ipa/6930",
+          "rating": 3.81
+        },
+        {
+          "name": "Watermelon Dorado",
+          "brewery": "Ballast Point Brewing Company",
+          "url": "/b/ballast-point-brewing-company-watermelon-dorado/878075",
+          "rating": 3.52
+        },
+        {
+          "name": "Lil' Heaven",
+          "brewery": "Two Roads Brewing Company",
+          "url": "/b/two-roads-brewing-company-lil-heaven-crushable-ipa/347859",
+          "rating": 3.66
+        }
+      ],
+      "attempts": [
+        {
+          "query": "DORA Pioneerbeer",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "DORA",
+          "hits": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pioneer-beer-dora/6658224",
+        "source": "llm"
       }
     },
     "toulavapipa::Raven::AUTUMN PALE ALE 2026": {
@@ -21042,6 +21348,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-u-vojtechu-podlipak-11/4081441",
+        "score": 1.0
+      }
+    },
+    "toulavapipa::U Vojtěchů::SVATOMARTINSKÝ LEŽÁK": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "U Vojtěchů",
+        "name": "SVATOMARTINSKÝ LEŽÁK",
+        "style": "Nakuřovaný ležák",
+        "degree_plato": null
+      },
+      "captured_at": "2026-11-11T20:12:25Z",
+      "candidates": [
+        {
+          "name": "Svatomartinský ležák 12",
+          "brewery": "Pivovar U Vojtěchů",
+          "url": "/b/pivovar-u-vojtechu-svatomartinsky-lezak-12/4580457",
+          "rating": 3.57
+        }
+      ],
+      "attempts": [
+        {
+          "query": "SVATOMARTINSKÝ LEŽÁK U Vojtěchů",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-u-vojtechu-svatomartinsky-lezak-12/4580457",
         "score": 1.0
       }
     },
