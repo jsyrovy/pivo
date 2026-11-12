@@ -11431,6 +11431,39 @@
         "score": 1.0
       }
     },
+    "beerstreet::Louka::sv. Martin - chmel Kazbek": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Louka",
+        "name": "sv. Martin - chmel Kazbek",
+        "style": "Ležák světlý smash",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-11-12T20:49:21Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "sv. Martin - chmel Kazbek 12° Louka",
+          "hits": []
+        },
+        {
+          "query": "sv. Martin - chmel Kazbek Louka",
+          "hits": []
+        },
+        {
+          "query": "sv. Martin - chmel Kazbek 12°",
+          "hits": []
+        },
+        {
+          "query": "sv. Martin - chmel Kazbek",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
     "beerstreet::Loutkař::Amarilka": {
       "beer": {
         "source": "beerstreet",
