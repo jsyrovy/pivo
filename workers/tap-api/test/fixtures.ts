@@ -353,6 +353,7 @@ export const BREWERY_CORPUS: readonly string[] = [
   "Permon",
   "Pioneer",
   "Pioneer Beer",
+  "Pioneerbeer",
   "Pionner",
   "Pivečka, Rousínov",
   "Polička",

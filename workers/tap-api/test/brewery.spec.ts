@@ -56,6 +56,7 @@ describe("normalizeBreweries", () => {
   it("resolves typos and other forms through the alias table", () => {
     expect(normalizeBreweries("Pionner")).toEqual([{ key: "pioneer", name: "Pioneer" }]);
     expect(keys("Pioneer Beer")).toEqual(["pioneer"]);
+    expect(keys("Pioneerbeer")).toEqual(["pioneer"]);
     expect(keys("Kynšperk nad Ohří")).toEqual(["kynspersky"]);
     expect(keys("Kynšperský zajíc")).toEqual(["kynspersky"]);
     expect(keys("Beskdydský pivovárek, Ostravice")).toEqual(["beskydsky"]);

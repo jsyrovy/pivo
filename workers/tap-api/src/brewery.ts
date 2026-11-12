@@ -26,6 +26,7 @@ export const BREWERY_ALIASES: Record<string, BreweryRef[]> = {
   kynsperk: [ref("kynspersky", "Kynšperský")],
   kynsperknadohri: [ref("kynspersky", "Kynšperský")],
   kynsperskyzajic: [ref("kynspersky", "Kynšperský")],
+  pioneerbeer: [ref("pioneer", "Pioneer")],
   pionner: [ref("pioneer", "Pioneer")],
   rhapnectaroncestmir: [ref("cestmir", "Čestmír")],
   unetice: [ref("uneticky", "Únětický")],
