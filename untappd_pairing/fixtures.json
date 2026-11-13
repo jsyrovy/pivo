@@ -6111,6 +6111,281 @@
         "score": 1.0
       }
     },
+    "ambasada::Zlatá Kráva, Nepomuk::Choco Cow": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Zlatá Kráva, Nepomuk",
+        "name": "Choco Cow",
+        "style": "Stout",
+        "degree_plato": 14.0
+      },
+      "captured_at": "2026-11-13T20:30:26Z",
+      "candidates": [
+        {
+          "name": "14 Choco Cow",
+          "brewery": "Zlatá kráva",
+          "url": "/b/zlata-krava-14-choco-cow/3004244",
+          "rating": 3.48
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Choco Cow 14° Zlatá Kráva",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/zlata-krava-14-choco-cow/3004244",
+        "score": 1.0
+      }
+    },
+    "ambasada::Zlatá Kráva, Nepomuk::Combine": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Zlatá Kráva, Nepomuk",
+        "name": "Combine",
+        "style": "Brut IPA",
+        "degree_plato": 14.0
+      },
+      "captured_at": "2026-11-13T20:30:03Z",
+      "candidates": [
+        {
+          "name": "14 Combine",
+          "brewery": "Zlatá kráva",
+          "url": "/b/zlata-krava-14-combine/5272579",
+          "rating": 3.62
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Combine 14° Zlatá Kráva",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/zlata-krava-14-combine/5272579",
+        "score": 1.0
+      }
+    },
+    "ambasada::Zlatá Kráva, Nepomuk::Farm APA": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Zlatá Kráva, Nepomuk",
+        "name": "Farm APA",
+        "style": "APA",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-11-13T20:30:21Z",
+      "candidates": [
+        {
+          "name": "11 Farm APA",
+          "brewery": "Zlatá kráva",
+          "url": "/b/zlata-krava-11-farm-apa/2984687",
+          "rating": 3.53
+        },
+        {
+          "name": "11 Farm APA + Mango",
+          "brewery": "Zlatá kráva",
+          "url": "/b/zlata-krava-11-farm-apa-mango/5606775",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Farm APA 11° Zlatá Kráva",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/zlata-krava-11-farm-apa/2984687",
+        "score": 1.0
+      }
+    },
+    "ambasada::Zlatá Kráva, Nepomuk::Polotučná": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Zlatá Kráva, Nepomuk",
+        "name": "Polotučná",
+        "style": "Světlý ležák",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-11-13T20:29:55Z",
+      "candidates": [
+        {
+          "name": "10 Polotučná",
+          "brewery": "Zlatá kráva",
+          "url": "/b/zlata-krava-10-polotucna/2973173",
+          "rating": 3.37
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Polotučná 10° Zlatá Kráva",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/zlata-krava-10-polotucna/2973173",
+        "score": 1.0
+      }
+    },
+    "ambasada::Zlatá Kráva, Nepomuk::Sv. Jana Nepomuckého": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Zlatá Kráva, Nepomuk",
+        "name": "Sv. Jana Nepomuckého",
+        "style": "Weizen",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-11-13T20:30:05Z",
+      "candidates": [
+        {
+          "name": "12 sv. Jana Nepomuckého",
+          "brewery": "Zlatá kráva",
+          "url": "/b/zlata-krava-12-sv-jana-nepomuckeho/3271784",
+          "rating": 3.5
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Sv. Jana Nepomuckého 12° Zlatá Kráva",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/zlata-krava-12-sv-jana-nepomuckeho/3271784",
+        "score": 1.0
+      }
+    },
+    "ambasada::Zlatá Kráva, Nepomuk::Tractor IPA": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Zlatá Kráva, Nepomuk",
+        "name": "Tractor IPA",
+        "style": "IPA",
+        "degree_plato": 14.0
+      },
+      "captured_at": "2026-11-13T20:30:17Z",
+      "candidates": [
+        {
+          "name": "14 Tractor IPA",
+          "brewery": "Zlatá kráva",
+          "url": "/b/zlata-krava-14-tractor-ipa/2985887",
+          "rating": 3.66
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Tractor IPA 14° Zlatá Kráva",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/zlata-krava-14-tractor-ipa/2985887",
+        "score": 1.0
+      }
+    },
+    "ambasada::Zlatá Kráva/Kurnik Šopa::Juicy Pamela": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Zlatá Kráva/Kurnik Šopa",
+        "name": "Juicy Pamela",
+        "style": "Sexy hazy pale ale",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-11-13T20:30:16Z",
+      "candidates": [
+        {
+          "name": "13 Juicy Pamela",
+          "brewery": "Zlatá kráva",
+          "url": "/b/zlata-krava-13-juicy-pamela/7667853",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Juicy Pamela 13° Zlatá Kráva/Kurnik Šopa",
+          "hits": []
+        },
+        {
+          "query": "Juicy Pamela Zlatá Kráva/Kurnik Šopa",
+          "hits": []
+        },
+        {
+          "query": "Juicy Pamela 13°",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Juicy Pamela",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/zlata-krava-13-juicy-pamela/7667853",
+        "source": "llm"
+      }
+    },
+    "ambasada::Zlatá Kráva::Plnotučná": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Zlatá Kráva",
+        "name": "Plnotučná",
+        "style": "Světlý ležák",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-11-13T20:29:59Z",
+      "candidates": [
+        {
+          "name": "12 Plnotučná",
+          "brewery": "Zlatá kráva",
+          "url": "/b/zlata-krava-12-plnotucna/2974788",
+          "rating": 3.54
+        },
+        {
+          "name": "12 Strakatá Plnotučná",
+          "brewery": "Zlatá kráva",
+          "url": "/b/zlata-krava-12-strakata-plnotucna/6447018",
+          "rating": 3.52
+        },
+        {
+          "name": "12 Plnotučná zelený chmel",
+          "brewery": "Zlatá kráva",
+          "url": "/b/zlata-krava-12-plnotucna-zeleny-chmel/3508214",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Plnotučná 12° Zlatá Kráva",
+          "hits": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/zlata-krava-12-plnotucna/2974788",
+        "score": 1.0
+      }
+    },
     "ambasada::Záhora, Kněžičky::14.SOUR.I1": {
       "beer": {
         "source": "ambasada",
@@ -12384,6 +12659,61 @@
         "score": 0.0
       }
     },
+    "beerstreet::Mazak::Dáreček": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Mazak",
+        "name": "Dáreček",
+        "style": "Modern pale ale",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-11-13T20:29:47Z",
+      "candidates": [
+        {
+          "name": "Dáreček 2025",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-darecek-2025/6481635",
+          "rating": 3.78
+        },
+        {
+          "name": "Dáreček",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-darecek/4101143",
+          "rating": 3.63
+        },
+        {
+          "name": "Dáreček (2023)",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-darecek-2023/5614733",
+          "rating": 3.61
+        },
+        {
+          "name": "Dáreček (2022)",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-darecek-2022/5129898",
+          "rating": 3.68
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Dáreček 12° Mazak",
+          "hits": []
+        },
+        {
+          "query": "Dáreček Mazak",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mazak-darecek/4101143",
+        "score": 1.0
+      }
+    },
     "beerstreet::Mazák::Agnus": {
       "beer": {
         "source": "beerstreet",
@@ -12545,6 +12875,47 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-mazak-extra-horka-11deg/792388",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Mazák::Podzimní IPA": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Mazák",
+        "name": "Podzimní IPA",
+        "style": "IPA",
+        "degree_plato": 15.0
+      },
+      "captured_at": "2026-11-13T20:29:51Z",
+      "candidates": [
+        {
+          "name": "Podzimní IPA",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-podzimni-ipa/4539128",
+          "rating": 3.75
+        },
+        {
+          "name": "Podzimní IPA 2026",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-podzimni-ipa-2026/7645728",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Podzimní IPA 15° Mazák",
+          "hits": []
+        },
+        {
+          "query": "Podzimní IPA Mazák",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mazak-podzimni-ipa/4539128",
         "score": 1.0
       }
     },
@@ -12730,6 +13101,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-mordyr-simcoe-session-ale-12/5946792",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Mordýř::Svatomartinský ležák": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Mordýř",
+        "name": "Svatomartinský ležák",
+        "style": "Ležák světlý",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-11-13T20:29:42Z",
+      "candidates": [
+        {
+          "name": "Svatomartinský ležák 12",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-svatomartinsky-lezak-12/1794403",
+          "rating": 3.3
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Svatomartinský ležák 12° Mordýř",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mordyr-svatomartinsky-lezak-12/1794403",
         "score": 1.0
       }
     },
@@ -15469,6 +15870,36 @@
         "score": 0.7143
       }
     },
+    "beerstreet::Volt::Svatomartinský speciál": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Volt",
+        "name": "Svatomartinský speciál",
+        "style": "Ležák světlý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-11-13T20:29:41Z",
+      "candidates": [
+        {
+          "name": "Svatomartinský speciál 11°",
+          "brewery": "Pivovar Volt",
+          "url": "/b/pivovar-volt-svatomartinska-11-deg/3547889",
+          "rating": 3.54
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Svatomartinský speciál 11° Volt",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-volt-svatomartinska-11-deg/3547889",
+        "score": 1.0
+      }
+    },
     "beerstreet::Vorkloster::Brillante": {
       "beer": {
         "source": "beerstreet",
@@ -15542,6 +15973,108 @@
       "outcome": {
         "matched": null,
         "reason": "no_candidates_above_threshold"
+      }
+    },
+    "beerstreet::Vorkloster::Svatomartinský speciál": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Vorkloster",
+        "name": "Svatomartinský speciál",
+        "style": "Czech amber lager",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-11-13T20:29:38Z",
+      "candidates": [
+        {
+          "name": "Vorkloster Svatomartinský Speciál",
+          "brewery": "Klášterní pivovar Porta Coeli",
+          "url": "/b/klasterni-pivovar-porta-coeli-vorkloster-klasterni-svatomartinsky-special/4099272",
+          "rating": 3.56
+        },
+        {
+          "name": "Svatomartinský čtyřsladový speciál 13°",
+          "brewery": "Chotěboř",
+          "url": "/b/chotebor-svatomartinsky-ctyrsladovy-special-13-deg/3528330",
+          "rating": 3.28
+        },
+        {
+          "name": "Svatomartinský dvousladový speciál 13°",
+          "brewery": "Chotěboř",
+          "url": "/b/chotebor-svatomartinsky-dvousladovy-special-13-deg/1805567",
+          "rating": 3.36
+        },
+        {
+          "name": "Svatomartinské pivo 13°",
+          "brewery": "Na Rychtě",
+          "url": "/b/na-rychte-svatomartinske-pivo-13-deg/1815738",
+          "rating": 3.29
+        },
+        {
+          "name": "Sv. Martin 16° / St. Martin",
+          "brewery": "Pivovar Matuška",
+          "url": "/b/pivovar-matuska-sv-martin-16-deg-st-martin/43423",
+          "rating": 3.52
+        },
+        {
+          "name": "Svatomartinský speciál za studena chmelený",
+          "brewery": "Pivovary Lobkowicz",
+          "url": "/b/pivovary-lobkowicz-svatomartinsky-special-za-studena-chmeleny/5601571",
+          "rating": 3.19
+        },
+        {
+          "name": "Královský Svatomartinský speciál 13",
+          "brewery": "Heineken Česká Republika",
+          "url": "/b/krusovice-kralovsky-svatomartinsky-special-13/874668",
+          "rating": 3.25
+        },
+        {
+          "name": "Svatomartinský speciál",
+          "brewery": "Beskydský pivovárek",
+          "url": "/b/beskydsky-pivovarek-svatomartinsky-special/2380628",
+          "rating": 3.57
+        },
+        {
+          "name": "Svatomartinský speciál",
+          "brewery": "Pivovary Lobkowicz",
+          "url": "/b/pivovary-lobkowicz-svatomartinsky-special/508823",
+          "rating": 3.29
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Svatomartinský speciál 13° Vorkloster",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Svatomartinský speciál Vorkloster",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Svatomartinský speciál 13°",
+          "hits": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "query": "Svatomartinský speciál",
+          "hits": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/klasterni-pivovar-porta-coeli-vorkloster-klasterni-svatomartinsky-special/4099272",
+        "source": "llm"
       }
     },
     "beerstreet::Vorkloster::Zwickl": {
@@ -23301,6 +23834,36 @@
       "outcome": {
         "matched": "/b/brnenska-pivovarnicka-spolecnost-hauskrecht-brnenska-12/924325",
         "source": "llm"
+      }
+    },
+    "uzamastilu::Hendrych::H11": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Hendrych",
+        "name": "H11",
+        "style": "Ležák",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-11-13T20:30:26Z",
+      "candidates": [
+        {
+          "name": "H11 Raspberry & Lime Sour",
+          "brewery": "Hendrych",
+          "url": "/b/hendrych-h11-raspberry-and-lime-sour/4883458",
+          "rating": 3.45
+        }
+      ],
+      "attempts": [
+        {
+          "query": "H11 11° Hendrych",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/hendrych-h11-raspberry-and-lime-sour/4883458",
+        "score": 1.0
       }
     },
     "uzamastilu::Hendrych::H13 Cold": {

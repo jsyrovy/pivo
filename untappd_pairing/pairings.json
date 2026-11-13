@@ -1661,6 +1661,86 @@
       "matched_at": "2026-06-23T15:55:00Z",
       "query_used": "Session Juicy Lucy 13° Zichovec"
     },
+    "ambasada::Zlatá Kráva, Nepomuk::Choco Cow": {
+      "untappd_url": "https://untappd.com/b/zlata-krava-14-choco-cow/3004244",
+      "untappd_name": "14 Choco Cow",
+      "untappd_brewery": "Zlatá kráva",
+      "rating": 3.48,
+      "match_score": 1.0,
+      "matched_at": "2026-11-13T20:30:26Z",
+      "query_used": "Choco Cow 14° Zlatá Kráva",
+      "description": "Sladová, čokoládová a kávová s jemnou hořkostí a středním tělem. Kyselost nepozorována, hladká a příjemně sladká. 3,48."
+    },
+    "ambasada::Zlatá Kráva, Nepomuk::Combine": {
+      "untappd_url": "https://untappd.com/b/zlata-krava-14-combine/5272579",
+      "untappd_name": "14 Combine",
+      "untappd_brewery": "Zlatá kráva",
+      "rating": 3.62,
+      "match_score": 1.0,
+      "matched_at": "2026-11-13T20:30:03Z",
+      "query_used": "Combine 14° Zlatá Kráva",
+      "description": "Brut IPA s velmi suchým, ostře chmeleným profilem, výraznou hořkostí a citrusově-pryskyřičným aroma. Díky vyššímu alkoholu a stupňovitosti má plnější, hřejivé tělo, přesto zůstává zakončení suché."
+    },
+    "ambasada::Zlatá Kráva, Nepomuk::Farm APA": {
+      "untappd_url": "https://untappd.com/b/zlata-krava-11-farm-apa/2984687",
+      "untappd_name": "11 Farm APA",
+      "untappd_brewery": "Zlatá kráva",
+      "rating": 3.53,
+      "match_score": 1.0,
+      "matched_at": "2026-11-13T20:30:21Z",
+      "query_used": "Farm APA 11° Zlatá Kráva",
+      "description_failed_at": "2026-11-13T20:30:26Z"
+    },
+    "ambasada::Zlatá Kráva, Nepomuk::Polotučná": {
+      "untappd_url": "https://untappd.com/b/zlata-krava-10-polotucna/2973173",
+      "untappd_name": "10 Polotučná",
+      "untappd_brewery": "Zlatá kráva",
+      "rating": 3.37,
+      "match_score": 1.0,
+      "matched_at": "2026-11-13T20:29:55Z",
+      "query_used": "Polotučná 10° Zlatá Kráva",
+      "description": "Klasický světlý ležák se sladovým základem, jemnou chmelovou hořkostí a lehčím tělem; spodně kvašený a čistý v chuti."
+    },
+    "ambasada::Zlatá Kráva, Nepomuk::Sv. Jana Nepomuckého": {
+      "untappd_url": "https://untappd.com/b/zlata-krava-12-sv-jana-nepomuckeho/3271784",
+      "untappd_name": "12 sv. Jana Nepomuckého",
+      "untappd_brewery": "Zlatá kráva",
+      "rating": 3.5,
+      "match_score": 1.0,
+      "matched_at": "2026-11-13T20:30:05Z",
+      "query_used": "Sv. Jana Nepomuckého 12° Zlatá Kráva",
+      "description": "Weizen s 12° stupňovitostí a 5 % alkoholu: sladová, jemně kvasná chuť s charakteristickou banánovou a hřejivou vanilkovou notou, lehce kvasnou a hladkou, s nízkou hořkostí a vysoce kvasnou, kulatou plností těla."
+    },
+    "ambasada::Zlatá Kráva, Nepomuk::Tractor IPA": {
+      "untappd_url": "https://untappd.com/b/zlata-krava-14-tractor-ipa/2985887",
+      "untappd_name": "14 Tractor IPA",
+      "untappd_brewery": "Zlatá kráva",
+      "rating": 3.66,
+      "match_score": 1.0,
+      "matched_at": "2026-11-13T20:30:17Z",
+      "query_used": "Tractor IPA 14° Zlatá Kráva",
+      "description": "Svrchně kvašená americká IPA s výraznou chmelovou hořkostí, citrusovým a pryskyřičným aroma, plným tělem a suchým, hořkým závěrem. 14° a 5,9 % ABV jí dodávají střední sílu a plnost."
+    },
+    "ambasada::Zlatá Kráva/Kurnik Šopa::Juicy Pamela": {
+      "untappd_url": "https://untappd.com/b/zlata-krava-13-juicy-pamela/7667853",
+      "untappd_name": "13 Juicy Pamela",
+      "untappd_brewery": "Zlatá kráva",
+      "rating": null,
+      "match_score": 1.0,
+      "matched_at": "2026-11-13T20:30:16Z",
+      "query_used": "<llm>",
+      "description": "Sexy hazy pale ale s nízkou hořkostí, intenzivním tropickým a citrusovým aroma, sladkým plným tělem a měkkým závěrem; jméno naznačuje použití ovoce, což přináší ovocnou sladkost a „juicy“ charakter."
+    },
+    "ambasada::Zlatá Kráva::Plnotučná": {
+      "untappd_url": "https://untappd.com/b/zlata-krava-12-plnotucna/2974788",
+      "untappd_name": "12 Plnotučná",
+      "untappd_brewery": "Zlatá kráva",
+      "rating": 3.54,
+      "match_score": 1.0,
+      "matched_at": "2026-11-13T20:29:59Z",
+      "query_used": "Plnotučná 12° Zlatá Kráva",
+      "description": "Světlý ležák s 12° stupňovitostí a 4,5 % alkoholu: sladký, jemně chmelový chléb s vyváženou hořkostí, lehkým tělem a čistým, nezakaleným závěrem, hodnocený nadprůměrně."
+    },
     "ambasada::Záhora, Kněžičky::08.BRUTIPA.I2": {
       "untappd_url": "https://untappd.com/b/pivovar-zahora-australia-brut-8-abi-i2/5559645",
       "untappd_name": "Australia Brut /// 8.ABI.I2",
@@ -3051,6 +3131,16 @@
       "query_used": "Matuška 12° Matuška",
       "description": "Klasický světlý ležák: sladový základ s jemnou chmelovou hořkostí, středně plné tělo a čistá, vyvážená chuť typická pro spodně kvašené pivo. Stupňovitost 12° a 5,1 % ABV naznačují plnější profil než u desítky, ale stále pitný a osvěžující charakter."
     },
+    "beerstreet::Mazak::Dáreček": {
+      "untappd_url": "https://untappd.com/b/pivovar-mazak-darecek/4101143",
+      "untappd_name": "Dáreček",
+      "untappd_brewery": "Pivovar Mazák",
+      "rating": 3.63,
+      "match_score": 1.0,
+      "matched_at": "2026-11-13T20:29:47Z",
+      "query_used": "Dáreček Mazak",
+      "description": "Světlé moderní pale ale s vyváženou chmelovou hořkostí, jemným citrusovým aroma a středně plným tělem, spodně kvašené s čistým, svěžím závěrem."
+    },
     "beerstreet::Mazák::Agnus": {
       "untappd_url": "https://untappd.com/b/pivovar-mazak-single-hop-ale-agnus-13/6841048",
       "untappd_name": "Agnus 13 Single Hop Ale ",
@@ -3107,6 +3197,16 @@
       "match_score": 1.0,
       "matched_at": "2026-05-22T09:08:55Z",
       "query_used": "Extra hořká 11° Mazák"
+    },
+    "beerstreet::Mazák::Podzimní IPA": {
+      "untappd_url": "https://untappd.com/b/pivovar-mazak-podzimni-ipa/4539128",
+      "untappd_name": "Podzimní IPA",
+      "untappd_brewery": "Pivovar Mazák",
+      "rating": 3.75,
+      "match_score": 1.0,
+      "matched_at": "2026-11-13T20:29:51Z",
+      "query_used": "Podzimní IPA Mazák",
+      "description": "Silná IPA s výraznou chmelovou hořkostí a intenzivním ovocným aroma, často s tóny citrusů a pryskyřice. Díky vyšší stupňovitosti a alkoholu má plnější tělo a delší závěr, kde se projevuje suchost a lehká hořkost."
     },
     "beerstreet::Mazák::Saaz Shine": {
       "untappd_url": "https://untappd.com/b/pivovar-mazak-saaz-shine/5681778",
@@ -3185,6 +3285,16 @@
       "matched_at": "2026-04-28T20:13:44Z",
       "query_used": "Summer Ale Mordýř",
       "description": "Hazy Summer ale s mírnou sladkostí, ovocným aroma a lehkou, měkkou hořkostí, středně plné tělo, spodně kvašený styl s vyšší turbiditou a ovocnými esterovými tóny."
+    },
+    "beerstreet::Mordýř::Svatomartinský ležák": {
+      "untappd_url": "https://untappd.com/b/pivovar-mordyr-svatomartinsky-lezak-12/1794403",
+      "untappd_name": "Svatomartinský ležák 12",
+      "untappd_brewery": "Pivovar Mordýř",
+      "rating": 3.3,
+      "match_score": 1.0,
+      "matched_at": "2026-11-13T20:29:42Z",
+      "query_used": "Svatomartinský ležák 12° Mordýř",
+      "description": "Světlý ležák s vyváženým sladovým základem a jemnou chmelovou hořkostí, středně plným tělem a čistou suchou chutí. Název „Svatomartinský“ neodvozuje konkrétní suroviny ani postup, pouze odkazuje na tradici. Pivo je podprůměrně hodnocené."
     },
     "beerstreet::Mordýř::Svatováclavská": {
       "untappd_url": "https://untappd.com/b/pivovar-mordyr-svatovaclavska-12/2864744",
@@ -3911,6 +4021,26 @@
       "matched_at": "2026-10-27T18:41:51Z",
       "query_used": "Elektron 12° Volt",
       "description": "Novozélandský pale ale s výrazným chmelovým aroma, které nese tóny citrusů a tropického ovoce. Lehké až středně plné tělo s čistou sladovou podložkou a příjemně suchým, chmeleným závěrem."
+    },
+    "beerstreet::Volt::Svatomartinský speciál": {
+      "untappd_url": "https://untappd.com/b/pivovar-volt-svatomartinska-11-deg/3547889",
+      "untappd_name": "Svatomartinský speciál 11°",
+      "untappd_brewery": "Pivovar Volt",
+      "rating": 3.54,
+      "match_score": 1.0,
+      "matched_at": "2026-11-13T20:29:41Z",
+      "query_used": "Svatomartinský speciál 11° Volt",
+      "description": "Klasický světlý ležák: sladový základ, jemná chmelová hořkost a lehčí tělo, spodně kvašený a čistý v chuti."
+    },
+    "beerstreet::Vorkloster::Svatomartinský speciál": {
+      "untappd_url": "https://untappd.com/b/klasterni-pivovar-porta-coeli-vorkloster-klasterni-svatomartinsky-special/4099272",
+      "untappd_name": "Vorkloster Svatomartinský Speciál",
+      "untappd_brewery": "Klášterní pivovar Porta Coeli",
+      "rating": 3.56,
+      "match_score": 1.0,
+      "matched_at": "2026-11-13T20:29:38Z",
+      "query_used": "<llm>",
+      "description_failed_at": "2026-11-13T20:30:26Z"
     },
     "beerstreet::Vorkloster::Zwickl": {
       "untappd_url": "https://untappd.com/b/klasterni-pivovar-porta-coeli-vorkloster-klasterni-zwickl/2774417",
@@ -5602,6 +5732,16 @@
       "matched_at": "2026-11-01T18:26:37Z",
       "query_used": "<llm>",
       "description": "Světlý ležák s 12° stupňovitostí: sladový základ s jemnou chmelovou hořkostí, střední tělo a čistá, mírně nasládlá chuť s suchým závěrem. Hodnocení 3,41 je podprůměrné."
+    },
+    "uzamastilu::Hendrych::H11": {
+      "untappd_url": "https://untappd.com/b/hendrych-h11-raspberry-and-lime-sour/4883458",
+      "untappd_name": "H11 Raspberry & Lime Sour",
+      "untappd_brewery": "Hendrych",
+      "rating": 3.45,
+      "match_score": 1.0,
+      "matched_at": "2026-11-13T20:30:26Z",
+      "query_used": "H11 11° Hendrych",
+      "description": "Svrchně kvašený kyselý ležák s lehkým tělem a výraznou ovocnou kyselostí. Příchuť malin a limetky je patrná hned na jazyku, kde sladké ovocné tóny dobře vyváží čerstvou kyselinu. Pivo je svěží a lehce pitné s čistým ovocným závěrem."
     },
     "uzamastilu::Hendrych::H13 Cold": {
       "untappd_url": "https://untappd.com/b/hendrych-h13-cold-ipa/6911515",
