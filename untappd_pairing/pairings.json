@@ -5683,6 +5683,16 @@
       "query_used": "Out Of Office Fenek",
       "description": "Výrazně chmelená ale s plným tělem a střední hořkostí. Aroma i chuť jsou dominovány citrusovými a tropickými plody, s náznakem resinovitého chmelu. Sladovinu z 12° stupňovitosti dobře podporuje, což dává pivu dostatečnou plnost a objem v ústech."
     },
+    "uzamastilu::Fenek::Schrödinger´s Cat": {
+      "untappd_url": "https://untappd.com/b/fenek-craft-beer-schrodinger-s-cat-12/6382777",
+      "untappd_name": "Schrödinger’s Cat 12",
+      "untappd_brewery": "Fenek Craft Beer",
+      "rating": 3.65,
+      "match_score": 1.0,
+      "matched_at": "2026-11-14T01:26:55Z",
+      "query_used": "Schrödinger´s Cat 12° Fenek",
+      "description": "APA s lehkým až středním tělem, vyznačující se čistým chmelovým aroma s tóny citrusů a pryskyřice a mírně hořkou chutí. Název neodvozuje konkrétní suroviny ani postupy, proto se na něj neodkazuje."
+    },
     "uzamastilu::Fracek::Fina Cerva": {
       "untappd_url": "https://untappd.com/b/fracek-fina-cerva/6920874",
       "untappd_name": "FINA CERVA",
@@ -6183,6 +6193,16 @@
       "query_used": "Dočesná 2026 Pioneer Beer",
       "description": "Klasický český ležák: plnější sladový základ s jemnou chmelovou hořkostí, středně plné tělo a čistý, vyvážený charakter spodního kvašení."
     },
+    "uzamastilu::Pioneer Beer::Fresh Signal": {
+      "untappd_url": "https://untappd.com/b/pioneer-beer-fresh-signal/7628506",
+      "untappd_name": "Fresh Signal",
+      "untappd_brewery": "Pioneer Beer",
+      "rating": 3.73,
+      "match_score": 1.0,
+      "matched_at": "2026-11-14T01:26:57Z",
+      "query_used": "Fresh Signal Pioneer Beer",
+      "description": "Světlý lager s čistým, lehkým tělem a jemnou sladovou chutí. V aroma je příjemný chmelový tón s nádechem svěžesti, chut je vyvážená s jemnou hořkostí a suchým závěrem."
+    },
     "uzamastilu::Pioneer Beer::Lunapark": {
       "untappd_url": "https://untappd.com/b/pioneer-beer-lunapark/7639906",
       "untappd_name": "Lunapark",
@@ -6602,6 +6622,16 @@
       "matched_at": "2026-09-06T18:58:06Z",
       "query_used": "NZ NEIPA Koru Čestmír",
       "description_failed_at": "2026-09-06T18:58:06Z"
+    },
+    "uzamastilu::Čestmír::New Zealand": {
+      "untappd_url": "https://untappd.com/b/pivovar-cestmir-new-zealand-neipa-14/7674825",
+      "untappd_name": "New Zealand NEIPA 14",
+      "untappd_brewery": "Pivovar Čestmír",
+      "rating": null,
+      "match_score": 1.0,
+      "matched_at": "2026-11-14T01:26:52Z",
+      "query_used": "New Zealand 14° Čestmír",
+      "description": "Mléčně zakalená NEIPA s šťavnatým ovocným aroma a jemnou, spíše nižší hořkostí, plnějším a krémovým tělem. Novozélandské chmely jí dodávají výrazné tóny tropického ovoce, zejména maracuji a citrusů."
     },
     "uzamastilu::Čestmír::Nine": {
       "untappd_url": "https://untappd.com/b/pivovar-cestmir-ipa-14-nine/6986064",

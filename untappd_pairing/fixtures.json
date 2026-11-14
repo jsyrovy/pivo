@@ -23565,6 +23565,36 @@
         "score": 1.0
       }
     },
+    "uzamastilu::Fenek::Schrödinger´s Cat": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Fenek",
+        "name": "Schrödinger´s Cat",
+        "style": "APA",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-11-14T01:26:55Z",
+      "candidates": [
+        {
+          "name": "Schrödinger’s Cat 12",
+          "brewery": "Fenek Craft Beer",
+          "url": "/b/fenek-craft-beer-schrodinger-s-cat-12/6382777",
+          "rating": 3.65
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Schrödinger´s Cat 12° Fenek",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/fenek-craft-beer-schrodinger-s-cat-12/6382777",
+        "score": 1.0
+      }
+    },
     "uzamastilu::Fracek::Fina Cerva": {
       "beer": {
         "source": "uzamastilu",
@@ -26281,6 +26311,40 @@
         "score": 1.0
       }
     },
+    "uzamastilu::Pioneer Beer::Fresh Signal": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Pioneer Beer",
+        "name": "Fresh Signal",
+        "style": "Lager",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-11-14T01:26:57Z",
+      "candidates": [
+        {
+          "name": "Fresh Signal",
+          "brewery": "Pioneer Beer",
+          "url": "/b/pioneer-beer-fresh-signal/7628506",
+          "rating": 3.73
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Fresh Signal 11° Pioneer Beer",
+          "hits": []
+        },
+        {
+          "query": "Fresh Signal Pioneer Beer",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pioneer-beer-fresh-signal/7628506",
+        "score": 1.0
+      }
+    },
     "uzamastilu::Pioneer Beer::Hopline N.Zealand": {
       "beer": {
         "source": "uzamastilu",
@@ -28487,6 +28551,50 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-cestmir-nz-neipa-koru-riwaka-nelson-sauvin-motueka/6857928",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Čestmír::New Zealand": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Čestmír",
+        "name": "New Zealand",
+        "style": "NEIPA",
+        "degree_plato": 14.0
+      },
+      "captured_at": "2026-11-14T01:26:52Z",
+      "candidates": [
+        {
+          "name": "New Zealand IPA 14 -  Motueka & Kohatu",
+          "brewery": "Pivovar Čestmír",
+          "url": "/b/pivovar-cestmir-new-zealand-ipa-14-motueka-and-kohatu/3497374",
+          "rating": 3.73
+        },
+        {
+          "name": "New Zealand NEIPA 14",
+          "brewery": "Pivovar Čestmír",
+          "url": "/b/pivovar-cestmir-new-zealand-neipa-14/7674825",
+          "rating": null
+        },
+        {
+          "name": "New Zealand IPA 14 - Rakau & Wai-ti",
+          "brewery": "Pivovar Čestmír",
+          "url": "/b/pivovar-cestmir-new-zealand-ipa-14-rakau-and-wai-ti/3179221",
+          "rating": 3.67
+        }
+      ],
+      "attempts": [
+        {
+          "query": "New Zealand 14° Čestmír",
+          "hits": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-cestmir-new-zealand-neipa-14/7674825",
         "score": 1.0
       }
     },
