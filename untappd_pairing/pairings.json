@@ -721,7 +721,8 @@
       "rating": 3.8,
       "match_score": 1.0,
       "matched_at": "2026-05-22T09:09:37Z",
-      "query_used": "Mango Pina Coco Sourus 10° MadCat"
+      "query_used": "Mango Pina Coco Sourus 10° MadCat",
+      "description_failed_at": "2026-11-14T22:58:43Z"
     },
     "ambasada::MadCat, Kamenice::Pumpkin Ale": {
       "untappd_url": "https://untappd.com/b/madcat-pumpkin-ale/4549126",
@@ -866,6 +867,16 @@
       "matched_at": "2026-10-07T19:16:24Z",
       "query_used": "Blizard Mordýř",
       "description": "Zimní světlý ale s lehce vyšší plností díky 12° stupňovitosti a 5,1 % alkoholu – sladový základ s jemnou chmelovou hořkostí a čistým, osvěžujícím profilem typickým pro svrchně kvašená světlá piva. Hodnocení 3,53 naznačuje průměrné přijetí komunitou."
+    },
+    "ambasada::Mordýř, Dolní Ředice::Krush Ale": {
+      "untappd_url": "https://untappd.com/b/pivovar-mordyr-krush-smash-ale/6644094",
+      "untappd_name": "Krush Smash Ale",
+      "untappd_brewery": "Pivovar Mordýř",
+      "rating": 3.51,
+      "match_score": 1.0,
+      "matched_at": "2026-11-14T22:58:43Z",
+      "query_used": "Krush Ale Mordýř",
+      "description": "Smash ale je lehká, chmelově výrazná americká ale s nižší chmelovou hořkostí a čistým, osvěžujícím charakterem. Zdejších 12° a 5,1 % naznačují středně plné tělo s vyváženou sladovou chutí a jemnou chmelovou chutí."
     },
     "ambasada::Mordýř, Dolní Ředice::Kurtizána": {
       "untappd_url": "https://untappd.com/b/pivovar-mordyr-mango-ale/4500799",
