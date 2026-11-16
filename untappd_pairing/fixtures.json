@@ -4665,6 +4665,40 @@
         "score": 1.0
       }
     },
+    "ambasada::Sibeeria, Praha::One Festival": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Sibeeria, Praha",
+        "name": "One Festival",
+        "style": "West coast pilsner",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-11-16T22:54:00Z",
+      "candidates": [
+        {
+          "name": "One Festival",
+          "brewery": "Sibeeria Brewery",
+          "url": "/b/sibeeria-brewery-one-festival/7631304",
+          "rating": 3.78
+        }
+      ],
+      "attempts": [
+        {
+          "query": "One Festival 11° Sibeeria",
+          "hits": []
+        },
+        {
+          "query": "One Festival Sibeeria",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/sibeeria-brewery-one-festival/7631304",
+        "score": 1.0
+      }
+    },
     "ambasada::Sibeeria, Praha::One Teacher": {
       "beer": {
         "source": "ambasada",
@@ -6642,6 +6676,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-cestmir-sour-pink-guava-maracuja/6534373",
+        "score": 1.0
+      }
+    },
+    "ambasada::Čestmír, Brandýs nad Labem::Ratamahatta": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Čestmír, Brandýs nad Labem",
+        "name": "Ratamahatta",
+        "style": "IPA",
+        "degree_plato": 16.0
+      },
+      "captured_at": "2026-11-16T22:54:02Z",
+      "candidates": [
+        {
+          "name": "IPA 16 – Ratamahatta ",
+          "brewery": "Pivovar Čestmír",
+          "url": "/b/pivovar-cestmir-ipa-16-ratamahatta/2940956",
+          "rating": 3.83
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Ratamahatta 16° Čestmír",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-cestmir-ipa-16-ratamahatta/2940956",
         "score": 1.0
       }
     },
@@ -12875,6 +12939,61 @@
         "score": 1.0
       }
     },
+    "beerstreet::Mazák::Dáreček": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Mazák",
+        "name": "Dáreček",
+        "style": "Modern pale ale",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-11-16T22:53:58Z",
+      "candidates": [
+        {
+          "name": "Dáreček 2025",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-darecek-2025/6481635",
+          "rating": 3.78
+        },
+        {
+          "name": "Dáreček 2026",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-dareccek-2026/7675579",
+          "rating": null
+        },
+        {
+          "name": "Dáreček",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-darecek/4101143",
+          "rating": 3.63
+        },
+        {
+          "name": "Dáreček (2023)",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-darecek-2023/5614733",
+          "rating": 3.61
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Dáreček 12° Mazák",
+          "hits": []
+        },
+        {
+          "query": "Dáreček Mazák",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mazak-darecek/4101143",
+        "score": 1.0
+      }
+    },
     "beerstreet::Mazák::Extra hořká": {
       "beer": {
         "source": "beerstreet",
@@ -18612,6 +18731,36 @@
         "score": 1.0
       }
     },
+    "toulavapipa::Hřebec::New Zealand pale ale": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Hřebec",
+        "name": "New Zealand pale ale",
+        "style": "Ale",
+        "degree_plato": null
+      },
+      "captured_at": "2026-11-16T22:54:16Z",
+      "candidates": [
+        {
+          "name": "11° New Zealand Pale Ale",
+          "brewery": "Pivovar Hřebec",
+          "url": "/b/pivovar-hrebec-11-deg-new-zealand-pale-ale/6850395",
+          "rating": 3.59
+        }
+      ],
+      "attempts": [
+        {
+          "query": "New Zealand pale ale Hřebec",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-hrebec-11-deg-new-zealand-pale-ale/6850395",
+        "score": 1.0
+      }
+    },
     "toulavapipa::Hřebec::SUMMER ALE": {
       "beer": {
         "source": "toulavapipa",
@@ -19950,6 +20099,36 @@
         "score": 1.0
       }
     },
+    "toulavapipa::Madcat::Jedenáctka": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Madcat",
+        "name": "Jedenáctka",
+        "style": "Sv. ležák",
+        "degree_plato": null
+      },
+      "captured_at": "2026-11-16T22:54:12Z",
+      "candidates": [
+        {
+          "name": "Jedenáctka",
+          "brewery": "MadCat",
+          "url": "/b/madcat-jedenactka/5604401",
+          "rating": 3.49
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Jedenáctka Madcat",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/madcat-jedenactka/5604401",
+        "score": 1.0
+      }
+    },
     "toulavapipa::Madcat::Jiskra": {
       "beer": {
         "source": "toulavapipa",
@@ -20010,6 +20189,107 @@
         "score": 1.0
       }
     },
+    "toulavapipa::Madcat::Mango-piňa-coco": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Madcat",
+        "name": "Mango-piňa-coco",
+        "style": "Sour ale",
+        "degree_plato": null
+      },
+      "captured_at": "2026-11-16T22:54:18Z",
+      "candidates": [
+        {
+          "name": "Mango-Piña-Coco",
+          "brewery": "MadCat",
+          "url": "/b/madcat-mango-pina-coco/2990679",
+          "rating": 3.8
+        },
+        {
+          "name": "Double Infused Mango-Piña-Coco",
+          "brewery": "MadCat",
+          "url": "/b/madcat-double-infused-mango-pina-coco/5293565",
+          "rating": 4.1
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Mango-piňa-coco Madcat",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/madcat-mango-pina-coco/2990679",
+        "score": 1.0
+      }
+    },
+    "toulavapipa::Mahrs Bräu::Kellerbier": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Mahrs Bräu",
+        "name": "Kellerbier",
+        "style": "Kellerbier",
+        "degree_plato": null
+      },
+      "captured_at": "2026-11-16T22:54:10Z",
+      "candidates": [
+        {
+          "name": "U Ungespundet Naturtrüb",
+          "brewery": "Mahrs Bräu",
+          "url": "/b/mahrs-brau-u-ungespundet-naturtrub/40965",
+          "rating": 3.57
+        },
+        {
+          "name": "Grevensteiner Original Naturtrübes Landbier",
+          "brewery": "Brauerei VELTINS",
+          "url": "/b/brauerei-veltins-grevensteiner-original-naturtrubes-landbier/540889",
+          "rating": 3.42
+        },
+        {
+          "name": "Kellerbier",
+          "brewery": "Hacker-Pschorr",
+          "url": "/b/hacker-pschorr-kellerbier/24095",
+          "rating": 3.5
+        },
+        {
+          "name": "Aktien Zwick'l Kellerbier",
+          "brewery": "Bayreuther Bierbrauerei",
+          "url": "/b/bayreuther-bierbrauerei-aktien-zwick-l-kellerbier/63263",
+          "rating": 3.49
+        },
+        {
+          "name": "Mönchshof Kellerbier",
+          "brewery": "Kulmbacher Brauerei",
+          "url": "/b/kulmbacher-brauerei-monchshof-kellerbier/11852",
+          "rating": 3.38
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Kellerbier Mahrs Bräu",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Kellerbier",
+          "hits": [
+            1,
+            2,
+            3,
+            4,
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/mahrs-brau-u-ungespundet-naturtrub/40965",
+        "source": "llm"
+      }
+    },
     "toulavapipa::Mazák::BANANA JOY": {
       "beer": {
         "source": "toulavapipa",
@@ -20067,6 +20347,64 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-mazak-rainbow-of-death/2852216",
+        "score": 1.0
+      }
+    },
+    "toulavapipa::Mazák::Vánoční IPA": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Mazák",
+        "name": "Vánoční IPA",
+        "style": "IPA",
+        "degree_plato": null
+      },
+      "captured_at": "2026-11-16T22:54:16Z",
+      "candidates": [
+        {
+          "name": "Vánoční IPA",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-vanocni-ipa/2418835",
+          "rating": 3.65
+        },
+        {
+          "name": "Vánoční IPA 2025",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-vanocni-ipa-2025/6481633",
+          "rating": 3.83
+        },
+        {
+          "name": "Vánoční IPA (2026)",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-vanocni-ipa-2026/7675231",
+          "rating": null
+        },
+        {
+          "name": "Vánoční IPA (2024)",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-vanocni-ipa-2024/6056556",
+          "rating": 3.69
+        },
+        {
+          "name": "Vánoční IPA (2022)",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-vanocni-ipa-2022/5162994",
+          "rating": 3.58
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Vánoční IPA Mazák",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mazak-vanocni-ipa/2418835",
         "score": 1.0
       }
     },
@@ -23511,6 +23849,40 @@
       ],
       "outcome": {
         "matched": "/b/elektrarna-tri-sestry-lezak/6237385",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Falkon::Jéžíšmarjá": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Falkon",
+        "name": "Jéžíšmarjá",
+        "style": "Modern IPA",
+        "degree_plato": 14.0
+      },
+      "captured_at": "2026-11-16T22:54:20Z",
+      "candidates": [
+        {
+          "name": "JÉŽIŠMARJÁ",
+          "brewery": "FALKON",
+          "url": "/b/falkon-jezismarja/7635108",
+          "rating": 3.84
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Jéžíšmarjá 14° Falkon",
+          "hits": []
+        },
+        {
+          "query": "Jéžíšmarjá Falkon",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/falkon-jezismarja/7635108",
         "score": 1.0
       }
     },
@@ -28551,6 +28923,36 @@
       ],
       "outcome": {
         "matched": "/b/cerny-potoka-cloud-scanner-sabro/3279424",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Čestmír::Brandejs": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Čestmír",
+        "name": "Brandejs",
+        "style": "Ležák",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-11-16T22:54:23Z",
+      "candidates": [
+        {
+          "name": "Světlý ležák 12 - Brandejs ",
+          "brewery": "Pivovar Čestmír",
+          "url": "/b/pivovar-cestmir-svetly-lezak-12-brandejs/6630940",
+          "rating": 3.56
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Brandejs 12° Čestmír",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-cestmir-svetly-lezak-12-brandejs/6630940",
         "score": 1.0
       }
     },

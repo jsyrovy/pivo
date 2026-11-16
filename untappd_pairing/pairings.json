@@ -1288,6 +1288,16 @@
       "query_used": "One Burning Sibeeria",
       "description": "One Burning je svěží Session NEIPA s mírnou hořkostí a ovocným aroma, 4,2 % alkoholu, vhodná na letní posezení u přátel nebo u sportovního zápasu."
     },
+    "ambasada::Sibeeria, Praha::One Festival": {
+      "untappd_url": "https://untappd.com/b/sibeeria-brewery-one-festival/7631304",
+      "untappd_name": "One Festival",
+      "untappd_brewery": "Sibeeria Brewery",
+      "rating": 3.78,
+      "match_score": 1.0,
+      "matched_at": "2026-11-16T22:54:00Z",
+      "query_used": "One Festival Sibeeria",
+      "description": "Výrazně chmelená západní pilsner s typickou suchou hořkostí a citrusovým, pryskyřičným aroma. Lehké, ostře suché tělo a spodně kvašená čistota, která zdůrazňuje chmelovou sílu. 3,78."
+    },
     "ambasada::Sibeeria, Praha::One Teacher": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-one-teacher/6835426",
       "untappd_name": "One Teacher",
@@ -1817,6 +1827,16 @@
       "match_score": 1.0,
       "matched_at": "2026-06-03T18:24:58Z",
       "query_used": "Pink Guava Maracuja Čestmír"
+    },
+    "ambasada::Čestmír, Brandýs nad Labem::Ratamahatta": {
+      "untappd_url": "https://untappd.com/b/pivovar-cestmir-ipa-16-ratamahatta/2940956",
+      "untappd_name": "IPA 16 – Ratamahatta ",
+      "untappd_brewery": "Pivovar Čestmír",
+      "rating": 3.83,
+      "match_score": 1.0,
+      "matched_at": "2026-11-16T22:54:02Z",
+      "query_used": "Ratamahatta 16° Čestmír",
+      "description_failed_at": "2026-11-16T22:54:23Z"
     },
     "ambasada::Čestmír, Brandýs nad Labem::Riwaka": {
       "untappd_url": "https://untappd.com/b/pivovar-cestmir-single-hop-neipa-riwaka-14deg/5714600",
@@ -3199,6 +3219,16 @@
       "match_score": 1.0,
       "matched_at": "2026-05-04T20:13:17Z",
       "query_used": "Czech Pale Ale Mazák"
+    },
+    "beerstreet::Mazák::Dáreček": {
+      "untappd_url": "https://untappd.com/b/pivovar-mazak-darecek/4101143",
+      "untappd_name": "Dáreček",
+      "untappd_brewery": "Pivovar Mazák",
+      "rating": 3.63,
+      "match_score": 1.0,
+      "matched_at": "2026-11-16T22:53:58Z",
+      "query_used": "Dáreček Mazák",
+      "description": "Modern pale ale s lehkým až středně plným tělem, vyváženou sladovou sladkostí a jemnou chmelovou hořkostí. Aroma je převážně ovocně-chmelové s tóny citrusů a lehkého ovoce, chuť je čistá, mírně suchá s příjemným závěrem."
     },
     "beerstreet::Mazák::Extra hořká": {
       "untappd_url": "https://untappd.com/b/pivovar-mazak-extra-horka-11-za-studena-chmelena/6616906",
@@ -4605,6 +4635,16 @@
       "query_used": "NEW ZEALAND PALE ALE Hřebec",
       "description": "Pale ale s typickým sladovým základem a střední chmelovou hořkostí, doplněná novozélandskými chmely přinášejícími tropické a ovocné tóny jako marakuja, citrus nebo lesní plody. Středně plné tělo s vyváženým profilem mezi sladovou sladkostí a chmelovou svěžestí."
     },
+    "toulavapipa::Hřebec::New Zealand pale ale": {
+      "untappd_url": "https://untappd.com/b/pivovar-hrebec-11-deg-new-zealand-pale-ale/6850395",
+      "untappd_name": "11° New Zealand Pale Ale",
+      "untappd_brewery": "Pivovar Hřebec",
+      "rating": 3.59,
+      "match_score": 1.0,
+      "matched_at": "2026-11-16T22:54:16Z",
+      "query_used": "New Zealand pale ale Hřebec",
+      "description": "Svrchně kvašený pale ale s lehkým až středně plným tělem, jemnou sladovou podkladnou a čerstvou chmelovou hořkostí. Styl „New Zealand“ v názvu naznačuje použití novozélandského chmele, který přináší typické tóny černého rybízu, broskvů a tropického ovoce v aroma i chuti."
+    },
     "toulavapipa::Hřebec::SUMMER ALE": {
       "untappd_url": "https://untappd.com/b/pivovar-hrebec-10-deg-summer-ale/6376217",
       "untappd_name": "10° Summer Ale",
@@ -4865,6 +4905,16 @@
       "query_used": "JEDENÁCTKA Madcat",
       "description": "Klasický světlý ležák: sladový základ, jemná chmelová hořkost a lehčí tělo, spodně kvašený a čistý v chuti."
     },
+    "toulavapipa::Madcat::Jedenáctka": {
+      "untappd_url": "https://untappd.com/b/madcat-jedenactka/5604401",
+      "untappd_name": "Jedenáctka",
+      "untappd_brewery": "MadCat",
+      "rating": 3.49,
+      "match_score": 1.0,
+      "matched_at": "2026-11-16T22:54:12Z",
+      "query_used": "Jedenáctka Madcat",
+      "description": "Klasický světlý ležák: sladový základ, jemná chmelová hořkost a lehčí tělo, spodně kvašený a čistý v chuti."
+    },
     "toulavapipa::Madcat::Jiskra": {
       "untappd_url": "https://untappd.com/b/madcat-jiskra/5509844",
       "untappd_name": "Jiskra",
@@ -4885,6 +4935,26 @@
       "query_used": "MANGO PIÑA COCO sourus Madcat",
       "description": "Kyselé svrchně kvašené pivo s ovocným charakterem manga, ananasu a kokosu, které přidává sladší tropický tón a změkčuje kyselost. Sour ale s výraznou ovocností a osvěžujícím závěrem."
     },
+    "toulavapipa::Madcat::Mango-piňa-coco": {
+      "untappd_url": "https://untappd.com/b/madcat-mango-pina-coco/2990679",
+      "untappd_name": "Mango-Piña-Coco",
+      "untappd_brewery": "MadCat",
+      "rating": 3.8,
+      "match_score": 1.0,
+      "matched_at": "2026-11-16T22:54:18Z",
+      "query_used": "Mango-piňa-coco Madcat",
+      "description_failed_at": "2026-11-16T22:54:23Z"
+    },
+    "toulavapipa::Mahrs Bräu::Kellerbier": {
+      "untappd_url": "https://untappd.com/b/mahrs-brau-u-ungespundet-naturtrub/40965",
+      "untappd_name": "U Ungespundet Naturtrüb",
+      "untappd_brewery": "Mahrs Bräu",
+      "rating": 3.57,
+      "match_score": 0.0,
+      "matched_at": "2026-11-16T22:54:10Z",
+      "query_used": "<llm>",
+      "description": "Klasické nefiltrované Kellerbier s typickou sladovinou a jemnou chmelovou hořkostí, které dodává neprůhlednost a plnější tělo. Mírná kyselina a čerstvé chmelové aroma doplňují přirozený charakter svrchně kvašeného ležáka."
+    },
     "toulavapipa::Mazák::BANANA JOY": {
       "untappd_url": "https://untappd.com/b/pivovar-mazak-banana-joy-14/7130813",
       "untappd_name": "Banana Joy 14",
@@ -4904,6 +4974,16 @@
       "matched_at": "2026-09-07T18:10:47Z",
       "query_used": "RAINBOW OF DEATH Mazák",
       "description": "IPA s výraznou chmelovou hořkostí, citrusovým a tropickým ovocným aroma a středně plným tělem. Hodnocení na Untappd je nadprůměrné."
+    },
+    "toulavapipa::Mazák::Vánoční IPA": {
+      "untappd_url": "https://untappd.com/b/pivovar-mazak-vanocni-ipa/2418835",
+      "untappd_name": "Vánoční IPA",
+      "untappd_brewery": "Pivovar Mazák",
+      "rating": 3.65,
+      "match_score": 1.0,
+      "matched_at": "2026-11-16T22:54:16Z",
+      "query_used": "Vánoční IPA Mazák",
+      "description": "IPA s vánočním názvem, kde z něj nevyplývá žádná konkrétní surovina ani postup. Typický IPA profil s chmelovou hořkostí, citrusovým nebo pryskyřičným aroma a středně plným tělem."
     },
     "toulavapipa::Mazák::ZERO HERO": {
       "untappd_url": "https://untappd.com/b/pivovar-mazak-zero-hero/6249467",
@@ -4943,7 +5023,7 @@
       "match_score": 1.0,
       "matched_at": "2026-11-04T20:26:15Z",
       "query_used": "Krush ALE Mordýř",
-      "description_failed_at": "2026-11-04T20:26:15Z"
+      "description_failed_at": "2026-11-16T22:54:23Z"
     },
     "toulavapipa::Mordýř::Kurtizána": {
       "untappd_url": "https://untappd.com/b/pivovar-mordyr-kurtizana/704889",
@@ -5452,7 +5532,7 @@
       "match_score": 1.0,
       "matched_at": "2026-08-31T19:28:00Z",
       "query_used": "Session NEIPA Čestmír",
-      "description_failed_at": "2026-08-31T19:28:13Z"
+      "description": "Výrazně chmelená NEIPA s hustou, mlžnou špičkou a sladovými náznaky. Aroma i chutě dominují exotickým ovocem a citrusem od Mosaic a Galaxy, doplněné jemnými bylinkovými tóny. Plné, šťavnaté tělo s nízkou hořkostí a hladkým závěrem. Pivo je nadprůměrně hodnocené."
     },
     "toulavapipa::Čestmír::TIWANAKU": {
       "untappd_url": "https://untappd.com/b/pivovar-cestmir-double-neipa-17-tiwanaku-galaxy-sabro/3969070",
@@ -5673,6 +5753,16 @@
       "matched_at": "2026-09-30T22:54:08Z",
       "query_used": "Tři Sestry Elektrárna",
       "description": "Klasický český ležák: sladový základ s jemnou chmelovou hořkostí, středně plné tělo a čistý, vyvážený charakter spodního kvašení. Hodnocení na Untappd podprůměrné."
+    },
+    "uzamastilu::Falkon::Jéžíšmarjá": {
+      "untappd_url": "https://untappd.com/b/falkon-jezismarja/7635108",
+      "untappd_name": "JÉŽIŠMARJÁ",
+      "untappd_brewery": "FALKON",
+      "rating": 3.84,
+      "match_score": 1.0,
+      "matched_at": "2026-11-16T22:54:20Z",
+      "query_used": "Jéžíšmarjá Falkon",
+      "description": "Moderní IPA s výraznou chmelenou hořkostí, citrusovým a tropickým aroma a plným, mastným tělem. Vysoká stupňovitost přináší sladkou podporu chmelovému profilu. 3,84."
     },
     "uzamastilu::Fenek::Ležák": {
       "untappd_url": "https://untappd.com/b/fenek-craft-beer-tmavy-lezak-12-deg/6458763",
@@ -6623,6 +6713,16 @@
       "matched_at": "2026-08-22T17:25:12Z",
       "query_used": "Cloud Scanner Černý Potoka",
       "description": "Silně aromatické NEIPA s tropickým a ovocným profilem Sabro chmele, intenzivní vůně manga a grapefruitu doplněná lehkou sladkostí a měkkou hořkostí, středně plné tělo s hladkým závěrem, hodnocení nadprůměrné."
+    },
+    "uzamastilu::Čestmír::Brandejs": {
+      "untappd_url": "https://untappd.com/b/pivovar-cestmir-svetly-lezak-12-brandejs/6630940",
+      "untappd_name": "Světlý ležák 12 - Brandejs ",
+      "untappd_brewery": "Pivovar Čestmír",
+      "rating": 3.56,
+      "match_score": 1.0,
+      "matched_at": "2026-11-16T22:54:23Z",
+      "query_used": "Brandejs 12° Čestmír",
+      "description": "Lehký český ležák s jemným sladovým aroma, jemnou chmelovou hořkostí a čistou spodně kvašenou chutí, s vyváženým tělem a svěžím závěrem."
     },
     "uzamastilu::Čestmír::NZ NEIPA Koru": {
       "untappd_url": "https://untappd.com/b/pivovar-cestmir-nz-neipa-koru-riwaka-nelson-sauvin-motueka/6857928",
