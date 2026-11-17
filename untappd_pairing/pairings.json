@@ -2352,6 +2352,16 @@
       "query_used": "No Compass Fracek",
       "description": "Svrchně kvašený pils s plnějším tělem a jemnou sladovou sladkostí, doplněný chmelovými tóny typickými pro novozélandské odrůdy. Hodnocení 3,83 signalizuje nadprůměrnou kvalitu."
     },
+    "beerstreet::Frankies::Ležák z čerstvého chmele": {
+      "untappd_url": "https://untappd.com/b/frankies-lezak-z-cerstveho-chmele/7663325",
+      "untappd_name": "Ležak z čerstvého chmele",
+      "untappd_brewery": "Frankies",
+      "rating": null,
+      "match_score": 1.0,
+      "matched_at": "2026-11-17T21:45:55Z",
+      "query_used": "Ležák z čerstvého chmele Frankies",
+      "description": "Světlý ležák s čerstvým chmelem dává čisté, výrazně chmelové aroma s bylinnými a travnatými tóny a svěží hořkostí, která zůstává v suchém závěru. Tělo je lehčí, spodně kvašené a pití je díky nižšímu alkoholu snadno odsypatelné."
+    },
     "beerstreet::Hacker-Pschorr - Mnichov::Hacker-Pschorr": {
       "untappd_url": "https://untappd.com/b/hacker-pschorr-oktoberfest-marzen/1827",
       "untappd_name": "Oktoberfest Märzen",
@@ -3142,6 +3152,16 @@
       "query_used": "<llm>",
       "description_failed_at": "2026-11-01T18:26:52Z"
     },
+    "beerstreet::Matuška::Florida": {
+      "untappd_url": "https://untappd.com/b/pivovar-matuska-florida-10-deg/5808773",
+      "untappd_name": "Florida 10°",
+      "untappd_brewery": "Pivovar Matuška",
+      "rating": 3.61,
+      "match_score": 1.0,
+      "matched_at": "2026-11-17T21:46:00Z",
+      "query_used": "Florida 10° Matuška",
+      "description_failed_at": "2026-11-17T21:46:21Z"
+    },
     "beerstreet::Matuška::Kyselá Máňa": {
       "untappd_url": "https://untappd.com/b/pivovar-matuska-kysela-mana/4081210",
       "untappd_name": "Kyselá Máňa",
@@ -3500,6 +3520,16 @@
       "matched_at": "2026-09-09T17:05:40Z",
       "query_used": "Dočesná Pioneer",
       "description": "Klasický světlý ležák: sladový základ s jemnou chmelovou hořkostí, středně plné tělo a čistá, vyvážená chuť spodně kvašeného piva. Nadprůměrně hodnocené."
+    },
+    "beerstreet::Pioneer::Lunapark": {
+      "untappd_url": "https://untappd.com/b/pioneer-beer-lunapark/7639906",
+      "untappd_name": "Lunapark",
+      "untappd_brewery": "Pioneer Beer",
+      "rating": 3.85,
+      "match_score": 1.0,
+      "matched_at": "2026-11-17T21:46:02Z",
+      "query_used": "Lunapark Pioneer",
+      "description": "Lehčí session IPA s jemnou sladovou sladkostí, ovocným a citrusovým chmelovým aroma a střední hořkostí. Nadprůměrně hodnocené."
     },
     "beerstreet::Pioneer::Modern Pale Ale": {
       "untappd_url": "https://untappd.com/b/pioneer-beer-citralizer-modern-12-deg/6661626",
@@ -5634,6 +5664,16 @@
       "query_used": "Age of Krush Chroust",
       "description": "Fresh hop IPA s intenzivním aroma čerstvého chmele – tóny citrusů, tropického ovoce a pryskyřice, střední až plné tělo a výrazná chmelová hořkost typická pro styl. Neznámý obsah alkoholu nelze přesně odvodit ze stupňovitosti 14°, ale předpokládá se vyšší síla odpovídající kategorii. Hodnocení 3,91 naznačuje nadprůměrn…"
     },
+    "uzamastilu::Chroust::Jet Lag": {
+      "untappd_url": "https://untappd.com/b/chroust-jet-lag/7617627",
+      "untappd_name": "Jet Lag",
+      "untappd_brewery": "Chroust",
+      "rating": 3.66,
+      "match_score": 1.0,
+      "matched_at": "2026-11-17T21:46:08Z",
+      "query_used": "Jet Lag Chroust",
+      "description": "Americká pale ale se středně plným tělem, vyváženou sladovou chutí a výraznou chmelovou hořkostí s citrusovými a pryskyřičnými tóny. Svrchně kvašená, svěží a poměrně suchá."
+    },
     "uzamastilu::Chroust::Judo Jellyfish": {
       "untappd_url": "https://untappd.com/b/chroust-judo-jellyfish/7083849",
       "untappd_name": "Judo Jellyfish",
@@ -5863,6 +5903,16 @@
       "matched_at": "2026-11-06T19:57:33Z",
       "query_used": "H13 Cold Hendrych",
       "description": "H13 Cold IPA, 13°, 3.62 / 5 – silně chmelená IPA s intenzivním citrusovým a tropickým aroma, výraznou hořkostí a suchým, ostřejším závěrem, plnější tělo díky nízké teři."
+    },
+    "uzamastilu::Hoppy Dog::Poodle": {
+      "untappd_url": "https://untappd.com/b/pivovar-hoppydog-poodle/7675443",
+      "untappd_name": "Poodle",
+      "untappd_brewery": "Pivovar HoppyDog",
+      "rating": null,
+      "match_score": 1.0,
+      "matched_at": "2026-11-17T21:46:21Z",
+      "query_used": "<llm>",
+      "description_failed_at": "2026-11-17T21:46:21Z"
     },
     "uzamastilu::HoppyDog::Luna": {
       "untappd_url": "https://untappd.com/b/pivovar-hoppydog-new-dog-on-the-hop-luna/7643907",

@@ -8725,6 +8725,40 @@
         "score": 1.0
       }
     },
+    "beerstreet::Frankies::Ležák z čerstvého chmele": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Frankies",
+        "name": "Ležák z čerstvého chmele",
+        "style": "Ležák světlý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-11-17T21:45:55Z",
+      "candidates": [
+        {
+          "name": "Ležak z čerstvého chmele",
+          "brewery": "Frankies",
+          "url": "/b/frankies-lezak-z-cerstveho-chmele/7663325",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Ležák z čerstvého chmele 11° Frankies",
+          "hits": []
+        },
+        {
+          "query": "Ležák z čerstvého chmele Frankies",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/frankies-lezak-z-cerstveho-chmele/7663325",
+        "score": 1.0
+      }
+    },
     "beerstreet::Hacker-Pschorr - Mnichov::Hacker-Pschorr": {
       "beer": {
         "source": "beerstreet",
@@ -12669,6 +12703,36 @@
         "reason": "no_candidates_above_threshold"
       }
     },
+    "beerstreet::Matuška::Florida": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Matuška",
+        "name": "Florida",
+        "style": "American pale ale",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-11-17T21:46:00Z",
+      "candidates": [
+        {
+          "name": "Florida 10°",
+          "brewery": "Pivovar Matuška",
+          "url": "/b/pivovar-matuska-florida-10-deg/5808773",
+          "rating": 3.61
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Florida 10° Matuška",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-matuska-florida-10-deg/5808773",
+        "score": 1.0
+      }
+    },
     "beerstreet::Matuška::Kyselá Máňa": {
       "beer": {
         "source": "beerstreet",
@@ -13890,6 +13954,40 @@
       ],
       "outcome": {
         "matched": "/b/pioneer-beer-docesna-2024/5961118",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Pioneer::Lunapark": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Pioneer",
+        "name": "Lunapark",
+        "style": "IPA session",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-11-17T21:46:02Z",
+      "candidates": [
+        {
+          "name": "Lunapark",
+          "brewery": "Pioneer Beer",
+          "url": "/b/pioneer-beer-lunapark/7639906",
+          "rating": 3.85
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Lunapark 12° Pioneer",
+          "hits": []
+        },
+        {
+          "query": "Lunapark Pioneer",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pioneer-beer-lunapark/7639906",
         "score": 1.0
       }
     },
@@ -23384,6 +23482,40 @@
         "score": 1.0
       }
     },
+    "uzamastilu::Chroust::Jet Lag": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Chroust",
+        "name": "Jet Lag",
+        "style": "APA",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-11-17T21:46:08Z",
+      "candidates": [
+        {
+          "name": "Jet Lag",
+          "brewery": "Chroust",
+          "url": "/b/chroust-jet-lag/7617627",
+          "rating": 3.66
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Jet Lag 12° Chroust",
+          "hits": []
+        },
+        {
+          "query": "Jet Lag Chroust",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/chroust-jet-lag/7617627",
+        "score": 1.0
+      }
+    },
     "uzamastilu::Chroust::Judo Jellyfish": {
       "beer": {
         "source": "uzamastilu",
@@ -24334,6 +24466,92 @@
       "outcome": {
         "matched": "/b/hendrych-h13-cold-ipa/6911515",
         "score": 1.0
+      }
+    },
+    "uzamastilu::Hoppy Dog::Poodle": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Hoppy Dog",
+        "name": "Poodle",
+        "style": "Sour",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-11-17T21:46:21Z",
+      "candidates": [
+        {
+          "name": "Poodle",
+          "brewery": "Pivovar HoppyDog",
+          "url": "/b/pivovar-hoppydog-poodle/7675443",
+          "rating": null
+        },
+        {
+          "name": "Batch #11, Kölsch 3",
+          "brewery": "Smoking Poodle Brewery",
+          "url": "/b/smoking-poodle-brewery-batch-11-kolsch-3/5908069",
+          "rating": null
+        },
+        {
+          "name": "Toy Poodle",
+          "brewery": "Crux Fermentation Project",
+          "url": "/b/crux-fermentation-project-toy-poodle/4137758",
+          "rating": 3.82
+        },
+        {
+          "name": "Communist Poodles From Connecticut",
+          "brewery": "Paperback Brewing Co.",
+          "url": "/b/paperback-brewing-co-communist-poodles-from-connecticut/4069752",
+          "rating": 3.66
+        },
+        {
+          "name": "The Cowboy & the Poodle",
+          "brewery": "FrauGruber Brewing",
+          "url": "/b/fraugruber-brewing-the-cowboy-and-the-poodle/6901833",
+          "rating": 3.97
+        },
+        {
+          "name": "Swamp Poodle",
+          "brewery": "Shubrew",
+          "url": "/b/shubrew-swamp-poodle/2940054",
+          "rating": 3.77
+        },
+        {
+          "name": "Poodle Skirt",
+          "brewery": "Belching Beaver Brewery",
+          "url": "/b/belching-beaver-brewery-poodle-skirt/2603291",
+          "rating": 3.91
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Poodle 11° Hoppy Dog",
+          "hits": []
+        },
+        {
+          "query": "Poodle Hoppy Dog",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Poodle 11°",
+          "hits": [
+            1
+          ]
+        },
+        {
+          "query": "Poodle",
+          "hits": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-hoppydog-poodle/7675443",
+        "source": "llm"
       }
     },
     "uzamastilu::HoppyDog::Luna": {
