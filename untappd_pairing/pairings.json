@@ -4603,7 +4603,7 @@
       "match_score": 1.0,
       "matched_at": "2026-11-11T20:12:39Z",
       "query_used": "THIS FEELING! Fenek",
-      "description_failed_at": "2026-11-11T20:12:45Z"
+      "description": "West Coast IPA s výraznou chmelovou hořkostí, citrusovým a pryskyřičným aroma a suchým závěrem. Tělo je středně plné s vyšším stupněm, alkohol je patrný ale vyvážený. Hodnocení je průměrné."
     },
     "toulavapipa::Fracek::Original ležák": {
       "untappd_url": "https://untappd.com/b/fracek-original-lezak-lager-11/5384122",
@@ -5794,6 +5794,16 @@
       "query_used": "Tři Sestry Elektrárna",
       "description": "Klasický český ležák: sladový základ s jemnou chmelovou hořkostí, středně plné tělo a čistý, vyvážený charakter spodního kvašení. Hodnocení na Untappd podprůměrné."
     },
+    "uzamastilu::Falkon::Jéžišmarjá": {
+      "untappd_url": "https://untappd.com/b/falkon-jezismarja/7635108",
+      "untappd_name": "JÉŽIŠMARJÁ",
+      "untappd_brewery": "FALKON",
+      "rating": 3.85,
+      "match_score": 1.0,
+      "matched_at": "2026-11-18T21:26:18Z",
+      "query_used": "Jéžišmarjá Falkon",
+      "description_failed_at": "2026-11-18T21:26:25Z"
+    },
     "uzamastilu::Falkon::Jéžíšmarjá": {
       "untappd_url": "https://untappd.com/b/falkon-jezismarja/7635108",
       "untappd_name": "JÉŽIŠMARJÁ",
@@ -5923,6 +5933,16 @@
       "matched_at": "2026-11-03T20:07:13Z",
       "query_used": "Luna HoppyDog",
       "description": "Nadprůměrně hodnocené NEIPA s hustým, neprůhledným vzhledem a plným, jemně sladově sladkým tělem; očekávej intenzivní aroma tropického ovoce, citrusů a borůvek s minimální hořkostí a hladkým, almost koktejlovým závěrem."
+    },
+    "uzamastilu::HoppyDog::Poodle": {
+      "untappd_url": "https://untappd.com/b/pivovar-hoppydog-poodle/7675443",
+      "untappd_name": "Poodle",
+      "untappd_brewery": "Pivovar HoppyDog",
+      "rating": 3.92,
+      "match_score": 1.0,
+      "matched_at": "2026-11-18T21:26:25Z",
+      "query_used": "Poodle HoppyDog",
+      "description": "Kyselé pivo s lehkou kyselinou a jemným tělem, spodně kvašené a čisté v chuti."
     },
     "uzamastilu::Hřebec::Ležák": {
       "untappd_url": "https://untappd.com/b/pivovar-hrebec-11-deg-lezak/6340661",

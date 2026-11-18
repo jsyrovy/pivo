@@ -23984,6 +23984,40 @@
         "score": 1.0
       }
     },
+    "uzamastilu::Falkon::Jéžišmarjá": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Falkon",
+        "name": "Jéžišmarjá",
+        "style": "Modern IPA",
+        "degree_plato": 14.0
+      },
+      "captured_at": "2026-11-18T21:26:18Z",
+      "candidates": [
+        {
+          "name": "JÉŽIŠMARJÁ",
+          "brewery": "FALKON",
+          "url": "/b/falkon-jezismarja/7635108",
+          "rating": 3.85
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Jéžišmarjá 14° Falkon",
+          "hits": []
+        },
+        {
+          "query": "Jéžišmarjá Falkon",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/falkon-jezismarja/7635108",
+        "score": 1.0
+      }
+    },
     "uzamastilu::Falkon::Jéžíšmarjá": {
       "beer": {
         "source": "uzamastilu",
@@ -24585,6 +24619,40 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-hoppydog-new-dog-on-the-hop-luna/7643907",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::HoppyDog::Poodle": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "HoppyDog",
+        "name": "Poodle",
+        "style": "Sour",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-11-18T21:26:25Z",
+      "candidates": [
+        {
+          "name": "Poodle",
+          "brewery": "Pivovar HoppyDog",
+          "url": "/b/pivovar-hoppydog-poodle/7675443",
+          "rating": 3.92
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Poodle 11° HoppyDog",
+          "hits": []
+        },
+        {
+          "query": "Poodle HoppyDog",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-hoppydog-poodle/7675443",
         "score": 1.0
       }
     },
