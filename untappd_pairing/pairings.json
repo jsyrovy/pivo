@@ -676,6 +676,16 @@
       "query_used": "Summer Day Louka",
       "description": "Letní den 10 od pivovaru Louka je lehký amber ale s mírnou sladkostí a 4 % alkoholu, který osvěží v horkém počasí a hodí se k odpočinku na sluníčku."
     },
+    "ambasada::Louka::Sváteční": {
+      "untappd_url": "https://untappd.com/b/pivovar-louka-svatecni-15/6504652",
+      "untappd_name": "Sváteční 15",
+      "untappd_brewery": "Pivovar Louka",
+      "rating": 3.52,
+      "match_score": 1.0,
+      "matched_at": "2026-11-19T21:34:38Z",
+      "query_used": "Sváteční 15° Louka",
+      "description": "Sváteční 15 je new england IPA s plným tělem, která kombinuje sladový základ s výraznou chmelovou hořkostí a jemnou pryskyřičnou a citrusovou vůní; 15° stupňovitost a 6% ABV jí dodávají sílu a plnost."
+    },
     "ambasada::Loutkář, Chrudim::13,4° Mozaika": {
       "untappd_url": "https://untappd.com/b/pivovar-loutkar-mozaika-13-single-hop/4242113",
       "untappd_name": "Mozaika 13 Single Hop",
@@ -3620,6 +3630,16 @@
       "query_used": "Summer Ale 10° Rampušák",
       "description": "Letní ale s lehkým tělem a nižším obsahem alkoholu nabízí jemnou sladovou základnu s možným nádechem obilné sladkosti a jemnou chmelovou hořkostí, typickou pro svrchně kvašená letní piva – osvěžující a snadno pitelné."
     },
+    "beerstreet::Raven::All night long": {
+      "untappd_url": "https://untappd.com/b/pivovar-raven-hells-bells-all-night-long/1552355",
+      "untappd_name": "Hells Bells - All Night Long",
+      "untappd_brewery": "Pivovar Raven",
+      "rating": 3.6,
+      "match_score": 1.0,
+      "matched_at": "2026-11-19T21:34:34Z",
+      "query_used": "All night long 13° Raven",
+      "description_failed_at": "2026-11-19T21:34:40Z"
+    },
     "beerstreet::Raven::Bohemian Pilsner": {
       "untappd_url": "https://untappd.com/b/pivovar-raven-bohemian-pilsner/1570923",
       "untappd_name": "Bohemian Pilsner",
@@ -5623,6 +5643,16 @@
       "matched_at": "2026-10-30T22:58:53Z",
       "query_used": "Bludfog CIP076 Blud",
       "description": "Hustá a silná NEIPA s výrazným aromatem tropického ovoce a mandlové nasláklosti, přičemž vysoká stupňovitost a nealkoholický obsah alkoholu naznačují plné tělo a sílu. Chmelená a nekvasná metoda typická pro tento styl dodává intenzivní chuť a mírnou, jemně přiléhavou hořkost."
+    },
+    "uzamastilu::Blud::Wet Hop Ajpíej": {
+      "untappd_url": "https://untappd.com/b/blud-wet-hop-ajpiej/6726931",
+      "untappd_name": "Wet hop AjPíEj",
+      "untappd_brewery": "BLUD",
+      "rating": 3.56,
+      "match_score": 1.0,
+      "matched_at": "2026-11-19T21:34:40Z",
+      "query_used": "Wet Hop Ajpíej Blud",
+      "description": "APA s vysokou plností a výraznou chmelovou hořkostí, aromatické a svěží chmelové tóny, suchý závěr; Wet hop přináší čerstvé, bylinkové a jehličnaté chmelové noty."
     },
     "uzamastilu::Brewnicorn::Pohodale": {
       "untappd_url": "https://untappd.com/b/brewnicorn-pohodale/7026599",

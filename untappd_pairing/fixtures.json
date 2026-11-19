@@ -2537,6 +2537,36 @@
         "score": 1.0
       }
     },
+    "ambasada::Louka::Sváteční": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Louka",
+        "name": "Sváteční",
+        "style": "New england IPA",
+        "degree_plato": 15.0
+      },
+      "captured_at": "2026-11-19T21:34:38Z",
+      "candidates": [
+        {
+          "name": "Sváteční 15",
+          "brewery": "Pivovar Louka",
+          "url": "/b/pivovar-louka-svatecni-15/6504652",
+          "rating": 3.52
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Sváteční 15° Louka",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-louka-svatecni-15/6504652",
+        "score": 1.0
+      }
+    },
     "ambasada::Loutkář, Chrudim::Lodní Šroub": {
       "beer": {
         "source": "ambasada",
@@ -14447,6 +14477,36 @@
         "score": 1.0
       }
     },
+    "beerstreet::Raven::All night long": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Raven",
+        "name": "All night long",
+        "style": "IPA session",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-11-19T21:34:34Z",
+      "candidates": [
+        {
+          "name": "Hells Bells - All Night Long",
+          "brewery": "Pivovar Raven",
+          "url": "/b/pivovar-raven-hells-bells-all-night-long/1552355",
+          "rating": 3.6
+        }
+      ],
+      "attempts": [
+        {
+          "query": "All night long 13° Raven",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-raven-hells-bells-all-night-long/1552355",
+        "score": 1.0
+      }
+    },
     "beerstreet::Raven::Bohemian Pilsner": {
       "beer": {
         "source": "beerstreet",
@@ -23301,6 +23361,40 @@
       "outcome": {
         "matched": null,
         "reason": "no_candidates_above_threshold"
+      }
+    },
+    "uzamastilu::Blud::Wet Hop Ajpíej": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Blud",
+        "name": "Wet Hop Ajpíej",
+        "style": "APA",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-11-19T21:34:40Z",
+      "candidates": [
+        {
+          "name": "Wet hop AjPíEj",
+          "brewery": "BLUD",
+          "url": "/b/blud-wet-hop-ajpiej/6726931",
+          "rating": 3.56
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Wet Hop Ajpíej 12° Blud",
+          "hits": []
+        },
+        {
+          "query": "Wet Hop Ajpíej Blud",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/blud-wet-hop-ajpiej/6726931",
+        "score": 1.0
       }
     },
     "uzamastilu::Brewnicorn::Pohodale": {
