@@ -6134,6 +6134,16 @@
       "query_used": "Extra Hořká 11° Mazák",
       "description": "Klasický český ležák s plnějším tělem díky 11° stupňovitosti, výraznější chmelovou hořkostí a sladovým základem, spodně kvašený a vyvážený v chuti. Hodnocení 3,52 naznačuje nadprůměrnou kvalitu."
     },
+    "uzamastilu::Mazák::Extra hořká": {
+      "untappd_url": "https://untappd.com/b/pivovar-mazak-extra-horka-11-deg/792388",
+      "untappd_name": "Extra hořká 11°",
+      "untappd_brewery": "Pivovar Mazák",
+      "rating": 3.52,
+      "match_score": 1.0,
+      "matched_at": "2026-11-19T03:27:57Z",
+      "query_used": "Extra hořká 11° Mazák",
+      "description": "Ležák s vysokou stupňovitostí, který přináší výraznou sladkost a silnou, ale vysoce kontrolovanou hořkost, s čistým, lehkým tělem a suchým závěrem; hodnocení 3,52."
+    },
     "uzamastilu::Mazák::Milford Sound": {
       "untappd_url": "https://untappd.com/b/pivovar-mazak-milford-sound-15/6849698",
       "untappd_name": "Milford Sound 15",
