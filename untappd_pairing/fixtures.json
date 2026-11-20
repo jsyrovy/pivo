@@ -19092,6 +19092,63 @@
         "score": 1.0
       }
     },
+    "toulavapipa::Kocour::Jahodový porter": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Kocour",
+        "name": "Jahodový porter",
+        "style": "Ochucený porter",
+        "degree_plato": null
+      },
+      "captured_at": "2026-11-20T03:16:09Z",
+      "candidates": [
+        {
+          "name": "Erdbeer Porter",
+          "brewery": "Bergquell Brauerei Löbau",
+          "url": "/b/bergquell-brauerei-lobau-erdbeer-porter/46157",
+          "rating": 2.91
+        },
+        {
+          "name": "Jahodový Porter",
+          "brewery": "God Times Brewery",
+          "url": "/b/god-times-brewery-jahodovy-porter/5130188",
+          "rating": 3.67
+        },
+        {
+          "name": "Jahodový porter",
+          "brewery": "Minipivovar Domov",
+          "url": "/b/minipivovar-domov-jahodovy-porter/1463831",
+          "rating": 3.26
+        },
+        {
+          "name": "Porter Jahodový 16%",
+          "brewery": "Teplický pivovar Monopol",
+          "url": "/b/teplicky-pivovar-monopol-porter-jahodovy-16/3602867",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Jahodový porter Kocour",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Jahodový porter",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
     "toulavapipa::Krkonošský Medvěd::HOPBIT": {
       "beer": {
         "source": "toulavapipa",
@@ -22204,6 +22261,57 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-raven-raven-12/2531564",
+        "score": 1.0
+      }
+    },
+    "toulavapipa::Schlenkerla::Märzen": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Schlenkerla",
+        "name": "Märzen",
+        "style": "Rauchbier",
+        "degree_plato": null
+      },
+      "captured_at": "2026-11-20T03:15:49Z",
+      "candidates": [
+        {
+          "name": "Aecht Schlenkerla Rauchbier – Märzen",
+          "brewery": "Schlenkerla (\"Heller-Bräu\" Trum)",
+          "url": "/b/schlenkerla-heller-brau-trum-aecht-schlenkerla-rauchbier-marzen/471",
+          "rating": 3.46
+        },
+        {
+          "name": "Aecht Schlenkerla Rauchbier – Kräusen",
+          "brewery": "Schlenkerla (\"Heller-Bräu\" Trum)",
+          "url": "/b/schlenkerla-heller-brau-trum-aecht-schlenkerla-rauchbier-krausen/83322",
+          "rating": 3.54
+        },
+        {
+          "name": "Aecht Schlenkerla Rauchbier – Märzen Special Edition Unfiltriert",
+          "brewery": "Schlenkerla (\"Heller-Bräu\" Trum)",
+          "url": "/b/schlenkerla-heller-brau-trum-aecht-schlenkerla-rauchbier-marzen-special-edition-unfiltriert/4922313",
+          "rating": 3.93
+        },
+        {
+          "name": "Aecht Schlenkerla Rauchbier – Helles Märzen Special Edition Unfiltriert / Pale Edition",
+          "brewery": "Schlenkerla (\"Heller-Bräu\" Trum)",
+          "url": "/b/schlenkerla-heller-brau-trum-aecht-schlenkerla-rauchbier-helles-marzen-special-edition-unfiltriert-pale-edition/6205353",
+          "rating": 3.97
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Märzen Schlenkerla",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/schlenkerla-heller-brau-trum-aecht-schlenkerla-rauchbier-marzen/471",
         "score": 1.0
       }
     },

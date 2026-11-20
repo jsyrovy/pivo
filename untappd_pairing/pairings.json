@@ -5395,6 +5395,16 @@
       "query_used": "raven 12° Raven",
       "description": "Raven 12 je klasický světlý ležák s mírnou sladkostí, jemnou chmelovou hořkostí a čistým, suchým závěrem, lehkým až středně plným tělem a typickým spodně kvašeným profilem."
     },
+    "toulavapipa::Schlenkerla::Märzen": {
+      "untappd_url": "https://untappd.com/b/schlenkerla-heller-brau-trum-aecht-schlenkerla-rauchbier-marzen/471",
+      "untappd_name": "Aecht Schlenkerla Rauchbier – Märzen",
+      "untappd_brewery": "Schlenkerla (\"Heller-Bräu\" Trum)",
+      "rating": 3.46,
+      "match_score": 1.0,
+      "matched_at": "2026-11-20T03:15:49Z",
+      "query_used": "Märzen Schlenkerla",
+      "description_failed_at": "2026-11-20T03:16:09Z"
+    },
     "toulavapipa::Sibeeria::Avid ant": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-avid-ant/6812058",
       "untappd_name": "Avid Ant",
@@ -7099,6 +7109,11 @@
     "toulavapipa::Hřebec::MadCat": {
       "attempts": 1,
       "last_tried_at": "2026-08-29T17:03:01Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "toulavapipa::Kocour::Jahodový porter": {
+      "attempts": 1,
+      "last_tried_at": "2026-11-20T03:16:09Z",
       "reason": "no_candidates_above_threshold"
     },
     "toulavapipa::Kynšperský pivovar::Winter ale": {
