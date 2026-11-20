@@ -1765,6 +1765,40 @@
         "score": 1.0
       }
     },
+    "ambasada::HoppyDog, Ostrava::Poodle": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "HoppyDog, Ostrava",
+        "name": "Poodle",
+        "style": "Fruit sour ale",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-11-20T21:06:00Z",
+      "candidates": [
+        {
+          "name": "Poodle",
+          "brewery": "Pivovar HoppyDog",
+          "url": "/b/pivovar-hoppydog-poodle/7675443",
+          "rating": 3.93
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Poodle 11° HoppyDog",
+          "hits": []
+        },
+        {
+          "query": "Poodle HoppyDog",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-hoppydog-poodle/7675443",
+        "score": 1.0
+      }
+    },
     "ambasada::HoppyDog, Ostrava::Rafan": {
       "beer": {
         "source": "ambasada",
@@ -13901,6 +13935,43 @@
         "score": 1.0
       }
     },
+    "beerstreet::Permon::Zelený chmel": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Permon",
+        "name": "Zelený chmel",
+        "style": "Ležák světlý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-11-20T21:05:55Z",
+      "candidates": [
+        {
+          "name": "Zelený chmel 11°",
+          "brewery": "Pivovar Permon",
+          "url": "/b/pivovar-permon-zeleny-chmel-11-deg/6023174",
+          "rating": 3.78
+        },
+        {
+          "name": "Zelený chmel 12°",
+          "brewery": "Pivovar Permon",
+          "url": "/b/pivovar-permon-zeleny-chmel-12-deg/1788065",
+          "rating": 3.47
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Zelený chmel 11° Permon",
+          "hits": [
+            0,
+            1
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-permon-zeleny-chmel-11-deg/6023174",
+        "score": 1.0
+      }
+    },
     "beerstreet::Pioneer::Cruel River": {
       "beer": {
         "source": "beerstreet",
@@ -15885,6 +15956,48 @@
       "outcome": {
         "matched": "/b/pivovar-vik-porn-hop-edition-rhapzody-hazy-ale-vik-and-kurnik-sopa/6859086",
         "source": "llm"
+      }
+    },
+    "beerstreet::VIK & Žíznivá Gumovka::Gumboot #6": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "VIK & Žíznivá Gumovka",
+        "name": "Gumboot #6",
+        "style": "Fresh hop lager",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-11-20T21:05:54Z",
+      "candidates": [
+        {
+          "name": "Gumboot #6 Fresh hop Lager",
+          "brewery": "Pivovar Vik",
+          "url": "/b/pivovar-vik-gumboot-6-fresh-hop-lager/7247570",
+          "rating": 3.74
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Gumboot #6 11° VIK & Žíznivá Gumovka",
+          "hits": []
+        },
+        {
+          "query": "Gumboot #6 VIK & Žíznivá Gumovka",
+          "hits": []
+        },
+        {
+          "query": "Gumboot #6 11°",
+          "hits": []
+        },
+        {
+          "query": "Gumboot #6",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "beerstreet::VIK::Jungle Juice - ananas + guava": {
@@ -29844,6 +29957,40 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-cierny-kamen-lazarus/6772256",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Čierný Kameň::Hello Dolcita": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Čierný Kameň",
+        "name": "Hello Dolcita",
+        "style": "NEIPA",
+        "degree_plato": 14.0
+      },
+      "captured_at": "2026-11-20T21:06:03Z",
+      "candidates": [
+        {
+          "name": "Hello Dolcita",
+          "brewery": "Pivovar Čierny Kameň",
+          "url": "/b/pivovar-cierny-kamen-hello-dolcita/7628464",
+          "rating": 3.79
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Hello Dolcita 14° Čierný Kameň",
+          "hits": []
+        },
+        {
+          "query": "Hello Dolcita Čierný Kameň",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-cierny-kamen-hello-dolcita/7628464",
         "score": 1.0
       }
     },

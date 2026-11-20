@@ -472,6 +472,16 @@
       "query_used": "Mallinois Double Red HoppyDog",
       "description": "Fruit sour ale s kyselým charakterem a lehkým tělem; název naznačuje použití višní, které přidávají tmavé ovoce a jemnou sladkost do kyselého základu."
     },
+    "ambasada::HoppyDog, Ostrava::Poodle": {
+      "untappd_url": "https://untappd.com/b/pivovar-hoppydog-poodle/7675443",
+      "untappd_name": "Poodle",
+      "untappd_brewery": "Pivovar HoppyDog",
+      "rating": 3.93,
+      "match_score": 1.0,
+      "matched_at": "2026-11-20T21:06:00Z",
+      "query_used": "Poodle HoppyDog",
+      "description_failed_at": "2026-11-20T21:06:03Z"
+    },
     "ambasada::HoppyDog, Ostrava::Rafan": {
       "untappd_url": "https://untappd.com/b/pivovar-hoppydog-rafan/2658169",
       "untappd_name": "Rafan",
@@ -3511,6 +3521,16 @@
       "matched_at": "2026-07-22T18:08:38Z",
       "query_used": "Summer Ale 10° Permon",
       "description": "Pivní Jistota Summer Ale 10° od Pivovaru Permon je lehký letní ale s mírnou sladkostí a osvěžujícím koncem, vhodný na slunečné odpoledne nebo neformální setkání s přáteli."
+    },
+    "beerstreet::Permon::Zelený chmel": {
+      "untappd_url": "https://untappd.com/b/pivovar-permon-zeleny-chmel-11-deg/6023174",
+      "untappd_name": "Zelený chmel 11°",
+      "untappd_brewery": "Pivovar Permon",
+      "rating": 3.78,
+      "match_score": 1.0,
+      "matched_at": "2026-11-20T21:05:55Z",
+      "query_used": "Zelený chmel 11° Permon",
+      "description_failed_at": "2026-11-20T21:06:03Z"
     },
     "beerstreet::Pioneer::Cruel River": {
       "untappd_url": "https://untappd.com/b/pioneer-beer-cruel-river/6629762",
@@ -6934,6 +6954,16 @@
       "query_used": "Lazarus Čierny Kámeň",
       "description": "Silně chmelená západní IPA s výraznou hořkostí, citrusovým a pryskyřičným aroma a suchým závěrem. Střední až plnější tělo odpovídá stupňovitosti 13°."
     },
+    "uzamastilu::Čierný Kameň::Hello Dolcita": {
+      "untappd_url": "https://untappd.com/b/pivovar-cierny-kamen-hello-dolcita/7628464",
+      "untappd_name": "Hello Dolcita",
+      "untappd_brewery": "Pivovar Čierny Kameň",
+      "rating": 3.79,
+      "match_score": 1.0,
+      "matched_at": "2026-11-20T21:06:03Z",
+      "query_used": "Hello Dolcita Čierný Kameň",
+      "description": "Silně chmelená NEIPA s výrazným ovocným a tropickým aroma, plným a šťavnatým tělem a hladkým, nízkou hořkostí. Mírně nadprůměrně hodnocené."
+    },
     "uzamastilu::Římská::Breezy": {
       "untappd_url": "https://untappd.com/b/pivovar-rimska-breezy-xi-deg/6810175",
       "untappd_name": "Breezy XI°",
@@ -7064,6 +7094,11 @@
     "beerstreet::Sibeeria::No Signal From Most": {
       "attempts": 1,
       "last_tried_at": "2026-10-02T22:52:25Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "beerstreet::VIK & Žíznivá Gumovka::Gumboot #6": {
+      "attempts": 1,
+      "last_tried_at": "2026-11-20T21:05:54Z",
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::Vorkloster::Brillante": {
