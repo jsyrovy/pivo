@@ -77,6 +77,10 @@ describe("normalizeBreweries", () => {
       { key: "klenot", name: "Klenot" },
       { key: "zmajska", name: "Zmajska" },
     ]);
+    expect(normalizeBreweries("VIK & Žíznivá Gumovka")).toEqual([
+      { key: "vik", name: "Vik" },
+      { key: "ziznivagumovka", name: "Žíznivá Gumovka" },
+    ]);
   });
 
   it("cuts the town before splitting, so a slash in trailing text adds no brewery", () => {

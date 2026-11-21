@@ -263,6 +263,11 @@ exports[`brewery corpus > groups every real brewery string by key 1`] = `
       "Kujebák",
     ],
   },
+  "kurniksopa": {
+    "Kurník šopa": [
+      "VIK & Kurnik Šopa",
+    ],
+  },
   "kynspersky": {
     "Kynšperský": [
       "Kynšperk",
@@ -545,6 +550,8 @@ exports[`brewery corpus > groups every real brewery string by key 1`] = `
   },
   "vik": {
     "Vik": [
+      "VIK & Kurnik Šopa",
+      "VIK & Žíznivá Gumovka",
       "Vik",
       "Vik, Praha",
       "Vik/Fauve",
@@ -590,6 +597,11 @@ exports[`brewery corpus > groups every real brewery string by key 1`] = `
   "zichovec": {
     "Zichovec": [
       "Zichovec",
+    ],
+  },
+  "ziznivagumovka": {
+    "Žíznivá Gumovka": [
+      "VIK & Žíznivá Gumovka",
     ],
   },
   "zmajska": {

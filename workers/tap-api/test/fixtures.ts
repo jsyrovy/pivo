@@ -385,6 +385,8 @@ export const BREWERY_CORPUS: readonly string[] = [
   "U Vojtěchů",
   "Van Honsebrouck, Ingelmunster, Západní Flandry",
   "Varga Brothers",
+  "VIK & Kurnik Šopa",
+  "VIK & Žíznivá Gumovka",
   "Vik",
   "Vik, Praha",
   "Vik/Fauve",

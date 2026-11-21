@@ -30,6 +30,8 @@ export const BREWERY_ALIASES: Record<string, BreweryRef[]> = {
   pionner: [ref("pioneer", "Pioneer")],
   rhapnectaroncestmir: [ref("cestmir", "Čestmír")],
   unetice: [ref("uneticky", "Únětický")],
+  vikkurniksopa: [ref("vik", "Vik"), ref("kurniksopa", "Kurník šopa")],
+  vikziznivagumovka: [ref("vik", "Vik"), ref("ziznivagumovka", "Žíznivá Gumovka")],
 };
 
 export function breweryKey(name: string): string {
