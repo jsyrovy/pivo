@@ -7406,6 +7406,36 @@
         "score": 1.0
       }
     },
+    "beerstreet::Agent::Svatomartinské": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Agent",
+        "name": "Svatomartinské",
+        "style": "Ležák světiý",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-11-21T20:06:10Z",
+      "candidates": [
+        {
+          "name": "Svatomartinský ležák 12",
+          "brewery": "Pivovar Agent",
+          "url": "/b/pivovar-agent-svatomartinsky-lezak-12/4590212",
+          "rating": 3.46
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Svatomartinské 12° Agent",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-agent-svatomartinsky-lezak-12/4590212",
+        "score": 0.9231
+      }
+    },
     "beerstreet::Agent::Svatomartinský ležák": {
       "beer": {
         "source": "beerstreet",
@@ -7984,6 +8014,40 @@
       ],
       "outcome": {
         "matched": "/b/brewnicorn-sunny-day/6689258",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Chroust::Baltic Express": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Chroust",
+        "name": "Baltic Express",
+        "style": "IPA session hazy",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-11-21T20:06:26Z",
+      "candidates": [
+        {
+          "name": "Baltic Express",
+          "brewery": "Chroust",
+          "url": "/b/chroust-baltic-express/6792455",
+          "rating": 3.72
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Baltic Express 12° Chroust",
+          "hits": []
+        },
+        {
+          "query": "Baltic Express Chroust",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/chroust-baltic-express/6792455",
         "score": 1.0
       }
     },
@@ -10137,6 +10201,120 @@
       "outcome": {
         "matched": "/b/kirin-brewery-company-ichiban-ichiban-shibori/4667",
         "source": "llm"
+      }
+    },
+    "beerstreet::Kladno Kročehlavy - Václav::Maurica": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Kladno Kročehlavy - Václav",
+        "name": "Maurica",
+        "style": "American pale ale",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-11-21T20:06:25Z",
+      "candidates": [
+        {
+          "name": "Murica",
+          "brewery": "Pivo Václav",
+          "url": "/b/pivo-vaclav-murica/5162567",
+          "rating": 3.65
+        },
+        {
+          "name": "'Murica Time!",
+          "brewery": "11 Below Brewing Company",
+          "url": "/b/11-below-brewing-company-murica-time/4387445",
+          "rating": 3.93
+        },
+        {
+          "name": "Jednoducho Mária 11°",
+          "brewery": "Squark Košice",
+          "url": "/b/squark-kosice-jednoducho-maria-11-deg/7666435",
+          "rating": null
+        },
+        {
+          "name": "Topvar 11 Marína",
+          "brewery": "Plzeňský Prazdroj Slovensko",
+          "url": "/b/plzensky-prazdroj-slovensko-topvar-11-marina/465985",
+          "rating": 3.08
+        },
+        {
+          "name": "Pšeničné pivo 11%",
+          "brewery": "Pivovar Marina",
+          "url": "/b/pivovar-marina-psenicne-pivo-11/353519",
+          "rating": 3.3
+        },
+        {
+          "name": "Maria Mriyeah 10°",
+          "brewery": "pHormula",
+          "url": "/b/phormula-maria-mriyeah-10-deg/1877246",
+          "rating": 4.01
+        },
+        {
+          "name": "’Merica",
+          "brewery": "Prairie Artisan Ales",
+          "url": "/b/prairie-artisan-ales-merica/325856",
+          "rating": 3.73
+        },
+        {
+          "name": "'Murica! APA",
+          "brewery": "Behemoth Brewing Company",
+          "url": "/b/behemoth-brewing-company-murica-apa/703705",
+          "rating": 3.77
+        },
+        {
+          "name": "Murica",
+          "brewery": "Cervejaria Colorado",
+          "url": "/b/cervejaria-colorado-murica/1884265",
+          "rating": 3.36
+        },
+        {
+          "name": "Maurice River Bourbon Brown",
+          "brewery": "Glasstown Brewing Company",
+          "url": "/b/glasstown-brewing-company-maurice-river-bourbon-brown/552827",
+          "rating": 3.77
+        },
+        {
+          "name": "'Murican Brown Rye",
+          "brewery": "Unruly Brewing Company",
+          "url": "/b/unruly-brewing-company-murican-brown-rye/671852",
+          "rating": 3.69
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Maurica 11° Kladno Kročehlavy - Václav",
+          "hits": []
+        },
+        {
+          "query": "Maurica Kladno Kročehlavy - Václav",
+          "hits": [
+            0
+          ]
+        },
+        {
+          "query": "Maurica 11°",
+          "hits": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "query": "Maurica",
+          "hits": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "beerstreet::Klenot & Zmajska::Dragon Gem": {

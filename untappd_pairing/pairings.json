@@ -2022,6 +2022,16 @@
       "query_used": "Premium 12° Agent",
       "description": "Klasický světlý ležák s plnějším tělem díky vyšší stupňovitosti, vyvážená sladová chuť a jemná chmelová hořkost, spodně kvašený a čistý v profilu."
     },
+    "beerstreet::Agent::Svatomartinské": {
+      "untappd_url": "https://untappd.com/b/pivovar-agent-svatomartinsky-lezak-12/4590212",
+      "untappd_name": "Svatomartinský ležák 12",
+      "untappd_brewery": "Pivovar Agent",
+      "rating": 3.46,
+      "match_score": 0.9231,
+      "matched_at": "2026-11-21T20:06:10Z",
+      "query_used": "Svatomartinské 12° Agent",
+      "description_failed_at": "2026-11-21T20:06:26Z"
+    },
     "beerstreet::Agent::Svatomartinský ležák": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-svatomartinsky-lezak-12/4590212",
       "untappd_name": "Svatomartinský ležák 12",
@@ -2150,6 +2160,16 @@
       "matched_at": "2026-08-19T16:36:38Z",
       "query_used": "Sunny Day Brewnicorn",
       "description": "Sunny Day je typický American Pale Ale s lehkým sladovým tělem, mírnou chmelovou hořkostí a ovocným aroma citrusových a tropických tónů, podpořeným střední plností a 4,8 % alkoholu."
+    },
+    "beerstreet::Chroust::Baltic Express": {
+      "untappd_url": "https://untappd.com/b/chroust-baltic-express/6792455",
+      "untappd_name": "Baltic Express",
+      "untappd_brewery": "Chroust",
+      "rating": 3.72,
+      "match_score": 1.0,
+      "matched_at": "2026-11-21T20:06:26Z",
+      "query_used": "Baltic Express Chroust",
+      "description": "Zakalená session IPA s jemným ovocným a citrusovým aroma, nižší hořkostí a lehkým, pitným tělem."
     },
     "beerstreet::Chroust::Chroust": {
       "untappd_url": "https://untappd.com/b/chroust-chroust-11-deg/3270180",
@@ -7029,6 +7049,11 @@
     "beerstreet::Hoppy Dog::Mahlerova Osma": {
       "attempts": 1,
       "last_tried_at": "2026-05-30T15:13:41Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "beerstreet::Kladno Kročehlavy - Václav::Maurica": {
+      "attempts": 1,
+      "last_tried_at": "2026-11-21T20:06:25Z",
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::Klenot::Guava and rosemary": {
