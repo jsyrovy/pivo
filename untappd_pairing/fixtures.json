@@ -26454,6 +26454,61 @@
         "score": 1.0
       }
     },
+    "uzamastilu::Mazák::Dáreček": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Mazák",
+        "name": "Dáreček",
+        "style": "Modern ale",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-11-22T20:21:52Z",
+      "candidates": [
+        {
+          "name": "Dáreček 2025",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-darecek-2025/6481635",
+          "rating": 3.79
+        },
+        {
+          "name": "Dáreček (2026)",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-dareccek-2026/7675579",
+          "rating": 3.78
+        },
+        {
+          "name": "Dáreček",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-darecek/4101143",
+          "rating": 3.63
+        },
+        {
+          "name": "Dáreček (2023)",
+          "brewery": "Pivovar Mazák",
+          "url": "/b/pivovar-mazak-darecek-2023/5614733",
+          "rating": 3.61
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Dáreček 12° Mazák",
+          "hits": []
+        },
+        {
+          "query": "Dáreček Mazák",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mazak-darecek/4101143",
+        "score": 1.0
+      }
+    },
     "uzamastilu::Mazák::Extra Hořká": {
       "beer": {
         "source": "uzamastilu",

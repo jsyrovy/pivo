@@ -6204,6 +6204,16 @@
       "query_used": "Cryo Riwaka 12° Mazák",
       "description": "Silně chmelený APA s aromatem tropického ovoce a jemnou hořkostí, středně plné tělo a suchý závěr."
     },
+    "uzamastilu::Mazák::Dáreček": {
+      "untappd_url": "https://untappd.com/b/pivovar-mazak-darecek/4101143",
+      "untappd_name": "Dáreček",
+      "untappd_brewery": "Pivovar Mazák",
+      "rating": 3.63,
+      "match_score": 1.0,
+      "matched_at": "2026-11-22T20:21:52Z",
+      "query_used": "Dáreček Mazák",
+      "description": "Moderní ale s příjemným sladovým základem a střední hořkostí, který nabízí vyváženou chuť s lehce ovocným nádechem a středně plným tělem. Pivo je hladké a přístupné, hodnocení na Untappd naznačuje mírně nadprůměrnou kvalitu."
+    },
     "uzamastilu::Mazák::Extra Hořká": {
       "untappd_url": "https://untappd.com/b/pivovar-mazak-extra-horka-11-deg/792388",
       "untappd_name": "Extra hořká 11°",
