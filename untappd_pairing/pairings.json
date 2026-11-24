@@ -5033,7 +5033,7 @@
       "match_score": 1.0,
       "matched_at": "2026-11-16T22:54:18Z",
       "query_used": "Mango-piňa-coco Madcat",
-      "description_failed_at": "2026-11-16T22:54:23Z"
+      "description": "Kyselé pivo svrchního kvašení s nízkou hořkostí a lehkým tělem; manga, ananas a kokos přidávají tropické ovocné aroma a sladší chutí, která ostré kyselinky zmírňuje. Nadprůměrně hodnocené."
     },
     "toulavapipa::Mahrs Bräu::Kellerbier": {
       "untappd_url": "https://untappd.com/b/mahrs-brau-u-ungespundet-naturtrub/40965",
@@ -6953,6 +6953,16 @@
       "matched_at": "2026-10-08T19:13:00Z",
       "query_used": "Čest 11° Čestmír",
       "description": "Klasický světlý ležák: sladový základ, jemná chmelová hořkost a lehčí tělo, spodně kvašený a čistý v chuti."
+    },
+    "uzamastilu::Čierny Kameň::Hello Dolcita": {
+      "untappd_url": "https://untappd.com/b/pivovar-cierny-kamen-hello-dolcita/7628464",
+      "untappd_name": "Hello Dolcita",
+      "untappd_brewery": "Pivovar Čierny Kameň",
+      "rating": 3.79,
+      "match_score": 1.0,
+      "matched_at": "2026-11-24T00:51:00Z",
+      "query_used": "Hello Dolcita Čierny Kameň",
+      "description": "Hladká, plnotělá NEIPA s intenzivním aromatem tropického ovoce, citrusů a kamenného ovoce, nízkou vnímavou hořkostí a sladkým, plným závěrem; 14° a neznámý alkohol naznačují silnější, husté tělo."
     },
     "uzamastilu::Čierny Kameň::Lazarus": {
       "untappd_url": "https://untappd.com/b/pivovar-cierny-kamen-lazarus/6772256",

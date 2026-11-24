@@ -30084,6 +30084,40 @@
         "score": 1.0
       }
     },
+    "uzamastilu::Čierny Kameň::Hello Dolcita": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Čierny Kameň",
+        "name": "Hello Dolcita",
+        "style": "NEIPA",
+        "degree_plato": 14.0
+      },
+      "captured_at": "2026-11-24T00:51:00Z",
+      "candidates": [
+        {
+          "name": "Hello Dolcita",
+          "brewery": "Pivovar Čierny Kameň",
+          "url": "/b/pivovar-cierny-kamen-hello-dolcita/7628464",
+          "rating": 3.79
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Hello Dolcita 14° Čierny Kameň",
+          "hits": []
+        },
+        {
+          "query": "Hello Dolcita Čierny Kameň",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-cierny-kamen-hello-dolcita/7628464",
+        "score": 1.0
+      }
+    },
     "uzamastilu::Čierny Kameň::Lazarus": {
       "beer": {
         "source": "uzamastilu",
