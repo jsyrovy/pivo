@@ -996,6 +996,54 @@
         "score": 1.0
       }
     },
+    "ambasada::Clock, Potštejn::Hex": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Clock, Potštejn",
+        "name": "Hex",
+        "style": "Modern pale ale",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-11-24T23:01:41Z",
+      "candidates": [
+        {
+          "name": "HEX",
+          "brewery": "Pivovar Clock",
+          "url": "/b/pivovar-clock-hex/6717949",
+          "rating": 3.67
+        },
+        {
+          "name": "Peach Hex",
+          "brewery": "Pivovar Clock",
+          "url": "/b/pivovar-clock-peach-hex/6804474",
+          "rating": null
+        },
+        {
+          "name": "Pineapple HEX",
+          "brewery": "Pivovar Clock",
+          "url": "/b/pivovar-clock-pineapple-hex/6804800",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Hex 11° Clock",
+          "hits": []
+        },
+        {
+          "query": "Hex Clock",
+          "hits": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-clock-hex/6717949",
+        "score": 1.0
+      }
+    },
     "ambasada::Clock, Potštejn::Maracuja & Elderflower": {
       "beer": {
         "source": "ambasada",
@@ -3493,6 +3541,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-mordyr-mordyr-11/609306",
+        "score": 1.0
+      }
+    },
+    "ambasada::Mordýř, Dolní Ředice::Spasitel": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Mordýř, Dolní Ředice",
+        "name": "Spasitel",
+        "style": "Světlý ležák",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-11-24T23:01:35Z",
+      "candidates": [
+        {
+          "name": "Spasitel 12",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-spasitel-12/2081039",
+          "rating": 3.36
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Spasitel 12° Mordýř",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mordyr-spasitel-12/2081039",
         "score": 1.0
       }
     },
@@ -10023,6 +10101,64 @@
       "outcome": {
         "matched": "/b/pivovar-hrebec-11-deg-svatovaclavsky-zitny-lezak/6856415",
         "score": 1.0
+      }
+    },
+    "beerstreet::Kamenice::Kamenice": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Kamenice",
+        "name": "Kamenice",
+        "style": "Ležák světlý",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-11-24T23:01:30Z",
+      "candidates": [
+        {
+          "name": "Stojácký Čechr 11°",
+          "brewery": "Pivovar Kamenice nad Lipou",
+          "url": "/b/pivovar-kamenice-nad-lipou-stojacky-cechr-11-deg/5249344",
+          "rating": 3.47
+        },
+        {
+          "name": "Svatomartinská 11° Ale",
+          "brewery": "Pivovar Kamenice nad Lipou",
+          "url": "/b/pivovar-kamenice-nad-lipou-kamenicka-svatomartinska-11/2937534",
+          "rating": 3.32
+        },
+        {
+          "name": "American Lager 11°",
+          "brewery": "Pivovar Kamenice nad Lipou",
+          "url": "/b/pivovar-kamenice-nad-lipou-american-lager-11-deg/6501625",
+          "rating": 3.38
+        },
+        {
+          "name": "Výroční Kamenická 11°",
+          "brewery": "Pivovar Kamenice nad Lipou",
+          "url": "/b/pivovar-kamenice-nad-lipou-vyrocni-kamenicka-11/4490578",
+          "rating": null
+        },
+        {
+          "name": "Kamenická 11",
+          "brewery": "Pivovar Kamenice nad Lipou",
+          "url": "/b/pivovar-kamenice-nad-lipou-kamenicka-11/2606694",
+          "rating": 3.48
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Kamenice 11° Kamenice",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-kamenice-nad-lipou-kamenicka-11/2606694",
+        "score": 0.8571
       }
     },
     "beerstreet::Kirin Brewery::Kirin Ichiban": {
@@ -25559,6 +25695,57 @@
         "score": 1.0
       }
     },
+    "uzamastilu::Klenot::Ležák": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Klenot",
+        "name": "Ležák",
+        "style": "Ležák",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-11-24T23:01:42Z",
+      "candidates": [
+        {
+          "name": "Chilli 12",
+          "brewery": "Hradecký Klenot",
+          "url": "/b/hradecky-klenot-chilli-12/4953336",
+          "rating": 3.3
+        },
+        {
+          "name": "12° světlý ležák",
+          "brewery": "Radnický minipivovar Klenot",
+          "url": "/b/radnicky-minipivovar-klenot-12-deg-svetly-lezak/1112989",
+          "rating": 3.19
+        },
+        {
+          "name": "12° Velikonoční Ležák Z Nových Chmelů",
+          "brewery": "Hradecký Klenot",
+          "url": "/b/hradecky-klenot-12-deg-velikonocni-lezak-z-novych-chmelu/6661930",
+          "rating": 3.49
+        },
+        {
+          "name": "Klenot 12 nefiltrovaný",
+          "brewery": "Hradecký Klenot",
+          "url": "/b/hradecky-klenot-klenot-12-nefiltrovany/2344572",
+          "rating": 3.32
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Ležák 12° Klenot",
+          "hits": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/radnicky-minipivovar-klenot-12-deg-svetly-lezak/1112989",
+        "score": 1.0
+      }
+    },
     "uzamastilu::Klenot::Rhapsody Of Fog": {
       "beer": {
         "source": "uzamastilu",
@@ -28904,6 +29091,39 @@
       "outcome": {
         "matched": "/b/twinberg-hoppy-whale-7/6809119",
         "score": 1.0
+      }
+    },
+    "uzamastilu::Twinberg::Melichar 26 IPL": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Twinberg",
+        "name": "Melichar 26 IPL",
+        "style": "",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-11-24T23:01:47Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Melichar 26 IPL 12° Twinberg",
+          "hits": []
+        },
+        {
+          "query": "Melichar 26 IPL Twinberg",
+          "hits": []
+        },
+        {
+          "query": "Melichar 26 IPL 12°",
+          "hits": []
+        },
+        {
+          "query": "Melichar 26 IPL",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "uzamastilu::Twinberg::Moustache": {

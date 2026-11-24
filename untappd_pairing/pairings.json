@@ -271,6 +271,16 @@
       "query_used": "HEX Clock",
       "description": "HEX od pivovaru Clock je moderní pale ale s mírnou silou 4,7 % ABV a stupňovitostí 11°, který potěší příznivce lehkých, vyvážených piv vhodných na letní posezení nebo neformální setkání."
     },
+    "ambasada::Clock, Potštejn::Hex": {
+      "untappd_url": "https://untappd.com/b/pivovar-clock-hex/6717949",
+      "untappd_name": "HEX",
+      "untappd_brewery": "Pivovar Clock",
+      "rating": 3.67,
+      "match_score": 1.0,
+      "matched_at": "2026-11-24T23:01:41Z",
+      "query_used": "Hex Clock",
+      "description_failed_at": "2026-11-24T23:01:47Z"
+    },
     "ambasada::Clock, Potštejn::Maracuja & Elderflower": {
       "untappd_url": "https://untappd.com/b/pivovar-clock-maracuja-elderflower/6270248",
       "untappd_name": "Maracuja & Elderflower",
@@ -944,6 +954,16 @@
       "match_score": 1.0,
       "matched_at": "2026-04-18T19:39:21Z",
       "query_used": "Sametová Mordýř"
+    },
+    "ambasada::Mordýř, Dolní Ředice::Spasitel": {
+      "untappd_url": "https://untappd.com/b/pivovar-mordyr-spasitel-12/2081039",
+      "untappd_name": "Spasitel 12",
+      "untappd_brewery": "Pivovar Mordýř",
+      "rating": 3.36,
+      "match_score": 1.0,
+      "matched_at": "2026-11-24T23:01:35Z",
+      "query_used": "Spasitel 12° Mordýř",
+      "description_failed_at": "2026-11-24T23:01:47Z"
     },
     "ambasada::Mordýř, Dolní Ředice::Svatomartinská": {
       "untappd_url": "https://untappd.com/b/pivovar-mordyr-svatomartinsky-lezak-2025/6500478",
@@ -2553,6 +2573,16 @@
       "matched_at": "2026-09-24T17:48:32Z",
       "query_used": "Svatováclavský 11° Hřebec",
       "description": "Světlý žitný ležák s plnějším tělem díky žitnému sladu, který přináší jemně kořenitou, chlebovou sladovost a lehce pikantní charakter; spodně kvašený, s vyváženou jemnou hořkostí a čistým, pitelným profilem."
+    },
+    "beerstreet::Kamenice::Kamenice": {
+      "untappd_url": "https://untappd.com/b/pivovar-kamenice-nad-lipou-kamenicka-11/2606694",
+      "untappd_name": "Kamenická 11",
+      "untappd_brewery": "Pivovar Kamenice nad Lipou",
+      "rating": 3.48,
+      "match_score": 0.8571,
+      "matched_at": "2026-11-24T23:01:30Z",
+      "query_used": "Kamenice 11° Kamenice",
+      "description_failed_at": "2026-11-24T23:01:47Z"
     },
     "beerstreet::Kirin Brewery::Kirin Ichiban": {
       "untappd_url": "https://untappd.com/b/kirin-brewery-company-ichiban-0-0/5862038",
@@ -6094,6 +6124,16 @@
       "query_used": "Kazbek 11° Klenot",
       "description": "Ležák s mírnou sladkostí a jemnou chmelovou hořkostí, středně plné tělo, čistá kvasná profilace, lehce ovocný podtón, dobře vyvážený poměr sladiny a hořkosti, hodnocení podprůměrné."
     },
+    "uzamastilu::Klenot::Ležák": {
+      "untappd_url": "https://untappd.com/b/radnicky-minipivovar-klenot-12-deg-svetly-lezak/1112989",
+      "untappd_name": "12° světlý ležák",
+      "untappd_brewery": "Radnický minipivovar Klenot",
+      "rating": 3.19,
+      "match_score": 1.0,
+      "matched_at": "2026-11-24T23:01:42Z",
+      "query_used": "Ležák 12° Klenot",
+      "description_failed_at": "2026-11-24T23:01:47Z"
+    },
     "uzamastilu::Klenot::Rhapsody Of Fog": {
       "untappd_url": "https://untappd.com/b/hradecky-klenot-rhapsony-od-fog/6822491",
       "untappd_name": "Rhapsody of Fog 12",
@@ -7339,6 +7379,11 @@
     "uzamastilu::Twinberg::Brew Berrymode": {
       "attempts": 1,
       "last_tried_at": "2026-08-21T17:33:47Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "uzamastilu::Twinberg::Melichar 26 IPL": {
+      "attempts": 1,
+      "last_tried_at": "2026-11-24T23:01:47Z",
       "reason": "no_candidates_above_threshold"
     },
     "uzamastilu::Varga Brothers::Rhapzody": {
