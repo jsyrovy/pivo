@@ -2042,6 +2042,16 @@
       "query_used": "Premium 12° Agent",
       "description": "Klasický světlý ležák s plnějším tělem díky vyšší stupňovitosti, vyvážená sladová chuť a jemná chmelová hořkost, spodně kvašený a čistý v profilu."
     },
+    "beerstreet::Agent::Samurai": {
+      "untappd_url": "https://untappd.com/b/pivovar-agent-samurai/4643508",
+      "untappd_name": "Samurai",
+      "untappd_brewery": "Pivovar Agent",
+      "rating": 4.0,
+      "match_score": 1.0,
+      "matched_at": "2026-11-25T22:32:56Z",
+      "query_used": "Samurai Agent",
+      "description": "Samurai, 13°, 5.7 %, POUZE: Kyselé sour ale s mandarinkou, nabízí citrusovou sladkost a ostrou kyselinku, střední plnost a živý, osvěžující závěr."
+    },
     "beerstreet::Agent::Svatomartinské": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-svatomartinsky-lezak-12/4590212",
       "untappd_name": "Svatomartinský ležák 12",
@@ -4675,6 +4685,16 @@
       "query_used": "Twist Clock",
       "description": "American red IPA kombinuje sladový charakter s karamelovými tóny a výraznou chmelovou hořkostí s citrusovými a pryskyřičnými aromaty, středně plné tělo a vyvážený profil mezi sladovou sladkostí a chmelovou ostrostí. Hodnocení 3,71 naznačuje nadprůměrně přijaté pivo."
     },
+    "toulavapipa::Fenek::FRESH SAAZ": {
+      "untappd_url": "https://untappd.com/b/fenek-craft-beer-fresh-saaz-2025/6438136",
+      "untappd_name": "Fresh SAAZ",
+      "untappd_brewery": "Fenek Craft Beer",
+      "rating": 3.6,
+      "match_score": 1.0,
+      "matched_at": "2026-11-25T22:32:58Z",
+      "query_used": "FRESH SAAZ Fenek",
+      "description_failed_at": "2026-11-25T22:33:07Z"
+    },
     "toulavapipa::Fenek::SCHRÖDINGERS CAT": {
       "untappd_url": "https://untappd.com/b/fenek-craft-beer-schrodinger-s-cat-12/6382777",
       "untappd_name": "Schrödinger’s Cat 12",
@@ -4704,6 +4724,16 @@
       "matched_at": "2026-08-13T14:24:26Z",
       "query_used": "Original ležák Fracek",
       "description": "Sladký sladový základ s mírnou chmelovou hořkostí, lehké tělo a čistý závěr typický pro klasické české ležáky."
+    },
+    "toulavapipa::Hřebec::AMERICAN PALE ALE": {
+      "untappd_url": "https://untappd.com/b/pivovar-hrebec-11-deg-american-pale-ale/6340678",
+      "untappd_name": "11° American Pale Ale",
+      "untappd_brewery": "Pivovar Hřebec",
+      "rating": 3.48,
+      "match_score": 1.0,
+      "matched_at": "2026-11-25T22:33:00Z",
+      "query_used": "AMERICAN PALE ALE Hřebec",
+      "description": "Americká IPA s výraznou chmelovou hořkostí, citrusovým a květinovým aroma a středně plným tělem."
     },
     "toulavapipa::Hřebec::HOPPY LAGER": {
       "untappd_url": "https://untappd.com/b/pivovar-hrebec-10-deg-hoppy-lager/6684488",
@@ -5124,6 +5154,16 @@
       "matched_at": "2026-09-14T18:27:58Z",
       "query_used": "JEŽIBABA Mordýř",
       "description": "NEIPA je typicky silně chmelená piva s výraznou hořkostí, citrusovou a pryskyřičnou aromatikou a masitým tělem. Stupňovitost i alkohol neznámé, takže přes plnost a sílu nelze soudit."
+    },
+    "toulavapipa::Mordýř::KRUSH ALE": {
+      "untappd_url": "https://untappd.com/b/pivovar-mordyr-krush-smash-ale/6644094",
+      "untappd_name": "Krush Smash Ale",
+      "untappd_brewery": "Pivovar Mordýř",
+      "rating": 3.49,
+      "match_score": 1.0,
+      "matched_at": "2026-11-25T22:33:01Z",
+      "query_used": "KRUSH ALE Mordýř",
+      "description_failed_at": "2026-11-25T22:33:07Z"
     },
     "toulavapipa::Mordýř::KURTIZÁNA": {
       "untappd_url": "https://untappd.com/b/pivovar-mordyr-kurtizana/704889",
@@ -5565,6 +5605,16 @@
       "query_used": "SVATOMARTINSKÝ LEŽÁK U Vojtěchů",
       "description": "Svrchně kvařený ležák s nádechem kouřené slády: sladová sladkost doplňována jemným kouřovým nádechem, střední hořkost a středně lehké tělo. Pivo je čisté a pitelné s příjemným závěrem."
     },
+    "toulavapipa::U Vojtěchů::Větrník": {
+      "untappd_url": "https://untappd.com/b/pivovar-u-vojtechu-vetrnik/5282390",
+      "untappd_name": "Větrník",
+      "untappd_brewery": "Pivovar U Vojtěchů",
+      "rating": 3.83,
+      "match_score": 1.0,
+      "matched_at": "2026-11-25T22:33:02Z",
+      "query_used": "Větrník U Vojtěchů",
+      "description": "Red IPA s červenou barvou, intenzivní chmelovou hořkostí, karamelovou sladkostí a tóny tropického ovoce, suchým závěrem a střední plností těla, hodnoceno nadprůměrně."
+    },
     "toulavapipa::Weissenohe (Bavorsko)::Altfränkisch klosterbier": {
       "untappd_url": "https://untappd.com/b/klosterbrauerei-weissenohe-altfrankisch-klosterbier/90124",
       "untappd_name": "Altfränkisch Klosterbier",
@@ -5624,6 +5674,16 @@
       "matched_at": "2026-08-10T14:22:18Z",
       "query_used": "Robin na grepu Zichovec",
       "description": "Robin na Grepu 12 od pivovaru Zichovec je americkým pale alem s průměrným tělesem a vyváženou hořkostí, který potěší příznivce piva s mírnou aromatickou charakteristikou a hodí se na neformální setkání s přáteli."
+    },
+    "toulavapipa::Zichovec::Vánoční zmrzka": {
+      "untappd_url": "https://untappd.com/b/pivovar-zichovec-vanocni-zmrzka-18/7653107",
+      "untappd_name": "Vánoční Zmrzka 18",
+      "untappd_brewery": "Pivovar ZICHOVEC",
+      "rating": 4.13,
+      "match_score": 1.0,
+      "matched_at": "2026-11-25T22:33:02Z",
+      "query_used": "Vánoční zmrzka Zichovec",
+      "description": "Pastry sour ale je sladké, kyselé svrchně kvašené pivo s plným, sirupovým tělem a výraznou ovocnou chutí. Vánoční zmrzka přidává ovocný, lehce kořeněný charakter. Nadprůměrně hodnocené."
     },
     "toulavapipa::Únětice::Únětická nefiltrovaná": {
       "untappd_url": "https://untappd.com/b/uneticky-pivovar-uneticke-pivo-12-deg-nefiltrovane/103923",
@@ -6373,6 +6433,16 @@
       "matched_at": "2026-11-01T18:26:52Z",
       "query_used": "<llm>",
       "description_failed_at": "2026-11-01T18:26:52Z"
+    },
+    "uzamastilu::Nachmelená Opice::West Coast Ipa Vol.VI": {
+      "untappd_url": "https://untappd.com/b/nachmelena-opice-west-coast-ipa-15-vol-vi/5885245",
+      "untappd_name": "West Coast IPA 15% Vol.VI.",
+      "untappd_brewery": "Nachmelená Opice",
+      "rating": 3.79,
+      "match_score": 0.9333,
+      "matched_at": "2026-11-25T22:33:07Z",
+      "query_used": "West Coast Ipa Vol.VI 15° Nachmelená Opice",
+      "description": "Silně chmelená hořká IPA s citrusovým a pryskyřičným aroma, plnějším tělem a suchým, hořkým závěrem."
     },
     "uzamastilu::Nozib::KAMØN#2 W.Coast": {
       "untappd_url": "https://untappd.com/b/nozib-special-brews-kamon-2-west-coast-ipa-nectaron-breeze/6845776",
@@ -7234,6 +7304,11 @@
     "toulavapipa::Kocour::Jahodový porter": {
       "attempts": 1,
       "last_tried_at": "2026-11-20T03:16:09Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "toulavapipa::Kocour::Višňový porter": {
+      "attempts": 1,
+      "last_tried_at": "2026-11-25T22:33:06Z",
       "reason": "no_candidates_above_threshold"
     },
     "toulavapipa::Kynšperský pivovar::Winter ale": {

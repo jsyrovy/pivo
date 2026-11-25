@@ -7484,6 +7484,40 @@
         "score": 1.0
       }
     },
+    "beerstreet::Agent::Samurai": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Agent",
+        "name": "Samurai",
+        "style": "Sour ale - mandarinka",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-11-25T22:32:56Z",
+      "candidates": [
+        {
+          "name": "Samurai",
+          "brewery": "Pivovar Agent",
+          "url": "/b/pivovar-agent-samurai/4643508",
+          "rating": 4.0
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Samurai 13° Agent",
+          "hits": []
+        },
+        {
+          "query": "Samurai Agent",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-agent-samurai/4643508",
+        "score": 1.0
+      }
+    },
     "beerstreet::Agent::Svatomartinské": {
       "beer": {
         "source": "beerstreet",
@@ -18898,6 +18932,36 @@
         "reason": "no_candidates_above_threshold"
       }
     },
+    "toulavapipa::Fenek::FRESH SAAZ": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Fenek",
+        "name": "FRESH SAAZ",
+        "style": "Světlý ležák s čerstvým chmelem",
+        "degree_plato": null
+      },
+      "captured_at": "2026-11-25T22:32:58Z",
+      "candidates": [
+        {
+          "name": "Fresh SAAZ",
+          "brewery": "Fenek Craft Beer",
+          "url": "/b/fenek-craft-beer-fresh-saaz-2025/6438136",
+          "rating": 3.6
+        }
+      ],
+      "attempts": [
+        {
+          "query": "FRESH SAAZ Fenek",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/fenek-craft-beer-fresh-saaz-2025/6438136",
+        "score": 1.0
+      }
+    },
     "toulavapipa::Fenek::SCHRÖDINGERS CAT": {
       "beer": {
         "source": "toulavapipa",
@@ -18985,6 +19049,36 @@
       ],
       "outcome": {
         "matched": "/b/fracek-original-lezak-lager-11/5384122",
+        "score": 1.0
+      }
+    },
+    "toulavapipa::Hřebec::AMERICAN PALE ALE": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Hřebec",
+        "name": "AMERICAN PALE ALE",
+        "style": "",
+        "degree_plato": null
+      },
+      "captured_at": "2026-11-25T22:33:00Z",
+      "candidates": [
+        {
+          "name": "11° American Pale Ale",
+          "brewery": "Pivovar Hřebec",
+          "url": "/b/pivovar-hrebec-11-deg-american-pale-ale/6340678",
+          "rating": 3.48
+        }
+      ],
+      "attempts": [
+        {
+          "query": "AMERICAN PALE ALE Hřebec",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-hrebec-11-deg-american-pale-ale/6340678",
         "score": 1.0
       }
     },
@@ -19569,6 +19663,31 @@
             2,
             3
           ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
+    "toulavapipa::Kocour::Višňový porter": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Kocour",
+        "name": "Višňový porter",
+        "style": "Ochucený porter",
+        "degree_plato": null
+      },
+      "captured_at": "2026-11-25T22:33:06Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Višňový porter Kocour",
+          "hits": []
+        },
+        {
+          "query": "Višňový porter",
+          "hits": []
         }
       ],
       "outcome": {
@@ -21121,6 +21240,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-mordyr-jezibaba/2811246",
+        "score": 1.0
+      }
+    },
+    "toulavapipa::Mordýř::KRUSH ALE": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Mordýř",
+        "name": "KRUSH ALE",
+        "style": "Single hop ale",
+        "degree_plato": null
+      },
+      "captured_at": "2026-11-25T22:33:01Z",
+      "candidates": [
+        {
+          "name": "Krush Smash Ale",
+          "brewery": "Pivovar Mordýř",
+          "url": "/b/pivovar-mordyr-krush-smash-ale/6644094",
+          "rating": 3.49
+        }
+      ],
+      "attempts": [
+        {
+          "query": "KRUSH ALE Mordýř",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-mordyr-krush-smash-ale/6644094",
         "score": 1.0
       }
     },
@@ -23012,6 +23161,36 @@
         "score": 1.0
       }
     },
+    "toulavapipa::U Vojtěchů::Větrník": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "U Vojtěchů",
+        "name": "Větrník",
+        "style": "Red IPA",
+        "degree_plato": null
+      },
+      "captured_at": "2026-11-25T22:33:02Z",
+      "candidates": [
+        {
+          "name": "Větrník",
+          "brewery": "Pivovar U Vojtěchů",
+          "url": "/b/pivovar-u-vojtechu-vetrnik/5282390",
+          "rating": 3.83
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Větrník U Vojtěchů",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-u-vojtechu-vetrnik/5282390",
+        "score": 1.0
+      }
+    },
     "toulavapipa::Weissenohe (Bavorsko)::Altfränkisch klosterbier": {
       "beer": {
         "source": "toulavapipa",
@@ -23256,6 +23435,36 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-zichovec-robin-na-grepu-12/5411257",
+        "score": 1.0
+      }
+    },
+    "toulavapipa::Zichovec::Vánoční zmrzka": {
+      "beer": {
+        "source": "toulavapipa",
+        "brewery": "Zichovec",
+        "name": "Vánoční zmrzka",
+        "style": "Pastry sour ale",
+        "degree_plato": null
+      },
+      "captured_at": "2026-11-25T22:33:02Z",
+      "candidates": [
+        {
+          "name": "Vánoční Zmrzka 18",
+          "brewery": "Pivovar ZICHOVEC",
+          "url": "/b/pivovar-zichovec-vanocni-zmrzka-18/7653107",
+          "rating": 4.13
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Vánoční zmrzka Zichovec",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-zichovec-vanocni-zmrzka-18/7653107",
         "score": 1.0
       }
     },
@@ -27256,6 +27465,50 @@
       "outcome": {
         "matched": "/b/chroust-you-shell-not-pils-2/7646251",
         "source": "llm"
+      }
+    },
+    "uzamastilu::Nachmelená Opice::West Coast Ipa Vol.VI": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Nachmelená Opice",
+        "name": "West Coast Ipa Vol.VI",
+        "style": "",
+        "degree_plato": 15.0
+      },
+      "captured_at": "2026-11-25T22:33:07Z",
+      "candidates": [
+        {
+          "name": "West Coast IPA 15% Vol.VI.",
+          "brewery": "Nachmelená Opice",
+          "url": "/b/nachmelena-opice-west-coast-ipa-15-vol-vi/5885245",
+          "rating": 3.79
+        },
+        {
+          "name": "West Coast IPA 15% Vol.V.",
+          "brewery": "Nachmelená Opice",
+          "url": "/b/nachmelena-opice-west-coast-ipa-15-vol-v/5740830",
+          "rating": 3.93
+        },
+        {
+          "name": "West Coast IPA 15% Vol.IV.",
+          "brewery": "Nachmelená Opice",
+          "url": "/b/nachmelena-opice-west-coast-ipa-15-vol-iv/5541168",
+          "rating": 3.73
+        }
+      ],
+      "attempts": [
+        {
+          "query": "West Coast Ipa Vol.VI 15° Nachmelená Opice",
+          "hits": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/nachmelena-opice-west-coast-ipa-15-vol-vi/5885245",
+        "score": 0.9333
       }
     },
     "uzamastilu::Nozib::KAMØN#2 W.Coast": {
