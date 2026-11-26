@@ -11,6 +11,16 @@
       "query_used": "Hněv Kremlu 14° Agent",
       "description_failed_at": "2026-11-04T20:26:15Z"
     },
+    "ambasada::Agent, Olešnice::Ilegál": {
+      "untappd_url": "https://untappd.com/b/pivovar-agent-ilegal/4034196",
+      "untappd_name": "Ilegál",
+      "untappd_brewery": "Pivovar Agent",
+      "rating": 3.49,
+      "match_score": 1.0,
+      "matched_at": "2026-11-26T22:21:57Z",
+      "query_used": "Ilegál 11° Agent",
+      "description": "APA s rovnovárou sladkého chmelu a střední hořkosti, střední plnosti těla a čistým závěrem; bez specifické suroviny nebo procesu v názvu."
+    },
     "ambasada::Agent, Olešnice::Moves": {
       "untappd_url": "https://untappd.com/b/pivovar-agent-moves-white-grapes-and-strawberries/4836340",
       "untappd_name": "Moves – White Grapes and Strawberries",
@@ -2072,6 +2082,16 @@
       "query_used": "Svatomartinský ležák 12° Agent",
       "description": "Světlý ležák s klasickým sladovým základem, jemnou chmelovou hořkostí a středně plným tělem. V aroma i chuti dominuje čistý slad, doplněný lehkým květinovým a kořenitým chmelem."
     },
+    "beerstreet::Agent::Svatomartiský ležák": {
+      "untappd_url": "https://untappd.com/b/pivovar-agent-svatomartinsky-lezak-12/4590212",
+      "untappd_name": "Svatomartinský ležák 12",
+      "untappd_brewery": "Pivovar Agent",
+      "rating": 3.46,
+      "match_score": 0.9412,
+      "matched_at": "2026-11-26T22:21:25Z",
+      "query_used": "Svatomartiský ležák 12° Agent",
+      "description_failed_at": "2026-11-26T22:21:57Z"
+    },
     "beerstreet::Albert Michler::Altvater": {
       "untappd_url": "https://untappd.com/b/albert-michler-akciovy-pivovar-altvater-11-svetly-lezak/5403893",
       "untappd_name": "Altvater 11 světlý ležák",
@@ -2784,6 +2804,16 @@
       "query_used": "Summer Ale Kocour",
       "description": "Letní ale s lehkým tělem a mírnou sladkostí sladu doplněnou jemnou chmelovou hořkostí a ovocným aroma citrusů a tropického ovoce, středně plná až plná struktura s vyváženým profilem."
     },
+    "beerstreet::Kojetín::Frajer": {
+      "untappd_url": "https://untappd.com/b/mestansky-pivovar-kojetin-frajer/5378582",
+      "untappd_name": "Frajer",
+      "untappd_brewery": "Měšťanský pivovar Kojetín",
+      "rating": 3.42,
+      "match_score": 1.0,
+      "matched_at": "2026-11-26T22:21:33Z",
+      "query_used": "Frajer Kojetín",
+      "description": "IPA session s 10° stupňovitostí a 4,2 % alkoholu: střední tělo, vysoce chmelená, s citrusovou a trávníčnou aromatickou vůní, vyváženou hořkostí a suchým závěrem, lehce kvasná."
+    },
     "beerstreet::Kojetín::Parohatej": {
       "untappd_url": "https://untappd.com/b/mestansky-pivovar-kojetin-parohatej/5041078",
       "untappd_name": "Parohatej",
@@ -2948,6 +2978,16 @@
       "matched_at": "2026-09-24T17:48:36Z",
       "query_used": "Kníže Václav 12° Louka",
       "description": "Světlý ležák typu SMASH s plnějším tělem díky 12° stupňovitosti, vyvážená sladová chuť a jemná chmelová hořkost, spodně kvašený a čistý v profilu."
+    },
+    "beerstreet::Louka::Koleda": {
+      "untappd_url": "https://untappd.com/b/pivovar-louka-koleda/6508204",
+      "untappd_name": "Koleda",
+      "untappd_brewery": "Pivovar Louka",
+      "rating": 3.59,
+      "match_score": 1.0,
+      "matched_at": "2026-11-26T22:21:35Z",
+      "query_used": "Koleda Louka",
+      "description_failed_at": "2026-11-26T22:21:57Z"
     },
     "beerstreet::Louka::Kontráš": {
       "untappd_url": "https://untappd.com/b/pivovar-louka-kontras-12/3903539",
@@ -7159,6 +7199,11 @@
     "ambasada::Spaten-Franziskaner-Lowenbrau-Gruppe, Mnichov::13,7 Spaten": {
       "attempts": 1,
       "last_tried_at": "2026-10-01T18:45:22Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "beerstreet::Agent::Samurai - mandarinka": {
+      "attempts": 1,
+      "last_tried_at": "2026-11-26T22:21:53Z",
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::Avar::Kazbek": {

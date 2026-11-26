@@ -31,6 +31,36 @@
         "score": 1.0
       }
     },
+    "ambasada::Agent, Olešnice::Ilegál": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Agent, Olešnice",
+        "name": "Ilegál",
+        "style": "APA",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-11-26T22:21:57Z",
+      "candidates": [
+        {
+          "name": "Ilegál",
+          "brewery": "Pivovar Agent",
+          "url": "/b/pivovar-agent-ilegal/4034196",
+          "rating": 3.49
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Ilegál 11° Agent",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-agent-ilegal/4034196",
+        "score": 1.0
+      }
+    },
     "ambasada::Agent, Olešnice::Moves": {
       "beer": {
         "source": "ambasada",
@@ -7518,6 +7548,62 @@
         "score": 1.0
       }
     },
+    "beerstreet::Agent::Samurai - mandarinka": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Agent",
+        "name": "Samurai - mandarinka",
+        "style": "Sour ale",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-11-26T22:21:53Z",
+      "candidates": [
+        {
+          "name": "Mandarina IPA",
+          "brewery": "Samuel Adams",
+          "url": "/b/boston-beer-company-mandarina-ipa/1520996",
+          "rating": 3.62
+        },
+        {
+          "name": "Mandarina IPL",
+          "brewery": "Samuel Adams",
+          "url": "/b/boston-beer-company-mandarina-ipl/1019980",
+          "rating": 3.75
+        },
+        {
+          "name": "Shogun Samuari Mandarin Wheat",
+          "brewery": "Shogun Restaurant",
+          "url": "/b/shogun-restaurant-shogun-samuari-mandarin-wheat/3848160",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Samurai - mandarinka 13° Agent",
+          "hits": []
+        },
+        {
+          "query": "Samurai - mandarinka Agent",
+          "hits": []
+        },
+        {
+          "query": "Samurai - mandarinka 13°",
+          "hits": []
+        },
+        {
+          "query": "Samurai - mandarinka",
+          "hits": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
     "beerstreet::Agent::Svatomartinské": {
       "beer": {
         "source": "beerstreet",
@@ -7576,6 +7662,36 @@
       "outcome": {
         "matched": "/b/pivovar-agent-svatomartinsky-lezak-12/4590212",
         "score": 1.0
+      }
+    },
+    "beerstreet::Agent::Svatomartiský ležák": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Agent",
+        "name": "Svatomartiský ležák",
+        "style": "Ležák světlý",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-11-26T22:21:25Z",
+      "candidates": [
+        {
+          "name": "Svatomartinský ležák 12",
+          "brewery": "Pivovar Agent",
+          "url": "/b/pivovar-agent-svatomartinsky-lezak-12/4590212",
+          "rating": 3.46
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Svatomartiský ležák 12° Agent",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-agent-svatomartinsky-lezak-12/4590212",
+        "score": 0.9412
       }
     },
     "beerstreet::Albert Michler::Altvater": {
@@ -11131,6 +11247,54 @@
         "score": 1.0
       }
     },
+    "beerstreet::Kojetín::Frajer": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Kojetín",
+        "name": "Frajer",
+        "style": "IPA session",
+        "degree_plato": 10.0
+      },
+      "captured_at": "2026-11-26T22:21:33Z",
+      "candidates": [
+        {
+          "name": "Frajer",
+          "brewery": "Měšťanský pivovar Kojetín",
+          "url": "/b/mestansky-pivovar-kojetin-frajer/5378582",
+          "rating": 3.42
+        },
+        {
+          "name": "Vánoční Frajer",
+          "brewery": "Měšťanský pivovar Kojetín",
+          "url": "/b/mestansky-pivovar-kojetin-vanocni-frajer/5635938",
+          "rating": 2.47
+        },
+        {
+          "name": "Frajer Litchi Infused",
+          "brewery": "Měšťanský pivovar Kojetín",
+          "url": "/b/mestansky-pivovar-kojetin-frajer-litchi-infused/6860188",
+          "rating": null
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Frajer 10° Kojetín",
+          "hits": []
+        },
+        {
+          "query": "Frajer Kojetín",
+          "hits": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/mestansky-pivovar-kojetin-frajer/5378582",
+        "score": 1.0
+      }
+    },
     "beerstreet::Kynšperský Zajíc::Kynšperk": {
       "beer": {
         "source": "beerstreet",
@@ -11973,6 +12137,40 @@
       ],
       "outcome": {
         "matched": "/b/pivovar-louka-knize-vaclav-12/3998564",
+        "score": 1.0
+      }
+    },
+    "beerstreet::Louka::Koleda": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Louka",
+        "name": "Koleda",
+        "style": "Modern IPA",
+        "degree_plato": 14.0
+      },
+      "captured_at": "2026-11-26T22:21:35Z",
+      "candidates": [
+        {
+          "name": "Koleda",
+          "brewery": "Pivovar Louka",
+          "url": "/b/pivovar-louka-koleda/6508204",
+          "rating": 3.59
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Koleda 14° Louka",
+          "hits": []
+        },
+        {
+          "query": "Koleda Louka",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-louka-koleda/6508204",
         "score": 1.0
       }
     },
