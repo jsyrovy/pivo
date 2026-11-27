@@ -1378,6 +1378,16 @@
       "query_used": "Radiant Noise Sibeeria",
       "description": "Svěží new englandská IPA s hustou pěnou a výrazným chmelovým aroma po citrusových plodech a tropickém ovoci, jemně zakulacená díky 17° stupňovitosti a 6,8 % alkoholu, s plným tělem a vyváženou hořkostí."
     },
+    "ambasada::Sibeeria, Praha::The Sock Giver": {
+      "untappd_url": "https://untappd.com/b/sibeeria-brewery-the-sock-giver/7616237",
+      "untappd_name": "The Sock Giver",
+      "untappd_brewery": "Sibeeria Brewery",
+      "rating": 3.64,
+      "match_score": 1.0,
+      "matched_at": "2026-11-27T21:58:35Z",
+      "query_used": "The Sock Giver Sibeeria",
+      "description": "Klasický porter s plným, sladově sladkým tělem a notami praženého sladu, kávy, čokolády a karamelu; 16 ° a 6 % dávají vyváženou plnost a mírnou teplotu alkoholu, hořkost je střední, vyrovnaná sladovým základem."
+    },
     "ambasada::Sibeeria, Praha::Timeless": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-timeless/4299412",
       "untappd_name": "Timeless",
@@ -5553,7 +5563,7 @@
       "match_score": 1.0,
       "matched_at": "2026-11-20T03:15:49Z",
       "query_used": "Märzen Schlenkerla",
-      "description_failed_at": "2026-11-20T03:16:09Z"
+      "description": "Kouřový ležák s výrazným uzeným aroma a chutí, které připomínají uzenou slaninu a dřevo; sladový základ je plnější a karamelový, hořkost je spíše nižší a jemná."
     },
     "toulavapipa::Sibeeria::Avid ant": {
       "untappd_url": "https://untappd.com/b/sibeeria-brewery-avid-ant/6812058",
@@ -6654,6 +6664,16 @@
       "query_used": "Summer Citra+Motueka Pioneer Beer",
       "description": "Silně chmelený americký ale s aromatem tropického ovoce a citrusových tónů, suchým a mírně hořkým koncem, lehké až střední plnosti díky 10° stupňovitosti."
     },
+    "uzamastilu::Polička::František Bittner": {
+      "untappd_url": "https://untappd.com/b/mestansky-pivovar-v-policce-frantisek-bittner-13-deg/587439",
+      "untappd_name": "František Bittner 13°",
+      "untappd_brewery": "Měšťanský pivovar v Poličce",
+      "rating": 3.42,
+      "match_score": 1.0,
+      "matched_at": "2026-11-27T21:58:49Z",
+      "query_used": "František Bittner 13° Polička",
+      "description": "Silnější ležák s plnějším sladovým tělem, střední chmelovou hořkostí a čistým spodně kvašeným profilem. Vyšší stupňovitost přináší znatelnější sladkost a sytější chuť."
+    },
     "uzamastilu::Polička::Otakar": {
       "untappd_url": "https://untappd.com/b/mestansky-pivovar-v-policce-otakar-11/188783",
       "untappd_name": "Otakar 11%",
@@ -7237,8 +7257,8 @@
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::Klenot::Hruška a hřebíček": {
-      "attempts": 1,
-      "last_tried_at": "2026-10-03T17:07:50Z",
+      "attempts": 2,
+      "last_tried_at": "2026-11-27T21:58:30Z",
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::Klenot::Hruška a skořice": {
@@ -7254,6 +7274,11 @@
     "beerstreet::Kynšperský zajíc::Summer Ale": {
       "attempts": 1,
       "last_tried_at": "2026-05-30T17:14:51Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "beerstreet::Louka::Martin - chmel Kazbek": {
+      "attempts": 1,
+      "last_tried_at": "2026-11-27T21:58:10Z",
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::Louka::sv. Martin - chmel Kazbek": {
@@ -7294,6 +7319,11 @@
     "beerstreet::Sibeeria::No Signal From Most": {
       "attempts": 1,
       "last_tried_at": "2026-10-02T22:52:25Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "beerstreet::Sibeeria::Ten Hands - čerstvý chmel": {
+      "attempts": 1,
+      "last_tried_at": "2026-11-27T21:58:18Z",
       "reason": "no_candidates_above_threshold"
     },
     "beerstreet::VIK & Žíznivá Gumovka::Gumboot #6": {
@@ -7414,6 +7444,11 @@
     "uzamastilu::Brewnicorn::Predátor W.Coast": {
       "attempts": 1,
       "last_tried_at": "2026-09-24T21:21:57Z",
+      "reason": "no_candidates_above_threshold"
+    },
+    "uzamastilu::Chroust::Grepwaka Grapefruit": {
+      "attempts": 1,
+      "last_tried_at": "2026-11-27T21:58:47Z",
       "reason": "no_candidates_above_threshold"
     },
     "uzamastilu::Hoppydog::Karelian Cold": {

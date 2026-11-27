@@ -4973,6 +4973,40 @@
         "score": 1.0
       }
     },
+    "ambasada::Sibeeria, Praha::The Sock Giver": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Sibeeria, Praha",
+        "name": "The Sock Giver",
+        "style": "Porter",
+        "degree_plato": 16.0
+      },
+      "captured_at": "2026-11-27T21:58:35Z",
+      "candidates": [
+        {
+          "name": "The Sock Giver",
+          "brewery": "Sibeeria Brewery",
+          "url": "/b/sibeeria-brewery-the-sock-giver/7616237",
+          "rating": 3.64
+        }
+      ],
+      "attempts": [
+        {
+          "query": "The Sock Giver 16° Sibeeria",
+          "hits": []
+        },
+        {
+          "query": "The Sock Giver Sibeeria",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/sibeeria-brewery-the-sock-giver/7616237",
+        "score": 1.0
+      }
+    },
     "ambasada::Sibeeria, Praha::Tláloc - God of Rain": {
       "beer": {
         "source": "ambasada",
@@ -10759,7 +10793,7 @@
         "style": "Sour",
         "degree_plato": 12.0
       },
-      "captured_at": "2026-10-03T17:07:50Z",
+      "captured_at": "2026-11-27T21:58:30Z",
       "candidates": [
         {
           "name": "Vánoční IPA s hruškou a hřebíčkem",
@@ -12292,6 +12326,39 @@
       "outcome": {
         "matched": "/b/pivovar-louka-lollipop-13/5659964",
         "score": 1.0
+      }
+    },
+    "beerstreet::Louka::Martin - chmel Kazbek": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Louka",
+        "name": "Martin - chmel Kazbek",
+        "style": "Ležák světlý - smash",
+        "degree_plato": 12.0
+      },
+      "captured_at": "2026-11-27T21:58:10Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Martin - chmel Kazbek 12° Louka",
+          "hits": []
+        },
+        {
+          "query": "Martin - chmel Kazbek Louka",
+          "hits": []
+        },
+        {
+          "query": "Martin - chmel Kazbek 12°",
+          "hits": []
+        },
+        {
+          "query": "Martin - chmel Kazbek",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
       }
     },
     "beerstreet::Louka::New Zealand": {
@@ -15465,6 +15532,39 @@
           "hits": [
             0
           ]
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
+    "beerstreet::Sibeeria::Ten Hands - čerstvý chmel": {
+      "beer": {
+        "source": "beerstreet",
+        "brewery": "Sibeeria",
+        "name": "Ten Hands - čerstvý chmel",
+        "style": "Czech pilsner",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-11-27T21:58:18Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Ten Hands - čerstvý chmel 11° Sibeeria",
+          "hits": []
+        },
+        {
+          "query": "Ten Hands - čerstvý chmel Sibeeria",
+          "hits": []
+        },
+        {
+          "query": "Ten Hands - čerstvý chmel 11°",
+          "hits": []
+        },
+        {
+          "query": "Ten Hands - čerstvý chmel",
+          "hits": []
         }
       ],
       "outcome": {
@@ -24518,6 +24618,39 @@
         "score": 1.0
       }
     },
+    "uzamastilu::Chroust::Grepwaka Grapefruit": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Chroust",
+        "name": "Grepwaka Grapefruit",
+        "style": "Pale ale",
+        "degree_plato": 11.0
+      },
+      "captured_at": "2026-11-27T21:58:47Z",
+      "candidates": [],
+      "attempts": [
+        {
+          "query": "Grepwaka Grapefruit 11° Chroust",
+          "hits": []
+        },
+        {
+          "query": "Grepwaka Grapefruit Chroust",
+          "hits": []
+        },
+        {
+          "query": "Grepwaka Grapefruit 11°",
+          "hits": []
+        },
+        {
+          "query": "Grepwaka Grapefruit",
+          "hits": []
+        }
+      ],
+      "outcome": {
+        "matched": null,
+        "reason": "no_candidates_above_threshold"
+      }
+    },
     "uzamastilu::Chroust::Jet Lag": {
       "beer": {
         "source": "uzamastilu",
@@ -28429,6 +28562,36 @@
       ],
       "outcome": {
         "matched": "/b/pioneer-beer-summer-citra-motueka/6818184",
+        "score": 1.0
+      }
+    },
+    "uzamastilu::Polička::František Bittner": {
+      "beer": {
+        "source": "uzamastilu",
+        "brewery": "Polička",
+        "name": "František Bittner",
+        "style": "Ležák",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-11-27T21:58:49Z",
+      "candidates": [
+        {
+          "name": "František Bittner 13°",
+          "brewery": "Měšťanský pivovar v Poličce",
+          "url": "/b/mestansky-pivovar-v-policce-frantisek-bittner-13-deg/587439",
+          "rating": 3.42
+        }
+      ],
+      "attempts": [
+        {
+          "query": "František Bittner 13° Polička",
+          "hits": [
+            0
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/mestansky-pivovar-v-policce-frantisek-bittner-13-deg/587439",
         "score": 1.0
       }
     },
