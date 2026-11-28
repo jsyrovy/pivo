@@ -6177,6 +6177,68 @@
         "score": 1.0
       }
     },
+    "ambasada::Volt, Jablonec nad Nisou::Senzor": {
+      "beer": {
+        "source": "ambasada",
+        "brewery": "Volt, Jablonec nad Nisou",
+        "name": "Senzor",
+        "style": "Cold IPA",
+        "degree_plato": 13.0
+      },
+      "captured_at": "2026-11-28T03:54:29Z",
+      "candidates": [
+        {
+          "name": "Senzor",
+          "brewery": "Pivovar Volt",
+          "url": "/b/pivovar-volt-senzor/6591098",
+          "rating": 3.7
+        },
+        {
+          "name": "Senzor Blue",
+          "brewery": "Pivovar Volt",
+          "url": "/b/pivovar-volt-senzor-blue/6649881",
+          "rating": 3.3
+        },
+        {
+          "name": "Senyor Voltor bière blonde",
+          "brewery": "Brasserie Prats-de-Mollo",
+          "url": "/b/brasserie-prats-de-mollo-senyor-voltor-biere-blonde/4395315",
+          "rating": 3.58
+        },
+        {
+          "name": "Senyor Voltor bière dorée",
+          "brewery": "Brasserie Prats-de-Mollo",
+          "url": "/b/brasserie-prats-de-mollo-senyor-voltor-biere-doree/5217028",
+          "rating": 3.52
+        },
+        {
+          "name": "Senyor Voltor 4",
+          "brewery": "Brasserie Prats-de-Mollo",
+          "url": "/b/brasserie-prats-de-mollo-senyor-voltor-4/6329102",
+          "rating": 3.01
+        }
+      ],
+      "attempts": [
+        {
+          "query": "Senzor 13° Volt",
+          "hits": []
+        },
+        {
+          "query": "Senzor Volt",
+          "hits": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcome": {
+        "matched": "/b/pivovar-volt-senzor/6591098",
+        "score": 1.0
+      }
+    },
     "ambasada::Volt, Jablonec nad Nisou::Táta (Vokno)": {
       "beer": {
         "source": "ambasada",

@@ -1667,6 +1667,16 @@
       "query_used": "Reaktor Volt",
       "description": "Silně chmelená brut IPA s výraznou hořkostí, suchým a čistým závěrem a plným, ale přesto lehkým tělem. Vysoká stupňovitost a alkohol dávají pivo silnou základnu, přičemž dvojité suché luštění (DDH) přináší intenzivní, multi-dimenzionální chmelové aroma a chuť."
     },
+    "ambasada::Volt, Jablonec nad Nisou::Senzor": {
+      "untappd_url": "https://untappd.com/b/pivovar-volt-senzor/6591098",
+      "untappd_name": "Senzor",
+      "untappd_brewery": "Pivovar Volt",
+      "rating": 3.7,
+      "match_score": 1.0,
+      "matched_at": "2026-11-28T03:54:29Z",
+      "query_used": "Senzor Volt",
+      "description": "Chladem kvašená IPA s výraznou hořkostí a suchým závěrem; sladový základ je lehký a čistý, chmelová hořkost dominuje s citrusovými a květinovými tóny, tělo je střední až lehké a osvěžující."
+    },
     "ambasada::Volt, Jablonec nad Nisou::Táta (Vokno)": {
       "untappd_url": "https://untappd.com/b/pivovar-volt-tata-12/5743616",
       "untappd_name": "Táta 12°",
